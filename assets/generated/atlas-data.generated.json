@@ -163,7 +163,7 @@
       "sources": [
         "NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D030_source_image.jpg",
       "coordNote": "Orbital evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1067,7 +1067,7 @@
       "sources": [
         "NASA-UAP-D031"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D031_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1108,7 +1108,7 @@
       "sources": [
         "NASA-UAP-D032"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D032_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1149,7 +1149,7 @@
       "sources": [
         "NASA-UAP-D1"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D001_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1190,7 +1190,7 @@
       "sources": [
         "NASA-UAP-D2"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D002_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1231,7 +1231,7 @@
       "sources": [
         "NASA-UAP-D4"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D004_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1272,7 +1272,7 @@
       "sources": [
         "NASA-UAP-D5"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D005_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1313,7 +1313,7 @@
       "sources": [
         "NASA-UAP-D6"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D006_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1354,7 +1354,7 @@
       "sources": [
         "NASA-UAP-D7"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D007_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1395,7 +1395,7 @@
       "sources": [
         "NASA-UAP-VM1"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM1_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1436,7 +1436,7 @@
       "sources": [
         "NASA-UAP-VM2"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM2_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1477,7 +1477,7 @@
       "sources": [
         "NASA-UAP-VM3"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM3_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1518,7 +1518,7 @@
       "sources": [
         "NASA-UAP-VM4"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM4_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1559,7 +1559,7 @@
       "sources": [
         "NASA-UAP-VM5"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM5_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1600,7 +1600,7 @@
       "sources": [
         "NASA-UAP-VM6"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-VM6_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1641,7 +1641,7 @@
       "sources": [
         "NASA-UAP-D015"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D015_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1682,7 +1682,7 @@
       "sources": [
         "NASA-UAP-D016"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D016_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1723,7 +1723,7 @@
       "sources": [
         "NASA-UAP-D017"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D017_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1764,7 +1764,7 @@
       "sources": [
         "NASA-UAP-D018"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D018_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1805,7 +1805,7 @@
       "sources": [
         "NASA-UAP-D019"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D019_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1846,7 +1846,7 @@
       "sources": [
         "NASA-UAP-D020"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D020_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1887,7 +1887,7 @@
       "sources": [
         "NASA-UAP-D021"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D021_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1928,7 +1928,7 @@
       "sources": [
         "NASA-UAP-D022"
       ],
-      "image": "assets/nasa_space.jpg",
+      "image": "assets/source_previews/BF-NASA-D022_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
