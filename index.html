@@ -1026,7 +1026,7 @@ function animateView(x,y,w,dur=460){
   // if rAF is throttled or suspended, still land on the target view
   viewAnimGuard=setTimeout(()=>{if(viewAnim!==null){cancelViewAnim(); setView(x,y,w);}},dur+150);
 }
-function zoomToCase(x,y,level=4){const w=100/level, h=w*0.62; animateView(clamp(x-w/2,0,100-w), clamp(y-h/2,0,62-h), w);}
+function zoomToCase(x,y,level=5){const w=100/level, h=w*0.62; animateView(clamp(x-w/2,0,100-w), clamp(y-h/2,0,62-h), w);}
 function resetView(){animateView(0,0,100);}
 function markerStatus(c){return c.mode==='exact'?'exact':c.mode==='unresolved'?'unresolved':c.mode==='redacted'?'redacted':c.mode==='orbital'?'orbital':'institutional';}
 function isOrbitalCase(c){return markerStatus(c)==='orbital';}
@@ -1339,7 +1339,7 @@ function selectCase(id,zoom){
   const desiredMode=stackModeForCase(c);
   if(state.stackMode!==desiredMode) state.stackMode=desiredMode;
   state.selectedEventId=(events.find(e=>e.caseId===id)||{}).id||state.selectedEventId;
-  if(zoom){ if(markerStatus(c)==='orbital') resetView(); else zoomToCase(c.x,c.y,4); }
+  if(zoom){ if(markerStatus(c)==='orbital') resetView(); else zoomToCase(c.x,c.y,5); }
   renderAll();
   highlightRow(id);
   setTimeout(()=>{
