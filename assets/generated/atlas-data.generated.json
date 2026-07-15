@@ -19,7 +19,7 @@
       "sources": [
         "DOE-UAP-D004"
       ],
-      "image": "assets/doe_nuclear.jpg",
+      "image": "assets/source_previews/BF-1949-LA-00_source_image.jpg",
       "lon": -106.3031,
       "lat": 35.88,
       "coordinateBasis": "Los Alamos, NM",
@@ -42,6 +42,12 @@
         "BF-1967-MA-01",
         "BF-2015-PX-04",
         "BF-1956-LB-01"
+      ],
+      "images": [
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_001.png",
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_002.png",
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_003.png",
+        "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_001__roi_04.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -204,7 +210,7 @@
       "sources": [
         "DOE-UAP-D005"
       ],
-      "image": "assets/doe_nuclear.jpg",
+      "image": "assets/source_previews/BF-2015-PX-04_source_image.jpg",
       "lon": -101.561,
       "lat": 35.3078,
       "coordinateBasis": "Pantex Plant, Texas",
@@ -227,6 +233,12 @@
         "BF-1967-MA-01",
         "BF-1949-LA-00",
         "BF-2024-NE-02"
+      ],
+      "images": [
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_001.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_002.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_003.png",
+        "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_003__roi_03.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -433,7 +445,7 @@
         "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives",
         "WESTERN-US-SLIDES · Western U.S. Event slides"
       ],
-      "image": "assets/western_us_renderings.jpg",
+      "image": "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
       "lon": -112,
       "lat": 39,
       "expectedCountry": "United States of America",
@@ -455,6 +467,13 @@
         "BF-2024-NE-02",
         "BF-2022-CS-01",
         "BF-2015-PX-04"
+      ],
+      "images": [
+        "assets/evidence/DOW-UAP-D079/DoW-UAP-D079_Narrative-1_Western-US-Event__contact.jpg",
+        "assets/evidence/DOW-UAP-D080/DoW-UAP-D080_Narrative-2_Western-US-Event__contact.jpg",
+        "assets/evidence/DOW-UAP-D081/DoW-UAP-D081_Narrative-3_Western-US-Event__contact.jpg",
+        "assets/evidence/DOW-UAP-D082/DoW-UAP-D082_Narrative-4_Western-US-Event__contact.jpg",
+        "assets/evidence/DOW-UAP-D083/DoW-UAP-D083_Narrative-5_Western-US-Event__contact.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -658,7 +677,7 @@
       "sources": [
         "MALMSTROM-1967 · FOIA missile-shutdown records / witness affidavits"
       ],
-      "image": "assets/source_previews/BF-1967-MA-01_MALMSTROM-1967-FOIA-malmstromufo_page_001.png",
+      "image": "assets/source_previews/BF-1967-MA-01_source_image.jpg",
       "lon": -111.187,
       "lat": 47.5044,
       "coordinateBasis": "Malmstrom AFB, Montana",
@@ -682,6 +701,12 @@
         "BF-1949-LA-00",
         "BF-1980-RF-01"
       ],
+      "images": [
+        "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
+        "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_007.jpg",
+        "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_008.jpg",
+        "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_010.jpg"
+      ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
@@ -704,7 +729,7 @@
       "sources": [
         "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
       ],
-      "image": "assets/source_previews/BF-1976-TH-01_TEHRAN-1976-BlackVault-joint_chiefs_staff_report_page_001.png",
+      "image": "assets/source_previews/BF-1976-TH-01_source_image.jpg",
       "lon": 51.389,
       "lat": 35.689,
       "expectedCountry": "Iran",
@@ -726,6 +751,11 @@
         "BF-1980-RF-01",
         "BF-1989-BW-01",
         "BF-1956-LB-01"
+      ],
+      "images": [
+        "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_002.jpg",
+        "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_003.jpg",
+        "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_004.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -749,7 +779,7 @@
       "sources": [
         "RENDLESHAM-1980 · UK DEFE file / Halt memorandum"
       ],
-      "image": "assets/source_previews/BF-1980-RF-01_RENDLESHAM-1980-UK-DEFE-24-2005-1_page_001.png",
+      "image": "assets/source_previews/BF-1980-RF-01_source_image.jpg",
       "lon": 1.434,
       "lat": 52.092,
       "coordinateBasis": "Rendlesham Forest / RAF Bentwaters",
@@ -771,6 +801,13 @@
         "BF-1956-LB-01",
         "BF-1976-TH-01",
         "BF-1989-BW-01"
+      ],
+      "images": [
+        "assets/evidence/RENDLESHAM-1980/Halt_Memorandum.jpg",
+        "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_007.jpg",
+        "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_008.jpg",
+        "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_009.jpg",
+        "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_010.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -794,7 +831,7 @@
       "sources": [
         "JAL1628-1986 · FAA Japan Airlines 1628 records"
       ],
-      "image": "assets/source_previews/BF-1986-JAL-01_JAL1628-FAA-summary-733667-001-012_page_001.png",
+      "image": "assets/source_previews/BF-1986-JAL-01_source_image.jpg",
       "lon": -149.8997,
       "lat": 61.2176,
       "coordinateBasis": "Anchorage/Fairbanks Alaska route representative",
@@ -817,6 +854,18 @@
         "BF-2013-AG-01",
         "BF-1989-BW-01",
         "BF-1980-RF-01"
+      ],
+      "images": [
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_003.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_004.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_005.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_002.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_003.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_004.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_008.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_004.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_008.jpg",
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_010.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -1023,7 +1072,7 @@
         "DOD_110886776 · GoFast",
         "DOD_110891172 · Gimbal"
       ],
-      "image": "assets/western_us_renderings.jpg",
+      "image": "assets/source_previews/BF-2015-NAV-01_source_image.jpg",
       "lon": -76.5,
       "lat": 34,
       "geometryExpectation": "offshore",
@@ -1044,6 +1093,12 @@
         "BF-2004-NM-01",
         "BF-2013-AG-01",
         "BF-2020-AS-01"
+      ],
+      "images": [
+        "assets/evidence/DOD_110891172/DOD_110891172__contact.jpg",
+        "assets/evidence/DOD_110886776/DOD_110886776__contact.jpg",
+        "assets/evidence/DOD_110891172/DOD_110891172__t000022_6.jpg",
+        "assets/evidence/DOD_110886776/DOD_110886776__t000022_6.jpg"
       ],
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
@@ -1969,7 +2024,7 @@
       "sources": [
         "NASA-UAP-D026 · Apollo 14 Debriefing video record / DOD_111830063"
       ],
-      "image": "assets/source_previews/BF-NASA-D026_DOD_111830063_frame.jpg",
+      "image": "assets/source_previews/BF-NASA-D026_source_image.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -1987,6 +2042,9 @@
         "BF-NASA-VM6",
         "BF-NASA-D002",
         "BF-NASA-VM5"
+      ],
+      "images": [
+        "assets/source_previews/BF-NASA-D026_DOD_111830063_frame.jpg"
       ],
       "coordinateGenerated": false,
       "projection": "orbital-aggregate-layer"
@@ -2074,7 +2132,10 @@
         "BF-1952-DC-01"
       ],
       "heroFact": "The report that named the phenomenon: every 'flying saucer' file after June 1947 descends from press coverage of Arnold's description.",
-      "image": "assets/source_previews/BF-1947-KA-01_source_image.jpg",
+      "image": "assets/source_previews/BF-1947-KA-01_source_image.png",
+      "images": [
+        "assets/source_previews/BF-1947-KA-01_source_image.png"
+      ],
       "x": 21.25,
       "y": 16.3,
       "coordinateGenerated": true,
@@ -2119,7 +2180,10 @@
         "BF-1947-KA-01"
       ],
       "heroFact": "Unknown radar targets over the U.S. capital forced jet scrambles and the largest USAF press conference since WWII — the flap that precipitated the Robertson Panel.",
-      "image": "assets/source_previews/BF-1952-DC-01_source_image.jpg",
+      "image": "assets/source_previews/BF-1952-DC-01_source_image.png",
+      "images": [
+        "assets/source_previews/BF-1952-DC-01_source_image.png"
+      ],
       "x": 31.07,
       "y": 18.7,
       "coordinateGenerated": true,
@@ -2163,7 +2227,10 @@
         "BF-1994-AR-01"
       ],
       "heroFact": "The template abduction case: a contemporaneous sighting report exists on paper, while the famous abduction content came later from hypnosis sessions — two very different evidentiary tiers in one file.",
-      "image": "assets/source_previews/BF-1961-BH-01_source_image.jpg",
+      "image": "assets/source_previews/BF-1961-BH-01_source_image.png",
+      "images": [
+        "assets/source_previews/BF-1961-BH-01_source_image.png"
+      ],
       "x": 32.79,
       "y": 17.11,
       "coordinateGenerated": true,
@@ -2295,6 +2362,12 @@
       ],
       "heroFact": "Australia's largest daytime mass sighting sits opposite an almost empty official file — hundreds of living witnesses, no surviving government record.",
       "image": "assets/source_previews/BF-1966-WS-01_source_image.jpg",
+      "images": [
+        "assets/evidence/WESTALL-1966/Westall_Clayton_Calendar_student_drawing.png",
+        "assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png",
+        "assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_student_sketch.png",
+        "assets/evidence/WESTALL-1966/Westall_AFSR_editor_note.png"
+      ],
       "x": 85.51,
       "y": 42.23,
       "coordinateGenerated": true,
@@ -2337,6 +2410,11 @@
       ],
       "heroFact": "A water-impact event witnessed by police, logged by the Canadian government as an unsolved UFO report, and followed by a documented naval dive search.",
       "image": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
+      "images": [
+        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_Nova_Scotia_map.gif",
+        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_incident_location_aerial.jpg",
+        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_Incident_Park.jpg"
+      ],
       "x": 34.17,
       "y": 17.31,
       "coordinateGenerated": true,
@@ -2465,6 +2543,9 @@
       ],
       "heroFact": "An official ATC transcript records a pilot describing an unidentified pacing object in his final transmission before vanishing.",
       "image": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
+      "images": [
+        "assets/evidence/VALENTICH/bass_strait_prior_context.jpg"
+      ],
       "x": 84.88,
       "y": 42.62,
       "coordinateGenerated": true,
@@ -2647,6 +2728,10 @@
       ],
       "heroFact": "The most influential whistleblower narrative in UFOlogy rests on a nearly empty verifiable record: one pay stub, one phone-book line, and no confirmable education history.",
       "image": "assets/source_previews/BF-SF-01_source_image.jpg",
+      "images": [
+        "assets/evidence/LAZAR/groom_papoose.jpg",
+        "assets/evidence/LAZAR/area51_gate.jpg"
+      ],
       "x": 21.38,
       "y": 19.26,
       "coordinateGenerated": true,
@@ -3175,6 +3260,9 @@
       ],
       "heroFact": "The injuries are on hospital paper and the lawsuit is on court paper; only the object has no paper — the U.S. government's defense was that the craft could not be theirs.",
       "image": "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
+      "images": [
+        "assets/evidence/CASH-LANDRUM-1980/Cash_Landrum_original_illustration.jpg"
+      ],
       "x": 25.89,
       "y": 21.43,
       "coordinateGenerated": true,
@@ -3482,7 +3570,10 @@
         "BF-SF-05"
       ],
       "heroFact": "For the first time since 1952, the legislature took sworn recovery-program testimony — and the executive's own review office formally contradicted it in writing.",
-      "image": "assets/source_previews/BF-SF-10_source_image.jpg",
+      "image": "assets/source_previews/BF-SF-10_source_image.png",
+      "images": [
+        "assets/source_previews/BF-SF-10_source_image.png"
+      ],
       "x": 31.07,
       "y": 18.7,
       "coordinateGenerated": true,
@@ -3616,7 +3707,10 @@
         "BF-1947-MI-01"
       ],
       "heroFact": "The original crash-retrieval story entered the literature as a proven confidence scheme, prosecuted in court — the field's foundational fraud benchmark.",
-      "image": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
+      "image": "assets/source_previews/BF-1948-AZ-01_source_image.png",
+      "images": [
+        "assets/source_previews/BF-1948-AZ-01_source_image.png"
+      ],
       "x": 23.27,
       "y": 19.34,
       "coordinateGenerated": true,
@@ -3661,6 +3755,10 @@
       ],
       "heroFact": "A photo case that divided professional investigators until a physical model surfaced — leaving a residue of unrelated local sightings the hoax finding doesn't cover.",
       "image": "assets/source_previews/BF-1987-GB-01_source_image.jpg",
+      "images": [
+        "assets/evidence/GULF-BREEZE/model.jpg",
+        "assets/evidence/GULF-BREEZE/prior_craft_illustration.png"
+      ],
       "x": 27.91,
       "y": 21.32,
       "coordinateGenerated": true,
@@ -3746,6 +3844,11 @@
       ],
       "heroFact": "A photograph the MoD held for thirty years resurfaced through a retiree's desk drawer — the provenance is now stronger than the identification.",
       "image": "assets/source_previews/BF-1990-CV-01_source_image.jpg",
+      "images": [
+        "assets/evidence/CALVINE/photo.jpg",
+        "assets/evidence/CALVINE/vufoil.jpg",
+        "assets/evidence/CALVINE/mod_note.jpg"
+      ],
       "x": 49.02,
       "y": 13.41,
       "coordinateGenerated": true,
@@ -3787,7 +3890,10 @@
         "BF-1947-KA-01"
       ],
       "heroFact": "The modern record's true opening entry: disciplined military aircrews reporting pacing luminous objects — three years before anyone said 'flying saucer.'",
-      "image": "assets/source_previews/BF-1944-FF-01_source_image.jpg",
+      "image": "assets/source_previews/BF-1944-FF-01_source_image.png",
+      "images": [
+        "assets/source_previews/BF-1944-FF-01_source_image.png"
+      ],
       "x": 51.75,
       "y": 15.66,
       "coordinateGenerated": true,
@@ -3876,6 +3982,12 @@
       ],
       "heroFact": "The first fatality in the official record — almost certainly a classified balloon plus hypoxia, and the event that hardened Air Force attitudes for a decade.",
       "image": "assets/source_previews/BF-1948-MT-01_source_image.jpg",
+      "images": [
+        "assets/evidence/MANTELL/f51s.jpg",
+        "assets/evidence/MANTELL/portrait.jpg",
+        "assets/evidence/MANTELL/skyhook.jpg",
+        "assets/evidence/MANTELL/reconstruction.png"
+      ],
       "x": 28.54,
       "y": 19.37,
       "coordinateGenerated": true,

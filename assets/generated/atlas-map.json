@@ -15,7 +15,7 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "generatedAt": "2026-07-15T20:28:24.198Z",
+    "generatedAt": "2026-07-15T21:14:18.409Z",
     "countryCount": 242,
     "admin1Count": 51,
     "projectedCaseCount": 74,
