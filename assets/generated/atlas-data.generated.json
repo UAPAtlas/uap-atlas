@@ -2170,7 +2170,7 @@
       "gap": "Full correlation of National and Andrews radar tracks with intercept gun-camera film and controller logs has never been published.",
       "whyItMatters": "It is the clearest 1950s example of simultaneous multi-site radar plus visual reports over defended airspace, and the direct trigger for the CIA-convened Robertson Panel in the atlas.",
       "sources": [
-        "DC-FLAP-1952 · Blue Book case files / Samford press conference record"
+        "DC-FLAP-1952 · Blue Book files via NARA official S3 (MAXW-PBB11 crosswalk; catalog titles miscataloged) / OIN telephoned reports July 28 1952 / CAA radar study / Samford press conference record"
       ],
       "sourceLabel": "Blue Book record",
       "sourceLocator": "DC-FLAP-1952",
@@ -2265,7 +2265,7 @@
       "gap": "Soil and trace analyses were never published to modern standards, and the insignia sketch chain of custody is muddled across retellings.",
       "whyItMatters": "Socorro is the strongest single-witness-plus-traces case in the official record — the benchmark for what a trace case needs and still rarely has.",
       "sources": [
-        "SOCORRO-1964 · Project Blue Book case file / Hynek field notes trail"
+        "SOCORRO-1964 · Project Blue Book case file & site photographs (Black Vault mirror; NARA NAID 302532129) / FBI Socorro file / Hynek field notes trail"
       ],
       "sourceLabel": "Blue Book file",
       "sourceLocator": "SOCORRO-1964",
@@ -2274,7 +2274,7 @@
         "BF-1965-KB-01"
       ],
       "heroFact": "One of the few Blue Book 'unknowns' resting on a sworn police witness plus same-day documented physical traces.",
-      "image": "assets/source_previews/BF-1964-SC-01_source_image.jpg",
+      "image": "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
       "x": 23.27,
       "y": 20.19,
       "coordinateGenerated": true,
@@ -2644,9 +2644,9 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "…a weather phenomenon.",
-      "quoteSource": "FAA spokesperson on the O'Hare report, January 2007",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "keyQuote": "…they called us and said, somebody observed a flying disc about a thousand feet above the, ah… gate Charley 17.",
+      "quoteSource": "FAA ground-control tape, ~4:48 pm CST, Nov 7 2006, transcribed in NARCAP TR-10 p.11",
+      "quoteConfidence": "confirmed primary-source quotation",
       "significance": "Case significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -2672,7 +2672,7 @@
       "gap": "Tower tapes and the full set of employee statements were never released; no radar analysis was published.",
       "whyItMatters": "A modern daylight case at controlled airspace showing the institutional reporting gap AARO-era reforms were later built to close.",
       "sources": [
-        "OHARE-2006 · NARCAP Technical Report 10, Case 18 (Haines et al., 2007) / FAA FOIA acknowledgment trail"
+        "OHARE-2006 · NARCAP TR-10 Case 18 incl. FAA tower-tape transcript / FAA FY2007 FOIA logs (GovernmentAttic) / FAA FOIA acknowledgment trail"
       ],
       "sourceLabel": "FAA FOIA record",
       "sourceLocator": "OHARE-2006",
@@ -2898,7 +2898,7 @@
       "gap": "The identity of the original mailer has never been established, which is itself the case's defining evidentiary hole.",
       "whyItMatters": "MJ-12 is the atlas's control case: extraordinary content evaluated purely on chain of custody, and failing — the standard every leaked document must be measured against.",
       "sources": [
-        "MJ12-1984 · FBI Records Vault file / AFOSI determination trail"
+        "MJ12-1984 · FBI Records Vault official file (Part 1, hosted) / AFOSI determination trail"
       ],
       "sourceLabel": "FBI Vault file",
       "sourceLocator": "MJ12-1984",
@@ -3032,7 +3032,7 @@
       "gap": "No systematic vehicle inspection or electrical analysis was performed on any affected car — the physical evidence was driven home.",
       "whyItMatters": "Levelland defined the vehicle-interference category that recurs for decades; its one-investigator handling is also a case study in institutional under-response.",
       "sources": [
-        "LEVELLAND-1957 · Project Blue Book case file / sheriff's record"
+        "LEVELLAND-1957 · Project Blue Book case file (NARA official, NAID 28974191; also NAID 28972840) / sheriff's record"
       ],
       "sourceLabel": "Blue Book file",
       "sourceLocator": "LEVELLAND-1957",
@@ -3580,11 +3580,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "SA Richard C. Doty advised Dr. Bennewitz that AFOSI would not become involved in the investigation of these objects.",
+      "quoteSource": "AFOSI Multipurpose Internal OSI Form, file 8017D93-0/29, 26 Nov 1980, signed Maj. Thomas A. Cseh",
+      "quoteConfidence": "confirmed primary-source quotation",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-11",
@@ -3608,7 +3608,7 @@
       "gap": "The operation's authorizing paperwork and full scope (who else received planted material) remain unreleased.",
       "whyItMatters": "Bennewitz–Doty is the atlas's contamination-control file: it proves some lore is state-authored noise, which every other testimony case must be filtered against.",
       "sources": [
-        "BENNEWITZ-1980 · Doty on-camera admissions / Kirtland document trail / 'Project Aquarius' forgery artifact (hosted as fabricated document of the affair)"
+        "BENNEWITZ-1980 · AFOSI Kirtland forms incl. Cseh form 8017D93-0/29 (FOIA scans via OpenMinds mirror) / Doty FOIA ATR-1 / Domenici 1981 record / 'Project Aquarius' forgery artifact"
       ],
       "sourceLabel": "Kirtland-era record",
       "sourceLocator": "BENNEWITZ-1980",
@@ -3618,7 +3618,7 @@
         "BF-1947-RW-01"
       ],
       "heroFact": "A documented case of the U.S. government manufacturing UFO mythology on purpose — with the operator's on-camera admission.",
-      "image": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png",
+      "image": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
       "x": 23.45,
       "y": 19.89,
       "coordinateGenerated": true,
@@ -3791,7 +3791,7 @@
       "gap": "Crisman's motives and the slag's origin were never fully documented, feeding decades of secondary conspiracy literature.",
       "whyItMatters": "Maury Island predates Arnold and set the pattern: sensational claim, physical 'samples,' institutional response, and a provenance collapse — the field's original cautionary tale.",
       "sources": [
-        "MAURY-1947 · FBI records / AAF crash report trail"
+        "MAURY-1947 · FBI UFO records Part 1 (official FBI Vault release, 1947 flying-disc era) / FBI HQ file 62-HQ-83894 (local mirror, 184p) / AAF crash report trail"
       ],
       "sourceLabel": "FBI record",
       "sourceLocator": "MAURY-1947",
@@ -4022,7 +4022,7 @@
       "gap": "The full Sign case file with the crew's original sketches was dispersed; reconstructions rely on Blue Book microfilm.",
       "whyItMatters": "Chiles-Whitted shows how one vivid report can steer institutional conclusions — the direct human trigger for the destroyed Estimate in this atlas.",
       "sources": [
-        "CHILES-1948 · Project Grudge Technical Report 102-AC-49/15-100 (Aug 1949, NARA scan) — contains the Incident 144 analysis / Blue Book microfilm trail"
+        "CHILES-1948 · Project Blue Book case file, Montgomery July 1948 (Black Vault mirror; NARA NAID 28931059, 'Incident Number: 144') — witness sketches Exhibit E / Project Grudge report"
       ],
       "sourceLabel": "Sign-era record",
       "sourceLocator": "CHILES-1948",
@@ -4031,7 +4031,7 @@
         "BF-1948-MT-01"
       ],
       "heroFact": "The airline-crew report that pushed Project Sign to its interplanetary estimate — later reassessed as a bright bolide, which is itself instructive.",
-      "image": "assets/evidence/CHILES-1948/CHILES-1948-Project-Grudge-cover.png",
+      "image": "assets/evidence/CHILES-1948/CHILES-1948-witness-sketch-Exhibit-E-rotated-preview.png",
       "x": 28.27,
       "y": 20.71,
       "coordinateGenerated": true,
@@ -4063,10 +4063,10 @@
       "summary": "North Dakota ANG pilot George Gorman chased a small white light over Fargo for nearly half an hour, describing intelligent evasive maneuvering; tower personnel saw the object. Blue Book attributed it to a lighted weather balloon combined with vertigo and stars — an explanation the 1948-era files document in detail.",
       "keyFact": "A 27-minute documented 'dogfight' whose balloon-plus-vertigo resolution became the template for how pursuit-of-light cases fail.",
       "official": "USAF: a lighted pilot balloon, with the maneuvers attributed to the pilot's own motion — among Blue Book's more defensible explanations.",
-      "gap": "None significant; the case's value is as a well-documented resolved control alongside its unresolved 1948 siblings.",
+      "gap": "The 1948 Blue Book index confirms the Gorman case folder existed — 'Fargo, North Dakota (FOLDER), evaluation: Balloon / Astro (Jupiter)' — but the folder itself is not surfaced in public NARA metadata; recovery requires Fold3 or a NARA pull (RG 341, NAID 597821/595466).",
       "whyItMatters": "Gorman calibrates the 1948 trilogy: same year, same institutions — one case resolved cleanly, one probably resolved, one destroyed-document mystery.",
       "sources": [
-        "GORMAN-1948 · Project Sign/Blue Book case record"
+        "GORMAN-1948 · Project Blue Book 1948 index entry (folder confirmed, case file not yet publicly surfaced) / Sign-era record"
       ],
       "sourceLabel": "Blue Book record",
       "sourceLocator": "GORMAN-1948",

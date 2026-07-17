@@ -18,7 +18,7 @@
   "BF-1952-DC-01": {
    "file": "assets/source_previews/BF-1952-DC-01_source_image.png",
    "kind": "archival-document",
-   "subject": "Project Blue Book chart: Frequency of UFO Reports June-Sept 1952 with Washington D.C. incident annotations",
+   "subject": "Project Blue Book chart: Frequency of UFO Reports June-Sept 1952 with Washington D.C. incident annotations — UPGRADED: NARA-official S3 image set recovered via MAXW-PBB11 page-code crosswalk (catalog titles miscataloged); OIN reports, press clippings, CAA radar study hosted",
    "status": "verified"
   },
   "BF-1957-LV-01": {
@@ -124,10 +124,10 @@
    "status": "verified-reconstruction"
   },
   "BF-1964-SC-01": {
-   "file": "assets/source_previews/BF-1964-SC-01_source_image.jpg",
-   "kind": "reconstruction",
-   "subject": "CGI reconstruction of the Zamora egg-shaped craft and figures",
-   "status": "verified-reconstruction"
+   "file": "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
+   "kind": "archival-photograph",
+   "subject": "USAF investigation photograph of the Socorro landing site with numbered evidence markers, from the Blue Book case file; NARA NAID 302532129 assembly held locally",
+   "status": "verified"
   },
   "BF-1947-MI-01": {
    "file": "assets/source_previews/BF-1947-MI-01_source_image.jpg",
@@ -246,19 +246,19 @@
   "BF-2006-OH-01": {
    "file": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1.png",
    "kind": "primary-report",
-   "subject": "NARCAP Technical Report 10, Case 18 (Haines et al.), page 1 — full 155-page PDF hosted (recovered via Wayback Machine)",
+   "subject": "NARCAP TR-10 p.11: FAA tower-tape transcript of the gate C17 'flying disc' exchange; FAA FY2007 FOIA logs hosted",
    "status": "verified"
   },
   "BF-1948-CW-01": {
-   "file": "assets/evidence/CHILES-1948/CHILES-1948-Project-Grudge-cover.png",
+   "file": "assets/evidence/CHILES-1948/CHILES-1948-witness-sketch-Exhibit-E-rotated-preview.png",
    "kind": "archival-document",
-   "subject": "Project Grudge Technical Report cover (Aug 1949), AMC Wright-Patterson, NARA scan — the study containing the Chiles-Whitted Incident 144 analysis; Parts 1 & 4 hosted",
+   "subject": "Witness sketch 'Exhibit E' from the Blue Book Montgomery July 1948 case file (Incident 144), rotated for display; full 162p file + sketch pages hosted; NARA NAID 28931059 assembly held locally (860MB)",
    "status": "verified"
   },
   "BF-1948-GD-01": {
    "file": "assets/evidence/GORMAN-1948/GORMAN-1948-NDak-NG-F51D-Mustang.jpg",
    "kind": "period-photo",
-   "subject": "F-51D Mustang in North Dakota NG markings — Gorman's unit (Commons/PD)",
+   "subject": "F-51D Mustang in North Dakota NG markings — Gorman's unit (Commons/PD) — index-confirmed: 1948 Blue Book index shows the Gorman folder; folder itself not publicly surfaced (Fold3/NARA required)",
    "status": "verified"
   },
   "BF-1950-GF-01": {
@@ -310,10 +310,10 @@
    "status": "verified"
   },
   "BF-SF-11": {
-   "file": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png",
-   "kind": "forgery-artifact",
-   "subject": "'Project Aquarius' TOP SECRET executive briefing cover — FABRICATED document from the forgery family seeded through the Bennewitz-era AFOSI disinformation channel; hosted as an artifact of the affair, not an authentic record",
-   "status": "verified-as-forgery"
+   "file": "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
+   "kind": "archival-document",
+   "subject": "AFOSI Multipurpose Internal OSI Form p.1, file 8017D93-0/29 (26 Nov 1980), signed Maj. Thomas A. Cseh, naming SA Doty and Dr. Bennewitz — FOIA scan via OpenMinds mirror",
+   "status": "verified"
   }
  }
 }
