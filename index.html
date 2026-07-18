@@ -229,12 +229,12 @@ svg#atlasSvg:active{cursor:grabbing}
 .atlas-marker.selected .marker-ring{stroke:#F8FEFF;stroke-width:.24;opacity:1}
 .atlas-marker.selected .marker-halo{fill:var(--accent);opacity:.42}
 .selection-layer{pointer-events:none;overflow:visible}
-.selection-beacon{pointer-events:none;overflow:visible;filter:drop-shadow(0 0 7px rgba(95,212,242,.62)) drop-shadow(0 0 22px rgba(95,212,242,.22))}
+.selection-beacon{pointer-events:none;overflow:visible;filter:url(#selectionGlow)}
 .selection-wave{fill:none;stroke:rgba(95,212,242,.78);stroke-width:.13;opacity:0;animation:selectionWave 1.72s cubic-bezier(.16,1,.3,1) 1;transform-origin:center}
 .selection-reticle{fill:none;stroke-linecap:round;opacity:.9;animation:selectionReticle 2.35s ease-in-out infinite;transform-origin:center}
 .selection-reticle-outer{stroke:rgba(244,253,255,.9);stroke-width:.12;stroke-dasharray:.62 .42}
 .selection-reticle-inner{stroke:rgba(95,212,242,.82);stroke-width:.11;stroke-dasharray:.34 .24;animation-delay:.2s}
-.selection-bracket{fill:none;stroke:#F8FEFF;stroke-width:.18;stroke-linecap:round;stroke-linejoin:round;opacity:.96;filter:drop-shadow(0 0 4px rgba(95,212,242,.75))}
+.selection-bracket{fill:none;stroke:#F8FEFF;stroke-width:.18;stroke-linecap:round;stroke-linejoin:round;opacity:.96;filter:url(#selectionBracketGlow)}
 .selection-spark{fill:#fff;filter:drop-shadow(0 0 7px rgba(95,212,242,.95));animation:selectionSpark 1.75s ease-in-out infinite}
 .selection-label-stem{stroke:rgba(95,212,242,.58);stroke-width:.1;stroke-linecap:round}
 .selection-label-bg{fill:rgba(3,7,12,.9);stroke:rgba(95,212,242,.62);stroke-width:.09;filter:drop-shadow(0 0 8px rgba(95,212,242,.24))}
@@ -313,24 +313,42 @@ svg#atlasSvg:active{cursor:grabbing}
 .cta:hover{background:rgba(95,212,242,.17);border-color:rgba(95,212,242,.48)}
 .cta:hover:before{transform:translateX(130%)}
 
-/* 08 — case stack -------------------------------------------- */
+/* 08 — case stack: slim intelligence index ------------------- */
 .list-panel .panel-inner{display:flex;flex-direction:column}
-.case-list{flex:1;min-height:0;overflow:auto;padding:2px 5px 8px 0;scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent}
+.case-list{
+  position:relative;flex:1;min-height:0;overflow:auto;padding:0 5px 7px 0;
+  border-top:1px solid rgba(198,224,246,.055);
+  background:linear-gradient(90deg,rgba(255,255,255,.012),transparent 18%,transparent 82%,rgba(95,212,242,.008));
+  scrollbar-width:thin;scrollbar-color:rgba(255,255,255,.14) transparent;
+}
 .case-row{
-  position:relative;display:grid;grid-template-columns:134px minmax(0,1fr) auto;gap:12px;align-items:center;
-  min-height:52px;margin-bottom:6px;padding:9px 11px;cursor:pointer;
-  border-radius:var(--r-xs);border:1px solid rgba(198,224,246,.05);background:rgba(255,255,255,.016);
+  position:relative;display:grid;grid-template-columns:118px minmax(0,1fr) auto;gap:10px;align-items:center;
+  height:38px;min-height:38px;margin:0;padding:4px 9px;cursor:pointer;
+  border:0;border-bottom:1px solid rgba(198,224,246,.055);border-radius:0;
+  background:linear-gradient(90deg,rgba(255,255,255,.012),rgba(255,255,255,.004) 58%,transparent);
+  font-variant-numeric:tabular-nums;
   transition:background .15s ease,border-color .15s ease;
 }
-.case-row:hover{background:rgba(255,255,255,.036);border-color:rgba(198,224,246,.1)}
-.case-row.active{background:linear-gradient(90deg,rgba(95,212,242,.09),rgba(95,212,242,.024) 55%,rgba(255,255,255,.012));border-color:rgba(95,212,242,.22)}
-.case-row.active:before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:2px;border-radius:99px;background:var(--accent);box-shadow:0 0 10px rgba(95,212,242,.4)}
-.case-row .id{font-family:var(--mono);font-size:9.5px;color:var(--accent)}
-.file-id small{display:block;margin-top:4px;font-family:var(--mono);font-size:9px;color:rgba(140,150,163,.58)}
-.case-row .t{font-size:12.5px;font-weight:600;letter-spacing:-.01em;color:#F2F5F9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.case-row .m{margin-top:3px;font-size:10.5px;color:rgba(140,150,163,.6);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.row-actions{display:flex;align-items:center;gap:8px}
-.row-actions .pill{min-width:76px;height:26px;justify-content:center;padding:0 8px;border-radius:999px;font-size:8px}
+.case-row:hover{z-index:1;border-radius:4px;border-bottom-color:rgba(198,224,246,.12);background:linear-gradient(90deg,rgba(255,255,255,.042),rgba(255,255,255,.018) 62%,rgba(95,212,242,.015))}
+.case-row:focus-visible{z-index:2;outline:1px solid rgba(95,212,242,.72);outline-offset:-1px}
+.case-row.active{
+  z-index:1;border-radius:4px;border-bottom-color:rgba(95,212,242,.2);
+  background:linear-gradient(90deg,rgba(95,212,242,.115),rgba(95,212,242,.034) 48%,rgba(255,255,255,.009) 84%,transparent);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.025);
+}
+.case-row.active:before{content:'';position:absolute;left:0;top:5px;bottom:5px;width:2px;border-radius:99px;background:linear-gradient(180deg,#9BE7FB,var(--accent));box-shadow:0 0 9px rgba(95,212,242,.42)}
+.file-id,.file-main{min-width:0}
+.case-row .id{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-family:var(--mono);font-size:9.25px;font-weight:500;letter-spacing:.01em;color:var(--accent)}
+.file-id small{display:block;margin-top:2px;font-family:var(--mono);font-size:9px;line-height:1;color:rgba(140,150,163,.56)}
+.case-row .t{font-size:11.75px;line-height:1.15;font-weight:600;letter-spacing:-.01em;color:#F2F5F9;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.case-row .m{margin-top:2px;font-size:10px;line-height:1.05;color:rgba(140,150,163,.62);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-actions{display:flex;align-items:center;justify-content:flex-end;gap:6px}
+.row-actions .pill{
+  min-width:70px;height:18px;justify-content:center;padding:0 7px;border-radius:999px;
+  border-color:rgba(198,224,246,.09);background:rgba(255,255,255,.018);font-size:8px;letter-spacing:.055em;
+}
+.row-actions .pill:before{width:4px;height:4px;margin-right:5px}
+.case-row.active .row-actions .pill{border-color:rgba(95,212,242,.2);background:rgba(4,11,17,.42)}
 
 /* 09 — temporal signal band (top strip) ------------------------ */
 .temporal-band{
@@ -436,11 +454,6 @@ svg#atlasSvg:active{cursor:grabbing}
 .signal-node .node-date{
   font-family:var(--mono);font-size:9px;color:rgba(198,205,214,.85);
   bottom:14px;position:absolute;left:50%;transform:translateX(-50%);
-}
-.signal-node .node-title{
-  position:absolute;top:14px;left:50%;transform:translateX(-50%);
-  max-width:120px;font-size:10.5px;line-height:1.25;text-align:center;
-  color:rgba(242,245,249,.88);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 .signal-node.era-out{opacity:.15}
 
@@ -780,6 +793,8 @@ select.fchip option{background:#0a1018;color:#e8eef3;font-size:11px}
         <defs>
           <radialGradient id="ocean" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#0d1525"/><stop offset="100%" stop-color="#030508"/></radialGradient>
           <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation=".9" flood-color="#5fc9e8" flood-opacity=".9"/></filter>
+          <filter id="selectionGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation=".42" flood-color="#5fd4f2" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="1.35" flood-color="#5fd4f2" flood-opacity=".22"/></filter>
+          <filter id="selectionBracketGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation=".28" flood-color="#5fd4f2" flood-opacity=".75"/></filter>
         </defs>
         <rect width="100" height="62" fill="url(#ocean)"/>
         <g id="countryLayer" class="country-layer" opacity=".98"><g class="continents"><path class="land" data-country="Afghanistan" data-iso-a3="AFG" fill-rule="evenodd" d="M66.26,19.18L66.33,19.17L66.39,19.18L66.43,19.21L66.46,19.22L66.49,19.21L66.51,19.2L66.52,19.21L66.53,19.22L66.56,19.22L66.57,19.22L66.57,19.23L66.58,19.24L66.6,19.27L66.64,19.29L66.67,19.3L66.7,19.28L66.71,19.28L66.71,19.27L66.71,19.26L66.73,19.24L66.77,19.23L66.79,19.22L66.79,19.21L66.81,19.2L66.82,19.21L66.83,19.2L66.83,19.19L66.83,19.19L66.84,19.19L66.85,19.18L66.86,19.19L66.89,19.2L66.93,19.24L66.95,19.25L66.96,19.25L66.97,19.24L66.98,19.22L66.98,19.2L66.96,19.16L66.96,19.14L66.98,19.12L67.01,19.1L67.05,19.1L67.08,19.1L67.1,19.11L67.11,19.12L67.13,19.12L67.14,19.11L67.15,19.08L67.15,19.05L67.13,19.01L67.13,19L67.13,19L67.15,18.98L67.17,18.96L67.18,18.92L67.2,18.88L67.22,18.85L67.25,18.84L67.3,18.85L67.35,18.89L67.38,18.93L67.38,18.98L67.39,19L67.4,19.01L67.42,19.01L67.44,19L67.45,19L67.46,19.01L67.47,19.02L67.46,19.04L67.47,19.1L67.47,19.15L67.48,19.2L67.48,19.25L67.5,19.28L67.53,19.33L67.55,19.37L67.57,19.38L67.59,19.38L67.6,19.38L67.63,19.36L67.68,19.32L67.72,19.29L67.79,19.28L67.81,19.23L67.83,19.2L67.9,19.16L67.94,19.14L67.96,19.14L67.99,19.15L68,19.15L68.01,19.15L68.02,19.16L68.03,19.17L68.03,19.19L68.02,19.2L68.01,19.21L68.02,19.21L68.05,19.21L68.09,19.2L68.12,19.19L68.14,19.19L68.15,19.17L68.16,19.16L68.18,19.16L68.2,19.16L68.22,19.17L68.26,19.17L68.28,19.18L68.31,19.2L68.32,19.21L68.33,19.22L68.31,19.22L68.29,19.21L68.28,19.2L68.28,19.2L68.27,19.2L68.24,19.21L68.2,19.24L68.21,19.24L68.24,19.27L68.25,19.28L68.26,19.28L68.23,19.29L68.18,19.32L68.15,19.34L68.14,19.34L68.11,19.33L68.07,19.32L68.07,19.32L67.99,19.32L67.92,19.33L67.89,19.33L67.83,19.34L67.8,19.34L67.78,19.35L67.75,19.36L67.73,19.36L67.71,19.37L67.69,19.38L67.68,19.4L67.64,19.43L67.62,19.44L67.61,19.46L67.6,19.46L67.58,19.46L67.56,19.48L67.55,19.5L67.52,19.54L67.5,19.55L67.5,19.58L67.51,19.59L67.54,19.61L67.56,19.63L67.57,19.64L67.59,19.68L67.61,19.72L67.62,19.73L67.63,19.76L67.64,19.77L67.64,19.79L67.63,19.8L67.64,19.81L67.65,19.82L67.66,19.83L67.66,19.84L67.66,19.85L67.65,19.87L67.64,19.88L67.63,19.91L67.61,19.93L67.6,19.94L67.59,19.97L67.57,20L67.56,20.02L67.55,20.04L67.54,20.04L67.55,20.06L67.56,20.07L67.58,20.09L67.59,20.12L67.59,20.14L67.6,20.17L67.59,20.19L67.55,20.21L67.5,20.22L67.44,20.22L67.42,20.22L67.4,20.21L67.33,20.19L67.31,20.2L67.31,20.24L67.37,20.29L67.39,20.32L67.42,20.37L67.44,20.4L67.44,20.42L67.41,20.45L67.37,20.48L67.32,20.48L67.28,20.49L67.27,20.51L67.27,20.56L67.26,20.58L67.27,20.61L67.26,20.64L67.25,20.66L67.24,20.69L67.25,20.74L67.28,20.84L67.26,20.87L67.24,20.9L67.22,20.92L67.19,20.93L67.17,20.93L67.15,20.91L67.13,20.89L67.11,20.88L67.09,20.88L67.08,20.9L67.05,20.89L67.02,20.88L67,20.88L67,20.89L66.97,20.92L66.91,20.96L66.88,20.96L66.87,20.97L66.88,20.99L66.9,21L66.92,21.01L66.92,21.02L66.91,21.03L66.89,21.04L66.86,21.05L66.82,21.06L66.77,21.05L66.75,21.03L66.72,21.03L66.7,21.05L66.68,21.07L66.66,21.11L66.65,21.12L66.65,21.13L66.63,21.14L66.61,21.15L66.6,21.19L66.6,21.25L66.61,21.28L66.62,21.34L66.62,21.37L66.61,21.4L66.62,21.42L66.64,21.44L66.63,21.46L66.62,21.48L66.61,21.48L66.56,21.5L66.49,21.53L66.44,21.54L66.37,21.56L66.35,21.57L66.31,21.57L66.28,21.57L66.25,21.57L66.2,21.57L66.17,21.57L66.14,21.59L66.12,21.6L66.11,21.61L66.11,21.62L66.07,21.61L65.97,21.59L65.7,21.62L65.67,21.61L65.57,21.58L65.44,21.54L65.36,21.51L65.26,21.48L65.31,21.39L65.36,21.32L65.41,21.25L65.45,21.18L65.45,21.15L65.45,21.1L65.42,21.04L65.39,21.01L65.31,21L65.25,20.99L65.19,20.98L65.18,20.97L65.16,20.92L65.16,20.9L65.15,20.86L65.14,20.82L65.14,20.77L65.14,20.74L65.09,20.64L65.07,20.58L65.04,20.51L65.03,20.49L65.03,20.47L65.06,20.41L65.07,20.4L65.09,20.37L65.1,20.36L65.09,20.35L65.07,20.34L65.03,20.34L65.01,20.33L64.99,20.32L64.98,20.29L64.98,20.25L64.96,20.18L64.97,20.14L64.99,20.11L65.05,20.11L65.02,20.08L65.01,20.06L65,20.05L65,20.05L65,20.04L65.01,20.04L65.02,20.03L65.04,20.01L65.04,20L65.04,19.99L65.05,19.98L65.06,19.96L65.06,19.94L65.06,19.92L65.06,19.9L65.06,19.88L65.07,19.87L65.06,19.85L65.05,19.83L65.05,19.82L65.06,19.81L65.07,19.8L65.07,19.79L65.07,19.77L65.07,19.75L65.08,19.74L65.08,19.73L65.07,19.71L65.09,19.71L65.1,19.72L65.11,19.73L65.15,19.76L65.17,19.77L65.19,19.77L65.22,19.77L65.24,19.76L65.26,19.76L65.29,19.78L65.32,19.81L65.33,19.82L65.34,19.84L65.35,19.85L65.37,19.83L65.39,19.82L65.4,19.83L65.42,19.83L65.44,19.82L65.45,19.82L65.48,19.79L65.5,19.77L65.52,19.76L65.52,19.72L65.53,19.7L65.54,19.69L65.53,19.68L65.52,19.66L65.51,19.65L65.52,19.64L65.53,19.64L65.56,19.64L65.61,19.62L65.65,19.6L65.69,19.59L65.71,19.59L65.72,19.59L65.73,19.58L65.73,19.57L65.74,19.56L65.76,19.55L65.8,19.52L65.83,19.49L65.84,19.46L65.84,19.42L65.84,19.36L65.85,19.3L65.85,19.27L65.85,19.25L65.88,19.23L65.91,19.21L65.97,19.21L66.03,19.21L66.03,19.17L66.03,19.14L66.04,19.13L66.05,19.11L66.06,19.11L66.1,19.13L66.15,19.16L66.22,19.17L66.25,19.18Z"/>
@@ -1202,8 +1217,8 @@ function resetStackFilters(){
 function matchesFilters(c){if(state.filters.agency!=='all' && c.agency!==state.filters.agency) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
 function buildFilters(){const agencies=['all',...new Set(cases.map(c=>c.agency))]; const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))]; const precisions=['all','exact','unresolved','redacted','orbital','institutional']; agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join(''); domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join(''); precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');}
 function renderLabels(){labelsG.innerHTML = labels.map(l=>`<text class="label" x="${l.x}" y="${l.y}">${l.name}</text>`).join('');}
-function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : ''; const status=markerStatus(c); return `<div class="case-row ${active}" data-id="${c.id}"><div class="file-id"><div class="id">${c.id}</div><small>${c.date}</small></div><div class="file-main"><div class="t">${c.title}</div><div class="m">${c.location} · ${c.agency}</div></div><div class="row-actions"><div class="pill ${statusPill[status]}">${c.mode}</div></div></div>`;}
-function renderCaseList(){const base=stackBaseCases(); const filtered = base.filter(matchesFilters); syncStackHeader(); caseCount.textContent = `${filtered.length} / ${base.length}`; const empty=state.stackMode==='orbital'?'No orbital / lunar evidence matches the current filters.':'No main-stack cases match the current filters.'; caseList.innerHTML = filtered.map(caseCard).join('') || `<div class="empty">${empty}</div>`; caseList.querySelectorAll('.case-row').forEach(el=>el.addEventListener('click',()=>selectCase(el.dataset.id,true)));}
+function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : ''; const status=markerStatus(c); return `<div class="case-row ${active}" data-id="${c.id}" role="button" tabindex="0" aria-label="Select ${esc(c.title)}, ${esc(c.date)}"><div class="file-id"><div class="id">${c.id}</div><small>${c.date}</small></div><div class="file-main"><div class="t">${c.title}</div><div class="m">${c.location} · ${c.agency}</div></div><div class="row-actions"><div class="pill ${statusPill[status]}">${c.mode}</div></div></div>`;}
+function renderCaseList(){const base=stackBaseCases(); const filtered = base.filter(matchesFilters); syncStackHeader(); caseCount.textContent = `${filtered.length} / ${base.length}`; const empty=state.stackMode==='orbital'?'No orbital / lunar evidence matches the current filters.':'No main-stack cases match the current filters.'; caseList.innerHTML = filtered.map(caseCard).join('') || `<div class="empty">${empty}</div>`; caseList.querySelectorAll('.case-row').forEach(el=>{const choose=()=>selectCase(el.dataset.id,true);el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});});}
 function quoteHtml(c,caption=true){if(!c.keyQuote) return ''; const source=caption&&c.quoteSource?`<figcaption>${esc(c.quoteSource)} · ${esc(c.quoteConfidence||'quote selected')}</figcaption>`:''; return `<figure class="quote-card"><blockquote>“${esc(c.keyQuote)}”</blockquote>${source}</figure>`;}
 function keyFactHtml(c,includeWhy=false){const hero=includeWhy; const quote=hero?quoteHtml(c,false):''; const meta=hero?factMetaLine(c):''; const why=hero&&c.whyItMatters?`<div class="why-card"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''; return `<div class="case-intel ${hero?'fact-hero':''}"><div class="label2">Key finding</div><div class="key-fact-copy">${esc(c.heroFact||c.keyFact||c.summary)}</div>${quote}${meta}</div>${why}`;}
 function renderDetail(){const c = cases.find(x=>x.id===state.selectedCaseId); if(!c){detail.innerHTML = '<div class="empty">Select a case from the map, list, or timeline.</div>'; return;} const files=filesForCase(c).length||evidenceItems(c).length; detail.innerHTML = `<div class="preview-context"><div class="eyebrow">${esc(c.mode)} · ${esc(c.domain)}</div><div class="meta">${esc(c.id)} · ${esc(c.date)}</div></div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.location)} · ${esc(c.agency)}</div>${c.mapGeometry?`<div class="geometry-context">Map overlay · ${esc(c.mapGeometry.isObjectTrack?'object track':(['LineString','MultiLineString'].includes(c.mapGeometry.type)?'reference route':'approximate area'))} · ${esc(c.mapGeometry.confidence||'approximate')}</div>`:''}${c.image?`<button class="detail-media" type="button" data-open-case="${esc(c.id)}" aria-label="Open dossier evidence"><img src="${esc(c.image)}" alt="" loading="lazy"><span class="detail-media-tag">Evidence · ${esc(String(files))} file${files===1?'':'s'}</span></button>`:''}${keyFactHtml(c,false)}${c.whyItMatters?`<div class="preview-why"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''}<div class="preview-meta-line"><span><b>Source</b>${esc(c.sourceLabel||c.agency)}</span><span><b>Files</b>${esc(String(files))}</span><span><b>Date</b>${esc(c.date)}</span></div><button class="cta" type="button" data-open-case="${esc(c.id)}">Open Dossier <span aria-hidden="true">→</span></button>`; detail.querySelectorAll('[data-open-case]').forEach(btn=>btn.addEventListener('click',()=>openFullCase(btn.dataset.openCase)));}
@@ -1262,7 +1277,7 @@ function renderSignal(){
       const nodes=visible.filter(ev=>ev.caseId===sel);
       nodeLayer.innerHTML=nodes.map(ev=>{
         const x=eventX(ev)*100;
-        return `<div class="signal-node ${signalTypeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}"><div class="node-dot"></div><div class="node-date">${esc(ev.date)}</div><div class="node-title">${esc(ev.title)}</div></div>`;
+        return `<div class="signal-node ${signalTypeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}"><div class="node-dot"></div><div class="node-date">${esc(ev.date)}</div></div>`;
       }).join('');
       nodeLayer.querySelectorAll('.signal-node').forEach(el=>{
         el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);});
@@ -1389,7 +1404,7 @@ function renderSelectionBeacon(pulse=false){
   const w=clamp(String(c.id).length*.48+2.65,5.4,11.8);
   const labelX=-w/2;
   const wave=pulse?'<circle class="selection-wave" r="1.12"/>':'';
-  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g></g>`;
+  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
 }
 
 
