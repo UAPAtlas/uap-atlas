@@ -803,6 +803,11 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .legend{left:12px;right:12px;bottom:calc(106px + env(safe-area-inset-bottom));max-width:none;display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;row-gap:7px;overflow:hidden;padding:9px 11px;font-size:9px;}
   .legend span{white-space:nowrap;}
   .map-tip{display:none;}
+  .selection-beacon{filter:url(#selectionGlow)}
+  .selection-reticle-outer{stroke:rgba(248,254,255,.98);stroke-width:.15}
+  .selection-reticle-inner{stroke:rgba(95,212,242,.94);stroke-width:.14}
+  .selection-bracket{stroke-width:.21}
+  .selection-label-bg{fill:rgba(3,7,12,.94);stroke:rgba(95,212,242,.76)}
 
   .mobile-case-peek{
     position:fixed;z-index:28;left:12px;right:12px;bottom:calc(var(--mobile-nav-h) + 10px);
@@ -1522,8 +1527,9 @@ function updateSelectionBeaconTransform(){
   const beacon=selectionLayer.querySelector('.selection-beacon');
   if(!beacon) return;
   const x=beacon.dataset.x, y=beacon.dataset.y;
-  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${markerScale()})`);
+  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${selectionBeaconScale()})`);
 }
+function selectionBeaconScale(){return markerScale()*(window.matchMedia('(max-width:1080px)').matches?1.28:1);}
 function selectionAnchorCase(){
   const c=cases.find(x=>x.id===state.selectedCaseId);
   if(!c) return null;
@@ -1541,7 +1547,7 @@ function renderSelectionBeacon(pulse=false){
   const w=clamp(String(c.id).length*.48+2.65,5.4,11.8);
   const labelX=-w/2;
   const wave=pulse?'<circle class="selection-wave" r="1.12"/>':'';
-  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
+  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${selectionBeaconScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
 }
 
 
