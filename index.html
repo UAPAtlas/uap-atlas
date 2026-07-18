@@ -825,10 +825,7 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
     border-top:1px solid rgba(198,224,246,.1);background:rgba(3,7,12,.92);backdrop-filter:blur(24px) saturate(135%);
   }
   .mobile-nav button{height:50px;flex:1;display:grid;place-items:center;align-content:center;gap:3px;border:0;border-radius:12px;background:transparent;color:rgba(140,150,163,.8);font:600 10px var(--sans);}
-  .mobile-nav button:before{font:500 18px/1 var(--mono);color:currentColor;}
-  .mobile-nav button[data-page="map"]:before{content:'⌖'}
-  .mobile-nav button[data-page="cases"]:before{content:'≡'}
-  .mobile-nav button[data-page="dossier"]:before{content:'▱'}
+  .mobile-nav button:before{content:none!important;display:none!important}
   .mobile-nav button.active{color:#EAFBFF;background:rgba(95,212,242,.09);box-shadow:inset 0 0 0 1px rgba(95,212,242,.16)}
 
   /* Page 2 — full stack */
