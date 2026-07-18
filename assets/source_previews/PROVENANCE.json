@@ -28,9 +28,9 @@
       "status": "verified"
     },
     "BF-1958-TR-01": {
-      "file": "assets/source_previews/BF-1958-TR-01_source_image.jpg",
-      "kind": "archival-document",
-      "subject": "O Globo newspaper page on the Trindade photographs and Navy testimony, 1958",
+      "file": "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
+      "kind": "official-case-card",
+      "subject": "Project Blue Book Trindade record card noting ONI hoax assessment, PDF p. 2",
       "status": "verified"
     },
     "BF-1978-KK-01": {
@@ -178,10 +178,10 @@
       "status": "verified (prior session)"
     },
     "BF-1967-SH-01": {
-      "file": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
-      "kind": "context-set",
-      "subject": "Shag Harbour map, aerial, incident park",
-      "status": "verified (prior session)"
+      "file": "assets/source_previews/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
+      "kind": "official-document-scan",
+      "subject": "Canadian government UFO Report — Lower Wood Harbour, N.S.; LAC image mirrored through Enigma Labs after the legacy LAC endpoint failed",
+      "status": "verified-with-mirror-caveat"
     },
     "BF-1977-CL-01": {
       "file": "assets/source_previews/BF-1977-CL-01_source_image.jpg",
@@ -280,15 +280,15 @@
       "status": "verified-context"
     },
     "BF-1973-CY-01": {
-      "file": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
-      "kind": "context-photo",
-      "subject": "UH-1H Iroquois, period type-context (US Army photo, PD); labeled context, not the incident aircraft",
-      "status": "verified-context"
+      "file": "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
+      "kind": "investigative-report-page",
+      "subject": "Coyne interview page documenting the reported climb with collective down, Zeidman CUFOS monograph PDF p. 22",
+      "status": "verified"
     },
     "BF-2008-SV-01": {
-      "file": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
-      "kind": "primary-report",
-      "subject": "MUFON Special Research Report cover, Stephenville 2008 (full PDF hosted)",
+      "file": "assets/source_previews/STEPHENVILLE-2008-p008-radar-summary.jpg",
+      "kind": "independent-analysis-page",
+      "subject": "Schulze-Powell executive-summary page discussing unknown radar track and radar-imprecision caveat, PDF p. 8",
       "status": "verified"
     },
     "BF-2014-CH-01": {

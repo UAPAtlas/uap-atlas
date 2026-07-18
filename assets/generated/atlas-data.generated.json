@@ -6402,16 +6402,16 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "the UFO descended rapidly to the surface and made a ‘bright splash’ as it struck the water",
+      "quoteSource": "Canadian government ‘UFO Report — Lower Wood Harbour, N.S.’ scan, paragraph 1",
+      "quoteConfidence": "verified",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official summary plus archival catalog",
       "coordinateBasis": "Water-impact site just off Shag Harbour, Nova Scotia",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1967-SH-01",
       "title": "Shag Harbour Water Impact",
-      "date": "OCT 1967",
+      "date": "04 OCT 1967",
       "year": 1967,
       "location": "Shag Harbour, Nova Scotia, Canada",
       "mode": "exact",
@@ -6420,52 +6420,57 @@
       "geometryExpectation": "offshore",
       "agency": "RCMP / RCN",
       "domain": "MULTI-WITNESS / IMPACT",
-      "status": "DOCUMENTED IMPACT CASE",
+      "status": "OFFICIAL SEARCH / UNRESOLVED",
       "confidence": "CONFIRMED RECORD",
-      "summary": "Multiple witnesses, including RCMP officers, watched lights descend into the water off Shag Harbour, then observed a glowing object on the surface before it sank. Navy divers searched for days and reported nothing recovered. Canadian federal records carry it as an unexplained UFO report.",
-      "keyFact": "A water-impact event witnessed by police, logged by the Canadian government as an unsolved UFO report, and followed by a documented naval dive search.",
-      "official": "Canadian authorities classified the occurrence as an unexplained 'dark object' report; no aircraft were missing and no wreckage was announced.",
-      "gap": "Dive logs and any recovered-material records beyond the summary reports have not been fully released.",
-      "whyItMatters": "It is one of the only cases where a government's own paperwork concedes an unexplained physical event rather than a light in the sky.",
+      "summary": "A Canadian government summary records an RCMP corporal and six other witnesses observing an approximately 60-foot object descend off southwest Nova Scotia, make a bright splash, and leave a white light on the surface. A DND underwater search found no tangible evidence.",
+      "keyFact": "The released Canadian record confirms the immediate police response and underwater search while stopping short of identifying what entered the water.",
+      "official": "The released Canadian summary does not identify an aircraft or other object. It says both the surface search and the Department of National Defence diver search failed to locate tangible evidence that could explain or establish the object's identity.",
+      "gap": "The public package lacks the complete RCMP occurrence reports, rescue-coordination traffic, dive tasking and logs, precise search coordinates, sonar records, evidence inventories, and signed witness statements. Later stories about a second object and a 25-mile underwater transit are not established by the released summary.",
+      "whyItMatters": "Shag Harbour is strongest as an officially documented search for an unidentified reported impact—not as proof of later retrieval stories absent from the released file.",
       "sources": [
-        "SHAG-HARBOUR-1967 · RCMP / RCN report trail, Library and Archives Canada"
+        "SHAG-HARBOUR-DND-1967 · Canadian government UFO report scan",
+        "SHAG-HARBOUR-LAC-43130 · Library and Archives Canada collection account"
       ],
-      "sourceLabel": "Canadian federal record",
-      "sourceLocator": "SHAG-HARBOUR-1967",
+      "sourceLabel": "Canadian government record",
+      "sourceLocator": "UFO Report — Lower Wood Harbour, N.S.; LAC account 43130",
       "relatedCaseIds": [
         "BF-1965-KB-01",
         "BF-1978-VL-01"
       ],
-      "heroFact": "A water-impact event witnessed by police, logged by the Canadian government as an unsolved UFO report, and followed by a documented naval dive search.",
-      "image": "assets/source_previews/BF-1967-SH-01_source_image.jpg",
+      "heroFact": "Police and civilian witnesses triggered a real search; the released government summary records no recovered evidence and no identification.",
+      "image": "assets/source_previews/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
       "images": [
-        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_Nova_Scotia_map.gif",
-        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_incident_location_aerial.jpg",
-        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_Incident_Park.jpg"
+        "assets/source_previews/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
+        "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_incident_location_aerial.jpg"
       ],
       "caseTypes": [
-        "witness-report"
+        "witness-report",
+        "water-impact-report",
+        "official-search"
       ],
       "evidenceModes": [
-        "testimony"
+        "testimony",
+        "documentary-record",
+        "search-operation"
       ],
       "environment": [
-        "terrestrial"
+        "coastal",
+        "maritime"
       ],
-      "outcome": "documented",
+      "outcome": "officially-unresolved",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "unresolved",
+        "provenance": "official-summary-mirrored"
       },
       "temporal": {
-        "dateLabel": "OCT 1967",
+        "dateLabel": "04 OCT 1967",
         "year": 1967,
         "startDateTime": null,
         "endDateTime": null,
-        "timezone": null,
+        "timezone": "local time not fixed in archived summary",
         "durationSeconds": null,
-        "precision": "month",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -6483,25 +6488,62 @@
       },
       "sourceRecords": [
         {
-          "citation": "SHAG-HARBOUR-1967 · RCMP / RCN report trail, Library and Archives Canada",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "SHAG-HARBOUR-1967",
-          "supports": [],
-          "limitations": []
+          "citation": "SHAG-HARBOUR-DND-1967 · Canadian government UFO report scan",
+          "sourceType": "official-summary",
+          "provenance": "Library and Archives Canada image mirrored through Enigma Labs after the legacy LAC image endpoint failed",
+          "locator": "‘UFO Report — Lower Wood Harbour, N.S.’, paragraph 1",
+          "supports": [
+            "RCMP corporal and six witnesses",
+            "reported bright splash",
+            "surface light",
+            "DND diver search",
+            "no tangible evidence located"
+          ],
+          "limitations": [
+            "undated summary scan",
+            "not the complete RCMP or naval operational file",
+            "mirror custody is disclosed"
+          ]
+        },
+        {
+          "citation": "SHAG-HARBOUR-LAC-43130 · Library and Archives Canada collection account",
+          "sourceType": "official-archive-catalog",
+          "provenance": "Library and Archives Canada",
+          "locator": "Account 43130; RG77 vol. 310, reel T-1744, file UAR/N/126-137, part 13",
+          "supports": [
+            "official archival context",
+            "Canadian investigation provenance"
+          ],
+          "limitations": [
+            "catalog account is not a complete incident-file scan",
+            "linked archival series includes broader non-meteoric reports"
+          ]
         }
       ],
       "phenomena": {
-        "shapes": [],
-        "objectCount": null,
-        "luminosity": null,
-        "motion": [],
-        "effects": []
+        "shapes": [
+          "approximately 60-foot reported object"
+        ],
+        "objectCount": 1,
+        "luminosity": "bright splash and single white surface light",
+        "motion": [
+          "descending",
+          "surface light maneuvering"
+        ],
+        "effects": [
+          "reported water impact"
+        ]
       },
       "observation": {
-        "witnessCount": null,
-        "witnessRoles": [],
-        "sensors": [],
+        "witnessCount": 7,
+        "witnessRoles": [
+          "RCMP corporal",
+          "six civilian witnesses"
+        ],
+        "sensors": [
+          "unaided visual",
+          "underwater search"
+        ],
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
@@ -8084,16 +8126,16 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "we were at 3500, climbing to 3800, past 3500, and the collective is still down",
+      "quoteSource": "Zeidman, A Helicopter-UFO Encounter Over Ohio, PDF p. 22, Coyne interview",
+      "quoteConfidence": "verified direct-testimony quotation",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Independent investigation with reproduced official paperwork",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1973-CY-01",
       "title": "Coyne Helicopter Near-Collision",
-      "date": "OCT 1973",
+      "date": "18 OCT 1973",
       "year": 1973,
       "location": "Near Mansfield, Ohio",
       "mode": "exact",
@@ -8104,47 +8146,52 @@
       "geometryExpectation": "admin1",
       "agency": "US Army Reserve",
       "domain": "MILITARY / NEAR COLLISION",
-      "status": "MILITARY CREW CASE",
+      "status": "SIGNED HAZARD REPORT / CONTESTED",
       "confidence": "CONFIRMED TESTIMONY",
-      "summary": "An Army Reserve UH-1H crew of four, commanded by Capt. Lawrence Coyne, reported a gray metallic object with a green beam closing on their helicopter near Mansfield. With collective full down, the aircraft nonetheless rose from 1,700 to 3,500 feet. All four crew signed statements; ground witnesses corroborated the pass.",
-      "keyFact": "Four military crew members under flight discipline signed matching statements describing an unexplained near-collision and an uncommanded 1,800-foot climb.",
-      "official": "No Army explanation was issued; skeptical analyses propose a meteor plus altimeter misreading, which the crew rejected on the record.",
-      "gap": "The aircraft's maintenance and instrument-check records from that week were never published alongside the testimony.",
-      "whyItMatters": "It is the strongest multi-crew military close encounter in the public record — testimony with rank, names, and signatures rather than anonymity.",
+      "summary": "Four U.S. Army Reserve helicopter crew members reported a lighted object closing on their UH-1H near Mansfield, radio interruption, a green beam, and an unexpected climb while descent controls were reportedly set. A 1979 CUFOS monograph preserves interviews, ground-witness accounts, and reproductions of Army hazard paperwork.",
+      "keyFact": "The crew's report is documented and named, but the claimed uncommanded climb rests on testimony and cockpit instruments rather than preserved flight-recorder data.",
+      "official": "The encounter was placed on record through Army Operational Hazard reporting, but no official Army identification or analytical conclusion was located. The strongest published reconstruction is an independent CUFOS investigation, not a military finding.",
+      "gap": "The public package lacks the original Army case file, contemporaneous ATC recordings, complete aircraft maintenance and instrument-inspection records, raw interview tapes, radar data, and an independent flight-dynamics reconstruction from original telemetry.",
+      "whyItMatters": "Coyne combines disciplined military witnesses with real paperwork while retaining the central evidentiary weakness: no raw telemetry or complete maintenance record survives in the public package.",
       "sources": [
-        "COYNE-1973 · crew statements / Zeidman CUFOS monograph 'A Helicopter-UFO Encounter Over Ohio' (1979)"
+        "COYNE-OHR-1973 · Reproduced Army Operational Hazard paperwork",
+        "COYNE-CUFOS-1979 · Zeidman helicopter encounter monograph"
       ],
-      "sourceLabel": "Crew statements",
-      "sourceLocator": "COYNE-1973",
+      "sourceLabel": "CUFOS / Army form facsimiles",
+      "sourceLocator": "Zeidman 1979, PDF pp. 9, 22, 116–122",
       "relatedCaseIds": [
         "BF-1976-TH-01",
         "BF-1973-PG-01"
       ],
-      "heroFact": "Four military crew members under flight discipline signed matching statements describing an unexplained near-collision and an uncommanded 1,800-foot climb.",
-      "image": "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg",
+      "heroFact": "The encounter is on record; the reported flight anomalies remain testimonial rather than instrument-data evidence.",
+      "image": "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
       "caseTypes": [
-        "military-encounter"
+        "military-encounter",
+        "near-collision-report"
       ],
       "evidenceModes": [
-        "testimony"
+        "testimony",
+        "documentary-record",
+        "instrument-observation"
       ],
       "environment": [
-        "military-airspace"
+        "military-airspace",
+        "night-flight"
       ],
-      "outcome": "documented",
+      "outcome": "documented-unresolved",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "public-record-trail"
+        "anomaly": "contested",
+        "provenance": "independent-report-with-official-facsimiles"
       },
       "temporal": {
-        "dateLabel": "OCT 1973",
+        "dateLabel": "18 OCT 1973",
         "year": 1973,
         "startDateTime": null,
         "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
-        "precision": "month",
+        "timezone": "local",
+        "durationSeconds": 300,
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -8162,28 +8209,75 @@
       },
       "sourceRecords": [
         {
-          "citation": "COYNE-1973 · crew statements / Zeidman CUFOS monograph 'A Helicopter-UFO Encounter Over Ohio' (1979)",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
-          "locator": "COYNE-1973",
-          "supports": [],
-          "limitations": []
+          "citation": "COYNE-OHR-1973 · Reproduced Army Operational Hazard paperwork",
+          "sourceType": "official-record-facsimile",
+          "provenance": "Army forms reproduced in the later CUFOS monograph",
+          "locator": "Zeidman PDF pp. 120–122",
+          "supports": [
+            "formal hazard reporting",
+            "named crew",
+            "near-midair-collision allegation"
+          ],
+          "limitations": [
+            "facsimile is embedded in a later publication",
+            "original Army file not independently archived here",
+            "one reproduced memo contains apparent date/OCR inconsistencies"
+          ]
+        },
+        {
+          "citation": "COYNE-CUFOS-1979 · Zeidman helicopter encounter monograph",
+          "sourceType": "independent-investigation",
+          "provenance": "Center for UFO Studies technical monograph",
+          "locator": "PDF p. 9 abstract; pp. 17–47 crew interviews; pp. 116–117 conclusion",
+          "supports": [
+            "four crew interviews",
+            "five reported ground witnesses",
+            "radio and climb testimony",
+            "alternative hypotheses considered"
+          ],
+          "limitations": [
+            "published six years after the event",
+            "investigator rejects meteor and aircraft hypotheses",
+            "not an official military assessment"
+          ]
         }
       ],
       "phenomena": {
-        "shapes": [],
-        "objectCount": null,
-        "luminosity": null,
-        "motion": [],
-        "effects": []
+        "shapes": [
+          "cigar-shaped gray metallic object"
+        ],
+        "objectCount": 1,
+        "luminosity": "red, white, and green lights",
+        "motion": [
+          "closing",
+          "hovering relationship",
+          "departing west"
+        ],
+        "effects": [
+          "reported radio interruption",
+          "reported compass rotation",
+          "reported unexpected climb"
+        ]
       },
       "observation": {
-        "witnessCount": null,
-        "witnessRoles": [],
-        "sensors": [],
-        "durationSeconds": null,
-        "independentWitnessGroups": null
+        "witnessCount": 9,
+        "witnessRoles": [
+          "four Army Reserve aircrew",
+          "five reported ground witnesses"
+        ],
+        "sensors": [
+          "unaided visual",
+          "cockpit instruments",
+          "aircraft radios"
+        ],
+        "durationSeconds": 300,
+        "independentWitnessGroups": 2
       },
+      "images": [
+        "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
+        "assets/source_previews/COYNE-1973-p120-operational-hazard.jpg",
+        "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg"
+      ],
       "mapGeometry": null,
       "x": 29.89,
       "y": 18.14,
@@ -8298,16 +8392,16 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "the photographs do not constitute sufficient proof for this purpose",
+      "quoteSource": "Brazilian Naval Ministry statement of 23 February 1958, reproduced in Project Blue Book file, PDF p. 6",
+      "quoteConfidence": "verified quotation in government-file reproduction",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Official file with mixed embedded sources",
       "coordinateBasis": "Trindade Island, Brazilian South Atlantic territory",
       "coordinatePrecision": "island",
       "id": "BF-1958-TR-01",
       "title": "Trindade Island Navy Photographs",
-      "date": "JAN 1958",
+      "date": "16 JAN 1958",
       "year": 1958,
       "location": "Trindade Island, South Atlantic (Brazil)",
       "mode": "approximate",
@@ -8316,49 +8410,53 @@
       "geometryExpectation": "offshore",
       "agency": "Brazilian Navy",
       "domain": "MILITARY / PHOTOGRAPHIC",
-      "status": "NAVY PHOTO CASE",
+      "status": "OFFICIAL FILE / CONTESTED PHOTOS",
       "confidence": "DOCUMENTED PHOTOS / CONTESTED",
-      "summary": "Aboard the Brazilian Navy ship Almirante Saldanha, photographer Almiro Baraúna captured four frames of a Saturn-shaped object over Trindade Island; the Navy examined and released the images and Brazil's president ordered them public. Witness counts aboard remain disputed, and Baraúna's documented skill at trick photography anchors the hoax reading.",
-      "keyFact": "UFO photographs examined and released through a navy's own chain of command — with a photographer whose darkroom skill is the counter-argument.",
-      "official": "The Brazilian Navy vouched for the negatives' handling without endorsing the object's nature; skeptics attribute the images to a double exposure.",
-      "gap": "The original negatives' current custody and any full witness muster from the ship's company were never conclusively documented.",
-      "whyItMatters": "Trindade poses the photographic dilemma exactly: institutional custody at its best, source credibility at its most contested.",
+      "summary": "Civilian photographer Almiro Baraúna exposed six frames aboard the Brazilian Navy ship Almirante Saldanha; four reportedly showed an object. The U.S. Project Blue Book file records an ONI hoax assessment, while a reproduced Brazilian Naval Ministry statement said the photographs were insufficient to determine the object's reality.",
+      "keyFact": "Government custody of prints and paperwork is documented; that custody did not produce a shared official judgment about authenticity.",
+      "official": "The U.S. Blue Book record card marked the case ‘Other’ and states that ONI assessed the photographs as a hoax. The Brazilian Naval Ministry statement reproduced in the same file withheld judgment, emphasizing that photographs alone were insufficient proof.",
+      "gap": "The original negatives' present custody, a complete documented chain of custody, first-generation scans, sworn witness statements, camera and development records, and the underlying ONI photographic-analysis work product are not available in the local package.",
+      "whyItMatters": "Trindade is a clean provenance-versus-authenticity test: official files preserve incompatible assessments while the original negatives and complete analysis trail remain unavailable.",
       "sources": [
-        "TRINDADE-1958 · Brazilian Navy release / Baraúna photograph set"
+        "TRINDADE-PBB-1958 · Project Blue Book case file",
+        "TRINDADE-BRAZIL-NAVY-1958 · Naval Ministry statement reproduced in Blue Book file",
+        "TRINDADE-CIA-1958 · CIA reading-room media-report record"
       ],
-      "sourceLabel": "Brazilian Navy release",
-      "sourceLocator": "TRINDADE-1958",
+      "sourceLabel": "Project Blue Book / Brazilian Navy statement",
+      "sourceLocator": "Project Blue Book case file, PDF pp. 2, 5–12, 35, 48–52",
       "relatedCaseIds": [
         "BF-1977-CL-01",
         "BF-1990-CV-01"
       ],
-      "heroFact": "UFO photographs examined and released through a navy's own chain of command — with a photographer whose darkroom skill is the counter-argument.",
-      "image": "assets/source_previews/BF-1958-TR-01_source_image.jpg",
+      "heroFact": "The photographs entered official channels, but neither institutional custody nor release resolves whether the image was a genuine object or a constructed photograph.",
+      "image": "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
       "caseTypes": [
-        "military-encounter"
+        "photographic-case",
+        "military-context"
       ],
       "evidenceModes": [
-        "testimony",
         "photography",
+        "testimony",
         "documentary-record"
       ],
       "environment": [
-        "military-airspace"
+        "maritime",
+        "naval-expedition"
       ],
-      "outcome": "disputed",
+      "outcome": "officially-contested",
       "confidenceModel": {
         "record": "documented",
-        "anomaly": "not-assessed",
-        "provenance": "public-record-trail"
+        "anomaly": "contested-hoax-assessment",
+        "provenance": "official-file-secondary-source-mix"
       },
       "temporal": {
-        "dateLabel": "JAN 1958",
+        "dateLabel": "16 JAN 1958",
         "year": 1958,
         "startDateTime": null,
         "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
-        "precision": "month",
+        "timezone": "local",
+        "durationSeconds": 20,
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -8376,28 +8474,80 @@
       },
       "sourceRecords": [
         {
-          "citation": "TRINDADE-1958 · Brazilian Navy release / Baraúna photograph set",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
-          "locator": "TRINDADE-1958",
-          "supports": [],
-          "limitations": []
+          "citation": "TRINDADE-PBB-1958 · Project Blue Book case file",
+          "sourceType": "official-case-file",
+          "provenance": "U.S. Air Force Project Blue Book file mirror",
+          "locator": "PDF p. 2 record card; pp. 35 and 48–52 correspondence",
+          "supports": [
+            "USAF case classification",
+            "ONI hoax assessment",
+            "official correspondence trail"
+          ],
+          "limitations": [
+            "file bundles official records with advocacy and published secondary material",
+            "underlying ONI analysis and original negatives are absent"
+          ]
+        },
+        {
+          "citation": "TRINDADE-BRAZIL-NAVY-1958 · Naval Ministry statement reproduced in Blue Book file",
+          "sourceType": "official-statement-reproduction",
+          "provenance": "Brazilian Naval Ministry statement quoted in material retained by Project Blue Book",
+          "locator": "Blue Book file PDF p. 6",
+          "supports": [
+            "Brazilian Navy's cautious public position",
+            "photographs deemed insufficient for a pronouncement"
+          ],
+          "limitations": [
+            "English-language reproduction rather than the original Portuguese document",
+            "embedded in a skeptical published analysis"
+          ]
+        },
+        {
+          "citation": "TRINDADE-CIA-1958 · CIA reading-room media-report record",
+          "sourceType": "official-intelligence-record",
+          "provenance": "CIA FOIA Electronic Reading Room",
+          "locator": "CIA-RDP81R00560R000100040011-6",
+          "supports": [
+            "contemporaneous U.S. government awareness",
+            "Brazilian press-publication chronology"
+          ],
+          "limitations": [
+            "documents reporting and circulation, not photographic authenticity"
+          ]
         }
       ],
       "phenomena": {
-        "shapes": [],
-        "objectCount": null,
-        "luminosity": null,
-        "motion": [],
+        "shapes": [
+          "Saturn-like form in published photographs"
+        ],
+        "objectCount": 1,
+        "luminosity": "reported luminous or gray object",
+        "motion": [
+          "reported approach",
+          "turn",
+          "departure"
+        ],
         "effects": []
       },
       "observation": {
         "witnessCount": null,
-        "witnessRoles": [],
-        "sensors": [],
-        "durationSeconds": null,
+        "witnessRoles": [
+          "civilian photographer",
+          "civilian expedition members",
+          "disputed shipboard witnesses"
+        ],
+        "sensors": [
+          "Rolleiflex still camera",
+          "unaided visual"
+        ],
+        "durationSeconds": 20,
         "independentWitnessGroups": null
       },
+      "images": [
+        "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
+        "assets/source_previews/TRINDADE-1958-p006-Navy-statement.jpg",
+        "assets/source_previews/BF-1958-TR-01_source_image.jpg"
+      ],
       "mapGeometry": null,
       "x": 42.31,
       "y": 36.89,
@@ -8690,16 +8840,16 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": null,
-      "quoteSource": null,
-      "quoteConfidence": "not-yet-selected",
+      "keyQuote": "This object had no transponder and was tracked on radar for over an hour.",
+      "quoteSource": "Schulze-Powell, Stephenville Lights report, PDF p. 8",
+      "quoteConfidence": "verified independent-analysis quotation",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Independent analysis of official data",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-2008-SV-01",
       "title": "Stephenville Radar-Correlated Sightings",
-      "date": "JAN 2008",
+      "date": "08 JAN 2008",
       "year": 2008,
       "location": "Stephenville, Texas",
       "mode": "exact",
@@ -8710,49 +8860,54 @@
       "geometryExpectation": "admin1",
       "agency": "Civilian / MUFON FOIA",
       "domain": "MASS SIGHTING / RADAR",
-      "status": "RADAR-CORRELATED MASS CASE",
+      "status": "FAA DATA / INDEPENDENT ANALYSIS",
       "confidence": "CONFIRMED EVENT / DISPUTED IDENTITY",
-      "summary": "Dozens of Erath County witnesses, including a pilot and police, reported enormous silent lights on January 8, 2008. FAA radar data obtained by FOIA showed an unidentified track heading toward the Crawford ranch restricted zone. The Air Force first denied, then admitted, that F-16s were flying in the area that night.",
-      "keyFact": "A civilian FOIA request produced government radar returns matching the witness track — and forced a reversal of the initial official denial.",
-      "official": "USAF: F-16s from the 457th Fighter Squadron were operating in the area (after first stating otherwise); no explanation was offered for the radar track without a transponder.",
-      "gap": "Military radar data (as opposed to FAA civil returns) for the track was never released.",
-      "whyItMatters": "Stephenville proved modern FOIA could still do casework: civilian analysts correlated official sensors with witnesses in near-real time.",
+      "summary": "Multiple witnesses reported unusual lights around Dublin and Stephenville. A MUFON study analyzed 2.8 million FAA radar returns and identified non-transponder tracks near some witness directions, while explicitly acknowledging timing, association, and radar-precision limits.",
+      "keyFact": "The radar data are governmental; the correlation and extraordinary-performance claims are an independent interpretation that must be tested against the missing raw dataset and timing uncertainties.",
+      "official": "The FAA released radar data; it did not issue a finding that the returns were a UAP. The Air Force later acknowledged ten F-16s operating in the area after an initial denial. The unknown-track interpretation belongs to the independent Schulze-Powell analysis.",
+      "gap": "The local package lacks the original 2.8-million-return dataset and reproducible analysis code, military radar data, complete airborne radar recordings, unredacted squadron logs, and enough synchronized witness timing to prove that each visual report corresponds to a particular return.",
+      "whyItMatters": "Stephenville shows both the power and limit of FOIA: official sensor data can challenge an initial denial without automatically proving that a specific return was the reported object.",
       "sources": [
-        "STEPHENVILLE-2008 · MUFON radar report / FAA FOIA returns"
+        "STEPHENVILLE-MUFON-2008 · Schulze-Powell radar and witness report",
+        "STEPHENVILLE-FAA-FOIA-2008 · FAA FOIA material reproduced in report",
+        "STEPHENVILLE-USAF-457FS-2008 · 457th Fighter Squadron log reproduced in report"
       ],
-      "sourceLabel": "FAA FOIA radar",
-      "sourceLocator": "STEPHENVILLE-2008",
+      "sourceLabel": "FAA FOIA / Schulze-Powell",
+      "sourceLocator": "MUFON report PDF pp. 6–10, 35–48, 52, 73–75",
       "relatedCaseIds": [
         "BF-1997-PH-01",
         "BF-2006-OH-01"
       ],
-      "heroFact": "A civilian FOIA request produced government radar returns matching the witness track — and forced a reversal of the initial official denial.",
-      "image": "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
+      "heroFact": "Official FAA data exist, but the claimed witness-radar correlation remains an analytical inference rather than an FAA conclusion.",
+      "image": "assets/source_previews/STEPHENVILLE-2008-p008-radar-summary.jpg",
       "caseTypes": [
-        "mass-sighting"
+        "mass-sighting",
+        "radar-correlation"
       ],
       "evidenceModes": [
         "radar",
-        "testimony"
+        "testimony",
+        "foia-records"
       ],
       "environment": [
-        "terrestrial"
+        "civilian-airspace",
+        "military-training-area"
       ],
-      "outcome": "disputed",
+      "outcome": "documented-data-contested-interpretation",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "anomaly": "contested-correlation",
+        "provenance": "official-data-independent-analysis"
       },
       "temporal": {
-        "dateLabel": "JAN 2008",
+        "dateLabel": "08 JAN 2008",
         "year": 2008,
-        "startDateTime": null,
-        "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
-        "precision": "month",
-        "eventForm": "single-event"
+        "startDateTime": "2008-01-08T18:00:00-06:00",
+        "endDateTime": "2008-01-08T21:30:00-06:00",
+        "timezone": "CST",
+        "durationSeconds": 12600,
+        "precision": "reported-window",
+        "eventForm": "multi-report-window"
       },
       "geospatial": {
         "geometry": {
@@ -8769,28 +8924,88 @@
       },
       "sourceRecords": [
         {
-          "citation": "STEPHENVILLE-2008 · MUFON radar report / FAA FOIA returns",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "STEPHENVILLE-2008",
-          "supports": [],
-          "limitations": []
+          "citation": "STEPHENVILLE-MUFON-2008 · Schulze-Powell radar and witness report",
+          "sourceType": "independent-analysis",
+          "provenance": "MUFON technical report using FAA FOIA data and witness interviews",
+          "locator": "PDF pp. 6–10 executive summary/data provenance; pp. 35–48 analysis",
+          "supports": [
+            "witness chronology",
+            "radar-return interpretation",
+            "military-flight reconstruction",
+            "reported unknown tracks"
+          ],
+          "limitations": [
+            "authors, not FAA, make the correlations",
+            "report acknowledges radar imprecision and witness-time uncertainty",
+            "raw dataset and code are not locally archived"
+          ]
+        },
+        {
+          "citation": "STEPHENVILLE-FAA-FOIA-2008 · FAA FOIA material reproduced in report",
+          "sourceType": "official-record-reproduction",
+          "provenance": "FAA FOIA request/reply and derived radar data described in the report",
+          "locator": "PDF pp. 9, 14–18, 73–75",
+          "supports": [
+            "FAA data provenance",
+            "requested radar fields",
+            "sensor coverage"
+          ],
+          "limitations": [
+            "appendix does not contain the complete 2.8-million-return dataset",
+            "FAA released data but did not endorse the authors' object identification"
+          ]
+        },
+        {
+          "citation": "STEPHENVILLE-USAF-457FS-2008 · 457th Fighter Squadron log reproduced in report",
+          "sourceType": "official-record-reproduction",
+          "provenance": "Partially redacted squadron log retained in independent report",
+          "locator": "PDF p. 52; discussion pp. 6–7 and 20–30",
+          "supports": [
+            "ten F-16 operations in the area",
+            "basis for correcting the initial public denial"
+          ],
+          "limitations": [
+            "partially redacted",
+            "does not identify the unknown radar returns",
+            "airborne radar recordings were not retained in the public package"
+          ]
         }
       ],
       "phenomena": {
-        "shapes": [],
+        "shapes": [
+          "large arrangements of lights",
+          "dark object reports"
+        ],
         "objectCount": null,
-        "luminosity": null,
-        "motion": [],
+        "luminosity": "bright lights",
+        "motion": [
+          "stationary reports",
+          "rapid-motion reports",
+          "slow radar track"
+        ],
         "effects": []
       },
       "observation": {
         "witnessCount": null,
-        "witnessRoles": [],
-        "sensors": [],
-        "durationSeconds": null,
+        "witnessRoles": [
+          "civilian witnesses",
+          "pilot",
+          "law-enforcement witness"
+        ],
+        "sensors": [
+          "FAA primary radar",
+          "FAA secondary radar",
+          "unaided visual",
+          "binoculars"
+        ],
+        "durationSeconds": 12600,
         "independentWitnessGroups": null
       },
+      "images": [
+        "assets/source_previews/STEPHENVILLE-2008-p008-radar-summary.jpg",
+        "assets/source_previews/STEPHENVILLE-2008-p043-radar-track.jpg",
+        "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png"
+      ],
       "mapGeometry": null,
       "x": 25.28,
       "y": 20.75,
@@ -13152,11 +13367,12 @@
     {
       "id": "TL-1958B",
       "year": 1958,
-      "date": "JAN 1958",
+      "date": "16 JAN 1958",
       "type": "incident",
       "caseId": "BF-1958-TR-01",
-      "title": "Trindade photographs released",
-      "desc": "Brazil's president orders Navy-examined saucer photos public; the photographer's skill fuels dispute."
+      "title": "Trindade Island Navy Photographs",
+      "desc": "Brazil's president orders Navy-examined saucer photos public; the photographer's skill fuels dispute.",
+      "summary": "Civilian photographer Almiro Baraúna exposed six frames aboard the Brazilian Navy ship Almirante Saldanha; four reportedly showed an object. The U.S. Project Blue Book file records an ONI hoax assessment, while a reproduced Brazilian Naval Ministry statement said the photographs were insufficient to determine the object's reality."
     },
     {
       "id": "TL-1959A",
@@ -13296,11 +13512,12 @@
     {
       "id": "TL-1967B",
       "year": 1967,
-      "date": "OCT 1967",
+      "date": "04 OCT 1967",
       "type": "incident",
       "caseId": "BF-1967-SH-01",
-      "title": "Shag Harbour water impact",
-      "desc": "RCMP officers watch an object enter the water; Canadian records log an unexplained 'dark object' report."
+      "title": "Shag Harbour Water Impact",
+      "desc": "RCMP officers watch an object enter the water; Canadian records log an unexplained 'dark object' report.",
+      "summary": "A Canadian government summary records an RCMP corporal and six other witnesses observing an approximately 60-foot object descend off southwest Nova Scotia, make a bright splash, and leave a white light on the surface. A DND underwater search found no tangible evidence."
     },
     {
       "id": "T-1968-HIM-01",
@@ -13509,11 +13726,12 @@
     {
       "id": "TL-1973C",
       "year": 1973,
-      "date": "OCT 1973",
+      "date": "18 OCT 1973",
       "type": "incident",
       "caseId": "BF-1973-CY-01",
-      "title": "Coyne helicopter near-collision",
-      "desc": "Four Army Reserve crew sign statements on an unexplained close pass and uncommanded climb."
+      "title": "Coyne Helicopter Near-Collision",
+      "desc": "Four Army Reserve crew sign statements on an unexplained close pass and uncommanded climb.",
+      "summary": "Four U.S. Army Reserve helicopter crew members reported a lighted object closing on their UH-1H near Mansfield, radio interruption, a green beam, and an unexpected climb while descent controls were reportedly set. A 1979 CUFOS monograph preserves interviews, ground-witness accounts, and reproductions of Army hazard paperwork."
     },
     {
       "id": "TL-1975A",
@@ -13770,11 +13988,12 @@
     {
       "id": "TL-2008B",
       "year": 2008,
-      "date": "JAN 2008",
+      "date": "08 JAN 2008",
       "type": "incident",
       "caseId": "BF-2008-SV-01",
-      "title": "Stephenville radar correlation",
-      "desc": "FOIA radar returns match witness tracks; the Air Force reverses its initial denial."
+      "title": "Stephenville Radar-Correlated Sightings",
+      "desc": "FOIA radar returns match witness tracks; the Air Force reverses its initial denial.",
+      "summary": "Multiple witnesses reported unusual lights around Dublin and Stephenville. A MUFON study analyzed 2.8 million FAA radar returns and identified non-transponder tracks near some witness directions, while explicitly acknowledging timing, association, and radar-precision limits."
     },
     {
       "id": "TL-2008C",
