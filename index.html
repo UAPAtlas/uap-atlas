@@ -548,7 +548,6 @@ svg#atlasSvg:active{cursor:grabbing}
 
 /* drawer pills & tabs */
 .case-drawer .pills{gap:7px;margin:11px 0 12px}
-.mobile-status{display:none}
 .case-drawer .drawer-tabs{display:flex;align-items:center;gap:3px;margin:12px 0 14px;padding:3px;overflow-x:auto;scrollbar-width:none;border-radius:var(--r-md);border:1px solid var(--hair);background:rgba(255,255,255,.018)}
 .case-drawer .drawer-tabs::-webkit-scrollbar{display:none}
 .case-drawer .drawer-tab{
@@ -773,6 +772,12 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
 .mobile-only{display:none!important;}
 
 @media(max-width:1080px){
+  /* iOS WebKit can hide the selected reticle when SVG filter bounds are inferred off-screen. */
+  .selection-beacon,.selection-bracket,.selection-spark{filter:none}
+  .selection-reticle-outer{stroke:rgba(240,248,255,.98);stroke-width:.18}
+  .selection-reticle-inner{stroke:rgba(95,212,242,.96);stroke-width:.16}
+  .selection-bracket{stroke-width:.21}
+  .selection-label-bg{fill:rgba(3,7,12,.96);stroke:rgba(95,212,242,.86)}
   body:before{content:none!important;display:none!important;}
   .mobile-only{display:flex!important;}
   body{background:#020408;}
@@ -795,60 +800,54 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .map-panel>.panel-inner.map-shell{height:100%;border-radius:0;}
   .map-shell:before{opacity:.72}.map-shell:after{opacity:.07;background-size:52px 52px}
   svg#atlasSvg{touch-action:none;user-select:none;-webkit-user-select:none;}
-  body[data-mobile-page="map"] svg#atlasSvg{width:188%;max-width:none;margin-left:-44%;transform:translateY(-48px);}
+  body[data-mobile-page="map"] svg#atlasSvg{width:176%;max-width:none;margin-left:-38%;}
   .map-title{left:16px;top:15px;font-size:10px;letter-spacing:.18em;color:rgba(232,238,243,.7)}
   .map-ui{top:12px;right:12px;display:grid;grid-template-columns:repeat(2,46px);gap:8px;}
   .map-ui .zoom-readout{display:none}.iconbtn{width:46px;height:46px;border-radius:13px;font-size:18px;background:rgba(3,7,12,.82);}
   .map-fullscreen{display:grid!important;}
-  .legend{left:12px;right:12px;bottom:calc(106px + env(safe-area-inset-bottom));max-width:none;display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;row-gap:7px;overflow:hidden;padding:9px 11px;font-size:9px;}
-  .legend span{white-space:nowrap;}
+  .legend{left:12px;right:12px;bottom:calc(106px + env(safe-area-inset-bottom));max-width:none;flex-wrap:nowrap;overflow-x:auto;gap:13px;padding:9px 11px;font-size:10px;scrollbar-width:none;}
+  .legend::-webkit-scrollbar{display:none}.legend span{white-space:nowrap;}
   .map-tip{display:none;}
-  /* iOS WebKit miscomputes the bounds of SVG filters on this zoomed group,
-     producing a giant off-screen filter box and hiding the reticle. */
-  .selection-beacon{filter:none}
-  .selection-bracket,.selection-spark{filter:none}
-  .selection-reticle-outer{stroke:rgba(240,248,255,.98);stroke-width:.18}
-  .selection-reticle-inner{stroke:rgba(95,212,242,.96);stroke-width:.16}
-  .selection-bracket{stroke-width:.21}
-  .selection-label-bg{fill:rgba(3,7,12,.96);stroke:rgba(95,212,242,.86)}
 
   .mobile-case-peek{
     position:fixed;z-index:28;left:12px;right:12px;bottom:calc(var(--mobile-nav-h) + 10px);
-    min-height:70px;align-items:center;gap:10px;padding:9px 10px 9px 12px;border:1px solid rgba(95,212,242,.15);border-radius:13px;
-    background:rgba(6,12,19,.88);backdrop-filter:blur(20px) saturate(125%);box-shadow:0 14px 36px rgba(0,0,0,.34);
+    min-height:82px;align-items:center;gap:11px;padding:12px 12px 12px 14px;border:1px solid rgba(95,212,242,.22);border-radius:15px;
+    background:rgba(6,12,19,.9);backdrop-filter:blur(22px) saturate(130%);box-shadow:0 18px 46px rgba(0,0,0,.42);
   }
   body:not([data-mobile-page="map"]) .mobile-case-peek{display:none!important;}
   .peek-copy{min-width:0;flex:1}.peek-meta{font:600 10px/1.2 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
-  .peek-title{margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;font-weight:600;color:#F2F5F9}
-  .peek-loc{margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px;color:var(--muted)}
-  .peek-open{flex:0 0 auto;min-width:86px;height:44px;padding:0 11px;border:1px solid rgba(95,212,242,.22);border-radius:11px;background:rgba(95,212,242,.075);color:#ECFAFF;font:600 11px var(--sans);}
+  .peek-title{margin-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:600;color:#F2F5F9}
+  .peek-loc{margin-top:3px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:11px;color:var(--muted)}
+  .peek-open{flex:0 0 auto;min-width:90px;height:46px;padding:0 12px;border:1px solid rgba(95,212,242,.3);border-radius:12px;background:rgba(95,212,242,.1);color:#ECFAFF;font:600 11px var(--sans);}
 
   .mobile-nav{
     position:fixed;z-index:70;left:0;right:0;bottom:0;height:var(--mobile-nav-h);align-items:flex-start;padding:6px 10px env(safe-area-inset-bottom);
     border-top:1px solid rgba(198,224,246,.1);background:rgba(3,7,12,.92);backdrop-filter:blur(24px) saturate(135%);
   }
-  .mobile-nav button{height:50px;flex:1;display:grid;place-items:center;align-content:center;gap:3px;border:0;border-radius:11px;background:transparent;color:rgba(140,150,163,.8);font:600 10px var(--sans);}
-  .mobile-nav-icon{width:19px;height:19px;display:block;fill:none;stroke:currentColor;stroke-width:1.45;stroke-linecap:round;stroke-linejoin:round}
-  .mobile-nav button.active{color:#EAFBFF;background:rgba(95,212,242,.07);box-shadow:inset 0 0 0 1px rgba(95,212,242,.12)}
+  .mobile-nav button{height:50px;flex:1;display:grid;place-items:center;align-content:center;gap:3px;border:0;border-radius:12px;background:transparent;color:rgba(140,150,163,.8);font:600 10px var(--sans);}
+  .mobile-nav button:before{font:500 18px/1 var(--mono);color:currentColor;}
+  .mobile-nav button[data-page="map"]:before{content:'⌖'}
+  .mobile-nav button[data-page="cases"]:before{content:'≡'}
+  .mobile-nav button[data-page="dossier"]:before{content:'▱'}
+  .mobile-nav button.active{color:#EAFBFF;background:rgba(95,212,242,.09);box-shadow:inset 0 0 0 1px rgba(95,212,242,.16)}
 
   /* Page 2 — full stack */
   .list-panel .panel-inner{height:100%;padding:0 16px 14px;overflow:hidden;display:flex;flex-direction:column;}
-  .list-panel .panel-head{flex:0 0 auto;gap:7px;margin:0 -16px 6px;padding:11px 16px 9px;border-bottom:1px solid rgba(198,224,246,.08);background:rgba(5,9,15,.94);}
-  .stack-banner-row{width:100%;min-width:0;min-height:28px;gap:10px}.stack-banner-row:first-child{align-items:center}
-  .stack-banner-left{display:flex;align-items:baseline;gap:8px}.panel-title{font-size:16px;letter-spacing:.04em;text-transform:none;font-family:var(--sans)}
-  .stack-banner-left #stackSubtitle{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.count{font-size:9px;line-height:1.3}.stack-banner-row:first-child>#caseCount{padding-top:0;color:var(--accent);white-space:nowrap}
-  .stack-banner-row:nth-child(2){display:flex;flex-direction:column-reverse;gap:7px;overflow:visible;}
-  .filter-chips{position:relative;width:100%;max-width:100%;min-width:0;overflow-x:auto;gap:7px;padding:0 22px 1px 0;scrollbar-width:none;mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 24px),transparent 100%)}.filter-chips::-webkit-scrollbar{display:none}
-  .fchip{flex:0 0 auto;width:auto;max-width:132px;height:38px;padding:0 12px;font-size:9px;}
-  select.fchip{width:132px;}
+  .list-panel .panel-head{flex:0 0 auto;gap:10px;margin:0 -16px 8px;padding:14px 16px 12px;border-bottom:1px solid rgba(198,224,246,.08);background:rgba(5,9,15,.94);}
+  .stack-banner-row{width:100%;min-width:0;min-height:34px;gap:10px}.stack-banner-row:first-child{align-items:flex-start}
+  .stack-banner-left{display:block}.panel-title{font-size:16px;letter-spacing:.06em;text-transform:none;font-family:var(--sans)}
+  .count{font-size:10px;line-height:1.35}.stack-banner-row:first-child>#caseCount{padding-top:3px;color:var(--accent)}
+  .stack-banner-row:nth-child(2){display:block;overflow:visible;}
+  .filter-chips{width:100%;max-width:100%;min-width:0;overflow-x:auto;gap:7px;padding-bottom:2px;scrollbar-width:none}.filter-chips::-webkit-scrollbar{display:none}
+  .fchip{height:42px;padding:0 13px;font-size:10px;}
   select.fchip{padding-right:28px;background-position:calc(100% - 16px) calc(50% - 1px),calc(100% - 12px) calc(50% - 1px)}
-  .stack-banner-right{display:flex;min-width:0;margin-top:0;width:100%;}.stack-return{height:40px}.case-search{min-width:0;width:100%;height:42px;border-radius:11px;padding:0 13px;font-size:14px}.case-search:focus{width:100%;}
+  .stack-banner-right{display:flex;min-width:0;margin-top:8px;width:100%;}.stack-return{height:42px}.case-search{min-width:0;width:100%;height:44px;border-radius:12px;padding:0 13px;font-size:14px}.case-search:focus{width:100%;}
   .case-list{flex:1;min-height:0;overflow-y:auto;padding:0 0 calc(10px + env(safe-area-inset-bottom));}
-  .case-row{min-height:62px;padding:8px 10px;grid-template-columns:98px minmax(0,1fr);gap:9px;border-radius:10px;}
+  .case-row{min-height:64px;padding:9px 6px 9px 10px;grid-template-columns:98px minmax(0,1fr) auto;gap:9px;border-radius:10px;}
   .case-row+.case-row{border-top:1px solid rgba(198,224,246,.055)}
-  .case-row.active{background:rgba(95,212,242,.055);box-shadow:inset 2px 0 rgba(95,212,242,.82)}
-  .file-id .id{font-size:10px}.file-id small{font-size:10px}.file-main .t{font-size:13px;line-height:1.25}.file-main .m{font-size:10.5px;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .row-actions{display:none}.row-actions .pill{max-width:78px;padding:5px 7px;font-size:8px;overflow:hidden;text-overflow:ellipsis;}
+  .case-row.active{background:rgba(95,212,242,.07);box-shadow:inset 2px 0 var(--accent)}
+  .file-id .id{font-size:10px}.file-id small{font-size:10px}.file-main .t{font-size:13px;line-height:1.25}.file-main .m{font-size:10.5px;line-height:1.3;white-space:normal;display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical}
+  .row-actions .pill{max-width:78px;padding:5px 7px;font-size:8px;overflow:hidden;text-overflow:ellipsis;}
 
   /* Page 3 — dossier as a full page */
   body[data-mobile-page="dossier"] .app{display:none;}
@@ -858,17 +857,16 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .case-drawer{position:relative;inset:auto;width:100%;height:100%;max-width:none;padding:0 16px 28px;border:0;border-radius:0;background:linear-gradient(180deg,#071019,#020408 32%);box-shadow:none;overflow-x:hidden;overflow-y:auto;}
   .drawer-header{margin:0 -16px 10px;padding:calc(13px + env(safe-area-inset-top)) 16px 13px;grid-template-columns:minmax(0,1fr) auto;background:rgba(5,10,16,.94);border-bottom:1px solid rgba(198,224,246,.08);}
   .drawer-heading .eyebrow{font-size:9px;line-height:1.35}.case-drawer .case-title{margin-top:5px;font-size:20px;line-height:1.12;letter-spacing:-.025em}.case-drawer .loc{font-size:11px;line-height:1.4;margin-top:5px;}
-  .drawer-nav{align-self:start;display:grid;grid-template-columns:44px 44px;gap:4px 5px}.drawer-navbtn,.case-drawer .drawer-close{width:44px;height:44px;border-radius:12px}.drawer-pos{display:block;grid-column:1/3;grid-row:2;min-width:0;height:10px;line-height:10px;font-size:8px}.case-drawer .drawer-close{display:none;}
-  .drawer-evidence{margin:12px 0;border-radius:14px;border-color:rgba(95,212,242,.14)}.carousel-stage{height:242px}.carousel-media{object-fit:contain;background:#010204}.carousel-nav{width:44px;height:44px}.carousel-caption{left:10px;right:10px;bottom:10px;max-width:none;min-height:32px;padding:6px 9px;border:0;background:linear-gradient(90deg,rgba(2,6,10,.72),rgba(2,6,10,.42));backdrop-filter:blur(7px)}.carousel-caption b{font-size:9px}.carousel-caption span{font-size:10px}.carousel-context{min-height:44px;padding:7px 10px;font-size:10px;line-height:1.35;background:rgba(4,9,15,.84);border-top-color:rgba(198,224,246,.06)}.carousel-action{min-height:40px;padding:0 10px;}
+  .drawer-nav{align-self:start;gap:5px}.drawer-navbtn,.case-drawer .drawer-close{width:44px;height:44px;border-radius:12px}.drawer-pos{display:none}.case-drawer .drawer-close{display:none;}
+  .drawer-evidence{margin:12px 0;border-radius:14px}.carousel-stage{height:242px}.carousel-media{object-fit:contain;background:#010204}.carousel-nav{width:44px;height:44px}.carousel-caption{left:10px;right:10px;bottom:10px;max-width:none;padding:8px 10px}.carousel-caption b{font-size:9px}.carousel-caption span{font-size:11px}.carousel-context{font-size:10px;line-height:1.4}.carousel-action{min-height:40px;padding:0 10px;}
   .carousel-thumbs{gap:8px;padding:9px;overflow-x:auto}.carousel-thumb{min-width:88px;width:88px;height:60px;}
-  .pills{margin:9px 0;overflow:visible}.case-drawer .pills>.pill:not(.mobile-status){display:none}.case-drawer .pills>.mobile-status{display:flex;width:100%;min-height:34px;align-items:center;padding:7px 10px;border-radius:8px;white-space:normal;line-height:1.3}
+  .pills{margin:10px 0;gap:7px;overflow-x:auto;flex-wrap:nowrap;scrollbar-width:none}.pills .pill{flex:0 0 auto;min-height:30px;display:flex;align-items:center;}
   .drawer-tabs{position:sticky;top:calc(90px + env(safe-area-inset-top));z-index:10;margin:0 -16px 14px;padding:8px 16px;gap:6px;overflow-x:auto;background:rgba(3,7,12,.94);backdrop-filter:blur(18px);scrollbar-width:none}.drawer-tabs::-webkit-scrollbar{display:none}
   .drawer-tab{flex:0 0 auto;min-width:auto;height:42px;padding:0 13px;border-radius:10px;font-size:9.5px;}
   .drawer-panel{padding-bottom:24px}.case-intel{padding:14px}.key-fact-copy{font-size:14px;line-height:1.55}.quote-card blockquote{font-size:14px}.why-card p,.drawer-box p,.drawer-summary{font-size:14px;line-height:1.58}
   .dossier-strip{grid-template-columns:repeat(4,minmax(118px,1fr));overflow-x:auto}.strip-cell{min-width:118px;padding:11px}.strip-cell b{font-size:9px}.strip-cell span{font-size:11px}
   .drawer-grid{grid-template-columns:1fr}.drawer-box{padding:14px}.drawer-timeline-row{grid-template-columns:72px 10px 1fr;gap:10px}.drawer-timeline-row b{font-size:10px}.drawer-timeline-row strong{font-size:14px}.drawer-timeline-row span{font-size:13px}
   .drawer-source{padding:12px 0}.drawer-source-label{flex-basis:100%;font-size:13px;line-height:1.45}.file-link{min-height:44px;padding:9px 11px;font-size:12px}.file-link small{max-width:190px;}
-  .related-chip{min-height:44px;padding:10px 12px;border-color:rgba(198,224,246,.08);background:rgba(255,255,255,.015)}
   .lightbox-frame{width:100vw;height:100dvh;border:0;border-radius:0}.lightbox-tools{top:calc(10px + env(safe-area-inset-top));right:10px;left:10px;overflow-x:auto}.lightbox-tools button,.lightbox-tools a{height:44px;min-width:44px;background:rgba(4,8,13,.9)}
 }
 
@@ -879,7 +877,7 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   body[data-mobile-page="map"] .map-ui{top:10px;right:calc(10px + env(safe-area-inset-right));grid-template-columns:repeat(4,44px)}
   body[data-mobile-page="map"] .iconbtn{width:44px;height:44px}
   body[data-mobile-page="map"] .map-title{left:calc(14px + env(safe-area-inset-left));top:13px}
-  body[data-mobile-page="map"] svg#atlasSvg{width:116%;margin-left:-8%;transform:translateY(-10px);}
+  body[data-mobile-page="map"] svg#atlasSvg{width:100%;margin-left:0;}
 }
 
 body.map-immersive .app{grid-template-rows:0 minmax(0,1fr)!important;padding:0!important;}
@@ -889,6 +887,43 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
 
 @media(max-width:380px){
   .brand-secondary{display:none}.case-row{grid-template-columns:88px minmax(0,1fr) auto}.row-actions{display:none}.carousel-stage{height:216px}.drawer-navbtn{width:42px}
+}
+
+/* Sprint 1 — premium restraint overrides */
+@media(max-width:1080px){
+  body[data-mobile-page="map"] .map-panel>.panel-inner.map-shell{display:block;background:#03070C}
+  body[data-mobile-page="map"] svg#atlasSvg{width:188%;height:100%;max-width:none;margin-left:-44%;transform:translateY(-8px)}
+  body[data-mobile-page="cases"] .main,body[data-mobile-page="cases"] .list-panel,body[data-mobile-page="cases"] .list-panel .panel-inner{width:100%;max-width:100%;min-width:0}
+  .map-ui{display:flex;flex-direction:column;gap:6px}
+  .legend{left:12px;right:12px;bottom:calc(94px + env(safe-area-inset-bottom));max-width:none;display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;gap:7px 12px;padding:9px 11px;overflow:visible}
+  .legend span{white-space:nowrap}
+  .mobile-case-peek{min-height:70px;gap:10px;padding:9px 10px 9px 12px;border-color:rgba(95,212,242,.18);border-radius:14px}
+  .peek-title{margin-top:3px;font-size:13px}.peek-loc{margin-top:2px;font-size:10px}
+  .peek-open{min-width:82px;height:44px;padding:0 10px;border-color:rgba(95,212,242,.26);border-radius:11px;background:rgba(95,212,242,.08)}
+  .mobile-nav svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+  .list-panel .panel-head{gap:8px;margin-bottom:6px;padding:11px 16px 10px;border-bottom-color:rgba(198,224,246,.07)}
+  .stack-banner-row:first-child{order:1}.stack-banner-row:nth-child(2){order:2;display:flex!important;flex-direction:column;align-items:stretch;min-width:0;overflow:hidden}
+  .stack-banner-right{order:1;margin-top:0!important}.filter-chips{order:2}
+  .panel-title{font-size:18px;letter-spacing:-.02em}
+  .filter-chips{position:relative;width:100%;max-width:100%;min-width:0;padding-right:24px;overflow-x:auto;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent)}
+  .stack-banner-right{margin-top:6px}
+  .case-row{min-height:58px;padding:8px 6px 8px 10px;grid-template-columns:92px minmax(0,1fr);gap:9px;border-radius:9px}
+  .row-actions{display:none!important}
+  .drawer-header{margin-bottom:8px;padding:calc(11px + env(safe-area-inset-top)) 16px 11px;border-bottom-color:rgba(198,224,246,.07)}
+  .drawer-nav{align-self:start;display:grid;grid-template-columns:44px 44px;gap:5px}
+  .drawer-pos{display:block;grid-column:1/-1;grid-row:2;min-width:0;padding-top:3px;text-align:center;font-size:10px}
+  .case-drawer>.pills{display:none}
+  .mobile-status{display:block;margin:9px 0 7px;padding:9px 11px;border-top:1px solid rgba(198,224,246,.07);border-bottom:1px solid rgba(198,224,246,.07);font:600 10px/1.35 var(--mono);letter-spacing:.045em;text-transform:uppercase;color:rgba(198,205,214,.74)}
+  .mobile-status b{color:#EAFBFF;font-weight:600}.mobile-status i{padding:0 6px;color:rgba(140,150,163,.45);font-style:normal}
+  .drawer-tabs{top:calc(88px + env(safe-area-inset-top));display:grid!important;grid-template-columns:repeat(3,1fr);gap:5px;overflow:visible;padding:7px 16px}
+  .drawer-tab{min-width:0!important;height:42px;padding:0 8px;font-size:9.5px}
+  .mobile-brief-context{display:grid;gap:10px;margin-top:12px}
+}
+@media(max-width:1080px) and (orientation:landscape){
+  body[data-mobile-page="map"] .map-panel>.panel-inner.map-shell{display:flex;align-items:center;justify-content:center}
+  body[data-mobile-page="map"] svg#atlasSvg{width:100%;height:100%;margin-left:0;transform:none}
+  body[data-mobile-page="map"] .map-ui{flex-direction:row}
+  body[data-mobile-page="map"] .legend{left:12px;right:auto;bottom:10px;max-width:58%;display:flex;flex-wrap:wrap;justify-content:flex-start}
 }
 
 </style>
@@ -929,8 +964,8 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
         <defs>
           <radialGradient id="ocean" cx="50%" cy="40%" r="75%"><stop offset="0%" stop-color="#0d1525"/><stop offset="100%" stop-color="#030508"/></radialGradient>
           <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="0" dy="0" stdDeviation=".9" flood-color="#5fc9e8" flood-opacity=".9"/></filter>
-          <filter id="selectionGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation="1.0" flood-color="#5fd4f2" flood-opacity=".76"/><feDropShadow dx="0" dy="0" stdDeviation="2.7" flood-color="#5fd4f2" flood-opacity=".38"/></filter>
-          <filter id="selectionBracketGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation=".6" flood-color="#5fd4f2" flood-opacity=".88"/></filter>
+          <filter id="selectionGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation=".42" flood-color="#5fd4f2" flood-opacity=".62"/><feDropShadow dx="0" dy="0" stdDeviation="1.35" flood-color="#5fd4f2" flood-opacity=".22"/></filter>
+          <filter id="selectionBracketGlow" filterUnits="userSpaceOnUse" x="-100" y="-62" width="300" height="186" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="0" stdDeviation=".28" flood-color="#5fd4f2" flood-opacity=".75"/></filter>
         </defs>
         <rect width="100" height="62" fill="url(#ocean)"/>
         <g id="countryLayer" class="country-layer" opacity=".98"><g class="continents"><path class="land" data-country="Afghanistan" data-iso-a3="AFG" fill-rule="evenodd" d="M66.26,19.18L66.33,19.17L66.39,19.18L66.43,19.21L66.46,19.22L66.49,19.21L66.51,19.2L66.52,19.21L66.53,19.22L66.56,19.22L66.57,19.22L66.57,19.23L66.58,19.24L66.6,19.27L66.64,19.29L66.67,19.3L66.7,19.28L66.71,19.28L66.71,19.27L66.71,19.26L66.73,19.24L66.77,19.23L66.79,19.22L66.79,19.21L66.81,19.2L66.82,19.21L66.83,19.2L66.83,19.19L66.83,19.19L66.84,19.19L66.85,19.18L66.86,19.19L66.89,19.2L66.93,19.24L66.95,19.25L66.96,19.25L66.97,19.24L66.98,19.22L66.98,19.2L66.96,19.16L66.96,19.14L66.98,19.12L67.01,19.1L67.05,19.1L67.08,19.1L67.1,19.11L67.11,19.12L67.13,19.12L67.14,19.11L67.15,19.08L67.15,19.05L67.13,19.01L67.13,19L67.13,19L67.15,18.98L67.17,18.96L67.18,18.92L67.2,18.88L67.22,18.85L67.25,18.84L67.3,18.85L67.35,18.89L67.38,18.93L67.38,18.98L67.39,19L67.4,19.01L67.42,19.01L67.44,19L67.45,19L67.46,19.01L67.47,19.02L67.46,19.04L67.47,19.1L67.47,19.15L67.48,19.2L67.48,19.25L67.5,19.28L67.53,19.33L67.55,19.37L67.57,19.38L67.59,19.38L67.6,19.38L67.63,19.36L67.68,19.32L67.72,19.29L67.79,19.28L67.81,19.23L67.83,19.2L67.9,19.16L67.94,19.14L67.96,19.14L67.99,19.15L68,19.15L68.01,19.15L68.02,19.16L68.03,19.17L68.03,19.19L68.02,19.2L68.01,19.21L68.02,19.21L68.05,19.21L68.09,19.2L68.12,19.19L68.14,19.19L68.15,19.17L68.16,19.16L68.18,19.16L68.2,19.16L68.22,19.17L68.26,19.17L68.28,19.18L68.31,19.2L68.32,19.21L68.33,19.22L68.31,19.22L68.29,19.21L68.28,19.2L68.28,19.2L68.27,19.2L68.24,19.21L68.2,19.24L68.21,19.24L68.24,19.27L68.25,19.28L68.26,19.28L68.23,19.29L68.18,19.32L68.15,19.34L68.14,19.34L68.11,19.33L68.07,19.32L68.07,19.32L67.99,19.32L67.92,19.33L67.89,19.33L67.83,19.34L67.8,19.34L67.78,19.35L67.75,19.36L67.73,19.36L67.71,19.37L67.69,19.38L67.68,19.4L67.64,19.43L67.62,19.44L67.61,19.46L67.6,19.46L67.58,19.46L67.56,19.48L67.55,19.5L67.52,19.54L67.5,19.55L67.5,19.58L67.51,19.59L67.54,19.61L67.56,19.63L67.57,19.64L67.59,19.68L67.61,19.72L67.62,19.73L67.63,19.76L67.64,19.77L67.64,19.79L67.63,19.8L67.64,19.81L67.65,19.82L67.66,19.83L67.66,19.84L67.66,19.85L67.65,19.87L67.64,19.88L67.63,19.91L67.61,19.93L67.6,19.94L67.59,19.97L67.57,20L67.56,20.02L67.55,20.04L67.54,20.04L67.55,20.06L67.56,20.07L67.58,20.09L67.59,20.12L67.59,20.14L67.6,20.17L67.59,20.19L67.55,20.21L67.5,20.22L67.44,20.22L67.42,20.22L67.4,20.21L67.33,20.19L67.31,20.2L67.31,20.24L67.37,20.29L67.39,20.32L67.42,20.37L67.44,20.4L67.44,20.42L67.41,20.45L67.37,20.48L67.32,20.48L67.28,20.49L67.27,20.51L67.27,20.56L67.26,20.58L67.27,20.61L67.26,20.64L67.25,20.66L67.24,20.69L67.25,20.74L67.28,20.84L67.26,20.87L67.24,20.9L67.22,20.92L67.19,20.93L67.17,20.93L67.15,20.91L67.13,20.89L67.11,20.88L67.09,20.88L67.08,20.9L67.05,20.89L67.02,20.88L67,20.88L67,20.89L66.97,20.92L66.91,20.96L66.88,20.96L66.87,20.97L66.88,20.99L66.9,21L66.92,21.01L66.92,21.02L66.91,21.03L66.89,21.04L66.86,21.05L66.82,21.06L66.77,21.05L66.75,21.03L66.72,21.03L66.7,21.05L66.68,21.07L66.66,21.11L66.65,21.12L66.65,21.13L66.63,21.14L66.61,21.15L66.6,21.19L66.6,21.25L66.61,21.28L66.62,21.34L66.62,21.37L66.61,21.4L66.62,21.42L66.64,21.44L66.63,21.46L66.62,21.48L66.61,21.48L66.56,21.5L66.49,21.53L66.44,21.54L66.37,21.56L66.35,21.57L66.31,21.57L66.28,21.57L66.25,21.57L66.2,21.57L66.17,21.57L66.14,21.59L66.12,21.6L66.11,21.61L66.11,21.62L66.07,21.61L65.97,21.59L65.7,21.62L65.67,21.61L65.57,21.58L65.44,21.54L65.36,21.51L65.26,21.48L65.31,21.39L65.36,21.32L65.41,21.25L65.45,21.18L65.45,21.15L65.45,21.1L65.42,21.04L65.39,21.01L65.31,21L65.25,20.99L65.19,20.98L65.18,20.97L65.16,20.92L65.16,20.9L65.15,20.86L65.14,20.82L65.14,20.77L65.14,20.74L65.09,20.64L65.07,20.58L65.04,20.51L65.03,20.49L65.03,20.47L65.06,20.41L65.07,20.4L65.09,20.37L65.1,20.36L65.09,20.35L65.07,20.34L65.03,20.34L65.01,20.33L64.99,20.32L64.98,20.29L64.98,20.25L64.96,20.18L64.97,20.14L64.99,20.11L65.05,20.11L65.02,20.08L65.01,20.06L65,20.05L65,20.05L65,20.04L65.01,20.04L65.02,20.03L65.04,20.01L65.04,20L65.04,19.99L65.05,19.98L65.06,19.96L65.06,19.94L65.06,19.92L65.06,19.9L65.06,19.88L65.07,19.87L65.06,19.85L65.05,19.83L65.05,19.82L65.06,19.81L65.07,19.8L65.07,19.79L65.07,19.77L65.07,19.75L65.08,19.74L65.08,19.73L65.07,19.71L65.09,19.71L65.1,19.72L65.11,19.73L65.15,19.76L65.17,19.77L65.19,19.77L65.22,19.77L65.24,19.76L65.26,19.76L65.29,19.78L65.32,19.81L65.33,19.82L65.34,19.84L65.35,19.85L65.37,19.83L65.39,19.82L65.4,19.83L65.42,19.83L65.44,19.82L65.45,19.82L65.48,19.79L65.5,19.77L65.52,19.76L65.52,19.72L65.53,19.7L65.54,19.69L65.53,19.68L65.52,19.66L65.51,19.65L65.52,19.64L65.53,19.64L65.56,19.64L65.61,19.62L65.65,19.6L65.69,19.59L65.71,19.59L65.72,19.59L65.73,19.58L65.73,19.57L65.74,19.56L65.76,19.55L65.8,19.52L65.83,19.49L65.84,19.46L65.84,19.42L65.84,19.36L65.85,19.3L65.85,19.27L65.85,19.25L65.88,19.23L65.91,19.21L65.97,19.21L66.03,19.21L66.03,19.17L66.03,19.14L66.04,19.13L66.05,19.11L66.06,19.11L66.1,19.13L66.15,19.16L66.22,19.17L66.25,19.18Z"/>
@@ -1244,9 +1279,9 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
 <div class="console-footer"><span>Classification&nbsp;&nbsp;//&nbsp;&nbsp;<b>Restricted</b></span><span>◎ Data sources verified</span><span>Last sync&nbsp;&nbsp;<b id="syncClock">--:--:--</b></span></div>
 </div>
 <nav class="mobile-nav mobile-only" aria-label="Atlas pages">
-  <button type="button" data-page="map"><svg class="mobile-nav-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/><circle cx="12" cy="12" r="8" opacity=".45"/></svg><span>Map</span></button>
-  <button type="button" data-page="cases"><svg class="mobile-nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h12M7 12h12M7 19h12"/><circle cx="3.5" cy="5" r=".8"/><circle cx="3.5" cy="12" r=".8"/><circle cx="3.5" cy="19" r=".8"/></svg><span>Cases</span></button>
-  <button type="button" data-page="dossier"><svg class="mobile-nav-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3.5h10l4 4V21H5z"/><path d="M15 3.5V8h4M8 12h8M8 16h8"/></svg><span>Dossier</span></button>
+  <button type="button" data-page="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20Z"/><path d="M9 4v13.5M15 6.5V20"/></svg>Map</button>
+  <button type="button" data-page="cases"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>Cases</button>
+  <button type="button" data-page="dossier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6Z"/><path d="M15 3v4h4M9 11h6M9 15h6"/></svg>Dossier</button>
 </nav>
 <div class="drawer-backdrop" id="drawerBackdrop"><aside class="case-drawer" id="caseDrawer" role="dialog" aria-modal="true" aria-label="Full case file"></aside></div>
 <script>
@@ -1362,7 +1397,7 @@ function resetStackFilters(){
 function matchesFilters(c){if(state.filters.agency!=='all' && c.agency!==state.filters.agency) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
 function buildFilters(){const agencies=['all',...new Set(cases.map(c=>c.agency))]; const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))]; const precisions=['all','exact','unresolved','redacted','orbital','institutional']; agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join(''); domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join(''); precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');}
 function renderLabels(){labelsG.innerHTML = labels.map(l=>`<text class="label" x="${l.x}" y="${l.y}">${l.name}</text>`).join('');}
-function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : ''; const status=markerStatus(c); const place=c.location.split(',').slice(0,2).join(','); return `<div class="case-row ${active}" data-id="${c.id}" role="button" tabindex="0" aria-label="Select ${esc(c.title)}, ${esc(c.date)}"><div class="file-id"><div class="id">${c.id}</div><small>${c.date}</small></div><div class="file-main"><div class="t">${c.title}</div><div class="m">${c.year} · ${esc(place)}</div></div><div class="row-actions"><div class="pill ${statusPill[status]}">${c.mode}</div></div></div>`;}
+function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : ''; const status=markerStatus(c); return `<div class="case-row ${active}" data-id="${c.id}" role="button" tabindex="0" aria-label="Select ${esc(c.title)}, ${esc(c.date)}"><div class="file-id"><div class="id">${c.id}</div><small>${c.date}</small></div><div class="file-main"><div class="t">${c.title}</div><div class="m">${c.location} · ${c.agency}</div></div><div class="row-actions"><div class="pill ${statusPill[status]}">${c.mode}</div></div></div>`;}
 function renderCaseList(){const base=stackBaseCases(); const filtered = base.filter(matchesFilters); syncStackHeader(); caseCount.textContent = `${filtered.length} / ${base.length}`; const empty=state.stackMode==='orbital'?'No orbital / lunar evidence matches the current filters.':'No main-stack cases match the current filters.'; caseList.innerHTML = filtered.map(caseCard).join('') || `<div class="empty">${empty}</div>`; caseList.querySelectorAll('.case-row').forEach(el=>{const choose=()=>selectCase(el.dataset.id,true);el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});});}
 function quoteHtml(c,caption=true){if(!c.keyQuote) return ''; const source=caption&&c.quoteSource?`<figcaption>${esc(c.quoteSource)} · ${esc(c.quoteConfidence||'quote selected')}</figcaption>`:''; return `<figure class="quote-card"><blockquote>“${esc(c.keyQuote)}”</blockquote>${source}</figure>`;}
 function keyFactHtml(c,includeWhy=false){const hero=includeWhy; const quote=hero?quoteHtml(c,false):''; const meta=hero?factMetaLine(c):''; const why=hero&&c.whyItMatters?`<div class="why-card"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''; return `<div class="case-intel ${hero?'fact-hero':''}"><div class="label2">Key finding</div><div class="key-fact-copy">${esc(c.heroFact||c.keyFact||c.summary)}</div>${quote}${meta}</div>${why}`;}
@@ -1530,9 +1565,8 @@ function updateSelectionBeaconTransform(){
   const beacon=selectionLayer.querySelector('.selection-beacon');
   if(!beacon) return;
   const x=beacon.dataset.x, y=beacon.dataset.y;
-  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${selectionBeaconScale()})`);
+  if(x&&y) beacon.setAttribute('transform',`translate(${x},${y}) scale(${markerScale()})`);
 }
-function selectionBeaconScale(){return markerScale()*(window.matchMedia('(max-width:1080px)').matches?1.28:1);}
 function selectionAnchorCase(){
   const c=cases.find(x=>x.id===state.selectedCaseId);
   if(!c) return null;
@@ -1550,7 +1584,7 @@ function renderSelectionBeacon(pulse=false){
   const w=clamp(String(c.id).length*.48+2.65,5.4,11.8);
   const labelX=-w/2;
   const wave=pulse?'<circle class="selection-wave" r="1.12"/>':'';
-  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${selectionBeaconScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
+  selectionLayer.innerHTML=`<g class="selection-beacon" data-x="${esc(c.x)}" data-y="${esc(c.y)}" transform="translate(${esc(c.x)},${esc(c.y)}) scale(${markerScale()})">${wave}<circle class="selection-reticle selection-reticle-outer" r="2.75"/><circle class="selection-reticle selection-reticle-inner" r="1.42"/><circle class="selection-spark" r=".2"/><line class="selection-label-stem" x1="0" y1="${lineStart}" x2="0" y2="${lineEnd}"/><g class="selection-label" transform="translate(${labelX},${labelY})"><rect class="selection-label-bg" x="0" y="0" width="${w}" height="2.35" rx=".56"/><text class="selection-label-kicker" x="${w/2}" y=".78">SELECTED</text><text class="selection-label-id" x="${w/2}" y="1.72">${esc(c.id)}</text></g><path class="selection-bracket" d="M -2.95 -1.55 L -2.95 -2.95 L -1.55 -2.95 M 1.55 -2.95 L 2.95 -2.95 L 2.95 -1.55 M 2.95 1.55 L 2.95 2.95 L 1.55 2.95 M -1.55 2.95 L -2.95 2.95 L -2.95 1.55"/></g>`;
 }
 
 
@@ -1690,7 +1724,7 @@ function openFullCase(id){
   if(!backdrop.classList.contains('open')) drawerReturnFocus=document.activeElement;
   const navList=visibleStackCases();
   const navPos=navList.findIndex(x=>x.id===id);
-  drawer.innerHTML=`<div class="drawer-header"><div class="drawer-heading"><div class="eyebrow">${esc(c.id)} · ${esc(c.mode)} · ${esc(c.domain)}</div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.date)} · ${esc(c.location)} · ${esc(c.agency)}</div></div><div class="drawer-nav">${navPos>=0&&navList.length>1?`<button class="drawer-navbtn" type="button" data-drawer-nav="-1" aria-label="Previous case">‹</button><span class="drawer-pos">${navPos+1} / ${navList.length}</span><button class="drawer-navbtn" type="button" data-drawer-nav="1" aria-label="Next case">›</button>`:''}<button class="drawer-close" aria-label="Close full case file">×</button></div></div>${evidenceCarousel(c)}<div class="pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span><span class="pill mobile-status ${statusPill[markerStatus(c)]}">${esc(c.status)} · ${esc(compactConfidence(c.confidence))}</span></div><div class="drawer-tabs"><button class="drawer-tab active" data-tab="brief">BRIEF</button><button class="drawer-tab" data-tab="timeline">TIMELINE</button><button class="drawer-tab" data-tab="sources">FILES / SOURCES</button></div><section class="drawer-panel active" data-panel="brief">${keyFactHtml(c,true)}${briefFooterStrip(c)}${relatedRecordsHtml(c)}</section><section class="drawer-panel" data-panel="timeline">${drawerTimeline(c.id)}</section><section class="drawer-panel" data-panel="sources">${sourceLinksHtml(c)}</section>`;
+  drawer.innerHTML=`<div class="drawer-header"><div class="drawer-heading"><div class="eyebrow">${esc(c.id)} · ${esc(c.mode)} · ${esc(c.domain)}</div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.date)} · ${esc(c.location)} · ${esc(c.agency)}</div></div><div class="drawer-nav">${navPos>=0&&navList.length>1?`<button class="drawer-navbtn" type="button" data-drawer-nav="-1" aria-label="Previous case">‹</button><span class="drawer-pos">${navPos+1} / ${navList.length}</span><button class="drawer-navbtn" type="button" data-drawer-nav="1" aria-label="Next case">›</button>`:''}<button class="drawer-close" aria-label="Close full case file">×</button></div></div>${evidenceCarousel(c)}<div class="pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span></div><div class="drawer-tabs"><button class="drawer-tab active" data-tab="brief">BRIEF</button><button class="drawer-tab" data-tab="timeline">TIMELINE</button><button class="drawer-tab" data-tab="official">OFFICIAL POSITION</button><button class="drawer-tab" data-tab="gaps">RECORD GAPS</button><button class="drawer-tab" data-tab="sources">FILES / SOURCES</button></div><section class="drawer-panel active" data-panel="brief">${keyFactHtml(c,true)}${briefFooterStrip(c)}${relatedRecordsHtml(c)}</section><section class="drawer-panel" data-panel="timeline">${drawerTimeline(c.id)}</section><section class="drawer-panel" data-panel="official"><div class="drawer-box"><h4>Public / official position</h4><p>${esc(c.official)}</p></div></section><section class="drawer-panel" data-panel="gaps"><div class="drawer-box"><h4>What is still missing</h4><p>${esc(c.gap)}</p></div></section><section class="drawer-panel" data-panel="sources">${sourceLinksHtml(c)}</section>`;
   backdrop.classList.add('open');
   initCarousel(drawer);
 
@@ -1868,6 +1902,26 @@ function renderMobilePeek(){
   if(!c||!meta||!title||!loc) return;
   meta.textContent=`${c.id} · ${c.date}`; title.textContent=c.title; loc.textContent=`${c.location} · ${c.agency}`;
 }
+function normalizeMobileDossier(){
+  const drawer=document.getElementById('caseDrawer');
+  if(!drawer) return;
+  const brief=drawer.querySelector('[data-panel="brief"]');
+  const official=drawer.querySelector('[data-panel="official"] .drawer-box');
+  const gaps=drawer.querySelector('[data-panel="gaps"] .drawer-box');
+  if(brief&&!brief.querySelector('.mobile-brief-context')){
+    const context=document.createElement('div');
+    context.className='mobile-brief-context';
+    if(official) context.append(official.cloneNode(true));
+    if(gaps) context.append(gaps.cloneNode(true));
+    brief.append(context);
+  }
+  drawer.querySelectorAll('[data-tab="official"],[data-tab="gaps"],[data-panel="official"],[data-panel="gaps"]').forEach(el=>el.remove());
+  const c=cases.find(x=>x.id===state.selectedCaseId);
+  const pills=drawer.querySelector(':scope > .pills');
+  if(c&&pills&&!drawer.querySelector('.mobile-status')){
+    pills.insertAdjacentHTML('afterend',`<div class="mobile-status"><b>${esc(c.status)}</b><i>·</i>${esc(compactConfidence(c.confidence))}</div>`);
+  }
+}
 function syncMobileNav(){
   document.body.dataset.mobilePage=mobilePage;
   document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>{
@@ -1937,7 +1991,7 @@ updateUrl=function(){
   const next='#'+p.toString(); lastWrittenHash=next; try{history.replaceState(null,'',location.pathname+location.search+next);}catch(_){location.hash=next;}
 };
 const originalOpenFullCase=openFullCase;
-openFullCase=function(id){originalOpenFullCase(id);mobilePage='dossier';syncMobileNav();renderMobilePeek();};
+openFullCase=function(id){originalOpenFullCase(id);mobilePage='dossier';normalizeMobileDossier();syncMobileNav();renderMobilePeek();};
 const originalCloseFullCase=closeFullCase;
 closeFullCase=function(){if(matchMedia('(max-width:1080px)').matches){setMobilePage('cases');return;}originalCloseFullCase();};
 const originalSelectCase=selectCase;
@@ -1946,7 +2000,7 @@ selectCase=function(id,zoom){originalSelectCase(id,zoom);renderMobilePeek();};
 const initialMobileParams=new URLSearchParams(location.hash.replace(/^#\/?/,''));
 mobilePage=mobilePages.has(initialMobileParams.get('page'))?initialMobileParams.get('page'):(urlCaseId?'dossier':'map');
 syncMobileNav();renderMobilePeek();
-if(mobilePage==='dossier'&&state.selectedCaseId) originalOpenFullCase(state.selectedCaseId);
+if(mobilePage==='dossier'&&state.selectedCaseId){originalOpenFullCase(state.selectedCaseId);normalizeMobileDossier();}
 
 </script>
 </body>
