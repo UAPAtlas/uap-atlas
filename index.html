@@ -803,11 +803,14 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   .legend{left:12px;right:12px;bottom:calc(106px + env(safe-area-inset-bottom));max-width:none;display:grid;grid-template-columns:repeat(3,max-content);justify-content:space-between;row-gap:7px;overflow:hidden;padding:9px 11px;font-size:9px;}
   .legend span{white-space:nowrap;}
   .map-tip{display:none;}
-  .selection-beacon{filter:url(#selectionGlow)}
-  .selection-reticle-outer{stroke:rgba(240,248,255,.9);stroke-width:.18}
-  .selection-reticle-inner{stroke:rgba(95,212,242,.88);stroke-width:.16}
+  /* iOS WebKit miscomputes the bounds of SVG filters on this zoomed group,
+     producing a giant off-screen filter box and hiding the reticle. */
+  .selection-beacon{filter:none}
+  .selection-bracket,.selection-spark{filter:none}
+  .selection-reticle-outer{stroke:rgba(240,248,255,.98);stroke-width:.18}
+  .selection-reticle-inner{stroke:rgba(95,212,242,.96);stroke-width:.16}
   .selection-bracket{stroke-width:.21}
-  .selection-label-bg{fill:rgba(3,7,12,.94);stroke:rgba(95,212,242,.76)}
+  .selection-label-bg{fill:rgba(3,7,12,.96);stroke:rgba(95,212,242,.86)}
 
   .mobile-case-peek{
     position:fixed;z-index:28;left:12px;right:12px;bottom:calc(var(--mobile-nav-h) + 10px);
