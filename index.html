@@ -657,7 +657,7 @@ svg#atlasSvg:active{cursor:grabbing}
 .topbar-right .controls{display:none}
 
 /* filter capsule chips — compact, era-rail-consistent */
-.filter-chips{display:flex;align-items:center;gap:5px;flex-wrap:nowrap}
+.filter-chips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr)) auto;align-items:center;gap:5px;flex:1;min-width:0}
 .fchip{
   flex:0 0 auto;height:26px;padding:0 9px;cursor:pointer;border-radius:999px;
   border:1px solid var(--hair);background:rgba(255,255,255,.02);
@@ -685,13 +685,13 @@ select.fchip option{background:#0a1018;color:#e8eef3;font-size:11px}
 .stack-return:hover{border-color:rgba(95,212,242,.42);background:rgba(95,212,242,.11);color:#F2F5F9}
 .stack-return[hidden]{display:none}
 .case-search{
-  width:130px;height:26px;padding:0 9px;border-radius:999px;
+  width:90px;height:26px;padding:0 9px;border-radius:999px;
   border:1px solid var(--hair);background:rgba(255,255,255,.024);
   color:var(--text);font-size:11px;outline:none;
   transition:border-color .15s ease,background .15s ease,width .2s ease;
 }
 .case-search::placeholder{color:rgba(140,150,163,.5)}
-.case-search:focus{width:160px;border-color:rgba(95,212,242,.38);background:rgba(95,212,242,.05)}
+.case-search:focus{width:120px;border-color:rgba(95,212,242,.38);background:rgba(95,212,242,.05)}
 .case-search::-webkit-search-cancel-button{-webkit-appearance:none}
 
 /* map zoom readout + hover tooltip */
