@@ -1915,7 +1915,9 @@ parseUrlState();
 buildEraRail();
 renderAll(); resetView();
 if(urlCaseId && cases.some(c=>c.id===urlCaseId)){ selectCase(urlCaseId,true); openFullCase(urlCaseId); }
-else selectCase((visibleStackCases()[0]||stackBaseCases()[0]||cases[0]).id,false);
+// The bare site URL is the Atlas home: map-first, with no case pre-selected.
+// A dossier should only become active after an explicit marker/list selection or case deep link.
+else resetAtlasHome();
 
 /* Atlas Mobile three-page controller */
 let mobilePage='map';
