@@ -22740,6 +22740,189 @@
       ],
       "x": 28.96,
       "y": 20.64
+    },
+    {
+      "id": "BF-SF-14",
+      "title": "Special File: CIA OSE Study Group — 1952 Internal UFO Review",
+      "date": "AUG 1952",
+      "year": 1952,
+      "location": "Washington, D.C. (CIA headquarters)",
+      "mode": "institutional",
+      "agency": "CIA / OSI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED · INTERNAL REVIEW",
+      "confidence": "CONFIRMED RECORD · INSTITUTIONAL ANALYSIS",
+      "summary": "In August 1952, following the Washington D.C. radar flap and a formal query from the White House, CIA's Office of Scientific Intelligence (OSI) convened an internal study group to review the UFO situation. The group reviewed Swedish sightings back to 1946, individual official reports, press coverage, Soviet press indexes, and spent a day at Wright Field with Air Force investigators. Their briefing to the Intelligence Advisory Committee reported that ATIC carried 20% of 1,500 reports as unexplained, acknowledged 'incredible reports by credible observers,' and identified three danger points: psychological vulnerability, air-defense vulnerability, and the Soviet press silence. The OSE briefing directly led to the January 1953 Robertson Panel.",
+      "official": "The CIA's own internal review acknowledged a 20% unexplained rate and identified air-defense and psychological vulnerabilities. It recommended further research, coordination with the Research and Development Board, and a public information policy to minimize panic. It explicitly raised psychological warfare implications — both US offensive use and Soviet exploitation of American credulity.",
+      "gap": "The full OSE Study Group working papers, meeting minutes, and individual member analyses remain missing from the declassified record. The two surviving documents (CIA-RDP81R00560R000100020012-7 and -013-6) are the IAC briefing package, not the underlying study materials. The identity of the specific CIA consultants consulted has not been declassified.",
+      "sources": [
+        "CIA-UAP-014 · IAC 'Flying Saucers' briefing, 36pp (CIA-RDP81R00560R000100020012-7, declassified 2001)",
+        "CIA-UAP-018 · OSE Study Group briefing, 11pp (CIA-RDP81R00560R000100020013-6, declassified 2001)"
+      ],
+      "image": "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
+      "images": [
+        "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
+        "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_001.png",
+        "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_009.png"
+      ],
+      "lon": -77.0369,
+      "lat": 38.9072,
+      "coordinateBasis": "CIA headquarters, Washington, D.C.",
+      "expectedCountry": "United States of America",
+      "expectedAdmin1": "District of Columbia",
+      "geometryExpectation": "admin1",
+      "coordinatePrecision": "city",
+      "keyFact": "The CIA's own August 1952 internal study acknowledged a 20% unexplained rate among 1,500 Air Force reports and warned of air-defense vulnerability — then recommended psychological warfare planning and public information control.",
+      "whyItMatters": "This is the bureaucratic fingerprint of the CIA entering the UFO field. It documents the chain from the 1952 Washington flap to the 1953 Robertson Panel, and reveals that the CIA's internal assessment was more candid than its public position. The 20% unexplained figure — twice Blue Book's final published 6% — was known internally before the Robertson Panel was convened to manage it.",
+      "keyQuote": "Of the 1500, ATIC carries 20% as unexplained and of those received since the first of this year, 26%.",
+      "quoteSource": "CIA OSE Study Group briefing, Aug 1952, p. 9 (CIA-RDP81R00560R000100020013-6)",
+      "quoteConfidence": "verified primary-source quotation",
+      "heroFact": "The CIA's 1952 internal review acknowledged a 20% unexplained rate — and warned of air-defense and psychological warfare implications.",
+      "significance": "Critical institutional significance — documents CIA's internal UFO analysis predating the Robertson Panel",
+      "sourceQuality": "Primary CIA declassified briefing documents (47 pages, IAC package)",
+      "sourceLabel": "CIA / OSI declassified record",
+      "sourceLocator": "CIA-UAP-014 / CIA-UAP-018",
+      "relatedCaseIds": [
+        "BF-1953-RP-00",
+        "BF-1952-DC-01",
+        "BF-SF-07",
+        "BF-1946-GR-01"
+      ],
+      "caseTypes": [
+        "institutional-review",
+        "cia-internal-study",
+        "psychological-warfare-assessment"
+      ],
+      "evidenceModes": [
+        "documentary-record",
+        "institutional-analysis",
+        "classified-briefing"
+      ],
+      "environment": [
+        "cia-headquarters",
+        "cold-war-context"
+      ],
+      "outcome": "internal-review-led-to-robertson-panel",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "institutional-analysis",
+        "provenance": "cia-declassified-briefing-package"
+      },
+      "temporal": {
+        "dateLabel": "AUG 1952",
+        "year": 1952,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "month",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.0369,
+            38.9072
+          ]
+        },
+        "role": "institutional-location",
+        "precision": "city",
+        "uncertaintyKm": 5,
+        "basis": "CIA headquarters, Washington, D.C."
+      },
+      "sourceRecords": [
+        {
+          "citation": "CIA-UAP-014 · IAC 'Flying Saucers' briefing package",
+          "sourceType": "institutional-briefing",
+          "provenance": "Central Intelligence Agency, Office of Scientific Intelligence, declassified 2001",
+          "locator": "Aug-Oct 1952; 36pp; CIA-RDP81R00560R000100020012-7",
+          "supports": [
+            "iac-review-of-ufo-situation",
+            "nsc-recommendation",
+            "psychological-warfare-planning",
+            "air-vulnerability-warning"
+          ],
+          "limitations": [
+            "working-papers-not-declassified",
+            "consultant-identities-redacted"
+          ]
+        },
+        {
+          "citation": "CIA-UAP-018 · OSE Study Group briefing",
+          "sourceType": "institutional-briefing",
+          "provenance": "Central Intelligence Agency, Office of Scientific Intelligence, declassified 2001",
+          "locator": "Aug 1952; 11pp; CIA-RDP81R00560R000100020013-6",
+          "supports": [
+            "20-percent-unexplained",
+            "credible-observers",
+            "soviet-press-silence",
+            "four-theories",
+            "mass-hysteria-concern"
+          ],
+          "limitations": [
+            "scanned-image-PDF",
+            "poor-OCR-quality",
+            "underlying-study-materials-missing"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [],
+        "objectCount": null,
+        "luminosity": null,
+        "motion": [],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": null,
+        "witnessRoles": [
+          "CIA/OSI analysts",
+          "ATIC officers consulted",
+          "CIA scientific consultants"
+        ],
+        "sensors": [
+          "documentary-review",
+          "intelligence-analysis"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": null
+      },
+      "taxonomyOriginal": {
+        "domain": "GOVERNMENT / INSTITUTIONAL",
+        "status": "CIA INTERNAL REVIEW — 20% UNEXPLAINED",
+        "confidence": "CONFIRMED RECORD / INSTITUTIONAL ANALYSIS"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
+        "mediaType": "image",
+        "visualType": "document-excerpt",
+        "caption": "Cover sheet of the CIA IAC 'Flying Unidentified Objects (Flying Saucers)' briefing, August 1952.",
+        "provenance": "CIA, declassified — CIA-RDP81R00560R000100020012-7",
+        "evidenceStatus": "Source-document page; establishes the institutional record of CIA's 1952 internal UFO review.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "CIA — UFO records (FOIA reading room)",
+          "url": "https://www.cia.gov/readingroom/collection/ufos",
+          "publisher": "Central Intelligence Agency",
+          "access": "Public",
+          "scope": "collection",
+          "note": "CIA UFO records; search by CIA-RDP81R00560R000100020012-7 and CIA-RDP81R00560R000100020013-6."
+        },
+        {
+          "label": "CIA's Role in the Study of UFOs, 1947-90",
+          "url": "https://sgp.fas.org/library/ciaufo.html",
+          "publisher": "Federation of American Scientists",
+          "access": "Public",
+          "scope": "analytical-history",
+          "note": "FAS-published historical study of CIA UFO involvement."
+        }
+      ],
+      "x": 31.06,
+      "y": 18.7
     }
   ],
   "timeline": [
@@ -22949,6 +23132,15 @@
       "caseId": "BF-1952-R5D-01",
       "title": "R5D pilot 'bright disc' encounter",
       "desc": "A night-training pilot reported a disc 'brighter than white phosphorus' that circled his aircraft — red lights on wingtips, but no wings."
+    },
+    {
+      "id": "TL-1952-OSE",
+      "year": 1952,
+      "date": "AUG 1952",
+      "type": "case",
+      "caseId": "BF-SF-14",
+      "title": "CIA OSE Study Group internal UFO review",
+      "desc": "CIA's Office of Scientific Intelligence briefed the IAC on UFOs — 20% unexplained rate, air-defense vulnerability, psychological warfare implications."
     },
     {
       "id": "TL-1953",
