@@ -19,8 +19,26 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+      - name: Build site artifact
+        run: |
+          mkdir -p /tmp/site
+          # Copy web-facing files only (exclude large binaries)
+          rsync -av \
+            --exclude='*.pdf' \
+            --exclude='*.mp4' \
+            --exclude='*.webm' \
+            --exclude='*.txt' \
+            --exclude='.git' \
+            --exclude='node_modules' \
+            --exclude='workbench' \
+            --exclude='__pycache__' \
+            --exclude='qa' \
+            --exclude='research' \
+            --exclude='source-files' \
+            --exclude='scripts' \
+            ./ /tmp/site/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: /tmp/site
       - id: deployment
         uses: actions/deploy-pages@v4
