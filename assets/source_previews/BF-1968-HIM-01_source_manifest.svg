@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">CIA-UAP-016 source record</title>
+  <desc id="desc">Source manifest preview for the 1968 CIA report covering sightings in Ladakh, Nepal, Sikkim, and Bhutan.</desc>
+  <rect width="1280" height="720" fill="#05090f"/>
+  <rect x="48" y="48" width="1184" height="624" rx="18" fill="#0a111b" stroke="#263848"/>
+  <text x="88" y="120" fill="#65d8ff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="24" letter-spacing="4">PRIMARY RECORD</text>
+  <text x="88" y="210" fill="#f1f6fa" font-family="Inter, Helvetica, Arial, sans-serif" font-size="52" font-weight="700">Himalayan UAP Reports</text>
+  <text x="88" y="268" fill="#a9b7c5" font-family="Inter, Helvetica, Arial, sans-serif" font-size="28">Ladakh · Nepal · Sikkim · Bhutan</text>
+  <line x1="88" y1="318" x2="1192" y2="318" stroke="#263848"/>
+  <text x="88" y="390" fill="#dce7ef" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="26">CIA-UAP-016</text>
+  <text x="88" y="440" fill="#93a7b8" font-family="Inter, Helvetica, Arial, sans-serif" font-size="23">Incident span: 19 February–25 March 1968</text>
+  <text x="88" y="490" fill="#93a7b8" font-family="Inter, Helvetica, Arial, sans-serif" font-size="23">Six reported observations across four Himalayan regions</text>
+  <text x="88" y="582" fill="#657888" font-family="Inter, Helvetica, Arial, sans-serif" font-size="19">Source-manifest preview — open FILES / SOURCES for the official record.</text>
+</svg>

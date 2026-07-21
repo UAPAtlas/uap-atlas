@@ -188,17 +188,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1957-RB-01_source_image.jpg"
-      ],
-      "x": 26.56,
-      "y": 20.82,
-      "mapGeometry": {
-        "type": "LineString",
-        "d": "M27.43,21.32L27.67,20.71L27,20.82L25.54,20.59L25.35,20.57L25.73,19.75L26.52,18.69",
-        "label": "RB-47 aircraft route during reported contact",
-        "basis": "AIAA 1971 key map and contemporary positions; line follows the aircraft, not a measured object trajectory.",
-        "confidence": "approximate",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "id": "BF-1933-MG-01",
@@ -351,9 +341,7 @@
       ],
       "images": [
         "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg"
-      ],
-      "x": 52,
-      "y": 16.71
+      ]
     },
     {
       "keyQuote": "Night-fighter crews of the 415th NFS reported glowing balls of light pacing their aircraft over the Rhine in 1944–45, nicknamed 'foo fighters.'",
@@ -506,9 +494,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 51.75,
-      "y": 15.66
+      ]
     },
     {
       "keyQuote": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing.",
@@ -660,9 +646,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1946-GR-01_source_image.jpg"
-      ],
-      "x": 54.5,
-      "y": 10.84
+      ]
     },
     {
       "keyQuote": "…like a saucer if you skip it across the water.",
@@ -821,9 +805,7 @@
           "access": "Public",
           "scope": "public-mirror"
         }
-      ],
-      "x": 21.25,
-      "y": 16.3
+      ]
     },
     {
       "keyQuote": "Harold Dahl claimed a doughnut-shaped craft dropped slag onto his boat in Puget Sound; Fred Crisman promoted the tale.",
@@ -962,9 +944,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1947-MI-01_source_image.jpg"
-      ],
-      "x": 21.17,
-      "y": 16.14
+      ]
     },
     {
       "keyQuote": "The many rumors regarding the flying disc became a reality yesterday…",
@@ -1123,9 +1103,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1947-RW-01_source_image.jpg"
-      ],
-      "x": 23.65,
-      "y": 20.22
+      ]
     },
     {
       "keyQuote": "Frank Scully's 1950 bestseller 'Behind the Flying Saucers' described a disc and sixteen bodies recovered near Aztec — sourced to Silas Newton and Leo GeBauer, con men later convicted of fraud.",
@@ -1279,9 +1257,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 23.27,
-      "y": 19.34
+      ]
     },
     {
       "keyQuote": "Eastern Air Lines pilots Clarence Chiles and John Whitted reported a torpedo-shaped object with a flaming exhaust passing their DC-3 head-on near Montgomery.",
@@ -1419,9 +1395,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1948-CW-01_source_image.jpg"
-      ],
-      "x": 28.27,
-      "y": 20.71
+      ]
     },
     {
       "keyQuote": "Since the CAA Control Tower at Hector Airport has no recording device, no copy of the conversation between the Control Tower and Lt. Gorman is obtainable.",
@@ -1596,9 +1570,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1948-GD-01_source_image.jpg"
-      ],
-      "x": 27.13,
-      "y": 16.29
+      ]
     },
     {
       "keyQuote": "Capt. Thomas Mantell, Kentucky ANG, died when his P-51 crashed during a climb after an object reported over Godman Field in January 1948.",
@@ -1739,9 +1711,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 28.54,
-      "y": 19.37
+      ]
     },
     {
       "keyQuote": "The situation was the UFOs; the estimate was that they were interplanetary!",
@@ -1896,9 +1866,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-07_source_image.jpg"
-      ],
-      "x": 29.43,
-      "y": 18.43
+      ]
     },
     {
       "id": "BF-1949-LA-00",
@@ -1907,8 +1875,8 @@
       "year": 1949,
       "location": "Los Alamos, New Mexico",
       "mode": "exact",
-      "x": 23.59,
-      "y": 19.63,
+      "x": 21.56,
+      "y": 24.52,
       "agency": "DOE / AEC",
       "domain": "NUCLEAR / SENSITIVE SITE",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -2312,9 +2280,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1950-GF-01_source_image.jpg"
-      ],
-      "x": 23.8,
-      "y": 16.1
+      ]
     },
     {
       "keyQuote": "…credible observers of relatively incredible things.",
@@ -2456,9 +2422,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 31.07,
-      "y": 18.7
+      ]
     },
     {
       "keyQuote": "Explanation — pillow balloons or birds",
@@ -2597,9 +2561,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1952-TM-01_source_image.jpg"
-      ],
-      "x": 22.82,
-      "y": 17.85
+      ]
     },
     {
       "keyQuote": "How I Control Gravitation",
@@ -2735,9 +2697,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-03_source_image.jpg"
-      ],
-      "x": 30.06,
-      "y": 19.56
+      ]
     },
     {
       "id": "BF-1953-RP-00",
@@ -2746,8 +2706,8 @@
       "year": 1953,
       "location": "Washington, D.C. / Institutional",
       "mode": "institutional",
-      "x": 31.06,
-      "y": 18.7,
+      "x": 29.45,
+      "y": 23.63,
       "agency": "CIA",
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
@@ -2893,8 +2853,8 @@
       "year": 1956,
       "location": "RAF Lakenheath / Bentwaters, United Kingdom",
       "mode": "exact",
-      "x": 50.02,
-      "y": 14.66,
+      "x": 50.13,
+      "y": 20.36,
       "agency": "USAF / RAF",
       "domain": "MILITARY / SENSOR",
       "status": "HISTORICAL RECORD · INCOMPLETE",
@@ -3182,9 +3142,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1957-LV-01_source_image.jpg"
-      ],
-      "x": 24.35,
-      "y": 20.33
+      ]
     },
     {
       "keyQuote": "The January 1957 Conference on the Role of Gravitation in Physics was funded through aviation money — Agnew Bahnson's Institute of Field Physics — with proceedings issued as a WADC technical document.",
@@ -3319,9 +3277,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-04_source_image.jpg"
-      ],
-      "x": 30.34,
-      "y": 19.62
+      ]
     },
     {
       "keyQuote": "the photographs do not constitute sufficient proof for this purpose",
@@ -3511,9 +3467,7 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ],
-      "x": 42.31,
-      "y": 36.89
+      ]
     },
     {
       "keyQuote": "hubcapping",
@@ -3655,9 +3609,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-02_source_image.jpg"
-      ],
-      "x": 30.85,
-      "y": 17.25
+      ]
     },
     {
       "keyQuote": "The Hills reported a pacing object on Route 3; a contemporaneous report was logged through Pease AFB channels. The abduction narrative itself emerged later under hypnosis, which is not treated as evidentiary.",
@@ -3815,9 +3767,7 @@
           "scope": "official-catalog-collection",
           "note": "Project BLUE BOOK records are available on microfilm publication T-1206. Use this search to locate specific case files."
         }
-      ],
-      "x": 32.79,
-      "y": 17.11
+      ]
     },
     {
       "id": "BF-NASA-D015",
@@ -4085,9 +4035,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1964-SC-01_source_image.jpg"
-      ],
-      "x": 23.27,
-      "y": 20.19
+      ]
     },
     {
       "keyQuote": "A brilliant fireball crossed six states before something came down in woods near Kecksburg. Residents described an acorn-shaped object with strange markings.",
@@ -4247,9 +4195,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1965-KB-01_source_image.jpg"
-      ],
-      "x": 30.58,
-      "y": 18.31
+      ]
     },
     {
       "id": "BF-NASA-D016",
@@ -4898,8 +4844,8 @@
       "year": 1966,
       "location": "Colorado / Institutional",
       "mode": "institutional",
-      "x": 24.29,
-      "y": 18.36,
+      "x": 22.29,
+      "y": 23.33,
       "agency": "USAF / University of Colorado",
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
@@ -5182,9 +5128,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 85.51,
-      "y": 42.23
+      ]
     },
     {
       "id": "BF-NASA-D022",
@@ -5321,8 +5265,8 @@
       "year": 1967,
       "location": "Malmstrom AFB, Montana",
       "mode": "exact",
-      "x": 23.83,
-      "y": 16.1,
+      "x": 21.8,
+      "y": 21.16,
       "agency": "USAF / SAC",
       "domain": "NUCLEAR / SENSITIVE SITE",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -5676,9 +5620,7 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ],
-      "x": 34.17,
-      "y": 17.31
+      ]
     },
     {
       "id": "BF-NASA-D018",
@@ -5687,7 +5629,7 @@
       "year": 1967,
       "location": "Low Earth Orbit — Gemini 4 experiment record",
       "mode": "orbital",
-      "x": 49,
+      "x": 49.0,
       "y": 6.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -5974,9 +5916,7 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_003.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_004.png"
-      ],
-      "x": 71.3,
-      "y": 21.8
+      ]
     },
     {
       "id": "BF-1968-MN-01",
@@ -6146,9 +6086,7 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ],
-      "x": 26.26,
-      "y": 15.83
+      ]
     },
     {
       "id": "BF-1968-HIM-02",
@@ -6313,9 +6251,7 @@
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_005.png"
-      ],
-      "x": 72.32,
-      "y": 22.13
+      ]
     },
     {
       "id": "BF-1968-HIM-03",
@@ -6477,9 +6413,7 @@
       ],
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_thimphu.png"
-      ],
-      "x": 72.69,
-      "y": 22.21
+      ]
     },
     {
       "id": "BF-1968-HIM-04",
@@ -6643,9 +6577,7 @@
       ],
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png"
-      ],
-      "x": 69.57,
-      "y": 20.43
+      ]
     },
     {
       "id": "BF-1968-HIM-05",
@@ -6806,9 +6738,7 @@
       ],
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_ane-la.png"
-      ],
-      "x": 69.51,
-      "y": 20.21
+      ]
     },
     {
       "id": "BF-1968-HIM-06",
@@ -6969,9 +6899,7 @@
       ],
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_demchok.png"
-      ],
-      "x": 69.73,
-      "y": 20.56
+      ]
     },
     {
       "id": "BF-1968-HIM-07",
@@ -7137,9 +7065,7 @@
       ],
       "images": [
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_006.png"
-      ],
-      "x": 71.22,
-      "y": 21.97
+      ]
     },
     {
       "id": "BF-NASA-D001",
@@ -7695,7 +7621,7 @@
       "year": 1969,
       "location": "Moon / Apollo 12 visual material",
       "mode": "orbital",
-      "x": 60,
+      "x": 60.0,
       "y": 4.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -7985,7 +7911,7 @@
       "year": 1969,
       "location": "Moon / Apollo 12 visual material",
       "mode": "orbital",
-      "x": 38,
+      "x": 38.0,
       "y": 6.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -8113,7 +8039,7 @@
       "year": 1971,
       "location": "Moon / Apollo 14 mission record",
       "mode": "orbital",
-      "x": 60,
+      "x": 60.0,
       "y": 6.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -8669,9 +8595,7 @@
           "access": "Public",
           "scope": "institutional-archive"
         }
-      ],
-      "x": 29.89,
-      "y": 18.14
+      ]
     },
     {
       "keyQuote": "They better wake up and start believin'.",
@@ -8826,9 +8750,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1973-PG-01_source_image.jpg"
-      ],
-      "x": 27.56,
-      "y": 21.32
+      ]
     },
     {
       "id": "BF-1973-SS-01",
@@ -8980,9 +8902,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 67.26,
-      "y": 16.44
+      ]
     },
     {
       "id": "BF-NASA-D005",
@@ -8991,7 +8911,7 @@
       "year": 1973,
       "location": "Moon / Apollo 17 science debriefing",
       "mode": "orbital",
-      "x": 49,
+      "x": 49.0,
       "y": 4.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -9520,9 +9440,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1975-TW-01_source_image.jpg"
-      ],
-      "x": 22.34,
-      "y": 20.08
+      ]
     },
     {
       "keyQuote": "Eduard 'Billy' Meier has claimed ongoing contact with 'Plejaren' beings since 1975, producing hundreds of daylight photographs, films, sound recordings, and metal samples — many independently assessed as models or hoaxes.",
@@ -9660,9 +9578,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-13_source_image.jpg"
-      ],
-      "x": 51.97,
-      "y": 16.15
+      ]
     },
     {
       "id": "BF-1976-TH-01",
@@ -9671,8 +9587,8 @@
       "year": 1976,
       "location": "Tehran, Iran",
       "mode": "exact",
-      "x": 62.62,
-      "y": 19.69,
+      "x": 63.4,
+      "y": 24.41,
       "agency": "Iranian AF / DIA",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -9986,9 +9902,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1977-CL-01_source_image.jpg"
-      ],
-      "x": 37.16,
-      "y": 30.9
+      ]
     },
     {
       "keyQuote": "The objects remain classified as UFO's until identified.",
@@ -10145,9 +10059,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1978-KK-01_source_image.jpg"
-      ],
-      "x": 91.72,
-      "y": 43.66
+      ]
     },
     {
       "keyQuote": "It's hovering and it's not an aircraft.",
@@ -10314,17 +10226,7 @@
           "scope": "official-collection",
           "note": "Search for Frederick Valentich, Bass Strait, and 21 October 1978."
         }
-      ],
-      "x": 84.88,
-      "y": 42.62,
-      "mapGeometry": {
-        "type": "LineString",
-        "d": "M85.5,42.25L84.98,42.52L84.92,42.83",
-        "label": "Valentich planned flight route",
-        "basis": "Moorabbin–Cape Otway–King Island route; not a measured object track.",
-        "confidence": "approximate",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "keyQuote": "Betty Cash, Vickie Landrum, and her grandson Colby reported a diamond-shaped object venting flame over the road, escorted by what they counted as more than twenty military helicopters.",
@@ -10479,9 +10381,7 @@
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
         }
-      ],
-      "x": 25.89,
-      "y": 21.43
+      ]
     },
     {
       "keyQuote": "The FAP tried to intercept and destroy the UFO, but without success.",
@@ -10621,9 +10521,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1980-PE-01_source_image.jpg"
-      ],
-      "x": 31.19,
-      "y": 35.75
+      ]
     },
     {
       "id": "BF-1980-RF-01",
@@ -10632,8 +10530,8 @@
       "year": 1980,
       "location": "Rendlesham Forest, Suffolk, United Kingdom",
       "mode": "exact",
-      "x": 50.22,
-      "y": 14.75,
+      "x": 50.34,
+      "y": 20.45,
       "agency": "USAF / RAF",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -10966,9 +10864,7 @@
       "images": [
         "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
         "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png"
-      ],
-      "x": 23.45,
-      "y": 19.89
+      ]
     },
     {
       "keyQuote": "After Renato Nicolaï reported a saucer-shaped object landing briefly on his property, France's state UAP office GEPAN collected soil and plant traces from the site.",
@@ -11104,9 +11000,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1981-TP-01_source_image.jpg"
-      ],
-      "x": 51.45,
-      "y": 17.31
+      ]
     },
     {
       "keyQuote": "BOGUS",
@@ -11250,9 +11144,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-05_source_image.jpg"
-      ],
-      "x": 20.42,
-      "y": 20.15
+      ]
     },
     {
       "id": "BF-1986-JAL-01",
@@ -11261,8 +11153,8 @@
       "year": 1986,
       "location": "Alaska airspace near Fairbanks",
       "mode": "exact",
-      "x": 17.82,
-      "y": 12.15,
+      "x": 16.25,
+      "y": 17.58,
       "agency": "FAA / JAL",
       "domain": "HISTORICAL / AERIAL",
       "status": "HISTORICAL RECORD · INCOMPLETE",
@@ -11435,15 +11327,7 @@
           "access": "Public",
           "scope": "public-mirror"
         }
-      ],
-      "mapGeometry": {
-        "type": "LineString",
-        "d": "M20.15,10.71L19.57,11L19.2,11.17",
-        "label": "Reported visual-contact corridor",
-        "basis": "FAA chronology places the report from near Fort Yukon toward Fairbanks; intermediate waypoint is illustrative.",
-        "confidence": "approximate",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "keyQuote": "Contractor Ed Walters produced dozens of Polaroids of a structured craft over Gulf Breeze. After the Walters family moved, a styrofoam model resembling the photographed craft was found in the house's attic.",
@@ -11581,9 +11465,7 @@
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
         }
-      ],
-      "x": 27.91,
-      "y": 21.32
+      ]
     },
     {
       "id": "BF-1989-BW-01",
@@ -11592,8 +11474,8 @@
       "year": 1989,
       "location": "Belgium",
       "mode": "exact",
-      "x": 50.89,
-      "y": 15.11,
+      "x": 51.05,
+      "y": 20.8,
       "agency": "Belgian Air Force",
       "domain": "MILITARY / SENSOR",
       "status": "HISTORICAL RECORD · INCOMPLETE",
@@ -11782,15 +11664,7 @@
       ],
       "images": [
         "assets/evidence/BELGIAN-WAVE-1989/BELGIAN-WAVE-1989-COBEPS-retrospective__page_001.png"
-      ],
-      "mapGeometry": {
-        "type": "Polygon",
-        "d": "M50.8,15.51L50.79,15.04L51.36,15.04L51.38,15.51Z",
-        "label": "Southern/eastern Belgian report region",
-        "basis": "COBEPS retrospective describes a wave concentrated in southern/eastern Belgium; polygon is regional, not a craft footprint.",
-        "confidence": "regional",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "keyQuote": "In November 1989 Bob Lazar told KLAS-TV's George Knapp he had reverse-engineered saucer propulsion at a site called S-4 near Groom Lake, powered by 'element 115.'",
@@ -11929,9 +11803,7 @@
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
         }
-      ],
-      "x": 21.38,
-      "y": 19.26
+      ]
     },
     {
       "keyQuote": "Two hikers photographed a large diamond-shaped object, with a jet in frame, near Calvine in 1990. The photos went to a newspaper, then to the Ministry of Defence, and were not released until 2022.",
@@ -12068,9 +11940,7 @@
           "scope": "official-collection",
           "note": "Official MoD UFO-files guide; the surviving Calvine image is a later public reproduction rather than the original negative."
         }
-      ],
-      "x": 49.02,
-      "y": 13.41
+      ]
     },
     {
       "keyQuote": "About sixty children at Ariel School reported a landed craft and small beings at the edge of the schoolyard during morning break. They were interviewed separately and gave consistent accounts.",
@@ -12212,9 +12082,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1994-AR-01_source_image.jpg"
-      ],
-      "x": 58.01,
-      "y": 36.08
+      ]
     },
     {
       "keyQuote": "…a restoration.",
@@ -12365,9 +12233,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-12_source_image.jpg"
-      ],
-      "x": 49.86,
-      "y": 14.92
+      ]
     },
     {
       "keyQuote": "Three young women reported encountering a small creature in a Varginha lot; a wider narrative of military capture, hospital transport, and a related physician death developed around the case.",
@@ -12522,9 +12388,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1996-VG-01_source_image.jpg"
-      ],
-      "x": 38.17,
-      "y": 37.21
+      ]
     },
     {
       "id": "BF-NASA-D030",
@@ -12533,7 +12397,7 @@
       "year": 1996,
       "location": "Low Earth Orbit — Space Shuttle Columbia / STS-80",
       "mode": "orbital",
-      "x": 48,
+      "x": 48.0,
       "y": 5.8,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -12663,7 +12527,7 @@
       "year": 1996,
       "location": "Low Earth Orbit — Space Shuttle Columbia / STS-80",
       "mode": "orbital",
-      "x": 38,
+      "x": 38.0,
       "y": 4.2,
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
@@ -12919,8 +12783,8 @@
       "year": 1997,
       "location": "Phoenix, Arizona",
       "mode": "exact",
-      "x": 21.92,
-      "y": 20.37,
+      "x": 19.79,
+      "y": 25.34,
       "agency": "Civilian / AZ officials",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
@@ -13081,15 +12945,7 @@
       ],
       "images": [
         "assets/source_previews/BF-1997-PH-01_source_image.jpg"
-      ],
-      "mapGeometry": {
-        "type": "LineString",
-        "d": "M21.96,19.93L21.92,20.37L22.08,20.75",
-        "label": "Arizona report corridor",
-        "basis": "Approximate Paulden/Prescott–Phoenix–Tucson report corridor; not one object's established route.",
-        "confidence": "regional",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "keyQuote": "'Area 51: The Alien Interview' (1997), produced by Rocket Pictures, presented footage said to show an extraterrestrial being questioned. The source, calling himself 'Victor,' was never independently verified.",
@@ -13243,9 +13099,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-06_source_image.jpg"
-      ],
-      "x": 20.44,
-      "y": 20.19
+      ]
     },
     {
       "keyQuote": "UFOs and Defense: What Should We Prepare For?",
@@ -13382,9 +13236,7 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-08_source_image.png"
-      ],
-      "x": 50.44,
-      "y": 15.7
+      ]
     },
     {
       "id": "BF-2004-NM-01",
@@ -13393,8 +13245,8 @@
       "year": 2004,
       "location": "Pacific Ocean off Southern California",
       "mode": "exact",
-      "x": 20.41,
-      "y": 20.6,
+      "x": 18.2,
+      "y": 25.59,
       "agency": "USN / NAVAIR",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -13589,15 +13441,7 @@
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_001.png",
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_005.png",
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_006.png"
-      ],
-      "mapGeometry": {
-        "type": "Polygon",
-        "d": "M20.08,21.19L20.19,20.82L20.69,20.82L20.58,21.19Z",
-        "label": "Approximate SOCAL/Baja operating area",
-        "basis": "Executive-summary position N31°20′ W117°10′ and stated operating-area context; box expresses uncertainty, not object extent.",
-        "confidence": "approximate",
-        "isObjectTrack": false
-      }
+      ]
     },
     {
       "keyQuote": "…they called us and said, somebody observed a flying disc about a thousand feet above the, ah… gate Charley 17.",
@@ -13736,9 +13580,7 @@
       ],
       "images": [
         "assets/source_previews/BF-2006-OH-01_source_image.jpg"
-      ],
-      "x": 28.7,
-      "y": 17.77
+      ]
     },
     {
       "keyQuote": "This object had no transponder and was tracked on radar for over an hour.",
@@ -13931,9 +13773,7 @@
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
         }
-      ],
-      "x": 25.28,
-      "y": 20.75
+      ]
     },
     {
       "keyQuote": "The DIA's Advanced Aerospace Weapon System Applications Program (AAWSAP, ~$22M, 2008–2012) contracted Robert Bigelow's BAASS, whose portfolio included studies at Skinwalker Ranch.",
@@ -14088,9 +13928,7 @@
       ],
       "images": [
         "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg"
-      ],
-      "x": 23.19,
-      "y": 18.29
+      ]
     },
     {
       "id": "BF-2013-AG-01",
@@ -14099,8 +13937,8 @@
       "year": 2013,
       "location": "Aguadilla, Puerto Rico",
       "mode": "exact",
-      "x": 32.47,
-      "y": 24.97,
+      "x": 31.65,
+      "y": 27.76,
       "agency": "CBP / AARO",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -14466,9 +14304,7 @@
         "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-public-mirror-frame-490s.jpg",
         "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-video-thumbnail.jpg",
         "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg"
-      ],
-      "x": 31.83,
-      "y": 40.78
+      ]
     },
     {
       "id": "BF-2015-NAV-01",
@@ -14477,8 +14313,8 @@
       "year": 2015,
       "location": "U.S. East Coast training range",
       "mode": "approximate",
-      "x": 30.84,
-      "y": 20.21,
+      "x": null,
+      "y": null,
       "agency": "USN / AARO",
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "SERIES INDEX · NON-INCIDENT",
@@ -14649,8 +14485,8 @@
       "year": 2015,
       "location": "Pantex Plant, Texas",
       "mode": "exact",
-      "x": 24.71,
-      "y": 19.8,
+      "x": 22.74,
+      "y": 24.72,
       "agency": "DOE",
       "domain": "NUCLEAR / SENSITIVE SITE",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -14882,8 +14718,8 @@
       "year": 2015,
       "location": "U.S. East Coast training range",
       "mode": "approximate",
-      "x": 30.84,
-      "y": 20.21,
+      "x": 29.21,
+      "y": 25.16,
       "agency": "USN / AARO",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -15089,8 +14925,8 @@
       "year": 2015,
       "location": "U.S. East Coast training range",
       "mode": "approximate",
-      "x": 30.84,
-      "y": 20.21,
+      "x": 29.21,
+      "y": 25.16,
       "agency": "USN / AARO",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -15458,9 +15294,7 @@
       "images": [
         "assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
         "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg"
-      ],
-      "x": 20.09,
-      "y": 20.67
+      ]
     },
     {
       "id": "BF-2020-AG-00",
@@ -15628,9 +15462,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AS-01",
@@ -15639,8 +15471,8 @@
       "year": 2020,
       "location": "Arabian Sea",
       "mode": "approximate",
-      "x": 66.32,
-      "y": 23.28,
+      "x": 67.3,
+      "y": 26.74,
       "agency": "DOW",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -15788,8 +15620,8 @@
       "year": 2020,
       "location": "REDACTED operating area; Japan attribution unsupported by form",
       "mode": "redacted",
-      "x": 61.25,
-      "y": 21.43,
+      "x": 86.46,
+      "y": 24.45,
       "agency": "DOW",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -16100,9 +15932,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AG-D4",
@@ -16259,9 +16089,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AG-D5A",
@@ -16419,9 +16247,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AG-D5B",
@@ -16579,9 +16405,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AG-D6",
@@ -16737,9 +16561,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2020-AG-D7",
@@ -16896,9 +16718,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 62.75,
-      "y": 22.36
+      ]
     },
     {
       "id": "BF-2022-CS-01",
@@ -16907,8 +16727,8 @@
       "year": 2022,
       "location": "Colorado Springs, Colorado",
       "mode": "exact",
-      "x": 24.25,
-      "y": 18.75,
+      "x": 22.25,
+      "y": 23.67,
       "agency": "FBI / ICA",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
@@ -17269,9 +17089,7 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ],
-      "x": 60.82,
-      "y": 20.48
+      ]
     },
     {
       "id": "BF-2022-ME-01",
@@ -17280,8 +17098,8 @@
       "year": 2022,
       "location": "Middle East",
       "mode": "approximate",
-      "x": 60.68,
-      "y": 20.82,
+      "x": 61.36,
+      "y": 25.18,
       "agency": "DOW / ISR",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -17599,9 +17417,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 25.78,
-      "y": 18.83
+      ]
     },
     {
       "id": "BF-2023-GR-00",
@@ -17760,9 +17576,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 56.04,
-      "y": 19.13
+      ]
     },
     {
       "id": "BF-2023-IQ-20",
@@ -17914,9 +17728,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 60.76,
-      "y": 20.45
+      ]
     },
     {
       "keyQuote": "Langley Air Force Base did experience incursions of unauthorized unmanned aerial systems last year in December 2023.",
@@ -18109,9 +17921,7 @@
       ],
       "images": [
         "assets/source_previews/BF-2023-LG-01_source_image.jpg"
-      ],
-      "x": 31.09,
-      "y": 19.26
+      ]
     },
     {
       "id": "BF-2023-SY-74",
@@ -18267,9 +18077,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 59.33,
-      "y": 19.9
+      ]
     },
     {
       "id": "BF-2023-WUS-03",
@@ -18278,8 +18086,8 @@
       "year": 2023,
       "location": "Western United States [REDACTED]",
       "mode": "redacted",
-      "x": 22.53,
-      "y": 18.67,
+      "x": 20.43,
+      "y": 23.6,
       "agency": "DOW / FEDERAL LE",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -18573,9 +18381,7 @@
           "access": "Public/access unverified",
           "scope": "public-source"
         }
-      ],
-      "x": 31.07,
-      "y": 18.7
+      ]
     },
     {
       "id": "BF-2023-GR-33",
@@ -18734,9 +18540,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 56.04,
-      "y": 19.13
+      ]
     },
     {
       "id": "BF-2023-GR-35",
@@ -18891,9 +18695,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 56.04,
-      "y": 19.13
+      ]
     },
     {
       "id": "BF-2024-ECS-01",
@@ -18902,8 +18704,8 @@
       "year": 2024,
       "location": "Ayn al-Asad operating area, Iraq — REDACTED exact MGRS",
       "mode": "redacted",
-      "x": 60.48,
-      "y": 20.27,
+      "x": 83.43,
+      "y": 25.97,
       "agency": "DOW / FVEY",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -19212,9 +19014,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 55.37,
-      "y": 18.67
+      ]
     },
     {
       "id": "BF-2024-NE-02",
@@ -19223,8 +19023,8 @@
       "year": 2024,
       "location": "Northeastern United States [REDACTED]",
       "mode": "redacted",
-      "x": 32.24,
-      "y": 17.52,
+      "x": 30.69,
+      "y": 22.55,
       "agency": "FBI",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
@@ -19522,9 +19322,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
-      ],
-      "x": 22.53,
-      "y": 18.67
+      ]
     },
     {
       "id": "BF-2025-YS-01",
@@ -19533,8 +19331,8 @@
       "year": 2025,
       "location": "Yellow Sea",
       "mode": "approximate",
-      "x": 80.56,
-      "y": 19.59,
+      "x": 82.3,
+      "y": 24.35,
       "agency": "DOW",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
@@ -19834,9 +19632,7 @@
         "provenance": "U.S. State Department, Embassy Dushanbe",
         "evidenceStatus": "Source-document page; establishes the diplomatic record of the encounter.",
         "isEventEvidence": false
-      },
-      "x": 62.96,
-      "y": 16.85
+      }
     },
     {
       "id": "BF-1952-PL-01",
@@ -19994,9 +19790,7 @@
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
-      "expectedAdmin1": "Rabat-Salé-Kénitra",
-      "x": 48.39,
-      "y": 20.13
+      "expectedAdmin1": "Rabat-Salé-Kénitra"
     },
     {
       "id": "BF-1952-BE-01",
@@ -20169,9 +19963,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 31.05,
-      "y": 18.68
+      ]
     },
     {
       "id": "BF-1957-NC-01",
@@ -20335,9 +20127,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 19.48,
-      "y": 18.67
+      ]
     },
     {
       "id": "BF-1957-B47-01",
@@ -20499,9 +20289,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 25.78,
-      "y": 18.83
+      ]
     },
     {
       "id": "BF-1949-KD-01",
@@ -20661,9 +20449,7 @@
         "provenance": "Army CIC / 342-HS1 (143pp)",
         "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
         "isEventEvidence": false
-      },
-      "x": 16.44,
-      "y": 13.11
+      }
     },
     {
       "id": "BF-1952-R5D-01",
@@ -20825,9 +20611,7 @@
           "scope": "collection",
           "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
-      ],
-      "x": 31.07,
-      "y": 18.7
+      ]
     },
     {
       "id": "BF-1965-G7-01",
@@ -21130,9 +20914,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
         }
-      ],
-      "x": 28.58,
-      "y": 26.8
+      ]
     },
     {
       "id": "BF-1949-HF-01",
@@ -21299,9 +21081,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
         }
-      ],
-      "x": 9.12,
-      "y": 24.1
+      ]
     },
     {
       "id": "BF-1956-DF-01",
@@ -21468,9 +21248,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 28.2,
-      "y": 21.21
+      ]
     },
     {
       "id": "BF-1954-KL-01",
@@ -21631,9 +21409,7 @@
           "scope": "collection",
           "note": "4602D AISS field case files; search by location and date."
         }
-      ],
-      "x": 25.31,
-      "y": 21.09
+      ]
     },
     {
       "id": "BF-1955-USSR-01",
@@ -21786,9 +21562,7 @@
         "provenance": "CIA, declassified — CIA-RDP81R00560R000100020013-6",
         "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review including Soviet analysis.",
         "isEventEvidence": false
-      },
-      "x": 63.33,
-      "y": 13.9
+      }
     },
     {
       "id": "BF-1973-SL-01",
@@ -22096,9 +21870,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 29.4,
-      "y": 17.56
+      ]
     },
     {
       "id": "BF-1957-CG-01",
@@ -22261,9 +22033,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 25.78,
-      "y": 18.83
+      ]
     },
     {
       "id": "BF-1951-YK-01",
@@ -22416,9 +22186,7 @@
         "provenance": "CIA, declassified — CIA-RDP81R00560R000100020012-7",
         "evidenceStatus": "Source-document page; establishes the CIA institutional record of the 1952 UFO review, including reference to British standing committee activity.",
         "isEventEvidence": false
-      },
-      "x": 49.56,
-      "y": 14.22
+      }
     },
     {
       "id": "BF-1985-PNG-01",
@@ -22574,9 +22342,7 @@
           "scope": "collection",
           "note": "Official release portal; search by the DOS-UAP-D1 cable ID shown above."
         }
-      ],
-      "x": 87.74,
-      "y": 31.7
+      ]
     },
     {
       "id": "BF-1957-RA-01",
@@ -22737,9 +22503,7 @@
           "scope": "item",
           "note": "Air Intelligence Information Reports 1957; 301 pages."
         }
-      ],
-      "x": 28.96,
-      "y": 20.64
+      ]
     }
   ],
   "timeline": [
