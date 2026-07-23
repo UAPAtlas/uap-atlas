@@ -346,9 +346,9 @@
     {
       "keyQuote": "“In Rastatt area sighted five or six red and green lights in a ‘T’ shape which followed A/C thru turns and closed to 1000 feet. Lights followed for several miles then went out. Our pilots have named these mysterious [unreadable] which they encounter over Germany at night ‘Foo-Fighters.’”",
       "quoteSource": "CUFON transcription of the SECRET December 1944 War Diary, 415th Night Fighter Squadron, entry for 18 December; transcription says records were reproduced from official wartime documents.",
-      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription, but an original scan and exact NARA/AFHRA catalog identifier were not recovered.",
+      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured.",
       "significance": "High significance",
-      "sourceQuality": "Strong transcription of official wartime records, but incomplete archival custody and no exact catalog identifier.",
+      "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
       "coordinateBasis": "415th Night Fighter Squadron operating area over the Rhine valley",
       "coordinatePrecision": "theater",
       "id": "BF-1944-FF-01",
@@ -365,12 +365,13 @@
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "Night-fighter crews of the 415th NFS reported glowing balls of light pacing their aircraft over the Rhine in 1944–45, nicknamed 'foo fighters' and reported in the wartime press. Allied intelligence suspected German secret weapons; postwar review found the Germans had been seeing them too. No explanation was established.",
-      "keyFact": "The surviving transcription contains dated 415th NFS war-diary entries for 15, 18, 23, 24 and 28 December 1944, not merely later magazine retellings. The entries describe lights following aircraft through turns, closing to about 1,000 feet, climbing, disappearing and sometimes lacking corresponding GCI returns.",
+      "keyFact": "AFHRA’s catalog identifies the 415th Night Fighter Squadron war diary covering 10 February 1943–3 March 1945 as IRIS 60059, call SQ-FI-415-HI, microfilm reel 848, frames 1519–1631. Daily operations reports through 30 November 1944 are IRIS 60074, reel 848, frames 1763–1867; WWII notes are IRIS 1026183, reel 33170. The original scans are not yet secured.",
       "official": "Wartime intelligence filed the reports without resolution; postwar explanations (St. Elmo's fire, flak reflections, fatigue) were offered, none demonstrated.",
-      "gap": "Primary gap: original scans of the 415th NFS December 1944 War Diary and underlying operations reports, with an exact NARA or AFHRA call number and custody chain.",
+      "gap": "Primary gap: page images from AFHRA IRIS 60059, reel 848, frames 1519–1631, and any underlying December 1944 operations reports needed to compare the public transcriptions against the original record.",
       "whyItMatters": "Foo fighters establish that the phenomenon's reporting record predates the 1947 media frame — and that both sides of a world war blamed each other for it.",
       "sources": [
-        "FOO-1944 · 415th NFS mission report trail / wartime press record"
+        "FOO-1944 · 415th NFS mission report trail / wartime press record",
+        "FOO-1944-AFHRA-60059 · Exact war-diary and microfilm custody"
       ],
       "sourceLabel": "USAAF record trail",
       "sourceLocator": "FOO-1944",
@@ -424,18 +425,31 @@
       },
       "sourceRecords": [
         {
-          "citation": "SECRET War Diary, 415th Night Fighter Squadron, Ochey Air Base, France, December 1944 — dated entries transcribed by CUFON from official wartime documents; exact NARA/AFHRA identifier not yet recovered.",
+          "citation": "AFHRA catalog: 415th Night Fighter Squadron war diary, IRIS 60059, call SQ-FI-415-HI, reel 0000000848, frames 1519–1631, covering 10 Feb 1943–3 Mar 1945; daily operations reports IRIS 60074, call SQ-FI-415-SU-OP-S, reel 848, frames 1763–1867; WWII notes IRIS 1026183, call SQ-FI-415-SU-PE, reel 33170, frame 886 onward.",
+          "sourceType": "primary-archive-catalog",
+          "provenance": "Air Force Historical Research Agency index",
+          "locator": "FOO-1944-AFHRA-60059",
+          "supports": [
+            "Exact unit-record custody",
+            "War diary includes December 1944 date range",
+            "Exact call numbers, reels and frame ranges"
+          ],
+          "limitations": [
+            "Original microfilm scans not yet secured",
+            "December quotations still rely on public transcriptions pending image comparison"
+          ]
+        },
+        {
+          "citation": "SECRET War Diary, 415th Night Fighter Squadron, Ochey Air Base, France, December 1944 — dated entries transcribed by CUFON from official wartime documents.",
           "sourceType": "archival-transcription",
           "provenance": "CUFON transcription of official wartime records",
           "locator": "FOO-1944",
           "supports": [
             "Dated wartime operational reporting",
-            "Origin of the term “Foo-Fighters” within unit records",
             "Repeated observations across multiple missions"
           ],
           "limitations": [
             "Original document scans not secured",
-            "Exact NARA/AFHRA call number remains missing",
             "One word in the selected quotation is unreadable in the transcription"
           ]
         },
@@ -509,7 +523,7 @@
       "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Verified Swedish archival collection lead and internal order citation; no item-level shelfmark or first-generation scan yet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1946-GR-01",
@@ -527,12 +541,13 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing. Swedish, British, and American intelligence all investigated — Soviet tests were suspected and never confirmed; a substantial fraction of reports resisted the meteor explanation.",
-      "keyFact": "A full year of state-investigated 'ghost rocket' reports — with lake searches, allied intelligence traffic, and no recovered object — one year before Roswell.",
+      "keyFact": "Sweden’s National Archives publicly identifies the Rymdprojektilkommittén record family as documents concerning space projectiles and the 1946 ‘ghost rockets’ investigation. An exact internal order citation, Fst/L 12/6 1946 NR 7:49, is recovered, but the item-level shelfmark and corresponding U.S. diplomatic file remain unresolved.",
       "official": "Swedish defense concluded most reports were misidentifications while explicitly leaving a residue unexplained; files have since been released.",
       "gap": "Correlation of the Swedish reports with released Soviet-era test records has never been completed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
       "whyItMatters": "Ghost rockets show a modern state running the full investigative playbook — search, intelligence liaison, partial explanation — before the UFO era's vocabulary existed.",
       "sources": [
-        "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record"
+        "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
+        "GHOSTROCKETS-RIKSARKIVET-1946 · Rymdprojektilkommittén archival catalog lead"
       ],
       "sourceLabel": "Swedish defense file",
       "sourceLocator": "GHOSTROCKETS-1946",
@@ -582,12 +597,20 @@
       },
       "sourceRecords": [
         {
-          "citation": "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "GHOSTROCKETS-1946",
-          "supports": [],
-          "limitations": []
+          "citation": "Riksarkivet/Krigsarkivet · Rymdprojektilkommittén — documents regarding space projectiles; investigation into the ‘ghost rockets’ 1946. Related internal order citation: Fst/L 12/6 1946 NR 7:49.",
+          "sourceType": "archival-catalog-lead",
+          "provenance": "Swedish National Archives public subject/index pages",
+          "locator": "GHOSTROCKETS-RIKSARKIVET-1946",
+          "supports": [
+            "Swedish military archival custody family",
+            "Existence of a state investigation record group",
+            "Exact internal government order citation"
+          ],
+          "limitations": [
+            "No item-level shelfmark recovered",
+            "No first-generation scan secured",
+            "No exact NARA RG 59 diplomatic file identified"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -2171,7 +2194,7 @@
       "quoteSource": "Project Blue Book Great Falls case file, NARA NAID 28938188, digital image 0972 / local compiled PDF page 72.",
       "quoteConfidence": "High — visually verified against the complete 113-page case-file copy; the passage reports custody loss as attributed in the file.",
       "significance": "Case significance",
-      "sourceQuality": "Complete exact NARA case-file custody; decisive custody passage visually verified.",
+      "sourceQuality": "Exact NARA case-file and motion-picture-item custody; no camera original or complete generation ledger identified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1950-GF-01",
@@ -2190,12 +2213,13 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Nick Mariana filmed two bright discs crossing the sky over Great Falls in 1950 — among the first motion pictures of the phenomenon. The Air Force analyzed the film twice and the Robertson Panel reviewed it; the F-94 reflection explanation conflicts with the documented aircraft timing, and Mariana maintained the clearest frames were not returned.",
-      "keyFact": "The local 113-page Blue Book file matches the 113 digital objects in exact NARA file unit NAID 28938188. It preserves the record card, witness correspondence, film-analysis material and the documented claim that the first 35 frames were removed and not returned.",
+      "keyFact": "The complete 113-page Blue Book file maps to NARA NAID 28938188 and preserves Mariana’s claim that the first 35 frames were removed and not returned. NARA’s exact motion-picture item is NAID 61935, local identifier 341-PBB-323; its catalog lists a 26-foot 16 mm black-and-white preservation element and reproduction elements, but no camera-original occurrence.",
       "official": "USAF attributed the images to sun reflections off two F-94s known to be in the area; the timing reconciliation remains argued.",
       "gap": "Primary gap: the reportedly removed first 35 frames, an unambiguous chain-of-custody ledger for every film generation, and first-generation film suitable for modern photogrammetric reanalysis.",
       "whyItMatters": "Great Falls ties directly to this atlas's Robertson Panel record: it is half of the physical evidence that panel reviewed before recommending debunking.",
       "sources": [
-        "GREATFALLS-1950 · Mariana film / USAF analysis record"
+        "GREATFALLS-1950 · Mariana film / USAF analysis record",
+        "GREATFALLS-1950-FILM · NARA motion-picture item NAID 61935"
       ],
       "sourceLabel": "USAF film analysis",
       "sourceLocator": "GREATFALLS-1950",
@@ -2258,6 +2282,22 @@
           "limitations": [
             "Missing first 35 frames are not recovered",
             "Surviving public movie is not established as first-generation film"
+          ]
+        },
+        {
+          "citation": "Project Blue Book Motion Picture Films: GREAT FALLS, MONTANA — NARA NAID 61935, local identifier 341-PBB-323; 26-foot 16 mm black-and-white preservation element plus reproduction elements and two digital reels.",
+          "sourceType": "primary-visual-record",
+          "provenance": "National Archives Catalog, RG 341",
+          "locator": "GREATFALLS-1950-FILM",
+          "supports": [
+            "Exact surviving motion-picture custody",
+            "Physical-generation metadata",
+            "Public digital derivatives"
+          ],
+          "limitations": [
+            "No camera-original element listed",
+            "Digital reels are later transfer derivatives",
+            "No record recovered that resolves the alleged missing first 35 frames"
           ]
         }
       ],
@@ -2469,7 +2509,7 @@
       "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
       "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Complete exact NARA case-file custody plus exact NARA motion-picture item; conflicting analytical conclusions visually verified.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence; camera original and full laboratory ledger remain unlocated.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -2488,7 +2528,7 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah. Navy photo analysts spent over a thousand hours on the film and reportedly judged the objects self-luminous and not birds; the Robertson Panel overrode that with a seagull explanation Newhouse rejected, noting he had seen the objects closely before filming.",
-      "keyFact": "The exact 97-image Blue Book case file (NAID 28943418) and the digitized motion-picture item (NAID 61937) are now in custody. The file preserves the original reporting chain, multiple photogrammetric studies, Baker’s inconclusive 1955 analysis, a separate analysis describing ten unknown aerial objects, and a later 1956 Air Force memo asserting bird reflections/seagulls.",
+      "keyFact": "The exact 97-image Blue Book file is NARA NAID 28943418 and the motion-picture item is NAID 61937. NARA lists 42-foot 16 mm reference and preservation elements, while the digital transfer slate identifies its source as ‘16mm RSK (P Copy).’ The Navy analysis records that brittle film was duplicated and warns that the analysis film was ‘a duplicate of a copy.’",
       "official": "Robertson Panel: seagulls in sunlight. Navy Photographic Interpretation Center's contrary internal assessment survives only in summaries.",
       "gap": "Primary gap: the first-generation 16 mm camera film and complete laboratory chain-of-custody/measurement worksheets needed to determine which analysis used which film generation.",
       "whyItMatters": "Tremonton is the other half of the Robertson Panel's evidence base, and its analyst-versus-panel split prefigures every modern sensor-interpretation fight.",
@@ -2559,15 +2599,19 @@
           ]
         },
         {
-          "citation": "Motion Picture Films from the 'Project Blue Book' Series, 1950–1967: TREMONTON, UTAH, 1952 — NARA NAID 61937 (digital MP4 derivative).",
+          "citation": "Project Blue Book Motion Picture Films: TREMONTON, UTAH — NARA NAID 61937, local identifier 341-PBB-345; 42-foot 16 mm reference and preservation elements. Digital transfer slate: ‘Source: 16mm RSK (P Copy).’",
           "sourceType": "primary-visual-record",
           "provenance": "National Archives Catalog, RG 341",
           "locator": "TREMONTON-1952-FILM",
           "supports": [
-            "Government-custody motion-picture derivative"
+            "Government-custody motion-picture derivative",
+            "Physical-generation metadata",
+            "Transfer sourced from a positive copy"
           ],
           "limitations": [
-            "Digital derivative is not the first-generation 16 mm original"
+            "Digital derivative is not the first-generation 16 mm original",
+            "The historical Navy report says the analysis film was a duplicate of a copy",
+            "Complete laboratory custody ledger is not established"
           ]
         }
       ],
@@ -2940,7 +2984,8 @@
       "gap": "Primary gap: raw radar plots or scope photography, original operator logs/voice recordings, and the RAF interceptor mission record needed to reconstruct the sequence independently.",
       "sources": [
         "LAKENHEATH-1956 · Condon Case 2 / Lakenheath-Bentwaters radar-visual record",
-        "CIA-UAP-015 · Project Blue Book Special Report No. 14"
+        "CIA-UAP-015 · Project Blue Book Special Report No. 14",
+        "LAKENHEATH-1956-RAF-ORBS · RAF No. 23 Squadron and Waterbeach operational records"
       ],
       "image": "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png",
       "lon": 0.5609,
@@ -2950,14 +2995,14 @@
       "geometryExpectation": "country",
       "coordinatePrecision": "regional/site",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
-      "keyFact": "The exact 44-image Blue Book file at NARA NAID 28966873 includes contemporary radar extracts, weather data, internal review correspondence and later witness material. A second extract estimates one radar target near 4,000 mph and explains that the estimate was based on screen displacement per two-second antenna revolution.",
+      "keyFact": "The exact 44-image Blue Book file is NARA NAID 28966873. The missing RAF operational trail now has two exact catalog targets: No. 23 Squadron’s digitized Operations Record Book AIR 27/2742 and RAF Waterbeach station record AIR 28/1439. Their catalog metadata covers August 1956, but the relevant pages have not yet been inspected and cannot yet be claimed as incident records.",
       "whyItMatters": "It is a rare case where an official debunking-era report preserved, rather than erased, a hard residual radar-visual case.",
       "keyQuote": "“These objects appeared as normal targets on the GCA scope and… normal checks made to determine possible malfunction of the GCA radar failed to indicate anything was technically wrong.”",
       "quoteSource": "Report NR. IH-1-56, Extract “A,” in Project Blue Book Bentwaters–Lakenheath case file, NARA NAID 28966873, digital image 0019.",
       "quoteConfidence": "High — visually verified against the NARA scan. The statement supports normal-looking radar returns and equipment checks, not the identity of the targets.",
       "heroFact": "A radar-visual RAF/USAF case survived Condon scrutiny; the report conceded a high probability one genuine UFO was involved.",
       "significance": "High significance",
-      "sourceQuality": "Complete exact NARA case-file custody; contemporary radar extracts and speed-method page visually verified.",
+      "sourceQuality": "Complete exact NARA case-file custody plus exact RAF operational-record targets; raw radar and communications records remain missing.",
       "sourceLabel": "CIA archive",
       "sourceLocator": "LAKENHEATH-1956",
       "relatedCaseIds": [
@@ -3035,6 +3080,22 @@
           "locator": "LAKENHEATH-1956",
           "supports": [],
           "limitations": []
+        },
+        {
+          "citation": "UK National Archives operational-record targets: AIR 27/2742, No. 23 Squadron Summary of Events, 1956–1960 (digitized); AIR 28/1439, RAF Waterbeach station record, 1956–1960 (open, not digitized).",
+          "sourceType": "primary-archive-catalog",
+          "provenance": "The National Archives (UK) Discovery API",
+          "locator": "LAKENHEATH-1956-RAF-ORBS",
+          "supports": [
+            "Exact RAF squadron ORB target",
+            "Exact RAF Waterbeach station-record target",
+            "Date coverage includes August 1956"
+          ],
+          "limitations": [
+            "Relevant pages not yet inspected",
+            "Catalog coverage does not prove the incident is recorded",
+            "Raw radar plots, controller logs and voice recordings remain missing"
+          ]
         }
       ],
       "phenomena": {

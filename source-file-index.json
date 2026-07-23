@@ -744,7 +744,11 @@
     "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/nara-manifest.json",
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/nara-manifest.json",
     "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/custody-manifest.json",
-    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/custody-manifest.json"
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/custody-manifest.json",
+    "https://catalog.archives.gov/id/61937",
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/341-pbb-345.mp4",
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/SHA256SUMS.txt",
+    "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/ffprobe.json"
   ],
   "TRINDADE-1958": [
     "assets/source_previews/BF-1958-TR-01_source_image.jpg"
@@ -1245,5 +1249,25 @@
     "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_010.png",
     "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_011.png",
     "https://www.cia.gov/readingroom/document/cia-rdp81r00560r000100020013-6"
+  ],
+  "FOO-1944-AFHRA-60059": [
+    "https://www.airforcehistoryindex.org/display.php?irisnum=60059",
+    "https://www.airforcehistoryindex.org/display.php?irisnum=60074",
+    "https://www.airforcehistoryindex.org/display.php?irisnum=1026183",
+    "research/followup-record-recovery-2026-07-22/afhra-415-search.json"
+  ],
+  "GHOSTROCKETS-RIKSARKIVET-1946": [
+    "https://sok.riksarkivet.se/en/amnesomrade/militaria",
+    "https://sok.riksarkivet.se/en/a-o"
+  ],
+  "GREATFALLS-1950-FILM": [
+    "https://catalog.archives.gov/id/61935",
+    "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/341-pbb-323-r1.mp4",
+    "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/341-pbb-323-r2.mp4",
+    "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/SHA256SUMS.txt"
+  ],
+  "LAKENHEATH-1956-RAF-ORBS": [
+    "https://discovery.nationalarchives.gov.uk/details/r/C2505380",
+    "https://discovery.nationalarchives.gov.uk/details/r/C4099443"
   ]
 }
