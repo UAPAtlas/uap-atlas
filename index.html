@@ -603,6 +603,7 @@ svg#atlasSvg:active{cursor:grabbing}
 .public-source-link span{font:700 9px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:#BFEFFF;white-space:normal}
 .public-source-link small{max-width:none;overflow:visible;white-space:normal;font:650 12px/1.35 var(--sans);color:#F2F5F9}
 .public-source-link em{font:500 9px/1.35 var(--mono);color:rgba(140,150,163,.72)}
+.public-source-link .source-caveat{font:500 10px/1.45 var(--sans);color:rgba(198,205,214,.76);margin-top:2px}
 .public-source-section{display:flex;flex:1 1 100%;flex-wrap:wrap;gap:8px}
 .public-source-section+.public-source-section{margin-top:5px;padding-top:12px;border-top:1px solid rgba(255,255,255,.06)}
 .public-source-section-title{flex:1 1 100%;font:700 9px var(--mono);letter-spacing:.13em;text-transform:uppercase;color:rgba(191,239,255,.72)}
@@ -1693,7 +1694,7 @@ function evidenceCarousel(c){
 function publicSourceLinksHtml(c){
   const sources=c.publicSources||[];
   const actionLabel=src=>src.mediaKind==='video'?'Watch video':src.scope==='collection'||src.scope==='official-collection'||src.scope==='official-catalog-collection'?'Search archive':src.role==='official-position'||src.scope==='official-report'?'Read official position':'Open case source';
-  const render=src=>`<a class="file-link public-source-link ${src.mediaKind==='video'?'video-source':''}" href="${esc(linkUrl(src.url))}" target="_blank" rel="noopener"><span>${esc(actionLabel(src))}</span><small>${esc(src.label||src.publisher||src.url)}</small>${src.publisher||src.access?`<em>${esc([src.publisher,src.access].filter(Boolean).join(' · '))}</em>`:''}</a>`;
+  const render=src=>`<a class="file-link public-source-link ${src.mediaKind==='video'?'video-source':''}" href="${esc(linkUrl(src.url))}" target="_blank" rel="noopener"><span>${esc(actionLabel(src))}</span><small>${esc(src.label||src.publisher||src.url)}</small>${src.publisher||src.access?`<em>${esc([src.publisher,src.access].filter(Boolean).join(' · '))}</em>`:''}${src.note?`<div class="source-caveat">${esc(src.note)}</div>`:''}</a>`;
   const videos=sources.filter(src=>src.mediaKind==='video');
   const records=sources.filter(src=>src.mediaKind!=='video');
   if(!sources.length) return '';
