@@ -175,14 +175,6 @@
   ],
   "BF-1957-RB-01": [
     {
-      "label": "Atlas archive — McDonald/AIAA RB-47 technical analysis",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/RB47-1957/RB47-1957-McDonald-AIAA-analysis.pdf",
-      "publisher": "AIAA / Atlas archival copy",
-      "access": "Public",
-      "scope": "published-technical-analysis",
-      "note": "Case-specific 1971 analysis using the intelligence report and later crew interviews; not the missing original radar-scope film."
-    },
-    {
       "label": "Princeton archive — McDonald/AIAA RB-47 analysis PDF",
       "url": "http://kirkmcd.princeton.edu/JEMcDonald/mcdonald_aa_9_7_66_71.pdf",
       "publisher": "Princeton-hosted James E. McDonald archive",
@@ -193,34 +185,27 @@
   ],
   "BF-1952-DC-01": [
     {
-      "label": "Atlas archive — Washington 1952 NARA Project BLUE BOOK pages",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-NARA-official-S3-MAXW-PBB11-referenced-pages.pdf",
-      "publisher": "NARA / Atlas archival copy",
-      "access": "Public",
-      "scope": "official-record-copy",
-      "note": "Recovered Project BLUE BOOK pages; catalog labels conflict across adjacent spans."
-    },
-    {
-      "label": "Atlas archive — Reports telephoned to OIN, July 28, 1952",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-Reports-Telephoned-to-OIN-1952-07-28.pdf",
-      "publisher": "U.S. Navy OIN / Atlas archival copy",
-      "access": "Public",
-      "scope": "official-record-copy",
-      "note": "Contemporaneous reports; not a complete radar or interceptor log."
-    },
-    {
-      "label": "Atlas archive — CAA preliminary study of unidentified radar targets",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-CAA-radar-targets-preliminary-study.pdf",
-      "publisher": "Civil Aeronautics Administration / Atlas archival copy",
-      "access": "Public",
-      "scope": "official-technical-record-copy"
-    },
-    {
       "label": "NARA — Saucers Over Washington: history and archival context",
       "url": "https://prologue.blogs.archives.gov/2019/12/19/saucers-over-washington-the-history-of-project-blue-book/",
       "publisher": "NARA",
       "access": "Public",
       "scope": "official-case-context"
+    },
+    {
+      "label": "CUFON — Washington 1952 primary-document file",
+      "url": "https://www.cufon.org/cufon/wash_nat/wash1952.htm",
+      "publisher": "Computer UFO Network",
+      "access": "Public",
+      "scope": "case-specific-document-archive",
+      "note": "Case-specific transcription/archive path; private mirror rather than NARA custody."
+    },
+    {
+      "label": "CUFON — CAA preliminary study of unidentified radar targets",
+      "url": "https://www.cufon.org/cufon/wash_nat/wash_faa.htm",
+      "publisher": "Computer UFO Network",
+      "access": "Public",
+      "scope": "official-technical-record-transcription",
+      "note": "Public transcription of the CAA radar study; Atlas retains the scanned copy locally but PDFs are excluded from Pages deployment."
     }
   ],
   "BF-1966-WS-01": [
@@ -260,14 +245,6 @@
   ],
   "BF-1980-PE-01": [
     {
-      "label": "Atlas archive — DIA/JCS La Joya intelligence message",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-JCS-message.pdf",
-      "publisher": "DIA / Atlas archival copy",
-      "access": "Public",
-      "scope": "declassified-official-record-copy",
-      "note": "Declassified message IR 6 876 0146 80; gun-camera film remains unreleased."
-    },
-    {
       "label": "The Black Vault — DIA La Joya declassified message mirror",
       "url": "https://documents.theblackvault.com/documents/ufos/dia2ufo.pdf",
       "publisher": "The Black Vault",
@@ -277,34 +254,26 @@
   ],
   "BF-SF-11": [
     {
-      "label": "Atlas archive — AFOSI Bennewitz visit report, October 1980",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Bennewitz-visit-Oct-1980.pdf",
-      "publisher": "AFOSI / Atlas archival copy",
+      "label": "OpenMinds mirror — AFOSI Bennewitz visit report, October 1980",
+      "url": "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf",
+      "publisher": "OpenMinds",
       "access": "Public",
-      "scope": "official-record-copy"
+      "scope": "official-record-mirror"
     },
     {
-      "label": "Atlas archive — AFOSI Cseh form, November 1980",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-Nov-1980.pdf",
-      "publisher": "AFOSI / Atlas archival copy",
+      "label": "OpenMinds mirror — Kirtland/Bennewitz meeting record, November 1980",
+      "url": "https://www.openminds.tv/wp-content/uploads/S3-Bennewitz-Kirtland-Bennewitz-Meeting-Nov-80.pdf",
+      "publisher": "OpenMinds",
       "access": "Public",
-      "scope": "official-record-copy"
+      "scope": "official-record-mirror"
     },
     {
-      "label": "Atlas archive — Richard Doty FOIA/ATR-1 material",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Doty-FOIA-ATR-1.pdf",
-      "publisher": "AFOSI record trail / Atlas archival copy",
+      "label": "OpenMinds mirror — Richard Doty FOIA/ATR-1 material",
+      "url": "https://www.openminds.tv/wp-content/uploads/DOTY-FOIA-ATR-1.pdf",
+      "publisher": "OpenMinds",
       "access": "Public",
-      "scope": "official-record-copy",
-      "note": "Does not supply the missing operation authorization or complete recipient list."
-    },
-    {
-      "label": "Atlas archive — Project Aquarius forgery artifact",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Project-Aquarius-forgery.pdf",
-      "publisher": "Atlas archival copy",
-      "access": "Public",
-      "scope": "disinformation-artifact",
-      "note": "Preserved artifact for provenance analysis; its presence does not authenticate its claims."
+      "scope": "official-record-mirror",
+      "note": "Documentary record in the affair; does not supply the missing authorization or complete recipient list."
     }
   ],
   "BF-SF-08": [
@@ -325,21 +294,6 @@
       "access": "Public",
       "scope": "independent-technical-report",
       "note": "Case-specific investigation; NARCAP is independent, not an FAA finding."
-    },
-    {
-      "label": "Atlas archive — O’Hare NARCAP Case 18 report",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18.pdf",
-      "publisher": "NARCAP / Atlas archival copy",
-      "access": "Public",
-      "scope": "independent-technical-report-copy"
-    },
-    {
-      "label": "Atlas archive — O’Hare FAA tower transcript pages",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/OHARE-2006/OHARE-2006-FAA-tower-transcript-pages-TR10.pdf",
-      "publisher": "FAA record reproduced by NARCAP / Atlas archival copy",
-      "access": "Public",
-      "scope": "official-record-reproduction",
-      "note": "Tower-communication pages preserved in the case package; the complete original tower recordings remain unreleased."
     }
   ],
   "BF-2008-SV-01": [
@@ -352,13 +306,6 @@
       "note": "Uses FAA FOIA data; correlations are the authors’ analysis, not an FAA conclusion."
     },
     {
-      "label": "Atlas archive — Stephenville MUFON radar report",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-Radar-Report.pdf",
-      "publisher": "MUFON / Atlas archival copy",
-      "access": "Public",
-      "scope": "independent-technical-report-copy"
-    },
-    {
       "label": "The Black Vault — FAA Stephenville FOIA material",
       "url": "https://documents.theblackvault.com/documents/Stephenville/FAAStephenville.pdf",
       "publisher": "The Black Vault",
@@ -368,14 +315,6 @@
     }
   ],
   "BF-1949-LA-00": [
-    {
-      "label": "Atlas archive — Los Alamos Conference on Aerial Phenomena transcript",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
-      "publisher": "AEC / Atlas archival copy",
-      "access": "Public",
-      "scope": "declassified-official-record-copy",
-      "note": "Twenty-five-page classified conference record released by DOE; cited maps, pilot reports and final disposition remain missing."
-    },
     {
       "label": "War.gov — Los Alamos Conference on Aerial Phenomena, official release",
       "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
