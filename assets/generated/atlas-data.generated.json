@@ -3135,7 +3135,7 @@
         "CIA-UAP-015 · Project Blue Book Special Report No. 14",
         "LAKENHEATH-1956-RAF-ORBS · RAF No. 23 Squadron and Waterbeach operational records"
       ],
-      "image": "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png",
+      "image": "assets/editorial-reconstructions/BF-1956-LB-01.png",
       "lon": 0.5609,
       "lat": 52.4093,
       "coordinateBasis": "RAF Lakenheath/Bentwaters, UK centroid",
@@ -3275,12 +3275,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png",
+        "src": "assets/editorial-reconstructions/BF-1956-LB-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Lakenheath-Bentwaters Radar-Visual Case.",
-        "provenance": "CIA archive",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Lakenheath-Bentwaters Radar-Visual Case, derived from the released narrative: radar-visual intercept reconstruction based on the published case record. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -3310,6 +3310,7 @@
         }
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-1956-LB-01.png",
         "assets/source_previews/BF-1956-LB-01_LAKENHEATH-1956-McDonald-analysis_page_001.png"
       ],
       "evidenceDepthStatus": "primary-complete",
@@ -3355,7 +3356,7 @@
         "BF-1952-DC-01"
       ],
       "heroFact": "The benchmark electromagnetic-effects case: separate, mutually unaware witnesses reporting the same engine-and-lights failure signature within hours.",
-      "image": "assets/source_previews/BF-1957-LV-01_source_image.jpg",
+      "image": "assets/editorial-reconstructions/BF-1957-LV-01.png",
       "caseTypes": [
         "witness-report"
       ],
@@ -3435,12 +3436,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-1957-LV-01_source_image.jpg",
+        "src": "assets/editorial-reconstructions/BF-1957-LV-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Project case-file page associated with the Levelland vehicle-interference reports.",
-        "provenance": "Blue Book file",
-        "evidenceStatus": "Documentary source page; not a photograph of the reported object or vehicle effects.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Levelland Vehicle-Interference Wave, derived from the released narrative: glowing egg-shaped report over a stalled vehicle; no event photograph survives. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -3453,6 +3454,7 @@
         }
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-1957-LV-01.png",
         "assets/source_previews/BF-1957-LV-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -5704,7 +5706,7 @@
         "MALMSTROM-1967-ENGINEERING · Engineering summary, 23 Aug 1967",
         "MALMSTROM-1967-FOIA-PACKAGE · USAF FOIA release package, private mirror"
       ],
-      "image": "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
+      "image": "assets/editorial-reconstructions/BF-1967-MA-01.png",
       "lon": -111.187,
       "lat": 47.5044,
       "coordinateBasis": "Malmstrom AFB, Montana",
@@ -5729,6 +5731,7 @@
         "BF-1980-RF-01"
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-1967-MA-01.png",
         "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
         "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_007.jpg",
         "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_008.jpg",
@@ -5856,14 +5859,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
+        "src": "assets/editorial-reconstructions/BF-1967-MA-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "FOIA-released page associated with the Malmstrom missile-shutdown record.",
-        "provenance": "USAF FOIA",
-        "evidenceStatus": "Official-record excerpt; documents the historical record but does not establish the alleged cause of the shutdowns.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Malmstrom AFB Missile Shutdown Incident, derived from the released narrative: missile-field reconstruction; the official record confirms the shutdown sequence but does not establish a UFO cause. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -6388,8 +6390,9 @@
       "sources": [
         "MINOT1968-NARA · NARA NAID 302580672"
       ],
-      "image": "assets/evidence/NARA-MINOT-1968/NARA-MINOT-1968__0101__pdf-page-001.png",
+      "image": "assets/editorial-reconstructions/BF-1968-MN-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1968-MN-01.png",
         "assets/evidence/NARA-MINOT-1968/NARA-MINOT-1968__0101__pdf-page-001.png",
         "assets/evidence/NARA-MINOT-1968/NARA-MINOT-1968__0103__pdf-page-003.png",
         "assets/evidence/NARA-MINOT-1968/NARA-MINOT-1968__0104__pdf-page-004.png",
@@ -6522,14 +6525,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/NARA-MINOT-1968/NARA-MINOT-1968__0101__pdf-page-001.png",
+        "src": "assets/editorial-reconstructions/BF-1968-MN-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Minot AFB Multi-Sensor Events.",
-        "provenance": "Official release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://catalog.archives.gov/id/302580672"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Minot AFB Multi-Sensor Events, derived from the released narrative: B-52 radar/visual encounter reconstruction based on the complete Blue Book file. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -7673,12 +7675,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Transcript",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Transcript",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-D1 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-D1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -7805,12 +7807,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 11 Technical Crew Debriefing",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+11+Technical+Crew+Debriefing",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-D4 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-D4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -7954,12 +7956,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Visual Material 1",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Visual+Material+1",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-VM1 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-VM1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8103,12 +8105,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Visual Material 2",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Visual+Material+2",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-VM2 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-VM2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8252,12 +8254,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Visual Material 3",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Visual+Material+3",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-VM3 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-VM3 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8401,12 +8403,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Visual Material 4",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Visual+Material+4",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-VM4 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-VM4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8533,12 +8535,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 12 Visual Material 5",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+12+Visual+Material+5",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-VM5 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-VM5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8798,12 +8800,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 17 Transcript",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+17+Transcript",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-D2 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-D2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -8985,7 +8987,7 @@
         "BF-1973-PG-01"
       ],
       "heroFact": "The encounter is on record; the reported flight anomalies remain testimonial rather than instrument-data evidence.",
-      "image": "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
+      "image": "assets/editorial-reconstructions/BF-1973-CY-01.png",
       "caseTypes": [
         "military-encounter",
         "near-collision-report"
@@ -9095,6 +9097,7 @@
         "independentWitnessGroups": 2
       },
       "images": [
+        "assets/editorial-reconstructions/BF-1973-CY-01.png",
         "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
         "assets/source_previews/COYNE-1973-p120-operational-hazard.jpg",
         "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg"
@@ -9106,14 +9109,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/COYNE-1973-p022-Coyne-interview.jpg",
+        "src": "assets/editorial-reconstructions/BF-1973-CY-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Source-page excerpt preserving the Coyne helicopter encounter account.",
-        "provenance": "CUFOS / Army form facsimiles",
-        "evidenceStatus": "Documentary excerpt; not a photograph of the reported near-collision.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://cufos.org/PDFs/books/A%20Helicopter-UFO%20Encounter%20Over%20Ohio.pdf"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Coyne Helicopter Near-Collision, derived from the released narrative: reported cigar-shaped luminous object closing on an Army Reserve helicopter. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -9565,12 +9567,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 17 Crew Debriefing for Science",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+17+Crew+Debriefing+for+Science",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-D5 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-D5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -9697,12 +9699,12 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Apollo 17 Technical Crew Debriefing",
-          "url": "https://ntrs.nasa.gov/search?q=Apollo+17+Technical+Crew+Debriefing",
-          "publisher": "NASA",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "label": "War.gov — NASA-UAP-D6 exact released record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
+          "publisher": "U.S. Department of War / NASA release record",
+          "access": "Public; canonical endpoint may block automated clients",
+          "scope": "official-record",
+          "note": "Exact NASA-UAP-D6 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
         }
       ],
       "images": [
@@ -10168,7 +10170,7 @@
       "sources": [
         "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
       ],
-      "image": "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_002.jpg",
+      "image": "assets/editorial-reconstructions/BF-1976-TH-01.png",
       "lon": 51.389,
       "lat": 35.689,
       "expectedCountry": "Iran",
@@ -10192,6 +10194,7 @@
         "BF-1956-LB-01"
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-1976-TH-01.png",
         "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_002.jpg",
         "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_003.jpg",
         "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_004.jpg"
@@ -10295,14 +10298,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_002.jpg",
+        "src": "assets/editorial-reconstructions/BF-1976-TH-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Joint Chiefs of Staff report page associated with the Tehran F-4 intercept.",
-        "provenance": "Iranian AF / DIA",
-        "evidenceStatus": "Official documentary record; reports the encounter but is not sensor or event imagery.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://www.nsa.gov/portals/75/documents/news-features/declassified-documents/ufo/us_gov_iran_case.pdf"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Tehran F-4 Intercept Case, derived from the released narrative: reported F-4 intercept geometry and multicolored luminous object. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -11187,7 +11189,7 @@
         "RENDLESHAM-1980-TNA · UK National Archives collection note",
         "RENDLESHAM-1980-DEFE · MOD correspondence and later official finding"
       ],
-      "image": "assets/evidence/RENDLESHAM-1980/Halt_Memorandum.jpg",
+      "image": "assets/editorial-reconstructions/BF-1980-RF-01.png",
       "lon": 1.434,
       "lat": 52.092,
       "coordinateBasis": "Rendlesham Forest / RAF Bentwaters",
@@ -11211,6 +11213,7 @@
         "BF-1989-BW-01"
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-1980-RF-01.png",
         "assets/evidence/RENDLESHAM-1980/Halt_Memorandum.jpg",
         "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_007.jpg",
         "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_008.jpg",
@@ -11348,14 +11351,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/RENDLESHAM-1980/Halt_Memorandum.jpg",
+        "src": "assets/editorial-reconstructions/BF-1980-RF-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "The Halt memorandum recording the Rendlesham Forest incident report.",
-        "provenance": "USAF memo / UK Archives",
-        "evidenceStatus": "Primary documentary artifact; records reported observations and response, not object identity.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Rendlesham Forest / RAF Bentwaters Incident, derived from the released narrative: reported lights among trees; reconstruction does not establish object identity. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -17972,8 +17974,9 @@
       "sources": [
         "DOW-UAP-D12 · Mission Report, Iraq, 20 May 2022"
       ],
-      "image": "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
+      "image": "assets/editorial-reconstructions/BF-2022-IQ-02.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2022-IQ-02.png",
         "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
         "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_001.png",
         "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_002.png"
@@ -18079,14 +18082,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
+        "src": "assets/editorial-reconstructions/BF-2022-IQ-02.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Iraq ISR Object — No Positive Identification.",
-        "provenance": "PURSUE / USCENTCOM record",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
-        "isEventEvidence": false,
-        "sourceUrl": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d12-mission-report-iraq-may-2022.pdf"
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Iraq ISR Object — No Positive Identification, derived from the released narrative: source-derived ISR pursuit concept; the released record contains no public event frame. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -18295,8 +18297,9 @@
       "sources": [
         "FBI-SERIAL3-2023 · FBI FD-302, September 2023"
       ],
-      "image": "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
+      "image": "assets/editorial-reconstructions/BF-2023-BC-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2023-BC-01.png",
         "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
         "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_001.png"
       ],
@@ -18416,12 +18419,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
+        "src": "assets/editorial-reconstructions/BF-2023-BC-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Restricted-Facility Bronze Cigar Object.",
-        "provenance": "FBI FD-302",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Restricted-Facility Bronze Cigar Object, derived from the released narrative: silent metallic-bronze cigar form with an intense diamond-white light. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -18977,8 +18980,9 @@
       "sources": [
         "DOW-UAP-D74 · released mission report, UAP entry on PDF p. 10"
       ],
-      "image": "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png",
+      "image": "assets/editorial-reconstructions/BF-2023-SY-74.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2023-SY-74.png",
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png",
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_001.png",
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_009.png"
@@ -19097,12 +19101,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png",
+        "src": "assets/editorial-reconstructions/BF-2023-SY-74.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Syria Near-Aircraft Bouncy-Ball Object.",
-        "provenance": "DOW/AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Syria Near-Aircraft Bouncy-Ball Object, derived from the released narrative: reported bouncy-ball-shaped object descending past an aircraft at approximately 424 knots. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -19140,7 +19144,7 @@
       "sources": [
         "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives"
       ],
-      "image": "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
+      "image": "assets/western_us_renderings.jpg",
       "lon": -112,
       "lat": 39,
       "expectedCountry": "United States of America",
@@ -19164,12 +19168,13 @@
         "BF-2015-PX-04"
       ],
       "images": [
-        "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
+        "assets/western_us_renderings.jpg",
         "assets/evidence/DOW-UAP-D079/DoW-UAP-D079_Narrative-1_Western-US-Event__contact.jpg",
         "assets/evidence/DOW-UAP-D080/DoW-UAP-D080_Narrative-2_Western-US-Event__contact.jpg",
         "assets/evidence/DOW-UAP-D081/DoW-UAP-D081_Narrative-3_Western-US-Event__contact.jpg",
         "assets/evidence/DOW-UAP-D082/DoW-UAP-D082_Narrative-4_Western-US-Event__contact.jpg",
-        "assets/evidence/DOW-UAP-D083/DoW-UAP-D083_Narrative-5_Western-US-Event__contact.jpg"
+        "assets/evidence/DOW-UAP-D083/DoW-UAP-D083_Narrative-5_Western-US-Event__contact.jpg",
+        "assets/source_previews/BF-2023-WUS-03_source_image.jpg"
       ],
       "caseTypes": [
         "witness-report"
@@ -19256,12 +19261,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
+        "src": "assets/western_us_renderings.jpg",
         "mediaType": "image",
-        "visualType": "investigative-summary",
-        "caption": "Source summary card for the Western U.S. federal law-enforcement encounter packet.",
-        "provenance": "AARO release",
-        "evidenceStatus": "Editorial/source summary; not event imagery. Individual released pages remain in supporting evidence.",
+        "visualType": "official-digital-rendering-montage",
+        "caption": "Released FBI digital-rendering montage accompanying the Western U.S. witness packet. These are witness-description illustrations, not event photographs.",
+        "provenance": "FBI / PURSUE released digital renderings, FBI-UAP-D014 through D023",
+        "evidenceStatus": "Officially released illustrative material; not primary event imagery and not proof of object identity.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -20295,8 +20300,9 @@
       "sources": [
         "ODNI-UAP-D001 · USPER Narrative, Senior USIC Official"
       ],
-      "image": "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
+      "image": "assets/editorial-reconstructions/BF-2025-USIC-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2025-USIC-01.png",
         "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
         "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_001.png"
       ],
@@ -20413,12 +20419,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
+        "src": "assets/editorial-reconstructions/BF-2025-USIC-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Senior USIC Test-Range Orb Encounters.",
-        "provenance": "PURSUE / ODNI narrative",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Senior USIC Test-Range Orb Encounters, derived from the released narrative: orange orb-like objects around a helicopter during a claimed multi-sensor test-range encounter. Not event imagery.",
+        "provenance": "UAP Atlas editorial reconstruction derived from cited primary record",
+        "evidenceStatus": "Illustrative reconstruction; not primary evidence and not an assertion of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
