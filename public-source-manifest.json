@@ -1,729 +1,849 @@
 {
   "BF-1947-MI-01": [
     {
-      "label": "FBI Vault — UFO files",
-      "url": "https://vault.fbi.gov/UFO",
-      "publisher": "Federal Bureau of Investigation",
       "access": "Public; site may block automated clients",
+      "label": "FBI Vault — UFO files",
+      "note": "Official FBI release collection containing the 1947 flying-disc record trail. Search within the file set for Maury Island and Tacoma.",
+      "publisher": "Federal Bureau of Investigation",
       "scope": "official-collection",
-      "note": "Official FBI release collection containing the 1947 flying-disc record trail. Search within the file set for Maury Island and Tacoma."
+      "url": "https://vault.fbi.gov/UFO"
     }
   ],
   "BF-1947-RW-01": [
     {
-      "label": "U.S. Air Force — The Roswell Report: Fact versus Fiction in the New Mexico Desert",
-      "url": "https://www.af.mil/The-Roswell-Report/",
-      "publisher": "U.S. Air Force",
       "access": "Public",
-      "scope": "official-report",
+      "label": "U.S. Air Force — The Roswell Report: Fact versus Fiction in the New Mexico Desert",
+      "note": "Official 1994–1997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record.",
+      "publisher": "U.S. Air Force",
       "role": "official-position",
-      "note": "Official 1994–1997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record."
+      "scope": "official-report",
+      "url": "https://www.af.mil/The-Roswell-Report/"
     }
   ],
   "BF-1948-CW-01": [
     {
-      "label": "NARA Catalog — Chiles-Whitted / Incident Number 144",
-      "url": "https://catalog.archives.gov/id/28931059",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
-      "scope": "official-catalog-record"
+      "label": "NARA Catalog — Chiles-Whitted / Incident Number 144",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/28931059"
     }
   ],
   "BF-1948-GD-01": [
     {
-      "label": "Fold3 — Gorman case archival grouping",
-      "url": "https://www.fold3.com/image/6388048",
-      "publisher": "Fold3",
       "access": "Archive-licensed; account may be required",
+      "label": "Fold3 — Gorman case archival grouping",
+      "note": "Start of the verified 113-page T1206 grouping; Atlas source trail identifies Fold3 image IDs 6388048–6388160.",
+      "publisher": "Fold3",
       "scope": "archive-licensed",
-      "note": "Start of the verified 113-page T1206 grouping; Atlas source trail identifies Fold3 image IDs 6388048–6388160."
-    }
-  ],
-  "BF-1953-RP-00": [
-    {
-      "label": "War.gov — CIA Robertson Panel / Scientific Advisory Panel report",
-      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953.pdf",
-      "publisher": "U.S. Department of War / CIA declassified record",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact released 42-page file. The recommendations are confirmed; this document alone does not prove every recommendation was implemented."
-    }
-  ],
-  "BF-1957-LV-01": [
-    {
-      "label": "NARA Catalog — Levelland Project BLUE BOOK file",
-      "url": "https://catalog.archives.gov/id/28974191",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record"
-    }
-  ],
-  "BF-SF-02": [
-    {
-      "label": "NARA — Project 1794 declassified records",
-      "url": "https://catalog.archives.gov/id/6920770",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-record"
-    }
-  ],
-  "BF-1964-SC-01": [
-    {
-      "label": "NARA Catalog — Socorro Project BLUE BOOK file",
-      "url": "https://catalog.archives.gov/id/302532129",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record"
-    }
-  ],
-  "BF-1978-VL-01": [
-    {
-      "label": "National Archives of Australia — Valentich disappearance file, B1497 V116/783/1047",
-      "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=10491375&isAv=N",
-      "publisher": "National Archives of Australia",
-      "access": "Public catalog",
-      "scope": "official-catalog-record",
-      "note": "Exact Department of Transport investigation catalog item; RecordSearch sessions can be unstable."
-    },
-    {
-      "label": "ATSB — Aircraft Accident Investigation Summary Report 197802563",
-      "url": "https://www.atsb.gov.au/media/5226347/197802563.pdf",
-      "publisher": "Australian Transport Safety Bureau",
-      "access": "Public; endpoint may respond slowly",
-      "scope": "official-investigation-report",
-      "note": "Official accident-investigation summary for the Valentich disappearance; no published radar corroboration of the reported object."
-    },
-    {
-      "label": "UFOr Australia archive — Valentich final communications transcript",
-      "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf",
-      "publisher": "UFO Research (NSW) / public copy",
-      "access": "Public",
-      "scope": "official-transcript-copy",
-      "note": "Public copy of the final radio communications; private mirror rather than NAA custody."
-    }
-  ],
-  "BF-1981-TP-01": [
-    {
-      "label": "GEIPAN — Trans-en-Provence case 1981-01-00849",
-      "url": "https://www.cnes-geipan.fr/fr/cas/1981-01-00849",
-      "publisher": "CNES / GEIPAN",
-      "access": "Public",
-      "scope": "official-case-record",
-      "note": "Exact official case page with Note Technique 16, laboratory analyses, photographs, meteorology and police record attachments."
-    }
-  ],
-  "BF-SF-05": [
-    {
-      "label": "FBI Vault — Majestic 12 Part 1",
-      "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view",
-      "publisher": "Federal Bureau of Investigation",
-      "access": "Public; site may block automated clients",
-      "scope": "official-record",
-      "note": "Official FBI-hosted copy includes the Bureau's bogus determination; custody does not authenticate the underlying MJ-12 documents."
-    }
-  ],
-  "BF-1990-CV-01": [
-    {
-      "label": "Sheffield Hallam University — photographic analysis of the Calvine image",
-      "url": "https://shura.shu.ac.uk/34877/1/Robinson-PhotographicAnalysisVersion5(VoR).pdf",
-      "publisher": "Sheffield Hallam University",
-      "access": "Public",
-      "scope": "academic-analysis",
-      "note": "Analysis of the surviving reproduction; the negatives and five other frames remain missing."
-    },
-    {
-      "label": "David Clarke — Calvine photograph case files and custody trail",
-      "url": "https://drdavidclarke.co.uk/secret-files/the-calvine-ufo-photographs/",
-      "publisher": "Dr David Clarke",
-      "access": "Public",
-      "scope": "case-specific-research-archive"
-    },
-    {
-      "label": "Atlas archive — surviving Calvine photographic reproduction",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg",
-      "publisher": "Sheffield Hallam release / Atlas archival copy",
-      "access": "Public",
-      "scope": "archival-reproduction",
-      "note": "Later public reproduction, not the original negative."
-    }
-  ],
-  "BF-SF-10": [
-    {
-      "label": "House Oversight — 2023 UAP hearing",
-      "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",
-      "publisher": "U.S. House Committee on Oversight and Accountability",
-      "access": "Public",
-      "scope": "official-hearing-record"
-    },
-    {
-      "label": "GovInfo — UAP hearing transcript, Serial 118-53",
-      "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg53022",
-      "publisher": "U.S. Government Publishing Office",
-      "access": "Public",
-      "scope": "official-transcript"
-    }
-  ],
-  "BF-1961-BH-01": [
-    {
-      "label": "UNH Archives — Betty and Barney Hill Papers, MC 197",
-      "url": "https://archives.unh.edu/repositories/3/resources/107",
-      "publisher": "University of New Hampshire Special Collections",
-      "access": "Public",
-      "scope": "archival-finding-aid",
-      "note": "Exact collection finding aid for the Hills’ papers; personal archive, not an official determination of the encounter."
-    }
-  ],
-  "BF-1957-RB-01": [
-    {
-      "label": "Princeton archive — McDonald/AIAA RB-47 analysis PDF",
-      "url": "http://kirkmcd.princeton.edu/JEMcDonald/mcdonald_aa_9_7_66_71.pdf",
-      "publisher": "Princeton-hosted James E. McDonald archive",
-      "access": "Public",
-      "scope": "published-technical-analysis",
-      "note": "Exact case-specific paper; academic mirror of the 1971 AIAA publication, not the original radar-scope film."
-    }
-  ],
-  "BF-1952-DC-01": [
-    {
-      "label": "NARA — Saucers Over Washington: history and archival context",
-      "url": "https://prologue.blogs.archives.gov/2019/12/19/saucers-over-washington-the-history-of-project-blue-book/",
-      "publisher": "NARA",
-      "access": "Public",
-      "scope": "official-case-context"
-    },
-    {
-      "label": "CUFON — Washington 1952 primary-document file",
-      "url": "https://www.cufon.org/cufon/wash_nat/wash1952.htm",
-      "publisher": "Computer UFO Network",
-      "access": "Public",
-      "scope": "case-specific-document-archive",
-      "note": "Case-specific transcription/archive path; private mirror rather than NARA custody."
-    },
-    {
-      "label": "CUFON — CAA preliminary study of unidentified radar targets",
-      "url": "https://www.cufon.org/cufon/wash_nat/wash_faa.htm",
-      "publisher": "Computer UFO Network",
-      "access": "Public",
-      "scope": "official-technical-record-transcription",
-      "note": "Public transcription of the CAA radar study; Atlas retains the scanned copy locally but PDFs are excluded from Pages deployment."
-    }
-  ],
-  "BF-1966-WS-01": [
-    {
-      "label": "State Library Victoria — Westall 1966 archival review",
-      "url": "https://blogs.slv.vic.gov.au/our-stories/strange-lights-in-the-sky-the-westall-ufo-event-1966/",
-      "publisher": "State Library Victoria",
-      "access": "Public",
-      "scope": "institutional-archive",
-      "note": "Reproduces contemporary newspaper coverage and a student drawing; no located RAAF case file."
-    },
-    {
-      "label": "Atlas archive — Dandenong Journal contemporary headline",
-      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png",
-      "publisher": "Dandenong Journal / Atlas archival copy",
-      "access": "Public",
-      "scope": "contemporaneous-press-copy"
-    }
-  ],
-  "BF-1980-CLD-01": [
-    {
-      "label": "Cash-Landrum document collection — case investigation files",
-      "url": "https://www.blueblurrylines.com/2013/07/resource-guide-for-cash-landrum-ufo-case.html",
-      "publisher": "Blue Blurry Lines",
-      "access": "Public",
-      "scope": "case-specific-document-archive",
-      "note": "Curated investigation, medical-discussion and litigation material; private archive custody."
-    },
-    {
-      "label": "CUFON archive — Cash-Landrum case report compilation",
-      "url": "https://www.cufon.org/cufon/cashlanL.pdf",
-      "publisher": "Computer UFO Network",
-      "access": "Public",
-      "scope": "public-document-copy",
-      "note": "Case-specific compilation; not an official court repository and not proof of causation."
-    }
-  ],
-  "BF-1980-PE-01": [
-    {
-      "label": "The Black Vault — DIA La Joya declassified message mirror",
-      "url": "https://documents.theblackvault.com/documents/ufos/dia2ufo.pdf",
-      "publisher": "The Black Vault",
-      "access": "Public",
-      "scope": "foia-document-mirror"
-    }
-  ],
-  "BF-SF-11": [
-    {
-      "label": "OpenMinds mirror — AFOSI Bennewitz visit report, October 1980",
-      "url": "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf",
-      "publisher": "OpenMinds",
-      "access": "Public",
-      "scope": "official-record-mirror"
-    },
-    {
-      "label": "OpenMinds mirror — Kirtland/Bennewitz meeting record, November 1980",
-      "url": "https://www.openminds.tv/wp-content/uploads/S3-Bennewitz-Kirtland-Bennewitz-Meeting-Nov-80.pdf",
-      "publisher": "OpenMinds",
-      "access": "Public",
-      "scope": "official-record-mirror"
-    },
-    {
-      "label": "OpenMinds mirror — Richard Doty FOIA/ATR-1 material",
-      "url": "https://www.openminds.tv/wp-content/uploads/DOTY-FOIA-ATR-1.pdf",
-      "publisher": "OpenMinds",
-      "access": "Public",
-      "scope": "official-record-mirror",
-      "note": "Documentary record in the affair; does not supply the missing authorization or complete recipient list."
-    }
-  ],
-  "BF-SF-08": [
-    {
-      "label": "Internet Archive — COMETA report, English translation PDF",
-      "url": "https://ia601803.us.archive.org/27/items/pdfy-NRIQie2ooVehep7K/The%20Cometa%20Report%20%5BUFO%27s%20And%20Defense%20-%20What%20Should%20We%20Prepare%20For%5D.pdf",
-      "publisher": "Internet Archive",
-      "access": "Public",
-      "scope": "public-report-copy",
-      "note": "Independent COMETA report; COMETA was not an official French government commission."
-    }
-  ],
-  "BF-2006-OH-01": [
-    {
-      "label": "NARCAP Technical Report 10 — O’Hare Case 18",
-      "url": "https://www.narcap.org/s/NARCAP_TR-10.pdf",
-      "publisher": "NARCAP",
-      "access": "Public",
-      "scope": "independent-technical-report",
-      "note": "Case-specific investigation; NARCAP is independent, not an FAA finding."
-    }
-  ],
-  "BF-2008-SV-01": [
-    {
-      "label": "SCU — Stephenville radar and witness report study",
-      "url": "https://www.explorescu.org/post/stephenville-lights-a-comprehensive-radar-and-witness-report-study",
-      "publisher": "Scientific Coalition for UAP Studies",
-      "access": "Public",
-      "scope": "independent-technical-report",
-      "note": "Uses FAA FOIA data; correlations are the authors’ analysis, not an FAA conclusion."
-    },
-    {
-      "label": "The Black Vault — FAA Stephenville FOIA material",
-      "url": "https://documents.theblackvault.com/documents/Stephenville/FAAStephenville.pdf",
-      "publisher": "The Black Vault",
-      "access": "Public",
-      "scope": "official-record-mirror",
-      "note": "FAA FOIA material mirror; FAA released the data but did not endorse later object correlations."
-    }
-  ],
-  "BF-1949-LA-00": [
-    {
-      "label": "War.gov — Los Alamos Conference on Aerial Phenomena, official release",
-      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
-      "publisher": "U.S. Department of War / Department of Energy release",
-      "access": "Public; site may block automated clients",
-      "scope": "official-record",
-      "note": "Exact official release endpoint for DOE-UAP-D004; Atlas archival copy remains available if the government endpoint blocks access."
-    }
-  ],
-  "BF-SF-07": [
-    {
-      "label": "Internet Archive — Ruppelt, The Report on Unidentified Flying Objects",
-      "url": "https://archive.org/details/reportonunidenti00rupp",
-      "publisher": "Internet Archive",
-      "access": "Public/borrow restrictions may apply",
-      "scope": "firsthand-memoir-archive",
-      "note": "Ruppelt’s account is the principal public description. The Estimate itself has never been recovered."
-    }
-  ],
-  "BF-1997-PH-01": [
-    {
-      "label": "CNN — former Arizona governor Fife Symington’s firsthand retrospective",
-      "url": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html",
-      "publisher": "CNN",
-      "access": "Public/access may vary",
-      "scope": "firsthand-retrospective-commentary",
-      "note": "Published ten years later; not an official investigation and distinct from later flare footage."
-    }
-  ],
-  "BF-1989-BW-01": [
-    {
-      "label": "COBEPS — Belgian wave research report",
-      "url": "https://www.cobeps.org/pdf/belgian_wave_130310.pdf",
-      "publisher": "COBEPS",
-      "access": "Public",
-      "scope": "institutional-research-report",
-      "note": "Retrospective report and public military-record copies; original calibrated radar tapes remain unavailable."
-    }
-  ],
-  "BF-1956-LB-01": [
-    {
-      "label": "NARA Catalog — Bentwaters–Lakenheath Project BLUE BOOK file",
-      "url": "https://catalog.archives.gov/id/28966873",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record",
-      "note": "Exact 1956 Project BLUE BOOK case-file unit; Atlas holds selected page images locally."
-    },
-    {
-      "label": "UK National Archives — No. 23 Squadron operations record book",
-      "url": "https://discovery.nationalarchives.gov.uk/details/r/C2505380",
-      "publisher": "The National Archives (UK)",
-      "access": "Public catalog",
-      "scope": "official-archival-lead",
-      "note": "Exact RAF squadron operational-record custody lead; not the recovered radar plots or communications transcript."
-    },
-    {
-      "label": "UK National Archives — RAF Waterbeach station operations record book",
-      "url": "https://discovery.nationalarchives.gov.uk/details/r/C4099443",
-      "publisher": "The National Archives (UK)",
-      "access": "Public catalog",
-      "scope": "official-archival-lead",
-      "note": "Exact station-record custody lead; catalog presence does not establish that the surviving file contains the missing raw radar record."
-    }
-  ],
-  "BF-1986-JAL-01": [
-    {
-      "label": "NARA Catalog — FAA Japan Airlines Flight 1628 records",
-      "url": "https://catalog.archives.gov/id/40587205",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record",
-      "note": "Exact FAA archival record unit for the 1986 Alaska encounter."
-    },
-    {
-      "label": "NICAP archive — FAA JAL 1628 case packet",
-      "url": "https://www.nicap.org/docs/861117_flight1628.pdf",
-      "publisher": "NICAP public archive",
-      "access": "Public",
-      "scope": "official-record-mirror",
-      "note": "Accessible case-specific copy of FAA records; private mirror rather than NARA custody."
-    },
-    {
-      "label": "The Black Vault — FAA JAL 1628 document mirror",
-      "url": "https://documents.theblackvault.com/documents/ufos/jal1628/733667-001-015.pdf",
-      "publisher": "The Black Vault",
-      "access": "Public",
-      "scope": "official-record-mirror",
-      "note": "Case-specific FAA document copy; mirror custody."
-    }
-  ],
-  "BF-1987-GB-01": [
-    {
-      "label": "Rice University Archives — Gulf Breeze UFO photographs, Box 11 Folder 12",
-      "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044",
-      "publisher": "Woodson Research Center, Rice University",
-      "access": "Public",
-      "scope": "archival-catalog-record",
-      "note": "Exact archival object record in the Richard F. Haines papers; archival custody does not authenticate the photographs."
+      "url": "https://www.fold3.com/image/6388048"
     }
   ],
   "BF-1948-MT-01": [
     {
-      "label": "NARA Catalog — Godman Field, Kentucky, January 1948 Project BLUE BOOK file",
-      "url": "https://catalog.archives.gov/id/28930550",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
+      "label": "NARA Catalog — Godman Field, Kentucky, January 1948 Project BLUE BOOK file",
+      "note": "Exact 75-object case file. Custody confirms the contemporary record, not the object’s identity.",
+      "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
-      "note": "Exact 75-object case file. Custody confirms the contemporary record, not the object’s identity."
-    }
-  ],
-  "BF-1973-SS-01": [
-    {
-      "label": "War.gov — CIA Sary Shagan Weapons Testing Range report",
-      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range.pdf",
-      "publisher": "U.S. Department of War / CIA declassified record",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact released intelligence report. It preserves a source report, not independent sensor confirmation."
-    }
-  ],
-  "BF-1994-KZ-01": [
-    {
-      "label": "War.gov — State Department cable DUSHANBE 00259, Kazakhstan encounter",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf",
-      "publisher": "U.S. Department of War / Department of State record",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact released diplomatic cable. Referenced photographs and follow-up investigation are absent."
-    }
-  ],
-  "BF-2022-CS-01": [
-    {
-      "label": "War.gov — Intelligence assessment of Colorado Springs / Cheyenne Mountain incident",
-      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf",
-      "publisher": "U.S. Department of War / Intelligence Community assessment",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-analysis",
-      "note": "Exact official analysis. The backscattering explanation is explicitly low confidence and lacks released environmental modeling inputs."
-    }
-  ],
-  "BF-2023-BC-01": [
-    {
-      "label": "War.gov — FBI Serial 3 restricted-facility bronze cigar witness record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf",
-      "publisher": "U.S. Department of War / FBI record",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact released FD-302 witness record; location, identities and disposition remain redacted or unreleased."
-    }
-  ],
-  "BF-2023-IQ-20": [
-    {
-      "label": "War.gov — DOW-UAP-D20 released mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-southern-united-states-2023.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact DOW-UAP-D20 release. The release filename/PDF metadata says Southern United States, but the body records Operation Inherent Resolve, entry into SY airspace, and MGRS 37SGA in northeastern Syria. Atlas geography follows the body while preserving the publisher conflict."
-    }
-  ],
-  "BF-2023-SY-74": [
-    {
-      "label": "War.gov — DOW-UAP-D74 Syria mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact released mission report; native FMV, platform details and reproducible kinematic workpapers are not public."
-    }
-  ],
-  "BF-2024-ECS-01": [
-    {
-      "label": "War.gov — DOW-UAP-D28 released mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact DOW-UAP-D28 release. The filename/PDF metadata says East China Sea, but the body names Operation Inherent Resolve, Ayn al-Asad ROZ RAINDROP, and 38SKC MGRS in western Iraq. Atlas geography follows the body while preserving the publisher conflict."
+      "url": "https://catalog.archives.gov/id/28930550"
     }
   ],
   "BF-1949-KD-01": [
     {
-      "label": "War.gov — U.S. Army Flying Saucer Study, 1949",
-      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D084_USArmy-Flying-Saucer-Study_1949.pdf",
-      "publisher": "U.S. Department of War / U.S. Army CIC record",
       "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — U.S. Army Flying Saucer Study, 1949",
+      "note": "Exact 342-HS1 release containing the Kodiak report on pp. 51–52; the complete packet contains multiple incidents and does not supply a final identification.",
+      "publisher": "U.S. Department of War / U.S. Army CIC record",
       "scope": "official-record",
-      "note": "Exact 342-HS1 release containing the Kodiak report on pp. 51–52; the complete packet contains multiple incidents and does not supply a final identification."
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/DOW-UAP-D084_USArmy-Flying-Saucer-Study_1949.pdf"
+    }
+  ],
+  "BF-1949-LA-00": [
+    {
+      "access": "Public; site may block automated clients",
+      "label": "War.gov — Los Alamos Conference on Aerial Phenomena, official release",
+      "note": "Exact official release endpoint for DOE-UAP-D004; Atlas archival copy remains available if the government endpoint blocks access.",
+      "publisher": "U.S. Department of War / Department of Energy release",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf"
+    }
+  ],
+  "BF-1952-DC-01": [
+    {
+      "access": "Public",
+      "label": "NARA — Saucers Over Washington: history and archival context",
+      "publisher": "NARA",
+      "scope": "official-case-context",
+      "url": "https://prologue.blogs.archives.gov/2019/12/19/saucers-over-washington-the-history-of-project-blue-book/"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON — Washington 1952 primary-document file",
+      "note": "Case-specific transcription/archive path; private mirror rather than NARA custody.",
+      "publisher": "Computer UFO Network",
+      "scope": "case-specific-document-archive",
+      "url": "https://www.cufon.org/cufon/wash_nat/wash1952.htm"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON — CAA preliminary study of unidentified radar targets",
+      "note": "Public transcription of the CAA radar study; Atlas retains the scanned copy locally but PDFs are excluded from Pages deployment.",
+      "publisher": "Computer UFO Network",
+      "scope": "official-technical-record-transcription",
+      "url": "https://www.cufon.org/cufon/wash_nat/wash_faa.htm"
+    }
+  ],
+  "BF-1953-RP-00": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — CIA Robertson Panel / Scientific Advisory Panel report",
+      "note": "Exact released 42-page file. The recommendations are confirmed; this document alone does not prove every recommendation was implemented.",
+      "publisher": "U.S. Department of War / CIA declassified record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-002_Scientific-Advisory-Panel-on-Unidentified-Flying-Objects_Report_1952-1953.pdf"
     }
   ],
   "BF-1954-KL-01": [
     {
+      "access": "Public",
       "label": "NARA Catalog — Killeen, Texas, November 14/16, 1954 field file",
-      "url": "https://catalog.archives.gov/id/310994070",
+      "note": "Exact 4602D AISS file unit with 155 digital objects; official custody does not validate an extraordinary interpretation.",
       "publisher": "National Archives and Records Administration",
-      "access": "Public",
       "scope": "official-catalog-record",
-      "note": "Exact 4602D AISS file unit with 155 digital objects; official custody does not validate an extraordinary interpretation."
-    }
-  ],
-  "BF-1957-B47-01": [
-    {
-      "label": "NARA Catalog — Air Intelligence Information Reports: 1957",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record",
-      "note": "Exact 301-object 4602D AISS compilation containing the B-47 encounter report; it is a collection-level file unit with a page-level internal locator, not a standalone case record."
-    }
-  ],
-  "BF-2020-AS-01": [
-    {
-      "label": "War.gov — DOW-UAP-D44 Arabian Sea range-fouler record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact official release path for DOW-UAP-D44; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
-    }
-  ],
-  "BF-2023-JP-01": [
-    {
-      "label": "War.gov — DOW-UAP-D42 Japan range-fouler debrief",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact official release path for DOW-UAP-D42; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
-    }
-  ],
-  "BF-2022-ME-01": [
-    {
-      "label": "War.gov — DOW-UAP-D10 Middle East mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact official release path for DOW-UAP-D10; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
-    }
-  ],
-  "BF-2023-GR-33": [
-    {
-      "label": "War.gov — DOW-UAP-D33 Greece mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact official release path for DOW-UAP-D33; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
-    }
-  ],
-  "BF-2024-GR-25": [
-    {
-      "label": "War.gov — DOW-UAP-D25 Greece mission report",
-      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf",
-      "publisher": "U.S. Department of War",
-      "access": "Public; endpoint blocks some automated clients",
-      "scope": "official-record",
-      "note": "Exact official release path for DOW-UAP-D25; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
-    }
-  ],
-  "BF-1957-NC-01": [
-    {
-      "label": "NARA Catalog — AIIRs 1957 compilation (Aug. 3, 1957 Northern California radar-skinpaint report)",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
-      "access": "Public",
-      "scope": "official-catalog-record",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Aug. 3, 1957 Northern California radar-skinpaint report. Government custody confirms the record, not the reported object's identity."
+      "url": "https://catalog.archives.gov/id/310994070"
     }
   ],
   "BF-1956-DF-01": [
     {
-      "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, pp. 17 and 19–20)",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
+      "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, pp. 17 and 19–20)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: TR-1-57, pp. 17 and 19–20. Government custody confirms the record, not the reported object's identity.",
+      "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: TR-1-57, pp. 17 and 19–20. Government custody confirms the record, not the reported object's identity."
+      "url": "https://catalog.archives.gov/id/311001910"
     }
   ],
-  "BF-1957-HT-01": [
+  "BF-1956-LB-01": [
     {
-      "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, p. 15)",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
+      "label": "NARA Catalog — Bentwaters–Lakenheath Project BLUE BOOK file",
+      "note": "Exact 1956 Project BLUE BOOK case-file unit; Atlas holds selected page images locally.",
+      "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Report 1-57, p. 15. Government custody confirms the record, not the reported object's identity."
+      "url": "https://catalog.archives.gov/id/28966873"
+    },
+    {
+      "access": "Public catalog",
+      "label": "UK National Archives — No. 23 Squadron operations record book",
+      "note": "Exact RAF squadron operational-record custody lead; not the recovered radar plots or communications transcript.",
+      "publisher": "The National Archives (UK)",
+      "scope": "official-archival-lead",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C2505380"
+    },
+    {
+      "access": "Public catalog",
+      "label": "UK National Archives — RAF Waterbeach station operations record book",
+      "note": "Exact station-record custody lead; catalog presence does not establish that the surviving file contains the missing raw radar record.",
+      "publisher": "The National Archives (UK)",
+      "scope": "official-archival-lead",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C4099443"
+    }
+  ],
+  "BF-1957-B47-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — Air Intelligence Information Reports: 1957",
+      "note": "Exact 301-object 4602D AISS compilation containing the B-47 encounter report; it is a collection-level file unit with a page-level internal locator, not a standalone case record.",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/311001910"
     }
   ],
   "BF-1957-CG-01": [
     {
-      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, p. 15)",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
+      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, p. 15)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, p. 15. Government custody confirms the record, not the reported object's identity.",
+      "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, p. 15. Government custody confirms the record, not the reported object's identity."
+      "url": "https://catalog.archives.gov/id/311001910"
+    }
+  ],
+  "BF-1957-HT-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, p. 15)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Report 1-57, p. 15. Government custody confirms the record, not the reported object's identity.",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/311001910"
+    }
+  ],
+  "BF-1957-LV-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — Levelland Project BLUE BOOK file",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/28974191"
+    }
+  ],
+  "BF-1957-NC-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — AIIRs 1957 compilation (Aug. 3, 1957 Northern California radar-skinpaint report)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Aug. 3, 1957 Northern California radar-skinpaint report. Government custody confirms the record, not the reported object's identity.",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/311001910"
     }
   ],
   "BF-1957-RA-01": [
     {
-      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
-      "url": "https://catalog.archives.gov/id/311001910",
-      "publisher": "National Archives and Records Administration",
       "access": "Public",
+      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity.",
+      "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity."
+      "url": "https://catalog.archives.gov/id/311001910"
+    }
+  ],
+  "BF-1957-RB-01": [
+    {
+      "access": "Public",
+      "label": "Princeton archive — McDonald/AIAA RB-47 analysis PDF",
+      "note": "Exact case-specific paper; academic mirror of the 1971 AIAA publication, not the original radar-scope film.",
+      "publisher": "Princeton-hosted James E. McDonald archive",
+      "scope": "published-technical-analysis",
+      "url": "http://kirkmcd.princeton.edu/JEMcDonald/mcdonald_aa_9_7_66_71.pdf"
+    }
+  ],
+  "BF-1961-BH-01": [
+    {
+      "access": "Public",
+      "label": "UNH Archives — Betty and Barney Hill Papers, MC 197",
+      "note": "Exact collection finding aid for the Hills’ papers; personal archive, not an official determination of the encounter.",
+      "publisher": "University of New Hampshire Special Collections",
+      "scope": "archival-finding-aid",
+      "url": "https://archives.unh.edu/repositories/3/resources/107"
+    }
+  ],
+  "BF-1964-SC-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — Socorro Project BLUE BOOK file",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/302532129"
+    }
+  ],
+  "BF-1966-WS-01": [
+    {
+      "access": "Public",
+      "label": "State Library Victoria — Westall 1966 archival review",
+      "note": "Reproduces contemporary newspaper coverage and a student drawing; no located RAAF case file.",
+      "publisher": "State Library Victoria",
+      "scope": "institutional-archive",
+      "url": "https://blogs.slv.vic.gov.au/our-stories/strange-lights-in-the-sky-the-westall-ufo-event-1966/"
+    },
+    {
+      "access": "Public",
+      "label": "Atlas archive — Dandenong Journal contemporary headline",
+      "publisher": "Dandenong Journal / Atlas archival copy",
+      "scope": "contemporaneous-press-copy",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png"
+    }
+  ],
+  "BF-1973-SS-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — CIA Sary Shagan Weapons Testing Range report",
+      "note": "Exact released intelligence report. It preserves a source report, not independent sensor confirmation.",
+      "publisher": "U.S. Department of War / CIA declassified record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-011-The_Sary_Shagan_Weapons_Testing_Range.pdf"
+    }
+  ],
+  "BF-1978-VL-01": [
+    {
+      "access": "Public catalog",
+      "label": "National Archives of Australia — Valentich disappearance file, B1497 V116/783/1047",
+      "note": "Exact Department of Transport investigation catalog item; RecordSearch sessions can be unstable.",
+      "publisher": "National Archives of Australia",
+      "scope": "official-catalog-record",
+      "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=10491375&isAv=N"
+    },
+    {
+      "access": "Public; endpoint may respond slowly",
+      "label": "ATSB — Aircraft Accident Investigation Summary Report 197802563",
+      "note": "Official accident-investigation summary for the Valentich disappearance; no published radar corroboration of the reported object.",
+      "publisher": "Australian Transport Safety Bureau",
+      "scope": "official-investigation-report",
+      "url": "https://www.atsb.gov.au/media/5226347/197802563.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "UFOr Australia archive — Valentich final communications transcript",
+      "note": "Public copy of the final radio communications; private mirror rather than NAA custody.",
+      "publisher": "UFO Research (NSW) / public copy",
+      "scope": "official-transcript-copy",
+      "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
+    }
+  ],
+  "BF-1980-CLD-01": [
+    {
+      "access": "Public",
+      "label": "Cash-Landrum document collection — case investigation files",
+      "note": "Curated investigation, medical-discussion and litigation material; private archive custody.",
+      "publisher": "Blue Blurry Lines",
+      "scope": "case-specific-document-archive",
+      "url": "https://www.blueblurrylines.com/2013/07/resource-guide-for-cash-landrum-ufo-case.html"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON archive — Cash-Landrum case report compilation",
+      "note": "Case-specific compilation; not an official court repository and not proof of causation.",
+      "publisher": "Computer UFO Network",
+      "scope": "public-document-copy",
+      "url": "https://www.cufon.org/cufon/cashlanL.pdf"
+    }
+  ],
+  "BF-1980-PE-01": [
+    {
+      "access": "Public",
+      "label": "The Black Vault — DIA La Joya declassified message mirror",
+      "publisher": "The Black Vault",
+      "scope": "foia-document-mirror",
+      "url": "https://documents.theblackvault.com/documents/ufos/dia2ufo.pdf"
+    }
+  ],
+  "BF-1981-TP-01": [
+    {
+      "access": "Public",
+      "label": "GEIPAN — Trans-en-Provence case 1981-01-00849",
+      "note": "Exact official case page with Note Technique 16, laboratory analyses, photographs, meteorology and police record attachments.",
+      "publisher": "CNES / GEIPAN",
+      "scope": "official-case-record",
+      "url": "https://www.cnes-geipan.fr/fr/cas/1981-01-00849"
+    }
+  ],
+  "BF-1986-JAL-01": [
+    {
+      "access": "Public",
+      "label": "NARA Catalog — FAA Japan Airlines Flight 1628 records",
+      "note": "Exact FAA archival record unit for the 1986 Alaska encounter.",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-catalog-record",
+      "url": "https://catalog.archives.gov/id/40587205"
+    },
+    {
+      "access": "Public",
+      "label": "NICAP archive — FAA JAL 1628 case packet",
+      "note": "Accessible case-specific copy of FAA records; private mirror rather than NARA custody.",
+      "publisher": "NICAP public archive",
+      "scope": "official-record-mirror",
+      "url": "https://www.nicap.org/docs/861117_flight1628.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "The Black Vault — FAA JAL 1628 document mirror",
+      "note": "Case-specific FAA document copy; mirror custody.",
+      "publisher": "The Black Vault",
+      "scope": "official-record-mirror",
+      "url": "https://documents.theblackvault.com/documents/ufos/jal1628/733667-001-015.pdf"
+    }
+  ],
+  "BF-1987-GB-01": [
+    {
+      "access": "Public",
+      "label": "Rice University Archives — Gulf Breeze UFO photographs, Box 11 Folder 12",
+      "note": "Exact archival object record in the Richard F. Haines papers; archival custody does not authenticate the photographs.",
+      "publisher": "Woodson Research Center, Rice University",
+      "scope": "archival-catalog-record",
+      "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
+    }
+  ],
+  "BF-1989-BW-01": [
+    {
+      "access": "Public",
+      "label": "COBEPS — Belgian wave research report",
+      "note": "Retrospective report and public military-record copies; original calibrated radar tapes remain unavailable.",
+      "publisher": "COBEPS",
+      "scope": "institutional-research-report",
+      "url": "https://www.cobeps.org/pdf/belgian_wave_130310.pdf"
+    }
+  ],
+  "BF-1990-CV-01": [
+    {
+      "access": "Public",
+      "label": "Sheffield Hallam University — photographic analysis of the Calvine image",
+      "note": "Analysis of the surviving reproduction; the negatives and five other frames remain missing.",
+      "publisher": "Sheffield Hallam University",
+      "scope": "academic-analysis",
+      "url": "https://shura.shu.ac.uk/34877/1/Robinson-PhotographicAnalysisVersion5(VoR).pdf"
+    },
+    {
+      "access": "Public",
+      "label": "David Clarke — Calvine photograph case files and custody trail",
+      "publisher": "Dr David Clarke",
+      "scope": "case-specific-research-archive",
+      "url": "https://drdavidclarke.co.uk/secret-files/the-calvine-ufo-photographs/"
+    },
+    {
+      "access": "Public",
+      "label": "Atlas archive — surviving Calvine photographic reproduction",
+      "note": "Later public reproduction, not the original negative.",
+      "publisher": "Sheffield Hallam release / Atlas archival copy",
+      "scope": "archival-reproduction",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg"
+    }
+  ],
+  "BF-1994-KZ-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — State Department cable DUSHANBE 00259, Kazakhstan encounter",
+      "note": "Exact released diplomatic cable. Referenced photographs and follow-up investigation are absent.",
+      "publisher": "U.S. Department of War / Department of State record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf"
+    }
+  ],
+  "BF-1997-PH-01": [
+    {
+      "access": "Public/access may vary",
+      "label": "CNN — former Arizona governor Fife Symington’s firsthand retrospective",
+      "note": "Published ten years later; not an official investigation and distinct from later flare footage.",
+      "publisher": "CNN",
+      "scope": "firsthand-retrospective-commentary",
+      "url": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html"
+    }
+  ],
+  "BF-2006-OH-01": [
+    {
+      "access": "Public",
+      "label": "NARCAP Technical Report 10 — O’Hare Case 18",
+      "note": "Case-specific investigation; NARCAP is independent, not an FAA finding.",
+      "publisher": "NARCAP",
+      "scope": "independent-technical-report",
+      "url": "https://www.narcap.org/s/NARCAP_TR-10.pdf"
+    }
+  ],
+  "BF-2008-SV-01": [
+    {
+      "access": "Public",
+      "label": "SCU — Stephenville radar and witness report study",
+      "note": "Uses FAA FOIA data; correlations are the authors’ analysis, not an FAA conclusion.",
+      "publisher": "Scientific Coalition for UAP Studies",
+      "scope": "independent-technical-report",
+      "url": "https://www.explorescu.org/post/stephenville-lights-a-comprehensive-radar-and-witness-report-study"
+    },
+    {
+      "access": "Public",
+      "label": "The Black Vault — FAA Stephenville FOIA material",
+      "note": "FAA FOIA material mirror; FAA released the data but did not endorse later object correlations.",
+      "publisher": "The Black Vault",
+      "scope": "official-record-mirror",
+      "url": "https://documents.theblackvault.com/documents/Stephenville/FAAStephenville.pdf"
+    }
+  ],
+  "BF-2020-AS-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D44 Arabian Sea range-fouler record",
+      "note": "Exact official release path for DOW-UAP-D44; native sensor media and reproducible analytical workpapers remain unreleased where applicable.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf"
+    }
+  ],
+  "BF-2022-CS-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — Intelligence assessment of Colorado Springs / Cheyenne Mountain incident",
+      "note": "Exact official analysis. The backscattering explanation is explicitly low confidence and lacks released environmental modeling inputs.",
+      "publisher": "U.S. Department of War / Intelligence Community assessment",
+      "scope": "official-analysis",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf"
+    }
+  ],
+  "BF-2022-ME-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D10 Middle East mission report",
+      "note": "Exact official release path for DOW-UAP-D10; native sensor media and reproducible analytical workpapers remain unreleased where applicable.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
+    }
+  ],
+  "BF-2023-BC-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — FBI Serial 3 restricted-facility bronze cigar witness record",
+      "note": "Exact released FD-302 witness record; location, identities and disposition remain redacted or unreleased.",
+      "publisher": "U.S. Department of War / FBI record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/serial-3_redacted.pdf"
+    }
+  ],
+  "BF-2023-GR-33": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D33 Greece mission report",
+      "note": "Exact official release path for DOW-UAP-D33; native sensor media and reproducible analytical workpapers remain unreleased where applicable.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf"
+    }
+  ],
+  "BF-2023-IQ-20": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D20 released mission report",
+      "note": "Exact DOW-UAP-D20 release. The release filename/PDF metadata says Southern United States, but the body records Operation Inherent Resolve, entry into SY airspace, and MGRS 37SGA in northeastern Syria. Atlas geography follows the body while preserving the publisher conflict.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d20-mission-report-southern-united-states-2023.pdf"
+    }
+  ],
+  "BF-2023-JP-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D42 Japan range-fouler debrief",
+      "note": "Exact official release path for DOW-UAP-D42; native sensor media and reproducible analytical workpapers remain unreleased where applicable.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf"
+    }
+  ],
+  "BF-2023-SY-74": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D74 Syria mission report",
+      "note": "Exact released mission report; native FMV, platform details and reproducible kinematic workpapers are not public.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d74-mission-report-syria-november-2023.pdf"
+    }
+  ],
+  "BF-2024-ECS-01": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D28 released mission report",
+      "note": "Exact DOW-UAP-D28 release. The filename/PDF metadata says East China Sea, but the body names Operation Inherent Resolve, Ayn al-Asad ROZ RAINDROP, and 38SKC MGRS in western Iraq. Atlas geography follows the body while preserving the publisher conflict.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d28-mission-report-east-china-sea-2024.pdf"
+    }
+  ],
+  "BF-2024-GR-25": [
+    {
+      "access": "Public; endpoint blocks some automated clients",
+      "label": "War.gov — DOW-UAP-D25 Greece mission report",
+      "note": "Exact official release path for DOW-UAP-D25; native sensor media and reproducible analytical workpapers remain unreleased where applicable.",
+      "publisher": "U.S. Department of War",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf"
     }
   ],
   "BF-NASA-D001": [
     {
-      "label": "War.gov — NASA-UAP-D1 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-D1 exact released record",
+      "note": "Exact NASA-UAP-D1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-D1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d1-apollo-12-transcript-1969.pdf"
     }
   ],
   "BF-NASA-D002": [
     {
-      "label": "War.gov — NASA-UAP-D2 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-D2 exact released record",
+      "note": "Exact NASA-UAP-D2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-D2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d2-apollo-17-transcript-1972.pdf"
     }
   ],
   "BF-NASA-D004": [
     {
-      "label": "War.gov — NASA-UAP-D4 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-D4 exact released record",
+      "note": "Exact NASA-UAP-D4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-D4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf"
     }
   ],
   "BF-NASA-D005": [
     {
-      "label": "War.gov — NASA-UAP-D5 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-D5 exact released record",
+      "note": "Exact NASA-UAP-D5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-D5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf"
     }
   ],
   "BF-NASA-D006": [
     {
-      "label": "War.gov — NASA-UAP-D6 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-D6 exact released record",
+      "note": "Exact NASA-UAP-D6 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-D6 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf"
+    }
+  ],
+  "BF-NASA-D015": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D015",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963.pdf"
+    }
+  ],
+  "BF-NASA-D016": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D016",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965.pdf"
+    }
+  ],
+  "BF-NASA-D017": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D017",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965.pdf"
+    }
+  ],
+  "BF-NASA-D018": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D018",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967.pdf"
+    }
+  ],
+  "BF-NASA-D019": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D019",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965.pdf"
+    }
+  ],
+  "BF-NASA-D020": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D020",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965.pdf"
+    }
+  ],
+  "BF-NASA-D021": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D021",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965.pdf"
+    }
+  ],
+  "BF-NASA-D022": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D022",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/061226/release_03/documents/NASA-UAP-D022_Gemini-9-Debriefing_1966.pdf"
+    }
+  ],
+  "BF-NASA-D030": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D030",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg"
+    }
+  ],
+  "BF-NASA-D031": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D031",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg"
+    }
+  ],
+  "BF-NASA-D032": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-D032",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/NASA-UAP-D032_STS-80-Unidentified-Object-Image3_1996.jpg"
     }
   ],
   "BF-NASA-VM1": [
     {
-      "label": "War.gov — NASA-UAP-VM1 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-VM1 exact released record",
+      "note": "Exact NASA-UAP-VM1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-VM1 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm1-apollo-12-1969.jpg"
     }
   ],
   "BF-NASA-VM2": [
     {
-      "label": "War.gov — NASA-UAP-VM2 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-VM2 exact released record",
+      "note": "Exact NASA-UAP-VM2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-VM2 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm2-apollo-12-1969.jpg"
     }
   ],
   "BF-NASA-VM3": [
     {
-      "label": "War.gov — NASA-UAP-VM3 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-VM3 exact released record",
+      "note": "Exact NASA-UAP-VM3 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-VM3 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm3-apollo-12-1969.jpg"
     }
   ],
   "BF-NASA-VM4": [
     {
-      "label": "War.gov — NASA-UAP-VM4 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-VM4 exact released record",
+      "note": "Exact NASA-UAP-VM4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-VM4 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm4-apollo-12-1969.jpg"
     }
   ],
   "BF-NASA-VM5": [
     {
-      "label": "War.gov — NASA-UAP-VM5 exact released record",
-      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg",
-      "publisher": "U.S. Department of War / NASA release record",
       "access": "Public; canonical endpoint may block automated clients",
+      "label": "War.gov — NASA-UAP-VM5 exact released record",
+      "note": "Exact NASA-UAP-VM5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page.",
+      "publisher": "U.S. Department of War / NASA release record",
       "scope": "official-record",
-      "note": "Exact NASA-UAP-VM5 item-level release endpoint. URL and successful 2026-05-08 capture were independently recovered from the Internet Archive CDX index; this is not a collection landing page."
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm5-apollo-12-1969.jpg"
+    }
+  ],
+  "BF-NASA-VM6": [
+    {
+      "access": "Public; endpoint may block automated clients",
+      "label": "War.gov PURSUE — exact released record NASA-UAP-VM6",
+      "note": "Exact item URL recovered from the official PURSUE release CSV preserved by the Internet Archive; not inferred from a neighboring filename.",
+      "publisher": "U.S. Department of War / NASA record",
+      "scope": "official-record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/nasa-uap-vm6-apollo-17-1972.jpg"
+    }
+  ],
+  "BF-SF-02": [
+    {
+      "access": "Public",
+      "label": "NARA — Project 1794 declassified records",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-record",
+      "url": "https://catalog.archives.gov/id/6920770"
+    }
+  ],
+  "BF-SF-05": [
+    {
+      "access": "Public; site may block automated clients",
+      "label": "FBI Vault — Majestic 12 Part 1",
+      "note": "Official FBI-hosted copy includes the Bureau's bogus determination; custody does not authenticate the underlying MJ-12 documents.",
+      "publisher": "Federal Bureau of Investigation",
+      "scope": "official-record",
+      "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view"
+    }
+  ],
+  "BF-SF-07": [
+    {
+      "access": "Public/borrow restrictions may apply",
+      "label": "Internet Archive — Ruppelt, The Report on Unidentified Flying Objects",
+      "note": "Ruppelt’s account is the principal public description. The Estimate itself has never been recovered.",
+      "publisher": "Internet Archive",
+      "scope": "firsthand-memoir-archive",
+      "url": "https://archive.org/details/reportonunidenti00rupp"
+    }
+  ],
+  "BF-SF-08": [
+    {
+      "access": "Public",
+      "label": "Internet Archive — COMETA report, English translation PDF",
+      "note": "Independent COMETA report; COMETA was not an official French government commission.",
+      "publisher": "Internet Archive",
+      "scope": "public-report-copy",
+      "url": "https://ia601803.us.archive.org/27/items/pdfy-NRIQie2ooVehep7K/The%20Cometa%20Report%20%5BUFO%27s%20And%20Defense%20-%20What%20Should%20We%20Prepare%20For%5D.pdf"
+    }
+  ],
+  "BF-SF-10": [
+    {
+      "access": "Public",
+      "label": "House Oversight — 2023 UAP hearing",
+      "publisher": "U.S. House Committee on Oversight and Accountability",
+      "scope": "official-hearing-record",
+      "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/"
+    },
+    {
+      "access": "Public",
+      "label": "GovInfo — UAP hearing transcript, Serial 118-53",
+      "publisher": "U.S. Government Publishing Office",
+      "scope": "official-transcript",
+      "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg53022"
+    }
+  ],
+  "BF-SF-11": [
+    {
+      "access": "Public",
+      "label": "OpenMinds mirror — AFOSI Bennewitz visit report, October 1980",
+      "publisher": "OpenMinds",
+      "scope": "official-record-mirror",
+      "url": "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "OpenMinds mirror — Kirtland/Bennewitz meeting record, November 1980",
+      "publisher": "OpenMinds",
+      "scope": "official-record-mirror",
+      "url": "https://www.openminds.tv/wp-content/uploads/S3-Bennewitz-Kirtland-Bennewitz-Meeting-Nov-80.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "OpenMinds mirror — Richard Doty FOIA/ATR-1 material",
+      "note": "Documentary record in the affair; does not supply the missing authorization or complete recipient list.",
+      "publisher": "OpenMinds",
+      "scope": "official-record-mirror",
+      "url": "https://www.openminds.tv/wp-content/uploads/DOTY-FOIA-ATR-1.pdf"
     }
   ]
 }
