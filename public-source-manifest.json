@@ -11,12 +11,13 @@
   ],
   "BF-1947-RW-01": [
     {
-      "label": "U.S. Air Force \u2014 The Roswell Report: Fact versus Fiction in the New Mexico Desert",
+      "label": "U.S. Air Force — The Roswell Report: Fact versus Fiction in the New Mexico Desert",
       "url": "https://www.af.mil/The-Roswell-Report/",
       "publisher": "U.S. Air Force",
       "access": "Public",
       "scope": "official-report",
-      "note": "Official 1994\u20131997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record."
+      "role": "official-position",
+      "note": "Official 1994–1997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record."
     }
   ],
   "BF-1948-CW-01": [

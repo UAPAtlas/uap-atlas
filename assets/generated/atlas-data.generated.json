@@ -343,12 +343,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
+          "label": "The 1933 Magenta, Italy UFO Crash",
+          "url": "https://www.youtube.com/watch?v=FGiwgyLY7Aw",
+          "publisher": "UAP Gerb",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Documentary-style investigation of the Magenta claim; the underlying RS/33 document provenance remains disputed."
         }
       ],
       "images": [
@@ -526,12 +528,25 @@
       },
       "publicSources": [
         {
-          "label": "CUFON — Foo-Fighter wartime document transcriptions",
-          "url": "http://www.cufon.org/cufon/foo.htm",
-          "publisher": "Computer UFO Network",
-          "access": "Public",
-          "scope": "archival-transcription",
-          "note": "Transcriptions attributed to official wartime records; original scans and exact archive call number remain missing."
+          "label": "Public source — airforcehistoryindex.org",
+          "url": "https://www.airforcehistoryindex.org/display.php?irisnum=60059",
+          "publisher": "airforcehistoryindex.org",
+          "access": "Public/access unverified",
+          "scope": "public-source"
+        },
+        {
+          "label": "Public source — airforcehistoryindex.org",
+          "url": "https://www.airforcehistoryindex.org/display.php?irisnum=60074",
+          "publisher": "airforcehistoryindex.org",
+          "access": "Public/access unverified",
+          "scope": "public-source"
+        },
+        {
+          "label": "Public source — airforcehistoryindex.org",
+          "url": "https://www.airforcehistoryindex.org/display.php?irisnum=1026183",
+          "publisher": "airforcehistoryindex.org",
+          "access": "Public/access unverified",
+          "scope": "public-source"
         }
       ],
       "mapGeometry": null,
@@ -689,12 +704,18 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "label": "Public source — sok.riksarkivet.se",
+          "url": "https://sok.riksarkivet.se/en/amnesomrade/militaria",
+          "publisher": "sok.riksarkivet.se",
+          "access": "Public/access unverified",
+          "scope": "public-source"
+        },
+        {
+          "label": "Public source — sok.riksarkivet.se",
+          "url": "https://sok.riksarkivet.se/en/a-o",
+          "publisher": "sok.riksarkivet.se",
+          "access": "Public/access unverified",
+          "scope": "public-source"
         }
       ],
       "images": [
@@ -997,6 +1018,16 @@
       },
       "publicSources": [
         {
+          "label": "The CIA, Men in Black and the Plot to Take Out JFK — The Maury Island Incident",
+          "url": "https://www.youtube.com/watch?v=a5KXsiBZjOM",
+          "publisher": "The Why Files",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific narrative and skeptical review; not a substitute for the FBI record trail."
+        },
+        {
           "label": "FBI Vault — UFO files",
           "url": "https://vault.fbi.gov/UFO",
           "publisher": "Federal Bureau of Investigation",
@@ -1161,11 +1192,32 @@
       },
       "publicSources": [
         {
+          "label": "The Truth about Roswell: Decoding Decades of Deception",
+          "url": "https://www.youtube.com/watch?v=rih9-80p0Ec",
+          "publisher": "The Why Files",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific narrative and counterargument review; contextual analysis, not primary evidence."
+        },
+        {
+          "label": "Project Blue Book & Roswell Killed Public Trust About UFO Transparency",
+          "url": "https://www.youtube.com/watch?v=LIEP-xtMuWE",
+          "publisher": "Jeremy Corbell / WEAPONIZED",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Discussion of Roswell, Project Blue Book, and institutional trust; analysis rather than an event record."
+        },
+        {
           "label": "U.S. Air Force — The Roswell Report: Fact versus Fiction in the New Mexico Desert",
           "url": "https://www.af.mil/The-Roswell-Report/",
           "publisher": "U.S. Air Force",
           "access": "Public",
           "scope": "official-report",
+          "role": "official-position",
           "note": "Official 1994–1997 Air Force explanation package; an institutional conclusion, not a neutral substitute for the underlying record."
         }
       ],
@@ -1323,12 +1375,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
+          "label": "The 1948 Aztec, New Mexico UFO Crash Retrieval",
+          "url": "https://www.youtube.com/watch?v=QJxbyu-9Tj0",
+          "publisher": "UAP Gerb",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific investigation; Atlas classification remains fraud/contradicted pending stronger records."
         }
       ],
       "mapGeometry": null,
@@ -1798,14 +1852,6 @@
         "isEventEvidence": false
       },
       "publicSources": [
-        {
-          "label": "NARA — Godman Field/Mantell Project Blue Book case file",
-          "url": "https://catalog.archives.gov/id/28930550",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "exact-file-unit",
-          "note": "Exact 75-object Project Blue Book case file."
-        },
         {
           "label": "NARA — Project BLUE BOOK records",
           "url": "https://www.archives.gov/research/military/air-force/ufos",
@@ -2411,20 +2457,11 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Great Falls Project Blue Book case file",
-          "url": "https://catalog.archives.gov/id/28938188",
+          "label": "NARA — official archival record",
+          "url": "https://catalog.archives.gov/id/61935",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "exact-file-unit",
-          "note": "Exact 113-object Project Blue Book case file."
-        },
-        {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -2734,28 +2771,11 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Tremonton/Newhouse Project Blue Book case file",
-          "url": "https://catalog.archives.gov/id/28943418",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "exact-file-unit",
-          "note": "Exact 97-object case file; catalog title is generic/blank."
-        },
-        {
-          "label": "NARA — Tremonton motion-picture item",
+          "label": "NARA — official archival record",
           "url": "https://catalog.archives.gov/id/61937",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "exact-item",
-          "note": "Digitized government motion-picture derivative."
-        },
-        {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -2892,12 +2912,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
+          "label": "The CIA Scientist Who Built UFOs Before Bob Lazar — Townsend Brown Documentary",
+          "url": "https://www.youtube.com/watch?v=RTEWLSTyUic",
+          "publisher": "Jesse Michels / American Alchemy",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Long-form documentary context on Townsend Brown and electrogravitics; interpretive analysis, not proof of operational antigravity craft."
         }
       ],
       "images": [
@@ -3240,20 +3262,18 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Bentwaters–Lakenheath Project Blue Book case file",
-          "url": "https://catalog.archives.gov/id/28966873",
+          "label": "NARA — official archival record",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C2505380",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "exact-file-unit",
-          "note": "Exact 44-object Project Blue Book case file."
+          "scope": "official-record"
         },
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
-          "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "label": "NARA — official archival record",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C4099443",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -4477,12 +4497,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
-          "publisher": "National Archives and Records Administration",
+          "label": "The 1965 Kecksburg, Pennsylvania UFO Crash",
+          "url": "https://www.youtube.com/watch?v=rgBTMzFd-hg",
+          "publisher": "UAP Gerb",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific documentary investigation; contextual analysis rather than a recovered government case file."
         }
       ],
       "images": [
@@ -5772,6 +5794,16 @@
         "sourceUrl": "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf"
       },
       "publicSources": [
+        {
+          "label": "This UFO Shut Down 10 Nukes! — Air Force Officer Robert Salas",
+          "url": "https://www.youtube.com/watch?v=-0g3lLGxNfc",
+          "publisher": "Jesse Michels / American Alchemy",
+          "access": "Public",
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Long-form interview with former launch officer Robert Salas; firsthand testimony is evidence of his account, not independent proof of causation."
+        },
         {
           "label": "The Black Vault — FOIA document mirror",
           "url": "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf",
@@ -9157,12 +9189,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "The Pascagoula UFO Incident — When Nightmares Come True",
+          "url": "https://www.youtube.com/watch?v=IAEsS4IOrBk",
+          "publisher": "The Why Files",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case narrative with counterarguments; secondary analysis."
         }
       ],
       "images": [
@@ -9709,12 +9743,11 @@
       },
       "publicSources": [
         {
-          "label": "NASA NTRS — search: Skylab Technical Crew Debriefing",
-          "url": "https://ntrs.nasa.gov/search?q=Skylab+Technical+Crew+Debriefing",
+          "label": "NASA — official mission record",
+          "url": "https://www.nasa.gov/history/skylab",
           "publisher": "NASA",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official NASA technical archive; search by mission and document title."
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -9866,12 +9899,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "Travis Walton — 50 Years After the Fire in the Sky",
+          "url": "https://www.youtube.com/watch?v=jcppWFEYpSQ",
+          "publisher": "Area 52 Investigations",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Long-form interview with Travis Walton; testimony remains a claim requiring independent corroboration."
         }
       ],
       "images": [
@@ -10342,6 +10377,16 @@
         "sourceUrl": "https://imagem.sian.an.gov.br/acervo/derivadas/br_dfanbsb_v8/mic/gnc/kkk/83003252/br_dfanbsb_v8_mic_gnc_kkk_83003252_d0001de0001.pdf"
       },
       "publicSources": [
+        {
+          "label": "The Most Witnessed UFO Incident in History — Operation Prato",
+          "url": "https://www.youtube.com/watch?v=xluya-2ov40",
+          "publisher": "The Why Files",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific overview and skeptical review; use the Brazilian archival records for primary custody."
+        },
         {
           "label": "Brazilian National Archives — archival record",
           "url": "https://imagem.sian.an.gov.br/acervo/derivadas/br_dfanbsb_v8/mic/gnc/kkk/83003252/br_dfanbsb_v8_mic_gnc_kkk_83003252_d0001de0001.pdf",
@@ -11198,6 +11243,16 @@
       },
       "publicSources": [
         {
+          "label": "The Rendlesham UFO Encounter and the Alien Message from the Future",
+          "url": "https://www.youtube.com/watch?v=9kUromZCP9M",
+          "publisher": "The Why Files",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case narrative and counterargument review; later binary-code claims are distinct from the contemporaneous Halt memorandum."
+        },
+        {
           "label": "NARA — official archival record",
           "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports",
           "publisher": "National Archives and Records Administration",
@@ -11628,6 +11683,16 @@
         "isEventEvidence": false
       },
       "publicSources": [
+        {
+          "label": "Majestic 12 — Secret Documents Expose UFO Cover-Up, Vol. 1",
+          "url": "https://www.youtube.com/watch?v=s9VoC8MoeUs",
+          "publisher": "The Why Files",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Document-authentication controversy and narrative review; the FBI's bogus determination remains separately linked."
+        },
         {
           "label": "FBI Vault — Majestic 12 Part 1",
           "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view",
@@ -12321,12 +12386,24 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "A Weekend With Bob Lazar: Inside Area 51's UFOs",
+          "url": "https://www.youtube.com/watch?v=d9tdJ2SkBKQ",
+          "publisher": "Jesse Michels / American Alchemy",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Long-form interview and profile; Lazar's account remains disputed and is not independently authenticated by the video."
+        },
+        {
+          "label": "Bob Lazar + The Truth About a Secret UFO Base?",
+          "url": "https://www.youtube.com/watch?v=Z4_gJ4gJ17A",
+          "publisher": "Jeremy Corbell / WEAPONIZED",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Advocacy-oriented analysis from Lazar documentarian Jeremy Corbell; preserve alongside the Atlas credibility caveats."
         }
       ],
       "mapGeometry": null,
@@ -12607,12 +12684,14 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "The UFO Incident That Shocked Ariel School",
+          "url": "https://www.youtube.com/watch?v=8L6M2mRcux4",
+          "publisher": "The Why Files",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific narrative and counterargument review; witness interviews and original field notes remain the stronger evidentiary layer."
         }
       ],
       "images": [
@@ -12923,12 +13002,24 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "Varginha UFO Crash — Alien Contact, Government Denial and Coverup",
+          "url": "https://www.youtube.com/watch?v=E76kpPjxMcw",
+          "publisher": "The Why Files",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Case-specific overview and skeptical review; secondary analysis."
+        },
+        {
+          "label": "My Hospital Operated on an Alien — Top Surgeon Interview",
+          "url": "https://www.youtube.com/watch?v=UkKwa4jU0fc",
+          "publisher": "Jesse Michels / American Alchemy",
+          "access": "Public",
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Interview testimony concerning the Varginha hospital narrative; extraordinary claims remain unverified."
         }
       ],
       "images": [
@@ -13994,6 +14085,26 @@
       },
       "publicSources": [
         {
+          "label": "The Tic Tac at Twenty — The Most Consequential UFO of All Time?",
+          "url": "https://www.youtube.com/watch?v=MHycTQC62WA",
+          "publisher": "WEAPONIZED with Jeremy Corbell & George Knapp",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Twenty-year retrospective; contextual reporting distinct from the official Navy video and witness records."
+        },
+        {
+          "label": "Tic Tac UFO — Interview With the Pilot Who Chased It, Part 1",
+          "url": "https://www.youtube.com/watch?v=KUyGnFFilP0",
+          "publisher": "Jeremy Corbell",
+          "access": "Public",
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Firsthand pilot interview; testimony is presented separately from authenticated imagery and unreleased sensor data."
+        },
+        {
           "label": "DVIDS — official media record",
           "url": "https://www.dvidshub.net/video/955825/flir-uap",
           "publisher": "Defense Visual Information Distribution Service",
@@ -14517,12 +14628,24 @@
       },
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
+          "label": "UFO & Paranormal Connections — The AAWSAP Legacy",
+          "url": "https://www.youtube.com/watch?v=tvUfdN2fyww",
+          "publisher": "WEAPONIZED with Jeremy Corbell & George Knapp",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
+          "scope": "program-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Program history and interpretation; use appropriations, contracts, and released program records for primary provenance."
+        },
+        {
+          "label": "I Searched for UFOs on Skinwalker Ranch",
+          "url": "https://www.youtube.com/watch?v=7W7iOt57fOo",
+          "publisher": "Jesse Michels / American Alchemy",
+          "access": "Public",
+          "scope": "site-investigation",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "On-location investigation and interviews; not a substitute for AAWSAP program documentation."
         }
       ],
       "images": [
@@ -19069,6 +19192,26 @@
       },
       "publicSources": [
         {
+          "label": "If You Still Think UFOs Are Fake, Watch This — David Grusch Interview",
+          "url": "https://www.youtube.com/watch?v=kRO5jOa06Qw",
+          "publisher": "Jesse Michels / American Alchemy",
+          "access": "Public",
+          "scope": "firsthand-interview",
+          "role": "witness-interview",
+          "mediaKind": "video",
+          "note": "Long-form interview with David Grusch; testimony and allegation are not treated as proof without corroborating records."
+        },
+        {
+          "label": "Confessions of a UFO Insider — The David Grusch Revelations",
+          "url": "https://www.youtube.com/watch?v=dc6V0O_OPJ0",
+          "publisher": "WEAPONIZED with Jeremy Corbell & George Knapp",
+          "access": "Public",
+          "scope": "case-specific-analysis",
+          "role": "contextual-analysis",
+          "mediaKind": "video",
+          "note": "Reporting and analysis of Grusch's allegations; the congressional record remains separately linked."
+        },
+        {
           "label": "House Oversight — 2023 UAP hearing",
           "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",
           "publisher": "U.S. House Committee on Oversight and Accountability",
@@ -20374,12 +20517,12 @@
       "taxonomyVersion": "atlas-controlled-v1",
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
-          "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
+          "label": "NARA — UAP records research portal",
+          "url": "https://www.archives.gov/research/topics/uaps",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
           "scope": "collection",
-          "note": "Official release portal; search by the RG59 State Dept cable ID shown above."
+          "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
       "image": "assets/evidence/KAZAKHSTAN-1994/kazakhstan-cable-1_DOS-UAP-D2.png",
@@ -20897,12 +21040,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -21064,12 +21207,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -21218,7 +21361,7 @@
           "publisher": "U.S. Department of War",
           "access": "Public; site may block automated clients",
           "scope": "collection",
-          "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
+          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
       "image": "assets/evidence/KODIAK-1949/kodiak-051_DOW-UAP-D084_342-HS1.png",
@@ -21528,12 +21671,12 @@
       "taxonomyVersion": "atlas-controlled-v1",
       "publicSources": [
         {
-          "label": "NASA — Gemini mission transcripts",
-          "url": "https://www.nasa.gov/history/gemini",
-          "publisher": "National Aeronautics and Space Administration",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "publisher": "National Archives and Records Administration",
           "access": "Public",
           "scope": "collection",
-          "note": "Gemini 7 mission transcript T-00763(Rlb)."
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "image": "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_001.png",
@@ -21710,7 +21853,7 @@
           "publisher": "U.S. Department of War",
           "access": "Public; site may block automated clients",
           "scope": "collection",
-          "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
+          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
       "mapGeometry": null,
@@ -21880,7 +22023,7 @@
           "publisher": "U.S. Department of War",
           "access": "Public; site may block automated clients",
           "scope": "collection",
-          "note": "Official release portal; search by the DOW-UAP-D084 source ID shown above."
+          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
         }
       ],
       "mapGeometry": null,
@@ -22047,12 +22190,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -22213,12 +22356,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — 4602D AISS Field Files",
+          "label": "NARA — Project BLUE BOOK records",
           "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
           "scope": "collection",
-          "note": "4602D AISS field case files; search by location and date."
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -22358,12 +22501,11 @@
       "taxonomyVersion": "atlas-controlled-v1",
       "publicSources": [
         {
-          "label": "CIA — UFO records (FOIA reading room)",
+          "label": "CIA Reading Room — declassified record",
           "url": "https://www.cia.gov/readingroom/collection/ufos",
           "publisher": "Central Intelligence Agency",
           "access": "Public",
-          "scope": "collection",
-          "note": "CIA UFO records; search by the released identifier CIA-UAP-018 and exact report title."
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -22509,12 +22651,11 @@
       "taxonomyVersion": "atlas-controlled-v1",
       "publicSources": [
         {
-          "label": "NASA — Skylab mission records",
+          "label": "NASA — official mission record",
           "url": "https://www.nasa.gov/history/skylab",
-          "publisher": "National Aeronautics and Space Administration",
+          "publisher": "NASA",
           "access": "Public",
-          "scope": "collection",
-          "note": "Skylab Technical Crew Debriefing records."
+          "scope": "official-record"
         }
       ],
       "image": "assets/evidence/NASA-UAP-D7/NASA-UAP-D7-Skylab-Technical-Crew-Debriefing-1973__page_001.png",
@@ -22689,12 +22830,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -22857,12 +22998,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -23000,12 +23141,11 @@
       "taxonomyVersion": "atlas-controlled-v1",
       "publicSources": [
         {
-          "label": "CIA — UFO records (FOIA reading room)",
+          "label": "CIA Reading Room — declassified record",
           "url": "https://www.cia.gov/readingroom/collection/ufos",
           "publisher": "Central Intelligence Agency",
           "access": "Public",
-          "scope": "collection",
-          "note": "CIA UFO records; search by the released identifier CIA-UAP-014 and exact title."
+          "scope": "official-record"
         }
       ],
       "images": [
@@ -23175,12 +23315,12 @@
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
-          "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
+          "label": "NARA — UAP records research portal",
+          "url": "https://www.archives.gov/research/topics/uaps",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public",
           "scope": "collection",
-          "note": "Official release portal; search by the DOS-UAP-D1 cable ID shown above."
+          "note": "Official collection guide; search by case name, date, or source locator."
         }
       ],
       "mapGeometry": null,
@@ -23341,12 +23481,12 @@
       },
       "publicSources": [
         {
-          "label": "NARA — AIIRs 1957 (NAID 311001910)",
-          "url": "https://catalog.archives.gov/id/311001910",
+          "label": "NARA — Project BLUE BOOK records",
+          "url": "https://www.archives.gov/research/military/air-force/ufos",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "item",
-          "note": "Air Intelligence Information Reports 1957; 301 pages."
+          "scope": "collection",
+          "note": "Official Project BLUE BOOK guide; search by location and incident date."
         }
       ],
       "mapGeometry": null,
@@ -23519,20 +23659,18 @@
       },
       "publicSources": [
         {
-          "label": "CIA — UFO records (FOIA reading room)",
-          "url": "https://www.cia.gov/readingroom/collection/ufos",
+          "label": "CIA Reading Room — declassified record",
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp81r00560r000100020012-7",
           "publisher": "Central Intelligence Agency",
           "access": "Public",
-          "scope": "collection",
-          "note": "CIA UFO records; search by CIA-RDP81R00560R000100020012-7 and CIA-RDP81R00560R000100020013-6."
+          "scope": "official-record"
         },
         {
-          "label": "CIA's Role in the Study of UFOs, 1947-90",
-          "url": "https://sgp.fas.org/library/ciaufo.html",
-          "publisher": "Federation of American Scientists",
+          "label": "CIA Reading Room — declassified record",
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp81r00560r000100020013-6",
+          "publisher": "Central Intelligence Agency",
           "access": "Public",
-          "scope": "analytical-history",
-          "note": "FAS-published historical study of CIA UFO involvement."
+          "scope": "official-record"
         }
       ],
       "mapGeometry": null,

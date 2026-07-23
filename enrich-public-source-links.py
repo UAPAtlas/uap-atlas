@@ -11,10 +11,11 @@ import json
 from pathlib import Path
 from urllib.parse import quote_plus, urlparse
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parent
 ATLAS = ROOT / "atlas-data.json"
 INDEX = ROOT / "source-file-index.json"
 MANIFEST = ROOT / "public-source-manifest.json"
+VIDEO_MANIFEST = ROOT / "video-source-manifest.json"
 
 COLLECTIONS = {
     "nara-uap": {
@@ -118,9 +119,13 @@ def main():
     atlas = json.loads(ATLAS.read_text())
     index = json.loads(INDEX.read_text())
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
+    video_manifest = json.loads(VIDEO_MANIFEST.read_text()) if VIDEO_MANIFEST.exists() else {}
     for case in atlas["cases"]:
         tokens = source_tokens(case, index)
-        rows = list(manifest.get(case["id"], []))
+        # Curated videos lead the public drawer, but remain explicitly labeled as
+        # witness interviews or contextual analysis rather than primary evidence.
+        rows = list(video_manifest.get(case["id"], []))
+        rows.extend(manifest.get(case["id"], []))
         for token in tokens:
             for path in index.get(token, []):
                 if isinstance(path, str) and path.startswith(("http://", "https://")):
