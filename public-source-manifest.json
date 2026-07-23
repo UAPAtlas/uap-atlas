@@ -1,7 +1,7 @@
 {
   "BF-1947-MI-01": [
     {
-      "label": "FBI Vault \u2014 UFO files",
+      "label": "FBI Vault — UFO files",
       "url": "https://vault.fbi.gov/UFO",
       "publisher": "Federal Bureau of Investigation",
       "access": "Public; site may block automated clients",
@@ -22,7 +22,7 @@
   ],
   "BF-1948-CW-01": [
     {
-      "label": "NARA Catalog \u2014 Chiles-Whitted / Incident Number 144",
+      "label": "NARA Catalog — Chiles-Whitted / Incident Number 144",
       "url": "https://catalog.archives.gov/id/28931059",
       "publisher": "National Archives and Records Administration",
       "access": "Public",
@@ -31,17 +31,17 @@
   ],
   "BF-1948-GD-01": [
     {
-      "label": "Fold3 \u2014 Gorman case archival grouping",
+      "label": "Fold3 — Gorman case archival grouping",
       "url": "https://www.fold3.com/image/6388048",
       "publisher": "Fold3",
       "access": "Archive-licensed; account may be required",
       "scope": "archive-licensed",
-      "note": "Start of the verified 113-page T1206 grouping; Atlas source trail identifies Fold3 image IDs 6388048\u20136388160."
+      "note": "Start of the verified 113-page T1206 grouping; Atlas source trail identifies Fold3 image IDs 6388048–6388160."
     }
   ],
   "BF-1953-RP-00": [
     {
-      "label": "CIA Reading Room \u2014 Robertson Panel record",
+      "label": "CIA Reading Room — Robertson Panel record",
       "url": "https://www.cia.gov/readingroom/collection/ufos-fact-or-fiction",
       "publisher": "Central Intelligence Agency",
       "access": "Public; legacy Reading Room redirects may be unstable",
@@ -51,7 +51,7 @@
   ],
   "BF-1957-LV-01": [
     {
-      "label": "NARA Catalog \u2014 Levelland Project BLUE BOOK file",
+      "label": "NARA Catalog — Levelland Project BLUE BOOK file",
       "url": "https://catalog.archives.gov/id/28974191",
       "publisher": "National Archives and Records Administration",
       "access": "Public",
@@ -60,7 +60,7 @@
   ],
   "BF-SF-02": [
     {
-      "label": "NARA \u2014 Project 1794 declassified records",
+      "label": "NARA — Project 1794 declassified records",
       "url": "https://catalog.archives.gov/id/6920770",
       "publisher": "National Archives and Records Administration",
       "access": "Public",
@@ -69,7 +69,7 @@
   ],
   "BF-1964-SC-01": [
     {
-      "label": "NARA Catalog \u2014 Socorro Project BLUE BOOK file",
+      "label": "NARA Catalog — Socorro Project BLUE BOOK file",
       "url": "https://catalog.archives.gov/id/302532129",
       "publisher": "National Archives and Records Administration",
       "access": "Public",
@@ -78,17 +78,33 @@
   ],
   "BF-1978-VL-01": [
     {
-      "label": "National Archives of Australia \u2014 Valentich disappearance search",
-      "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/SearchScreens/BasicSearch.aspx",
+      "label": "National Archives of Australia — Valentich disappearance file, B1497 V116/783/1047",
+      "url": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=10491375&isAv=N",
       "publisher": "National Archives of Australia",
       "access": "Public catalog",
-      "scope": "official-collection",
-      "note": "Search for Frederick Valentich, Bass Strait, and 21 October 1978."
+      "scope": "official-catalog-record",
+      "note": "Exact Department of Transport investigation catalog item; RecordSearch sessions can be unstable."
+    },
+    {
+      "label": "ATSB — Aircraft Accident Investigation Summary Report 197802563",
+      "url": "https://www.atsb.gov.au/media/5226347/197802563.pdf",
+      "publisher": "Australian Transport Safety Bureau",
+      "access": "Public; endpoint may respond slowly",
+      "scope": "official-investigation-report",
+      "note": "Official accident-investigation summary for the Valentich disappearance; no published radar corroboration of the reported object."
+    },
+    {
+      "label": "UFOr Australia archive — Valentich final communications transcript",
+      "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf",
+      "publisher": "UFO Research (NSW) / public copy",
+      "access": "Public",
+      "scope": "official-transcript-copy",
+      "note": "Public copy of the final radio communications; private mirror rather than NAA custody."
     }
   ],
   "BF-1981-TP-01": [
     {
-      "label": "GEIPAN \u2014 official case-search portal",
+      "label": "GEIPAN — official case-search portal",
       "url": "https://www.cnes-geipan.fr/en",
       "publisher": "CNES / GEIPAN",
       "access": "Public",
@@ -98,7 +114,7 @@
   ],
   "BF-SF-05": [
     {
-      "label": "FBI Vault \u2014 Majestic 12 Part 1",
+      "label": "FBI Vault — Majestic 12 Part 1",
       "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view",
       "publisher": "Federal Bureau of Investigation",
       "access": "Public; site may block automated clients",
@@ -108,24 +124,39 @@
   ],
   "BF-1990-CV-01": [
     {
-      "label": "UK National Archives \u2014 UFO reports and released files",
-      "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports/",
-      "publisher": "The National Archives (UK)",
+      "label": "Sheffield Hallam University — photographic analysis of the Calvine image",
+      "url": "https://shura.shu.ac.uk/34877/1/Robinson-PhotographicAnalysisVersion5(VoR).pdf",
+      "publisher": "Sheffield Hallam University",
       "access": "Public",
-      "scope": "official-collection",
-      "note": "Official MoD UFO-files guide; the surviving Calvine image is a later public reproduction rather than the original negative."
+      "scope": "academic-analysis",
+      "note": "Analysis of the surviving reproduction; the negatives and five other frames remain missing."
+    },
+    {
+      "label": "David Clarke — Calvine photograph case files and custody trail",
+      "url": "https://drdavidclarke.co.uk/secret-files/the-calvine-ufo-photographs/",
+      "publisher": "Dr David Clarke",
+      "access": "Public",
+      "scope": "case-specific-research-archive"
+    },
+    {
+      "label": "Atlas archive — surviving Calvine photographic reproduction",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg",
+      "publisher": "Sheffield Hallam release / Atlas archival copy",
+      "access": "Public",
+      "scope": "archival-reproduction",
+      "note": "Later public reproduction, not the original negative."
     }
   ],
   "BF-SF-10": [
     {
-      "label": "House Oversight \u2014 2023 UAP hearing",
+      "label": "House Oversight — 2023 UAP hearing",
       "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency/",
       "publisher": "U.S. House Committee on Oversight and Accountability",
       "access": "Public",
       "scope": "official-hearing-record"
     },
     {
-      "label": "GovInfo \u2014 UAP hearing transcript, Serial 118-53",
+      "label": "GovInfo — UAP hearing transcript, Serial 118-53",
       "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg53022",
       "publisher": "U.S. Government Publishing Office",
       "access": "Public",
@@ -134,12 +165,254 @@
   ],
   "BF-1961-BH-01": [
     {
-      "label": "NARA Catalog \u2014 Project BLUE BOOK (T-1206) search: Betty & Barney Hill",
+      "label": "NARA Catalog — Project BLUE BOOK (T-1206) search: Betty & Barney Hill",
       "url": "https://catalog.archives.gov/search?q=T-1206%20Hill%20Betty%20Barney",
       "publisher": "National Archives and Records Administration",
       "access": "Public; requires search within microfilm publication",
       "scope": "official-catalog-collection",
       "note": "Project BLUE BOOK records are available on microfilm publication T-1206. Use this search to locate specific case files."
+    }
+  ],
+  "BF-1957-RB-01": [
+    {
+      "label": "Atlas archive — McDonald/AIAA RB-47 technical analysis",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/RB47-1957/RB47-1957-McDonald-AIAA-analysis.pdf",
+      "publisher": "AIAA / Atlas archival copy",
+      "access": "Public",
+      "scope": "published-technical-analysis",
+      "note": "Case-specific 1971 analysis using the intelligence report and later crew interviews; not the missing original radar-scope film."
+    },
+    {
+      "label": "Princeton archive — McDonald/AIAA RB-47 analysis PDF",
+      "url": "http://kirkmcd.princeton.edu/JEMcDonald/mcdonald_aa_9_7_66_71.pdf",
+      "publisher": "Princeton-hosted James E. McDonald archive",
+      "access": "Public",
+      "scope": "published-technical-analysis",
+      "note": "Exact case-specific paper; academic mirror of the 1971 AIAA publication, not the original radar-scope film."
+    }
+  ],
+  "BF-1952-DC-01": [
+    {
+      "label": "Atlas archive — Washington 1952 NARA Project BLUE BOOK pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-NARA-official-S3-MAXW-PBB11-referenced-pages.pdf",
+      "publisher": "NARA / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-copy",
+      "note": "Recovered Project BLUE BOOK pages; catalog labels conflict across adjacent spans."
+    },
+    {
+      "label": "Atlas archive — Reports telephoned to OIN, July 28, 1952",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-Reports-Telephoned-to-OIN-1952-07-28.pdf",
+      "publisher": "U.S. Navy OIN / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-copy",
+      "note": "Contemporaneous reports; not a complete radar or interceptor log."
+    },
+    {
+      "label": "Atlas archive — CAA preliminary study of unidentified radar targets",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DC-FLAP-1952/DC-1952-CAA-radar-targets-preliminary-study.pdf",
+      "publisher": "Civil Aeronautics Administration / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-technical-record-copy"
+    },
+    {
+      "label": "NARA — Saucers Over Washington: history and archival context",
+      "url": "https://prologue.blogs.archives.gov/2019/12/19/saucers-over-washington-the-history-of-project-blue-book/",
+      "publisher": "NARA",
+      "access": "Public",
+      "scope": "official-case-context"
+    }
+  ],
+  "BF-1966-WS-01": [
+    {
+      "label": "State Library Victoria — Westall 1966 archival review",
+      "url": "https://blogs.slv.vic.gov.au/our-stories/strange-lights-in-the-sky-the-westall-ufo-event-1966/",
+      "publisher": "State Library Victoria",
+      "access": "Public",
+      "scope": "institutional-archive",
+      "note": "Reproduces contemporary newspaper coverage and a student drawing; no located RAAF case file."
+    },
+    {
+      "label": "Atlas archive — Dandenong Journal contemporary headline",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png",
+      "publisher": "Dandenong Journal / Atlas archival copy",
+      "access": "Public",
+      "scope": "contemporaneous-press-copy"
+    }
+  ],
+  "BF-1980-CLD-01": [
+    {
+      "label": "Cash-Landrum document collection — case investigation files",
+      "url": "https://www.blueblurrylines.com/2013/07/resource-guide-for-cash-landrum-ufo-case.html",
+      "publisher": "Blue Blurry Lines",
+      "access": "Public",
+      "scope": "case-specific-document-archive",
+      "note": "Curated investigation, medical-discussion and litigation material; private archive custody."
+    },
+    {
+      "label": "CUFON archive — Cash-Landrum case report compilation",
+      "url": "https://www.cufon.org/cufon/cashlanL.pdf",
+      "publisher": "Computer UFO Network",
+      "access": "Public",
+      "scope": "public-document-copy",
+      "note": "Case-specific compilation; not an official court repository and not proof of causation."
+    }
+  ],
+  "BF-1980-PE-01": [
+    {
+      "label": "Atlas archive — DIA/JCS La Joya intelligence message",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-JCS-message.pdf",
+      "publisher": "DIA / Atlas archival copy",
+      "access": "Public",
+      "scope": "declassified-official-record-copy",
+      "note": "Declassified message IR 6 876 0146 80; gun-camera film remains unreleased."
+    },
+    {
+      "label": "The Black Vault — DIA La Joya declassified message mirror",
+      "url": "https://documents.theblackvault.com/documents/ufos/dia2ufo.pdf",
+      "publisher": "The Black Vault",
+      "access": "Public",
+      "scope": "foia-document-mirror"
+    }
+  ],
+  "BF-SF-11": [
+    {
+      "label": "Atlas archive — AFOSI Bennewitz visit report, October 1980",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Bennewitz-visit-Oct-1980.pdf",
+      "publisher": "AFOSI / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-copy"
+    },
+    {
+      "label": "Atlas archive — AFOSI Cseh form, November 1980",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-Nov-1980.pdf",
+      "publisher": "AFOSI / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-copy"
+    },
+    {
+      "label": "Atlas archive — Richard Doty FOIA/ATR-1 material",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Doty-FOIA-ATR-1.pdf",
+      "publisher": "AFOSI record trail / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-copy",
+      "note": "Does not supply the missing operation authorization or complete recipient list."
+    },
+    {
+      "label": "Atlas archive — Project Aquarius forgery artifact",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Project-Aquarius-forgery.pdf",
+      "publisher": "Atlas archival copy",
+      "access": "Public",
+      "scope": "disinformation-artifact",
+      "note": "Preserved artifact for provenance analysis; its presence does not authenticate its claims."
+    }
+  ],
+  "BF-SF-08": [
+    {
+      "label": "Internet Archive — COMETA report, English translation PDF",
+      "url": "https://ia601803.us.archive.org/27/items/pdfy-NRIQie2ooVehep7K/The%20Cometa%20Report%20%5BUFO%27s%20And%20Defense%20-%20What%20Should%20We%20Prepare%20For%5D.pdf",
+      "publisher": "Internet Archive",
+      "access": "Public",
+      "scope": "public-report-copy",
+      "note": "Independent COMETA report; COMETA was not an official French government commission."
+    }
+  ],
+  "BF-2006-OH-01": [
+    {
+      "label": "NARCAP Technical Report 10 — O’Hare Case 18",
+      "url": "https://www.narcap.org/s/NARCAP_TR-10.pdf",
+      "publisher": "NARCAP",
+      "access": "Public",
+      "scope": "independent-technical-report",
+      "note": "Case-specific investigation; NARCAP is independent, not an FAA finding."
+    },
+    {
+      "label": "Atlas archive — O’Hare NARCAP Case 18 report",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18.pdf",
+      "publisher": "NARCAP / Atlas archival copy",
+      "access": "Public",
+      "scope": "independent-technical-report-copy"
+    },
+    {
+      "label": "Atlas archive — O’Hare FAA tower transcript pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/OHARE-2006/OHARE-2006-FAA-tower-transcript-pages-TR10.pdf",
+      "publisher": "FAA record reproduced by NARCAP / Atlas archival copy",
+      "access": "Public",
+      "scope": "official-record-reproduction",
+      "note": "Tower-communication pages preserved in the case package; the complete original tower recordings remain unreleased."
+    }
+  ],
+  "BF-2008-SV-01": [
+    {
+      "label": "SCU — Stephenville radar and witness report study",
+      "url": "https://www.explorescu.org/post/stephenville-lights-a-comprehensive-radar-and-witness-report-study",
+      "publisher": "Scientific Coalition for UAP Studies",
+      "access": "Public",
+      "scope": "independent-technical-report",
+      "note": "Uses FAA FOIA data; correlations are the authors’ analysis, not an FAA conclusion."
+    },
+    {
+      "label": "Atlas archive — Stephenville MUFON radar report",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-Radar-Report.pdf",
+      "publisher": "MUFON / Atlas archival copy",
+      "access": "Public",
+      "scope": "independent-technical-report-copy"
+    },
+    {
+      "label": "The Black Vault — FAA Stephenville FOIA material",
+      "url": "https://documents.theblackvault.com/documents/Stephenville/FAAStephenville.pdf",
+      "publisher": "The Black Vault",
+      "access": "Public",
+      "scope": "official-record-mirror",
+      "note": "FAA FOIA material mirror; FAA released the data but did not endorse later object correlations."
+    }
+  ],
+  "BF-1949-LA-00": [
+    {
+      "label": "Atlas archive — Los Alamos Conference on Aerial Phenomena transcript",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
+      "publisher": "AEC / Atlas archival copy",
+      "access": "Public",
+      "scope": "declassified-official-record-copy",
+      "note": "Twenty-five-page classified conference record released by DOE; cited maps, pilot reports and final disposition remain missing."
+    },
+    {
+      "label": "War.gov — Los Alamos Conference on Aerial Phenomena, official release",
+      "url": "https://www.war.gov/medialink/ufo/071026/release_04/documents/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949.pdf",
+      "publisher": "U.S. Department of War / Department of Energy release",
+      "access": "Public; site may block automated clients",
+      "scope": "official-record",
+      "note": "Exact official release endpoint for DOE-UAP-D004; Atlas archival copy remains available if the government endpoint blocks access."
+    }
+  ],
+  "BF-SF-07": [
+    {
+      "label": "Internet Archive — Ruppelt, The Report on Unidentified Flying Objects",
+      "url": "https://archive.org/details/reportonunidenti00rupp",
+      "publisher": "Internet Archive",
+      "access": "Public/borrow restrictions may apply",
+      "scope": "firsthand-memoir-archive",
+      "note": "Ruppelt’s account is the principal public description. The Estimate itself has never been recovered."
+    }
+  ],
+  "BF-1997-PH-01": [
+    {
+      "label": "CNN — former Arizona governor Fife Symington’s firsthand retrospective",
+      "url": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html",
+      "publisher": "CNN",
+      "access": "Public/access may vary",
+      "scope": "firsthand-retrospective-commentary",
+      "note": "Published ten years later; not an official investigation and distinct from later flare footage."
+    }
+  ],
+  "BF-1989-BW-01": [
+    {
+      "label": "COBEPS — Belgian wave research report",
+      "url": "https://www.cobeps.org/pdf/belgian_wave_130310.pdf",
+      "publisher": "COBEPS",
+      "access": "Public",
+      "scope": "institutional-research-report",
+      "note": "Retrospective report and public military-record copies; original calibrated radar tapes remain unavailable."
     }
   ]
 }

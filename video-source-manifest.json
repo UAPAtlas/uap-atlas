@@ -274,5 +274,29 @@
       "mediaKind": "video",
       "note": "Reporting and analysis of Grusch's allegations; the congressional record remains separately linked."
     }
+  ],
+  "BF-1997-PH-01": [
+    {
+      "label": "'Phoenix Lights' mass UAP sighting witness searching for answers",
+      "url": "https://www.youtube.com/watch?v=oZS-XGpq6vA",
+      "publisher": "Ross Coulthart / Reality Check (NewsNation)",
+      "access": "Public",
+      "scope": "firsthand-interview",
+      "role": "witness-interview",
+      "mediaKind": "video",
+      "note": "Ross Coulthart interviews witness Dr. Lynne Kitei. Her testimony is evidence of her account, not independent proof that all March 13 observations shared one cause."
+    }
+  ],
+  "BF-1966-WS-01": [
+    {
+      "label": "Secrets of the UFOs — Westall witness and cover-up segment",
+      "url": "https://www.youtube.com/watch?v=sEczN_8Q380",
+      "publisher": "7NEWS Spotlight featuring Ross Coulthart",
+      "access": "Public",
+      "scope": "case-specific-documentary-segment",
+      "role": "contextual-analysis",
+      "mediaKind": "video",
+      "note": "Documentary includes a substantial Westall segment and witness account with Ross Coulthart; contextual reporting, not a recovered RAAF or police record."
+    }
   ]
 }
