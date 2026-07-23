@@ -473,7 +473,7 @@
       "publisher": "U.S. Department of War",
       "access": "Public; endpoint blocks some automated clients",
       "scope": "official-record",
-      "note": "Exact DOW-UAP-D20 release. Publisher-facing title says Southern United States while the record contains CENTCOM/I2/SY operational context; geography remains redacted and contested."
+      "note": "Exact DOW-UAP-D20 release. The release filename/PDF metadata says Southern United States, but the body records Operation Inherent Resolve, entry into SY airspace, and MGRS 37SGA in northeastern Syria. Atlas geography follows the body while preserving the publisher conflict."
     }
   ],
   "BF-2023-SY-74": [
@@ -493,7 +493,7 @@
       "publisher": "U.S. Department of War",
       "access": "Public; endpoint blocks some automated clients",
       "scope": "official-record",
-      "note": "Exact DOW-UAP-D28 release. The publisher filename/metadata says East China Sea while the body carries Operation Inherent Resolve and redacted 38S MGRS context; the location conflict is preserved rather than silently resolved."
+      "note": "Exact DOW-UAP-D28 release. The filename/PDF metadata says East China Sea, but the body names Operation Inherent Resolve, Ayn al-Asad ROZ RAINDROP, and 38SKC MGRS in western Iraq. Atlas geography follows the body while preserving the publisher conflict."
     }
   ],
   "BF-1949-KD-01": [
@@ -524,6 +524,106 @@
       "access": "Public",
       "scope": "official-catalog-record",
       "note": "Exact 301-object 4602D AISS compilation containing the B-47 encounter report; it is a collection-level file unit with a page-level internal locator, not a standalone case record."
+    }
+  ],
+  "BF-2020-AS-01": [
+    {
+      "label": "War.gov — DOW-UAP-D44 Arabian Sea range-fouler record",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact official release path for DOW-UAP-D44; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
+    }
+  ],
+  "BF-2023-JP-01": [
+    {
+      "label": "War.gov — DOW-UAP-D42 Japan range-fouler debrief",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact official release path for DOW-UAP-D42; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
+    }
+  ],
+  "BF-2022-ME-01": [
+    {
+      "label": "War.gov — DOW-UAP-D10 Middle East mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact official release path for DOW-UAP-D10; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
+    }
+  ],
+  "BF-2023-GR-33": [
+    {
+      "label": "War.gov — DOW-UAP-D33 Greece mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact official release path for DOW-UAP-D33; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
+    }
+  ],
+  "BF-2024-GR-25": [
+    {
+      "label": "War.gov — DOW-UAP-D25 Greece mission report",
+      "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Public; endpoint blocks some automated clients",
+      "scope": "official-record",
+      "note": "Exact official release path for DOW-UAP-D25; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
+    }
+  ],
+  "BF-1957-NC-01": [
+    {
+      "label": "NARA Catalog — AIIRs 1957 compilation (Aug. 3, 1957 Northern California radar-skinpaint report)",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Aug. 3, 1957 Northern California radar-skinpaint report. Government custody confirms the record, not the reported object's identity."
+    }
+  ],
+  "BF-1956-DF-01": [
+    {
+      "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, pp. 17 and 19–20)",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: TR-1-57, pp. 17 and 19–20. Government custody confirms the record, not the reported object's identity."
+    }
+  ],
+  "BF-1957-HT-01": [
+    {
+      "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, p. 15)",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Report 1-57, p. 15. Government custody confirms the record, not the reported object's identity."
+    }
+  ],
+  "BF-1957-CG-01": [
+    {
+      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, p. 15)",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, p. 15. Government custody confirms the record, not the reported object's identity."
+    }
+  ],
+  "BF-1957-RA-01": [
+    {
+      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
+      "url": "https://catalog.archives.gov/id/311001910",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-catalog-record",
+      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity."
     }
   ]
 }

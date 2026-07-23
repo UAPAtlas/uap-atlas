@@ -399,8 +399,9 @@
         "BF-1947-KA-01"
       ],
       "heroFact": "The modern record's true opening entry: disciplined military aircrews reporting pacing luminous objects — three years before anyone said 'flying saucer.'",
-      "image": "assets/source_previews/BF-1944-FF-01_source_image.png",
+      "image": "assets/source_previews/BF-1944-FF-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1944-FF-01_source_image.jpg",
         "assets/source_previews/BF-1944-FF-01_source_image.png"
       ],
       "caseTypes": [
@@ -765,8 +766,9 @@
         "BF-1952-DC-01"
       ],
       "heroFact": "The report that named the phenomenon: every 'flying saucer' file after June 1947 descends from press coverage of Arnold's description.",
-      "image": "assets/source_previews/BF-1947-KA-01_source_image.png",
+      "image": "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
       "images": [
+        "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
         "assets/source_previews/BF-1947-KA-01_source_image.png"
       ],
       "caseTypes": [
@@ -1526,6 +1528,7 @@
         }
       ],
       "images": [
+        "assets/evidence/CHILES-1948/CHILES-1948-witness-sketch-Exhibit-E-rotated-preview.png",
         "assets/source_previews/BF-1948-CW-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -1706,6 +1709,7 @@
         }
       ],
       "images": [
+        "assets/evidence/GORMAN-1948/GORMAN-1948-p037-no-control-tower-recording-exists.jpg",
         "assets/source_previews/BF-1948-GD-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -1753,10 +1757,10 @@
         "BF-SF-07"
       ],
       "heroFact": "The first fatality in the official record — almost certainly a classified balloon plus hypoxia, and the event that hardened Air Force attitudes for a decade.",
-      "image": "assets/source_previews/BF-1948-MT-01_source_image.jpg",
+      "image": "assets/evidence/MANTELL/portrait.jpg",
       "images": [
-        "assets/evidence/MANTELL/f51s.jpg",
         "assets/evidence/MANTELL/portrait.jpg",
+        "assets/evidence/MANTELL/f51s.jpg",
         "assets/evidence/MANTELL/skyhook.jpg",
         "assets/evidence/MANTELL/reconstruction.png"
       ],
@@ -2020,6 +2024,7 @@
         }
       ],
       "images": [
+        "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
         "assets/source_previews/BF-SF-07_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -2054,7 +2059,7 @@
         "DOE-UAP-D002 · later James Tuck correspondence, provenance context only",
         "DOE-UAP-D003 · Pajarito Astronomers 1986 meeting notice, provenance context only"
       ],
-      "image": "assets/source_previews/BF-1949-LA-00_source_image.jpg",
+      "image": "assets/evidence/DOE-UAP-D004/DOE-UAP-D004_Los-Alamos-Conference-on-Aerial-Phenomena_1949__page_001.png",
       "lon": -106.3031,
       "lat": 35.88,
       "coordinateBasis": "Los Alamos, NM",
@@ -2344,7 +2349,7 @@
         "BF-1952-TM-01"
       ],
       "heroFact": "One of the two films the Robertson Panel actually examined — with a timing conflict in the official explanation and a missing-frames dispute that was never settled.",
-      "image": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png",
+      "image": "assets/evidence/hero-visuals/GREATFALLS-1950-Mariana-film-frame-260s.jpg",
       "caseTypes": [
         "institutional-record"
       ],
@@ -2465,6 +2470,7 @@
         }
       ],
       "images": [
+        "assets/evidence/hero-visuals/GREATFALLS-1950-Mariana-film-frame-260s.jpg",
         "assets/source_previews/BF-1950-GF-01_source_image.jpg"
       ],
       "evidenceDepthStatus": "primary-complete",
@@ -2674,7 +2680,7 @@
         "BF-1950-GF-01"
       ],
       "heroFact": "The Navy's own photographic laboratory and the CIA's panel reached opposite conclusions about the same frames — the clearest documented analyst split of the era.",
-      "image": "assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
+      "image": "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
       "caseTypes": [
         "institutional-record"
       ],
@@ -2794,6 +2800,7 @@
         }
       ],
       "images": [
+        "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
         "assets/source_previews/BF-1952-TM-01_source_image.jpg"
       ],
       "evidenceDepthStatus": "primary-complete",
@@ -2938,6 +2945,7 @@
         }
       ],
       "images": [
+        "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
         "assets/source_previews/BF-SF-03_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -3097,8 +3105,8 @@
         }
       ],
       "images": [
-        "assets/robertson_panel/cia_uap_002_page_033.png",
         "assets/robertson_panel/cia_uap_002_page_031.png",
+        "assets/robertson_panel/cia_uap_002_page_033.png",
         "assets/robertson_panel/cia_uap_002_page_030.png",
         "assets/robertson_panel/cia_uap_002_page_034.png"
       ],
@@ -3491,7 +3499,7 @@
         "BF-SF-02"
       ],
       "heroFact": "A genuine landmark physics conference, bankrolled by aviation-industry gravity-control enthusiasm and archived by the Air Force — the factual kernel inside every 1950s antigravity-program narrative.",
-      "image": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title.png",
+      "image": "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title-white-bg.jpg",
       "caseTypes": [
         "special-file"
       ],
@@ -3585,6 +3593,7 @@
         }
       ],
       "images": [
+        "assets/evidence/CHAPELHILL-1957/CHAPELHILL-1957-GR1-proceedings-title-white-bg.jpg",
         "assets/source_previews/BF-SF-04_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -3631,7 +3640,7 @@
         "BF-1990-CV-01"
       ],
       "heroFact": "The photographs entered official channels, but neither institutional custody nor release resolves whether the image was a genuine object or a constructed photograph.",
-      "image": "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
+      "image": "assets/evidence/hero-visuals/TRINDADE-1958-APRO-photo-1-reproduction.jpg",
       "caseTypes": [
         "photographic-case",
         "military-context"
@@ -3746,6 +3755,7 @@
         "independentWitnessGroups": null
       },
       "images": [
+        "assets/evidence/hero-visuals/TRINDADE-1958-APRO-photo-1-reproduction.jpg",
         "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
         "assets/source_previews/TRINDADE-1958-p006-Navy-statement.jpg",
         "assets/source_previews/BF-1958-TR-01_source_image.jpg"
@@ -3973,8 +3983,9 @@
         "BF-1994-AR-01"
       ],
       "heroFact": "The template abduction case: a contemporaneous sighting report exists on paper, while the famous abduction content came later from hypnosis sessions — two very different evidentiary tiers in one file.",
-      "image": "assets/source_previews/BF-1961-BH-01_source_image.png",
+      "image": "assets/source_previews/BF-1961-BH-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1961-BH-01_source_image.jpg",
         "assets/source_previews/BF-1961-BH-01_source_image.png"
       ],
       "caseTypes": [
@@ -4127,7 +4138,7 @@
       "sources": [
         "NASA-UAP-D015"
       ],
-      "image": "assets/source_previews/BF-NASA-D015_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D015/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963__page_002.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -4233,6 +4244,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D015/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963__page_002.png",
         "assets/source_previews/BF-NASA-D015_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -4376,6 +4388,7 @@
         }
       ],
       "images": [
+        "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
         "assets/source_previews/BF-1964-SC-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -4570,7 +4583,7 @@
       "sources": [
         "NASA-UAP-D016"
       ],
-      "image": "assets/source_previews/BF-NASA-D016_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D016/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965__page_001.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -4676,6 +4689,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D016/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965__page_001.png",
         "assets/source_previews/BF-NASA-D016_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -4701,7 +4715,7 @@
       "sources": [
         "NASA-UAP-D017"
       ],
-      "image": "assets/source_previews/BF-NASA-D017_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D017/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965__page_001.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -4807,6 +4821,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D017/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965__page_001.png",
         "assets/source_previews/BF-NASA-D017_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -4832,7 +4847,7 @@
       "sources": [
         "NASA-UAP-D019"
       ],
-      "image": "assets/source_previews/BF-NASA-D019_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D019/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965__page_003.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -4938,6 +4953,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D019/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965__page_003.png",
         "assets/source_previews/BF-NASA-D019_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -4963,7 +4979,7 @@
       "sources": [
         "NASA-UAP-D020"
       ],
-      "image": "assets/source_previews/BF-NASA-D020_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D020/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965__page_001.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -5069,6 +5085,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D020/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965__page_001.png",
         "assets/source_previews/BF-NASA-D020_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -5094,7 +5111,7 @@
       "sources": [
         "NASA-UAP-D021"
       ],
-      "image": "assets/source_previews/BF-NASA-D021_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_001.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -5200,6 +5217,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_001.png",
         "assets/source_previews/BF-NASA-D021_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -5226,7 +5244,7 @@
         "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
         "DOW-UAP-D092 · DAF Project Blue Book review / Condon context"
       ],
-      "image": "assets/source_previews/BF-1966-CC-00_source_image.jpg",
+      "image": "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
       "lon": -105.2705,
       "lat": 40.015,
       "expectedCountry": "United States of America",
@@ -5362,6 +5380,7 @@
         }
       ],
       "images": [
+        "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
         "assets/source_previews/BF-1966-CC-00_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -5405,10 +5424,10 @@
         "BF-1997-PH-01"
       ],
       "heroFact": "Australia's largest daytime mass sighting sits opposite an almost empty official file — hundreds of living witnesses, no surviving government record.",
-      "image": "assets/source_previews/BF-1966-WS-01_source_image.jpg",
+      "image": "assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png",
       "images": [
-        "assets/evidence/WESTALL-1966/Westall_Clayton_Calendar_student_drawing.png",
         "assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png",
+        "assets/evidence/WESTALL-1966/Westall_Clayton_Calendar_student_drawing.png",
         "assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_student_sketch.png",
         "assets/evidence/WESTALL-1966/Westall_AFSR_editor_note.png"
       ],
@@ -5551,7 +5570,7 @@
       "sources": [
         "NASA-UAP-D022"
       ],
-      "image": "assets/source_previews/BF-NASA-D022_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D022/NASA-UAP-D022_Gemini-9-Debriefing_1966__page_001.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -5657,6 +5676,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D022/NASA-UAP-D022_Gemini-9-Debriefing_1966__page_001.png",
         "assets/source_previews/BF-NASA-D022_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -5684,7 +5704,7 @@
         "MALMSTROM-1967-ENGINEERING · Engineering summary, 23 Aug 1967",
         "MALMSTROM-1967-FOIA-PACKAGE · USAF FOIA release package, private mirror"
       ],
-      "image": "assets/source_previews/BF-1967-MA-01_source_image.jpg",
+      "image": "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
       "lon": -111.187,
       "lat": 47.5044,
       "coordinateBasis": "Malmstrom AFB, Montana",
@@ -5905,8 +5925,9 @@
         "BF-1978-VL-01"
       ],
       "heroFact": "Police and civilian witnesses triggered a real search; the released government summary records no recovered evidence and no identification.",
-      "image": "assets/source_previews/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
+      "image": "assets/evidence/SHAG-HARBOUR-1967/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
       "images": [
+        "assets/evidence/SHAG-HARBOUR-1967/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
         "assets/source_previews/SHAG-HARBOUR-1967-DND-UFO-report.jpg",
         "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_incident_location_aerial.jpg"
       ],
@@ -6064,7 +6085,7 @@
       "sources": [
         "NASA-UAP-D018"
       ],
-      "image": "assets/source_previews/BF-NASA-D018_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D018/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967__page_003.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -6170,6 +6191,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D018/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967__page_003.png",
         "assets/source_previews/BF-NASA-D018_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -6685,6 +6707,7 @@
         }
       ],
       "images": [
+        "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_004.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__event_chang-la.png",
         "assets/evidence/CIA-UAP-016/CIA-UAP-016-Himalayan-sightings__page_005.png"
       ],
@@ -7552,7 +7575,7 @@
       "sources": [
         "NASA-UAP-D1"
       ],
-      "image": "assets/source_previews/BF-NASA-D001_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D1/NASA-UAP-D1-Apollo-12-Transcript-1969__page_003.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -7659,6 +7682,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D1/NASA-UAP-D1-Apollo-12-Transcript-1969__page_003.png",
         "assets/source_previews/BF-NASA-D001_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -7684,7 +7708,7 @@
       "sources": [
         "NASA-UAP-D4"
       ],
-      "image": "assets/source_previews/BF-NASA-D004_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D4/NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969__page_003.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -7790,6 +7814,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D4/NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969__page_003.png",
         "assets/source_previews/BF-NASA-D004_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -7815,7 +7840,7 @@
       "sources": [
         "NASA-UAP-VM1"
       ],
-      "image": "assets/source_previews/BF-NASA-VM1_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM1/NASA-UAP-VM1-Apollo-12-1969.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -7938,6 +7963,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM1/NASA-UAP-VM1-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM1_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -7963,7 +7989,7 @@
       "sources": [
         "NASA-UAP-VM2"
       ],
-      "image": "assets/source_previews/BF-NASA-VM2_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM2/NASA-UAP-VM2-Apollo-12-1969.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8086,6 +8112,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM2/NASA-UAP-VM2-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM2_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -8111,7 +8138,7 @@
       "sources": [
         "NASA-UAP-VM3"
       ],
-      "image": "assets/source_previews/BF-NASA-VM3_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM3/NASA-UAP-VM3-Apollo-12-1969.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8234,6 +8261,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM3/NASA-UAP-VM3-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM3_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -8259,7 +8287,7 @@
       "sources": [
         "NASA-UAP-VM4"
       ],
-      "image": "assets/source_previews/BF-NASA-VM4_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM4/NASA-UAP-VM4-Apollo-12-1969.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8382,6 +8410,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM4/NASA-UAP-VM4-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM4_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -8407,7 +8436,7 @@
       "sources": [
         "NASA-UAP-VM5"
       ],
-      "image": "assets/source_previews/BF-NASA-VM5_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM5/NASA-UAP-VM5-Apollo-12-1969.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8513,6 +8542,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM5/NASA-UAP-VM5-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM5_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -8538,7 +8568,7 @@
       "sources": [
         "NASA-UAP-D026 · Apollo 14 Debriefing video record / DOD_111830063"
       ],
-      "image": "assets/source_previews/BF-NASA-D026_source_image.jpg",
+      "image": "assets/source_previews/BF-NASA-D026_DOD_111830063_frame.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8670,7 +8700,7 @@
       "sources": [
         "NASA-UAP-D2"
       ],
-      "image": "assets/source_previews/BF-NASA-D002_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D2/NASA-UAP-D2-Apollo-17-Transcript-1972__page_002.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8777,6 +8807,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D2/NASA-UAP-D2-Apollo-17-Transcript-1972__page_002.png",
         "assets/source_previews/BF-NASA-D002_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -8802,7 +8833,7 @@
       "sources": [
         "NASA-UAP-VM6"
       ],
-      "image": "assets/source_previews/BF-NASA-VM6_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-VM6/NASA-UAP-VM6-Apollo-17-1972.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -8908,6 +8939,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-VM6/NASA-UAP-VM6-Apollo-17-1972.jpg",
         "assets/source_previews/BF-NASA-VM6_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -9285,8 +9317,8 @@
       ],
       "image": "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_003.png",
       "images": [
-        "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_001.png",
-        "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_003.png"
+        "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_003.png",
+        "assets/evidence/CIA-UAP-011/CIA-UAP-011_Sary_Shagan_Weapons_Testing_Range__page_001.png"
       ],
       "keyFact": "The CIA report places a firsthand unidentified aerial observation inside a Soviet anti-ballistic-missile weapons-testing range.",
       "whyItMatters": "It broadens the strategic-site pattern beyond the United States while preserving the source's own refusal to identify the phenomenon.",
@@ -9436,7 +9468,7 @@
       "sources": [
         "NASA-UAP-D5"
       ],
-      "image": "assets/source_previews/BF-NASA-D005_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D5/NASA-UAP-D5-Apollo-17-Crew-Debriefing-for-Science-1973__page_002.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -9542,6 +9574,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D5/NASA-UAP-D5-Apollo-17-Crew-Debriefing-for-Science-1973__page_002.png",
         "assets/source_previews/BF-NASA-D005_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -9567,7 +9600,7 @@
       "sources": [
         "NASA-UAP-D6"
       ],
-      "image": "assets/source_previews/BF-NASA-D006_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D6/NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973__page_002.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -9673,6 +9706,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D6/NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973__page_002.png",
         "assets/source_previews/BF-NASA-D006_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -9698,7 +9732,7 @@
       "sources": [
         "NASA-UAP-D7"
       ],
-      "image": "assets/source_previews/BF-NASA-D007_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D7/NASA-UAP-D7-Skylab-Technical-Crew-Debriefing-1973__page_003.png",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -9803,6 +9837,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D7/NASA-UAP-D7-Skylab-Technical-Crew-Debriefing-1973__page_003.png",
         "assets/source_previews/BF-NASA-D007_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -10105,6 +10140,7 @@
         }
       ],
       "images": [
+        "assets/evidence/MEIER-1975/MEIER-1975-Photo66-Fuchsbuel-FAIRUSE.jpg",
         "assets/source_previews/BF-SF-13_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -10132,7 +10168,7 @@
       "sources": [
         "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
       ],
-      "image": "assets/source_previews/BF-1976-TH-01_source_image.jpg",
+      "image": "assets/evidence/TEHRAN-1976/Tehran_JCS_Report_page_002.jpg",
       "lon": 51.389,
       "lat": 35.689,
       "expectedCountry": "Iran",
@@ -10318,7 +10354,7 @@
         "BF-1989-BW-01"
       ],
       "heroFact": "A military field investigation of an active flap — with its own declassified reports and photographs — that ended without an official explanation.",
-      "image": "assets/source_previews/BF-1977-CL-01_source_image.jpg",
+      "image": "assets/evidence/COLARES-1977/Operation_Prato_object_photo_page.jpg",
       "caseTypes": [
         "military-encounter"
       ],
@@ -10448,6 +10484,7 @@
         }
       ],
       "images": [
+        "assets/evidence/COLARES-1977/Operation_Prato_object_photo_page.jpg",
         "assets/source_previews/BF-1977-CL-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -10492,7 +10529,7 @@
         "BF-1986-JAL-01"
       ],
       "heroFact": "The rare trifecta on one flight: ground radar tracks, aircrew visuals, and broadcast-quality film shot as it happened.",
-      "image": "assets/source_previews/BF-1978-KK-01_source_image.jpg",
+      "image": "assets/evidence/hero-visuals/KAIKOURA-1978-Archives-New-Zealand-record.jpg",
       "caseTypes": [
         "aviation-encounter"
       ],
@@ -10610,6 +10647,7 @@
         }
       ],
       "images": [
+        "assets/evidence/hero-visuals/KAIKOURA-1978-Archives-New-Zealand-record.jpg",
         "assets/source_previews/BF-1978-KK-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -10656,6 +10694,7 @@
       "heroFact": "An official ATC transcript records a pilot describing an unidentified pacing object in his final transmission before vanishing.",
       "image": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1978-VL-01_source_image.jpg",
         "assets/evidence/VALENTICH/bass_strait_prior_context.jpg"
       ],
       "caseTypes": [
@@ -10853,6 +10892,7 @@
       "heroFact": "The injuries are on hospital paper and the lawsuit is on court paper; only the object has no paper — the U.S. government's defense was that the craft could not be theirs.",
       "image": "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1980-CLD-01_source_image.jpg",
         "assets/evidence/CASH-LANDRUM-1980/Cash_Landrum_original_illustration.jpg"
       ],
       "caseTypes": [
@@ -11117,6 +11157,7 @@
         }
       ],
       "images": [
+        "assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-message_Peru_page.png",
         "assets/source_previews/BF-1980-PE-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -11146,7 +11187,7 @@
         "RENDLESHAM-1980-TNA · UK National Archives collection note",
         "RENDLESHAM-1980-DEFE · MOD correspondence and later official finding"
       ],
-      "image": "assets/source_previews/BF-1980-RF-01_source_image.jpg",
+      "image": "assets/evidence/RENDLESHAM-1980/Halt_Memorandum.jpg",
       "lon": 1.434,
       "lat": 52.092,
       "coordinateBasis": "Rendlesham Forest / RAF Bentwaters",
@@ -11633,6 +11674,7 @@
         }
       ],
       "images": [
+        "assets/evidence/GEPAN-1981/GEPAN-1981-Note-Technique-16-Trans-en-Provence_page_001.png",
         "assets/source_previews/BF-1981-TP-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -11819,7 +11861,7 @@
       "sources": [
         "JAL1628-1986 · FAA Japan Airlines 1628 records"
       ],
-      "image": "assets/source_previews/BF-1986-JAL-01_source_image.jpg",
+      "image": "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_004.jpg",
       "lon": -149.8997,
       "lat": 61.2176,
       "coordinateBasis": "Anchorage/Fairbanks Alaska route representative",
@@ -11844,6 +11886,7 @@
         "BF-1980-RF-01"
       ],
       "images": [
+        "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_004.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_003.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_004.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_005.jpg",
@@ -11851,7 +11894,6 @@
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_003.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_004.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Transcript_page_008.jpg",
-        "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_004.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_008.jpg",
         "assets/evidence/JAL1628-1986/JAL1628_FAA_Press_page_010.jpg"
       ],
@@ -12057,6 +12099,7 @@
       "heroFact": "A photo case that divided professional investigators until a physical model surfaced — leaving a residue of unrelated local sightings the hoax finding doesn't cover.",
       "image": "assets/source_previews/BF-1987-GB-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1987-GB-01_source_image.jpg",
         "assets/evidence/GULF-BREEZE/model.jpg",
         "assets/evidence/GULF-BREEZE/prior_craft_illustration.png"
       ],
@@ -12357,6 +12400,7 @@
         }
       ],
       "images": [
+        "assets/source_previews/BF-1989-BW-01_BELGIAN-WAVE-1989-Belgian_UFO_Report_page_001.png",
         "assets/evidence/BELGIAN-WAVE-1989/BELGIAN-WAVE-1989-COBEPS-retrospective__page_001.png"
       ],
       "mapGeometry": {
@@ -12411,6 +12455,7 @@
       "heroFact": "The most influential whistleblower narrative in UFOlogy rests on a nearly empty verifiable record: one pay stub, one phone-book line, and no confirmable education history.",
       "image": "assets/source_previews/BF-SF-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-SF-01_source_image.jpg",
         "assets/evidence/LAZAR/groom_papoose.jpg",
         "assets/evidence/LAZAR/area51_gate.jpg"
       ],
@@ -12563,7 +12608,7 @@
         "BF-1980-RF-01"
       ],
       "heroFact": "A photograph the MoD held for thirty years resurfaced through a retiree's desk drawer — the provenance is now stronger than the identification.",
-      "image": "assets/source_previews/BF-1990-CV-01_source_image.jpg",
+      "image": "assets/evidence/CALVINE/photo.jpg",
       "images": [
         "assets/evidence/CALVINE/photo.jpg",
         "assets/evidence/CALVINE/vufoil.jpg",
@@ -12720,7 +12765,7 @@
         "BF-1961-BH-01"
       ],
       "heroFact": "Sixty child witnesses, filmed within days, telling structurally consistent accounts that have held up in adult re-interviews — the strongest mass-witness testimony corpus in the record.",
-      "image": "assets/source_previews/BF-1994-AR-01_source_image.jpg",
+      "image": "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
       "evidenceImages": [
         "assets/evidence/ARIEL-1994/ArielSchool_child_drawing.jpg",
         "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
@@ -12824,6 +12869,7 @@
         }
       ],
       "images": [
+        "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
         "assets/source_previews/BF-1994-AR-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -13179,7 +13225,7 @@
       "sources": [
         "NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg"
       ],
-      "image": "assets/source_previews/BF-NASA-D030_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
       "coordNote": "Orbital evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -13287,6 +13333,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
         "assets/source_previews/BF-NASA-D030_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -13312,7 +13359,7 @@
       "sources": [
         "NASA-UAP-D031"
       ],
-      "image": "assets/source_previews/BF-NASA-D031_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D031/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -13418,6 +13465,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D031/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg",
         "assets/source_previews/BF-NASA-D031_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -13443,7 +13491,7 @@
       "sources": [
         "NASA-UAP-D032"
       ],
-      "image": "assets/source_previews/BF-NASA-D032_source_image.jpg",
+      "image": "assets/evidence/NASA-UAP-D032/NASA-UAP-D032_STS-80-Unidentified-Object-Image3_1996.jpg",
       "coordNote": "Orbital/lunar evidence rail; not a terrestrial coordinate.",
       "geometryExpectation": "orbital",
       "coordinatePrecision": "orbital",
@@ -13549,6 +13597,7 @@
         }
       ],
       "images": [
+        "assets/evidence/NASA-UAP-D032/NASA-UAP-D032_STS-80-Unidentified-Object-Image3_1996.jpg",
         "assets/source_previews/BF-NASA-D032_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -13898,6 +13947,7 @@
         }
       ],
       "images": [
+        "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
         "assets/source_previews/BF-SF-06_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -14067,7 +14117,7 @@
       "sources": [
         "NIMITZ-2004 · AATIP/Nimitz executive summary and NAVAIR context"
       ],
-      "image": "assets/source_previews/BF-2004-NM-01_NIMITZ-2004-AATIP-executive-summary_page_001.png",
+      "image": "assets/evidence/hero-visuals/NIMITZ-2004-FLIR1-official-frame.jpg",
       "lon": -117.8,
       "lat": 32.7,
       "geometryExpectation": "offshore",
@@ -14322,7 +14372,7 @@
         "BF-1986-JAL-01"
       ],
       "heroFact": "Trained aviation professionals reported a disc over a major U.S. airport and the FAA's documented response was to log it as weather and not investigate.",
-      "image": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1.png",
+      "image": "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1-white-bg.jpg",
       "caseTypes": [
         "aviation-encounter",
         "witness-report"
@@ -14419,6 +14469,7 @@
         }
       ],
       "images": [
+        "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1-white-bg.jpg",
         "assets/source_previews/BF-2006-OH-01_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -15051,7 +15102,7 @@
         "BF-1986-JAL-01"
       ],
       "heroFact": "A government office studied a video for two years and called it unexplained; open-source analysts identified it in days — the field's best documented lesson in method over authority.",
-      "image": "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg",
+      "image": "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-public-mirror-crop-490s.jpg",
       "caseTypes": [
         "aviation-encounter"
       ],
@@ -15386,7 +15437,7 @@
         "DOE-UAP-D005-IMAGERY · Radar map, tower frame, and Sandia-enhanced images, internal pp. 4–6",
         "DOE-UAP-D001 · separately released Pantex image extract, report internal pp. 5–6"
       ],
-      "image": "assets/source_previews/BF-2015-PX-04_source_image.jpg",
+      "image": "assets/evidence/hero-visuals/PANTEX-2015-ground-surveillance-tower-image.jpg",
       "lon": -101.561,
       "lat": 35.3078,
       "coordinateBasis": "Pantex Plant, Texas",
@@ -15411,6 +15462,7 @@
         "BF-2024-NE-02"
       ],
       "images": [
+        "assets/evidence/hero-visuals/PANTEX-2015-ground-surveillance-tower-image.jpg",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_001.png",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_002.png",
         "assets/evidence/DOE-UAP-D005/DOE-UAP-D005_Pantex-Unidentified-Object-Incident-Report_2015__page_003.png",
@@ -16066,7 +16118,7 @@
         "BF-2023-LG-01"
       ],
       "heroFact": "Pentagon-authenticated shipboard footage of a trans-medium candidate, inside a documented multi-ship swarm investigation — the modern case where authentication and identification fully separated.",
-      "image": "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
+      "image": "assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
       "caseTypes": [
         "military-encounter"
       ],
@@ -16225,8 +16277,8 @@
       ],
       "image": "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png",
       "images": [
-        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_001.png",
         "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png",
+        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_001.png",
         "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_001.png",
         "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_005.png",
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_001.png",
@@ -16399,7 +16451,7 @@
         "DOW-UAP-D44 · Range Fouler Arabian Sea October 2020",
         "DOW-UAP-D56 · Range Fouler Debrief Arabian Sea August 2020"
       ],
-      "image": "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
+      "image": "assets/editorial-reconstructions/BF-2020-AS-01.png",
       "lon": 64,
       "lat": 24,
       "coordinateBasis": "Arabian Sea representative",
@@ -16505,25 +16557,26 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
+        "src": "assets/editorial-reconstructions/BF-2020-AS-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Arabian Sea Range Fouler.",
-        "provenance": "AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Arabian Sea Range Fouler, based on DOW-UAP-D44/D56 released range-fouler records.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
+          "label": "War.gov — DOW-UAP-D44 Arabian Sea range-fouler record",
+          "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
           "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "access": "Public; endpoint blocks some automated clients",
+          "scope": "official-record",
+          "note": "Exact official release path for DOW-UAP-D44; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
         }
       ],
       "images": [
+        "assets/editorial-reconstructions/BF-2020-AS-01.png",
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_page_001.png"
       ],
@@ -16550,7 +16603,7 @@
       "sources": [
         "DOW-UAP-D42 · Japan Range Fouler Debrief 2023"
       ],
-      "image": "assets/evidence/DOW-UAP-D42/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023__page_001.png",
+      "image": "assets/editorial-reconstructions/BF-2023-JP-01.png",
       "lon": 45,
       "lat": 30,
       "geometryExpectation": "region",
@@ -16666,6 +16719,7 @@
         "independentWitnessGroups": null
       },
       "images": [
+        "assets/editorial-reconstructions/BF-2023-JP-01.png",
         "assets/evidence/DOW-UAP-D42/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023__page_001.png"
       ],
       "evidenceDepthStatus": "primary-packet-recovered",
@@ -16676,22 +16730,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D42/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023__page_001.png",
+        "src": "assets/editorial-reconstructions/BF-2023-JP-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Range Fouler Multiple Objects — Metadata Conflict.",
-        "provenance": "AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Japan Range Fouler — Multiple Objects, based on DOW-UAP-D42 released range-fouler debrief.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
+          "label": "War.gov — DOW-UAP-D42 Japan range-fouler debrief",
+          "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
           "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "access": "Public; endpoint blocks some automated clients",
+          "scope": "official-record",
+          "note": "Exact official release path for DOW-UAP-D42; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
         }
       ],
       "mapGeometry": null,
@@ -16717,8 +16771,8 @@
       ],
       "image": "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png",
       "images": [
-        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_001.png",
-        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png"
+        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_007.png",
+        "assets/evidence/GULF2020-D3/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020__page_001.png"
       ],
       "lon": 50.5,
       "lat": 27,
@@ -16878,8 +16932,8 @@
       ],
       "image": "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_005.png",
       "images": [
-        "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_001.png",
-        "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_005.png"
+        "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_005.png",
+        "assets/evidence/GULF2020-D4/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020__page_001.png"
       ],
       "lon": 50.5,
       "lat": 27,
@@ -17040,8 +17094,8 @@
       ],
       "image": "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_005.png",
       "images": [
-        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_001.png",
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_005.png",
+        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_001.png",
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png"
       ],
       "lon": 50.5,
@@ -17203,9 +17257,9 @@
       ],
       "image": "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png",
       "images": [
+        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png",
         "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_001.png",
-        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_005.png",
-        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_006.png"
+        "assets/evidence/GULF2020-D5/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020__page_005.png"
       ],
       "lon": 50.5,
       "lat": 27,
@@ -17366,8 +17420,8 @@
       ],
       "image": "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_007.png",
       "images": [
-        "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_001.png",
-        "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_007.png"
+        "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_007.png",
+        "assets/evidence/GULF2020-D6/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020__page_001.png"
       ],
       "lon": 50.5,
       "lat": 27,
@@ -17527,8 +17581,8 @@
       ],
       "image": "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png",
       "images": [
-        "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_001.png",
-        "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png"
+        "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png",
+        "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_001.png"
       ],
       "lon": 50.5,
       "lat": 27,
@@ -17692,7 +17746,7 @@
         "FBI-UAP-D003 · digital forensic rendering, PDF p. 1",
         "ICA-UAP-D001 · low-confidence backscattering assessment, PDF pp. 3–4"
       ],
-      "image": "assets/evidence/FBI-UAP-D003/FBI-UAP-D003_Digital-Rendering_Unresolved-UAP-Report_ColoradoSprings_2022__page_001.png",
+      "image": "assets/evidence/FBI-UAP-D001/FBI-UAP-D001_FD-302_Unresolved-UAP-Report_ColoradoSprings_2022__page_001.png",
       "lon": -104.8469,
       "lat": 38.744,
       "expectedCountry": "United States of America",
@@ -17920,9 +17974,9 @@
       ],
       "image": "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
       "images": [
+        "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png",
         "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_001.png",
-        "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_002.png",
-        "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_003.png"
+        "assets/evidence/DOW-UAP-D12/DOW-UAP-D12_Mission-Report-Iraq-May-2022__page_002.png"
       ],
       "keyFact": "The official mission report states that an ISR screener could not obtain a positive identification after the platform followed one object north to northeast.",
       "whyItMatters": "It supplies exact mission timing and a formal unresolved disposition, but the decisive FMV and geometry are still withheld.",
@@ -18068,7 +18122,7 @@
       "sources": [
         "DOW-UAP-D10 · Middle East UAP mission report May 2022"
       ],
-      "image": "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png",
+      "image": "assets/editorial-reconstructions/BF-2022-ME-01.png",
       "lon": 43,
       "lat": 32,
       "geometryExpectation": "region",
@@ -18184,6 +18238,7 @@
         "independentWitnessGroups": null
       },
       "images": [
+        "assets/editorial-reconstructions/BF-2022-ME-01.png",
         "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_001.png",
         "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png"
       ],
@@ -18195,22 +18250,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png",
+        "src": "assets/editorial-reconstructions/BF-2022-ME-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Middle East Multi-UAP Observation.",
-        "provenance": "AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Middle East Multi-UAP Observation, based on DOW-UAP-D10 released mission report.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
+          "label": "War.gov — DOW-UAP-D10 Middle East mission report",
+          "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
           "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "access": "Public; endpoint blocks some automated clients",
+          "scope": "official-record",
+          "note": "Exact official release path for DOW-UAP-D10; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
         }
       ],
       "mapGeometry": null,
@@ -18242,8 +18297,8 @@
       ],
       "image": "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
       "images": [
-        "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_001.png",
-        "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png"
+        "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_002.png",
+        "assets/evidence/FBI-SERIAL3-2023/Serial-3_Redacted__page_001.png"
       ],
       "keyFact": "The witness described a silent bronze cigar-shaped object two to three Black Hawk helicopter lengths long; a passenger in a second vehicle also reported seeing it.",
       "whyItMatters": "The restricted airspace, military-facility setting, occupational familiarity, and corroborating witness make the missing security record consequential.",
@@ -18404,8 +18459,8 @@
       ],
       "image": "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png",
       "images": [
-        "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png",
+        "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png"
       ],
@@ -18551,37 +18606,38 @@
     },
     {
       "id": "BF-2023-IQ-20",
-      "title": "Iraq Targeting-Pod Bright Objects",
-      "date": "2023",
+      "title": "Northeastern Syria Targeting-Pod Bright Objects",
+      "date": "31 MAR 2023",
       "year": 2023,
-      "location": "Iraq — REDACTED operating area",
+      "location": "Northeastern Syria — exact point REDACTED",
       "mode": "redacted",
       "agency": "DOW / AARO RELEASE",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "A released Iraq mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
+      "summary": "A released USCENTCOM mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
       "official": "The report labels them possible UAP and records no final attribution; it also says similar formations had been seen on prior sorties.",
       "gap": "Native targeting-pod clips, exact timestamps for each object, sensor metadata, celestial/atmospheric reconstruction, prior-sortie reports, platform geometry, and final analytical workpapers remain unreleased.",
       "sources": [
-        "DOW-UAP-D20 · released mission report, UAP entry on PDF p. 6"
+        "DOW-UAP-D20 · USCENTCOM mission report, 31 Mar 2023; UAP entry PDF p. 6"
       ],
-      "image": "assets/evidence/DOW-UAP-D20/DOW-UAP-D20-Mission-Report-Iraq-2023__page_006.png",
+      "image": "assets/editorial-reconstructions/BF-2023-IQ-20.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2023-IQ-20.png",
         "assets/evidence/DOW-UAP-D20/DOW-UAP-D20-Mission-Report-Iraq-2023__page_001.png",
         "assets/evidence/DOW-UAP-D20/DOW-UAP-D20-Mission-Report-Iraq-2023__page_006.png"
       ],
-      "lon": 43.5,
-      "lat": 33.2,
+      "lon": 41.33,
+      "lat": 36.17,
       "geometryExpectation": "region",
-      "coordinatePrecision": "regional/redacted",
-      "coordinateBasis": "Representative regional centroid only; operational coordinates in DOW-UAP-D20 are redacted or incomplete",
-      "keyFact": "A released Iraq mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
+      "coordinatePrecision": "100 km MGRS square / partially redacted digits",
+      "coordinateBasis": "Body text places the sortie in SY airspace northeast of RLZ; MGRS prefix 37SGA resolves to northeastern Syria, not the southern United States or central Iraq.",
+      "keyFact": "A released USCENTCOM mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
       "whyItMatters": "The primary mission report preserves a sensor or aircrew observation while withholding the native collection and enough geometry to reproduce the event.",
       "keyQuote": "FLT compared targeting pod between POSS UAP and star. Results were different.",
       "quoteSource": "DOW-UAP-D20, PDF p. 6",
       "quoteConfidence": "verified against released PDF text",
-      "heroFact": "A released Iraq mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
+      "heroFact": "A released USCENTCOM mission report records several bright objects at reported FL600+ moving quickly west-to-east; the crew acquired them in targeting-pod TV mode for about 20 seconds before they dimmed and disappeared, and an analyst noted that comparison with a star produced different results.",
       "significance": "High operational-record significance",
       "sourceQuality": "Primary released mission report",
       "sourceLabel": "DOW/AARO release",
@@ -18611,27 +18667,27 @@
         "provenance": "official-released-mission-report"
       },
       "temporal": {
-        "dateLabel": "2023",
+        "dateLabel": "31 MAR 2023",
         "year": 2023,
-        "startDateTime": null,
+        "startDateTime": "2023-03-31T23:02:05Z",
         "endDateTime": null,
         "timezone": "Z where stated",
         "durationSeconds": 20,
-        "precision": "month-or-year",
+        "precision": "second-as-reported",
         "eventForm": "single-event"
       },
       "geospatial": {
         "geometry": {
           "type": "Point",
           "coordinates": [
-            43.5,
-            33.2
+            41.33,
+            36.17
           ]
         },
-        "role": "representative-centroid",
-        "precision": "regional/redacted",
-        "uncertaintyKm": 450,
-        "basis": "Representative regional centroid only; DOW-UAP-D20 operational coordinates are redacted or incomplete"
+        "role": "representative-MGRS-grid-centroid",
+        "precision": "100 km grid / partially redacted",
+        "uncertaintyKm": 72,
+        "basis": "Body text places the sortie in SY airspace northeast of RLZ; MGRS prefix 37SGA resolves to northeastern Syria, not the southern United States or central Iraq."
       },
       "sourceRecords": [
         {
@@ -18682,12 +18738,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D20/DOW-UAP-D20-Mission-Report-Iraq-2023__page_006.png",
+        "src": "assets/editorial-reconstructions/BF-2023-IQ-20.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Iraq Targeting-Pod Bright Objects.",
-        "provenance": "DOW/AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Northeastern Syria Targeting-Pod Bright Objects, based on DOW-UAP-D20 body text and MGRS-qualified operational context.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -18697,12 +18753,12 @@
           "publisher": "U.S. Department of War",
           "access": "Public; endpoint blocks some automated clients",
           "scope": "official-record",
-          "note": "Exact DOW-UAP-D20 release. Publisher-facing title says Southern United States while the record contains CENTCOM/I2/SY operational context; geography remains redacted and contested."
+          "note": "Exact DOW-UAP-D20 release. The release filename/PDF metadata says Southern United States, but the body records Operation Inherent Resolve, entry into SY airspace, and MGRS 37SGA in northeastern Syria. Atlas geography follows the body while preserving the publisher conflict."
         }
       ],
       "mapGeometry": null,
-      "x": 60.76,
-      "y": 20.45,
+      "x": 60.11,
+      "y": 19.54,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
@@ -18923,9 +18979,9 @@
       ],
       "image": "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png",
       "images": [
+        "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png",
         "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_001.png",
-        "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_009.png",
-        "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_010.png"
+        "assets/evidence/DOW-UAP-D74/DOW-UAP-D74-Mission-Report-Syria-November-2023__page_009.png"
       ],
       "lon": 38,
       "lat": 35,
@@ -19108,6 +19164,7 @@
         "BF-2015-PX-04"
       ],
       "images": [
+        "assets/source_previews/BF-2023-WUS-03_source_image.jpg",
         "assets/evidence/DOW-UAP-D079/DoW-UAP-D079_Narrative-1_Western-US-Event__contact.jpg",
         "assets/evidence/DOW-UAP-D080/DoW-UAP-D080_Narrative-2_Western-US-Event__contact.jpg",
         "assets/evidence/DOW-UAP-D081/DoW-UAP-D081_Narrative-3_Western-US-Event__contact.jpg",
@@ -19414,8 +19471,9 @@
       "sources": [
         "DOW-UAP-D33 · released mission report, UAP entry on PDF p. 7"
       ],
-      "image": "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png",
+      "image": "assets/editorial-reconstructions/BF-2023-GR-33.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2023-GR-33.png",
         "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_001.png",
         "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png"
       ],
@@ -19537,22 +19595,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D33/DOW-UAP-D33-Mission-Report-Greece-October-2023__page_007.png",
+        "src": "assets/editorial-reconstructions/BF-2023-GR-33.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Greece Maritime Right-Angle Maneuvers.",
-        "provenance": "DOW/AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Greece Maritime Right-Angle Maneuvers, based on DOW-UAP-D33 released mission report.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
+          "label": "War.gov — DOW-UAP-D33 Greece mission report",
+          "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d33-mission-report-greece-october-2023.pdf",
           "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "access": "Public; endpoint blocks some automated clients",
+          "scope": "official-record",
+          "note": "Exact official release path for DOW-UAP-D33; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
         }
       ],
       "mapGeometry": null,
@@ -19580,8 +19638,8 @@
       ],
       "image": "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png",
       "images": [
-        "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png",
-        "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png"
+        "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_007.png",
+        "assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png"
       ],
       "lon": 25,
       "lat": 37.5,
@@ -19726,7 +19784,7 @@
       "title": "Ayn al-Asad Live-Fire Sensor Incident",
       "date": "20 SEP 2024",
       "year": 2024,
-      "location": "Ayn al-Asad operating area, Iraq — REDACTED exact MGRS",
+      "location": "Ayn al-Asad operating area, Iraq — exact MGRS digits REDACTED",
       "mode": "redacted",
       "x": 60.48,
       "y": 20.27,
@@ -19738,16 +19796,16 @@
       "official": "The record did not positively identify the object; possible separation from a primary object was unresolved.",
       "gap": "Full MX-20/MX-25 footage, telemetry, platform geometry, and final assessment are needed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
       "sources": [
-        "DOW-UAP-D28 · East China Sea mission report 2024"
+        "DOW-UAP-D28 · USCENTCOM mission report, 20 Sep 2024; decisive PDF pp. 1, 5–6"
       ],
-      "image": "assets/evidence/DOW-UAP-D28/DOW-UAP-D28-Mission-Report-East-China-Sea-2024__page_006.png",
+      "image": "assets/editorial-reconstructions/BF-2024-ECS-01.png",
       "lon": 42.44,
       "lat": 33.79,
-      "geometryExpectation": "offshore",
-      "coordinatePrecision": "regional/redacted",
+      "geometryExpectation": "region",
+      "coordinatePrecision": "operating-area / partially redacted MGRS",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
-      "coordinateBasis": "Ayn al-Asad operating-area reference from report; exact MGRS digits redacted",
-      "keyFact": "The East China Sea case puts an unresolved UAP inside a live weapons-calibration sensor sequence, where the missing telemetry and full video matter more than any single frame.",
+      "coordinateBasis": "Body text names Ayn al-Asad ROZ RAINDROP; 38SKC MGRS references independently resolve to western Iraq. The East China Sea filename and PDF metadata conflict with the record body.",
+      "keyFact": "The released record places an unresolved high-rate IR source inside a live weapons-calibration sequence at Ayn al-Asad, Iraq; full MX-20/MX-25 video and telemetry remain unreleased.",
       "whyItMatters": "An object crossing between release and impact during live calibration creates a safety and sensor-forensics issue that should have a deeper paper trail.",
       "keyQuote": "The UAP created IR lens flare on MX-20 & MX-25 sensors, indicating a significant heat source.",
       "quoteSource": "DOW-UAP-D28, PDF p. 6",
@@ -19770,8 +19828,9 @@
         "sensor"
       ],
       "environment": [
-        "maritime",
-        "military-airspace"
+        "military-airspace",
+        "live-fire operating zone",
+        "western Iraq"
       ],
       "outcome": "unresolved",
       "confidenceModel": {
@@ -19797,10 +19856,10 @@
             33.79
           ]
         },
-        "role": "representative-centroid",
-        "precision": "regional/redacted",
+        "role": "named-operating-area reference",
+        "precision": "partially redacted MGRS",
         "uncertaintyKm": 45,
-        "basis": "Ayn al-Asad operating-area reference from report; exact MGRS digits redacted"
+        "basis": "Body text names Ayn al-Asad ROZ RAINDROP; 38SKC MGRS references independently resolve to western Iraq. The East China Sea filename and PDF metadata conflict with the record body."
       },
       "sourceRecords": [
         {
@@ -19857,6 +19916,7 @@
         "independentWitnessGroups": null
       },
       "images": [
+        "assets/editorial-reconstructions/BF-2024-ECS-01.png",
         "assets/evidence/DOW-UAP-D28/DOW-UAP-D28-Mission-Report-East-China-Sea-2024__page_001.png",
         "assets/evidence/DOW-UAP-D28/DOW-UAP-D28-Mission-Report-East-China-Sea-2024__page_005.png",
         "assets/evidence/DOW-UAP-D28/DOW-UAP-D28-Mission-Report-East-China-Sea-2024__page_006.png"
@@ -19869,12 +19929,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D28/DOW-UAP-D28-Mission-Report-East-China-Sea-2024__page_006.png",
+        "src": "assets/editorial-reconstructions/BF-2024-ECS-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Ayn al-Asad Live-Fire Sensor Incident.",
-        "provenance": "AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Ayn al-Asad Live-Fire Sensor Incident, based on DOW-UAP-D28 body text and MX-20/MX-25 description.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -19884,7 +19944,7 @@
           "publisher": "U.S. Department of War",
           "access": "Public; endpoint blocks some automated clients",
           "scope": "official-record",
-          "note": "Exact DOW-UAP-D28 release. The publisher filename/metadata says East China Sea while the body carries Operation Inherent Resolve and redacted 38S MGRS context; the location conflict is preserved rather than silently resolved."
+          "note": "Exact DOW-UAP-D28 release. The filename/PDF metadata says East China Sea, but the body names Operation Inherent Resolve, Ayn al-Asad ROZ RAINDROP, and 38SKC MGRS in western Iraq. Atlas geography follows the body while preserving the publisher conflict."
         }
       ],
       "mapGeometry": null,
@@ -19908,8 +19968,9 @@
       "sources": [
         "DOW-UAP-D25 · released mission report, UAP entry on PDF p. 7"
       ],
-      "image": "assets/evidence/DOW-UAP-D25/DOW-UAP-D25-Mission-Report-Greece-January-2024__page_007.png",
+      "image": "assets/editorial-reconstructions/BF-2024-GR-25.png",
       "images": [
+        "assets/editorial-reconstructions/BF-2024-GR-25.png",
         "assets/evidence/DOW-UAP-D25/DOW-UAP-D25-Mission-Report-Greece-January-2024__page_001.png",
         "assets/evidence/DOW-UAP-D25/DOW-UAP-D25-Mission-Report-Greece-January-2024__page_007.png"
       ],
@@ -20024,22 +20085,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DOW-UAP-D25/DOW-UAP-D25-Mission-Report-Greece-January-2024__page_007.png",
+        "src": "assets/editorial-reconstructions/BF-2024-GR-25.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Selected source-document image for Greece SWIR Diamond Object.",
-        "provenance": "DOW/AARO release",
-        "evidenceStatus": "Documentary source image; confirms the record and its contents, not the identity or cause of the reported phenomenon.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Greece SWIR Diamond Object, based on DOW-UAP-D25 released mission report.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "War Department — UFO records releases",
-          "url": "https://www.war.gov/ufo",
+          "label": "War.gov — DOW-UAP-D25 Greece mission report",
+          "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d25-mission-report-greece-january-2024.pdf",
           "publisher": "U.S. Department of War",
-          "access": "Public; site may block automated clients",
-          "scope": "collection",
-          "note": "Official release portal; search by the DOW/DOE/FBI/CIA/ODNI source ID shown above."
+          "access": "Public; endpoint blocks some automated clients",
+          "scope": "official-record",
+          "note": "Exact official release path for DOW-UAP-D25; native sensor media and reproducible analytical workpapers remain unreleased where applicable."
         }
       ],
       "mapGeometry": null,
@@ -20067,7 +20128,7 @@
       "sources": [
         "FBI-UAP-D004; FBI-UAP-D005; FBI-UAP-D006; FBI-UAP-D007; FBI-UAP-D008; FBI-UAP-D009; FBI-UAP-D010 · Northeastern Orb surveillance records"
       ],
-      "image": "assets/fbi_photo_b.jpg",
+      "image": "assets/fbi_photo_a.jpg",
       "lon": -73.5,
       "lat": 42.8,
       "expectedCountry": "United States of America",
@@ -20200,6 +20261,7 @@
         }
       ],
       "images": [
+        "assets/fbi_photo_a.jpg",
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__contact.jpg",
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__page_001.png",
         "assets/evidence/FBI-UAP-D009/FBI-UAP-D009_FD-302-67_Northeastern-Orb-Sighting_2026__page_001__roi_02.jpg",
@@ -20235,8 +20297,8 @@
       ],
       "image": "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
       "images": [
-        "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_001.png",
-        "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png"
+        "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_002.png",
+        "assets/evidence/ODNI-UAP-D001/1NFZL-MznfQvBEgiSsL91KBn0bSS1FGpz_ODNI-UAP-D001_USPER_Narrative_Senior_USIC__page_001.png"
       ],
       "keyFact": "The narrative alleges a multi-platform, multi-sensor event that should have generated radar, flight, ground-team, and fighter records if the account is accurate.",
       "whyItMatters": "Its evidentiary value depends less on the dramatic narrative than on whether the described operational records can be produced and cross-checked.",
@@ -20728,8 +20790,8 @@
       ],
       "image": "assets/evidence/PORTLYAUTEY-1952/PORTLYAUTEY-1952_dc-case-file_page_051.jpg",
       "images": [
-        "assets/evidence/PORTLYAUTEY-1952/PORTLYAUTEY-1952_dc-case-file_page_030.jpg",
         "assets/evidence/PORTLYAUTEY-1952/PORTLYAUTEY-1952_dc-case-file_page_051.jpg",
+        "assets/evidence/PORTLYAUTEY-1952/PORTLYAUTEY-1952_dc-case-file_page_030.jpg",
         "assets/evidence/PORTLYAUTEY-1952/PORTLYAUTEY-1952_dc-case-file_page_053.jpg"
       ],
       "keyFact": "Investigators computed a speed of more than 4,900 mph from naval officer observations — one of the highest documented speeds in the Blue Book record, in 1952 when the fastest fighter could not exceed 650 mph.",
@@ -20891,9 +20953,9 @@
       ],
       "image": "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_101.jpg",
       "images": [
+        "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_101.jpg",
         "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_099.jpg",
         "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_100.jpg",
-        "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_101.jpg",
         "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_102.jpg",
         "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_103.jpg"
       ],
@@ -21067,8 +21129,9 @@
       "sources": [
         "AIIRS-1957 · Air Intelligence Information Reports, NAID 311001910, 301 pages (report from DABS, McClellan AFB)"
       ],
-      "image": "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_100.png",
+      "image": "assets/editorial-reconstructions/BF-1957-NC-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1957-NC-01.png",
         "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_100.png",
         "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_101.png",
         "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_102.png"
@@ -21188,22 +21251,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_100.png",
+        "src": "assets/editorial-reconstructions/BF-1957-NC-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page from the AIIRs 1957 compilation containing the Northern California radar skinpaint report.",
-        "provenance": "AIIRs 1957 / NARA (NAID 311001910)",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Northern California Coast Radar Skinpaint, based on AIIRs 1957, NARA NAID 311001910.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "label": "NARA Catalog — AIIRs 1957 compilation (Aug. 3, 1957 Northern California radar-skinpaint report)",
+          "url": "https://catalog.archives.gov/id/311001910",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-catalog-record",
+          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Aug. 3, 1957 Northern California radar-skinpaint report. Government custody confirms the record, not the reported object's identity."
         }
       ],
       "mapGeometry": null,
@@ -22214,8 +22277,9 @@
       "sources": [
         "AIIRS-1957 · Air Intelligence Information Report TR-1-57, Eglin AFB (NAID 311001910), pp. 17, 19-20"
       ],
-      "image": "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-017.png",
+      "image": "assets/editorial-reconstructions/BF-1956-DF-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1956-DF-01.png",
         "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-017.png",
         "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-019.png",
         "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-020.png"
@@ -22338,22 +22402,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-017.png",
+        "src": "assets/editorial-reconstructions/BF-1956-DF-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page 17 of the AIIRs 1957 compilation — the DeFuniak Springs instantaneous movement report.",
-        "provenance": "AIIRs 1957 / NARA (NAID 311001910)",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of DeFuniak Springs — Instantaneous Movement, based on AIIRs 1957, NARA NAID 311001910.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, pp. 17 and 19–20)",
+          "url": "https://catalog.archives.gov/id/311001910",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-catalog-record",
+          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: TR-1-57, pp. 17 and 19–20. Government custody confirms the record, not the reported object's identity."
         }
       ],
       "mapGeometry": null,
@@ -22667,8 +22731,8 @@
         }
       ],
       "images": [
-        "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-1.png",
         "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
+        "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-1.png",
         "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-3.png"
       ],
       "image": "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
@@ -22859,8 +22923,9 @@
       "sources": [
         "AIIRS-1957 · Air Intelligence Information Report 1-57, 781st AC&W Squadron (NAID 311001910), p. 15"
       ],
-      "image": "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_page-015.png",
+      "image": "assets/editorial-reconstructions/BF-1957-HT-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1957-HT-01.png",
         "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_page-015.png"
       ],
       "keyFact": "Four witnesses watched an object separate into three smaller objects forming an 'arrowhead formation' — the investigator's 'refueling' explanation doesn't match the separating/rejoining behavior.",
@@ -22978,22 +23043,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_page-015.png",
+        "src": "assets/editorial-reconstructions/BF-1957-HT-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page 15 of the AIIRs 1957 — the Hastings MI arrowhead formation report.",
-        "provenance": "AIIRs 1957 / NARA (NAID 311001910)",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Hastings — Separating Arrowhead Formation, based on AIIRs 1957, NARA NAID 311001910.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, p. 15)",
+          "url": "https://catalog.archives.gov/id/311001910",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-catalog-record",
+          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Report 1-57, p. 15. Government custody confirms the record, not the reported object's identity."
         }
       ],
       "mapGeometry": null,
@@ -23025,8 +23090,9 @@
       "sources": [
         "AIIRS-1957 · Air Intelligence Information Reports (NAID 311001910, 301pp), p. 15"
       ],
-      "image": "assets/evidence/CIGAR-Y-1957/CIGAR-Y-1957_aiirs1957_page-015.png",
+      "image": "assets/editorial-reconstructions/BF-1957-CG-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1957-CG-01.png",
         "assets/evidence/CIGAR-Y-1957/CIGAR-Y-1957_aiirs1957_page-015.png"
       ],
       "keyFact": "Three cigar-shaped objects in a 'Y' formation at 20,000 feet — a unique geometric arrangement in the declassified record.",
@@ -23146,22 +23212,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/CIGAR-Y-1957/CIGAR-Y-1957_aiirs1957_page-015.png",
+        "src": "assets/editorial-reconstructions/BF-1957-CG-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page 15 of the AIIRs 1957 — the three cigar Y-formation report.",
-        "provenance": "AIIRs 1957 / NARA (NAID 311001910)",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Three Cigar Objects in Y Formation, based on AIIRs 1957, NARA NAID 311001910.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, p. 15)",
+          "url": "https://catalog.archives.gov/id/311001910",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-catalog-record",
+          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, p. 15. Government custody confirms the record, not the reported object's identity."
         }
       ],
       "mapGeometry": null,
@@ -23511,8 +23577,9 @@
       "sources": [
         "AIIRS-1957 · Air Intelligence Information Reports (NAID 311001910, 301pp), pp. 16-18"
       ],
-      "image": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-016.png",
+      "image": "assets/editorial-reconstructions/BF-1957-RA-01.png",
       "images": [
+        "assets/editorial-reconstructions/BF-1957-RA-01.png",
         "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-016.png",
         "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-017.png",
         "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-018.png"
@@ -23629,22 +23696,22 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-016.png",
+        "src": "assets/editorial-reconstructions/BF-1957-RA-01.png",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page 16 of the AIIRs 1957 — the Robins AFB 'did not appear conventional' report.",
-        "provenance": "AIIRs 1957 / NARA (NAID 311001910)",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
+        "visualType": "editorial-reconstruction",
+        "caption": "Editorial reconstruction of Robins AFB — Unconventional Object, based on AIIRs 1957, NARA NAID 311001910.",
+        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
+        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "NARA — Project BLUE BOOK records",
-          "url": "https://www.archives.gov/research/military/air-force/ufos",
+          "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
+          "url": "https://catalog.archives.gov/id/311001910",
           "publisher": "National Archives and Records Administration",
           "access": "Public",
-          "scope": "collection",
-          "note": "Official Project BLUE BOOK guide; search by location and incident date."
+          "scope": "official-catalog-record",
+          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity."
         }
       ],
       "mapGeometry": null,
@@ -25033,11 +25100,11 @@
     {
       "id": "TL-2023-IQ20",
       "year": 2023,
-      "date": "2023",
+      "date": "31 MAR 2023",
       "type": "incident",
       "caseId": "BF-2023-IQ-20",
-      "title": "Iraq targeting-pod bright objects",
-      "desc": "Several reported FL600+ bright objects were acquired in targeting-pod TV mode; comparison with a star reportedly differed."
+      "title": "Northeastern Syria targeting-pod bright objects",
+      "desc": "Several reported FL600+ bright objects were acquired in targeting-pod TV mode; body text and MGRS prefix 37SGA place the sortie in northeastern Syria despite conflicting publisher metadata."
     },
     {
       "id": "TL-2023-SY74",

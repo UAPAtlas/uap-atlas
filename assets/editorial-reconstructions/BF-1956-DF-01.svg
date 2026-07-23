@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#02070c"/><stop offset=".55" stop-color="#07121a"/><stop offset="1" stop-color="#010305"/></linearGradient>
+ <linearGradient id="sea" x2="0" y2="1"><stop stop-color="#0b2732"/><stop offset="1" stop-color="#02070b"/></linearGradient>
+ <linearGradient id="thermal"><stop stop-color="#071018"/><stop offset=".55" stop-color="#24333b"/><stop offset="1" stop-color="#03070a"/></linearGradient>
+ <linearGradient id="day" x2="0" y2="1"><stop stop-color="#4598bf"/><stop offset=".62" stop-color="#a6d5df"/><stop offset="1" stop-color="#d8e9e8"/></linearGradient>
+ <linearGradient id="metal"><stop stop-color="#07141d"/><stop offset=".38" stop-color="#d6f3f7"/><stop offset=".58" stop-color="#516c76"/><stop offset="1" stop-color="#050a0d"/></linearGradient>
+ <radialGradient id="hot"><stop stop-color="#fff"/><stop offset=".25" stop-color="#ffd288"/><stop offset=".6" stop-color="#ff6839" stop-opacity=".6"/><stop offset="1" stop-color="#ff3217" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="shadow"><feDropShadow dx="0" dy="30" stdDeviation="24" flood-opacity=".65"/></filter>
+ <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="table" tableValues="0 .06"/></feComponentTransfer></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/><path d="M0 660 Q330 570 640 640 T1160 610 T1600 650V900H0Z" fill="#111b20"/><g filter="url(#glow)"><circle cx="520" cy="405" r="26" fill="#fff"/><circle cx="1050" cy="300" r="26" fill="#fff"/><path d="M555 392 Q790 230 1015 305" stroke="#75edff" stroke-width="8" stroke-dasharray="18 18" fill="none"/></g><path d="M520 450V675M1050 345V625" stroke="#9bf6ff" opacity=".16"/>
+<rect width="1600" height="900" filter="url(#grain)" opacity=".55"/>
+<g font-family="Inter,Helvetica,Arial,sans-serif"><text x="76" y="92" fill="#7cecff" font-size="18" letter-spacing="5">UAP ATLAS · VISUAL RECONSTRUCTION</text><text x="76" y="142" fill="#f5fbff" font-size="34" font-weight="600">DeFuniak Springs — Instantaneous Movement</text><text x="76" y="830" fill="#a7b8c0" font-size="16" letter-spacing="2">EDITORIAL RECONSTRUCTION · NOT PRIMARY EVENT IMAGERY</text></g>
+<path d="M76 170H530" stroke="#65e8ff" opacity=".42"/><path d="M76 790H1524" stroke="#90dbe8" opacity=".14"/>
+</svg>
