@@ -1,0 +1,2362 @@
+[
+  {
+    "id": "BF-1957-RB-01",
+    "title": "RB-47 ELINT Pursuit Case",
+    "tokens": [
+      "RB47-1957"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 3,
+    "links": 11,
+    "local": 8,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1933-MG-01",
+    "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+    "tokens": [
+      "MAGENTA-1933"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1944-FF-01",
+    "title": "Foo Fighters, European Theater",
+    "tokens": [
+      "FOO-1944"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "links": 9,
+    "local": 6,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1946-GR-01",
+    "title": "Scandinavian Ghost Rockets",
+    "tokens": [
+      "GHOSTROCKETS-1946"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1947-KA-01",
+    "title": "Kenneth Arnold Mount Rainier Sighting",
+    "tokens": [
+      "ARNOLD-1947"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1947-MI-01",
+    "title": "Maury Island Affair",
+    "tokens": [
+      "MAURY-1947"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1947-RW-01",
+    "title": "Roswell Army Air Field Debris Recovery",
+    "tokens": [
+      "ROSWELL-1947"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "links": 6,
+    "local": 3,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1948-AZ-01",
+    "title": "Aztec Crash Fraud",
+    "tokens": [
+      "AZTEC-1948"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1948-CW-01",
+    "title": "Chiles-Whitted Airliner Encounter",
+    "tokens": [
+      "CHILES-1948"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1948-GD-01",
+    "title": "Gorman Dogfight, Fargo",
+    "tokens": [
+      "GORMAN-1948"
+    ],
+    "indexedLinks": 11,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 13,
+    "local": 12,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1948-MT-01",
+    "title": "Mantell Pursuit Fatality",
+    "tokens": [
+      "MANTELL-1948"
+    ],
+    "indexedLinks": 9,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-07",
+    "title": "Special File: The Estimate of the Situation",
+    "tokens": [
+      "ESTIMATE-1948"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1949-LA-00",
+    "title": "Los Alamos Aerial Phenomena Conference",
+    "tokens": [
+      "DOE-UAP-D004-CONFERENCE"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 7,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 16,
+    "links": 18,
+    "local": 17,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1950-GF-01",
+    "title": "Great Falls / Mariana Film",
+    "tokens": [
+      "GREATFALLS-1950"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 8,
+    "local": 7,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1952-DC-01",
+    "title": "Washington D.C. Radar Flap",
+    "tokens": [
+      "DC-FLAP-1952"
+    ],
+    "indexedLinks": 9,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "links": 12,
+    "local": 9,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1952-TM-01",
+    "title": "Tremonton / Newhouse Film",
+    "tokens": [
+      "TREMONTON-1952"
+    ],
+    "indexedLinks": 14,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 15,
+    "local": 14,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-03",
+    "title": "Special File: T. Townsend Brown Electrogravitics",
+    "tokens": [
+      "WINTERHAVEN-1952"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1953-RP-00",
+    "title": "Robertson Panel Recommendations",
+    "tokens": [
+      "CIA-UAP-002"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1956-LB-01",
+    "title": "Lakenheath-Bentwaters Radar-Visual Case",
+    "tokens": [
+      "LAKENHEATH-1956"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "links": 10,
+    "local": 7,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-LV-01",
+    "title": "Levelland Vehicle-Interference Wave",
+    "tokens": [
+      "LEVELLAND-1957"
+    ],
+    "indexedLinks": 8,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 4,
+    "links": 10,
+    "local": 6,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-04",
+    "title": "Special File: Chapel Hill Gravity Conference",
+    "tokens": [
+      "CHAPELHILL-1957"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1958-TR-01",
+    "title": "Trindade Island Navy Photographs",
+    "tokens": [
+      "TRINDADE-PBB-1958",
+      "TRINDADE-BRAZIL-NAVY-1958",
+      "TRINDADE-CIA-1958"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 5,
+    "links": 10,
+    "local": 6,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-02",
+    "title": "Special File: VZ-9AV Avrocar",
+    "tokens": [
+      "AVROCAR-1959"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1961-BH-01",
+    "title": "Betty & Barney Hill Encounter",
+    "tokens": [
+      "HILL-1961"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "links": 6,
+    "local": 4,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D015",
+    "title": "Astronaut Scientific Debriefings",
+    "tokens": [
+      "NASA-UAP-D015"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1964-SC-01",
+    "title": "Socorro Landing / Lonnie Zamora",
+    "tokens": [
+      "SOCORRO-1964"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1965-KB-01",
+    "title": "Kecksburg Object Recovery Narrative",
+    "tokens": [
+      "KECKSBURG-1965"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D016",
+    "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+    "tokens": [
+      "NASA-UAP-D016"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D017",
+    "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+    "tokens": [
+      "NASA-UAP-D017"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D019",
+    "title": "Gemini 5 Technical Debriefing Part 1",
+    "tokens": [
+      "NASA-UAP-D019"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D020",
+    "title": "Gemini 5 Technical Debriefing Part 2",
+    "tokens": [
+      "NASA-UAP-D020"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D021",
+    "title": "Gemini 7 Technical Debriefing",
+    "tokens": [
+      "NASA-UAP-D021"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1966-CC-00",
+    "title": "Condon Committee Pre-Judgment Record",
+    "tokens": [
+      "CONDON-1966"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1966-WS-01",
+    "title": "Westall School Mass Sighting",
+    "tokens": [
+      "WESTALL-1966"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 4,
+    "links": 7,
+    "local": 4,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D022",
+    "title": "Gemini 9 Debriefing",
+    "tokens": [
+      "NASA-UAP-D022"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1967-MA-01",
+    "title": "Malmstrom AFB Missile Shutdown Incident",
+    "tokens": [
+      "MALMSTROM-1967-UNIT-HISTORY"
+    ],
+    "indexedLinks": 1,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 5,
+    "links": 7,
+    "local": 5,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1967-SH-01",
+    "title": "Shag Harbour Water Impact",
+    "tokens": [
+      "SHAG-HARBOUR-DND-1967",
+      "SHAG-HARBOUR-LAC-43130"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D018",
+    "title": "Gemini 4 Experiment Debriefing",
+    "tokens": [
+      "NASA-UAP-D018"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-01",
+    "title": "Himalayan UAP Reports \u2014 Series Index",
+    "tokens": [
+      "CIA-UAP-016"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-MN-01",
+    "title": "Minot AFB Multi-Sensor Events",
+    "tokens": [
+      "MINOT1968-NARA"
+    ],
+    "indexedLinks": 16,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 14,
+    "links": 17,
+    "local": 16,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-02",
+    "title": "Northeast Nepal / North Sikkim Correlated Report",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P4-NEPAL-SIKKIM"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-03",
+    "title": "Thimphu Bluish Object Report",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P5-THIMPHU"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-04",
+    "title": "Chang La\u2013Fukche\u2013Koyul Light and Blasts",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P3-CHANG-LA"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-05",
+    "title": "Ane La Circular-Path Object",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P5-ANE-LA"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-06",
+    "title": "Fukche\u2013Koyul\u2013Demchok Rocket-Like Object",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P5-DEMCHOK"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 10,
+    "local": 9,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1968-HIM-07",
+    "title": "Kaski Blazing Object and Disc-Retrieval Claim",
+    "tokens": [
+      "CIA-UAP-016",
+      "CIA-UAP-016-P6-KASKI"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 11,
+    "local": 10,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D001",
+    "title": "Apollo 12 Transcript",
+    "tokens": [
+      "NASA-UAP-D1"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D004",
+    "title": "Apollo 11 Technical Crew Debriefing",
+    "tokens": [
+      "NASA-UAP-D4"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM1",
+    "title": "Apollo 12 Visual Material 1",
+    "tokens": [
+      "NASA-UAP-VM1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM2",
+    "title": "Apollo 12 Visual Material 2",
+    "tokens": [
+      "NASA-UAP-VM2"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM3",
+    "title": "Apollo 12 Visual Material 3",
+    "tokens": [
+      "NASA-UAP-VM3"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM4",
+    "title": "Apollo 12 Visual Material 4",
+    "tokens": [
+      "NASA-UAP-VM4"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM5",
+    "title": "Apollo 12 Visual Material 5",
+    "tokens": [
+      "NASA-UAP-VM5"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D026",
+    "title": "Apollo 14 Debriefing Video Record",
+    "tokens": [
+      "NASA-UAP-D026"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 2,
+    "local": 1,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D002",
+    "title": "Apollo 17 Transcript",
+    "tokens": [
+      "NASA-UAP-D2"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-VM6",
+    "title": "Apollo 17 Visual Material",
+    "tokens": [
+      "NASA-UAP-VM6"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1973-CY-01",
+    "title": "Coyne Helicopter Near-Collision",
+    "tokens": [
+      "COYNE-OHR-1973",
+      "COYNE-CUFOS-1979"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1973-PG-01",
+    "title": "Pascagoula River Abduction Report",
+    "tokens": [
+      "PASCAGOULA-1973"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1973-SS-01",
+    "title": "Sary Shagan Green Circular Phenomenon",
+    "tokens": [
+      "CIA-UAP-011"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D005",
+    "title": "Apollo 17 Crew Debriefing for Science",
+    "tokens": [
+      "NASA-UAP-D5"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D006",
+    "title": "Apollo 17 Technical Crew Debriefing",
+    "tokens": [
+      "NASA-UAP-D6"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D007",
+    "title": "Skylab Technical Crew Debriefing",
+    "tokens": [
+      "NASA-UAP-D7"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1975-TW-01",
+    "title": "Travis Walton Abduction Report",
+    "tokens": [
+      "WALTON-1975"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-13",
+    "title": "Special File: Billy Meier Contact Corpus",
+    "tokens": [
+      "MEIER-1975"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1976-TH-01",
+    "title": "Tehran F-4 Intercept Case",
+    "tokens": [
+      "TEHRAN-1976"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1977-CL-01",
+    "title": "Colares Flap / Operation Prato",
+    "tokens": [
+      "PRATO-1977"
+    ],
+    "indexedLinks": 9,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "links": 10,
+    "local": 8,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1978-KK-01",
+    "title": "Kaikoura Lights, Filmed Encounters",
+    "tokens": [
+      "KAIKOURA-1978"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1978-VL-01",
+    "title": "Valentich Disappearance, Bass Strait",
+    "tokens": [
+      "VALENTICH-1978"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 4,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1980-CLD-01",
+    "title": "Cash-Landrum Injury Case",
+    "tokens": [
+      "CASH-LANDRUM-1980"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "links": 6,
+    "local": 4,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1980-PE-01",
+    "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
+    "tokens": [
+      "LAJOYA-1980"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1980-RF-01",
+    "title": "Rendlesham Forest / RAF Bentwaters Incident",
+    "tokens": [
+      "RENDLESHAM-1980-HALT-MEMO"
+    ],
+    "indexedLinks": 1,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 6,
+    "links": 8,
+    "local": 6,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-11",
+    "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
+    "tokens": [
+      "BENNEWITZ-1980"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "links": 10,
+    "local": 7,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1981-TP-01",
+    "title": "Trans-en-Provence Trace Case",
+    "tokens": [
+      "GEPAN-1981"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-05",
+    "title": "Special File: Majestic 12 Documents",
+    "tokens": [
+      "MJ12-1984"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1986-JAL-01",
+    "title": "Japan Airlines 1628 Alaska Encounter",
+    "tokens": [
+      "JAL1628-1986"
+    ],
+    "indexedLinks": 8,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 11,
+    "links": 15,
+    "local": 11,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1987-GB-01",
+    "title": "Gulf Breeze Photo Series",
+    "tokens": [
+      "GULFBREEZE-1987"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1989-BW-01",
+    "title": "Belgian Wave / F-16 Radar Case",
+    "tokens": [
+      "BELGIAN-WAVE-1989"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-01",
+    "title": "Special File: Bob Lazar / S-4",
+    "tokens": [
+      "LAZAR-1989"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1990-CV-01",
+    "title": "Calvine Photograph",
+    "tokens": [
+      "CALVINE-1990"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 3,
+    "links": 7,
+    "local": 4,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1994-AR-01",
+    "title": "Ariel School Encounter, Ruwa",
+    "tokens": [
+      "ARIEL-1994"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 5,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-12",
+    "title": "Special File: Santilli 'Alien Autopsy' Film",
+    "tokens": [
+      "SANTILLI-1995"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1996-VG-01",
+    "title": "Varginha Creature Narrative",
+    "tokens": [
+      "VARGINHA-1996"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D030",
+    "title": "STS-80 Unidentified Object Image 1",
+    "tokens": [
+      "NASA-UAP-D030"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D031",
+    "title": "STS-80 Unidentified Object Image 2",
+    "tokens": [
+      "NASA-UAP-D031"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-NASA-D032",
+    "title": "STS-80 Unidentified Object Image 3",
+    "tokens": [
+      "NASA-UAP-D032"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1997-PH-01",
+    "title": "Phoenix Lights Mass Sighting",
+    "tokens": [
+      "PHOENIX-LIGHTS-1997"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-06",
+    "title": "Special File: 'Alien Interview' / Victor Tape",
+    "tokens": [
+      "VICTOR-1997"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-08",
+    "title": "Special File: COMETA Report",
+    "tokens": [
+      "COMETA-1999"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2004-NM-01",
+    "title": "Nimitz / Tic Tac Encounter",
+    "tokens": [
+      "NIMITZ-2004"
+    ],
+    "indexedLinks": 10,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 5,
+    "evidenceAssets": 4,
+    "links": 12,
+    "local": 7,
+    "urls": 5,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2006-OH-01",
+    "title": "O'Hare Airport Disc Sighting",
+    "tokens": [
+      "OHARE-2006"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 9,
+    "local": 8,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2008-SV-01",
+    "title": "Stephenville Radar-Correlated Sightings",
+    "tokens": [
+      "STEPHENVILLE-MUFON-2008",
+      "STEPHENVILLE-FAA-FOIA-2008",
+      "STEPHENVILLE-USAF-457FS-2008"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "links": 6,
+    "local": 4,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-09",
+    "title": "Special File: AAWSAP / AATIP & Skinwalker",
+    "tokens": [
+      "AAWSAP-2008"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2013-AG-01",
+    "title": "Aguadilla Puerto Rico Object",
+    "tokens": [
+      "DOD-110692805-AGUADILLA",
+      "AARO-PUERTO-RICO-2025",
+      "SCU-AGUADILLA-2015"
+    ],
+    "indexedLinks": 11,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 2,
+    "links": 11,
+    "local": 7,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2014-CH-01",
+    "title": "Chilean Navy IR Video (CEFAA)",
+    "tokens": [
+      "CEFAA-2014"
+    ],
+    "indexedLinks": 9,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 4,
+    "links": 9,
+    "local": 7,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2015-NAV-01",
+    "title": "2015 Atlantic Navy Video Series",
+    "tokens": [
+      "DOD-NAVY-VIDEOS-2020"
+    ],
+    "indexedLinks": 1,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2015-PX-04",
+    "title": "Pantex Unidentified Object Report",
+    "tokens": [
+      "DOE-UAP-D005-NARRATIVE"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 11,
+    "links": 13,
+    "local": 12,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2015-GIMBAL-01",
+    "title": "Gimbal Navy Sensor Event",
+    "tokens": [
+      "AARO-IMAGERY",
+      "DOD_110891172",
+      "DOD-NAVY-VIDEOS-2020",
+      "DOD-110891172-GIMBAL",
+      "PEINGS-GIMBAL-2023"
+    ],
+    "indexedLinks": 13,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 2,
+    "links": 13,
+    "local": 9,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2015-GOFAST-01",
+    "title": "GoFast Navy Sensor Event",
+    "tokens": [
+      "DOD-NAVY-VIDEOS-2020",
+      "DOD-110886776-GOFAST",
+      "AARO-GOFAST-2025",
+      "NASA-UAP-2023"
+    ],
+    "indexedLinks": 9,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 5,
+    "evidenceAssets": 2,
+    "links": 9,
+    "local": 4,
+    "urls": 5,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2019-OM-01",
+    "title": "USS Omaha Sphere & Swarm Events",
+    "tokens": [
+      "OMAHA-2019"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "links": 7,
+    "local": 4,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-00",
+    "title": "Arabian Gulf 2020 Mission-Report Series",
+    "tokens": [
+      "GULF2020-INDEX"
+    ],
+    "indexedLinks": 16,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 11,
+    "links": 17,
+    "local": 16,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AS-01",
+    "title": "Arabian Sea Range Fouler",
+    "tokens": [
+      "DOW-UAP-D44"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-JP-01",
+    "title": "Range Fouler Multiple Objects \u2014 Metadata Conflict",
+    "tokens": [
+      "DOW-UAP-D42"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D3",
+    "title": "Four Objects in Sequence",
+    "tokens": [
+      "GULF2020-D3-E1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D4",
+    "title": "Object Accelerating East",
+    "tokens": [
+      "GULF2020-D4-E1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D5A",
+    "title": "Constant-Speed Object at FL160\u2013170",
+    "tokens": [
+      "GULF2020-D5-E1"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D5B",
+    "title": "Two Objects Accelerating South",
+    "tokens": [
+      "GULF2020-D5-E2"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D6",
+    "title": "Probable UAP \u2014 Sparse Mission Entry",
+    "tokens": [
+      "GULF2020-D6-E1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2020-AG-D7",
+    "title": "Windborne Balloon-Like Object",
+    "tokens": [
+      "GULF2020-D7-E1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2022-CS-01",
+    "title": "Cheyenne Mountain Structured Object",
+    "tokens": [
+      "FBI-UAP-D001",
+      "FBI-UAP-D002",
+      "FBI-UAP-D003",
+      "ICA-UAP-D001"
+    ],
+    "indexedLinks": 12,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 8,
+    "links": 13,
+    "local": 12,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2022-IQ-02",
+    "title": "Iraq ISR Object \u2014 No Positive Identification",
+    "tokens": [
+      "DOW-UAP-D12"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2022-ME-01",
+    "title": "Middle East Multi-UAP Observation",
+    "tokens": [
+      "DOW-UAP-D10"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-BC-01",
+    "title": "Restricted-Facility Bronze Cigar Object",
+    "tokens": [
+      "FBI-SERIAL3-2023"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-GR-00",
+    "title": "Greece Maritime FMV Series \u2014 October 2023",
+    "tokens": [
+      "GREECE2023-INDEX"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-IQ-20",
+    "title": "Northeastern Syria Targeting-Pod Bright Objects",
+    "tokens": [
+      "DOW-UAP-D20"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-LG-01",
+    "title": "Langley AFB Drone Incursions",
+    "tokens": [
+      "LANGLEY-2023-DOD-BRIEFING"
+    ],
+    "indexedLinks": 1,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "links": 4,
+    "local": 1,
+    "urls": 3,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-SY-74",
+    "title": "Syria Near-Aircraft Bouncy-Ball Object",
+    "tokens": [
+      "DOW-UAP-D74"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-WUS-03",
+    "title": "Western U.S. Federal LE Encounters",
+    "tokens": [
+      "DOW-UAP-D079"
+    ],
+    "indexedLinks": 1,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 7,
+    "links": 8,
+    "local": 7,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-10",
+    "title": "Special File: Grusch Testimony & ODNI\u2013AARO Record",
+    "tokens": [
+      "GRUSCH-2023"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 5,
+    "evidenceAssets": 1,
+    "links": 12,
+    "local": 7,
+    "urls": 5,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-GR-33",
+    "title": "Greece Maritime Right-Angle Maneuvers",
+    "tokens": [
+      "DOW-UAP-D33"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-GR-35",
+    "title": "Greece Maritime Object Toward Land",
+    "tokens": [
+      "GREECE2023-D35-E1"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2024-ECS-01",
+    "title": "Ayn al-Asad Live-Fire Sensor Incident",
+    "tokens": [
+      "DOW-UAP-D28"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 8,
+    "local": 7,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2024-GR-25",
+    "title": "Greece SWIR Diamond Object",
+    "tokens": [
+      "DOW-UAP-D25"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2024-NE-02",
+    "title": "Northeastern Orb Surveillance",
+    "tokens": [
+      "FBI-UAP-D004"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 6,
+    "links": 12,
+    "local": 11,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2025-USIC-01",
+    "title": "Senior USIC Test-Range Orb Encounters",
+    "tokens": [
+      "ODNI-UAP-D001"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2025-YS-01",
+    "title": "Yellow Sea IR Area of Contrast",
+    "tokens": [
+      "DOW-UAP-PR104"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 2,
+    "local": 1,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1994-KZ-01",
+    "title": "Kazakhstan Commercial Aviation Encounter",
+    "tokens": [
+      "DOS-UAP-D2, DUSHANBE 00259"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1952-PL-01",
+    "title": "Port Lyautey 4,900 MPH Object",
+    "tokens": [
+      "DC-FLAP-1952, pp. 30, 51, 53"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1952-BE-01",
+    "title": "Bethesda Shape-Shifting Object",
+    "tokens": [
+      "DC-FLAP-1952, pp. 99-103"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 6,
+    "links": 7,
+    "local": 6,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-NC-01",
+    "title": "Northern California Coast Radar Skinpaint",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, Aug 3, 1957 report"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-B47-01",
+    "title": "B-47 Supersonic Acceleration Encounter",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, B-47 encounter report"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1949-KD-01",
+    "title": "Kodiak Naval Base 1,500 MPH Object",
+    "tokens": [
+      "DOW-UAP-D084, 342-HS1, pp. 51-52"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1952-R5D-01",
+    "title": "R5D Pilot \u2014 Bright Disc That Circled the Aircraft",
+    "tokens": [
+      "DC-FLAP-1952, p. 53"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1965-G7-01",
+    "title": "Gemini 7 Astronaut 'Bogey' Report",
+    "tokens": [
+      "NASA T-00763(Rlb)"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 6,
+    "local": 4,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1949-SA-01",
+    "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
+    "tokens": [
+      "DOW-UAP-D084, 342-HS1, pp. 75, 77"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1949-HF-01",
+    "title": "Hickam Field \u2014 Oscillating Object, No Sound",
+    "tokens": [
+      "DOW-UAP-D084, 342-HS1, pp. 90-93"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1956-DF-01",
+    "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, TR-1-57"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1954-KL-01",
+    "title": "Killeen \u2014 Silent Near-Vertical Ascent",
+    "tokens": [
+      "AISS-1954, Killeen TX"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 5,
+    "links": 7,
+    "local": 5,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1955-USSR-01",
+    "title": "USSR \u2014 Objects at 12,000 km/h (Mach 10)",
+    "tokens": [
+      "CIA-UAP-018-USSR"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1973-SL-01",
+    "title": "Skylab \u2014 'One or Two Objects Up There With Us'",
+    "tokens": [
+      "NASA-UAP-D7"
+    ],
+    "indexedLinks": 6,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 6,
+    "local": 5,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-HT-01",
+    "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, Report 1-57"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-CG-01",
+    "title": "Three Cigar Objects in 'Y' Formation",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, p. 15"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1951-YK-01",
+    "title": "Yorkshire 'Perfect Flying Saucer' \u2014 RAF Standing Committee",
+    "tokens": [
+      "CIA-UAP-014-BRITISH"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1985-PNG-01",
+    "title": "Papua New Guinea \u2014 High-Altitude Overflights",
+    "tokens": [
+      "DOS-UAP-D1, PORT MORESBY 00199"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 4,
+    "local": 2,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1957-RA-01",
+    "title": "Robins AFB \u2014 Object That 'Did Not Appear Conventional'",
+    "tokens": [
+      "AIIRS-1957, NAID 311001910, pp. 16-18"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-SF-14",
+    "title": "Special File: CIA OSE Study Group \u2014 1952 Internal UFO Review",
+    "tokens": [
+      "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "links": 7,
+    "local": 3,
+    "urls": 4,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1951-FM-01",
+    "title": "Fort Monmouth Radar-Visual Incident",
+    "tokens": [
+      "FORT-MONMOUTH-1951"
+    ],
+    "indexedLinks": 8,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 5,
+    "links": 8,
+    "local": 6,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  }
+]

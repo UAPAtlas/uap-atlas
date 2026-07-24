@@ -1,9 +1,9 @@
 {
   "cases": [
     {
-      "keyQuote": "An Air Force RB-47, equipped with electronic countermeasures (ECM) gear and manned by six officers, was followed by an unidentified object for a distance of well over 700 mi. and for a time period of 1.5 hr.",
-      "quoteSource": "AIAA UFO Subcommittee sample case, July 1971, p. 66",
-      "quoteConfidence": "verbatim-published-analysis",
+      "keyQuote": "A/C increased speed to Mach 0.83, turned to pursue, and object pulled ahead.",
+      "quoteSource": "55th Strategic Reconnaissance Wing Joint Message Form, 17 July 1957, NARA NAID 28970538, scan 0397, message p. 2",
+      "quoteConfidence": "confirmed-primary-source-quotation",
       "significance": "High significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Mid-track coordinate of the documented 700-mile pursuit corridor",
@@ -23,16 +23,16 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "An RB-47H electronic-intelligence aircraft with six officers was followed for over 700 miles across four states by an object tracked simultaneously by eye, by airborne radar, by ground radar, and by its ELINT receivers as a 2800 MHz emitter. The Condon Report's own staff left the case unexplained; James McDonald's AIAA analysis made it famous.",
+      "summary": "An RB-47H electronic-intelligence aircraft with six officers encountered a luminous source over the southern United States. A contemporaneous 55th Strategic Reconnaissance Wing message records repeated visual observations, matching ECM direction-finding bearings, and ground-radar confirmation by the Utah ADC site during pursuit.",
       "keyFact": "Four independent detection channels — visual, airborne radar, ground radar, and signals intelligence — tracked the same unknown for 700 miles.",
-      "official": "The Condon study called the episode unidentified/unknown but lacked the correctly dated file during its initial review; Blue Book later carried an airliner identification disputed by the AIAA analysis.",
-      "gap": "Original radar-scope film is absent and the published reconstruction combines contemporary records with interviews conducted about twelve years later.",
+      "official": "The recovered USAF message describes the event as an “unidentified flying object” report and records visual, ECM, and ground-radar observations. Later Blue Book material carried an airliner explanation, while later analysts disputed whether that identification fit the timing and sensor record.",
+      "gap": "The original four-page operational message is now recovered, but the Utah radar-scope film/plots, the recorded interphone and command-position audio noted in the message, and raw ECM recordings remain absent. The public file also appends later analyses, which must not be confused with the contemporaneous message.",
       "whyItMatters": "It is the single best multi-sensor case of the pre-digital era, and it sits unexplained inside the very study used to close Blue Book.",
       "sources": [
         "RB47-1957 · Condon Report Case 5 / McDonald AIAA analysis (1971)"
       ],
       "sourceLabel": "Condon Report record",
-      "sourceLocator": "RB47-1957 McDonald/AIAA analysis, pp. 66–70",
+      "sourceLocator": "NARA NAID 28970538, scans 0396–0399; Fold3 T1206 sequence beginning image 6961835",
       "relatedCaseIds": [
         "BF-1966-CC-00",
         "BF-1956-LB-01",
@@ -126,6 +126,25 @@
             "some-details-from-1969-interviews",
             "no-radar-scope-film"
           ]
+        },
+        {
+          "citation": "RB47-NARA-28970538 · Forbes AFB, Kansas, July 1957",
+          "sourceType": "contemporaneous-military-message-and-case-file",
+          "provenance": "NARA Record Group 341, Project Blue Book public file, NAID 28970538",
+          "locator": "Scans 0396–0399 (four-page 55th Strategic Reconnaissance Wing message); complete 56-object public grouping archived locally",
+          "supports": [
+            "RB-47H-platform",
+            "2995-to-3000-MHz-signal",
+            "visual-ECM-correlation",
+            "Mach-0.83-pursuit",
+            "Utah-ADC-ground-radar-confirmation"
+          ],
+          "limitations": [
+            "raw-radar-plots-absent",
+            "raw-ECM-recording-absent",
+            "interphone-recording-absent",
+            "public-grouping-includes-later-analysis"
+          ]
         }
       ],
       "phenomena": {
@@ -184,10 +203,28 @@
           "publisher": "Princeton-hosted James E. McDonald archive",
           "scope": "published-technical-analysis",
           "url": "http://kirkmcd.princeton.edu/JEMcDonald/mcdonald_aa_9_7_66_71.pdf"
+        },
+        {
+          "access": "Public",
+          "label": "NARA Catalog — Forbes AFB / RB-47 Project Blue Book file",
+          "publisher": "National Archives and Records Administration",
+          "scope": "official-complete-public-file-grouping",
+          "url": "https://catalog.archives.gov/id/28970538",
+          "note": "56 digital objects; scans 0396–0399 contain the contemporaneous four-page operational message."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Forbes AFB, Kansas, July 1957",
+          "publisher": "Fold3",
+          "scope": "T1206-microfilm-viewer",
+          "url": "https://www.fold3.com/image/6961835",
+          "note": "Sequence anchor identified from the Fold3/NARA T1206 compilation; subscription may be required."
         }
       ],
       "images": [
-        "assets/source_previews/BF-1957-RB-01_source_image.jpg"
+        "assets/source_previews/BF-1957-RB-01_source_image.jpg",
+        "assets/evidence/RB47-1957/RB47-1957-NARA-NAID-28970538-p0397-joint-message.jpg",
+        "assets/evidence/RB47-1957/RB47-1957-NARA-NAID-28970538-p0398-radar-confirmation.jpg"
       ]
     },
     {
@@ -849,12 +886,12 @@
         "provenance": "Chicago Sun microfilm at Chicago Public Library; UPI article; public-domain reproduction via Wikimedia Commons",
         "evidenceStatus": "Contemporary press record documenting Arnold’s reported account and the early “flying saucer” wording; not event photography and not proof of object identity.",
         "isEventEvidence": false,
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg"
       },
       "publicSources": [
         {
           "label": "Wikimedia Commons — public media record",
-          "url": "https://commons.wikimedia.org/wiki/File:Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
           "publisher": "Wikimedia Commons",
           "access": "Public",
           "scope": "public-mirror"
@@ -3223,9 +3260,9 @@
       "evidenceDepthStatus": "primary-complete"
     },
     {
-      "keyQuote": "…the sighting was due to a very rare phenomena, ball lightning.",
-      "quoteSource": "Project Blue Book record card, Levelland case, November 1957",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "keyQuote": "No definite conclusion has been reached regarding the possible effects of ball lightning on ignition systems.",
+      "quoteSource": "USAF Levelland incident summary, NARA NAID 28972840, scan 01039",
+      "quoteConfidence": "confirmed-primary-source-quotation",
       "significance": "High significance",
       "sourceQuality": "Primary record",
       "coordinateBasis": "Published public coordinate for the named location",
@@ -3245,16 +3282,16 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Over a few hours on the night of November 2–3, 1957, multiple independent drivers around Levelland reported a glowing egg-shaped object accompanied by stalled engines and dead headlights that recovered after it departed. The sheriff saw a distant light; Blue Book sent one investigator and attributed the wave to 'ball lightning' despite no documented storm.",
+      "summary": "Over a few hours on 2–3 November 1957, six people near Levelland separately reported round-to-oval bluish-white phenomena; several said their vehicles' ignition stopped during the occurrence. A recovered Air Force summary attributes the episode to ball lightning while acknowledging that no definite conclusion had been reached about ball lightning's effects on ignition systems.",
       "keyFact": "The benchmark electromagnetic-effects case: separate, mutually unaware witnesses reporting the same engine-and-lights failure signature within hours.",
-      "official": "Project Blue Book: ball lightning / severe electrical storm. Weather records for the area that night document no storm, a discrepancy critics have never resolved.",
-      "gap": "No systematic vehicle inspection or electrical analysis was performed on any affected car — the physical evidence was driven home.",
+      "official": "The Air Force file concluded that the sighting was due to a rare ball-lightning phenomenon. The analysis cites fog, light rain, mist, a very low ceiling, lightning discharges, nearby oil fires, and moisture-laden ignition components as the explanatory chain.",
+      "gap": "No systematic electrical inspection of the affected vehicles is documented. The file says lightning was established through investigative reports, but the underlying station-level weather observations and the “very few existing photographs” used for comparison are not isolated in the Atlas packet; the same summary concedes uncertainty about ignition effects.",
       "whyItMatters": "Levelland defined the vehicle-interference category that recurs for decades; its one-investigator handling is also a case study in institutional under-response.",
       "sources": [
         "LEVELLAND-1957 · Project Blue Book case file (NARA official, NAID 28974191; also NAID 28972840) / sheriff's record"
       ],
       "sourceLabel": "Blue Book file",
-      "sourceLocator": "LEVELLAND-1957",
+      "sourceLocator": "NARA NAID 28972840, 81-object public grouping; scans 00983 and 01039; Fold3 sequence anchors 6781581 and 7229541",
       "relatedCaseIds": [
         "BF-1964-SC-01",
         "BF-1952-DC-01"
@@ -3308,6 +3345,23 @@
           "locator": "LEVELLAND-1957",
           "supports": [],
           "limitations": []
+        },
+        {
+          "citation": "LEVELLAND-NARA-28972840 · Vicinity Levelland, Texas, November 1957",
+          "sourceType": "official-project-blue-book-case-file",
+          "provenance": "NARA Record Group 341, Project Blue Book public file, NAID 28972840",
+          "locator": "81 digital objects; scan 00983 analyst conclusion; scan 01039 incident summary",
+          "supports": [
+            "six-separate-observers",
+            "vehicle-ignition-stoppage-reports",
+            "Air-Force-ball-lightning-analysis",
+            "acknowledged-ignition-effect-uncertainty"
+          ],
+          "limitations": [
+            "no-systematic-vehicle-testing",
+            "underlying-weather-station-records-not-isolated",
+            "prime-source-not-located-for-USAF-interview"
+          ]
         }
       ],
       "phenomena": {
@@ -3320,18 +3374,23 @@
         "objectCount": null,
         "luminosity": null,
         "motion": [],
-        "effects": []
+        "effects": [
+          "vehicle-ignition-stoppage-reported",
+          "headlight-failure-reported"
+        ]
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 6,
         "witnessRoles": [
-          "law enforcement officer"
+          "motorists",
+          "law-enforcement officers"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided-visual",
+          "vehicle-ignition-effects-reported"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": 6
       },
       "taxonomyOriginal": {
         "domain": "MULTI-WITNESS / EM EFFECTS",
@@ -3355,10 +3414,36 @@
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/28974191"
+        },
+        {
+          "access": "Public",
+          "label": "NARA Catalog — Vicinity Levelland Project Blue Book file",
+          "publisher": "National Archives and Records Administration",
+          "scope": "official-complete-public-file-grouping",
+          "url": "https://catalog.archives.gov/id/28972840",
+          "note": "81 digital objects; contains witness forms, investigative material, analyst comments, and the Air Force summary."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Levelland, Texas, November 1957",
+          "publisher": "Fold3",
+          "scope": "T1206-microfilm-viewer",
+          "url": "https://www.fold3.com/image/6781581",
+          "note": "Main Levelland sequence anchor; subscription may be required."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Vicinity Levelland, Texas, November 1957",
+          "publisher": "Fold3",
+          "scope": "T1206-microfilm-viewer",
+          "url": "https://www.fold3.com/image/7229541",
+          "note": "Larger vicinity grouping sequence anchor; subscription may be required."
         }
       ],
       "images": [
         "assets/editorial-reconstructions/BF-1957-LV-01.png",
+        "assets/evidence/LEVELLAND-1957/LEVELLAND-1957-NARA-NAID-28972840-p01039-summary.jpg",
+        "assets/evidence/LEVELLAND-1957/LEVELLAND-1957-NARA-NAID-28972840-p00983-analysis.jpg",
         "assets/source_previews/BF-1957-LV-01_source_image.jpg"
       ]
     },
@@ -3530,7 +3615,7 @@
         "TRINDADE-CIA-1958 · CIA reading-room media-report record"
       ],
       "sourceLabel": "Project Blue Book / Brazilian Navy statement",
-      "sourceLocator": "Project Blue Book case file, PDF pp. 2, 5–12, 35, 48–52",
+      "sourceLocator": "NARA NAID 28976748, 16-object public grouping; record card scan 0011; Fold3 sequence beginning image 6957752",
       "relatedCaseIds": [
         "BF-1977-CL-01",
         "BF-1990-CV-01"
@@ -3621,6 +3706,23 @@
           "limitations": [
             "documents reporting and circulation, not photographic authenticity"
           ]
+        },
+        {
+          "citation": "TRINDADE-NARA-28976748 · Trinidade Island, January 1958",
+          "sourceType": "official-project-blue-book-file",
+          "provenance": "NARA Record Group 341, Project Blue Book public file, NAID 28976748",
+          "locator": "16 digital objects; scan 0011 is the Project 10073 record card",
+          "supports": [
+            "16-January-1958-date",
+            "photographs-reported",
+            "Blue-Book-Other-Hoax-disposition",
+            "ONI-assessment-language"
+          ],
+          "limitations": [
+            "underlying-ONI-analysis-absent",
+            "original-negatives-absent",
+            "public-file-mixes-official-and-published-material"
+          ]
         }
       ],
       "phenomena": {
@@ -3652,6 +3754,7 @@
       },
       "images": [
         "assets/evidence/hero-visuals/TRINDADE-1958-APRO-photo-1-reproduction.jpg",
+        "assets/evidence/TRINDADE-1958/TRINDADE-1958-NARA-NAID-28976748-p0011-record-card.jpg",
         "assets/source_previews/TRINDADE-1958-p002-BlueBook-card.jpg",
         "assets/source_previews/TRINDADE-1958-p006-Navy-statement.jpg",
         "assets/source_previews/BF-1958-TR-01_source_image.jpg"
@@ -3686,6 +3789,22 @@
           "publisher": "Central Intelligence Agency",
           "access": "Public",
           "scope": "official-record"
+        },
+        {
+          "access": "Public",
+          "label": "NARA Catalog — Trinidade Island Project Blue Book file",
+          "publisher": "National Archives and Records Administration",
+          "scope": "official-complete-public-file-grouping",
+          "url": "https://catalog.archives.gov/id/28976748",
+          "note": "16 digital objects; record card says the Brazilian Navy would not provide copies and attributes a hoax assessment to ONI."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Trinidade Island, January 1958",
+          "publisher": "Fold3",
+          "scope": "T1206-microfilm-viewer",
+          "url": "https://www.fold3.com/image/6957752",
+          "note": "Sequence anchor identified from the Fold3/NARA T1206 compilation; subscription may be required."
         }
       ]
     },
@@ -10355,12 +10474,12 @@
         "provenance": "Archives New Zealand, ABHS 6958 W5579 Box 227, NYP 3/58/13 Part 1; CC BY-SA 2.0 reproduction",
         "evidenceStatus": "Official documentary record of the investigation and its provisional assessment; not a frame from the filmed encounter and not proof of object identity.",
         "isEventEvidence": false,
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kaikoura_Lights,_December_31_1978_(23623047260).jpg"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kaikoura_Lights%2C_December_31_1978_%2823623047260%29.jpg"
       },
       "publicSources": [
         {
           "label": "Wikimedia Commons — public media record",
-          "url": "https://commons.wikimedia.org/wiki/File:Kaikoura_Lights,_December_31_1978_(23623047260).jpg",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Kaikoura_Lights%2C_December_31_1978_%2823623047260%29.jpg",
           "publisher": "Wikimedia Commons",
           "access": "Public",
           "scope": "public-mirror"
@@ -15773,7 +15892,7 @@
         "provenance": "U.S. Navy image; public-domain copy via Wikimedia Commons",
         "evidenceStatus": "Navy-recorded frame associated with the Omaha event; the public packet remains incomplete and object identity is unresolved.",
         "isEventEvidence": true,
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:USS_Omaha_UFO_video_-_July_2019.png"
+        "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/USS_Omaha_UFO_video_-_July_2019.png"
       },
       "publicSources": [
         {
@@ -15788,7 +15907,7 @@
         },
         {
           "label": "Wikimedia Commons — public media record",
-          "url": "https://commons.wikimedia.org/wiki/File:USS_Omaha_UFO_video_-_July_2019.png",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/USS_Omaha_UFO_video_-_July_2019.png",
           "publisher": "Wikimedia Commons",
           "access": "Public",
           "scope": "public-mirror"
@@ -23249,6 +23368,218 @@
           "scope": "official-record"
         }
       ]
+    },
+    {
+      "id": "BF-1951-FM-01",
+      "title": "Fort Monmouth Radar-Visual Incident",
+      "date": "10–11 SEP 1951",
+      "year": 1951,
+      "location": "Fort Monmouth, New Jersey",
+      "mode": "exact",
+      "lon": -74.05,
+      "lat": 40.32,
+      "coordinateBasis": "Fort Monmouth Army Signal Corps Center, Monmouth County, NJ",
+      "expectedCountry": "United States of America",
+      "expectedAdmin1": "New Jersey",
+      "geometryExpectation": "admin1",
+      "coordinatePrecision": "site",
+      "agency": "USAF / U.S. Army Signal Corps",
+      "domain": "MILITARY / RADAR-VISUAL",
+      "status": "RESOLVED (balloon / anomalous propagation)",
+      "confidence": "CONFIRMED RECORD",
+      "summary": "Over two consecutive days in September 1951, radar operators at the Fort Monmouth Army Signal Corps training center tracked fast-moving targets that exceeded the tracking capability of their SCR-584 and AN/MPG-1 radar sets. On the first day, two Air National Guard T-33 pilots visually sighted a silver, discus-shaped object near Sandy Hook, NJ, moving at an estimated 900 mph that disappeared out to sea. On the second day, radar operators tracked a target that displayed hovering behavior and unusual maneuverability, with speeds judged to be several hundred mph beyond the 700 mph tracking limit of their sets. The case drew the attention of the Chief of Staff of the Air Force and prompted an immediate ATIC field investigation led by Lt. Col. Rosengarten.",
+      "official": "The Project Blue Book record card marked the 10 September target as 'Was Balloon' and the 11 September targets as 'Probably Balloon,' attributing the radar behavior to anomalous propagation. However, the investigating Signal Corps report noted that the weather on 10 September 'was not favorable for anomalous propagation,' and the analysis conceded that 'it cannot be concluded that the object was definitely a balloon.'",
+      "gap": "Raw radar scope photographs or film are absent. No plotting records, logs, or data tapes were kept by the maintenance-course students who operated the sets. The names of the T-33 pilots are partially redacted in the file. The underlying weather-station data cited for the anomalous-propagation conclusion is not isolated in the case packet.",
+      "sources": [
+        "FORT-MONMOUTH-1951 · Project Blue Book case file (NARA NAID 28939862, 87 digital objects)",
+        "CSAF teletype message, 28 September 1951, scan 01004",
+        "Headquarters Signal Corps Center report, 12 September 1951, scan 01002",
+        "Air Intelligence Information Report, Lt. Col. Bruce K. Bauhgardner, scan 01015",
+        "Pilot narrative statement, scan 01010"
+      ],
+      "image": "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
+      "images": [
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p00978-record-card.jpg",
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01002-signal-corps-report.jpg",
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01010-pilot-narrative.jpg",
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01015-intel-report.jpg"
+      ],
+      "heroVisual": {
+        "src": "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
+        "mediaType": "image",
+        "visualType": "declassified-teletype",
+        "caption": "CSAF-priority teletype message reporting the Fort Monmouth radar sightings and T-33 visual observation, directing an immediate field investigation.",
+        "provenance": "NARA Record Group 341, Project Blue Book file, NAID 28939862",
+        "evidenceStatus": "Primary-source document: contemporaneous USAF teletype routed to the Chief of Staff of the Air Force.",
+        "isEventEvidence": true
+      },
+      "publicSources": [
+        {
+          "access": "Public",
+          "label": "NARA Catalog — Monmouth, New Jersey, September 1951 Project Blue Book file",
+          "publisher": "National Archives and Records Administration",
+          "scope": "official-complete-public-file-grouping",
+          "url": "https://catalog.archives.gov/id/28939862",
+          "note": "87 digital objects; contains Signal Corps report, CSAF teletype, pilot narrative, ATIC interrogation, and analysis."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Monmouth, New Jersey, September 1951",
+          "publisher": "Fold3",
+          "scope": "T1206-microfilm-viewer",
+          "url": "https://www.fold3.com/image/7010207",
+          "note": "Compiled case-file PDF anchor; subscription may be required."
+        }
+      ],
+      "keyFact": "Radar targets at a premier Army Signal Corps facility exceeded the 700 mph tracking limit of SCR-584 sets and a T-33 pilot reported a silver discus-shaped object at an estimated 900 mph.",
+      "whyItMatters": "The case occurred at a sensitive military radar research facility staffed by trained electronics personnel, lending unusual credibility to the radar observations. The CSAF-level urgency and ATIC field investigation response demonstrate that the Air Force took the event seriously at the highest level.",
+      "keyQuote": "THESE OBJECTS VARIED IN SPEED FROM ZERO TO OVER 700 MILES PER HOUR AND WERE SIGHTED AT VARYING ALTITUDES",
+      "quoteSource": "CSAF teletype message, 28 September 1951, NARA NAID 28939862, scan 01004",
+      "quoteConfidence": "confirmed-primary-source-quotation",
+      "heroFact": "At a premier Army radar research facility, multiple radar operators tracked targets exceeding 700 mph while a T-33 pilot reported a silver discus-shaped object at an estimated 900 mph.",
+      "significance": "High significance",
+      "sourceQuality": "Primary source",
+      "sourceLabel": "NARA / Project Blue Book",
+      "sourceLocator": "NARA NAID 28939862, scans 00978–01064; Fold3 T1206 image 7010207",
+      "relatedCaseIds": [
+        "BF-1952-DC-01",
+        "BF-1951-YK-01"
+      ],
+      "relatedContext": [
+        "Precursor to the 1952 Washington D.C. radar flap in demonstrating military-radar-visual correlation cases.",
+        "Occurred during the Project Grudge era, before Project Blue Book was formally reactivated under Ruppelt in 1952."
+      ],
+      "caseTypes": [
+        "military-encounter",
+        "radar-visual"
+      ],
+      "evidenceModes": [
+        "radar",
+        "visual",
+        "documentary-record",
+        "multi-witness"
+      ],
+      "environment": [
+        "military-airspace",
+        "coastal"
+      ],
+      "outcome": "resolved-balloon",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "disputed",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "10–11 SEP 1951",
+        "year": 1951,
+        "startDateTime": "1951-09-10T11:10:00Z",
+        "endDateTime": "1951-09-11T14:00:00Z",
+        "timezone": "EDT",
+        "durationSeconds": null,
+        "precision": "day",
+        "eventForm": "event-series"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.05,
+            40.32
+          ]
+        },
+        "role": "event-location",
+        "precision": "site",
+        "uncertaintyKm": 5,
+        "basis": "Fort Monmouth Army Signal Corps Center, Monmouth County, NJ"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FORT-MONMOUTH-NARA-28939862 · Monmouth, New Jersey, September 1951",
+          "sourceType": "official-project-blue-book-case-file",
+          "provenance": "NARA Record Group 341, Project Blue Book public file, NAID 28939862",
+          "locator": "87 digital objects; scans 00978–01064",
+          "supports": [
+            "radar-visual-correlation",
+            "multiple-radar-sets-engaged",
+            "T-33-pilot-visual-sighting",
+            "CSAF-level-urgency",
+            "ATIC-field-investigation"
+          ],
+          "limitations": [
+            "raw-radar-scope-film-absent",
+            "no-plotting-records-kept-by-maintenance-students",
+            "pilot-names-partially-redacted",
+            "weather-data-for-anomalous-propagation-not-isolated"
+          ]
+        },
+        {
+          "citation": "CSAF-TELETYPE-1951-09-28 · Chief of Staff USAF priority teletype",
+          "sourceType": "contemporaneous-high-level-message",
+          "provenance": "USAF teletype routed to Chief of Staff of the Air Force",
+          "locator": "NARA NAID 28939862, scan 01004",
+          "supports": [
+            "speeds-zero-to-700-mph",
+            "T-33-visual-sighting",
+            "estimated-1000-mph",
+            "immediate-investigation-directed"
+          ],
+          "limitations": [
+            "teletype-compresses-detail",
+            "some-redactions-in-header"
+          ]
+        },
+        {
+          "citation": "SIGNAL-CORPS-REPORT-1951-09-12 · HQ Signal Corps Center, Fort Monmouth",
+          "sourceType": "contemporaneous-military-report",
+          "provenance": "Headquarters, Signal Corps Center and Fort Monmouth",
+          "locator": "NARA NAID 28939862, scan 01002",
+          "supports": [
+            "AN/MPG-1-radar-track",
+            "SCR-584-tracking",
+            "hovering-target",
+            "unusually-strong-return",
+            "weather-not-favorable-for-anomalous-propagation"
+          ],
+          "limitations": [
+            "operators-were-maintenance-students-not-operators",
+            "no-logs-or-data-tapes-kept"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "discus",
+          "circular",
+          "flat-when-edge-on"
+        ],
+        "objectCount": 1,
+        "luminosity": "silver or metallic",
+        "motion": [
+          "rapid-crossing",
+          "hovering",
+          "extreme-speed-change",
+          "disappeared-out-to-sea"
+        ],
+        "effects": [
+          "unusually-strong-radar-return"
+        ]
+      },
+      "observation": {
+        "witnessCount": 4,
+        "witnessRoles": [
+          "two T-33 pilots (Air National Guard)",
+          "radar operators (Signal Corps maintenance students)",
+          "experienced radar operator (giving demonstration)"
+        ],
+        "sensors": [
+          "AN/MPG-1 radar",
+          "SCR-584 radar (serial nos. 433, 217, 315)",
+          "unaided-visual"
+        ],
+        "durationSeconds": 120,
+        "independentWitnessGroups": 2
+      }
     }
   ],
   "timeline": [

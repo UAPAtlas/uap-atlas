@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "caseCount": 146,
+  "countedCaseCount": 142,
+  "aggregateCaseIds": [
+    "BF-1968-HIM-01",
+    "BF-2015-NAV-01",
+    "BF-2020-AG-00",
+    "BF-2023-GR-00"
+  ],
+  "seriesParentCount": 4,
+  "seriesChildCount": 16,
+  "timelineEventCount": 143,
+  "sourceIndexTerms": 209,
+  "sourceIndexFiles": 879,
+  "casesWithMappedLinks": 146,
+  "casesWithoutMappedLinks": [],
+  "casesWithIndexedSourceLinks": 146,
+  "casesWithoutIndexedSourceLinks": [],
+  "casesWithStructuredSourceRecords": 146,
+  "casesWithPublicSourceUrls": 146,
+  "casesWithEvidenceAssets": 146,
+  "casesWithEvidenceOrPreview": 146,
+  "missingLocalAssets": [],
+  "normalizedFieldMissing": {
+    "caseTypes": [],
+    "evidenceModes": [],
+    "environment": [],
+    "outcome": [],
+    "confidenceModel": [],
+    "temporal": [],
+    "geospatial": [],
+    "sourceRecords": [],
+    "phenomena": [],
+    "observation": []
+  },
+  "uniqueDisplayTaxonomy": {
+    "domains": 8,
+    "statuses": 9,
+    "confidenceLabels": 9,
+    "agencies": 87
+  },
+  "normalizedTaxonomy": {
+    "caseTypes": 92,
+    "evidenceModes": 55,
+    "environments": 48,
+    "outcomes": 26
+  },
+  "geometryTypes": {
+    "LineString": 4,
+    "Point": 114,
+    "none": 26,
+    "Polygon": 2
+  },
+  "nonPointGeometryCases": [
+    "BF-1957-RB-01",
+    "BF-1978-VL-01",
+    "BF-1986-JAL-01",
+    "BF-1989-BW-01",
+    "BF-1997-PH-01",
+    "BF-2004-NM-01"
+  ],
+  "quotesSelected": 146,
+  "quotesWithLocators": 146,
+  "sourceRecordCount": 222,
+  "sourceDepthWeakCaseCount": 118,
+  "topSourceDepthWeakCases": [
+    {
+      "id": "BF-1990-CV-01",
+      "title": "Calvine Photograph",
+      "score": 45,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 3,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "web article quote \u2014 summary of record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1968-HIM-06",
+      "title": "Fukche\u2013Koyul\u2013Demchok Rocket-Like Object",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 10,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Official intelligence record; underlying source redacted",
+      "quoteConfidence": "scan-sensitive-document-transcription",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "web article quote \u2014 summary of record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1994-AR-01",
+      "title": "Ariel School Encounter, Ruwa",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 5,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D001",
+      "title": "Apollo 12 Transcript",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D022",
+      "title": "Gemini 9 Debriefing",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D026",
+      "title": "Apollo 14 Debriefing Video Record",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D030",
+      "title": "STS-80 Unidentified Object Image 1",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D031",
+      "title": "STS-80 Unidentified Object Image 2",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D032",
+      "title": "STS-80 Unidentified Object Image 3",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "reasons": [
+        "one-or-fewer structured source records",
+        "quote confidence needs verification upgrade"
+      ]
+    }
+  ]
+}

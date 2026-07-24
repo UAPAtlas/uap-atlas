@@ -1,0 +1,16 @@
+{
+  "caseId": "BF-1944-FF-01",
+  "artifact": "CUFON-Foo-Fighter-Documents.html",
+  "sourceUrl": "http://www.cufon.org/cufon/foo.htm",
+  "sha256": "011b1cd3ebcf45defe7f795b533207247287c04c25c2d6b7e45fc7eaa0ade495",
+  "bytes": 61221,
+  "captured": "2026-07-22",
+  "recordContent": "Transcriptions of official wartime records, including the SECRET December 1944 War Diary of the 415th Night Fighter Squadron and dated operations-report excerpts.",
+  "criticalLocator": "HTML lines 881-940 and 970-1009 in the locally preserved source",
+  "custodyStatus": "archival-transcription-only",
+  "limitations": [
+    "The original record scans were not secured.",
+    "No exact NARA or AFHRA call number was recovered from catalog searches.",
+    "The transcription contains at least one unreadable word in the 18 December entry."
+  ]
+}

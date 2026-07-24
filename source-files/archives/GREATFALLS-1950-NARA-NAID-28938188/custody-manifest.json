@@ -1,0 +1,12 @@
+{
+  "naId": 28938188,
+  "title": "Great Falls, Mont., August 1950 - Incident Number: 821",
+  "catalogUrl": "https://catalog.archives.gov/id/28938188",
+  "expectedObjectCount": 113,
+  "localArtifact": "assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-case-file.pdf",
+  "localPageCount": 113,
+  "pageCountMatchesCatalogObjects": true,
+  "bytes": 15146964,
+  "sha256": "84a8956c58fc0208eacd9857ad66c95e7dd8f25374e5da1a3d29bdb06f4cd35b",
+  "custodyNote": "Complete 113-page compiled case-file copy; exact per-object NARA image download not duplicated in this tranche."
+}

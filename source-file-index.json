@@ -21,7 +21,7 @@
   "ARNOLD-1947": [
     "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
     "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.provenance.json",
-    "https://commons.wikimedia.org/wiki/File:Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
     "assets/source_previews/BF-1947-KA-01_source_image.png",
     "assets/source_previews/BF-1947-KA-01_source_manifest.svg",
     "assets/source_previews/BF-1947-KA-01_source_image.jpg",
@@ -416,7 +416,7 @@
   "KAIKOURA-1978": [
     "assets/evidence/hero-visuals/KAIKOURA-1978-Archives-New-Zealand-record.jpg",
     "assets/evidence/hero-visuals/KAIKOURA-1978-Archives-New-Zealand-record.provenance.json",
-    "https://commons.wikimedia.org/wiki/File:Kaikoura_Lights,_December_31_1978_(23623047260).jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/5/50/Kaikoura_Lights%2C_December_31_1978_%2823623047260%29.jpg",
     "assets/source_previews/BF-1978-KK-01_source_image.jpg",
     "assets/source_previews/BF-1978-KK-01_source_manifest.svg",
     "source-files/evidence-depth/KAIKOURA-1978-evidence-depth.md"
@@ -447,6 +447,12 @@
   ],
   "LEVELLAND-1957": [
     "assets/source_previews/BF-1957-LV-01_source_image.jpg",
+    "assets/evidence/LEVELLAND-1957/LEVELLAND-1957-NARA-NAID-28972840-p01039-summary.jpg",
+    "assets/evidence/LEVELLAND-1957/LEVELLAND-1957-NARA-NAID-28972840-p00983-analysis.jpg",
+    "source-files/archives/LEVELLAND-1957-NARA-NAID-28972840/custody-manifest.json",
+    "https://catalog.archives.gov/id/28972840",
+    "https://www.fold3.com/image/6781581",
+    "https://www.fold3.com/image/7229541",
     "assets/evidence/LEVELLAND-1957/LEVELLAND-1957-NARA-official-NAID-28974191.pdf"
   ],
   "MAGENTA-1933": [
@@ -662,7 +668,7 @@
   ],
   "OMAHA-2019": [
     "assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
-    "https://commons.wikimedia.org/wiki/File:USS_Omaha_UFO_video_-_July_2019.png",
+    "https://upload.wikimedia.org/wikipedia/commons/6/65/USS_Omaha_UFO_video_-_July_2019.png",
     "https://www.dvidshub.net/video/843593/navy-2019-west-coast-video",
     "assets/evidence/OMAHA-2019/OMAHA-2019-USS-Omaha-LCS12.jpg",
     "assets/source_previews/BF-2019-OM-01_source_manifest.svg",
@@ -691,6 +697,11 @@
   ],
   "RB47-1957": [
     "assets/source_previews/BF-1957-RB-01_source_image.jpg",
+    "assets/evidence/RB47-1957/RB47-1957-NARA-NAID-28970538-p0397-joint-message.jpg",
+    "assets/evidence/RB47-1957/RB47-1957-NARA-NAID-28970538-p0398-radar-confirmation.jpg",
+    "source-files/archives/RB47-1957-NARA-NAID-28970538/custody-manifest.json",
+    "https://catalog.archives.gov/id/28970538",
+    "https://www.fold3.com/image/6961835",
     "assets/evidence/RB47-1957/RB47-1957-McDonald-AIAA-analysis.pdf",
     "assets/evidence/RB47-1957/RB47-1957-McDonald-AIAA-analysis__page_001.png",
     "assets/evidence/RB47-1957/RB47-1957-McDonald-AIAA-analysis__page_003.png",
@@ -751,7 +762,12 @@
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/ffprobe.json"
   ],
   "TRINDADE-1958": [
-    "assets/source_previews/BF-1958-TR-01_source_image.jpg"
+    "assets/evidence/hero-visuals/TRINDADE-1958-APRO-photo-1-reproduction.jpg",
+    "assets/evidence/TRINDADE-1958/TRINDADE-1958-NARA-NAID-28976748-p0011-record-card.jpg",
+    "assets/source_previews/BF-1958-TR-01_source_image.jpg",
+    "source-files/archives/TRINDADE-1958-NARA-NAID-28976748/custody-manifest.json",
+    "https://catalog.archives.gov/id/28976748",
+    "https://www.fold3.com/image/6957752"
   ],
   "VALENTICH-1978": [
     "assets/evidence/VALENTICH/bass_strait_prior_context.jpg",
@@ -1269,5 +1285,15 @@
   "LAKENHEATH-1956-RAF-ORBS": [
     "https://discovery.nationalarchives.gov.uk/details/r/C2505380",
     "https://discovery.nationalarchives.gov.uk/details/r/C4099443"
+  ],
+  "FORT-MONMOUTH-1951": [
+    "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p00978-record-card.jpg",
+    "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01002-signal-corps-report.jpg",
+    "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
+    "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01010-pilot-narrative.jpg",
+    "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01015-intel-report.jpg",
+    "source-files/archives/FORT-MONMOUTH-1951-NARA-NAID-28939862/custody-manifest.json",
+    "https://catalog.archives.gov/id/28939862",
+    "https://www.fold3.com/image/7010207"
   ]
 }

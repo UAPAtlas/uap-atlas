@@ -1,0 +1,46 @@
+{
+  "generated": "2026-07-22",
+  "repository": "National Archives and Records Administration, Motion Pictures, College Park",
+  "record": {
+    "naId": "61937",
+    "catalogUrl": "https://catalog.archives.gov/id/61937",
+    "localIdentifier": "341-PBB-345",
+    "title": "Tremonton, Utah",
+    "productionDate": "1952-07-02",
+    "physicalCustodyFinding": "Catalog lists 42-foot 16 mm color reference and preservation film elements. The transfer slate identifies Source: 16mm RSK (P Copy).",
+    "generationLimit": "The digital derivative is not a camera original. The Navy report states the analysis film was a duplicate of a copy; the full laboratory custody ledger remains unresolved."
+  },
+  "localClassification": "archival access derivatives and research outputs",
+  "files": [
+    {
+      "path": "341-pbb-345.mp4",
+      "bytes": 21116857,
+      "sha256": "172c3128e27388ad98c1596e6f528596a200ef62a489e9b1c1bbc9af920d2a2a"
+    },
+    {
+      "path": "SHA256SUMS.txt",
+      "bytes": 207,
+      "sha256": "31e2469991975eca91775a70f279a83f1fe0cf4ac3aaceca74e797fe21aa7d78"
+    },
+    {
+      "path": "checksums-sha256.txt",
+      "bytes": 167,
+      "sha256": "a268460472c90524147c35277786f8d261dc3ab972e666cb71444156d24d853c"
+    },
+    {
+      "path": "contact/contact-main.jpg",
+      "bytes": 75089,
+      "sha256": "5810c6ab0696a858b78c254f74659c417b6e87b4d87d2dd674a59d5e5d6a59c4"
+    },
+    {
+      "path": "contact/contact.jpg",
+      "bytes": 110970,
+      "sha256": "d9a241cf387db414dfc3e18de4b5455c7a61c503d1cf0c675c23cb5cfef8eb69"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 4755,
+      "sha256": "5c73390d079be908acbb4ecfd2b8c68685c6d48cb977d38178c74eccbe297df4"
+    }
+  ]
+}

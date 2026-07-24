@@ -1,0 +1,573 @@
+{
+  "caseId": "BF-1957-RB-01",
+  "naId": 28970538,
+  "title": "Forbes AFB, Kansas, July 1957",
+  "catalogUrl": "https://catalog.archives.gov/id/28970538",
+  "recordGroupNumber": 341,
+  "expectedObjectCount": 56,
+  "downloadedObjectCount": 56,
+  "complete": true,
+  "missingObjects": [],
+  "files": [
+    {
+      "index": 1,
+      "objectId": "28970539",
+      "filename": "0356.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0356.jpg",
+      "downloaded": true,
+      "bytes": 3966552,
+      "sha256": "eabbe49a4905e00ed85d8b6760854a8593d38d82973386269a6b184bc87b691c"
+    },
+    {
+      "index": 2,
+      "objectId": "28970540",
+      "filename": "0357.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0357.jpg",
+      "downloaded": true,
+      "bytes": 4910805,
+      "sha256": "6d6f7446d2865657d09b33aa63c2e7fdbe9e56a32c34e3eeac34a190f3f04e33"
+    },
+    {
+      "index": 3,
+      "objectId": "28970541",
+      "filename": "0358.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0358.jpg",
+      "downloaded": true,
+      "bytes": 5013319,
+      "sha256": "f27d6e4fef5fe39626e30c275fbf5c91d579932726a5be23471300eb1e6cf506"
+    },
+    {
+      "index": 4,
+      "objectId": "28970542",
+      "filename": "0359.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0359.jpg",
+      "downloaded": true,
+      "bytes": 4876223,
+      "sha256": "835fb1e31729499082fe58848e9801d5769530a63998e06c055470c8a664bcde"
+    },
+    {
+      "index": 5,
+      "objectId": "28970543",
+      "filename": "0360.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0360.jpg",
+      "downloaded": true,
+      "bytes": 4814008,
+      "sha256": "5b5f0197e746c79e1d3326ebcbf8b793de5fa014af54d24d01e69274ee3e724c"
+    },
+    {
+      "index": 6,
+      "objectId": "28970544",
+      "filename": "0361.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0361.jpg",
+      "downloaded": true,
+      "bytes": 4941262,
+      "sha256": "cd9da1fc9d6dd6ff6994ce9f8affb29ed06e36a3dc74d80f5eb92b4f7fff0b74"
+    },
+    {
+      "index": 7,
+      "objectId": "28970545",
+      "filename": "0362.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0362.jpg",
+      "downloaded": true,
+      "bytes": 4254800,
+      "sha256": "462824c977c268995d732e7b8dbcb9d56cd72ac233b3907c2af30f4abb16265d"
+    },
+    {
+      "index": 8,
+      "objectId": "28970546",
+      "filename": "0363.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0363.jpg",
+      "downloaded": true,
+      "bytes": 4085033,
+      "sha256": "f7cc2e933b0fcef5a82326a8f993ddbd556da168bc59315aac04b1ccd3e04f7c"
+    },
+    {
+      "index": 9,
+      "objectId": "28970547",
+      "filename": "0364.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0364.jpg",
+      "downloaded": true,
+      "bytes": 4244602,
+      "sha256": "f244b9f6ece465ad1364d8959c133958ab2013bc5dc3663047d06c9ba72b6d3c"
+    },
+    {
+      "index": 10,
+      "objectId": "28970548",
+      "filename": "0365.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0365.jpg",
+      "downloaded": true,
+      "bytes": 4933007,
+      "sha256": "6a99788d679614fd8cbac0037f399022443e444ec0e6dcf4a3f767ec9b348f41"
+    },
+    {
+      "index": 11,
+      "objectId": "28970549",
+      "filename": "0366.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0366.jpg",
+      "downloaded": true,
+      "bytes": 4142845,
+      "sha256": "7b8ff883ec14c56d0d0fce3caa4f90ed799a6d38eb7b2276a110b553479489be"
+    },
+    {
+      "index": 12,
+      "objectId": "28970550",
+      "filename": "0367.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0367.jpg",
+      "downloaded": true,
+      "bytes": 4958869,
+      "sha256": "a49ebe551b02c865160be6ca876cb47683202606c5653067a754857d1d77f14d"
+    },
+    {
+      "index": 13,
+      "objectId": "28970551",
+      "filename": "0368.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0368.jpg",
+      "downloaded": true,
+      "bytes": 4928061,
+      "sha256": "e0b4fd94f0c9093c271c7175c6c1491ab2129f7e5ea0bc51da0978c1dde5515d"
+    },
+    {
+      "index": 14,
+      "objectId": "28970552",
+      "filename": "0369.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0369.jpg",
+      "downloaded": true,
+      "bytes": 5105490,
+      "sha256": "d6d2cb9df7e5a252a371655d689aac05633f1c2fdb46a1ef3a7ebc36f4ffbfed"
+    },
+    {
+      "index": 15,
+      "objectId": "28970553",
+      "filename": "0370.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0370.jpg",
+      "downloaded": true,
+      "bytes": 5091018,
+      "sha256": "175c40333ed8a959ccbae55b8f2ea5e5c05499df9cb97a3afd1caa26beddf43e"
+    },
+    {
+      "index": 16,
+      "objectId": "28970554",
+      "filename": "0371.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0371.jpg",
+      "downloaded": true,
+      "bytes": 5001836,
+      "sha256": "d6d819238ab6b1d9dad85a9249fa7ccc9082b32f09f755b11dc597b739710d0d"
+    },
+    {
+      "index": 17,
+      "objectId": "28970555",
+      "filename": "0372.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0372.jpg",
+      "downloaded": true,
+      "bytes": 5094446,
+      "sha256": "22b8aeb05cb7d02f02470591321bfcd9c024dd454d5db8f9844f4af5c825f8fd"
+    },
+    {
+      "index": 18,
+      "objectId": "28970556",
+      "filename": "0373.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0373.jpg",
+      "downloaded": true,
+      "bytes": 4413045,
+      "sha256": "f9214c902cb8e5d1c298e6535d7a8ff44ddecfcef378b04db6be57ba6fca9029"
+    },
+    {
+      "index": 19,
+      "objectId": "28970557",
+      "filename": "0374.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0374.jpg",
+      "downloaded": true,
+      "bytes": 4381493,
+      "sha256": "f777033b810353370fe732e97254143902df36c10a6b6860f1089fcd9dcee6cf"
+    },
+    {
+      "index": 20,
+      "objectId": "28970558",
+      "filename": "0375.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0375.jpg",
+      "downloaded": true,
+      "bytes": 4910671,
+      "sha256": "7d93342cd7732274b614aea823162be86696914b7f04a3a4a781417244bbecad"
+    },
+    {
+      "index": 21,
+      "objectId": "28970559",
+      "filename": "0376.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0376.jpg",
+      "downloaded": true,
+      "bytes": 4412805,
+      "sha256": "e900e03cb7bb90fc37e3ccc1fbf038647bf41545f686eeee588286dccb4107cf"
+    },
+    {
+      "index": 22,
+      "objectId": "28970560",
+      "filename": "0377.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0377.jpg",
+      "downloaded": true,
+      "bytes": 4344758,
+      "sha256": "6d398dec6f2283a0355b164ede18be08697a37240b330de55baba09039aa526c"
+    },
+    {
+      "index": 23,
+      "objectId": "28970561",
+      "filename": "0378.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0378.jpg",
+      "downloaded": true,
+      "bytes": 4322813,
+      "sha256": "8467e840911ecd8fac922c360dd74c38927de8d4c9a20cad889f35aef6314ed7"
+    },
+    {
+      "index": 24,
+      "objectId": "28970562",
+      "filename": "0379.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0379.jpg",
+      "downloaded": true,
+      "bytes": 4404242,
+      "sha256": "1f5ae0edd0a8a9ccee2b6394c22682ed9047a6ae12a9be166545549109274f56"
+    },
+    {
+      "index": 25,
+      "objectId": "28970563",
+      "filename": "0380.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0380.jpg",
+      "downloaded": true,
+      "bytes": 4259884,
+      "sha256": "42c7352c15e34bedb16b5342079d93c3196a5641056e71faae422d87c8b9d2c1"
+    },
+    {
+      "index": 26,
+      "objectId": "28970564",
+      "filename": "0381.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0381.jpg",
+      "downloaded": true,
+      "bytes": 4330709,
+      "sha256": "7bc1704e53c0ba141f7a72e5b37c6b1c88debbedead3f2effc4f5a3ccfff6d9e"
+    },
+    {
+      "index": 27,
+      "objectId": "28970565",
+      "filename": "0382.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0382.jpg",
+      "downloaded": true,
+      "bytes": 4423781,
+      "sha256": "2d4adf6b8fc7dbbfccb5eb56169baeb191b7c7ad79300f3a367ed4686a64bb51"
+    },
+    {
+      "index": 28,
+      "objectId": "28970566",
+      "filename": "0383.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0383.jpg",
+      "downloaded": true,
+      "bytes": 4292942,
+      "sha256": "b13de2d4dfed1d3aeee666c3957d2ae27aeb8837a6c252958315845352b90b05"
+    },
+    {
+      "index": 29,
+      "objectId": "28970567",
+      "filename": "0384.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0384.jpg",
+      "downloaded": true,
+      "bytes": 4405602,
+      "sha256": "066be418b83f5930b20bb63446630deae1ae138a51d2887d74b54fb9f536c639"
+    },
+    {
+      "index": 30,
+      "objectId": "28970568",
+      "filename": "0385.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0385.jpg",
+      "downloaded": true,
+      "bytes": 4349169,
+      "sha256": "e0cc46058cc715a35734a9157db72b7f473e662ecd1b9e15440eb2b71ca63330"
+    },
+    {
+      "index": 31,
+      "objectId": "28970569",
+      "filename": "0386.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0386.jpg",
+      "downloaded": true,
+      "bytes": 4884146,
+      "sha256": "0cebab075ef9e56ef8c6934aa9cfc4981d61b142ec254a37ca2785943cc1da4d"
+    },
+    {
+      "index": 32,
+      "objectId": "28970570",
+      "filename": "0387.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0387.jpg",
+      "downloaded": true,
+      "bytes": 4322100,
+      "sha256": "a30e201464cd0b7f307046d4a74ebb9b000032170f1f1fd677d425eade9a300a"
+    },
+    {
+      "index": 33,
+      "objectId": "28970571",
+      "filename": "0388.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0388.jpg",
+      "downloaded": true,
+      "bytes": 4375438,
+      "sha256": "79551309516aff6ece85c2c709e33f8c30d3b5510246eb97df21c7fab074e3c8"
+    },
+    {
+      "index": 34,
+      "objectId": "28970572",
+      "filename": "0389.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0389.jpg",
+      "downloaded": true,
+      "bytes": 4366766,
+      "sha256": "1f07eb6119522c23590d1759d6c65b93fc000ed262621c49e1c4f763cb1cafa9"
+    },
+    {
+      "index": 35,
+      "objectId": "28970573",
+      "filename": "0390.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0390.jpg",
+      "downloaded": true,
+      "bytes": 5003686,
+      "sha256": "6fdc5da6e9c7dfe9f14c9ce268d9d415acbde21ac6443cbac79d0893e99171ff"
+    },
+    {
+      "index": 36,
+      "objectId": "28970574",
+      "filename": "0391.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0391.jpg",
+      "downloaded": true,
+      "bytes": 4358467,
+      "sha256": "a185619e2a001361f5f246c09b9dc67c23691de2ad64c44ca74674b3fc032941"
+    },
+    {
+      "index": 37,
+      "objectId": "28970575",
+      "filename": "0392.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0392.jpg",
+      "downloaded": true,
+      "bytes": 4263553,
+      "sha256": "9de5e07dd3455e2299f87fd6297c489704642c8901fbd6b8e7d00ea12487ba16"
+    },
+    {
+      "index": 38,
+      "objectId": "28970576",
+      "filename": "0393.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0393.jpg",
+      "downloaded": true,
+      "bytes": 4277280,
+      "sha256": "d83ec0c48b0de2994883b130029ec1826764749cebdf6464049b7fae249b422b"
+    },
+    {
+      "index": 39,
+      "objectId": "28970577",
+      "filename": "0394.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0394.jpg",
+      "downloaded": true,
+      "bytes": 3988557,
+      "sha256": "920343a2308b460b68ef542ce6e929b54b498f012fe412aa003c26d588271368"
+    },
+    {
+      "index": 40,
+      "objectId": "28970578",
+      "filename": "0395.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0395.jpg",
+      "downloaded": true,
+      "bytes": 4758407,
+      "sha256": "a78434fd332e84ef1204264211cb1b79676c42af5b33e4b60480578321f7ffc7"
+    },
+    {
+      "index": 41,
+      "objectId": "28970579",
+      "filename": "0396.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0396.jpg",
+      "downloaded": true,
+      "bytes": 3694962,
+      "sha256": "47e0c83e7643a15f33c98d21fd018cb9d61ae1f561fccf3ebe5c9d2e57729e79"
+    },
+    {
+      "index": 42,
+      "objectId": "28970580",
+      "filename": "0397.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0397.jpg",
+      "downloaded": true,
+      "bytes": 4496763,
+      "sha256": "d3004ec530f8435f9f01d98e5a7ddf34c2db1cca1fe15446e6d9999b6bce273c"
+    },
+    {
+      "index": 43,
+      "objectId": "28970581",
+      "filename": "0398.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0398.jpg",
+      "downloaded": true,
+      "bytes": 4612970,
+      "sha256": "c2af522b376332fe8ad5b949f9b1448fded29a16e812c6644e5ac360cd189382"
+    },
+    {
+      "index": 44,
+      "objectId": "28970582",
+      "filename": "0399.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0399.jpg",
+      "downloaded": true,
+      "bytes": 5082741,
+      "sha256": "2802fce0e49d25e633a7d89b4b080fac6da31d906b9dae16b78fbe4e4487b2c4"
+    },
+    {
+      "index": 45,
+      "objectId": "28970583",
+      "filename": "0400.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0400.jpg",
+      "downloaded": true,
+      "bytes": 5018473,
+      "sha256": "902804e26cff99a0b803c2c23fc59134543107c47ca6f42804bd3cfde60a465b"
+    },
+    {
+      "index": 46,
+      "objectId": "28970584",
+      "filename": "0401.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0401.jpg",
+      "downloaded": true,
+      "bytes": 4193147,
+      "sha256": "7d49b583f6f8d756753960fdf356c993dd08d9e48d30469fdf0736ab68a1566d"
+    },
+    {
+      "index": 47,
+      "objectId": "28970585",
+      "filename": "0402.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0402.jpg",
+      "downloaded": true,
+      "bytes": 5017923,
+      "sha256": "e363ace7bc0f0c91fa143fa85c6c988e8840f5d1b46948a3db4fc7e874e90173"
+    },
+    {
+      "index": 48,
+      "objectId": "28970586",
+      "filename": "0403.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0403.jpg",
+      "downloaded": true,
+      "bytes": 4324175,
+      "sha256": "608e75ae08cc1ec42e24e1529f63527dbb194ab40381caf92486ff4fff13e520"
+    },
+    {
+      "index": 49,
+      "objectId": "28970587",
+      "filename": "0404.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0404.jpg",
+      "downloaded": true,
+      "bytes": 4218041,
+      "sha256": "4eb53635f5998aa50fc0bc73772ba7848e5cd10c1ad34f2394406b0a55e5eba8"
+    },
+    {
+      "index": 50,
+      "objectId": "28970588",
+      "filename": "0405.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0405.jpg",
+      "downloaded": true,
+      "bytes": 4239638,
+      "sha256": "ed7769538075974c7189c87a22bfeedd8955ef8d41759552e1b2701e2db37be0"
+    },
+    {
+      "index": 51,
+      "objectId": "28970589",
+      "filename": "0406.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0406.jpg",
+      "downloaded": true,
+      "bytes": 4155270,
+      "sha256": "05a430854b7bddaa473a0f0f6d4a622cfc86957ef99a989ad90a5bbe3c767b7f"
+    },
+    {
+      "index": 52,
+      "objectId": "28970590",
+      "filename": "0407.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0407.jpg",
+      "downloaded": true,
+      "bytes": 3256613,
+      "sha256": "f4bd661e9516efc7cd2e5c975aee2d1d629c6f58ff2f718412b40e8bd58653bd"
+    },
+    {
+      "index": 53,
+      "objectId": "28970591",
+      "filename": "0408.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0408.jpg",
+      "downloaded": true,
+      "bytes": 4747279,
+      "sha256": "797b65675c2e9bd7c6b309848cc3f17c845f43e4891857b8676c0d4d6a296e24"
+    },
+    {
+      "index": 54,
+      "objectId": "28970592",
+      "filename": "0409.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0409.jpg",
+      "downloaded": true,
+      "bytes": 5016513,
+      "sha256": "ee2f22e2acf0d23b70721510fa45394b79d5888eb97198d58b25f940014f3921"
+    },
+    {
+      "index": 55,
+      "objectId": "28970593",
+      "filename": "0410.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0410.jpg",
+      "downloaded": true,
+      "bytes": 4167278,
+      "sha256": "448e33dd094e8ff5ad2d37a1046b9efc4389578c39e88099a44720e465df81ec"
+    },
+    {
+      "index": 56,
+      "objectId": "28970594",
+      "filename": "0411.jpg",
+      "objectType": "Image (JPG)",
+      "sourceUrl": "https://catalog.archives.gov/medialive/38/9705/28970538/content/TB0106/T1206-ProjectBlueBook/T1206_0028/images/0411.jpg",
+      "downloaded": true,
+      "bytes": 4951916,
+      "sha256": "4aeec254b9524798061ce90f9ef2bdfed5701cf1957e1b5f57a03823762eeb01"
+    }
+  ]
+}
