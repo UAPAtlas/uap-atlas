@@ -1230,9 +1230,9 @@
     {
       "keyQuote": "The Aztec case originated from a 1950 article by Frank Scully describing the alleged crash of a 99-foot disc near Aztec, New Mexico; the story was later exposed as a hoax.",
       "quoteSource": "Scully, Behind the Flying Saucers (1950) & later investigations (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "secondary-summary; fraud determination needs primary citation upgrade",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Fraud/contradiction record; primary agency packet not recovered",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1948-AZ-01",
@@ -1312,10 +1312,18 @@
         {
           "citation": "AZTEC-1948 · Cahn exposés / fraud conviction record",
           "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "provenance": "Fraud/contradiction public-record trail",
           "locator": "AZTEC-1948",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the Atlas classification of Aztec as a fraud/contradicted crash-retrieval narrative",
+            "Points to the Scully/Newton/GeBauer claim chain and later exposé/fraud context",
+            "Useful as disinformation/hoax boundary case rather than evidence of a recovered craft"
+          ],
+          "limitations": [
+            "No original agency file or court packet is mapped in the local Atlas corpus",
+            "Current public video/source trail is contextual and not a primary evidentiary packet",
+            "Needs direct Cahn exposé, Scully text, and conviction/court-record citations for boss-grade certainty"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -3160,18 +3168,34 @@
         {
           "citation": "DOW-UAP-D096 · Project Blue Book correspondence",
           "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "provenance": "Department of War / UAP release source index",
           "locator": "LAKENHEATH-1956",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Project Blue Book correspondence trail is mapped to the Lakenheath dossier",
+            "Confirms the case is represented in released DoW/UAP source indexing",
+            "Provides a secondary official-source path alongside the exact NARA case file"
+          ],
+          "limitations": [
+            "Not the raw radar scope photography, controller audio, or RAF mission record",
+            "Does not independently identify the targets",
+            "Use as source-index support, not as the decisive evidentiary page"
+          ]
         },
         {
           "citation": "CIA-UAP-015 · Project Blue Book Special Report No. 14",
           "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "provenance": "CIA declassified Blue Book contextual release",
           "locator": "LAKENHEATH-1956",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Project Blue Book Special Report No. 14 context is mapped to the case dossier",
+            "Supports the official analytical framing around radar-visual cases",
+            "Provides CIA-released Blue Book context for the case family"
+          ],
+          "limitations": [
+            "Special Report No. 14 is broader analytical context, not the complete Lakenheath operational file",
+            "Does not supply raw GCA plots, voice recordings, or interceptor mission logs",
+            "Should not be treated as stronger than the exact NARA case-file pages"
+          ]
         },
         {
           "citation": "UK National Archives operational-record targets: AIR 27/2742, No. 23 Squadron Summary of Events, 1956–1960 (digitized); AIR 28/1439, RAF Waterbeach station record, 1956–1960 (open, not digitized).",
@@ -4392,9 +4416,9 @@
     {
       "keyQuote": "Witnesses reported a fiery object that crashed near Kecksburg, Pennsylvania; the military responded and reportedly removed a large object, though officials denied any recovery.",
       "quoteSource": "The Black Vault Case Files: Kecksburg UFO Incident (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "secondary-summary; needs primary-record verification",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Contextual public-record trail; primary agency packet not recovered",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1965-KB-01",
@@ -4471,10 +4495,18 @@
         {
           "citation": "KECKSBURG-1965 · press/witness record / NASA FOIA litigation trail",
           "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "provenance": "Public-record trail / contextual analysis",
           "locator": "KECKSBURG-1965",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Preserves the case as a contested recovery narrative with press/witness and NASA FOIA-litigation context",
+            "Identifies the currently known research trail before any new archival recovery",
+            "Separates public narrative from unrecovered agency custody"
+          ],
+          "limitations": [
+            "No original agency case file or recovery/transport record mapped",
+            "No complete contemporaneous witness packet or chain-of-custody record in local corpus",
+            "Video/public-analysis source is contextual and cannot prove the recovery narrative"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -5361,7 +5393,7 @@
       "quoteSource": "Westall AFSR editor note, 1966 (Australian Flying Saucer Research Society)",
       "quoteConfidence": "verified primary-source quotation (OCR-derived)",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Contemporaneous press + institutional archive trail; official RAAF/police file not recovered",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1966-WS-01",
@@ -5443,10 +5475,18 @@
         {
           "citation": "WESTALL-1966 · witness corpus / archive search trail",
           "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "provenance": "Contemporaneous press / State Library Victoria / AFSR archival trail",
           "locator": "WESTALL-1966",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Contemporary Dandenong Journal headline and sketch material are locally preserved",
+            "State Library Victoria institutional review reproduces Westall-specific archival material",
+            "AFSR editor note supports the contemporaneous UFO-community/official-silence context"
+          ],
+          "limitations": [
+            "No complete RAAF, police, or school administrative case file recovered",
+            "Witness-corpus/documentary material remains partly retrospective",
+            "Press and archive artifacts support occurrence/coverage, not object identity"
+          ]
         }
       ],
       "phenomena": {

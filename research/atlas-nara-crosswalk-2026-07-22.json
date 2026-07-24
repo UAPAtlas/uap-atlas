@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T14:11:44-04:00",
+  "generatedAt": "2026-07-24T17:04:05-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -290,14 +290,15 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
+        "No original agency file or court packet is mapped in the local Atlas corpus",
+        "Current public video/source trail is contextual and not a primary evidentiary packet",
+        "Needs direct Cahn exposé, Scully text, and conviction/court-record citations for boss-grade certainty",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 11,
+      "upgradePriorityScore": 7,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
@@ -768,14 +769,17 @@
       "missingRecordClasses": [
         "No raw radar plots or recordings",
         "Does not independently identify the targets",
+        "Not the raw radar scope photography, controller audio, or RAF mission record",
+        "Use as source-index support, not as the decisive evidentiary page",
+        "Special Report No. 14 is broader analytical context, not the complete Lakenheath operational file",
+        "Does not supply raw GCA plots, voice recordings, or interceptor mission logs",
+        "Should not be treated as stronger than the exact NARA case-file pages",
         "Relevant pages not yet inspected",
         "Catalog coverage does not prove the incident is recorded",
         "Raw radar plots, controller logs and voice recordings remain missing"
       ],
-      "upgradePriorityScore": 5,
+      "upgradePriorityScore": 1,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
       ],
@@ -1067,14 +1071,15 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
+        "No original agency case file or recovery/transport record mapped",
+        "No complete contemporaneous witness packet or chain-of-custody record in local corpus",
+        "Video/public-analysis source is contextual and cannot prove the recovery narrative",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 11,
+      "upgradePriorityScore": 7,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
@@ -1278,12 +1283,14 @@
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "No complete RAAF, police, or school administrative case file recovered",
+        "Witness-corpus/documentary material remains partly retrospective",
+        "Press and archive artifacts support occurrence/coverage, not object identity"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ],

@@ -248,7 +248,7 @@
     "indexedLinks": 4,
     "publicSourceUrls": 3,
     "evidenceAssets": 4,
-    "sourceQuality": "Public-record trail",
+    "sourceQuality": "Contemporaneous press + institutional archive trail; official RAAF/police file not recovered",
     "quoteConfidence": "verified primary-source quotation (OCR-derived)",
     "reasons": [
       "one-or-fewer structured source records",
@@ -1419,8 +1419,8 @@
     "indexedLinks": 3,
     "publicSourceUrls": 1,
     "evidenceAssets": 1,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
+    "sourceQuality": "Fraud/contradiction record; primary agency packet not recovered",
+    "quoteConfidence": "secondary-summary; fraud determination needs primary citation upgrade",
     "reasons": [
       "quote confidence needs verification upgrade"
     ]
@@ -1447,8 +1447,8 @@
     "indexedLinks": 3,
     "publicSourceUrls": 1,
     "evidenceAssets": 1,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
+    "sourceQuality": "Contextual public-record trail; primary agency packet not recovered",
+    "quoteConfidence": "secondary-summary; needs primary-record verification",
     "reasons": [
       "quote confidence needs verification upgrade"
     ]
