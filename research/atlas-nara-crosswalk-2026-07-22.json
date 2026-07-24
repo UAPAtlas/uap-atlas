@@ -1,0 +1,4893 @@
+{
+  "generatedAt": "2026-07-24T14:11:44-04:00",
+  "method": {
+    "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
+    "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
+    "warning": "unknown_case_database.json is not used for candidate generation because printed ATIC Form 329 checkbox text creates false positives."
+  },
+  "caseCount": 146,
+  "statusCounts": {
+    "exact-naid": 21,
+    "no-exact-nara-mapping": 115,
+    "collection-guide-only": 10
+  },
+  "exactMappedCaseCount": 21,
+  "candidateLeadCaseCount": 0,
+  "top10SelectionMethod": "Curated NARA-first tranche using significance, official-record tractability, local custody gaps and missing-record value; arithmetic score retained as a secondary triage signal.",
+  "top10UpgradeCaseIds": [
+    "BF-1948-MT-01",
+    "BF-1944-FF-01",
+    "BF-1946-GR-01",
+    "BF-1950-GF-01",
+    "BF-1952-TM-01",
+    "BF-1956-LB-01",
+    "BF-1965-KB-01",
+    "BF-1948-AZ-01",
+    "BF-1953-RP-00",
+    "BF-1966-WS-01"
+  ],
+  "cases": [
+    {
+      "caseId": "BF-1957-RB-01",
+      "title": "RB-47 ELINT Pursuit Case",
+      "year": 1957,
+      "sourceLocator": "NARA NAID 28970538, scans 0396–0399; Fold3 T1206 sequence beginning image 6961835",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28970538"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28970538",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "RB47-1957"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 8,
+      "localPdfCount": 1,
+      "coverageLinks": 11,
+      "missingRecordClasses": [
+        "not-the-original-case-file",
+        "some-details-from-1969-interviews",
+        "no-radar-scope-film",
+        "raw-radar-plots-absent",
+        "raw-ECM-recording-absent",
+        "interphone-recording-absent",
+        "public-grouping-includes-later-analysis"
+      ],
+      "upgradePriorityScore": -1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1933-MG-01",
+      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+      "year": 1933,
+      "sourceLocator": "MAGENTA-1933",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MAGENTA-1933"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1944-FF-01",
+      "title": "Foo Fighters, European Theater",
+      "year": 1944,
+      "sourceLocator": "FOO-1944",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "FOO-1944"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 9,
+      "missingRecordClasses": [
+        "Original microfilm scans not yet secured",
+        "December quotations still rely on public transcriptions pending image comparison",
+        "Original document scans not secured",
+        "One word in the selected quotation is unreadable in the transcription",
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ],
+      "archiveTarget": "AAF unit intelligence summaries, combat mission reports and theater histories in Air Force/Army record groups"
+    },
+    {
+      "caseId": "BF-1946-GR-01",
+      "title": "Scandinavian Ghost Rockets",
+      "year": 1946,
+      "sourceLocator": "GHOSTROCKETS-1946",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GHOSTROCKETS-1946"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "No item-level shelfmark recovered",
+        "No first-generation scan secured",
+        "No exact NARA RG 59 diplomatic file identified",
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ],
+      "archiveTarget": "State Department diplomatic reporting, U.S. air-intelligence records and Swedish military archives"
+    },
+    {
+      "caseId": "BF-1947-KA-01",
+      "title": "Kenneth Arnold Mount Rainier Sighting",
+      "year": 1947,
+      "sourceLocator": "ARNOLD-1947",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "ARNOLD-1947"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 19,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1947-MI-01",
+      "title": "Maury Island Affair",
+      "year": 1947,
+      "sourceLocator": "MAURY-1947",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MAURY-1947"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1947-RW-01",
+      "title": "Roswell Army Air Field Debris Recovery",
+      "year": 1947,
+      "sourceLocator": "ROSWELL-1947",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "ROSWELL-1947"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1948-AZ-01",
+      "title": "Aztec Crash Fraud",
+      "year": 1948,
+      "sourceLocator": "AZTEC-1948",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AZTEC-1948"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ],
+      "archiveTarget": "FBI correspondence, Project Blue Book references and records needed to test the hoax/disinformation account"
+    },
+    {
+      "caseId": "BF-1948-CW-01",
+      "title": "Chiles-Whitted Airliner Encounter",
+      "year": 1948,
+      "sourceLocator": "CHILES-1948",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28931059"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28931059",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CHILES-1948"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 9,
+      "localPdfCount": 4,
+      "coverageLinks": 10,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 5,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "caseId": "BF-1948-GD-01",
+      "title": "Gorman Dogfight, Fargo",
+      "year": 1948,
+      "sourceLocator": "GORMAN-1948, reconstructed folder p. 37 / Fold3 6388084 / NARA image 0944",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GORMAN-1948"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 12,
+      "localPdfCount": 3,
+      "coverageLinks": 13,
+      "missingRecordClasses": [
+        "NARA catalog metadata is illegible or miscoded",
+        "some technical sheets are low contrast",
+        "no tower audio exists because no recording device was installed",
+        "selection, not complete folder",
+        "index shorthand does not preserve the full analytical history"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1948-MT-01",
+      "title": "Mantell Pursuit Fatality",
+      "year": 1948,
+      "sourceLocator": "MANTELL-1948",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28930550"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28930550",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MANTELL-1948"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 9,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "Does not by itself identify the object",
+        "Does not supply independently verified balloon-launch records"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "one structured source record"
+      ],
+      "archiveTarget": "RG 341 Project Blue Book file; Kentucky ANG/USAF accident, flight and operations records"
+    },
+    {
+      "caseId": "BF-SF-07",
+      "title": "Special File: The Estimate of the Situation",
+      "year": 1948,
+      "sourceLocator": "ESTIMATE-1948",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "ESTIMATE-1948"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1949-LA-00",
+      "title": "Los Alamos Aerial Phenomena Conference",
+      "year": 1949,
+      "sourceLocator": "DOE-UAP-D004-CONFERENCE",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOE-UAP-D004-CONFERENCE"
+      ],
+      "structuredSourceRecords": 7,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 21,
+      "localPdfCount": 4,
+      "coverageLinks": 18,
+      "missingRecordClasses": [
+        "administrative cover only",
+        "underlying reports not attached",
+        "not a single-event report",
+        "recording gaps",
+        "maps and cited reports absent",
+        "transcript does not establish object identity",
+        "participants report their understanding rather than attach the cited Air Force letter",
+        "no consensus conclusion",
+        "blackboard calculations not preserved",
+        "summary compilation",
+        "underlying observation forms and complete LaPaz report not attached",
+        "later file copy",
+        "cited maps and calculations not separately preserved",
+        "association with fireballs was not established",
+        "contamination and atmospheric-transport uncertainties remain",
+        "decades later",
+        "does not independently corroborate the 1949 phenomena"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1950-GF-01",
+      "title": "Great Falls / Mariana Film",
+      "year": 1950,
+      "sourceLocator": "GREATFALLS-1950",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "61935",
+        "28938188"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "61935",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28938188",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GREATFALLS-1950"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 21,
+      "localPdfCount": 1,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "Missing first 35 frames are not recovered",
+        "Surviving public movie is not established as first-generation film",
+        "No camera-original element listed",
+        "Digital reels are later transfer derivatives",
+        "No record recovered that resolves the alleged missing first 35 frames"
+      ],
+      "upgradePriorityScore": -2,
+      "upgradeReasons": [],
+      "archiveTarget": "RG 341 Project Blue Book case file, original film-analysis correspondence and technical reports"
+    },
+    {
+      "caseId": "BF-1952-DC-01",
+      "title": "Washington D.C. Radar Flap",
+      "year": 1952,
+      "sourceLocator": "DC-FLAP-1952",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28944268",
+        "28944476",
+        "28944529",
+        "28944560",
+        "28944603",
+        "28944612"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28944268",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28944476",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28944529",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28944560",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28944603",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28944612",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DC-FLAP-1952"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 53,
+      "localPdfCount": 5,
+      "coverageLinks": 12,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1952-TM-01",
+      "title": "Tremonton / Newhouse Film",
+      "year": 1952,
+      "sourceLocator": "TREMONTON-1952",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "61937",
+        "28943418"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "61937",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28943418",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "TREMONTON-1952"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 28,
+      "localPdfCount": 1,
+      "coverageLinks": 15,
+      "missingRecordClasses": [
+        "Catalog title is blank/generic",
+        "Original first-generation film and full lab custody are not established",
+        "Digital derivative is not the first-generation 16 mm original",
+        "The historical Navy report says the analysis film was a duplicate of a copy",
+        "Complete laboratory custody ledger is not established"
+      ],
+      "upgradePriorityScore": -2,
+      "upgradeReasons": [],
+      "archiveTarget": "RG 341 Project Blue Book case file, U.S. Navy film custody and contractor analysis records"
+    },
+    {
+      "caseId": "BF-SF-03",
+      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "year": 1952,
+      "sourceLocator": "WINTERHAVEN-1952",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "WINTERHAVEN-1952"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1953-RP-00",
+      "title": "Robertson Panel Recommendations",
+      "year": 1953,
+      "sourceLocator": "CIA-UAP-002",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-002"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "recommendation-not-proof-of-implementation",
+        "two-records-access-restricted",
+        "implementation-records-not-in-released-file"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ],
+      "archiveTarget": "CIA Robertson Panel package, missing appendices/restricted documents and distribution records"
+    },
+    {
+      "caseId": "BF-1956-LB-01",
+      "title": "Lakenheath-Bentwaters Radar-Visual Case",
+      "year": 1956,
+      "sourceLocator": "LAKENHEATH-1956",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28966873"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28966873",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "LAKENHEATH-1956"
+      ],
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 7,
+      "localPdfCount": 0,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "No raw radar plots or recordings",
+        "Does not independently identify the targets",
+        "Relevant pages not yet inspected",
+        "Catalog coverage does not prove the incident is recorded",
+        "Raw radar plots, controller logs and voice recordings remain missing"
+      ],
+      "upgradePriorityScore": 5,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ],
+      "archiveTarget": "RG 341 Project Blue Book case file, USAF/RAF radar logs and communications record classes"
+    },
+    {
+      "caseId": "BF-1957-LV-01",
+      "title": "Levelland Vehicle-Interference Wave",
+      "year": 1957,
+      "sourceLocator": "NARA NAID 28972840, 81-object public grouping; scans 00983 and 01039; Fold3 sequence anchors 6781581 and 7229541",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28972840",
+        "28974191"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28972840",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28974191",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "LEVELLAND-1957"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "no-systematic-vehicle-testing",
+        "underlying-weather-station-records-not-isolated",
+        "prime-source-not-located-for-USAF-interview"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-04",
+      "title": "Special File: Chapel Hill Gravity Conference",
+      "year": 1957,
+      "sourceLocator": "CHAPELHILL-1957",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CHAPELHILL-1957"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 14,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "NARA collection/guide link only",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-1958-TR-01",
+      "title": "Trindade Island Navy Photographs",
+      "year": 1958,
+      "sourceLocator": "NARA NAID 28976748, 16-object public grouping; record card scan 0011; Fold3 sequence beginning image 6957752",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28976748"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28976748",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "TRINDADE-PBB-1958",
+        "TRINDADE-BRAZIL-NAVY-1958",
+        "TRINDADE-CIA-1958"
+      ],
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 20,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "file bundles official records with advocacy and published secondary material",
+        "underlying ONI analysis and original negatives are absent",
+        "English-language reproduction rather than the original Portuguese document",
+        "embedded in a skeptical published analysis",
+        "documents reporting and circulation, not photographic authenticity",
+        "underlying-ONI-analysis-absent",
+        "original-negatives-absent",
+        "public-file-mixes-official-and-published-material"
+      ],
+      "upgradePriorityScore": -2,
+      "upgradeReasons": []
+    },
+    {
+      "caseId": "BF-SF-02",
+      "title": "Special File: VZ-9AV Avrocar",
+      "year": 1959,
+      "sourceLocator": "AVROCAR-1959",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "6920770"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "6920770",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AVROCAR-1959"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 2,
+      "coverageLinks": 6,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "year": 1961,
+      "sourceLocator": "HILL-1961",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "HILL-1961"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D015",
+      "title": "Astronaut Scientific Debriefings",
+      "year": 1962,
+      "sourceLocator": "NASA-UAP-D015",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D015"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-1964-SC-01",
+      "title": "Socorro Landing / Lonnie Zamora",
+      "year": 1964,
+      "sourceLocator": "SOCORRO-1964",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "302532129"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "302532129",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "SOCORRO-1964"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 2,
+      "coverageLinks": 5,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1965-KB-01",
+      "title": "Kecksburg Object Recovery Narrative",
+      "year": 1965,
+      "sourceLocator": "KECKSBURG-1965",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "KECKSBURG-1965"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ],
+      "archiveTarget": "USAF Blue Book, NASA search records, FBI correspondence and recovery/transport record classes"
+    },
+    {
+      "caseId": "BF-NASA-D016",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+      "year": 1965,
+      "sourceLocator": "NASA-UAP-D016",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D016"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D017",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+      "year": 1965,
+      "sourceLocator": "NASA-UAP-D017",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D017"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D019",
+      "title": "Gemini 5 Technical Debriefing Part 1",
+      "year": 1965,
+      "sourceLocator": "NASA-UAP-D019",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D019"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D020",
+      "title": "Gemini 5 Technical Debriefing Part 2",
+      "year": 1965,
+      "sourceLocator": "NASA-UAP-D020",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D020"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D021",
+      "title": "Gemini 7 Technical Debriefing",
+      "year": 1965,
+      "sourceLocator": "NASA-UAP-D021",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D021"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-1966-CC-00",
+      "title": "Condon Committee Pre-Judgment Record",
+      "year": 1966,
+      "sourceLocator": "CONDON-1966",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CONDON-1966"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "low-memo-facsimile-not-local",
+        "methodology-correspondence-incomplete",
+        "prejudgment-does-not-prove-case-results-were-fabricated"
+      ],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1966-WS-01",
+      "title": "Westall School Mass Sighting",
+      "year": 1966,
+      "sourceLocator": "WESTALL-1966",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "WESTALL-1966"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ],
+      "archiveTarget": "RAAF and Australian National Archives records; NARA only for any U.S. liaison/circulation copies"
+    },
+    {
+      "caseId": "BF-NASA-D022",
+      "title": "Gemini 9 Debriefing",
+      "year": 1966,
+      "sourceLocator": "NASA-UAP-D022",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D022"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 14,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-1967-MA-01",
+      "title": "Malmstrom AFB Missile Shutdown Incident",
+      "year": 1967,
+      "sourceLocator": "MALMSTROM-1967-UNIT-HISTORY",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MALMSTROM-1967-UNIT-HISTORY"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 1,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "does not establish a UFO cause",
+        "preview is a reproduced page rather than the archival original",
+        "a later summary of the investigation",
+        "cannot substitute for missing raw maintenance and security records",
+        "private mirror custody",
+        "scanned-image quality",
+        "government release does not validate later UFO interpretations"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1967-SH-01",
+      "title": "Shag Harbour Water Impact",
+      "year": 1967,
+      "sourceLocator": "UFO Report — Lower Wood Harbour, N.S.; LAC account 43130",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "SHAG-HARBOUR-DND-1967",
+        "SHAG-HARBOUR-LAC-43130"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "undated summary scan",
+        "not the complete RCMP or naval operational file",
+        "mirror custody is disclosed",
+        "catalog account is not a complete incident-file scan",
+        "linked archival series includes broader non-meteoric reports"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D018",
+      "title": "Gemini 4 Experiment Debriefing",
+      "year": 1967,
+      "sourceLocator": "NASA-UAP-D018",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D018"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-01",
+      "title": "Himalayan UAP Reports — Series Index",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016, PDF pp. 3–6 (report table pp. 1–4 of 4)",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "events-not-independently-corroborated"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1968-MN-01",
+      "title": "Minot AFB Multi-Sensor Events",
+      "year": 1968,
+      "sourceLocator": "MINOT1968-NARA",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "302580672"
+      ],
+      "seriesNaids": [
+        "597821"
+      ],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "597821",
+          "recordGroup": 341,
+          "title": "Project Blue Book series",
+          "series": "series-level identifier",
+          "access": "catalog series",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "302580672",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MINOT1968-NARA"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 16,
+      "localPdfCount": 0,
+      "coverageLinks": 17,
+      "missingRecordClasses": [
+        "sanitized copy",
+        "radarscope film/photographs absent",
+        "OCR is non-authoritative research aid",
+        "official causal models not fully reproducible from public inputs"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-02",
+      "title": "Northeast Nepal / North Sikkim Correlated Report",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P4-NEPAL-SIKKIM, PDF p. 4",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P4-NEPAL-SIKKIM"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-03",
+      "title": "Thimphu Bluish Object Report",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P5-THIMPHU, PDF p. 5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P5-THIMPHU"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-04",
+      "title": "Chang La–Fukche–Koyul Light and Blasts",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P3-CHANG-LA, PDF p. 3",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P3-CHANG-LA"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-05",
+      "title": "Ane La Circular-Path Object",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P5-ANE-LA, PDF p. 5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P5-ANE-LA"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-06",
+      "title": "Fukche–Koyul–Demchok Rocket-Like Object",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P5-DEMCHOK, PDF p. 5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P5-DEMCHOK"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 15,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-1968-HIM-07",
+      "title": "Kaski Blazing Object and Disc-Retrieval Claim",
+      "year": 1968,
+      "sourceLocator": "CIA-UAP-016-P6-KASKI, PDF p. 6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-016",
+        "CIA-UAP-016-P6-KASKI"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 16,
+      "localPdfCount": 1,
+      "coverageLinks": 11,
+      "missingRecordClasses": [
+        "not-finally-evaluated-intelligence",
+        "underlying-source-redacted",
+        "witness-identities-absent",
+        "no-independent-corroboration-attached"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D001",
+      "title": "Apollo 12 Transcript",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-D1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 14,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D004",
+      "title": "Apollo 11 Technical Crew Debriefing",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-D4",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D4"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM1",
+      "title": "Apollo 12 Visual Material 1",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-VM1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM1"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM2",
+      "title": "Apollo 12 Visual Material 2",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-VM2",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM2"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM3",
+      "title": "Apollo 12 Visual Material 3",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-VM3",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM3"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM4",
+      "title": "Apollo 12 Visual Material 4",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-VM4",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM4"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM5",
+      "title": "Apollo 12 Visual Material 5",
+      "year": 1969,
+      "sourceLocator": "NASA-UAP-VM5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM5"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 14,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D026",
+      "title": "Apollo 14 Debriefing Video Record",
+      "year": 1971,
+      "sourceLocator": "NASA-UAP-D026",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D026"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 1,
+      "localPdfCount": 0,
+      "coverageLinks": 2,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D002",
+      "title": "Apollo 17 Transcript",
+      "year": 1972,
+      "sourceLocator": "NASA-UAP-D2",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D2"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-VM6",
+      "title": "Apollo 17 Visual Material",
+      "year": 1972,
+      "sourceLocator": "NASA-UAP-VM6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-VM6"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-1973-CY-01",
+      "title": "Coyne Helicopter Near-Collision",
+      "year": 1973,
+      "sourceLocator": "Zeidman 1979, PDF pp. 9, 22, 116–122",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "COYNE-OHR-1973",
+        "COYNE-CUFOS-1979"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "facsimile is embedded in a later publication",
+        "original Army file not independently archived here",
+        "one reproduced memo contains apparent date/OCR inconsistencies",
+        "published six years after the event",
+        "investigator rejects meteor and aircraft hypotheses",
+        "not an official military assessment"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1973-PG-01",
+      "title": "Pascagoula River Abduction Report",
+      "year": 1973,
+      "sourceLocator": "PASCAGOULA-1973",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "PASCAGOULA-1973"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "year": 1973,
+      "sourceLocator": "CIA-UAP-011, para. 14",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-011"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "single-source",
+        "altitude-undetermined",
+        "no-radar-record"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D005",
+      "title": "Apollo 17 Crew Debriefing for Science",
+      "year": 1973,
+      "sourceLocator": "NASA-UAP-D5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D5"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D006",
+      "title": "Apollo 17 Technical Crew Debriefing",
+      "year": 1973,
+      "sourceLocator": "NASA-UAP-D6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D6"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D007",
+      "title": "Skylab Technical Crew Debriefing",
+      "year": 1973,
+      "sourceLocator": "NASA-UAP-D7",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D7"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "year": 1975,
+      "sourceLocator": "WALTON-1975",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "WALTON-1975"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-SF-13",
+      "title": "Special File: Billy Meier Contact Corpus",
+      "year": 1975,
+      "sourceLocator": "MEIER-1975",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MEIER-1975"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 13,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-1976-TH-01",
+      "title": "Tehran F-4 Intercept Case",
+      "year": 1976,
+      "sourceLocator": "Tehran JCS/USDAO report pp. 2–3",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "TEHRAN-1976"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "no-raw-radar",
+        "no-maintenance-or-fault-records",
+        "no-follow-up-results",
+        "message-records-claims-not-object-identity"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1977-CL-01",
+      "title": "Colares Flap / Operation Prato",
+      "year": 1977,
+      "sourceLocator": "Arquivo Nacional BR DFANBSB V8 MIC GNC KKK 83003252, pp. 4–5",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "PRATO-1977"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 9,
+      "localPdfCount": 1,
+      "coverageLinks": 10,
+      "missingRecordClasses": [
+        "OCR-sensitive-Portuguese-scan",
+        "no-medical-records-attached",
+        "some-photographs-possibly-misidentified"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1978-KK-01",
+      "title": "Kaikoura Lights, Filmed Encounters",
+      "year": 1978,
+      "sourceLocator": "KAIKOURA-1978",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "KAIKOURA-1978"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 18,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1978-VL-01",
+      "title": "Valentich Disappearance, Bass Strait",
+      "year": 1978,
+      "sourceLocator": "VALENTICH-1978",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "VALENTICH-1978"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1980-CLD-01",
+      "title": "Cash-Landrum Injury Case",
+      "year": 1980,
+      "sourceLocator": "CASH-LANDRUM-1980",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CASH-LANDRUM-1980"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1980-PE-01",
+      "title": "La Joya Intercept / Santa María Engagement",
+      "year": 1980,
+      "sourceLocator": "LAJOYA-1980",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "LAJOYA-1980"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1980-RF-01",
+      "title": "Rendlesham Forest / RAF Bentwaters Incident",
+      "year": 1980,
+      "sourceLocator": "RENDLESHAM-1980-HALT-MEMO",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "RENDLESHAM-1980-HALT-MEMO"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "short summary memo",
+        "mixes subordinate reports with Halt's later firsthand account",
+        "does not identify the phenomena",
+        "retrospective collection summary",
+        "not an independent technical analysis",
+        "later administrative correspondence",
+        "does not reconstruct the event from raw sensor evidence"
+      ],
+      "upgradePriorityScore": 5,
+      "upgradeReasons": [
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-11",
+      "title": "Special File: Bennewitz–Doty Disinformation Affair",
+      "year": 1980,
+      "sourceLocator": "BENNEWITZ-1980",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "BENNEWITZ-1980"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 7,
+      "localPdfCount": 5,
+      "coverageLinks": 10,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1981-TP-01",
+      "title": "Trans-en-Provence Trace Case",
+      "year": 1981,
+      "sourceLocator": "GEPAN-1981",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GEPAN-1981"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-05",
+      "title": "Special File: Majestic 12 Documents",
+      "year": 1984,
+      "sourceLocator": "MJ12-1984",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "MJ12-1984"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1986-JAL-01",
+      "title": "Japan Airlines 1628 Alaska Encounter",
+      "year": 1986,
+      "sourceLocator": "JAL1628 FAA chronology pp. 1–3; transcript pp. 2–8; FAA release March 5, 1987",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "40587205"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "40587205",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "JAL1628-1986"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 11,
+      "localPdfCount": 0,
+      "coverageLinks": 15,
+      "missingRecordClasses": [
+        "no-continuous-confirmed-track",
+        "crew-object-size-estimate-uncertain"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
+      "year": 1987,
+      "sourceLocator": "GULFBREEZE-1987",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULFBREEZE-1987"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-1989-BW-01",
+      "title": "Belgian Wave / F-16 Radar Case",
+      "year": 1989,
+      "sourceLocator": "Belgian Air Force report section 1(b), p. 1; COBEPS retrospective pp. 1–9",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "BELGIAN-WAVE-1989"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "translated-public-copy",
+        "raw-radar-data-absent",
+        "publication-chain-incomplete",
+        "retrospective-analysis",
+        "case-catalog-includes-identified-reports"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-01",
+      "title": "Special File: Bob Lazar / S-4",
+      "year": 1989,
+      "sourceLocator": "LAZAR-1989",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "LAZAR-1989"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1990-CV-01",
+      "title": "Calvine Photograph",
+      "year": 1990,
+      "sourceLocator": "CALVINE-1990",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CALVINE-1990"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1994-AR-01",
+      "title": "Ariel School Encounter, Ruwa",
+      "year": 1994,
+      "sourceLocator": "ARIEL-1994",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "ARIEL-1994"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "year": 1995,
+      "sourceLocator": "SANTILLI-1995",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "SANTILLI-1995"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only"
+      ]
+    },
+    {
+      "caseId": "BF-1996-VG-01",
+      "title": "Varginha Creature Narrative",
+      "year": 1996,
+      "sourceLocator": "VARGINHA-1996",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "VARGINHA-1996"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D030",
+      "title": "STS-80 Unidentified Object Image 1",
+      "year": 1996,
+      "sourceLocator": "NASA-UAP-D030",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D030"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D031",
+      "title": "STS-80 Unidentified Object Image 2",
+      "year": 1996,
+      "sourceLocator": "NASA-UAP-D031",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D031"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-NASA-D032",
+      "title": "STS-80 Unidentified Object Image 3",
+      "year": 1996,
+      "sourceLocator": "NASA-UAP-D032",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D032"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 12,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1997-PH-01",
+      "title": "Phoenix Lights Mass Sighting",
+      "year": 1997,
+      "sourceLocator": "CNN commentary, November 9, 2007; no page",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "PHOENIX-LIGHTS-1997"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "published-ten-years-later",
+        "not-an-official-investigation",
+        "wave-combines-multiple-times"
+      ],
+      "upgradePriorityScore": 5,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-SF-06",
+      "title": "Special File: 'Alien Interview' / Victor Tape",
+      "year": 1997,
+      "sourceLocator": "VICTOR-1997",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "VICTOR-1997"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 10,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-SF-08",
+      "title": "Special File: COMETA Report",
+      "year": 1999,
+      "sourceLocator": "COMETA-1999",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "COMETA-1999"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2004-NM-01",
+      "title": "Nimitz / Tic Tac Encounter",
+      "year": 2004,
+      "sourceLocator": "NIMITZ-2004 executive summary, pp. 1, 3, 5–6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NIMITZ-2004"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 20,
+      "localPdfCount": 1,
+      "coverageLinks": 12,
+      "missingRecordClasses": [
+        "no-raw-radar",
+        "no-E2C-recording",
+        "authorship-chain-not-stated"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2006-OH-01",
+      "title": "O'Hare Airport Disc Sighting",
+      "year": 2006,
+      "sourceLocator": "OHARE-2006",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "OHARE-2006"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 8,
+      "localPdfCount": 3,
+      "coverageLinks": 9,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "caseId": "BF-2008-SV-01",
+      "title": "Stephenville Radar-Correlated Sightings",
+      "year": 2008,
+      "sourceLocator": "MUFON report PDF pp. 6–10, 35–48, 52, 73–75",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "STEPHENVILLE-MUFON-2008",
+        "STEPHENVILLE-FAA-FOIA-2008",
+        "STEPHENVILLE-USAF-457FS-2008"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "authors, not FAA, make the correlations",
+        "report acknowledges radar imprecision and witness-time uncertainty",
+        "raw dataset and code are not locally archived",
+        "appendix does not contain the complete 2.8-million-return dataset",
+        "FAA released data but did not endorse the authors' object identification",
+        "partially redacted",
+        "does not identify the unknown radar returns",
+        "airborne radar recordings were not retained in the public package"
+      ],
+      "upgradePriorityScore": 0,
+      "upgradeReasons": []
+    },
+    {
+      "caseId": "BF-SF-09",
+      "title": "Special File: AAWSAP / AATIP & Skinwalker",
+      "year": 2008,
+      "sourceLocator": "AAWSAP-2008",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AAWSAP-2008"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2013-AG-01",
+      "title": "Aguadilla Puerto Rico Object",
+      "year": 2013,
+      "sourceLocator": "AARO resolution pp. 1–7; SCU v8",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOD-110692805-AGUADILLA",
+        "AARO-PUERTO-RICO-2025",
+        "SCU-AGUADILLA-2015"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 8,
+      "localPdfCount": 2,
+      "coverageLinks": 11,
+      "missingRecordClasses": [
+        "deployed local copy is a web-optimized derivative; original and derivative hashes are documented; neither is a complete raw telemetry and calibration package",
+        "report does not release the complete STK scene or every model input; it states it is not finished intelligence",
+        "predates AARO’s reconstruction and depends on a materially different ground-track solution"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2014-CH-01",
+      "title": "Chilean Navy IR Video (CEFAA)",
+      "year": 2014,
+      "sourceLocator": "CEFAA-2014",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CEFAA-2014"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 18,
+      "localPdfCount": 0,
+      "coverageLinks": 9,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "quote not verified to primary page"
+      ]
+    },
+    {
+      "caseId": "BF-2015-NAV-01",
+      "title": "2015 Atlantic Navy Video Series",
+      "year": 2015,
+      "sourceLocator": "DOD-NAVY-VIDEOS-2020",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOD-NAVY-VIDEOS-2020"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "statement authenticates the release but does not identify the objects",
+        "index descriptions do not provide raw sensor or mission data"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2015-PX-04",
+      "title": "Pantex Unidentified Object Report",
+      "year": 2015,
+      "sourceLocator": "DOE-UAP-D005-NARRATIVE",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOE-UAP-D005-NARRATIVE"
+      ],
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 28,
+      "localPdfCount": 2,
+      "coverageLinks": 13,
+      "missingRecordClasses": [
+        "recipient and contact details redacted",
+        "event date conflicts with the enclosed narrative",
+        "1 Sep date conflicts with cover material",
+        "redactions",
+        "reported dimensions and colors vary",
+        "no final identification",
+        "low-resolution reproductions",
+        "native files and metadata absent",
+        "no Sandia methodology or analytical conclusion",
+        "images alone do not establish identity",
+        "duplicates pages in DOE-UAP-D005",
+        "no native image metadata",
+        "no Sandia methodology or conclusion"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2015-GIMBAL-01",
+      "title": "Gimbal Navy Sensor Event",
+      "year": 2015,
+      "sourceLocator": "DVIDS 956955; local DOD_110891172",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AARO-IMAGERY",
+        "DOD_110891172",
+        "DOD-NAVY-VIDEOS-2020",
+        "DOD-110891172-GIMBAL",
+        "PEINGS-GIMBAL-2023"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 9,
+      "localPdfCount": 1,
+      "coverageLinks": 13,
+      "missingRecordClasses": [
+        "public copy lacks original metadata and companion radar/track data",
+        "entry does not publish a case-resolution methodology",
+        "not an official reconstruction; solutions depend on assumed range, wind, and trajectories"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2015-GOFAST-01",
+      "title": "GoFast Navy Sensor Event",
+      "year": 2015,
+      "sourceLocator": "AARO methodology; NASA PDF p. 30",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOD-NAVY-VIDEOS-2020",
+        "DOD-110886776-GOFAST",
+        "AARO-GOFAST-2025",
+        "NASA-UAP-2023"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 9,
+      "missingRecordClasses": [
+        "public copy lacks original metadata and complete platform track",
+        "public report summarizes a model but does not release the complete reproducible input package",
+        "NASA explicitly notes that its calculation neglects wind effects on the aircraft"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2019-OM-01",
+      "title": "USS Omaha Sphere & Swarm Events",
+      "year": 2019,
+      "sourceLocator": "OMAHA-2019",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "OMAHA-2019"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 18,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-00",
+      "title": "Arabian Gulf 2020 Mission-Report Series",
+      "year": 2020,
+      "sourceLocator": "GULF2020-INDEX",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-INDEX"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 16,
+      "localPdfCount": 5,
+      "coverageLinks": 17,
+      "missingRecordClasses": [
+        "not a single incident",
+        "event dates and geometry partly redacted",
+        "D8 excluded because it is Djibouti 2025"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AS-01",
+      "title": "Arabian Sea Range Fouler",
+      "year": 2020,
+      "sourceLocator": "DOW-UAP-D44",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D44"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-JP-01",
+      "title": "Range Fouler Multiple Objects — Metadata Conflict",
+      "year": 2020,
+      "sourceLocator": "DOW-UAP-D42",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D42"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "redactions prevent full reconstruction",
+        "measurements not independently reproduced",
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D3",
+      "title": "Four Objects in Sequence",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D3-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D3-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D4",
+      "title": "Object Accelerating East",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D4-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D4-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D5A",
+      "title": "Constant-Speed Object at FL160–170",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D5-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D5-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D5B",
+      "title": "Two Objects Accelerating South",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D5-E2",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D5-E2"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D6",
+      "title": "Probable UAP — Sparse Mission Entry",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D6-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D6-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2020-AG-D7",
+      "title": "Windborne Balloon-Like Object",
+      "year": 2020,
+      "sourceLocator": "GULF2020-D7-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GULF2020-D7-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "date/geometry partly redacted",
+        "measurements not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2022-CS-01",
+      "title": "Cheyenne Mountain Structured Object",
+      "year": 2022,
+      "sourceLocator": "FBI-UAP-D001 / FBI-UAP-D002 / FBI-UAP-D003 / ICA-UAP-D001",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "FBI-UAP-D001",
+        "FBI-UAP-D002",
+        "FBI-UAP-D003",
+        "ICA-UAP-D001"
+      ],
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 16,
+      "localPdfCount": 4,
+      "coverageLinks": 13,
+      "missingRecordClasses": [
+        "names redacted",
+        "interview drafted in 2025",
+        "original Army report absent",
+        "single interviewed witness represented",
+        "rendering is reconstruction, not photograph",
+        "not a photograph",
+        "not sensor evidence",
+        "environmental inputs and sight-line model not released",
+        "no raw sensor data",
+        "possible explanation is not a reproduced demonstration"
+      ],
+      "upgradePriorityScore": 0,
+      "upgradeReasons": []
+    },
+    {
+      "caseId": "BF-2022-IQ-02",
+      "title": "Iraq ISR Object — No Positive Identification",
+      "year": 2022,
+      "sourceLocator": "DOW-UAP-D12, p. 6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D12"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "FMV-not-released",
+        "coordinates-partially-redacted",
+        "object-kinematics-unknown"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2022-ME-01",
+      "title": "Middle East Multi-UAP Observation",
+      "year": 2022,
+      "sourceLocator": "DOW-UAP-D10",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D10"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 1,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "redactions prevent full reconstruction",
+        "measurements not independently reproduced",
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-BC-01",
+      "title": "Restricted-Facility Bronze Cigar Object",
+      "year": 2023,
+      "sourceLocator": "FBI-SERIAL3-2023, pp. 1–2",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "FBI-SERIAL3-2023"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "location-redacted",
+        "no-photo-or-video",
+        "no-disposition"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-GR-00",
+      "title": "Greece Maritime FMV Series — October 2023",
+      "year": 2023,
+      "sourceLocator": "GREECE2023-INDEX",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GREECE2023-INDEX"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 2,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "native FMV absent",
+        "platform identity redacted",
+        "common-cause correlation not established"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-IQ-20",
+      "title": "Northeastern Syria Targeting-Pod Bright Objects",
+      "year": 2023,
+      "sourceLocator": "DOW-UAP-D20",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D20"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "native video absent",
+        "platform and collection details redacted",
+        "reported measurements not independently reproduced",
+        "no public final-resolution workpaper"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-LG-01",
+      "title": "Langley AFB Drone Incursions",
+      "year": 2023,
+      "sourceLocator": "LANGLEY-2023-DOD-BRIEFING",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "LANGLEY-2023-DOD-BRIEFING"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 1,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "does not disclose operators, raw data, platform types, or full chronology",
+        "retrospective public-affairs summary",
+        "does not supply raw sensor evidence or attribution",
+        "post-event hearing record",
+        "does not independently provide the underlying 2023 sensor package"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-SY-74",
+      "title": "Syria Near-Aircraft Bouncy-Ball Object",
+      "year": 2023,
+      "sourceLocator": "DOW-UAP-D74",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D74"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "native video absent",
+        "platform and collection details redacted",
+        "reported measurements not independently reproduced",
+        "no public final-resolution workpaper"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-WUS-03",
+      "title": "Western U.S. Federal LE Encounters",
+      "year": 2023,
+      "sourceLocator": "DOW-UAP-D079",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D079"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 7,
+      "localPdfCount": 0,
+      "coverageLinks": 8,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "empty supports field",
+        "empty limitations field",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-10",
+      "title": "Special File: Grusch Testimony & ODNI–AARO Record",
+      "year": 2023,
+      "sourceLocator": "GRUSCH-2023",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GRUSCH-2023"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 7,
+      "localPdfCount": 3,
+      "coverageLinks": 12,
+      "missingRecordClasses": [],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "empty supports field",
+        "empty limitations field",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-GR-33",
+      "title": "Greece Maritime Right-Angle Maneuvers",
+      "year": 2023,
+      "sourceLocator": "DOW-UAP-D33",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D33"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "native video absent",
+        "platform and collection details redacted",
+        "reported measurements not independently reproduced",
+        "no public final-resolution workpaper"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2023-GR-35",
+      "title": "Greece Maritime Object Toward Land",
+      "year": 2023,
+      "sourceLocator": "GREECE2023-D35-E1",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "GREECE2023-D35-E1"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "native video absent",
+        "platform and geometry redacted",
+        "reported speed not independently reproduced"
+      ],
+      "upgradePriorityScore": 3,
+      "upgradeReasons": [
+        "one structured source record"
+      ]
+    },
+    {
+      "caseId": "BF-2024-ECS-01",
+      "title": "Ayn al-Asad Live-Fire Sensor Incident",
+      "year": 2024,
+      "sourceLocator": "DOW-UAP-D28",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D28"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 7,
+      "localPdfCount": 1,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "native sensor file absent",
+        "redactions prevent full reconstruction",
+        "measurements not independently reproduced",
+        "not an independent source",
+        "does not corroborate the event narrative",
+        "cannot substitute for missing primary records"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2024-GR-25",
+      "title": "Greece SWIR Diamond Object",
+      "year": 2024,
+      "sourceLocator": "DOW-UAP-D25",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D25"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "native video absent",
+        "platform and collection details redacted",
+        "reported measurements not independently reproduced",
+        "no public final-resolution workpaper"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2024-NE-02",
+      "title": "Northeastern Orb Surveillance",
+      "year": 2024,
+      "sourceLocator": "FBI-UAP-D004",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "FBI-UAP-D004"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 12,
+      "localPdfCount": 0,
+      "coverageLinks": 12,
+      "missingRecordClasses": [
+        "identities-and-location-redacted",
+        "original-videos-not-mapped",
+        "full-resolution-agent-photos-not-mapped",
+        "no-published-analysis-or-closure"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2025-USIC-01",
+      "title": "Senior USIC Test-Range Orb Encounters",
+      "year": 2025,
+      "sourceLocator": "ODNI-UAP-D001, pp. 1–2",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "ODNI-UAP-D001"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "no-supporting-operational-records",
+        "location-redacted",
+        "witnesses-anonymous"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-2025-YS-01",
+      "title": "Yellow Sea IR Area of Contrast",
+      "year": 2025,
+      "sourceLocator": "DOW-UAP-PR104",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-PR104"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 1,
+      "localPdfCount": 0,
+      "coverageLinks": 2,
+      "missingRecordClasses": [
+        "informational-description-only",
+        "no-platform-or-sensor-identification",
+        "no-range-or-atmospheric-data",
+        "no-analytical-work-product"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1994-KZ-01",
+      "title": "Kazakhstan Commercial Aviation Encounter",
+      "year": 1994,
+      "sourceLocator": "DOS-UAP-D2, DUSHANBE 00259",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOS-UAP-D2, DUSHANBE 00259"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "photographs-not-in-released-file",
+        "no-radar-correlation",
+        "no-follow-up-investigation"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1952-PL-01",
+      "title": "Port Lyautey 4,900 MPH Object",
+      "year": 1952,
+      "sourceLocator": "DC-FLAP-1952, pp. 30, 51, 53",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DC-FLAP-1952, pp. 30, 51, 53"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "no-radar-data-located",
+        "investigator-worksheets-missing"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1952-BE-01",
+      "title": "Bethesda Shape-Shifting Object",
+      "year": 1952,
+      "sourceLocator": "DC-FLAP-1952, pp. 99-103",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DC-FLAP-1952, pp. 99-103"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "no-blue-book-case-number-located",
+        "no-official-conclusion-located"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1957-NC-01",
+      "title": "Northern California Coast Radar Skinpaint",
+      "year": 1957,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Aug 3, 1957 report",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, Aug 3, 1957 report"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "no-visual-contact",
+        "aircraft-identity-not-extracted",
+        "follow-up-investigation-not-located"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1957-B47-01",
+      "title": "B-47 Supersonic Acceleration Encounter",
+      "year": 1957,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, B-47 encounter report",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, B-47 encounter report"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "exact-date-not-extracted",
+        "exact-location-not-extracted",
+        "B-47-unit-identity-not-extracted"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1949-KD-01",
+      "title": "Kodiak Naval Base 1,500 MPH Object",
+      "year": 1949,
+      "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 51-52",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D084, 342-HS1, pp. 51-52"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "full-file-requires-OCR",
+        "follow-up-investigation-not-extracted",
+        "official-conclusion-not-located"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1952-R5D-01",
+      "title": "R5D Pilot — Bright Disc That Circled the Aircraft",
+      "year": 1952,
+      "sourceLocator": "DC-FLAP-1952, p. 53",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DC-FLAP-1952, p. 53"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 3,
+      "missingRecordClasses": [
+        "no-blue-book-case-number-located",
+        "no-official-conclusion-located"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1965-G7-01",
+      "title": "Gemini 7 Astronaut 'Bogey' Report",
+      "year": 1965,
+      "sourceLocator": "NASA T-00763(Rlb)",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA T-00763(Rlb)"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "no-radar-correlation",
+        "no-follow-up-analysis",
+        "no-photographic-evidence"
+      ],
+      "upgradePriorityScore": 11,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1949-SA-01",
+      "title": "San Andres Islands — Three Color-Changing Spheres",
+      "year": 1949,
+      "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 75, 77",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D084, 342-HS1, pp. 75, 77"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 3,
+      "missingRecordClasses": [
+        "full-follow-up-not-extracted",
+        "official-conclusion-not-located"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1949-HF-01",
+      "title": "Hickam Field — Oscillating Object, No Sound",
+      "year": 1949,
+      "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 90-93",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOW-UAP-D084, 342-HS1, pp. 90-93"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "full-follow-up-not-extracted",
+        "official-conclusion-not-located"
+      ],
+      "upgradePriorityScore": 9,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1956-DF-01",
+      "title": "DeFuniak Springs — Instantaneous 400-Yard Movement",
+      "year": 1956,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, TR-1-57",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, TR-1-57"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 8,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "single-witness",
+        "investigator-forced-helicopter-explanation"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1954-KL-01",
+      "title": "Killeen — Silent Near-Vertical Ascent",
+      "year": 1954,
+      "sourceLocator": "AISS-1954, Killeen TX",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "310994070"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "310994070",
+          "recordGroup": 341,
+          "title": "1954: Killeen, Texas, November 14/16, 1954",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 155
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AISS-1954, Killeen TX"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "full-file-not-OCRed",
+        "witness-identities-not-extracted",
+        "official-conclusion-not-extracted"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1955-USSR-01",
+      "title": "USSR — Objects at 12,000 km/h (Mach 10)",
+      "year": 1955,
+      "sourceLocator": "CIA-UAP-018-USSR",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-018-USSR"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 1,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "explicitly-unevaluated-information",
+        "secondhand-relative-letter",
+        "measurement-method-not-given",
+        "underlying-observers-and-location-not-identified",
+        "no-follow-up-analysis-in-release"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1973-SL-01",
+      "title": "Skylab — 'One or Two Objects Up There With Us'",
+      "year": 1973,
+      "sourceLocator": "NASA-UAP-D7",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "NASA-UAP-D7"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 0,
+      "coverageLinks": 6,
+      "missingRecordClasses": [
+        "specific-crew-member-not-pinpointed",
+        "exact-mission-day-not-pinpointed",
+        "no-radar-correlation"
+      ],
+      "upgradePriorityScore": 6,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1957-HT-01",
+      "title": "Hastings MI — Arrowhead Formation from Separating Object",
+      "year": 1957,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, Report 1-57"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 3,
+      "missingRecordClasses": [
+        "no-radar-confirmation",
+        "no-photographic-evidence"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1957-CG-01",
+      "title": "Three Cigar Objects in 'Y' Formation",
+      "year": 1957,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, p. 15",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, p. 15"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 2,
+      "localPdfCount": 0,
+      "coverageLinks": 3,
+      "missingRecordClasses": [
+        "exact-location-not-extracted",
+        "witness-identity-not-extracted",
+        "no-follow-up-located"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1951-YK-01",
+      "title": "Yorkshire 'Perfect Flying Saucer' — RAF Standing Committee",
+      "year": 1951,
+      "sourceLocator": "CIA-UAP-014-BRITISH",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-UAP-014-BRITISH"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 1,
+      "coverageLinks": 3,
+      "missingRecordClasses": [
+        "secondhand-report-to-cia",
+        "messenger-and-participant-identities-redacted-or-unnamed",
+        "exact-field-not-stated",
+        "final-disposition-records-not-located"
+      ],
+      "upgradePriorityScore": 7,
+      "upgradeReasons": [
+        "one structured source record",
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1985-PNG-01",
+      "title": "Papua New Guinea — High-Altitude Overflights",
+      "year": 1985,
+      "sourceLocator": "DOS-UAP-D1, PORT MORESBY 00199",
+      "mappingStatus": "collection-guide-only",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "DOS-UAP-D1, PORT MORESBY 00199"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 3,
+      "localPdfCount": 0,
+      "coverageLinks": 4,
+      "missingRecordClasses": [
+        "no-radar-data",
+        "no-follow-up-investigation",
+        "no-uscincpac-response-located"
+      ],
+      "upgradePriorityScore": 8,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1957-RA-01",
+      "title": "Robins AFB — Object That 'Did Not Appear Conventional'",
+      "year": 1957,
+      "sourceLocator": "AIIRS-1957, NAID 311001910, pp. 16-18",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "311001910"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "311001910",
+          "recordGroup": 341,
+          "title": "AIIRs [Air Intelligence Information Reports]: 1957",
+          "series": "4602D AISS field files",
+          "access": "online object set",
+          "digitalObjectCount": 301
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "AIIRS-1957, NAID 311001910, pp. 16-18"
+      ],
+      "structuredSourceRecords": 1,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 4,
+      "localPdfCount": 0,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "exact-date-not-extracted",
+        "witness-identities-not-extracted"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "one structured source record",
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-SF-14",
+      "title": "Special File: CIA OSE Study Group — 1952 Internal UFO Review",
+      "year": 1952,
+      "sourceLocator": "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6",
+      "mappingStatus": "no-exact-nara-mapping",
+      "exactNaids": [],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6"
+      ],
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 52,
+      "localPdfCount": 3,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "working-papers-not-declassified",
+        "consultant-identities-redacted",
+        "scanned-image-PDF",
+        "poor-OCR-quality",
+        "underlying-study-materials-missing"
+      ],
+      "upgradePriorityScore": 4,
+      "upgradeReasons": [
+        "historical case lacks exact NAID",
+        "high-significance dossier"
+      ]
+    },
+    {
+      "caseId": "BF-1951-FM-01",
+      "title": "Fort Monmouth Radar-Visual Incident",
+      "year": 1951,
+      "sourceLocator": "NARA NAID 28939862, scans 00978–01064; Fold3 T1206 image 7010207",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28939862"
+      ],
+      "seriesNaids": [],
+      "recordGroups": [],
+      "resolvedNaraRecords": [
+        {
+          "naid": "28939862",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
+      "candidateAissLeads": [],
+      "sourceIndexTokens": [
+        "FORT-MONMOUTH-1951"
+      ],
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 2,
+      "localCustodyFileCount": 6,
+      "localPdfCount": 0,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "raw-radar-scope-film-absent",
+        "no-plotting-records-kept-by-maintenance-students",
+        "pilot-names-partially-redacted",
+        "weather-data-for-anomalous-propagation-not-isolated",
+        "teletype-compresses-detail",
+        "some-redactions-in-header",
+        "operators-were-maintenance-students-not-operators",
+        "no-logs-or-data-tapes-kept"
+      ],
+      "upgradePriorityScore": 1,
+      "upgradeReasons": [
+        "no complete local PDF in mapped custody",
+        "high-significance dossier"
+      ]
+    }
+  ]
+}
