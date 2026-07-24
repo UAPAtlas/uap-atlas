@@ -2111,5 +2111,794 @@
     "reasons": [
       "source profile=secondary-only"
     ]
+  },
+  {
+    "id": "BF-1968-HIM-06",
+    "title": "Fukche\u2013Koyul\u2013Demchok Rocket-Like Object",
+    "score": 22,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "scan-sensitive-document-transcription",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
+    "id": "BF-1976-TH-01",
+    "title": "Tehran F-4 Intercept Case",
+    "score": 17,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Primary record",
+    "quoteConfidence": "verified against declassified report image",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:declassified us government record mirrored by nsa"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1944-FF-01",
+    "title": "Foo Fighters, European Theater",
+    "score": 15,
+    "sourceRecords": 3,
+    "indexedLinks": 6,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
+    "quoteConfidence": "Medium \u2014 the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured.",
+    "sourceProfile": {
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "private-archive",
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "quote confidence needs verification upgrade",
+      "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1952-BE-01",
+    "title": "Bethesda Shape-Shifting Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 6,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 6,
+    "sourceQuality": "Primary record \u2014 Blue Book case files",
+    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1952-PL-01",
+    "title": "Port Lyautey 4,900 MPH Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary record \u2014 Blue Book case files",
+    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1952-R5D-01",
+    "title": "R5D Pilot \u2014 Bright Disc That Circled the Aircraft",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary record \u2014 Blue Book case files",
+    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1953-RP-00",
+    "title": "Robertson Panel Recommendations",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Primary source",
+    "quoteConfidence": "verified against rendered primary-source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-01",
+    "title": "Himalayan UAP Reports \u2014 Series Index",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-02",
+    "title": "Northeast Nepal / North Sikkim Correlated Report",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-03",
+    "title": "Thimphu Bluish Object Report",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-04",
+    "title": "Chang La\u2013Fukche\u2013Koyul Light and Blasts",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-05",
+    "title": "Ane La Circular-Path Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-HIM-07",
+    "title": "Kaski Blazing Object and Disc-Retrieval Claim",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official intelligence record; underlying source redacted",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1968-MN-01",
+    "title": "Minot AFB Multi-Sensor Events",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 16,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 14,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1973-CY-01",
+    "title": "Coyne Helicopter Near-Collision",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Independent investigation with reproduced official paperwork",
+    "quoteConfidence": "verified direct-testimony quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:army forms reproduced in the later cufos monograph",
+        "other:center for ufo studies technical monograph"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1977-CL-01",
+    "title": "Colares Flap / Operation Prato",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 9,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary record",
+    "quoteConfidence": "verbatim-Portuguese-document-quote",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:brazilian arquivo nacional"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D3",
+    "title": "Four Objects in Sequence",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D4",
+    "title": "Object Accelerating East",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D5A",
+    "title": "Constant-Speed Object at FL160\u2013170",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D5B",
+    "title": "Two Objects Accelerating South",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D6",
+    "title": "Probable UAP \u2014 Sparse Mission Entry",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2020-AG-D7",
+    "title": "Windborne Balloon-Like Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2022-IQ-02",
+    "title": "Iraq ISR Object \u2014 No Positive Identification",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Primary source",
+    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:official declassified pursue release"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-BC-01",
+    "title": "Restricted-Facility Bronze Cigar Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary source",
+    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-GR-00",
+    "title": "Greece Maritime FMV Series \u2014 October 2023",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 6,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Primary released mission report",
+    "quoteConfidence": "verified against released PDF text",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-GR-33",
+    "title": "Greece Maritime Right-Angle Maneuvers",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary released mission report",
+    "quoteConfidence": "verified against released PDF text",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-GR-35",
+    "title": "Greece Maritime Object Toward Land",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary released record",
+    "quoteConfidence": "verified against released source page",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-IQ-20",
+    "title": "Northeastern Syria Targeting-Pod Bright Objects",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary released mission report",
+    "quoteConfidence": "verified against released PDF text",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-SY-74",
+    "title": "Syria Near-Aircraft Bouncy-Ball Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "Primary released mission report",
+    "quoteConfidence": "verified against released PDF text",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2024-GR-25",
+    "title": "Greece SWIR Diamond Object",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary released mission report",
+    "quoteConfidence": "verified against released PDF text",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2024-NE-02",
+    "title": "Northeastern Orb Surveillance",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 6,
+    "sourceQuality": "Primary source",
+    "quoteConfidence": "verified against rendered FBI record",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2025-USIC-01",
+    "title": "Senior USIC Test-Range Orb Encounters",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary source",
+    "quoteConfidence": "confirmed primary-source-file quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:official pursue release"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2025-YS-01",
+    "title": "Yellow Sea IR Area of Contrast",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Primary record",
+    "quoteConfidence": "verified official web-record quotation",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:primary record"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1989-BW-01",
+    "title": "Belgian Wave / F-16 Radar Case",
+    "score": 10,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Primary record",
+    "quoteConfidence": "verbatim-document-quote",
+    "sourceProfile": {
+      "label": "mixed-provenance",
+      "primaryRecords": 1,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:cobeps, 2012",
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=mixed-provenance"
+    ]
   }
 ]

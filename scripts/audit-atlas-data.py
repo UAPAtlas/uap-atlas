@@ -53,33 +53,99 @@ def public_urls(case):
     return unique_strings(url for url in urls if isinstance(url, str) and url.startswith(("http://", "https://")))
 
 
+def source_family(record):
+    """Coarse origin family; repeated pages from one packet are not independent sources."""
+    text = " ".join(str(record.get(field, "")) for field in ("sourceType", "provenance", "citation")).lower()
+    families = (
+        ("fbi", ("federal bureau of investigation", " fbi")),
+        ("civil-aviation", ("civil aeronautics", " faa", " caa")),
+        ("usaf-blue-book", ("usaf", "air force", "blue book", "atic", "4602d", "rg 341")),
+        ("cia", ("central intelligence", " cia")),
+        ("nasa", ("nasa",)),
+        ("navy", ("u.s. navy", "us navy", "office of naval intelligence")),
+        ("press", ("newspaper", "press", "magazine")),
+        ("academic", ("university", "college", "scientific journal")),
+        ("private-archive", ("private archive", "private mirror", "cufon", "nicap")),
+    )
+    for family, terms in families:
+        if any(term in text for term in terms):
+            return family
+    return "other:" + str(record.get("provenance") or record.get("sourceType") or "unknown").strip().lower()
+
+
+def source_profile(case):
+    records = [record for record in (case.get("sourceRecords") or []) if isinstance(record, dict)]
+    quality = str(case.get("sourceQuality", "")).lower()
+    combined = " ".join(
+        [quality]
+        + [" ".join(str(record.get(field, "")) for field in ("sourceType", "provenance", "locator")).lower() for record in records]
+    )
+    primary_terms = ("primary", "official", "government", "nara", "case-file", "case file", "field-investigation", "mission transcript")
+    secondary_terms = ("secondary", "press", "web article", "retrospective", "private archive", "public-record trail")
+    primary_count = sum(any(term in " ".join(str(record.get(field, "")) for field in ("sourceType", "provenance")).lower() for term in primary_terms) for record in records)
+    secondary_count = sum(any(term in " ".join(str(record.get(field, "")) for field in ("sourceType", "provenance")).lower() for term in secondary_terms) for record in records)
+    families = {source_family(record) for record in records}
+    complete_packet = (
+        any(term in combined for term in ("complete exact", "complete official", "complete 4602d", "complete packet", "complete case-file", "complete case file", "official-complete-public-file-grouping"))
+        or (any(term in combined for term in ("digital objects", "-page", " pages", "case-file", "field-investigation-packet")) and primary_count and all(record.get("supports") and record.get("limitations") for record in records))
+    )
+    if complete_packet:
+        label = "complete-primary-packet"
+    elif len(families) >= 2 and primary_count >= 2:
+        label = "multi-source-independent"
+    elif primary_count and secondary_count:
+        label = "mixed-provenance"
+    elif primary_count:
+        label = "single-primary-record"
+    elif secondary_count or any(term in quality for term in secondary_terms):
+        label = "secondary-only"
+    else:
+        label = "thin-summary"
+    return {
+        "label": label,
+        "primaryRecords": primary_count,
+        "secondaryRecords": secondary_count,
+        "independentSourceFamilies": len(families),
+        "sourceFamilies": sorted(families),
+    }
+
+
 
 def source_depth_weakness(case, coverage_row):
     records = case.get("sourceRecords", []) or []
+    profile = source_profile(case)
     reasons = []
     score = 0
-    if len(records) <= 1:
-        score += 30
-        reasons.append("one-or-fewer structured source records")
-    if any(isinstance(record, dict) and not str(record.get("supports", "")).strip() for record in records):
-        score += 20
+    profile_scores = {
+        "complete-primary-packet": 0,
+        "multi-source-independent": 0,
+        "mixed-provenance": 10,
+        "single-primary-record": 12,
+        "secondary-only": 25,
+        "thin-summary": 30,
+    }
+    score += profile_scores[profile["label"]]
+    if profile_scores[profile["label"]]:
+        reasons.append(f"source profile={profile['label']}")
+    if any(isinstance(record, dict) and record.get("supports") in (None, "", []) for record in records):
+        score += 15
         reasons.append("empty supports field")
-    if any(isinstance(record, dict) and not str(record.get("limitations", "")).strip() for record in records):
-        score += 20
+    if any(isinstance(record, dict) and record.get("limitations") in (None, "", []) for record in records):
+        score += 15
         reasons.append("empty limitations field")
     source_quality = str(case.get("sourceQuality", "")).lower()
-    if any(term in source_quality for term in ("collection", "summary", "secondary", "preview")):
-        score += 12
+    if any(term in source_quality for term in ("summary", "secondary", "preview")) and profile["label"] not in {"complete-primary-packet", "multi-source-independent"}:
+        score += 8
         reasons.append(f"sourceQuality={case.get('sourceQuality')}")
     quote_conf = str(case.get("quoteConfidence", "")).lower()
     if any(term in quote_conf for term in ("summary", "web article", "unclear", "transcription", "not archived")):
         score += 10
         reasons.append("quote confidence needs verification upgrade")
-    if coverage_row.get("indexedLinks", 0) <= 1:
+    if coverage_row.get("indexedLinks", 0) <= 1 and profile["label"] not in {"complete-primary-packet", "multi-source-independent"}:
         score += 8
         reasons.append("thin source-index mapping")
     flagship_terms = ("Roswell", "Arnold", "Westall", "Shag", "Malmstrom", "Rendlesham", "Tehran", "JAL", "Foo", "Ghost", "Mantell", "Calvine")
-    if any(term.lower() in str(case.get("title", "")).lower() for term in flagship_terms):
+    if score and any(term.lower() in str(case.get("title", "")).lower() for term in flagship_terms):
         score += 5
         reasons.append("flagship/contradiction case")
     return {
@@ -92,6 +158,7 @@ def source_depth_weakness(case, coverage_row):
         "evidenceAssets": coverage_row.get("evidenceAssets", 0),
         "sourceQuality": case.get("sourceQuality"),
         "quoteConfidence": case.get("quoteConfidence"),
+        "sourceProfile": profile,
         "reasons": reasons,
     }
 
@@ -136,11 +203,14 @@ for case in cases:
     geom = (case.get("geospatial") or {}).get("geometry")
     geometry_types[(geom or {}).get("type", "none")] += 1
 
-weak_cases = sorted(
+ranked_cases = sorted(
     (source_depth_weakness(case, row) for case, row in zip(cases, coverage)),
     key=lambda item: (-item["score"], item["id"]),
 )
-weak_cases = [item for item in weak_cases if item["score"] > 0]
+enrichment_candidates = [item for item in ranked_cases if item["score"] > 0]
+# Scores below 25 identify modest metadata/quote upgrades, not genuinely weak dossiers.
+weak_cases = [item for item in enrichment_candidates if item["score"] >= 25]
+source_profiles = {case["id"]: source_profile(case) for case in cases}
 
 report = {
     "schemaVersion": atlas.get("schemaVersion"),
@@ -180,12 +250,17 @@ report = {
     "quotesWithLocators": sum(bool(c.get("keyQuote") and c.get("sourceLocator")) for c in cases),
     "sourceRecordCount": sum(len(c.get("sourceRecords", [])) for c in cases),
     "sourceDepthWeakCaseCount": len(weak_cases),
+    "sourceDepthEnrichmentCandidateCount": len(enrichment_candidates),
+    "sourceDepthWeakThreshold": 25,
+    "sourceProfileCounts": dict(Counter(item["label"] for item in source_profiles.values())),
+    "sourceProfiles": source_profiles,
     "topSourceDepthWeakCases": weak_cases[:10],
 }
 
 (QA / "atlas-data-code-audit.json").write_text(json.dumps(report, indent=2) + "\n")
 (QA / "all-cases-final-source-coverage.json").write_text(json.dumps(coverage, indent=2) + "\n")
 (QA / "source-depth-weak-case-priorities.json").write_text(json.dumps(weak_cases, indent=2) + "\n")
+(QA / "source-depth-enrichment-candidates.json").write_text(json.dumps(enrichment_candidates, indent=2) + "\n")
 print(json.dumps(report, indent=2))
 if missing_assets or any(field_missing.values()) or report["casesWithoutMappedLinks"]:
     raise SystemExit(1)

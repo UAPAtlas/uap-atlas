@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T17:04:05-04:00",
+  "generatedAt": "2026-07-24T19:03:13-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -156,10 +156,10 @@
         "GHOSTROCKETS-1946"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 7,
       "missingRecordClasses": [
         "No item-level shelfmark recovered",
         "No first-generation scan secured",
@@ -284,24 +284,29 @@
       "sourceIndexTokens": [
         "AZTEC-1948"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
-      "localCustodyFileCount": 3,
+      "structuredSourceRecords": 5,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 5,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "No original agency file or court packet is mapped in the local Atlas corpus",
         "Current public video/source trail is contextual and not a primary evidentiary packet",
         "Needs direct Cahn exposé, Scully text, and conviction/court-record citations for boss-grade certainty",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "Investigative journalism, not a court judgment or complete agency file",
+        "The public host is an academic mirror rather than the magazine publisher",
+        "Investigative journalism, not a substitute for the underlying court exhibits",
+        "The public host is an academic mirror",
+        "The collection concerns Newton broadly and is not itself an Aztec crash-investigation packet",
+        "Page-level Aztec citations still require a dedicated file review"
       ],
-      "upgradePriorityScore": 7,
+      "upgradePriorityScore": 5,
       "upgradeReasons": [
         "historical case lacks exact NAID",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ],
       "archiveTarget": "FBI correspondence, Project Blue Book references and records needed to test the hoax/disinformation account"
     },
@@ -545,7 +550,7 @@
       "caseId": "BF-1952-DC-01",
       "title": "Washington D.C. Radar Flap",
       "year": 1952,
-      "sourceLocator": "DC-FLAP-1952",
+      "sourceLocator": "DC-FLAP-1952 · NARA NAIDs 28944268, 28944476, 28944529, 28944560, 28944603, 28944612, 461457646; T1206 roll 90 frames 0127–0129",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "28944268",
@@ -553,7 +558,8 @@
         "28944529",
         "28944560",
         "28944603",
-        "28944612"
+        "28944612",
+        "461457646"
       ],
       "seriesNaids": [],
       "recordGroups": [],
@@ -605,23 +611,44 @@
           "series": null,
           "access": "explicit NAID; metadata not present in local inventories",
           "digitalObjectCount": null
+        },
+        {
+          "naid": "461457646",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
         }
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
         "DC-FLAP-1952"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 3,
-      "localCustodyFileCount": 53,
+      "structuredSourceRecords": 5,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 54,
       "localPdfCount": 5,
-      "coverageLinks": 12,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 6,
+      "coverageLinks": 15,
+      "missingRecordClasses": [
+        "current-NARA-file-unit-titles-mismatch-adjacent-frame-spans",
+        "not-a-continuous-complete-case-file",
+        "raw-radar-data-absent",
+        "originating-OSI-office-recorded-no-investigation",
+        "raw-radar-plots-absent",
+        "promised-Bolling-follow-up-not-recovered",
+        "program-review-not-raw-event-record",
+        "page-addresses-investigative-capacity-not-target-identity",
+        "prepared-before-full-second-weekend-analysis",
+        "public-copy-is-private-archive-derivative",
+        "does-not-fully-reproduce-July-26-27-sequence",
+        "does-not-supply-raw-scope-data",
+        "telephoned-reports-not-independent-investigation",
+        "wrapper-is-secondary",
+        "reports-do-not-establish-object-identity"
+      ],
+      "upgradePriorityScore": -1,
       "upgradeReasons": [
-        "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -1016,7 +1043,7 @@
       "caseId": "BF-1964-SC-01",
       "title": "Socorro Landing / Lonnie Zamora",
       "year": 1964,
-      "sourceLocator": "SOCORRO-1964",
+      "sourceLocator": "SOCORRO-1964 · NARA NAID 302532129; FBI file pp. 9, 14–15, 30–31",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "302532129"
@@ -1037,17 +1064,27 @@
       "sourceIndexTokens": [
         "SOCORRO-1964"
       ],
-      "structuredSourceRecords": 1,
+      "structuredSourceRecords": 4,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 4,
+      "localCustodyFileCount": 7,
       "localPdfCount": 2,
-      "coverageLinks": 5,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 6,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "photographs-do-not-show-object",
+        "trace-causation-not-established",
+        "complete-laboratory-custody-not-recovered",
+        "FBI-policy-was-liaison-not-investigation",
+        "summary-relies-on-Zamora-report",
+        "does-not-identify-object",
+        "observations-document-condition-not-cause",
+        "no-object-photograph",
+        "no-modern-forensic-analysis",
+        "FBI-records-secondhand-Air-Force-statements",
+        "not-final-Blue-Book-disposition-card",
+        "explanation-absence-is-not-origin-proof"
+      ],
+      "upgradePriorityScore": -1,
       "upgradeReasons": [
-        "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -1065,18 +1102,21 @@
       "sourceIndexTokens": [
         "KECKSBURG-1965"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 5,
       "missingRecordClasses": [
         "No original agency case file or recovery/transport record mapped",
         "No complete contemporaneous witness packet or chain-of-custody record in local corpus",
         "Video/public-analysis source is contextual and cannot prove the recovery narrative",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "The opinion does not establish that an anomalous object was recovered",
+        "It does not supply Army recovery logs or a physical chain of custody",
+        "Later search results must be evaluated separately"
       ],
       "upgradePriorityScore": 7,
       "upgradeReasons": [
@@ -4520,7 +4560,7 @@
       "caseId": "BF-1954-KL-01",
       "title": "Killeen — Silent Near-Vertical Ascent",
       "year": 1954,
-      "sourceLocator": "AISS-1954, Killeen TX",
+      "sourceLocator": "NARA NAID 310994070, 155 digital objects; decisive analysis at corpus pp. 151–152",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "310994070"
@@ -4541,21 +4581,28 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AISS-1954, Killeen TX"
+        "KILLEEN-1954"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 2,
-      "localCustodyFileCount": 5,
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 1,
+      "localCustodyFileCount": 7,
       "localPdfCount": 0,
-      "coverageLinks": 7,
+      "coverageLinks": 8,
       "missingRecordClasses": [
-        "full-file-not-OCRed",
-        "witness-identities-not-extracted",
-        "official-conclusion-not-extracted"
+        "final-ATIC-disposition-absent",
+        "no-radar-or-photography",
+        "official-custody-does-not-identify-object",
+        "same-unit-witness-cluster",
+        "visual-estimates-not-instrumented",
+        "low-cloud-and-half-mile-visibility",
+        "single-witness-balloon-comparison",
+        "no-measured-object-range",
+        "wind-analysis-does-not-identify-object",
+        "investigator-assessment-not-object-identification",
+        "final-Blue-Book-disposition-not-in-packet"
       ],
-      "upgradePriorityScore": 4,
+      "upgradePriorityScore": 1,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
       ]

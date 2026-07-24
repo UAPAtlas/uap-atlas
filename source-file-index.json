@@ -37,7 +37,9 @@
   "AZTEC-1948": [
     "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
     "assets/source_previews/BF-1948-AZ-01_source_manifest.svg",
-    "source-files/evidence-depth/AZTEC-1948-evidence-depth.md"
+    "source-files/evidence-depth/AZTEC-1948-evidence-depth.md",
+    "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1952-True-p1.png",
+    "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1956-True-p1.png"
   ],
   "BELGIAN-WAVE-1989": [
     "assets/source_previews/BF-1989-BW-01_BELGIAN-WAVE-1989-Belgian_UFO_Report_page_001.png",
@@ -174,7 +176,10 @@
     "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
     "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-128_Fold3-12645604_WFM-38572394.jpg",
     "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-129_Fold3-12645610_WFM-38572395.jpg",
-    "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/Washington-DC_1952_NARA-PBB90-127-129_recovered_3pp.pdf"
+    "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/Washington-DC_1952_NARA-PBB90-127-129_recovered_3pp.pdf",
+    "assets/evidence/DC-FLAP-1952/DC-1952-Ruppelt-Staff-Study-NAID-461457646-p34.jpg",
+    "https://catalog.archives.gov/id/461457646",
+    "https://www.fold3.com/image/12645597/"
   ],
   "DOD_110692805": [
     "https://www.dvidshub.net/video/944204/puerto-rico-objects"
@@ -733,7 +738,11 @@
     "assets/source_previews/BF-1964-SC-01_source_image.jpg",
     "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
     "assets/evidence/SOCORRO-1964/SOCORRO-1964-BlueBook-site-photographs-25p.pdf",
-    "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-file-31p.pdf"
+    "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-file-31p.pdf",
+    "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p09-FBI-airtel-witness-and-traces.jpg",
+    "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p15-FBI-field-trace-description.jpg",
+    "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p30-FBI-Air-Force-no-explanation.jpg",
+    "https://catalog.archives.gov/id/302532129"
   ],
   "STEPHENVILLE-2008": [
     "assets/evidence/STEPHENVILLE-2008/STEPHENVILLE-2008-MUFON-report-cover.png",
@@ -1295,5 +1304,10 @@
     "source-files/archives/FORT-MONMOUTH-1951-NARA-NAID-28939862/custody-manifest.json",
     "https://catalog.archives.gov/id/28939862",
     "https://www.fold3.com/image/7010207"
+  ],
+  "KILLEEN-1954": [
+    "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p151-balloon-analysis.jpg",
+    "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
+    "https://catalog.archives.gov/id/310994070"
   ]
 }

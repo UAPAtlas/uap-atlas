@@ -56,6 +56,8 @@ Updated the primary public-record source to explicitly support only:
 
 Limitations now explicitly say no original agency case file, recovery/transport record, complete contemporaneous witness packet, or chain-of-custody record is mapped.
 
+**Priority 4 update:** Added *Kean v. NASA*, 480 F. Supp. 2d 150 (D.D.C. 2007), as the primary legal-record anchor. It documents the FOIA adequacy-of-search dispute but does not establish a recovery.
+
 **Crosswalk score after patch:** 7  
 **Remaining reasons:** historical case lacks exact NAID; no complete local PDF; quote not verified to primary page.
 
@@ -67,7 +69,7 @@ Reframed the case as a fraud/contradiction boundary case, not as crash evidence.
 - fraud/contradiction classification;
 - value as a hoax/disinformation boundary case.
 
-Limitations now state that direct Cahn exposé, Scully text, and conviction/court-record citations are still needed for boss-grade certainty.
+**Priority 4 update:** Recovered and visually verified the opening pages of Cahn’s 1952 *True* exposé and 1956 follow-up, and added the FBI Vault’s six-part Silas Newton collection. Remaining work is page-level FBI indexing and original court exhibits—not evidence of a crash.
 
 **Crosswalk score after patch:** 7  
 **Remaining reasons:** historical case lacks exact NAID; no complete local PDF; quote not verified to primary page.
@@ -113,6 +115,6 @@ Do not continue polishing wording for records that already disclose their limits
 
 1. **Ghost Rockets** — exact Swedish item-level shelfmark/scans + RG 59 diplomatic reporting.
 2. **Foo Fighters** — AFHRA/NARA microfilm images for 415th NFS war diary and operations reports.
-3. **Kecksburg** — NASA search/loss records, FBI/USAF local response records, recovery/transport chain.
-4. **Aztec** — primary Cahn/Scully/conviction record packet for fraud classification.
+3. **Kecksburg** — Army/local response records, NASA technical records, and any recovery/transport chain; the court opinion is now secured.
+4. **Aztec** — page-level FBI Newton citations and original court exhibits; the Cahn exposé/follow-up are now secured.
 5. **Westall** — RAAF/Australian National Archives/police/school administrative file search.

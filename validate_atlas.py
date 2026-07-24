@@ -81,6 +81,14 @@ for c in cases:
     for source in c.get("publicSources", []):
         if not source.get("label") or not source.get("url", "").startswith(("http://", "https://")):
             errors.append(f"{cid}: invalid public source entry")
+    hero_src = (c.get("heroVisual") or {}).get("src")
+    images = c.get("images") or []
+    if hero_src:
+        if c.get("image") != hero_src or not images or images[0] != hero_src:
+            errors.append(f"{cid}: heroVisual.src, image, and images[0] must match")
+    for asset in dict.fromkeys([c.get("image"), *images, hero_src]):
+        if asset and not asset.startswith(("http://", "https://")) and not (ROOT / asset).exists():
+            errors.append(f"{cid}: missing referenced display asset {asset}")
     missing_normalized = normalized_fields.difference(c)
     if missing_normalized:
         errors.append(f"{cid}: missing normalized fields {sorted(missing_normalized)}")
@@ -174,6 +182,11 @@ if set(navy_timeline_case_ids) != navy_child_ids or len(navy_timeline_case_ids) 
     errors.append("Navy timeline must contain exactly one event per child")
 if any(event.get("caseId") == navy_parent_id for event in events):
     errors.append("Navy aggregate parent must not have a timeline event")
+
+timeline_case_ids = {event.get("caseId") for event in events}
+for case in cases:
+    if case.get("countInCaseTotals", True) and case.get("id") not in timeline_case_ids:
+        errors.append(f"{case.get('id', '?')}: counted case missing timeline event")
 
 for e in events:
     if e.get("caseId") not in ids:

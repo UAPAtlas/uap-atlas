@@ -92,6 +92,22 @@
       "publisher": "Computer UFO Network",
       "scope": "official-technical-record-transcription",
       "url": "https://www.cufon.org/cufon/wash_nat/wash_faa.htm"
+    },
+    {
+      "access": "Public",
+      "label": "NARA Catalog — Ruppelt Staff Study, 1952",
+      "publisher": "National Archives and Records Administration",
+      "scope": "official-program-review-exact-record",
+      "url": "https://catalog.archives.gov/id/461457646",
+      "note": "Exact 51-object staff study; corpus p. 34 documents ATIC's inability to investigate the Washington radar sighting immediately."
+    },
+    {
+      "access": "Subscription",
+      "label": "Fold3 — Andrews AFB spot-intelligence report, T1206 roll 90 frame 0127",
+      "publisher": "Fold3",
+      "scope": "exact-microfilm-frame",
+      "url": "https://www.fold3.com/image/12645597/",
+      "note": "Exact full-resolution microfilm frame; Atlas preserves a local scan. Subscription may be required."
     }
   ],
   "BF-1953-RP-00": [

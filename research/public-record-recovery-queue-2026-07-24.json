@@ -1,0 +1,81 @@
+{
+  "generated": "2026-07-24",
+  "scope": "Existing Atlas cases only; public sources and existing local records; no outreach or archival requests.",
+  "cases": [
+    {
+      "caseId": "BF-1946-GR-01",
+      "title": "Scandinavian Ghost Rockets",
+      "status": "lead-recovered-not-promoted",
+      "recovered": [
+        "Official Riksarkivet Spökraketer topic",
+        "Internet Archive corpus: 1,779 original PDFs, 895,871,795 bytes; private uploader; Public Domain Mark asserted"
+      ],
+      "negativeFindings": [
+        "No item-level Riksarkivet shelfmark recovered",
+        "No scan-to-shelfmark mapping verified",
+        "No exact NARA RG 59 diplomatic file identified"
+      ],
+      "next": "Map internal markings from a small corpus sample to Riksarkivet custody before promoting any scan as primary evidence."
+    },
+    {
+      "caseId": "BF-1944-FF-01",
+      "title": "Foo Fighters, European Theater",
+      "status": "exact-custody-no-scans",
+      "recovered": [
+        "AFHRA IRIS 60059, call SQ-FI-415-HI, reel 848, frames 1519–1631",
+        "IRIS 60074, reel 848, frames 1763–1867",
+        "IRIS 1026183, reel 33170, frame 886 onward"
+      ],
+      "negativeFindings": [
+        "No public original microfilm images recovered",
+        "Current quotation remains transcription-dependent"
+      ],
+      "next": "Retain exact AFHRA identifiers and wait for a public reel scan; do not promote transcriptions to image-verified status."
+    },
+    {
+      "caseId": "BF-1966-WS-01",
+      "title": "Westall School Mass Sighting",
+      "status": "institutional-context-only",
+      "recovered": [
+        "State Library Victoria archival review",
+        "Kingston Local History institutional article"
+      ],
+      "negativeFindings": [
+        "No exact NAA item for Westall located",
+        "Tested A9755/22 public PDF contains no Westall, Clayton, school, or April 1966 match",
+        "No RAAF, police, or school administrative packet recovered"
+      ],
+      "next": "Preserve the negative search; keep press/library material as occurrence context, not official-case custody."
+    },
+    {
+      "caseId": "BF-1965-KB-01",
+      "title": "Kecksburg Object Recovery Narrative",
+      "status": "primary-legal-record-recovered",
+      "recovered": [
+        "Kean v. NASA, 480 F. Supp. 2d 150 (D.D.C. 2007), Civil Action No. 03-2500"
+      ],
+      "negativeFindings": [
+        "No Army recovery/transport record located",
+        "No NASA technical event packet recovered",
+        "Court opinion documents FOIA search adequacy, not object identity"
+      ],
+      "next": "Use the court opinion as the legal-record anchor and keep recovery claims explicitly unproven."
+    },
+    {
+      "caseId": "BF-1948-AZ-01",
+      "title": "Aztec Crash Fraud",
+      "status": "contradiction-record-upgraded",
+      "recovered": [
+        "Cahn 1952 True article, 14-page scan",
+        "Cahn 1956 True follow-up, 6-page scan",
+        "FBI Vault Silas Newton six-part file collection"
+      ],
+      "negativeFindings": [
+        "No government crash-retrieval file located",
+        "No physical evidence located",
+        "FBI collection still needs page-level Aztec indexing"
+      ],
+      "next": "Review the FBI Newton PDFs for page-level Aztec/Scully references and court exhibits; the extraordinary claim remains contradicted."
+    }
+  ]
+}

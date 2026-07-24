@@ -1,0 +1,16 @@
+{
+  "desktopCases": 146,
+  "desktopTimeline": 144,
+  "mapMarkers": 121,
+  "fortMonmouthHero": "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
+  "washingtonHero": "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
+  "socorroHero": "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
+  "killeenHero": "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
+  "aztecHero": "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1952-True-p1.png",
+  "fortTimelineCount": 1,
+  "mobileCases": 146,
+  "mobileNavButtons": 3,
+  "mobileWashingtonHero": "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
+  "desktopErrors": [],
+  "mobileErrors": []
+}

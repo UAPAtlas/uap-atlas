@@ -576,7 +576,7 @@
       "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
-      "sourceQuality": "Verified Swedish archival collection lead and internal order citation; no item-level shelfmark or first-generation scan yet.",
+      "sourceQuality": "Official Riksarkivet topic and internal order citation verified; item-level shelfmark and scan-to-record mapping remain incomplete.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1946-GR-01",
@@ -596,7 +596,7 @@
       "summary": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing. Swedish, British, and American intelligence all investigated — Soviet tests were suspected and never confirmed; a substantial fraction of reports resisted the meteor explanation.",
       "keyFact": "Sweden’s National Archives publicly identifies the Rymdprojektilkommittén record family as documents concerning space projectiles and the 1946 ‘ghost rockets’ investigation. An exact internal order citation, Fst/L 12/6 1946 NR 7:49, is recovered, but the item-level shelfmark and corresponding U.S. diplomatic file remain unresolved.",
       "official": "Swedish defense concluded most reports were misidentifications while explicitly leaving a residue unexplained; files have since been released.",
-      "gap": "Correlation of the Swedish reports with released Soviet-era test records has never been completed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "gap": "Still needed: an item-level Riksarkivet/Krigsarkivet shelfmark, first-generation scan provenance, and any exact RG 59 diplomatic reporting. A large Internet Archive scan corpus is preserved as a lead only until its internal markings can be mapped to official custody.",
       "whyItMatters": "Ghost rockets show a modern state running the full investigative playbook — search, intelligence liaison, partial explanation — before the UFO era's vocabulary existed.",
       "sources": [
         "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
@@ -732,6 +732,22 @@
           "publisher": "sok.riksarkivet.se",
           "access": "Public/access unverified",
           "scope": "public-source"
+        },
+        {
+          "label": "Riksarkivet — Spökraketer archive topic",
+          "url": "https://riksarkivet.se/resurser/spokraketer",
+          "publisher": "Riksarkivet (Swedish National Archives)",
+          "access": "Public",
+          "scope": "official-archive-topic",
+          "note": "Official archive context; not an item-level catalog record or complete packet."
+        },
+        {
+          "label": "Internet Archive — Swedish Ghost Rockets scan corpus",
+          "url": "https://archive.org/details/SwedishGhostRockets",
+          "publisher": "Internet Archive / private uploader",
+          "access": "Public; Public Domain Mark asserted by uploader",
+          "scope": "unverified-scan-corpus-lead",
+          "note": "1,779 original PDF files are publicly listed, but uploader identity, archival order, and item-level custody mapping are unverified; lead only."
         }
       ],
       "images": [
@@ -1228,11 +1244,11 @@
       ]
     },
     {
-      "keyQuote": "The Aztec case originated from a 1950 article by Frank Scully describing the alleged crash of a 99-foot disc near Aztec, New Mexico; the story was later exposed as a hoax.",
-      "quoteSource": "Scully, Behind the Flying Saucers (1950) & later investigations (summary)",
-      "quoteConfidence": "secondary-summary; fraud determination needs primary citation upgrade",
+      "keyQuote": "Back in 1952, the September issue of TRUE ran a story of mine titled The Flying Saucers and the Mysterious Little Men. It was an exposé of a best-selling book that maintained flying saucers from Venus, manned by 3-foot characters in blue suits, had landed on earth.",
+      "quoteSource": "J. P. Cahn, ‘Flying Saucer Swindlers,’ True, August 1956, page 36 (visually verified against scan).",
+      "quoteConfidence": "High — visually verified contemporaneous publication; establishes Cahn’s exposé claim, not a judicial finding.",
       "significance": "Case significance",
-      "sourceQuality": "Fraud/contradiction record; primary agency packet not recovered",
+      "sourceQuality": "Contemporaneous Cahn exposé/follow-up plus official FBI Newton file custody; no extraordinary-object evidence recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1948-AZ-01",
@@ -1250,10 +1266,10 @@
       "domain": "CLAIM / CONTROVERSIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Frank Scully's 1950 bestseller 'Behind the Flying Saucers' described a disc and sixteen bodies recovered near Aztec — sourced to Silas Newton and Leo GeBauer, con men later convicted of fraud selling 'doodlebug' oil detectors supposedly based on saucer technology. J.P. Cahn's exposés dismantled the story in 1952 and 1956.",
+      "summary": "The Aztec crash story entered print through Frank Scully’s 1950 book and claims supplied by Silas Newton and Leo Gebauer. Cahn’s 1952 investigation and 1956 follow-up directly challenged the story and connected its promoters to fraudulent business activity; the FBI’s released Newton files independently document that fraud-investigation context.",
       "keyFact": "The original crash-retrieval story entered the literature as a proven confidence scheme, prosecuted in court — the field's foundational fraud benchmark.",
-      "official": "Newton and GeBauer were convicted of fraud in 1953; no evidence of any Aztec recovery has ever existed.",
-      "gap": "None material — the case is closed; its value is as a calibration standard for retrieval narratives. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "official": "No verified government crash-retrieval file or physical evidence supports an Aztec recovery. The documentary record instead supports treating the story as a hoax/fraud boundary case.",
+      "gap": "The decisive next records are page-level FBI citations and original Newton/GeBauer court exhibits. Their absence does not rescue the crash claim; it limits how precisely the fraud chain can be reconstructed.",
       "whyItMatters": "Aztec is the control sample every crash story must beat: named sources, specific details, national publication — and completely false.",
       "sources": [
         "AZTEC-1948 · Cahn exposés / fraud conviction record"
@@ -1266,8 +1282,10 @@
         "BF-1947-MI-01"
       ],
       "heroFact": "The original crash-retrieval story entered the literature as a proven confidence scheme, prosecuted in court — the field's foundational fraud benchmark.",
-      "image": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
+      "image": "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1952-True-p1.png",
       "images": [
+        "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1952-True-p1.png",
+        "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1956-True-p1.png",
         "assets/source_previews/BF-1948-AZ-01_source_image.jpg"
       ],
       "caseTypes": [
@@ -1340,6 +1358,49 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "J. P. Cahn, ‘The Flying Saucers and the Mysterious Little Men,’ True, September 1952, 14-page scan.",
+          "sourceType": "contemporaneous-investigative-article",
+          "provenance": "True magazine; public scan hosted by Southern Methodist University",
+          "locator": "Cahn1.pdf · 14 pages",
+          "supports": [
+            "Contemporaneous investigation of the Scully/Newton/Gebauer claim chain",
+            "The article states that True and Cahn tracked the alleged Venus-craft story across five western states",
+            "Direct period source for the fraud/hoax classification"
+          ],
+          "limitations": [
+            "Investigative journalism, not a court judgment or complete agency file",
+            "The public host is an academic mirror rather than the magazine publisher"
+          ]
+        },
+        {
+          "citation": "J. P. Cahn, ‘Flying Saucer Swindlers,’ True, August 1956, 6-page scan.",
+          "sourceType": "contemporaneous-investigative-follow-up",
+          "provenance": "True magazine; public scan hosted by Southern Methodist University",
+          "locator": "Cahn2.pdf · 6 pages",
+          "supports": [
+            "Period follow-up linking Newton and Gebauer’s saucer story to their fraudulent business activity",
+            "Provides the published basis for treating Aztec as a contradiction/hoax calibration case"
+          ],
+          "limitations": [
+            "Investigative journalism, not a substitute for the underlying court exhibits",
+            "The public host is an academic mirror"
+          ]
+        },
+        {
+          "citation": "FBI Records: The Vault — Silas M. Newton, six-part released file collection.",
+          "sourceType": "federal-investigative-file-collection",
+          "provenance": "Federal Bureau of Investigation, The Vault",
+          "locator": "vault.fbi.gov/silas-newton · Parts 01–06",
+          "supports": [
+            "Official FBI custody for investigations into Newton’s fraudulent activities",
+            "Confirms Newton was cited as an authority in Scully’s crashed-saucer account"
+          ],
+          "limitations": [
+            "The collection concerns Newton broadly and is not itself an Aztec crash-investigation packet",
+            "Page-level Aztec citations still require a dedicated file review"
+          ]
         }
       ],
       "phenomena": {
@@ -1370,13 +1431,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-1948-AZ-01_source_image.jpg",
-        "mediaType": "image",
+        "src": "assets/evidence/AZTEC-1948/AZTEC-1948-Cahn-1952-True-p1.png",
+        "caption": "Opening spread of J. P. Cahn’s 1952 True investigation, visually verified from the public scan.",
+        "alt": "Opening spread of The Flying Saucers and the Mysterious Little Men by J. P. Cahn",
+        "rights": "Documentary excerpt used for source criticism; magazine copyright status not asserted",
         "visualType": "document-excerpt",
-        "caption": "Investigative memorandum associated with the Aztec crash-fraud record.",
-        "provenance": "Court record",
-        "evidenceStatus": "Documentary fraud-investigation record; no authenticated crash or recovered-object imagery is represented.",
-        "isEventEvidence": false
+        "mediaType": "image"
       },
       "publicSources": [
         {
@@ -1388,6 +1448,27 @@
           "role": "contextual-analysis",
           "mediaKind": "video",
           "note": "Case-specific investigation; Atlas classification remains fraud/contradicted pending stronger records."
+        },
+        {
+          "label": "J. P. Cahn — The Flying Saucers and the Mysterious Little Men (1952)",
+          "url": "https://www.physics.smu.edu/~pseudo/UFOs/Scully/Cahn1.pdf",
+          "publisher": "True magazine scan / Southern Methodist University host",
+          "access": "Public",
+          "scope": "contemporaneous-investigative-source"
+        },
+        {
+          "label": "J. P. Cahn — Flying Saucer Swindlers (1956)",
+          "url": "https://www.physics.smu.edu/pseudo/UFOs/Scully/Cahn2.pdf",
+          "publisher": "True magazine scan / Southern Methodist University host",
+          "access": "Public",
+          "scope": "contemporaneous-investigative-follow-up"
+        },
+        {
+          "label": "FBI Vault — Silas M. Newton file collection",
+          "url": "https://vault.fbi.gov/silas-newton",
+          "publisher": "Federal Bureau of Investigation",
+          "access": "Public",
+          "scope": "primary-federal-record-collection"
         }
       ]
     },
@@ -2451,16 +2532,16 @@
       "evidenceDepthStatus": "primary-complete"
     },
     {
-      "keyQuote": "…credible observers of relatively incredible things.",
-      "quoteSource": "Maj. Gen. John Samford, USAF press conference, July 29, 1952",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "keyQuote": "The need for the time and personnel to make field investigations was best exemplified by the Washington D.C. radar sighting.",
+      "quoteSource": "Capt. Edward J. Ruppelt, Staff Study—1952, NARA NAID 461457646, corpus p. 34 (internal page 3)",
+      "quoteConfidence": "confirmed primary-source quotation; visually verified",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Multiple official records with exact NARA/Fold3 custody; raw radar and complete operational logs remain absent.",
       "coordinateBasis": "District of Columbia centroid-adjusted public coordinate",
       "coordinatePrecision": "city",
       "id": "BF-1952-DC-01",
       "title": "Washington D.C. Radar Flap",
-      "date": "JUL 1952",
+      "date": "19–27 JUL 1952",
       "year": 1952,
       "location": "Washington, D.C.",
       "mode": "exact",
@@ -2473,24 +2554,31 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Across two July 1952 weekends, radar at Washington National and Andrews AFB tracked unknown targets over the capital with concurrent visual reports and jet interceptor scrambles. The Air Force answered with its largest press conference since World War II.",
+      "summary": "On 19–20 and 26–27 July 1952, Washington National and Andrews AFB personnel reported unidentified radar targets around defended capital airspace, concurrent visual observations, and interceptor responses. The surviving record documents two distinct weekend clusters, fragmented investigative handoffs, and an Air Force public response culminating in the 29 July press conference.",
       "keyFact": "Unknown radar targets over the U.S. capital forced jet scrambles and the largest USAF press conference since WWII — the flap that precipitated the Robertson Panel.",
-      "official": "Samford and Project Blue Book attributed the returns to temperature inversion and anomalous propagation; controllers and some intercept pilots disputed that reading on the record.",
-      "gap": "Full correlation of National and Andrews radar tracks with intercept gun-camera film and controller logs has never been published.",
+      "official": "The Air Force publicly emphasized temperature inversion and anomalous propagation. CAA Technical Development Report No. 180 later modeled weather-related false targets, but its public copy concentrates on the first weekend and later August observations rather than fully reproducing the 26–27 July sequence. Controllers and some aircrew disputed a purely weather-based account.",
+      "gap": "Raw Washington National and Andrews radar plots, scope photographs or recordings, complete controller logs/audio, interceptor mission records, and any completed Bolling/Headquarters Command follow-up investigation have not been recovered in the public packet. The exact correlation between radar, visual reports, and individual scrambles therefore cannot be independently reconstructed.",
       "whyItMatters": "It is the clearest 1950s example of simultaneous multi-site radar plus visual reports over defended airspace, and the direct trigger for the CIA-convened Robertson Panel in the atlas.",
       "sources": [
-        "DC-FLAP-1952 · Blue Book files via NARA official S3 (37 MAXW-PBB11 pages recovered; current catalog labels mismatch adjacent page spans) / OSI T1206 roll 90 frames 0127–0129 recovered from Fold3 / OIN telephoned reports July 28 1952 / CAA radar study / Samford press conference record"
+        "DC-FLAP-1952 · 37 recovered T1206 roll 11 pages hosted in six exact NARA file units",
+        "USAF OSI District 4 spot-intelligence report · T1206 roll 90, frames 0127–0129",
+        "Ruppelt Staff Study—1952 · NARA NAID 461457646, corpus p. 34",
+        "CAA Technical Development Report No. 180 · May 1953 public scan",
+        "Reports telephoned to OIN on 28 July 1952 · recovered Blue Book pages"
       ],
-      "sourceLabel": "Verified Blue Book / OSI record",
-      "sourceLocator": "DC-FLAP-1952",
+      "sourceLabel": "NARA RG 341 / USAF OSI / CAA",
+      "sourceLocator": "DC-FLAP-1952 · NARA NAIDs 28944268, 28944476, 28944529, 28944560, 28944603, 28944612, 461457646; T1206 roll 90 frames 0127–0129",
       "relatedCaseIds": [
         "BF-1953-RP-00",
         "BF-1956-LB-01",
         "BF-1947-KA-01"
       ],
       "heroFact": "Unknown radar targets over the U.S. capital forced jet scrambles and the largest USAF press conference since WWII — the flap that precipitated the Robertson Panel.",
-      "image": "assets/source_previews/BF-1952-DC-01_source_image.png",
+      "image": "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
       "images": [
+        "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
+        "assets/evidence/DC-FLAP-1952/DC-1952-Ruppelt-Staff-Study-NAID-461457646-p34.jpg",
+        "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-129_Fold3-12645610_WFM-38572395.jpg",
         "assets/source_previews/BF-1952-DC-01_source_image.png"
       ],
       "caseTypes": [
@@ -2510,14 +2598,14 @@
         "provenance": "primary-record"
       },
       "temporal": {
-        "dateLabel": "JUL 1952",
+        "dateLabel": "19–27 JUL 1952",
         "year": 1952,
-        "startDateTime": null,
-        "endDateTime": null,
-        "timezone": null,
+        "startDateTime": "1952-07-19T23:40:00-04:00",
+        "endDateTime": "1952-07-28T00:30:00-04:00",
+        "timezone": "EDT",
         "durationSeconds": null,
-        "precision": "month",
-        "eventForm": "single-event"
+        "precision": "day",
+        "eventForm": "event-series"
       },
       "geospatial": {
         "geometry": {
@@ -2534,37 +2622,120 @@
       },
       "sourceRecords": [
         {
-          "citation": "DC-FLAP-1952 · Blue Book files via NARA official S3 (37 MAXW-PBB11 pages recovered; current catalog labels mismatch adjacent page spans) / OSI T1206 roll 90 frames 0127–0129 recovered from Fold3 / OIN telephoned reports July 28 1952 / CAA radar study / Samford press conference record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "DC-FLAP-1952",
-          "supports": [],
-          "limitations": []
+          "citation": "DC-JULY-1952-NARA-S3 · recovered Project Blue Book pages",
+          "sourceType": "official-project-blue-book-record-set",
+          "provenance": "NARA RG 341 / T1206 roll 11; exact host NAIDs 28944268, 28944476, 28944529, 28944560, 28944603, 28944612",
+          "locator": "MAXW-PBB11 frames 0916, 1084–1091, 1149–1151, 1170–1176, 1190–1198, 1208–1211, 1214–1218",
+          "supports": [
+            "contemporaneous-sighting-reports",
+            "official-message-routing",
+            "July-1952-investigative-record",
+            "multiple-reporting-locations"
+          ],
+          "limitations": [
+            "current-NARA-file-unit-titles-mismatch-adjacent-frame-spans",
+            "not-a-continuous-complete-case-file",
+            "raw-radar-data-absent"
+          ]
+        },
+        {
+          "citation": "ANDREWS-OSI-SPOT-REPORT · unidentified objects sighted at Andrews AFB, 20 July 1952",
+          "sourceType": "contemporaneous-spot-intelligence-report",
+          "provenance": "USAF OSI District 4; T1206 roll 90; exact Fold3 roll/frame crosswalk",
+          "locator": "NARA-PBB90-127–129; Fold3 images 12645597, 12645604, 12645610",
+          "supports": [
+            "Washington-Center-reported-five-targets",
+            "Andrews-control-tower-log",
+            "concurrent-visual-reports",
+            "interoffice-investigative-handoff"
+          ],
+          "limitations": [
+            "originating-OSI-office-recorded-no-investigation",
+            "raw-radar-plots-absent",
+            "promised-Bolling-follow-up-not-recovered"
+          ]
+        },
+        {
+          "citation": "RUPPELT-STAFF-STUDY-1952 · internal Blue Book program review",
+          "sourceType": "official-program-staff-study",
+          "provenance": "NARA RG 341, Project Blue Book Administrative Files",
+          "locator": "NARA NAID 461457646, corpus p. 34 (internal p. 3)",
+          "supports": [
+            "Washington-radar-case-cited-as-field-investigation-failure",
+            "ATIC-personnel-shortage",
+            "delayed-investigative-response"
+          ],
+          "limitations": [
+            "program-review-not-raw-event-record",
+            "page-addresses-investigative-capacity-not-target-identity",
+            "prepared-before-full-second-weekend-analysis"
+          ]
+        },
+        {
+          "citation": "CAA Technical Development Report No. 180 · Preliminary Study of Unidentified Targets Observed on Air Traffic Control Radars",
+          "sourceType": "official-technical-analysis-public-copy",
+          "provenance": "Civil Aeronautics Administration, May 1953; public CUFON archival scan",
+          "locator": "DC-1952-CAA-radar-targets-preliminary-study.pdf, 21 pages",
+          "supports": [
+            "official-anomalous-propagation-model",
+            "weather-related-false-target-analysis",
+            "radar-environment-context"
+          ],
+          "limitations": [
+            "public-copy-is-private-archive-derivative",
+            "does-not-fully-reproduce-July-26-27-sequence",
+            "does-not-supply-raw-scope-data"
+          ]
+        },
+        {
+          "citation": "OIN-REPORTS-1952-07-28 · reports telephoned to Office of Naval Intelligence",
+          "sourceType": "official-report-transcription-and-recovered-pages",
+          "provenance": "Blue Book/NARA T1206 pages, with public transcription wrapper",
+          "locator": "MAXW-PBB11-1214–1218; DC-1952-Reports-Telephoned-to-OIN-1952-07-28.pdf",
+          "supports": [
+            "multiple-27-July-report-locations",
+            "post-event-intelligence-routing",
+            "civilian-and-airport-reporting"
+          ],
+          "limitations": [
+            "telephoned-reports-not-independent-investigation",
+            "wrapper-is-secondary",
+            "reports-do-not-establish-object-identity"
+          ]
         }
       ],
       "phenomena": {
         "shapes": [
-          "cross"
+          "lights",
+          "circular-object"
         ],
         "objectCount": null,
-        "luminosity": null,
-        "motion": [],
-        "effects": []
+        "luminosity": "orange and white lights reported in portions of the record",
+        "motion": [
+          "variable-speed-radar-targets",
+          "direction-changes",
+          "targets-reported-near-aircraft"
+        ],
+        "effects": [
+          "fighter-interceptor-response",
+          "capital-airspace-alert"
+        ]
       },
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "pilot",
-          "military police",
-          "USAF personnel"
+          "Washington National radar controllers",
+          "Andrews AFB control-tower personnel",
+          "military and civilian pilots",
+          "ground observers"
         ],
         "sensors": [
-          "radar",
-          "infrared/thermal",
-          "unaided-visual"
+          "Washington National Airport radar",
+          "Andrews AFB radar",
+          "unaided visual"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": 4
       },
       "taxonomyOriginal": {
         "domain": "MILITARY / RADAR",
@@ -2573,13 +2744,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-1952-DC-01_source_image.png",
+        "src": "assets/evidence/DC-FLAP-1952/legacy-page-code-recovery/NARA-PBB90/NARA-PBB90-127_Fold3-12645597_WFM-38572393.jpg",
         "mediaType": "image",
-        "visualType": "document-data-plot",
-        "caption": "Chart preserved in the source set for the July 1952 Washington radar flap.",
-        "provenance": "Verified Blue Book / OSI record",
-        "evidenceStatus": "Source-derived analytical/documentary graphic; not direct sensor data sufficient to establish object identity.",
-        "isEventEvidence": false
+        "visualType": "official-spot-intelligence-report",
+        "caption": "Continuation of the 20 July Andrews AFB spot-intelligence report, preserving control-tower entries and Washington Center reports of unidentified radar targets.",
+        "provenance": "USAF OSI District 4 file; T1206 roll 90, frame 0127; Fold3 image 12645597",
+        "evidenceStatus": "Contemporaneous official event record; documents reported targets and visual observations but is not raw radar data and does not establish object identity.",
+        "isEventEvidence": true
       },
       "publicSources": [
         {
@@ -2604,6 +2775,22 @@
           "publisher": "Computer UFO Network",
           "scope": "official-technical-record-transcription",
           "url": "https://www.cufon.org/cufon/wash_nat/wash_faa.htm"
+        },
+        {
+          "access": "Public",
+          "label": "NARA Catalog — Ruppelt Staff Study, 1952",
+          "publisher": "National Archives and Records Administration",
+          "scope": "official-program-review-exact-record",
+          "url": "https://catalog.archives.gov/id/461457646",
+          "note": "Exact 51-object staff study; corpus p. 34 documents ATIC's inability to investigate the Washington radar sighting immediately."
+        },
+        {
+          "access": "Subscription",
+          "label": "Fold3 — Andrews AFB spot-intelligence report, T1206 roll 90 frame 0127",
+          "publisher": "Fold3",
+          "scope": "exact-microfilm-frame",
+          "url": "https://www.fold3.com/image/12645597/",
+          "note": "Exact full-resolution microfilm frame; Atlas preserves a local scan. Subscription may be required."
         }
       ]
     },
@@ -4277,7 +4464,7 @@
       "quoteSource": "FBI SOCORRO-1964-FBI-file-31p.pdf, p. 9 (Airtel to Director, FBI, 4/28/64)",
       "quoteConfidence": "verified primary-source quotation",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Exact NARA Blue Book custody plus FBI liaison and field memoranda; physical traces were documented but causal identity remains unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1964-SC-01",
@@ -4295,16 +4482,19 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Police officer Lonnie Zamora reported a landed egg-shaped craft with insignia and two small figures south of Socorro; investigators documented landing impressions and burned brush the same day. Blue Book carried the case as unexplained and Hynek investigated in person.",
+      "summary": "On 24 April 1964, Socorro police officer Lonnie Zamora reported a landed oval object, two small figures, a roar and flame, and a rapid departure south of Socorro. Same-day responders documented four regular ground depressions, burned grass patches, and smaller circular marks. The FBI record shows military investigators could not explain Zamora's observations; Project Blue Book ultimately carried the case as unidentified.",
       "keyFact": "One of the few Blue Book 'unknowns' resting on a sworn police witness plus same-day documented physical traces.",
-      "official": "Blue Book listed Socorro as unidentified; later hoax hypotheses involving university students were argued but never established.",
-      "gap": "Soil and trace analyses were never published to modern standards, and the insignia sketch chain of custody is muddled across retellings.",
+      "official": "Project Blue Book classified Socorro as unidentified. FBI liaison records quote Kirtland AFB personnel as unable to explain Zamora's observations and impressed by his sincerity. Those records confirm the report, response, and trace documentation; they do not establish what caused the marks or identify the reported object.",
+      "gap": "The public packet does not provide a modern reproducible soil/vegetation analysis, a complete trace-sample custody ledger, or independent photographic evidence of the object. Zamora was the only known direct witness to the object and figures, and the insignia-sketch chain diverges across later retellings.",
       "whyItMatters": "Socorro is the strongest single-witness-plus-traces case in the official record — the benchmark for what a trace case needs and still rarely has.",
       "sources": [
-        "SOCORRO-1964 · Project Blue Book case file & site photographs (Black Vault mirror; NARA NAID 302532129) / FBI Socorro file / Hynek field notes trail"
+        "SOCORRO-1964 · Project Blue Book site-photograph packet · NARA NAID 302532129",
+        "FBI Albuquerque airtel, 28 April 1964 · FBI file p. 9",
+        "FBI field memorandum, 8 May 1964 · FBI file pp. 14–15",
+        "FBI liaison record of Kirtland AFB assessment · FBI file pp. 30–31"
       ],
-      "sourceLabel": "Blue Book file",
-      "sourceLocator": "SOCORRO-1964",
+      "sourceLabel": "NARA Project Blue Book / FBI",
+      "sourceLocator": "SOCORRO-1964 · NARA NAID 302532129; FBI file pp. 9, 14–15, 30–31",
       "relatedCaseIds": [
         "BF-1949-LA-00",
         "BF-1965-KB-01"
@@ -4353,36 +4543,106 @@
       },
       "sourceRecords": [
         {
-          "citation": "SOCORRO-1964 · Project Blue Book case file & site photographs (Black Vault mirror; NARA NAID 302532129) / FBI Socorro file / Hynek field notes trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
-          "locator": "SOCORRO-1964",
-          "supports": [],
-          "limitations": []
+          "citation": "SOCORRO-BLUE-BOOK · Socorro Project BLUE BOOK file and site photographs",
+          "sourceType": "official-project-blue-book-case-file",
+          "provenance": "NARA RG 341, exact file unit NAID 302532129",
+          "locator": "25-page site-photograph packet",
+          "supports": [
+            "same-day-official-investigation",
+            "landing-site-photographs",
+            "reported-ground-traces",
+            "Blue-Book-unidentified-status"
+          ],
+          "limitations": [
+            "photographs-do-not-show-object",
+            "trace-causation-not-established",
+            "complete-laboratory-custody-not-recovered"
+          ]
+        },
+        {
+          "citation": "FBI-AIRTEL-1964-04-28 · witness and initial trace summary",
+          "sourceType": "contemporaneous-federal-liaison-record",
+          "provenance": "Federal Bureau of Investigation, Albuquerque field office",
+          "locator": "SOCORRO-1964-FBI-file-31p.pdf, p. 9",
+          "supports": [
+            "Zamora-described-as-sober-dependable-mature",
+            "oval-object-report",
+            "roar-and-flame",
+            "four-depressed-areas",
+            "four-smouldering-areas"
+          ],
+          "limitations": [
+            "FBI-policy-was-liaison-not-investigation",
+            "summary-relies-on-Zamora-report",
+            "does-not-identify-object"
+          ]
+        },
+        {
+          "citation": "FBI-FIELD-MEMORANDUM-1964-05-08 · site observations",
+          "sourceType": "contemporaneous-federal-field-observation",
+          "provenance": "Federal Bureau of Investigation, Special Agent D. Arthur Byrnes Jr.",
+          "locator": "SOCORRO-1964-FBI-file-31p.pdf, pp. 14–15",
+          "supports": [
+            "four-regular-depressions-measured",
+            "three-burned-grass-patches-inside-depressions",
+            "one-burned-area-outside",
+            "three-smaller-circular-marks"
+          ],
+          "limitations": [
+            "observations-document-condition-not-cause",
+            "no-object-photograph",
+            "no-modern-forensic-analysis"
+          ]
+        },
+        {
+          "citation": "FBI-KIRTLAND-LIAISON-1964-04-28 · Air Force assessment",
+          "sourceType": "contemporaneous-federal-liaison-record",
+          "provenance": "FBI record of Kirtland AFB investigator statements",
+          "locator": "SOCORRO-1964-FBI-file-31p.pdf, pp. 30–31",
+          "supports": [
+            "Air-Force-could-not-explain-observations",
+            "investigators-impressed-by-Zamora-sincerity",
+            "first-responders-found-burning-areas-and-indentations"
+          ],
+          "limitations": [
+            "FBI-records-secondhand-Air-Force-statements",
+            "not-final-Blue-Book-disposition-card",
+            "explanation-absence-is-not-origin-proof"
+          ]
         }
       ],
       "phenomena": {
         "shapes": [
-          "oval"
+          "oval",
+          "egg-shaped"
         ],
-        "objectCount": null,
-        "luminosity": null,
-        "motion": [],
-        "effects": []
+        "objectCount": 1,
+        "luminosity": "whitish object; bluish-orange flame during departure",
+        "motion": [
+          "landed-or-grounded",
+          "slow-vertical-rise",
+          "rapid-departure-over-mountain"
+        ],
+        "effects": [
+          "roaring-sound",
+          "flame",
+          "ground-depressions",
+          "burned-grass"
+        ]
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 1,
         "witnessRoles": [
-          "military police",
-          "law enforcement officer",
-          "students/schoolchildren",
-          "Lonnie Zamora (police officer)"
+          "Lonnie Zamora, Socorro police officer",
+          "law-enforcement and military trace-scene responders"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided visual",
+          "site photography",
+          "physical-trace inspection"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
         "domain": "WITNESS NARRATIVE / TRACE EVIDENCE",
@@ -4410,6 +4670,9 @@
       ],
       "images": [
         "assets/evidence/SOCORRO-1964/SOCORRO-1964-landing-site-photo-markers.png",
+        "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p09-FBI-airtel-witness-and-traces.jpg",
+        "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p15-FBI-field-trace-description.jpg",
+        "assets/evidence/SOCORRO-1964/SOCORRO-1964-FBI-p30-FBI-Air-Force-no-explanation.jpg",
         "assets/source_previews/BF-1964-SC-01_source_image.jpg"
       ]
     },
@@ -4418,7 +4681,7 @@
       "quoteSource": "The Black Vault Case Files: Kecksburg UFO Incident (summary)",
       "quoteConfidence": "secondary-summary; needs primary-record verification",
       "significance": "Case significance",
-      "sourceQuality": "Contextual public-record trail; primary agency packet not recovered",
+      "sourceQuality": "Primary federal-court record for the NASA FOIA dispute; underlying incident and recovery packet remain unrecovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1965-KB-01",
@@ -4439,7 +4702,7 @@
       "summary": "A brilliant fireball crossed six states before something came down in woods near Kecksburg. Residents described an acorn-shaped object with strange markings and a military cordon; the military reported nothing found. A 2007 FOIA lawsuit forced NASA to search records it then said were lost.",
       "keyFact": "NASA stated in 2005 that examined fragments were from a Soviet satellite, then told a federal court the relevant records had been lost — the record gap is itself on the record.",
       "official": "Contemporary astronomers attributed the fireball to a meteor; the Army stated its search found nothing.",
-      "gap": "The Army unit logs for the search and NASA's missing fragment analysis records remain unlocated. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "gap": "Still needed: original Army/local-response logs, NASA technical records tied to the event, and any recovery/transport chain. The 2007 court opinion confirms a records-search dispute but does not validate the recovery narrative.",
       "whyItMatters": "It is the canonical domestic 'crash retrieval' narrative where the official paper trail visibly fails — a provenance hole a federal judge acknowledged.",
       "sources": [
         "KECKSBURG-1965 · press/witness record / NASA FOIA litigation trail"
@@ -4523,6 +4786,22 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Kean v. National Aeronautics and Space Administration, 480 F. Supp. 2d 150 (D.D.C. 2007).",
+          "sourceType": "federal-court-opinion",
+          "provenance": "United States District Court for the District of Columbia; public opinion copy via CourtListener",
+          "locator": "480 F. Supp. 2d 150 · Civil Action No. 03-2500",
+          "supports": [
+            "A January 31, 2003 FOIA request sought NASA records concerning the December 9, 1965 Kecksburg incident",
+            "The court found NASA had not yet carried its burden to demonstrate an adequate search at the summary-judgment stage",
+            "The public-record dispute is documented independently of the later UFO narrative"
+          ],
+          "limitations": [
+            "The opinion does not establish that an anomalous object was recovered",
+            "It does not supply Army recovery logs or a physical chain of custody",
+            "Later search results must be evaluated separately"
+          ]
         }
       ],
       "phenomena": {
@@ -4577,6 +4856,14 @@
           "role": "contextual-analysis",
           "mediaKind": "video",
           "note": "Case-specific documentary investigation; contextual analysis rather than a recovered government case file."
+        },
+        {
+          "label": "Kean v. NASA — 2007 federal court opinion",
+          "url": "https://www.courtlistener.com/opinion/2487204/kean-v-national-aeronautics-and-space-admin/",
+          "publisher": "CourtListener / U.S. District Court opinion",
+          "access": "Public",
+          "scope": "primary-legal-record",
+          "note": "Documents the Kecksburg FOIA litigation and adequacy-of-search dispute; does not prove a recovery."
         }
       ],
       "images": [
@@ -21977,7 +22264,7 @@
     {
       "id": "BF-1954-KL-01",
       "title": "Killeen — Silent Near-Vertical Ascent",
-      "date": "NOV 1954",
+      "date": "20–24 NOV 1954",
       "year": 1954,
       "location": "Killeen, Texas",
       "mode": "exact",
@@ -21992,30 +22279,34 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "An object was observed performing a near-vertical ascent followed by a rapid horizontal departure. The object was completely silent despite performance that should produce a sonic boom or engine noise. The case was classified under the Espionage Act (50 USC 32). 155 pages of field investigation files survive on the external drive.",
-      "official": "No official conclusion has been extracted from the 155-page file. The Espionage Act classification indicates the investigation was treated as national defense information.",
-      "gap": "The full 155-page AISS field file has been downloaded but not fully OCR'd. The specific witness identities, official conclusion, and detailed timeline require extraction.",
+      "summary": "At least 16 members of the 8455th DU Military Police Company at Gray AFB's Danger Area 343 reported a silver-glowing oval object during 20–24 November 1954. The primary 24 November observation lasted about 2.5 minutes: the object climbed on a steep 50–60° path and departed southwest at very high apparent speed without a trail or exhaust. Captain Clarence Magee's 4602D AISS investigation endorsed the witnesses' reliability and tested, then rejected, a weather-balloon explanation.",
+      "official": "The surviving 155-object 4602D AISS field file does not contain the later ATIC/Blue Book disposition. Within the field report, Captain Magee concluded the military-police witnesses were reliable, that they were observing something foreign to them, and that the reports were not stimulated imagination. A weather balloon was shown to a witness and rejected as a color match; Magee also found 0–3 knot winds inconsistent with the reported rate of disappearance.",
+      "gap": "The final ATIC record card or closure memorandum has not been recovered, so the formal Blue Book disposition remains unknown. No radar track, photograph, physical sample, or instrumented speed measurement appears in the field file; performance estimates remain visual judgments under poor weather conditions.",
       "sources": [
-        "AISS-1954 · 4602D AISS Field File, Killeen TX, November 1954 (155 digital objects on external drive)"
+        "KILLEEN-1954-NARA-310994070 · complete 4602D AISS field file, 155 digital objects",
+        "ATIC Form 164 witness questionnaires · corpus pp. 3–148",
+        "Air Intelligence Information Report · corpus pp. 149–155"
       ],
-      "image": "assets/evidence/KILLEEN-1954/killeen-1954_killeen-001.jpg",
+      "image": "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
       "images": [
+        "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
+        "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p151-balloon-analysis.jpg",
         "assets/evidence/KILLEEN-1954/killeen-1954_killeen-001.jpg",
         "assets/evidence/KILLEEN-1954/killeen-1954_killeen-002.jpg",
         "assets/evidence/KILLEEN-1954/killeen-1954_killeen-003.jpg",
         "assets/evidence/KILLEEN-1954/killeen-1954_killeen-004.jpg",
         "assets/evidence/KILLEEN-1954/killeen-1954_killeen-005.jpg"
       ],
-      "keyFact": "A completely silent object performed a near-vertical ascent and rapid horizontal departure — classified under the Espionage Act.",
+      "keyFact": "Sixteen military-police witnesses were questioned in a 155-page field investigation; the investigator endorsed their reliability and rejected the tested balloon hypothesis.",
       "whyItMatters": "The silence-vs-performance anomaly is one of the strongest cross-source patterns in the UAP record (Teller's 1949 Los Alamos calculations, Pantex 2015, FBI Serial-3 2023). The 155-page file is one of the largest single-case files in the Blue Book collection. Espionage Act classification confirms institutional seriousness.",
-      "keyQuote": "Completely silent during near-vertical ascent and rapid horizontal departure.",
-      "quoteSource": "AISS-1954, 4602D AISS Field File, Killeen TX",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
-      "heroFact": "A silent object climbed near-vertically over Killeen, Texas — 155 pages of field investigation, classified under the Espionage Act.",
+      "keyQuote": "By virtue of their position, the reliability of the sighters must be beyond question. It is therefore believed that they are sighting an object which is foreign to them, and these sightings are not the result of stimulated imagination.",
+      "quoteSource": "Capt. Clarence A. Magee, 4602D AISS Air Intelligence Information Report, NARA NAID 310994070, corpus p. 152",
+      "quoteConfidence": "confirmed primary-source quotation; OCR and scan visually verified",
+      "heroFact": "A 155-page AISS investigation backed 16 military-police witnesses and rejected a weather balloon in 0–3 knot winds.",
       "significance": "High significance — 155-page file, Espionage Act classified",
-      "sourceQuality": "Primary source — 4602D AISS field file (155 pages)",
+      "sourceQuality": "Complete exact NARA 4602D AISS field packet (155 digital objects); final ATIC/Blue Book disposition absent.",
       "sourceLabel": "AISS Field Files / NARA",
-      "sourceLocator": "AISS-1954, Killeen TX",
+      "sourceLocator": "NARA NAID 310994070, 155 digital objects; decisive analysis at corpus pp. 151–152",
       "relatedCaseIds": [
         "BF-1957-NC-01",
         "BF-1957-B47-01",
@@ -22041,15 +22332,15 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "NOV 1954",
+        "dateLabel": "20–24 NOV 1954",
         "year": 1954,
-        "startDateTime": null,
-        "endDateTime": null,
+        "startDateTime": "1954-11-20",
+        "endDateTime": "1954-11-24",
         "timezone": null,
-        "durationSeconds": null,
+        "durationSeconds": 150,
         "durationRangeSeconds": null,
-        "precision": "month",
-        "eventForm": "single-event"
+        "precision": "day",
+        "eventForm": "event-series"
       },
       "geospatial": {
         "geometry": {
@@ -22066,48 +22357,102 @@
       },
       "sourceRecords": [
         {
-          "citation": "AISS-1954 · 4602D AISS Field File, Killeen TX",
-          "sourceType": "field-investigation-file",
-          "provenance": "4602D Air Intelligence Information Squadron",
-          "locator": "November 1954; 155 digital objects",
+          "citation": "KILLEEN-1954-NARA-310994070 · complete 4602D AISS field file",
+          "sourceType": "official-field-investigation-packet",
+          "provenance": "NARA RG 341, Case Files of 4602D AISS on UFO Sightings, NAID 310994070",
+          "locator": "155 digital objects; 20–24 November 1954",
           "supports": [
-            "near-vertical-ascent",
-            "rapid-horizontal-departure",
-            "completely-silent",
-            "espionage-act-classified"
+            "sixteen-military-personnel-named",
+            "individual-questionnaires",
+            "field-investigation",
+            "Espionage-Act-marking",
+            "multi-day-reporting"
           ],
           "limitations": [
-            "full-file-not-OCRed",
-            "witness-identities-not-extracted",
-            "official-conclusion-not-extracted"
+            "final-ATIC-disposition-absent",
+            "no-radar-or-photography",
+            "official-custody-does-not-identify-object"
+          ]
+        },
+        {
+          "citation": "KILLEEN-WITNESS-QUESTIONNAIRES · ATIC Form 164 set",
+          "sourceType": "firsthand-military-witness-questionnaires",
+          "provenance": "8455th DU Military Police Company submissions to 4602D AISS",
+          "locator": "NARA NAID 310994070, corpus pp. 3–148",
+          "supports": [
+            "multiple-named-witnesses",
+            "oval-silver-glow-description",
+            "steep-ascent",
+            "rapid-southwest-departure",
+            "approximately-two-and-one-half-minute-duration"
+          ],
+          "limitations": [
+            "same-unit-witness-cluster",
+            "visual-estimates-not-instrumented",
+            "low-cloud-and-half-mile-visibility"
+          ]
+        },
+        {
+          "citation": "MAGEE-BALLOON-ANALYSIS · 4602D AISS field report",
+          "sourceType": "official-investigator-analysis",
+          "provenance": "Capt. Clarence A. Magee, 4602D AISS",
+          "locator": "NARA NAID 310994070, corpus p. 151",
+          "supports": [
+            "weather-balloon-shown-to-witness",
+            "color-match-rejected",
+            "wash-tub-to-speck-in-one-minute",
+            "zero-to-three-knot-winds-inconsistent-with-reported-velocity"
+          ],
+          "limitations": [
+            "single-witness-balloon-comparison",
+            "no-measured-object-range",
+            "wind-analysis-does-not-identify-object"
+          ]
+        },
+        {
+          "citation": "MAGEE-RELIABILITY-ASSESSMENT · 4602D AISS field report",
+          "sourceType": "official-investigator-conclusion",
+          "provenance": "Capt. Clarence A. Magee, 4602D AISS",
+          "locator": "NARA NAID 310994070, corpus p. 152",
+          "supports": [
+            "witness-reliability-endorsed",
+            "object-foreign-to-witnesses",
+            "stimulated-imagination-rejected"
+          ],
+          "limitations": [
+            "investigator-assessment-not-object-identification",
+            "final-Blue-Book-disposition-not-in-packet"
           ]
         }
       ],
       "phenomena": {
         "shapes": [
-          "formation"
+          "oval"
         ],
         "objectCount": 1,
-        "luminosity": null,
+        "luminosity": "silver glow",
         "motion": [
-          "near-vertical-ascent",
-          "rapid-horizontal-departure"
+          "steep-50-to-60-degree-ascent",
+          "rapid-straight-trajectory",
+          "southwest-horizontal-departure"
         ],
         "effects": [
-          "no-sound"
+          "no-trail",
+          "no-exhaust",
+          "no-reported-sound"
         ]
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 16,
         "witnessRoles": [
-          "intelligence community personnel",
-          "military police at Gray AFB"
+          "8455th DU Military Police Company personnel",
+          "commissioned and enlisted military witnesses"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided visual"
         ],
-        "durationSeconds": null,
-        "independentWitnessGroups": null
+        "durationSeconds": 150,
+        "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
         "domain": "MILITARY / FIELD INVESTIGATION",
@@ -22116,13 +22461,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/KILLEEN-1954/killeen-1954_killeen-001.jpg",
+        "src": "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
         "mediaType": "image",
-        "visualType": "document-excerpt",
-        "caption": "Page 1 of the Killeen TX 4602D AISS field investigation file (155 pages total).",
-        "provenance": "4602D AISS / NARA RG 341",
-        "evidenceStatus": "Source-document page; establishes the investigative record, not object identity.",
-        "isEventEvidence": false
+        "visualType": "official-investigator-conclusion",
+        "caption": "Captain Clarence Magee's 4602D AISS assessment endorsing the military-police witnesses' reliability and rejecting stimulated imagination.",
+        "provenance": "NARA RG 341, 4602D AISS field file, NAID 310994070, corpus p. 152",
+        "evidenceStatus": "Primary-source investigator assessment; confirms the official evaluation of the witnesses, not the object's identity.",
+        "isEventEvidence": true
       },
       "publicSources": [
         {
@@ -23439,9 +23784,9 @@
       ],
       "image": "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
       "images": [
+        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
         "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p00978-record-card.jpg",
         "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01002-signal-corps-report.jpg",
-        "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01004-csaf-teletype.jpg",
         "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01010-pilot-narrative.jpg",
         "assets/evidence/FORT-MONMOUTH-1951/FORT-MONMOUTH-1951-NARA-NAID-28939862-p01015-intel-report.jpg"
       ],
@@ -23651,15 +23996,6 @@
       "desc": "Sweden logs ~2,000 reports and dives Lake Kölmjärv; allied intelligence investigates, residue unexplained."
     },
     {
-      "id": "TL-1947A",
-      "year": 1947,
-      "date": "JUN 1947",
-      "type": "incident",
-      "caseId": "BF-1947-KA-01",
-      "title": "Arnold sighting names the saucer",
-      "desc": "Press coverage of Kenneth Arnold's Mount Rainier report coins 'flying saucer' and opens the modern era."
-    },
-    {
       "id": "TL-1947B",
       "year": 1947,
       "date": "JUL 1947",
@@ -23669,6 +24005,15 @@
       "desc": "509th Bomb Group announces a recovered 'flying disc'; the Army reverses to a weather balloon within hours."
     },
     {
+      "id": "TL-1947A",
+      "year": 1947,
+      "date": "JUN 1947",
+      "type": "incident",
+      "caseId": "BF-1947-KA-01",
+      "title": "Arnold sighting names the saucer",
+      "desc": "Press coverage of Kenneth Arnold's Mount Rainier report coins 'flying saucer' and opens the modern era."
+    },
+    {
       "id": "TL-1947C",
       "year": 1947,
       "date": "JUN 1947",
@@ -23676,6 +24021,24 @@
       "caseId": "BF-1947-MI-01",
       "title": "Maury Island hoax and B-25 crash",
       "desc": "The era's first 'physical evidence' story collapses as a hoax after two intelligence officers die flying samples."
+    },
+    {
+      "id": "TL-1948E",
+      "year": 1948,
+      "date": "1948–50",
+      "type": "contradiction",
+      "caseId": "BF-1948-AZ-01",
+      "title": "Aztec crash story planted",
+      "desc": "Con men Newton and GeBauer seed the crash-retrieval genre; courts later convict them of fraud."
+    },
+    {
+      "id": "TL-1948C",
+      "year": 1948,
+      "date": "AUG 1948",
+      "type": "contradiction",
+      "caseId": "BF-SF-07",
+      "title": "Estimate of the Situation destroyed",
+      "desc": "Sign's top-secret interplanetary conclusion is rejected by Vandenberg and ordered burned; no copy survives."
     },
     {
       "id": "TL-1948A",
@@ -23696,15 +24059,6 @@
       "desc": "Eastern Air Lines pilots report a flaming torpedo-shaped object; Project Sign escalates."
     },
     {
-      "id": "TL-1948C",
-      "year": 1948,
-      "date": "AUG 1948",
-      "type": "contradiction",
-      "caseId": "BF-SF-07",
-      "title": "Estimate of the Situation destroyed",
-      "desc": "Sign's top-secret interplanetary conclusion is rejected by Vandenberg and ordered burned; no copy survives."
-    },
-    {
       "id": "TL-1948D",
       "year": 1948,
       "date": "OCT 1948",
@@ -23712,15 +24066,6 @@
       "caseId": "BF-1948-GD-01",
       "title": "Gorman dogfight over Fargo",
       "desc": "A 27-minute pursuit of a light, later resolved as a lighted balloon plus vertigo — the era's control case."
-    },
-    {
-      "id": "TL-1948E",
-      "year": 1948,
-      "date": "1948–50",
-      "type": "contradiction",
-      "caseId": "BF-1948-AZ-01",
-      "title": "Aztec crash story planted",
-      "desc": "Con men Newton and GeBauer seed the crash-retrieval genre; courts later convict them of fraud."
     },
     {
       "id": "TL-1949",
@@ -23768,6 +24113,15 @@
       "desc": "One of the first UFO motion pictures; later reviewed by the Robertson Panel."
     },
     {
+      "id": "TL-1951-FM",
+      "year": 1951,
+      "date": "10–11 SEP 1951",
+      "type": "incident",
+      "caseId": "BF-1951-FM-01",
+      "title": "Fort Monmouth radar-visual incident",
+      "desc": "Signal Corps radar teams tracked fast-moving targets over two days; T-33 pilots reported a silver discus and ATIC opened a field investigation."
+    },
+    {
       "id": "TL-1951-YK",
       "year": 1951,
       "date": "1951",
@@ -23775,15 +24129,6 @@
       "caseId": "BF-1951-YK-01",
       "title": "Yorkshire 'perfect flying saucer'",
       "desc": "RAF officials saw a 'perfect flying saucer' during a public demonstration. Britain created a standing committee on flying saucers with R.V. Jones in charge."
-    },
-    {
-      "id": "TL-1952A",
-      "year": 1952,
-      "date": "JUL 1952",
-      "type": "incident",
-      "caseId": "BF-1952-DC-01",
-      "title": "Radar targets over Washington",
-      "desc": "National and Andrews radar track unknowns over the capital; Samford's press conference cites 'credible observers of relatively incredible things.'"
     },
     {
       "id": "TL-1952B",
@@ -23795,13 +24140,13 @@
       "desc": "T. T. Brown pitches the Pentagon a disc-shaped electrogravitic craft program; no service adopts it."
     },
     {
-      "id": "TL-1952C",
+      "id": "TL-1952-OSE",
       "year": 1952,
-      "date": "JUL 1952",
-      "type": "incident",
-      "caseId": "BF-1952-TM-01",
-      "title": "Newhouse films Tremonton objects",
-      "desc": "Navy photo analysts and the Robertson Panel reach opposite conclusions on the same frames."
+      "date": "AUG 1952",
+      "type": "case",
+      "caseId": "BF-SF-14",
+      "title": "CIA OSE Study Group internal UFO review",
+      "desc": "CIA's Office of Scientific Intelligence briefed the IAC on UFOs — 20% unexplained rate, air-defense vulnerability, psychological warfare implications."
     },
     {
       "id": "TL-1952-PL",
@@ -23813,15 +24158,6 @@
       "desc": "Naval officers at Port Lyautey, French Morocco observed a brilliant white object over two consecutive nights. Investigators computed its speed at more than 4,900 mph — seven times the fastest operational fighter of the era."
     },
     {
-      "id": "TL-1952-BE",
-      "year": 1952,
-      "date": "NOV 1952",
-      "type": "case",
-      "caseId": "BF-1952-BE-01",
-      "title": "Bethesda shape-shifting object",
-      "desc": "Laboratory workers observed an object change shape continuously for 15 minutes, merge and separate, leave smoke trails, and disappear/reappear at different locations."
-    },
-    {
       "id": "TL-1952-R5D",
       "year": 1952,
       "date": "AUG 1952",
@@ -23831,13 +24167,31 @@
       "desc": "A night-training pilot reported a disc 'brighter than white phosphorus' that circled his aircraft — red lights on wingtips, but no wings."
     },
     {
-      "id": "TL-1952-OSE",
+      "id": "TL-1952A",
       "year": 1952,
-      "date": "AUG 1952",
+      "date": "JUL 1952",
+      "type": "incident",
+      "caseId": "BF-1952-DC-01",
+      "title": "Radar targets over Washington",
+      "desc": "National and Andrews radar track unknowns over the capital; Samford's press conference cites 'credible observers of relatively incredible things.'"
+    },
+    {
+      "id": "TL-1952C",
+      "year": 1952,
+      "date": "JUL 1952",
+      "type": "incident",
+      "caseId": "BF-1952-TM-01",
+      "title": "Newhouse films Tremonton objects",
+      "desc": "Navy photo analysts and the Robertson Panel reach opposite conclusions on the same frames."
+    },
+    {
+      "id": "TL-1952-BE",
+      "year": 1952,
+      "date": "NOV 1952",
       "type": "case",
-      "caseId": "BF-SF-14",
-      "title": "CIA OSE Study Group internal UFO review",
-      "desc": "CIA's Office of Scientific Intelligence briefed the IAC on UFOs — 20% unexplained rate, air-defense vulnerability, psychological warfare implications."
+      "caseId": "BF-1952-BE-01",
+      "title": "Bethesda shape-shifting object",
+      "desc": "Laboratory workers observed an object change shape continuously for 15 minutes, merge and separate, leave smoke trails, and disappear/reappear at different locations."
     },
     {
       "id": "TL-1953",
@@ -23885,6 +24239,42 @@
       "desc": "An object moved 400 yards instantaneously — the investigator's 'helicopter' conclusion left the speed explicitly unexplained."
     },
     {
+      "id": "TL-1957-B47",
+      "year": 1957,
+      "date": "1957",
+      "type": "case",
+      "caseId": "BF-1957-B47-01",
+      "title": "B-47 supersonic acceleration encounter",
+      "desc": "A B-47 crew watched a stationary object accelerate to Mach 2-3. The investigator noted the possibility that the object was not of a conventional nature."
+    },
+    {
+      "id": "TL-1957-RA",
+      "year": 1957,
+      "date": "1957",
+      "type": "case",
+      "caseId": "BF-1957-RA-01",
+      "title": "Robins AFB 'did not appear conventional'",
+      "desc": "An object near Robins AFB 'did not appear conventional' — Major Porter noted gravitational factors that 'prevent further evaluation.'"
+    },
+    {
+      "id": "TL-1957-CG",
+      "year": 1957,
+      "date": "AUG 1957",
+      "type": "case",
+      "caseId": "BF-1957-CG-01",
+      "title": "Three cigar objects in Y formation",
+      "desc": "Three cigar-shaped objects in a Y formation at 20,000 feet — a unique geometric arrangement in the declassified record."
+    },
+    {
+      "id": "TL-1957-NC",
+      "year": 1957,
+      "date": "AUG 1957",
+      "type": "case",
+      "caseId": "BF-1957-NC-01",
+      "title": "First radar skinpaint of a UAP",
+      "desc": "An airborne radar operator tracked a UAP by raw skinpaint for 3.5 hours off the Northern California coast. The object closed to 6 miles, flew parallel, then accelerated away. Investigator flagged it as the first such detection."
+    },
+    {
       "id": "TL-1957A",
       "year": 1957,
       "date": "JAN 1957",
@@ -23892,6 +24282,15 @@
       "caseId": "BF-SF-04",
       "title": "Chapel Hill gravity conference",
       "desc": "Aviation-funded GR1 conference at UNC becomes a physics milestone later woven into antigravity lore."
+    },
+    {
+      "id": "TL-1957-HT",
+      "year": 1957,
+      "date": "JUL 1957",
+      "type": "case",
+      "caseId": "BF-1957-HT-01",
+      "title": "Hastings MI arrowhead formation",
+      "desc": "Four witnesses watched an object separate into three forming an arrowhead — the investigator's 'refueling' explanation didn't match the behavior."
     },
     {
       "id": "TL-1957B",
@@ -23910,51 +24309,6 @@
       "caseId": "BF-1957-LV-01",
       "title": "Levelland engine-stalling wave",
       "desc": "Independent drivers report the same EM-interference signature within hours; Blue Book sends one man."
-    },
-    {
-      "id": "TL-1957-NC",
-      "year": 1957,
-      "date": "AUG 1957",
-      "type": "case",
-      "caseId": "BF-1957-NC-01",
-      "title": "First radar skinpaint of a UAP",
-      "desc": "An airborne radar operator tracked a UAP by raw skinpaint for 3.5 hours off the Northern California coast. The object closed to 6 miles, flew parallel, then accelerated away. Investigator flagged it as the first such detection."
-    },
-    {
-      "id": "TL-1957-B47",
-      "year": 1957,
-      "date": "1957",
-      "type": "case",
-      "caseId": "BF-1957-B47-01",
-      "title": "B-47 supersonic acceleration encounter",
-      "desc": "A B-47 crew watched a stationary object accelerate to Mach 2-3. The investigator noted the possibility that the object was not of a conventional nature."
-    },
-    {
-      "id": "TL-1957-HT",
-      "year": 1957,
-      "date": "JUL 1957",
-      "type": "case",
-      "caseId": "BF-1957-HT-01",
-      "title": "Hastings MI arrowhead formation",
-      "desc": "Four witnesses watched an object separate into three forming an arrowhead — the investigator's 'refueling' explanation didn't match the behavior."
-    },
-    {
-      "id": "TL-1957-CG",
-      "year": 1957,
-      "date": "AUG 1957",
-      "type": "case",
-      "caseId": "BF-1957-CG-01",
-      "title": "Three cigar objects in Y formation",
-      "desc": "Three cigar-shaped objects in a Y formation at 20,000 feet — a unique geometric arrangement in the declassified record."
-    },
-    {
-      "id": "TL-1957-RA",
-      "year": 1957,
-      "date": "1957",
-      "type": "case",
-      "caseId": "BF-1957-RA-01",
-      "title": "Robins AFB 'did not appear conventional'",
-      "desc": "An object near Robins AFB 'did not appear conventional' — Major Porter noted gravitational factors that 'prevent further evaluation.'"
     },
     {
       "id": "TL-1958B",
@@ -24048,15 +24402,6 @@
       "desc": "Gemini 7 technical debriefing; included for complete NASA evidence coverage."
     },
     {
-      "id": "TL-1965A",
-      "year": 1965,
-      "date": "DEC 1965",
-      "type": "incident",
-      "caseId": "BF-1965-KB-01",
-      "title": "Kecksburg fireball & search",
-      "desc": "A six-state fireball ends with a cordoned woods search; NASA later tells a court its fragment records are lost."
-    },
-    {
       "id": "TL-1965-G7",
       "year": 1965,
       "date": "DEC 1965",
@@ -24064,6 +24409,15 @@
       "caseId": "BF-1965-G7-01",
       "title": "Gemini 7 astronaut 'bogey'",
       "desc": "Frank Borman reported a 'bogey at ten o'clock high' — NASA PAO confirmed it was an unidentified third object, distinct from the booster and particles."
+    },
+    {
+      "id": "TL-1965A",
+      "year": 1965,
+      "date": "DEC 1965",
+      "type": "incident",
+      "caseId": "BF-1965-KB-01",
+      "title": "Kecksburg fireball & search",
+      "desc": "A six-state fireball ends with a cordoned woods search; NASA later tells a court its fragment records are lost."
     },
     {
       "id": "EV-NASA-D022",
@@ -24093,13 +24447,14 @@
       "desc": "~200 students and staff in Melbourne report a low silver disc; the official file for the day is nearly empty."
     },
     {
-      "id": "EV-1967-MA-01",
-      "caseId": "BF-1967-MA-01",
-      "date": "MAR 1967",
+      "id": "TL-1967B",
       "year": 1967,
-      "type": "case",
-      "title": "Malmstrom AFB Missile Shutdown Incident",
-      "desc": "A landmark nuclear-site UAP case alleging UFO activity near missile fields during a missile shutdown event, repeatedly c"
+      "date": "04 OCT 1967",
+      "type": "incident",
+      "caseId": "BF-1967-SH-01",
+      "title": "Shag Harbour Water Impact",
+      "desc": "RCMP officers watch an object enter the water; Canadian records log an unexplained 'dark object' report.",
+      "summary": "A Canadian government summary records an RCMP corporal and six other witnesses observing an approximately 60-foot object descend off southwest Nova Scotia, make a bright splash, and leave a white light on the surface. A DND underwater search found no tangible evidence."
     },
     {
       "id": "EV-NASA-D018",
@@ -24111,34 +24466,13 @@
       "desc": "Gemini 4 experiment debriefing released in the NASA/UAP corpus."
     },
     {
-      "id": "TL-1967B",
+      "id": "EV-1967-MA-01",
+      "caseId": "BF-1967-MA-01",
+      "date": "MAR 1967",
       "year": 1967,
-      "date": "04 OCT 1967",
-      "type": "incident",
-      "caseId": "BF-1967-SH-01",
-      "title": "Shag Harbour Water Impact",
-      "desc": "RCMP officers watch an object enter the water; Canadian records log an unexplained 'dark object' report.",
-      "summary": "A Canadian government summary records an RCMP corporal and six other witnesses observing an approximately 60-foot object descend off southwest Nova Scotia, make a bright splash, and leave a white light on the surface. A DND underwater search found no tangible evidence."
-    },
-    {
-      "id": "T-1968-HIM-01",
-      "caseId": "BF-1968-HIM-02",
-      "date": "19 FEB 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Northeast Nepal / North Sikkim Correlated Report",
-      "desc": "The table records contemporaneous reports over northeast Nepal and north Sikkim and explicitly says the date, timing, and likely northeast-to-southwest direction coincide.",
-      "seriesId": "BF-1968-HIM-01"
-    },
-    {
-      "id": "T-1968-HIM-02",
-      "caseId": "BF-1968-HIM-03",
-      "date": "21 FEB 1968",
-      "year": 1968,
-      "type": "CIA / EVENT REPORT",
-      "title": "Thimphu Bluish Object Report",
-      "desc": "The report describes a bluish object moving rapidly and silently over Thimphu, bright enough to illuminate the area; the document itself questions the stated east-to-west direction.",
-      "seriesId": "BF-1968-HIM-01"
+      "type": "case",
+      "title": "Malmstrom AFB Missile Shutdown Incident",
+      "desc": "A landmark nuclear-site UAP case alleging UFO activity near missile fields during a missile shutdown event, repeatedly c"
     },
     {
       "id": "T-1968-HIM-03",
@@ -24158,6 +24492,26 @@
       "type": "CIA / EVENT REPORT",
       "title": "Ane La Circular-Path Object",
       "desc": "A separate Ladakh row at the same reported time describes an object following a circular path and leaving smoke.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-01",
+      "caseId": "BF-1968-HIM-02",
+      "date": "19 FEB 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Northeast Nepal / North Sikkim Correlated Report",
+      "desc": "The table records contemporaneous reports over northeast Nepal and north Sikkim and explicitly says the date, timing, and likely northeast-to-southwest direction coincide.",
+      "seriesId": "BF-1968-HIM-01"
+    },
+    {
+      "id": "T-1968-HIM-02",
+      "caseId": "BF-1968-HIM-03",
+      "date": "21 FEB 1968",
+      "year": 1968,
+      "type": "CIA / EVENT REPORT",
+      "title": "Thimphu Bluish Object Report",
+      "desc": "The report describes a bluish object moving rapidly and silently over Thimphu, bright enough to illuminate the area; the document itself questions the stated east-to-west direction.",
       "seriesId": "BF-1968-HIM-01"
     },
     {
@@ -24188,6 +24542,15 @@
       "caseId": "BF-1968-MN-01",
       "title": "Minot AFB multi-sensor events",
       "desc": "The complete 107-page sanitized Project Blue Book file documents overlapping ground visual, B-52 radar/visual, radio-interference and missile-site reports during a roughly three-hour sequence near Minot AFB."
+    },
+    {
+      "id": "TL-1969",
+      "year": 1969,
+      "date": "17 DEC 1969",
+      "type": "official-position",
+      "caseId": "BF-1966-CC-00",
+      "title": "Project Blue Book closed",
+      "desc": "Closure cited the Condon Report."
     },
     {
       "id": "EV-NASA-D001",
@@ -24253,15 +24616,6 @@
       "desc": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context."
     },
     {
-      "id": "TL-1969",
-      "year": 1969,
-      "date": "17 DEC 1969",
-      "type": "official-position",
-      "caseId": "BF-1966-CC-00",
-      "title": "Project Blue Book closed",
-      "desc": "Closure cited the Condon Report."
-    },
-    {
       "id": "EV-NASA-D026",
       "caseId": "BF-NASA-D026",
       "date": "1971",
@@ -24287,6 +24641,16 @@
       "type": "case",
       "title": "Apollo 17 Visual Material",
       "desc": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context."
+    },
+    {
+      "id": "TL-1973C",
+      "year": 1973,
+      "date": "18 OCT 1973",
+      "type": "incident",
+      "caseId": "BF-1973-CY-01",
+      "title": "Coyne Helicopter Near-Collision",
+      "desc": "Four Army Reserve crew sign statements on an unexplained close pass and uncommanded climb.",
+      "summary": "Four U.S. Army Reserve helicopter crew members reported a lighted object closing on their UH-1H near Mansfield, radio interruption, a green beam, and an unexpected climb while descent controls were reportedly set. A 1979 CUFOS monograph preserves interviews, ground-witness accounts, and reproductions of Army hazard paperwork."
     },
     {
       "id": "EV-NASA-D005",
@@ -24316,6 +24680,15 @@
       "desc": "Skylab technical crew debriefing released in the NASA/UAP corpus."
     },
     {
+      "id": "TL-1973-SL",
+      "year": 1973,
+      "date": "1973",
+      "type": "case",
+      "caseId": "BF-1973-SL-01",
+      "title": "Skylab 'one or two objects up there with us'",
+      "desc": "Skylab crew reported a 'bright reddish object' always brighter than any star — 'one of the most unusual things we saw.'"
+    },
+    {
       "id": "T-1973-SARY-SHAGAN",
       "caseId": "BF-1973-SS-01",
       "date": "LATE SUMMER 1973",
@@ -24334,23 +24707,13 @@
       "desc": "A hidden sheriff's recorder captures the witnesses' private distress — the case's covert credibility test."
     },
     {
-      "id": "TL-1973C",
-      "year": 1973,
-      "date": "18 OCT 1973",
-      "type": "incident",
-      "caseId": "BF-1973-CY-01",
-      "title": "Coyne Helicopter Near-Collision",
-      "desc": "Four Army Reserve crew sign statements on an unexplained close pass and uncommanded climb.",
-      "summary": "Four U.S. Army Reserve helicopter crew members reported a lighted object closing on their UH-1H near Mansfield, radio interruption, a green beam, and an unexpected climb while descent controls were reportedly set. A 1979 CUFOS monograph preserves interviews, ground-witness accounts, and reproductions of Army hazard paperwork."
-    },
-    {
-      "id": "TL-1973-SL",
-      "year": 1973,
-      "date": "1973",
+      "id": "TL-1975B",
+      "year": 1975,
+      "date": "1975",
       "type": "case",
-      "caseId": "BF-1973-SL-01",
-      "title": "Skylab 'one or two objects up there with us'",
-      "desc": "Skylab crew reported a 'bright reddish object' always brighter than any star — 'one of the most unusual things we saw.'"
+      "caseId": "BF-SF-13",
+      "title": "Meier contact claims begin",
+      "desc": "The largest single-source photo corpus in UFOlogy starts in Switzerland — and reproduces with models."
     },
     {
       "id": "TL-1975A",
@@ -24360,15 +24723,6 @@
       "caseId": "BF-1975-TW-01",
       "title": "Walton missing five days",
       "desc": "A logging crew reports Walton taken by a beam; a documented manhunt ends with his reappearance."
-    },
-    {
-      "id": "TL-1975B",
-      "year": 1975,
-      "date": "1975",
-      "type": "case",
-      "caseId": "BF-SF-13",
-      "title": "Meier contact claims begin",
-      "desc": "The largest single-source photo corpus in UFOlogy starts in Switzerland — and reproduces with models."
     },
     {
       "id": "EV-1976-TH-01",
@@ -24389,15 +24743,6 @@
       "desc": "The Brazilian Air Force field-investigates the Colares flap; its reports and photos are later declassified."
     },
     {
-      "id": "TL-1978A",
-      "year": 1978,
-      "date": "OCT 1978",
-      "type": "incident",
-      "caseId": "BF-1978-VL-01",
-      "title": "Valentich vanishes over Bass Strait",
-      "desc": "A pilot's final transmissions describe a pacing object — 'it's not an aircraft' — before contact is lost."
-    },
-    {
       "id": "TL-1978B",
       "year": 1978,
       "date": "DEC 1978",
@@ -24407,13 +24752,13 @@
       "desc": "Radar, aircrew visuals, and a TV film crew record the same lights; the official explanation is disputed."
     },
     {
-      "id": "EV-1980-RF-01",
-      "caseId": "BF-1980-RF-01",
-      "date": "DEC 1980",
-      "year": 1980,
-      "type": "case",
-      "title": "Rendlesham Forest / RAF Bentwaters Incident",
-      "desc": "Multiple nights of reported lights/objects near RAF Woodbridge/Bentwaters produced witness testimony, physical-trace cla"
+      "id": "TL-1978A",
+      "year": 1978,
+      "date": "OCT 1978",
+      "type": "incident",
+      "caseId": "BF-1978-VL-01",
+      "title": "Valentich vanishes over Bass Strait",
+      "desc": "A pilot's final transmissions describe a pacing object — 'it's not an aircraft' — before contact is lost."
     },
     {
       "id": "TL-1980C",
@@ -24423,6 +24768,15 @@
       "caseId": "BF-1980-PE-01",
       "title": "Peruvian pilot fires on object",
       "desc": "Lt. Santa María expends 64 rounds at an object over La Joya; a DIA message logs the engagement."
+    },
+    {
+      "id": "EV-1980-RF-01",
+      "caseId": "BF-1980-RF-01",
+      "date": "DEC 1980",
+      "year": 1980,
+      "type": "case",
+      "title": "Rendlesham Forest / RAF Bentwaters Incident",
+      "desc": "Multiple nights of reported lights/objects near RAF Woodbridge/Bentwaters produced witness testimony, physical-trace cla"
     },
     {
       "id": "TL-1980D",
@@ -24443,15 +24797,6 @@
       "desc": "France's space agency documents soil compaction, heating, and plant anomalies at a landing site."
     },
     {
-      "id": "TL-1984A",
-      "year": 1984,
-      "date": "DEC 1984",
-      "type": "contradiction",
-      "caseId": "BF-SF-05",
-      "title": "MJ-12 film roll surfaces",
-      "desc": "Alleged 1952 briefing documents arrive with no chain of custody; AFOSI and the FBI mark them bogus."
-    },
-    {
       "id": "TL-1984B",
       "year": 1984,
       "date": "1980–88",
@@ -24459,6 +24804,15 @@
       "caseId": "BF-SF-11",
       "title": "Bennewitz fed disinformation",
       "desc": "AFOSI plants fabricated UFO material on a civilian; agent Doty later admits the operation on camera."
+    },
+    {
+      "id": "TL-1984A",
+      "year": 1984,
+      "date": "DEC 1984",
+      "type": "contradiction",
+      "caseId": "BF-SF-05",
+      "title": "MJ-12 film roll surfaces",
+      "desc": "Alleged 1952 briefing documents arrive with no chain of custody; AFOSI and the FBI mark them bogus."
     },
     {
       "id": "TL-1985-PNG",
@@ -24515,15 +24869,6 @@
       "desc": "A diamond object with a jet in frame enters MoD files; one print resurfaces in 2022."
     },
     {
-      "id": "TL-1994A",
-      "year": 1994,
-      "date": "SEP 1994",
-      "type": "incident",
-      "caseId": "BF-1994-AR-01",
-      "title": "Ariel School encounter",
-      "desc": "~60 children in Ruwa report a landed craft and beings; filmed interviews within days stay consistent decades later."
-    },
-    {
       "id": "TL-1994-KZ",
       "year": 1994,
       "date": "JAN 1994",
@@ -24531,6 +24876,15 @@
       "caseId": "BF-1994-KZ-01",
       "title": "Kazakhstan 40-minute commercial aviation encounter",
       "desc": "Three airline pilots flying a Boeing 747SP at 41,000 feet over Kazakhstan observed a UAP for 40 minutes performing 90-degree turns at high G's, leaving contrails at approximately 100,000 feet."
+    },
+    {
+      "id": "TL-1994A",
+      "year": 1994,
+      "date": "SEP 1994",
+      "type": "incident",
+      "caseId": "BF-1994-AR-01",
+      "title": "Ariel School encounter",
+      "desc": "~60 children in Ruwa report a landed craft and beings; filmed interviews within days stay consistent decades later."
     },
     {
       "id": "TL-1995B",
@@ -24578,15 +24932,6 @@
       "desc": "Named witnesses report a creature and alleged military recovery; falsifying records remain withheld."
     },
     {
-      "id": "EV-1997-PH-01",
-      "caseId": "BF-1997-PH-01",
-      "date": "MAR 1997",
-      "year": 1997,
-      "type": "case",
-      "title": "Phoenix Lights Mass Sighting",
-      "desc": "Large numbers of witnesses across Arizona reported formations and/or a large dark object; later flare explanations addre"
-    },
-    {
       "id": "TL-1997B",
       "year": 1997,
       "date": "1997",
@@ -24594,6 +24939,15 @@
       "caseId": "BF-SF-06",
       "title": "'Alien Interview' tape released",
       "desc": "Rocket Pictures distributes footage from the disguised source 'Victor'; provenance is withheld by design."
+    },
+    {
+      "id": "EV-1997-PH-01",
+      "caseId": "BF-1997-PH-01",
+      "date": "MAR 1997",
+      "year": 1997,
+      "type": "case",
+      "title": "Phoenix Lights Mass Sighting",
+      "desc": "Large numbers of witnesses across Arizona reported formations and/or a large dark object; later flare explanations addre"
     },
     {
       "id": "TL-1999A",
@@ -24660,6 +25014,15 @@
       "desc": "CEFAA studies the footage for two years and calls it unexplained; open-source analysts identify a contrail."
     },
     {
+      "id": "TL-2015",
+      "year": 2015,
+      "date": "2015",
+      "type": "incident",
+      "caseId": "BF-2015-PX-04",
+      "title": "Pantex incident record",
+      "desc": "DOE nuclear-site record."
+    },
+    {
       "id": "EV-2015-GIMBAL-01",
       "caseId": "BF-2015-GIMBAL-01",
       "date": "JAN 2015",
@@ -24680,15 +25043,6 @@
       "desc": "NASA and AARO analyses attribute the apparent speed to reconstructed platform motion, range, and parallax.",
       "seriesId": "BF-2015-NAV-01",
       "seriesOrder": 2
-    },
-    {
-      "id": "TL-2015",
-      "year": 2015,
-      "date": "2015",
-      "type": "incident",
-      "caseId": "BF-2015-PX-04",
-      "title": "Pantex incident record",
-      "desc": "DOE nuclear-site record."
     },
     {
       "id": "TL-2019B",
@@ -24769,15 +25123,6 @@
       "seriesId": "BF-2020-AG-00"
     },
     {
-      "id": "T-2022-IQ-D12",
-      "caseId": "BF-2022-IQ-02",
-      "date": "20 MAY 2022",
-      "year": 2022,
-      "type": "MILITARY / ISR",
-      "title": "Iraq ISR Object — No Positive Identification",
-      "desc": "A declassified USCENTCOM mission report records one UAP first contacted at 20:43Z; the ISR platform followed it north to northeast as long as possible, and the screener could not obtain a positive identification."
-    },
-    {
       "id": "TL-2022A",
       "year": 2022,
       "date": "15 FEB 2022",
@@ -24787,6 +25132,15 @@
       "desc": "Five Army witnesses report a structured stationary object."
     },
     {
+      "id": "T-2022-IQ-D12",
+      "caseId": "BF-2022-IQ-02",
+      "date": "20 MAY 2022",
+      "year": 2022,
+      "type": "MILITARY / ISR",
+      "title": "Iraq ISR Object — No Positive Identification",
+      "desc": "A declassified USCENTCOM mission report records one UAP first contacted at 20:43Z; the ISR platform followed it north to northeast as long as possible, and the screener could not obtain a positive identification."
+    },
+    {
       "id": "TL-2022B",
       "year": 2022.35,
       "date": "MAY 2022",
@@ -24794,25 +25148,6 @@
       "caseId": "BF-2022-ME-01",
       "title": "Middle East multi-UAP observation",
       "desc": "Five sensor observations over approximately four hours."
-    },
-    {
-      "id": "T-2023-BRONZE-CIGAR",
-      "caseId": "BF-2023-BC-01",
-      "date": "SEP 2023",
-      "year": 2023,
-      "type": "FBI / WITNESS",
-      "title": "Restricted-Facility Bronze Cigar Object",
-      "desc": "An FBI FD-302 records at least two witnesses at a restricted military facility describing a silent metallic-bronze cigar-shaped object with an intense diamond-white light, moving slowly before disappearing after five to ten seconds."
-    },
-    {
-      "id": "TL-2023-GR33",
-      "year": 2023,
-      "date": "OCT 2023",
-      "type": "incident",
-      "caseId": "BF-2023-GR-33",
-      "title": "Greece maritime right-angle maneuvers",
-      "desc": "A small circular object was reported just above the ocean making multiple 90-degree turns.",
-      "seriesId": "BF-2023-GR-00"
     },
     {
       "id": "TL-2023-IQ20",
@@ -24833,6 +25168,15 @@
       "desc": "A reported bouncy-ball-shaped object passed near the aircraft during a seven-minute observation."
     },
     {
+      "id": "TL-2023D",
+      "year": 2023,
+      "date": "DEC 2023",
+      "type": "incident",
+      "caseId": "BF-2023-LG-01",
+      "title": "Langley AFB incursions",
+      "desc": "Weeks of unidentified aircraft over a fighter base; FOIA documents the failure to identify or interdict."
+    },
+    {
       "id": "TL-2023C",
       "year": 2023,
       "date": "JUL 2023",
@@ -24842,13 +25186,23 @@
       "desc": "Sworn recovery-program claims meet the executive's written denial — the record now contradicts itself in public."
     },
     {
-      "id": "TL-2023D",
+      "id": "TL-2023-GR33",
       "year": 2023,
-      "date": "DEC 2023",
+      "date": "OCT 2023",
       "type": "incident",
-      "caseId": "BF-2023-LG-01",
-      "title": "Langley AFB incursions",
-      "desc": "Weeks of unidentified aircraft over a fighter base; FOIA documents the failure to identify or interdict."
+      "caseId": "BF-2023-GR-33",
+      "title": "Greece maritime right-angle maneuvers",
+      "desc": "A small circular object was reported just above the ocean making multiple 90-degree turns.",
+      "seriesId": "BF-2023-GR-00"
+    },
+    {
+      "id": "T-2023-BRONZE-CIGAR",
+      "caseId": "BF-2023-BC-01",
+      "date": "SEP 2023",
+      "year": 2023,
+      "type": "FBI / WITNESS",
+      "title": "Restricted-Facility Bronze Cigar Object",
+      "desc": "An FBI FD-302 records at least two witnesses at a restricted military facility describing a silent metallic-bronze cigar-shaped object with an intense diamond-white light, moving slowly before disappearing after five to ten seconds."
     },
     {
       "id": "TL-2023A",
@@ -24915,15 +25269,6 @@
       "desc": "Site surveys, collected media and agent observations."
     },
     {
-      "id": "T-2025-USIC-ORB",
-      "caseId": "BF-2025-USIC-01",
-      "date": "LATE 2025",
-      "year": 2025,
-      "type": "ODNI / TESTIMONY",
-      "title": "Senior USIC Test-Range Orb Encounters",
-      "desc": "A released narrative attributed to a senior U.S. intelligence officer describes more than an hour of helicopter encounters with orange orb-like objects, including claimed radar cueing, FLIR and NVG observations, ground teams, pilots, and nearby fighters."
-    },
-    {
       "id": "TL-2025",
       "year": 2025,
       "date": "2025",
@@ -24931,6 +25276,15 @@
       "caseId": "BF-2025-YS-01",
       "title": "Yellow Sea IR case",
       "desc": "Unresolved area of contrast released."
+    },
+    {
+      "id": "T-2025-USIC-ORB",
+      "caseId": "BF-2025-USIC-01",
+      "date": "LATE 2025",
+      "year": 2025,
+      "type": "ODNI / TESTIMONY",
+      "title": "Senior USIC Test-Range Orb Encounters",
+      "desc": "A released narrative attributed to a senior U.S. intelligence officer describes more than an hour of helicopter encounters with orange orb-like objects, including claimed radar cueing, FLIR and NVG observations, ground teams, pilots, and nearby fighters."
     }
   ],
   "schemaVersion": 2,
