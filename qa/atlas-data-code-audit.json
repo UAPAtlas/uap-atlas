@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 211,
-  "sourceIndexFiles": 918,
+  "sourceIndexTerms": 212,
+  "sourceIndexFiles": 927,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,7 +62,7 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 235,
+  "sourceRecordCount": 234,
   "sourceDepthWeakCaseCount": 71,
   "sourceDepthEnrichmentCandidateCount": 115,
   "sourceDepthWeakThreshold": 25,
@@ -70,11 +70,11 @@
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
-    "thin-summary": 37,
-    "multi-source-independent": 11,
+    "thin-summary": 39,
+    "multi-source-independent": 10,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 65
+    "single-primary-record": 64
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -391,12 +391,11 @@
       ]
     },
     "BF-1966-CC-00": {
-      "label": "multi-source-independent",
-      "primaryRecords": 2,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary source",
         "usaf-blue-book"
       ]
     },
@@ -838,13 +837,13 @@
       ]
     },
     "BF-SF-12": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1996-VG-01": {

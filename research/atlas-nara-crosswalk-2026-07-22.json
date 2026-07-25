@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T04:11:06-04:00",
+  "generatedAt": "2026-07-25T04:25:18-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -1302,20 +1302,19 @@
       "sourceIndexTokens": [
         "CONDON-1966"
       ],
-      "structuredSourceRecords": 2,
+      "structuredSourceRecords": 1,
       "publicUrlCount": 1,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "low-memo-facsimile-not-local",
-        "methodology-correspondence-incomplete",
-        "prejudgment-does-not-prove-case-results-were-fabricated"
+        "This is not a UAP sighting, sensor event, or physical-evidence case",
+        "The current Atlas custody includes public/preview context but no exact NARA case mapping or complete local committee archive",
+        "Institutional bias/pre-judgment evidence does not by itself prove any specific UAP origin claim"
       ],
-      "upgradePriorityScore": 10,
+      "upgradePriorityScore": 9,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
+        "one structured source record",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
@@ -2844,14 +2843,15 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
+        "No original film master, camera negative, chain-of-custody packet, or agency-originating record is mapped",
+        "The record does not authenticate the footage as Roswell, alien, or government-origin material",
+        "Later interviews/broadcasts are context for provenance and reception, not independent proof of the depicted event",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "NARA collection/guide link only"
       ]
@@ -4555,7 +4555,8 @@
       "coverageLinks": 5,
       "missingRecordClasses": [
         "full-follow-up-not-extracted",
-        "official-conclusion-not-located"
+        "official-conclusion-not-located",
+        "The file pages preserve the reported observation, but they do not provide a complete follow-up investigation, final identification, or independent sensor corroboration."
       ],
       "upgradePriorityScore": 9,
       "upgradeReasons": [

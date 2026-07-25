@@ -5893,10 +5893,10 @@
       "whyItMatters": "It exposes a credibility problem at the exact study used to justify shutting down the Air Force public UFO investigation.",
       "keyQuote": "The trick would be, I think, to describe the project so that, to the public, it would appear a totally objective study but, to the scientific community, would present the image of a group of non-believers trying their best to be objective but having an almost zero expectation of finding a saucer.",
       "quoteSource": "Robert Low memorandum, Aug. 9, 1966; exact wording preserved in the Atlas record, but a local facsimile is not archived",
-      "quoteConfidence": "document quotation — local facsimile not archived",
+      "quoteConfidence": "Medium-high — source language is preserved in public/DTIC and Atlas preview context, but local facsimile completeness remains limited.",
       "heroFact": "The Condon study carried pre-judgment language before publication, yet still became the basis for closing Project Blue Book.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "Primary Condon/Low pre-judgment and Project Blue Book review context; important institutional-bias record, not an event-evidence case.",
       "sourceLabel": "Condon archive",
       "sourceLocator": "CONDON-1966",
       "relatedCaseIds": [
@@ -5947,27 +5947,19 @@
       "sourceRecords": [
         {
           "citation": "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "sourceType": "institutional-prejudgment-record",
+          "provenance": "Robert Low memo / Condon Committee pre-judgment record plus DOW-UAP-D092 Project Blue Book review context and DTIC public report link",
           "locator": "CONDON-1966",
           "supports": [
-            "documented-pre-study-methodological-bias-concern",
-            "condon-report-policy-role",
-            "project-blue-book-closure-context"
+            "Documents early institutional framing and pre-judgment concerns around the Condon Committee/UFO study process",
+            "Connects Condon Committee history to Department of Air Force/Project Blue Book review context",
+            "Supports the case as institutional-process evidence relevant to debunking, research design, and public credibility management"
           ],
           "limitations": [
-            "low-memo-facsimile-not-local",
-            "methodology-correspondence-incomplete",
-            "prejudgment-does-not-prove-case-results-were-fabricated"
+            "This is not a UAP sighting, sensor event, or physical-evidence case",
+            "The current Atlas custody includes public/preview context but no exact NARA case mapping or complete local committee archive",
+            "Institutional bias/pre-judgment evidence does not by itself prove any specific UAP origin claim"
           ]
-        },
-        {
-          "citation": "DOW-UAP-D092 · DAF Project Blue Book review / Condon context",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
-          "locator": "CONDON-1966",
-          "supports": [],
-          "limitations": []
         }
       ],
       "phenomena": {
@@ -9985,10 +9977,10 @@
       "whyItMatters": "It broadens the strategic-site pattern beyond the United States while preserving the source's own refusal to identify the phenomenon.",
       "keyQuote": "an unidentified sharp (bright) green circular object or mass in the sky",
       "quoteSource": "CIA-UAP-011, para. 14",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High — primary-source quotation confirmed in mapped CIA-UAP-011 report.",
       "heroFact": "A CIA source report records a bright green circular phenomenon over the Sary Shagan weapons-testing range in 1973.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "Primary CIA/War.gov Sary Shagan report custody with local page-image/PDF assets; strong intelligence-record provenance, limited to reported observation context.",
       "sourceLabel": "CIA intelligence report",
       "sourceLocator": "CIA-UAP-011, para. 14",
       "relatedCaseIds": [
@@ -13687,9 +13679,9 @@
     {
       "keyQuote": "…a restoration.",
       "quoteSource": "Ray Santilli, 'Eamonn Investigates: Alien Autopsy' interview, 2006",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "Medium — public source phrase is confirmed, but no original film/camera negative or agency custody packet is mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Broadcast/admission-era public provenance trail for the Santilli alien-autopsy film; useful as disputed-media calibration, not authenticated Roswell footage.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-12",
@@ -13764,11 +13756,19 @@
       "sourceRecords": [
         {
           "citation": "SANTILLI-1995 · broadcast record / 2006 admission interviews",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "disputed-media-provenance-record",
+          "provenance": "Broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
           "locator": "SANTILLI-1995",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the Santilli alien-autopsy film as a real 1990s broadcast/distribution phenomenon with later admission/interview context",
+            "Supports the case as a disputed-media/provenance-failure example important to UFO public-culture history",
+            "Local source preview and audit note preserve the Atlas boundary that no primary packet was recovered"
+          ],
+          "limitations": [
+            "No original film master, camera negative, chain-of-custody packet, or agency-originating record is mapped",
+            "The record does not authenticate the footage as Roswell, alien, or government-origin material",
+            "Later interviews/broadcasts are context for provenance and reception, not independent proof of the depicted event"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -22362,10 +22362,10 @@
       "whyItMatters": "Fills an Alaska geographic gap. The greenish-blue color connects to the green fireball / Los Alamos pattern already in the Atlas. Military base overflight with a named officer witness. The speed estimate predates virtually all known high-speed aircraft programs.",
       "keyQuote": "Flaming greenish-blue object at 2,500 feet, estimated speed 1,500 mph.",
       "quoteSource": "DOW-UAP-D084, Army CIC Flying Discs 1949 (342-HS1)",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High — OCR-derived quotation tied to mapped 342-HS1 pages 51–52.",
       "heroFact": "A naval officer reported a flaming greenish-blue object at 1,500 mph over Kodiak Naval Base in 1949 — three years before the Washington D.C. flap.",
       "significance": "High significance — early speed data, military base",
-      "sourceQuality": "Primary source — Army Counter Intelligence Corps file",
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
       "sourceLabel": "Army CIC / NARA",
       "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 51-52",
       "relatedCaseIds": [
@@ -23012,10 +23012,10 @@
       "whyItMatters": "Fills a Pacific/Hawaii geographic gap. The witness is an Intelligence Officer (S-2), not a casual observer. The oscillating motion, silence, and 'brilliance of the whiteness' are distinctive phenomenology. Military base overflight in 1949, months before the D.C. flap.",
       "keyQuote": "Brilliance of the whiteness of underside noted.",
       "quoteSource": "DOW-UAP-D084, Army CIC Flying Discs 1949 (342-HS1), pp. 90-93",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High — OCR-derived quotation tied to mapped 342-HS1 pages 90–93.",
       "heroFact": "An Intelligence Officer at Hickam Field watched a silent, oscillating white object circle overhead then suddenly depart — no sound, no exhaust.",
       "significance": "High significance — military base, intelligence officer witness",
-      "sourceQuality": "Primary source — Army Counter Intelligence Corps file",
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
       "sourceLabel": "Army CIC / NARA",
       "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 90-93",
       "relatedCaseIds": [
@@ -23085,7 +23085,8 @@
           ],
           "limitations": [
             "full-follow-up-not-extracted",
-            "official-conclusion-not-located"
+            "official-conclusion-not-located",
+            "The file pages preserve the reported observation, but they do not provide a complete follow-up investigation, final identification, or independent sensor corroboration."
           ]
         }
       ],

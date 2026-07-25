@@ -628,32 +628,6 @@
       ]
     },
     {
-      "id": "BF-SF-12",
-      "title": "Special File: Santilli 'Alien Autopsy' Film",
-      "score": 42,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "confirmed source-phrase quotation",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
       "id": "BF-1961-BH-01",
       "title": "Betty & Barney Hill Encounter",
       "score": 40,
@@ -675,32 +649,6 @@
       },
       "reasons": [
         "source profile=thin-summary",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1966-CC-00",
-      "title": "Condon Committee Pre-Judgment Record",
-      "score": 40,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source",
-      "quoteConfidence": "document quotation \u2014 local facsimile not archived",
-      "sourceProfile": {
-        "label": "multi-source-independent",
-        "primaryRecords": 2,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:primary source",
-          "usaf-blue-book"
-        ]
-      },
-      "reasons": [
-        "empty supports field",
-        "empty limitations field",
         "quote confidence needs verification upgrade"
       ]
     },
@@ -836,8 +784,8 @@
       "indexedLinks": 4,
       "publicSourceUrls": 1,
       "evidenceAssets": 3,
-      "sourceQuality": "Primary source",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceQuality": "Primary CIA/War.gov Sary Shagan report custody with local page-image/PDF assets; strong intelligence-record provenance, limited to reported observation context.",
+      "quoteConfidence": "High \u2014 primary-source quotation confirmed in mapped CIA-UAP-011 report.",
       "sourceProfile": {
         "label": "thin-summary",
         "primaryRecords": 0,
@@ -933,8 +881,8 @@
       "indexedLinks": 5,
       "publicSourceUrls": 1,
       "evidenceAssets": 4,
-      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 90\u201393.",
       "sourceProfile": {
         "label": "thin-summary",
         "primaryRecords": 0,
@@ -956,8 +904,8 @@
       "indexedLinks": 3,
       "publicSourceUrls": 1,
       "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 51\u201352.",
       "sourceProfile": {
         "label": "thin-summary",
         "primaryRecords": 0,
@@ -1195,6 +1143,29 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1966-CC-00",
+      "title": "Condon Committee Pre-Judgment Record",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary Condon/Low pre-judgment and Project Blue Book review context; important institutional-bias record, not an event-evidence case.",
+      "quoteConfidence": "Medium-high \u2014 source language is preserved in public/DTIC and Atlas preview context, but local facsimile completeness remains limited.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
         ]
       },
       "reasons": [
@@ -1567,6 +1538,30 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "other:afosi kirtland/bennewitz forms, cseh form, doty foia atr-1, domenici record, and project aquarius forgery artifact mapped locally"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Broadcast/admission-era public provenance trail for the Santilli alien-autopsy film; useful as disputed-media calibration, not authenticated Roswell footage.",
+      "quoteConfidence": "Medium \u2014 public source phrase is confirmed, but no original film/camera negative or agency custody packet is mapped.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
+          "other:local atlas audit derived from the current source inventory"
         ]
       },
       "reasons": [
