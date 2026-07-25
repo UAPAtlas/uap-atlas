@@ -26,13 +26,20 @@ def main() -> None:
     atlas_path = (ROOT / args.atlas).resolve()
     atlas = json.loads(atlas_path.read_text())
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
+    source_availability = json.loads((ROOT / "source-availability.json").read_text())
     embedded_atlas = embedded(text, "atlasData")
     embedded_index = embedded(text, "sourceFileIndex")
+    embedded_availability = embedded(text, "sourceAvailabilityIndex")
 
     assert len(atlas.get("cases", [])) == 146
     assert embedded_atlas == atlas, f"{html_path.name} atlasData is stale; run sync_atlas_runtime_data.py"
     assert embedded_index == source_index, f"{html_path.name} sourceFileIndex is stale; run sync_atlas_runtime_data.py"
-    print(f"runtime sync OK ({html_path.name} <- {atlas_path.name}): {len(atlas['cases'])} cases, {len(source_index)} source tokens")
+    assert embedded_availability == source_availability, f"{html_path.name} sourceAvailabilityIndex is stale; run sync_atlas_runtime_data.py"
+    print(
+        f"runtime sync OK ({html_path.name} <- {atlas_path.name}): "
+        f"{len(atlas['cases'])} cases, {len(source_index)} source tokens, "
+        f"{source_availability['summary']['indexedPaths']} availability entries"
+    )
 
 
 if __name__ == "__main__":

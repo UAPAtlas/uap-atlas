@@ -58,14 +58,20 @@ def main() -> None:
     html_path = ROOT / args.html
     atlas = json.loads((ROOT / "atlas-data.json").read_text())
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
+    source_availability = json.loads((ROOT / "source-availability.json").read_text())
     if len(atlas.get("cases", [])) != 146:
         raise RuntimeError(f"Refusing to sync unexpected case count: {len(atlas.get('cases', []))}")
 
     text = html_path.read_text()
     text = replace_constant(text, "atlasData", atlas)
     text = replace_constant(text, "sourceFileIndex", source_index)
+    text = replace_constant(text, "sourceAvailabilityIndex", source_availability)
     html_path.write_text(text)
-    print(f"synced {html_path.name}: {len(atlas['cases'])} cases, {len(source_index)} source tokens")
+    print(
+        f"synced {html_path.name}: {len(atlas['cases'])} cases, "
+        f"{len(source_index)} source tokens, "
+        f"{source_availability['summary']['indexedPaths']} availability entries"
+    )
 
 
 if __name__ == "__main__":
