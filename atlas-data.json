@@ -4875,9 +4875,9 @@
     {
       "keyQuote": "Witnesses reported a fiery object that crashed near Kecksburg, Pennsylvania; the military responded and reportedly removed a large object, though officials denied any recovery.",
       "quoteSource": "The Black Vault Case Files: Kecksburg UFO Incident (summary)",
-      "quoteConfidence": "secondary-summary; needs primary-record verification",
+      "quoteConfidence": "Mixed — federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records.",
       "significance": "Case significance",
-      "sourceQuality": "Primary federal-court record for the NASA FOIA dispute; underlying incident and recovery packet remain unrecovered.",
+      "sourceQuality": "Verified federal-court record for the NASA FOIA dispute plus public witness/press trail; underlying incident, recovery, and transport packet remains unrecovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1965-KB-01",
@@ -4954,17 +4954,17 @@
         {
           "citation": "KECKSBURG-1965 · press/witness record / NASA FOIA litigation trail",
           "sourceType": "public-record-trail",
-          "provenance": "Public-record trail / contextual analysis",
+          "provenance": "Public witness/press trail plus NASA FOIA litigation context; not a recovered agency incident packet",
           "locator": "KECKSBURG-1965",
           "supports": [
-            "Preserves the case as a contested recovery narrative with press/witness and NASA FOIA-litigation context",
-            "Identifies the currently known research trail before any new archival recovery",
-            "Separates public narrative from unrecovered agency custody"
+            "Preserves Kecksburg as a contested recovery narrative with public witness/press context and a verified NASA FOIA-litigation trail",
+            "Separates the recoverable public-record dispute from the still-unrecovered incident/recovery/transport records",
+            "Provides a clear negative-finding boundary: litigation documents are real, but the underlying recovery packet is not mapped"
           ],
           "limitations": [
-            "No original agency case file or recovery/transport record mapped",
-            "No complete contemporaneous witness packet or chain-of-custody record in local corpus",
-            "Video/public-analysis source is contextual and cannot prove the recovery narrative"
+            "No original agency incident file, military recovery order, transport log, debris custody record, or final technical disposition is mapped",
+            "Witness/documentary material remains partly retrospective and cannot substitute for contemporaneous agency custody",
+            "The federal court opinion concerns adequacy of NASA FOIA search/disclosure, not proof that an anomalous object was recovered"
           ]
         },
         {
@@ -5866,9 +5866,9 @@
     {
       "keyQuote": "It is common knowledge that Air Force Intelligence Services almost the world over, prefer people to remain silent on the subject of U.F.O. Nevertheless the 'saucers' remain with us and are becoming an increasing source of interest.",
       "quoteSource": "Westall AFSR editor note, 1966 (Australian Flying Saucer Research Society)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the preserved press/archive artifacts; unresolved for official-file claims because no complete RAAF, police, or school packet is mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Contemporaneous press + institutional archive trail; official RAAF/police file not recovered",
+      "sourceQuality": "Contemporaneous press, student sketch material, and institutional archive review; official RAAF/police/school administrative incident file remains unrecovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1966-WS-01",
@@ -5950,17 +5950,17 @@
         {
           "citation": "WESTALL-1966 · witness corpus / archive search trail",
           "sourceType": "public-record-trail",
-          "provenance": "Contemporaneous press / State Library Victoria / AFSR archival trail",
+          "provenance": "Contemporaneous Dandenong Journal/student sketch material plus State Library Victoria review and local Atlas evidence images",
           "locator": "WESTALL-1966",
           "supports": [
-            "Contemporary Dandenong Journal headline and sketch material are locally preserved",
-            "State Library Victoria institutional review reproduces Westall-specific archival material",
-            "AFSR editor note supports the contemporaneous UFO-community/official-silence context"
+            "Local Atlas assets preserve contemporaneous Dandenong Journal headline/sketch material and student-drawing context",
+            "State Library Victoria provides an institutional archival review of Westall-specific material",
+            "Supports Westall as a high-witness school-event public-record case with strong occurrence/coverage context"
           ],
           "limitations": [
-            "No complete RAAF, police, or school administrative case file recovered",
-            "Witness-corpus/documentary material remains partly retrospective",
-            "Press and archive artifacts support occurrence/coverage, not object identity"
+            "No complete RAAF, police, or school administrative incident file is currently mapped",
+            "Witness/documentary corpus includes retrospective testimony that must remain separate from contemporaneous artifacts",
+            "Press/archive materials support event coverage and witness context, not object identity, origin, or official explanation"
           ]
         }
       ],

@@ -402,10 +402,10 @@
     "BF-1966-WS-01": {
       "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "press"
+        "other:contemporaneous dandenong journal/student sketch material plus state library victoria review and local atlas evidence images"
       ]
     },
     "BF-NASA-D022": {

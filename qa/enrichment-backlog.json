@@ -595,32 +595,6 @@
       ]
     },
     {
-      "id": "BF-1965-KB-01",
-      "title": "Kecksburg Object Recovery Narrative",
-      "score": 35,
-      "sourceRecords": 3,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Primary federal-court record for the NASA FOIA dispute; underlying incident and recovery packet remain unrecovered.",
-      "quoteConfidence": "secondary-summary; needs primary-record verification",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 3,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory",
-          "other:united states district court for the district of columbia; public opinion copy via courtlistener"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
       "id": "BF-1973-SS-01",
       "title": "Sary Shagan Green Circular Phenomenon",
       "score": 35,
@@ -1024,15 +998,15 @@
       "indexedLinks": 4,
       "publicSourceUrls": 3,
       "evidenceAssets": 4,
-      "sourceQuality": "Contemporaneous press + institutional archive trail; official RAAF/police file not recovered",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceQuality": "Contemporaneous press, student sketch material, and institutional archive review; official RAAF/police/school administrative incident file remains unrecovered.",
+      "quoteConfidence": "High for the preserved press/archive artifacts; unresolved for official-file claims because no complete RAAF, police, or school packet is mapped.",
       "sourceProfile": {
         "label": "secondary-only",
         "primaryRecords": 0,
-        "secondaryRecords": 1,
+        "secondaryRecords": 0,
         "independentSourceFamilies": 1,
         "sourceFamilies": [
-          "press"
+          "other:contemporaneous dandenong journal/student sketch material plus state library victoria review and local atlas evidence images"
         ]
       },
       "reasons": [
@@ -1590,6 +1564,31 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "fbi"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    },
+    {
+      "id": "BF-1965-KB-01",
+      "title": "Kecksburg Object Recovery Narrative",
+      "score": 25,
+      "sourceRecords": 3,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Verified federal-court record for the NASA FOIA dispute plus public witness/press trail; underlying incident, recovery, and transport packet remains unrecovered.",
+      "quoteConfidence": "Mixed \u2014 federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 3,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory",
+          "other:united states district court for the district of columbia; public opinion copy via courtlistener"
         ]
       },
       "reasons": [
