@@ -70,11 +70,11 @@
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
-    "thin-summary": 44,
+    "thin-summary": 50,
     "multi-source-independent": 10,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 59
+    "single-primary-record": 53
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -536,8 +536,8 @@
       ]
     },
     "BF-NASA-VM1": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -546,8 +546,8 @@
       ]
     },
     "BF-NASA-VM2": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -556,8 +556,8 @@
       ]
     },
     "BF-NASA-VM3": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -566,8 +566,8 @@
       ]
     },
     "BF-NASA-VM4": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -576,8 +576,8 @@
       ]
     },
     "BF-NASA-VM5": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -603,8 +603,8 @@
       ]
     },
     "BF-NASA-VM6": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1457,166 +1457,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-NASA-VM1",
-      "title": "Apollo 12 Visual Material 1",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-NASA-VM2",
-      "title": "Apollo 12 Visual Material 2",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-NASA-VM3",
-      "title": "Apollo 12 Visual Material 3",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-NASA-VM4",
-      "title": "Apollo 12 Visual Material 4",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-NASA-VM5",
-      "title": "Apollo 12 Visual Material 5",
-      "score": 52,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-NASA-VM6",
-      "title": "Apollo 17 Visual Material",
-      "score": 52,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
       "id": "BF-NASA-D002",
       "title": "Apollo 17 Transcript",
       "score": 42,
@@ -1694,6 +1534,156 @@
     {
       "id": "BF-NASA-D006",
       "title": "Apollo 17 Technical Crew Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D007",
+      "title": "Skylab Technical Crew Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D015",
+      "title": "Astronaut Scientific Debriefings",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D016",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D017",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D018",
+      "title": "Gemini 4 Experiment Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D019",
+      "title": "Gemini 5 Technical Debriefing Part 1",
       "score": 42,
       "sourceRecords": 1,
       "indexedLinks": 5,

@@ -8500,10 +8500,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM1",
       "relatedCaseIds": [
@@ -8546,11 +8546,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM1",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM1 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM1",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 visual material 1 as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -8649,10 +8657,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM2",
       "relatedCaseIds": [
@@ -8695,11 +8703,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM2",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM2 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM2",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 visual material 2 as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -8798,10 +8814,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM3",
       "relatedCaseIds": [
@@ -8844,11 +8860,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM3",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM3 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM3",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 visual material 3 as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -8947,10 +8971,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM4",
       "relatedCaseIds": [
@@ -8993,11 +9017,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM4",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM4 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM4",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 visual material 4 as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -9096,10 +9128,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 12 mission archive, 1969 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM5",
       "relatedCaseIds": [
@@ -9142,11 +9174,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM5",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM5 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM5",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 visual material 5 as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -9501,10 +9541,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 17 visual material — photographic frame from mission archive.",
       "quoteSource": "NASA Apollo 17 mission archive, 1972 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM6",
       "relatedCaseIds": [
@@ -9547,11 +9587,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-VM6",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-visual-material-record",
+          "provenance": "War.gov/NASA NASA-UAP-VM6 released image record with local visual asset mapping in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-VM6",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 17 visual material as an official released visual artifact rather than a later derivative or unsourced internet image",
+            "Source index maps local image/preview/ROI assets for visual review inside the Atlas",
+            "Supports the Orbital/Lunar layer by anchoring the visual record to a named released NASA/War.gov source locator"
+          ],
+          "limitations": [
+            "A released still/visual artifact does not by itself establish object identity, distance, scale, trajectory, or origin",
+            "No full native mission sequence, calibration packet, camera geometry, or independent trajectory analysis is mapped in this record",
+            "Should be read as an unresolved released visual record within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
