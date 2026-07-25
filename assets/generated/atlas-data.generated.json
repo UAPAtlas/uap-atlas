@@ -3926,9 +3926,9 @@
     {
       "keyQuote": "The Chapel Hill conference on gravity physics brought together leading researchers in 1957 to discuss gravitational theory and experimental approaches.",
       "quoteSource": "Chapel Hill GR1 Proceedings EOS, 1957, 298pp (scanned proceedings — OCR degraded)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium — document title/source trail is mapped locally, but the current quote is not page-verified to a clean OCR primary passage.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Primary proceedings/source-file custody for the 1957 Chapel Hill gravity conference; supports theoretical-context history, not evidence of operational exotic craft.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-04",
@@ -4003,11 +4003,19 @@
       "sourceRecords": [
         {
           "citation": "CHAPELHILL-1957 · GR1 proceedings / WADC technical document trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "conference-proceedings-primary-record",
+          "provenance": "Local GR1 proceedings title-page/proceedings file mapped in source index; NARA link is collection-guide context rather than exact NAID custody",
           "locator": "CHAPELHILL-1957",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the Chapel Hill gravity conference as a real mid-century scientific proceedings record relevant to gravity/relativity/exotic-propulsion context",
+            "Source index includes local proceedings title-page imagery and a full local proceedings PDF",
+            "Supports the special file as historical/scientific context for later gravity-control and propulsion narratives"
+          ],
+          "limitations": [
+            "The proceedings do not document a UAP event, recovered craft, or operational anti-gravity vehicle",
+            "Current crosswalk has no exact NARA NAID and only collection-guide-level public context",
+            "Quote/page custody remains incomplete because the local proceedings OCR is poor and the selected passage is not page-verified"
+          ]
         }
       ],
       "phenomena": {
@@ -11725,9 +11733,9 @@
     {
       "keyQuote": "The FAP tried to intercept and destroy the UFO, but without success.",
       "quoteSource": "DIA/JCS Message Center report IR 6 876 0146 80, USDAO Lima, received June 3, 1980",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for the declassified message/source phrase; lower for later testimony-derived details beyond the message.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Declassified DIA/JCS message trail plus Peruvian Santa María testimony context; strong official-message custody for report existence, incomplete native Peruvian operational packet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-PE-01",
@@ -11802,11 +11810,19 @@
       "sourceRecords": [
         {
           "citation": "LAJOYA-1980 · DIA/JCS message IR 6 876 0146 80 (declassified, Black Vault DIA collection) / Santa María testimony, Citizen Hearing 2013",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "declassified-military-intelligence-message",
+          "provenance": "DIA/JCS message IR 6 876 0146 80 mirrored in Black Vault DIA collection plus local page/PDF assets",
           "locator": "LAJOYA-1980",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a Peruvian/Santa María engagement claim through a declassified DIA/JCS intelligence-message trail",
+            "Source index includes a local DIA-message page image and local PDF custody asset",
+            "Supports the case as an official-message military intercept report rather than later-only folklore"
+          ],
+          "limitations": [
+            "The declassified message is not the complete Peruvian Air Force operational file, weapons/sensor packet, or pilot debrief archive",
+            "Black Vault mirror custody is useful public access but not the native originating Peruvian archive",
+            "The record supports the reported engagement narrative, not definitive object identity, damage assessment, or non-human origin"
+          ]
         }
       ],
       "phenomena": {
@@ -12246,9 +12262,9 @@
     {
       "keyQuote": "Mon attention a été attirée par un léger bruit, une sorte de petit sifflement. Je me suis tourné et j'ai vu en l'air un engin qui se trouvait à la hauteur d'un gros pin en bordure du terrain. Cet engin qui ne tournait pas descendait vers le sol. Je n'entendais qu'un léger sifflement. Je ne voyais pas de flammes, ni au-dessous, ni autour de cet engin.",
       "quoteSource": "GEPAN Note Technique No 16, p. 17 (gendarmerie procès-verbal, 9 Jan 1981)",
-      "quoteConfidence": "verified primary-source quotation",
+      "quoteConfidence": "High — primary CNES/GEPAN technical-note record is locally mapped and publicly hosted by GEIPAN.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "CNES/GEPAN Note Technique No.16 official trace-investigation record; strong primary analytical custody, but physical-origin conclusion remains limited.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1981-TP-01",
@@ -12323,11 +12339,19 @@
       "sourceRecords": [
         {
           "citation": "GEPAN-1981 · Note Technique No 16, 'Enquête 81/01 — Analyse d'une Trace' (CNES/GEIPAN official PDF)",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "official-technical-trace-investigation",
+          "provenance": "CNES/GEPAN Note Technique No.16, Enquête 81/01 — Analyse d’une Trace, with local PDF/page image and official GEIPAN case page",
           "locator": "GEPAN-1981",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents an official French GEPAN/CNES investigation into a reported landing/trace event",
+            "Technical note includes witness testimony, site/environment description, physical trace collection, and environmental checks",
+            "Supports the case as a rare government technical trace-analysis file rather than a witness-only report"
+          ],
+          "limitations": [
+            "The report does not prove the object’s origin or establish a non-human craft explanation",
+            "Trace findings remain dependent on sampling, site conditions, and interpretation of plant/soil effects",
+            "A single official technical note is not a complete multi-sensor chain or independently replicated physical-causation dataset"
+          ]
         }
       ],
       "phenomena": {
@@ -15127,9 +15151,9 @@
     {
       "keyQuote": "…they called us and said, somebody observed a flying disc about a thousand feet above the, ah… gate Charley 17.",
       "quoteSource": "FAA ground-control tape, ~4:48 pm CST, Nov 7 2006, transcribed in NARCAP TR-10 p.11",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-2006-OH-01",
@@ -15206,11 +15230,19 @@
       "sourceRecords": [
         {
           "citation": "OHARE-2006 · NARCAP TR-10 Case 18 incl. FAA tower-tape transcript / FAA FY2007 FOIA logs (GovernmentAttic) / FAA FOIA acknowledgment trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "aviation-technical-report-and-faa-transcript-trail",
+          "provenance": "NARCAP TR-10 Case 18, FAA tower-tape transcript pages, and FAA FY2007 FOIA log context mapped locally",
           "locator": "OHARE-2006",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the O’Hare sighting through an aviation-focused technical report and FAA/tower-transcript material",
+            "Source index includes NARCAP Case 18, tower-transcript pages, and FAA FOIA-log context",
+            "Supports the case as a multi-witness airport/aviation-safety report with public technical analysis"
+          ],
+          "limitations": [
+            "NARCAP is not the complete FAA investigative file or a native United Airlines/FAA custody packet",
+            "Witness synthesis and transcript excerpts do not establish object identity or physical mechanism",
+            "No complete radar/sensor dataset, official causal finding, or authenticated object imagery is mapped"
+          ]
         }
       ],
       "phenomena": {
@@ -17278,10 +17310,10 @@
       "whyItMatters": "The reported altitude, slow movement, cold IR signature, and directional changes make the full track and platform geometry decisive.",
       "keyQuote": "abrupt directional changes",
       "quoteSource": "DOW-UAP-D44 · Range Fouler Arabian Sea October 2020",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "High for released source phrase; medium for broader interpretation without raw sensor/debrief metadata.",
       "heroFact": "A cold round IR object was tracked at 19,073 feet, moving slowly with abrupt directional changes during roughly one minute of contact.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "War.gov/DoW-AARO-style range-fouler release record with D44/D56 preview assets; primary-source release for event/debrief narrative, incomplete raw sensor packet.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D44",
       "relatedCaseIds": [
@@ -17331,19 +17363,19 @@
       "sourceRecords": [
         {
           "citation": "DOW-UAP-D44 · Range Fouler Arabian Sea October 2020",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "sourceType": "official-range-fouler-release-record",
+          "provenance": "War.gov DOW-UAP-D44 Arabian Sea range-fouler record, DOW-UAP-D56 debrief preview, and Atlas source-index page images",
           "locator": "DOW-UAP-D44",
-          "supports": [],
-          "limitations": []
-        },
-        {
-          "citation": "DOW-UAP-D56 · Range Fouler Debrief Arabian Sea August 2020",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
-          "locator": "DOW-UAP-D44",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents an Arabian Sea range-fouler event through an official public release record",
+            "Source index maps DOW-UAP-D44 and DOW-UAP-D56 preview/page assets for event and debrief context",
+            "Supports the case as a modern military range-fouler record with official-release custody"
+          ],
+          "limitations": [
+            "Current Atlas mapping contains page-preview assets, not a complete raw sensor/video/radar package",
+            "The record does not establish object identity, performance envelope, or non-human origin",
+            "Full operational context, debrief metadata, and underlying sensor chain remain outside the published source set"
+          ]
         }
       ],
       "phenomena": {

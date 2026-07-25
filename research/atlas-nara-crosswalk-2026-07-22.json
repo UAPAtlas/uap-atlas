@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T22:56:01-04:00",
+  "generatedAt": "2026-07-25T03:23:50-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -895,15 +895,16 @@
       "localCustodyFileCount": 4,
       "localPdfCount": 1,
       "coverageLinks": 5,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 14,
+      "missingRecordClasses": [
+        "The proceedings do not document a UAP event, recovered craft, or operational anti-gravity vehicle",
+        "Current crosswalk has no exact NARA NAID and only collection-guide-level public context",
+        "Quote/page custody remains incomplete because the local proceedings OCR is poor and the selected passage is not page-verified"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
-        "NARA collection/guide link only",
-        "quote not verified to primary page"
+        "NARA collection/guide link only"
       ]
     },
     {
@@ -2487,12 +2488,14 @@
       "localCustodyFileCount": 4,
       "localPdfCount": 1,
       "coverageLinks": 5,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "The declassified message is not the complete Peruvian Air Force operational file, weapons/sensor packet, or pilot debrief archive",
+        "Black Vault mirror custody is useful public access but not the native originating Peruvian archive",
+        "The record supports the reported engagement narrative, not definitive object identity, damage assessment, or non-human origin"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -2578,12 +2581,14 @@
       "localCustodyFileCount": 3,
       "localPdfCount": 1,
       "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "The report does not prove the object’s origin or establish a non-human craft explanation",
+        "Trace findings remain dependent on sampling, site conditions, and interpretation of plant/soil effects",
+        "A single official technical note is not a complete multi-sensor chain or independently replicated physical-causation dataset"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -3107,12 +3112,14 @@
       "localCustodyFileCount": 8,
       "localPdfCount": 3,
       "coverageLinks": 9,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 7,
+      "missingRecordClasses": [
+        "NARCAP is not the complete FAA investigative file or a native United Airlines/FAA custody packet",
+        "Witness synthesis and transcript excerpts do not establish object identity or physical mechanism",
+        "No complete radar/sensor dataset, official causal finding, or authenticated object imagery is mapped"
+      ],
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "one structured source record",
-        "empty supports field",
-        "empty limitations field"
+        "one structured source record"
       ]
     },
     {
@@ -3454,16 +3461,19 @@
       "sourceIndexTokens": [
         "DOW-UAP-D44"
       ],
-      "structuredSourceRecords": 2,
+      "structuredSourceRecords": 1,
       "publicUrlCount": 1,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
       "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 7,
+      "missingRecordClasses": [
+        "Current Atlas mapping contains page-preview assets, not a complete raw sensor/video/radar package",
+        "The record does not establish object identity, performance envelope, or non-human origin",
+        "Full operational context, debrief metadata, and underlying sensor chain remain outside the published source set"
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
+        "one structured source record",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
       ]

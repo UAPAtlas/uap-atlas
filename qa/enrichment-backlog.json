@@ -3,7 +3,7 @@
   "policy": "sole-enrichment-backlog",
   "source": "qa/source-depth-weak-case-priorities.json",
   "threshold": 25,
-  "caseCount": 76,
+  "caseCount": 73,
   "exclusions": {
     "lowerScoredCandidates": "diagnostic-only",
     "newCases": "not-authorized",
@@ -325,132 +325,6 @@
         "empty supports field",
         "empty limitations field",
         "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-SF-04",
-      "title": "Special File: Chapel Hill Gravity Conference",
-      "score": 52,
-      "sourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "summary of document record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1980-PE-01",
-      "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-1981-TP-01",
-      "title": "Trans-en-Provence Trace Case",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-2006-OH-01",
-      "title": "O'Hare Airport Disc Sighting",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "civil-aviation"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-2020-AS-01",
-      "title": "Arabian Sea Range Fouler",
-      "score": 42,
-      "sourceRecords": 2,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source",
-      "quoteConfidence": "confirmed source-phrase quotation",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 2,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:primary source"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
       ]
     },
     {
@@ -1524,6 +1398,29 @@
       ]
     },
     {
+      "id": "BF-1980-PE-01",
+      "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Declassified DIA/JCS message trail plus Peruvian Santa Mar\u00eda testimony context; strong official-message custody for report existence, incomplete native Peruvian operational packet.",
+      "quoteConfidence": "High for the declassified message/source phrase; lower for later testimony-derived details beyond the message.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:dia/jcs message ir 6 876 0146 80 mirrored in black vault dia collection plus local page/pdf assets"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
       "id": "BF-1985-PNG-01",
       "title": "Papua New Guinea \u2014 High-Altitude Overflights",
       "score": 30,
@@ -1609,6 +1506,29 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "other:documentcloud public copy; originating-office chain not stated"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-2006-OH-01",
+      "title": "O'Hare Airport Disc Sighting",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
+      "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "civil-aviation"
         ]
       },
       "reasons": [

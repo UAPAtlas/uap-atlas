@@ -62,19 +62,19 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 236,
-  "sourceDepthWeakCaseCount": 76,
-  "sourceDepthEnrichmentCandidateCount": 116,
+  "sourceRecordCount": 235,
+  "sourceDepthWeakCaseCount": 73,
+  "sourceDepthEnrichmentCandidateCount": 115,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
-    "complete-primary-packet": 22,
-    "thin-summary": 32,
+    "complete-primary-packet": 23,
+    "thin-summary": 34,
     "multi-source-independent": 11,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 71
+    "single-primary-record": 68
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -278,12 +278,12 @@
       ]
     },
     "BF-SF-04": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:local gr1 proceedings title-page/proceedings file mapped in source index; nara link is collection-guide context rather than exact naid custody"
       ]
     },
     "BF-1958-TR-01": {
@@ -736,12 +736,12 @@
       ]
     },
     "BF-1980-PE-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:dia/jcs message ir 6 876 0146 80 mirrored in black vault dia collection plus local page/pdf assets"
       ]
     },
     "BF-1980-RF-01": {
@@ -770,7 +770,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:cnes/gepan note technique no.16, enqu\u00eate 81/01 \u2014 analyse d\u2019une trace, with local pdf/page image and official geipan case page"
       ]
     },
     "BF-SF-05": {
@@ -922,8 +922,8 @@
       ]
     },
     "BF-2006-OH-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1036,11 +1036,11 @@
     },
     "BF-2020-AS-01": {
       "label": "single-primary-record",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary source"
+        "other:war.gov dow-uap-d44 arabian sea range-fouler record, dow-uap-d56 debrief preview, and atlas source-index page images"
       ]
     },
     "BF-2023-JP-01": {
