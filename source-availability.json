@@ -7,9 +7,9 @@
   ],
   "summary": {
     "indexedPaths": 814,
-    "publicLocal": 641,
+    "publicLocal": 594,
     "externalPublic": 83,
-    "custodyOnly": 89,
+    "custodyOnly": 136,
     "unavailable": 1
   },
   "entries": {
@@ -3141,20 +3141,20 @@
       "host": "zenodo.org"
     },
     "research/followup-record-recovery-2026-07-22/afhra-415-search.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/FOO-1944-official-transcriptions/CUFON-Foo-Fighter-Documents.html": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/FOO-1944-official-transcriptions/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/FORT-MONMOUTH-1951-NARA-NAID-28939862/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/341-pbb-323-r1.mp4": {
       "status": "custody-only",
@@ -3169,32 +3169,32 @@
       "label": "Mapped file not found"
     },
     "source-files/archives/GREATFALLS-1950-NARA-NAID-28938188/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/LAKENHEATH-1956-NARA-NAID-28966873/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/LAKENHEATH-1956-NARA-NAID-28966873/nara-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/LEVELLAND-1957-NARA-NAID-28972840/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/MANTELL-1948-NARA-NAID-28930550/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/MANTELL-1948-NARA-NAID-28930550/nara-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/RB47-1957-NARA-NAID-28970538/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/341-pbb-345.mp4": {
       "status": "custody-only",
@@ -3205,152 +3205,152 @@
       "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/ffprobe.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-FILM-NARA-NAID-61937/nara-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TREMONTON-1952-NARA-NAID-28943418/nara-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/archives/TRINDADE-1958-NARA-NAID-28976748/custody-manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/AAWSAP-2008-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/ARNOLD-1947-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/AZTEC-1948-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/CASH-LANDRUM-1980-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/CEFAA-2014-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/DOW-UAP-D10-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/DOW-UAP-D28-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/DOW-UAP-D42-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/ESTIMATE-1948-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/FOO-1944-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/GHOSTROCKETS-1946-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/HILL-1961-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/KAIKOURA-1978-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/KECKSBURG-1965-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/MAGENTA-1933-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/NASA-UAP-VM1-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/NASA-UAP-VM2-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/NASA-UAP-VM3-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/NASA-UAP-VM4-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/OMAHA-2019-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/PASCAGOULA-1973-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/ROSWELL-1947-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/SANTILLI-1995-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/VALENTICH-1978-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/VARGINHA-1996-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/VICTOR-1997-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/WALTON-1975-evidence-depth.md": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/primary/NARA-MINOT-1968/NARA-MINOT-AFB-OCTOBER-1968-OCR.txt": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/primary/NARA-MINOT-1968/manifest.json": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     }
   }
 }

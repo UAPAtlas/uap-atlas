@@ -25,6 +25,25 @@ if (missing.length || extra.length || invalid.length) {
   throw new Error(`Contract mismatch: missing=${missing.length} extra=${extra.length} invalid=${invalid.length}`);
 }
 
+const pagesExcludedPrefixes = ['source-files/', 'research/', 'qa/', 'scripts/'];
+const falsePublicSubtree = Object.entries(contract.entries).filter(([p, row]) =>
+  pagesExcludedPrefixes.some(prefix => p.startsWith(prefix)) && row.status === 'public-local'
+);
+if (falsePublicSubtree.length) {
+  throw new Error(`Pages-excluded subtree classified public: ${falsePublicSubtree.slice(0, 5).map(([p]) => p).join(', ')}`);
+}
+
+const requiredStatuses = {
+  'assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary.pdf': 'public-local',
+  'assets/evidence/AVROCAR-1959/AVROCAR-Project-Silver-Bug-Technical-Report.pdf': 'custody-only',
+  'source-files/evidence-depth/AAWSAP-2008-evidence-depth.md': 'custody-only',
+  'research/followup-record-recovery-2026-07-22/afhra-415-search.json': 'custody-only',
+};
+for (const [p, expectedStatus] of Object.entries(requiredStatuses)) {
+  const got = contract.entries[p]?.status;
+  if (got !== expectedStatus) throw new Error(`${p}: got ${got} want ${expectedStatus}`);
+}
+
 const constantStart = html.indexOf('const sourceAvailabilityIndex = ');
 if (constantStart < 0) throw new Error('sourceAvailabilityIndex constant missing from runtime');
 const functionStart = html.indexOf('function sourceAvailability(');
@@ -59,6 +78,12 @@ if (!html.includes('Held in Atlas research corpus—not publicly served')) {
   throw new Error('Transparent custody-only drawer copy missing');
 }
 if (!html.includes('source-custody')) throw new Error('Custody-only source state markup missing');
+if (/h\.mediaUrl\?`<a class="file-link"/.test(html)) {
+  throw new Error('Featured media still bypasses the source availability contract');
+}
+if (!html.includes('sourceDisclosureHtml({path:h.mediaUrl,kind:mediaKind(h.mediaUrl)})')) {
+  throw new Error('Featured media availability-aware renderer missing');
+}
 
 const casesWithCustody = atlas.cases.filter(c => (c.sources || []).some(src => {
   const upper = String(src).toUpperCase();

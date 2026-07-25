@@ -25,9 +25,16 @@ def workflow_rules(path: Path) -> list[tuple[str, str]]:
 
 
 def matches(path: str, pattern: str) -> bool:
-    # Rsync's '*' may match path components in these workflow rules. fnmatch mirrors
-    # the deployed allowlist patterns used by this repository.
-    return fnmatch.fnmatchcase(path, pattern)
+    # Rsync filter patterns without a slash match path components, so a bare
+    # directory rule such as `source-files` excludes its entire subtree. The
+    # workflow's slash-containing include rules are matched against the full
+    # repository-relative path.
+    clean_path = path.strip("/")
+    clean_pattern = pattern.strip("/")
+    has_glob = any(char in clean_pattern for char in "*?[")
+    if "/" not in clean_pattern and not has_glob:
+        return clean_pattern in clean_path.split("/")
+    return fnmatch.fnmatchcase(clean_path, clean_pattern)
 
 
 def pages_includes(path: str, rules: list[tuple[str, str]]) -> bool:
