@@ -5101,10 +5101,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-4 flight crew debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965.",
       "quoteSource": "Gemini 4 Preliminary Crew Debriefing Part 1, June 16, 1965, p. 3 (preface)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 4 preliminary crew debriefing, part 1; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 preliminary crew debriefing part 1 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D016",
       "relatedCaseIds": [
@@ -5147,11 +5147,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D016",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D016 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D016",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 4 preliminary crew debriefing part 1 as an official released mission-document artifact tied to Gemini 4",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -5230,10 +5238,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "This preliminary transcript was made from voice tape recordings of the GI-4 flight crew debriefing conducted aboard the recovery ship, the USS Wasp, on June 9, 1965, and concluded at the Manned Spacecraft Center on June 12, 1965.",
       "quoteSource": "Gemini 4 Preliminary Crew Debriefing Part 2, June 18, 1965, p. 3 (preface)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 4 preliminary crew debriefing, part 2; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 preliminary crew debriefing part 2 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D017",
       "relatedCaseIds": [
@@ -5276,11 +5284,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D017",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D017 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D017",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 4 preliminary crew debriefing part 2 as an official released mission-document artifact tied to Gemini 4",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -5359,10 +5375,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-5 flight crew debriefing conducted August 30, 1965 thru September 1, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
       "quoteSource": "Gemini 5 Technical Debriefing Part 1, September 1, 1965, p. 3 (preface)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 5 technical debriefing, part 1; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 5 technical debriefing part 1 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D019",
       "relatedCaseIds": [
@@ -5405,11 +5421,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D019",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D019 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D019",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 5 technical debriefing part 1 as an official released mission-document artifact tied to Gemini 5",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -5488,10 +5512,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "This preliminary transcript was made from voice tape recordings of the GT-5 flight crew debriefing conducted August 30, 1965 thru September 2, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
       "quoteSource": "Gemini 5 Technical Debriefing Part 2, September 2, 1965, p. 3 (preface)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 5 technical debriefing, part 2; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 5 technical debriefing part 2 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D020",
       "relatedCaseIds": [
@@ -5534,11 +5558,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D020",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D020 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D020",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 5 technical debriefing part 2 as an official released mission-document artifact tied to Gemini 5",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -5617,10 +5649,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "This preliminary transcript was made from voice tape recordings of the Gemini 7 flight crew debriefing conducted December 19 through December 21, 1965 at the Crew Quarters, Cape Kennedy, Florida.",
       "quoteSource": "Gemini 7 Technical Debriefing, December 23, 1965, p. 3 (preface)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 7 technical debriefing; included for complete NASA evidence coverage.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 7 technical debriefing with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D021",
       "relatedCaseIds": [
@@ -5663,11 +5695,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D021",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D021 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D021",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 7 technical debriefing as an official released mission-document artifact tied to Gemini 7",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -6577,10 +6617,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Three additional special engineering and operational objectives are now planned for the first four orbits of the GT-4 Mission: Demonstration of extravehicular activities (EVA) using a 25 foot umbilical.",
       "quoteSource": "Gemini 4 Experiment Debriefing, 1967, p. 3 (Mission Operation Report M-913-65-04)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Gemini 4 experiment debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 experiment debriefing with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D018",
       "relatedCaseIds": [
@@ -6623,11 +6663,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D018",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-experiment-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D018 released Gemini mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D018",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 4 experiment debriefing as an official released mission-document artifact tied to Gemini 4",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -22231,10 +22279,10 @@
       "whyItMatters": "Astronaut-reported UAP during an operational NASA mission. The PAO confirmation that it was 'unidentified' (not the booster, not particles) distinguishes this from the routine debris observations common in orbital missions.",
       "keyQuote": "The reference to the third and unidentified object... was a bogey.",
       "quoteSource": "NASA PAO, Gemini 7 mission transcript (T-00763)",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for confirmed primary-source quotation; interpretation remains limited without full sensor/trajectory context.",
       "heroFact": "Gemini 7 Commander Frank Borman reported a 'bogey at ten o'clock high' — NASA PAO confirmed it was an unidentified third object.",
       "significance": "High significance — astronaut-reported UAP",
-      "sourceQuality": "Primary source — NASA mission transcript",
+      "sourceQuality": "Primary NASA Gemini 7 mission transcript/debriefing custody with source-token alias to NASA-UAP-D021 assets; reported “bogey” language remains context-limited.",
       "sourceLabel": "NASA transcript",
       "sourceLocator": "NASA T-00763(Rlb)",
       "relatedCaseIds": [
@@ -22283,7 +22331,7 @@
         {
           "citation": "NASA-T-00763 · Gemini 7 Mission Transcript",
           "sourceType": "mission-transcript",
-          "provenance": "NASA, Gemini 7 mission (Borman/Lovell)",
+          "provenance": "NASA Gemini 7 mission transcript/debriefing record; source-token alias NASA-T-00763 resolves to NASA-UAP-D021 custody assets",
           "locator": "December 1965",
           "supports": [
             "borman-reported-bogey",

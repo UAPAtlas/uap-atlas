@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T05:10:17-04:00",
+  "generatedAt": "2026-07-25T05:23:11-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -1164,12 +1164,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
@@ -1193,12 +1195,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
@@ -1222,12 +1226,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
@@ -1251,12 +1257,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
@@ -1280,12 +1288,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
@@ -1472,12 +1482,14 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+        "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+        "Should be read as released Gemini mission-document custody inside the Orbital/Lunar layer, not standalone proof of anomalous craft"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]

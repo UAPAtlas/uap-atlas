@@ -3,7 +3,7 @@
   "policy": "sole-enrichment-backlog",
   "source": "qa/source-depth-weak-case-priorities.json",
   "threshold": 25,
-  "caseCount": 70,
+  "caseCount": 69,
   "exclusions": {
     "lowerScoredCandidates": "diagnostic-only",
     "newCases": "not-authorized",
@@ -11,156 +11,6 @@
     "outreach": "not-authorized"
   },
   "cases": [
-    {
-      "id": "BF-NASA-D016",
-      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D017",
-      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D018",
-      "title": "Gemini 4 Experiment Debriefing",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D019",
-      "title": "Gemini 5 Technical Debriefing Part 1",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D020",
-      "title": "Gemini 5 Technical Debriefing Part 2",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D021",
-      "title": "Gemini 7 Technical Debriefing",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
     {
       "id": "BF-1961-BH-01",
       "title": "Betty & Barney Hill Encounter",
@@ -783,29 +633,6 @@
       ]
     },
     {
-      "id": "BF-1965-G7-01",
-      "title": "Gemini 7 Astronaut 'Bogey' Report",
-      "score": 30,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary source \u2014 NASA mission transcript",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary"
-      ]
-    },
-    {
       "id": "BF-1966-CC-00",
       "title": "Condon Committee Pre-Judgment Record",
       "score": 30,
@@ -1208,6 +1035,144 @@
       "publicSourceUrls": 1,
       "evidenceAssets": 2,
       "sourceQuality": "Official NASA/War.gov released astronaut scientific debriefings with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D016",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 preliminary crew debriefing part 1 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D017",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 preliminary crew debriefing part 2 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D018",
+      "title": "Gemini 4 Experiment Debriefing",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 4 experiment debriefing with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D019",
+      "title": "Gemini 5 Technical Debriefing Part 1",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 5 technical debriefing part 1 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D020",
+      "title": "Gemini 5 Technical Debriefing Part 2",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 5 technical debriefing part 2 with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-NASA-D021",
+      "title": "Gemini 7 Technical Debriefing",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official NASA/War.gov released Gemini 7 technical debriefing with local page/contact/ROI custody; primary Gemini mission-document record, interpretation unresolved.",
       "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "sourceProfile": {
         "label": "thin-summary",
