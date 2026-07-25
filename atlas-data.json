@@ -6057,10 +6057,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Gemini 9 crew debriefing transcript; only routing slip and cover page available locally.",
       "quoteSource": "NASA-UAP-D22 Gemini 9 Debriefing, 1966 (cover page only)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high — released debriefing record is mapped locally, but anomaly interpretation remains unresolved.",
       "heroFact": "Gemini 9 debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov Gemini 9 debriefing release with local page/ROI imagery; primary debrief custody, context unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D022",
       "relatedCaseIds": [
@@ -6103,11 +6103,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D022",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "War.gov NASA-UAP-D022 Gemini 9 debriefing release with local contact/page/ROI imagery",
           "locator": "NASA-UAP-D022",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gemini 9 debriefing material in an official public release context",
+            "Source index maps local debrief page images and ROI crop for the cited record",
+            "Supports the case as a primary crew-debriefing record rather than later retelling"
+          ],
+          "limitations": [
+            "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+            "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+            "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+          ]
         }
       ],
       "phenomena": {
@@ -8008,10 +8016,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 12 mission flight transcript; pages are formatted as technical telemetry logs with timestamp columns, not narrative text.",
       "quoteSource": "NASA-UAP-D1 Apollo 12 Transcript, 1969 (OCR confirms telemetry format)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high — released transcript record is mapped locally, but quote page/interpretive context remains limited.",
       "heroFact": "Apollo 12 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov Apollo 12 transcript release with local page/ROI imagery; primary transcript custody, context unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D1",
       "relatedCaseIds": [
@@ -8054,11 +8062,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D1",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-mission-transcript",
+          "provenance": "War.gov NASA-UAP-D1 Apollo 12 transcript release with local contact/page/ROI imagery",
           "locator": "NASA-UAP-D1",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 12 mission transcript language in an official public release context",
+            "Source index maps local transcript page images and ROI crop for the cited record",
+            "Supports the case as a primary transcript record anchoring the observation language to mission documentation"
+          ],
+          "limitations": [
+            "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+            "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+            "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+          ]
         }
       ],
       "phenomena": {
@@ -8980,10 +8996,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Apollo 14 crew debriefing video record. Source material exists as DOD motion media reference.",
       "quoteSource": "DOD motion media reference (summary)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium — official media endpoint is strong, but complete transcript/sensor/interpretive packet is not mapped.",
       "heroFact": "Apollo 14 debriefing video record noted in the corpus as confirmed via DVIDS / long-duration video mapping.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official DVIDS Apollo 14 debriefing video record with local frame preview; released visual custody, context unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D026",
       "relatedCaseIds": [
@@ -9029,11 +9045,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D026 · Apollo 14 Debriefing video record / DOD_111830063",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "official-media-record",
+          "provenance": "DVIDS official Apollo 14 debriefing video record plus local frame preview",
           "locator": "NASA-UAP-D026",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 14 debriefing video material through an official DVIDS media record",
+            "Source index includes a local representative frame and official DVIDS endpoint",
+            "Supports the case as a released visual/media record tied to Apollo 14 debriefing context"
+          ],
+          "limitations": [
+            "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+            "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+            "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+          ]
         }
       ],
       "phenomena": {
@@ -13677,10 +13701,10 @@
       "whyItMatters": "It preserves an official NASA/PURSUE provenance trail while keeping object-origin claims separate from release status.",
       "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
       "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full motion/context data.",
       "heroFact": "NASA-UAP-D030 is one of three released STS-80 photographs labeled as unidentified-object imagery from Space Shuttle Columbia in low Earth orbit.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/PURSUE STS-80 released image record with local full-frame/ROI assets; primary visual custody, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D030",
       "relatedCaseIds": [
@@ -13723,11 +13747,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-image-record",
+          "provenance": "War.gov/PURSUE STS-80 unidentified object image 1 release with local full-frame/ROI image assets",
           "locator": "NASA-UAP-D030",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents STS-80 unidentified object image 1 as an official released image/frame artifact",
+            "Source index maps local full-frame and ROI image assets for visual review",
+            "Supports the case as a primary released visual record within the Orbital/Lunar evidence layer"
+          ],
+          "limitations": [
+            "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+            "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+            "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+          ]
         }
       ],
       "phenomena": {
@@ -13808,10 +13840,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
       "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full motion/context data.",
       "heroFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/PURSUE STS-80 released image record with local full-frame/ROI assets; primary visual custody, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D031",
       "relatedCaseIds": [
@@ -13854,11 +13886,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D031",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-image-record",
+          "provenance": "War.gov/PURSUE STS-80 unidentified object image 2 release with local full-frame/ROI image assets",
           "locator": "NASA-UAP-D031",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents STS-80 unidentified object image 2 as an official released image/frame artifact",
+            "Source index maps local full-frame and ROI image assets for visual review",
+            "Supports the case as a primary released visual record within the Orbital/Lunar evidence layer"
+          ],
+          "limitations": [
+            "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+            "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+            "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+          ]
         }
       ],
       "phenomena": {
@@ -13937,10 +13977,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "STS-80 unidentified object image — still frame from mission video.",
       "quoteSource": "NASA STS-80 mission video, 1996 (visual material)",
-      "quoteConfidence": "summary of document record",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full motion/context data.",
       "heroFact": "One of three released STS-80 unidentified-object image records from Space Shuttle Columbia.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official War.gov/PURSUE STS-80 released image record with local full-frame/ROI assets; primary visual custody, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D032",
       "relatedCaseIds": [
@@ -13983,11 +14023,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D032",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-image-record",
+          "provenance": "War.gov/PURSUE STS-80 unidentified object image 3 release with local full-frame/ROI image assets",
           "locator": "NASA-UAP-D032",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents STS-80 unidentified object image 3 as an official released image/frame artifact",
+            "Source index maps local full-frame and ROI image assets for visual review",
+            "Supports the case as a primary released visual record within the Orbital/Lunar evidence layer"
+          ],
+          "limitations": [
+            "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+            "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+            "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+          ]
         }
       ],
       "phenomena": {

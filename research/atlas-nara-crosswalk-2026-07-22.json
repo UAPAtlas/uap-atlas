@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T04:25:18-04:00",
+  "generatedAt": "2026-07-25T04:32:43-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -1371,15 +1371,16 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 14,
+      "missingRecordClasses": [
+        "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+        "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+        "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {
@@ -1776,15 +1777,16 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 14,
+      "missingRecordClasses": [
+        "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+        "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+        "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {
@@ -1997,14 +1999,15 @@
       "localCustodyFileCount": 1,
       "localPdfCount": 0,
       "coverageLinks": 2,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 11,
+      "missingRecordClasses": [
+        "The released record preserves mission/document/image context, but does not by itself establish object origin or non-human technology.",
+        "No complete independent sensor chain, trajectory reconstruction, or final anomaly-resolution packet is mapped in the Atlas.",
+        "NASA/orbital records belong in the Orbital/Lunar layer and should not be treated as default main-stack proof cases without additional corroboration."
+      ],
+      "upgradePriorityScore": 5,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {
@@ -2907,14 +2910,15 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+        "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+        "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -2937,14 +2941,15 @@
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+        "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+        "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -2967,14 +2972,15 @@
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
       "coverageLinks": 5,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "The released image/frame is a primary visual artifact, but it does not establish object identity, distance, scale, trajectory, or origin.",
+        "No full native mission video sequence, calibration context, or independent trajectory analysis is mapped in this record.",
+        "STS-80 images should be read as unresolved released visual records, not standalone proof of anomalous craft."
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },

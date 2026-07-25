@@ -573,7 +573,8 @@
     "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_04.jpg",
     "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_01.jpg",
     "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_03.jpg",
-    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_02.jpg"
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_02.jpg",
+    "assets/source_previews/BF-NASA-D030_source_image.jpg"
   ],
   "NASA-UAP-D031": [
     "assets/evidence/NASA-UAP-D031/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg",
@@ -1349,5 +1350,13 @@
     "assets/evidence/HICKAM-1949/HICKAM-1949_342-HS1_page-091.png",
     "assets/evidence/HICKAM-1949/HICKAM-1949_342-HS1_page-092.png",
     "assets/evidence/HICKAM-1949/HICKAM-1949_342-HS1_page-093.png"
+  ],
+  "NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg": [
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_04.jpg",
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_01.jpg",
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_03.jpg",
+    "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996__roi_02.jpg",
+    "assets/source_previews/BF-NASA-D030_source_image.jpg"
   ]
 }
