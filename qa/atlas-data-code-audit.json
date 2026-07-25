@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 211,
-  "sourceIndexFiles": 919,
+  "sourceIndexFiles": 918,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,19 +62,19 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 237,
-  "sourceDepthWeakCaseCount": 79,
+  "sourceRecordCount": 236,
+  "sourceDepthWeakCaseCount": 76,
   "sourceDepthEnrichmentCandidateCount": 116,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 22,
-    "thin-summary": 31,
+    "thin-summary": 32,
     "multi-source-independent": 11,
-    "secondary-only": 7,
+    "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 73
+    "single-primary-record": 71
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -711,18 +711,18 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:archives new zealand abhs 6958 w5579 box 227 nyp 3/58/13 part 1 record, public kaikoura image/film trail, and atlas evidence-depth recovery note",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1978-VL-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "secondary-only",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
       ]
     },
     "BF-1980-CLD-01": {
@@ -941,13 +941,13 @@
       ]
     },
     "BF-SF-09": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2013-AG-01": {
@@ -1021,8 +1021,8 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:dvids official media record, pentagon-confirmed/public uss omaha video-frame trail, wikimedia/public mirror, and local atlas source-index assets",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2020-AG-00": {
@@ -1185,11 +1185,11 @@
     },
     "BF-2023-WUS-03": {
       "label": "single-primary-record",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary source"
+        "other:war department/ufo release page plus atlas source-index mappings for dow-uap-d079 through d083 western u.s. event narratives"
       ]
     },
     "BF-SF-10": {

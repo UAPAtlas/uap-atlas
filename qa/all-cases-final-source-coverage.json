@@ -1423,13 +1423,13 @@
     "tokens": [
       "NIMITZ-2004"
     ],
-    "indexedLinks": 10,
+    "indexedLinks": 9,
     "structuredSourceRecords": 1,
-    "publicSourceUrls": 5,
+    "publicSourceUrls": 4,
     "evidenceAssets": 4,
-    "links": 12,
+    "links": 11,
     "local": 7,
-    "urls": 5,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1886,7 +1886,7 @@
       "DOW-UAP-D079"
     ],
     "indexedLinks": 1,
-    "structuredSourceRecords": 2,
+    "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 7,
     "links": 8,

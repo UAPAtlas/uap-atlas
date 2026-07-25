@@ -1,0 +1,1877 @@
+{
+  "schemaVersion": 1,
+  "policy": "sole-enrichment-backlog",
+  "source": "qa/source-depth-weak-case-priorities.json",
+  "threshold": 25,
+  "caseCount": 76,
+  "exclusions": {
+    "lowerScoredCandidates": "diagnostic-only",
+    "newCases": "not-authorized",
+    "foiaOrArchivalRequests": "not-authorized",
+    "outreach": "not-authorized"
+  },
+  "cases": [
+    {
+      "id": "BF-NASA-D001",
+      "title": "Apollo 12 Transcript",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D022",
+      "title": "Gemini 9 Debriefing",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D026",
+      "title": "Apollo 14 Debriefing Video Record",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D030",
+      "title": "STS-80 Unidentified Object Image 1",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D031",
+      "title": "STS-80 Unidentified Object Image 2",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D032",
+      "title": "STS-80 Unidentified Object Image 3",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM1",
+      "title": "Apollo 12 Visual Material 1",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM2",
+      "title": "Apollo 12 Visual Material 2",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM3",
+      "title": "Apollo 12 Visual Material 3",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM4",
+      "title": "Apollo 12 Visual Material 4",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM5",
+      "title": "Apollo 12 Visual Material 5",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM6",
+      "title": "Apollo 17 Visual Material",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-SF-04",
+      "title": "Special File: Chapel Hill Gravity Conference",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1980-PE-01",
+      "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-1981-TP-01",
+      "title": "Trans-en-Provence Trace Case",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-2006-OH-01",
+      "title": "O'Hare Airport Disc Sighting",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "civil-aviation"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-2020-AS-01",
+      "title": "Arabian Sea Range Fouler",
+      "score": 42,
+      "sourceRecords": 2,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 2,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary source"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D002",
+      "title": "Apollo 17 Transcript",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D004",
+      "title": "Apollo 11 Technical Crew Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D005",
+      "title": "Apollo 17 Crew Debriefing for Science",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D006",
+      "title": "Apollo 17 Technical Crew Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D007",
+      "title": "Skylab Technical Crew Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D015",
+      "title": "Astronaut Scientific Debriefings",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D016",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D017",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D018",
+      "title": "Gemini 4 Experiment Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D019",
+      "title": "Gemini 5 Technical Debriefing Part 1",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D020",
+      "title": "Gemini 5 Technical Debriefing Part 2",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D021",
+      "title": "Gemini 7 Technical Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-02",
+      "title": "Special File: VZ-9AV Avrocar",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-05",
+      "title": "Special File: Majestic 12 Documents",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "fbi"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-08",
+      "title": "Special File: COMETA Report",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-10",
+      "title": "Special File: Grusch Testimony & ODNI\u2013AARO Record",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 7,
+      "publicSourceUrls": 5,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-11",
+      "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 7,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "score": 42,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
+      "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1966-CC-00",
+      "title": "Condon Committee Pre-Judgment Record",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source",
+      "quoteConfidence": "document quotation \u2014 local facsimile not archived",
+      "sourceProfile": {
+        "label": "multi-source-independent",
+        "primaryRecords": 2,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:primary source",
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
+      "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
+      "quoteConfidence": "web article quote \u2014 summary of record",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1994-AR-01",
+      "title": "Ariel School Encounter, Ruwa",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 5,
+      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
+      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-SF-09",
+      "title": "Special File: AAWSAP / AATIP & Skinwalker",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
+      "quoteConfidence": "Low-medium \u2014 public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1965-KB-01",
+      "title": "Kecksburg Object Recovery Narrative",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary federal-court record for the NASA FOIA dispute; underlying incident and recovery packet remain unrecovered.",
+      "quoteConfidence": "secondary-summary; needs primary-record verification",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 3,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory",
+          "other:united states district court for the district of columbia; public opinion copy via courtlistener"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "score": 35,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1990-CV-01",
+      "title": "Calvine Photograph",
+      "score": 35,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 3,
+      "sourceQuality": "Surviving-print public trail with Sheffield Hallam/Craig Lindsay custody attribution; original negative and reported remaining prints unavailable.",
+      "quoteConfidence": "Medium \u2014 public record/reporting anchored to surviving print trail; not original-negative verified.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:craig lindsay / sheffield hallam / david clarke public release trail"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1933-MG-01",
+      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
+      "quoteConfidence": "Low-medium \u2014 claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1947-KA-01",
+      "title": "Kenneth Arnold Mount Rainier Sighting",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Contemporary press clipping plus provenance audit; supports early public reporting of Arnold\u2019s claim, not object identity.",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1949-HF-01",
+      "title": "Hickam Field \u2014 Oscillating Object, No Sound",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
+      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:u.s. army counter intelligence corps, file 342-hs1"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1949-KD-01",
+      "title": "Kodiak Naval Base 1,500 MPH Object",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
+      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:u.s. army counter intelligence corps, file 342-hs1"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1949-SA-01",
+      "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
+      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:u.s. army counter intelligence corps, file 342-hs1"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1951-YK-01",
+      "title": "Yorkshire 'Perfect Flying Saucer' \u2014 RAF Standing Committee",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 declassified CIA intelligence report",
+      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1955-USSR-01",
+      "title": "USSR \u2014 Objects at 12,000 km/h (Mach 10)",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source \u2014 declassified CIA intelligence report",
+      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1956-DF-01",
+      "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:1st lt richard h. lane, asst chief intelligence division, eglin afb"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1957-B47-01",
+      "title": "B-47 Supersonic Acceleration Encounter",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1957-CG-01",
+      "title": "Three Cigar Objects in 'Y' Formation",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1957-HT-01",
+      "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1957-NC-01",
+      "title": "Northern California Coast Radar Skinpaint",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1957-RA-01",
+      "title": "Robins AFB \u2014 Object That 'Did Not Appear Conventional'",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1965-G7-01",
+      "title": "Gemini 7 Astronaut 'Bogey' Report",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary source \u2014 NASA mission transcript",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1966-WS-01",
+      "title": "Westall School Mass Sighting",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 4,
+      "sourceQuality": "Contemporaneous press + institutional archive trail; official RAAF/police file not recovered",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1973-SL-01",
+      "title": "Skylab \u2014 'One or Two Objects Up There With Us'",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source \u2014 NASA crew debriefing",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1980-CLD-01",
+      "title": "Cash-Landrum Injury Case",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 2,
+      "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
+      "quoteConfidence": "Medium \u2014 public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "private-archive"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1985-PNG-01",
+      "title": "Papua New Guinea \u2014 High-Altitude Overflights",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary source \u2014 declassified State Department cable",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1986-JAL-01",
+      "title": "Japan Airlines 1628 Alaska Encounter",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 11,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verbatim-document-quote",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "civil-aviation"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1994-KZ-01",
+      "title": "Kazakhstan Commercial Aviation Encounter",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source \u2014 declassified State Department cable",
+      "quoteConfidence": "confirmed primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-2004-NM-01",
+      "title": "Nimitz / Tic Tac Encounter",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 9,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verbatim-document-quote",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:documentcloud public copy; originating-office chain not stated"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-2014-CH-01",
+      "title": "Chilean Navy IR Video (CEFAA)",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 9,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 4,
+      "sourceQuality": "Public CEFAA/Chilean Navy IR-video release trail with extracted public-mirror frame; native agency media master and metadata remain unavailable.",
+      "quoteConfidence": "Medium \u2014 public release and reporting trail are specific; object identity remains disputed by flight-track/plume analysis.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:cefaa/chilean navy public-release reporting, uap archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-01",
+      "title": "Special File: Bob Lazar / S-4",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
+      "quoteConfidence": "Low-medium \u2014 claim is publicly attributable, but S-4 employment/program claims remain unverified.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:klas/george knapp broadcast record, later interviews, and unresolved credential/employment verification trail"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-03",
+      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
+      "quoteConfidence": "Medium \u2014 claim trail and historical research context are public, but technical performance claims remain disputed.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:project winterhaven proposal context, townsend brown electrogravitics claims, and bahnson labs film/public documentary trail"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-06",
+      "title": "Special File: 'Alien Interview' / Victor Tape",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
+      "quoteConfidence": "Low-medium \u2014 public release history is documented, but the footage provenance rests on an anonymous source.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:rocket pictures 1997 release record, victor anonymous-source narrative, public video mirrors, and later media analysis"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-13",
+      "title": "Special File: Billy Meier Contact Corpus",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 2,
+      "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
+      "quoteConfidence": "Low-medium \u2014 corpus is public and prolific, but authentication claims are contested and original custody is unresolved.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:figu/meier photographic corpus, reproduced/model-critiqued images, and public skeptical/ufological analysis"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-SF-14",
+      "title": "Special File: CIA OSE Study Group \u2014 1952 Internal UFO Review",
+      "score": 30,
+      "sourceRecords": 2,
+      "indexedLinks": 5,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary CIA declassified briefing documents (47 pages, IAC package)",
+      "quoteConfidence": "verified primary-source quotation",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1947-MI-01",
+      "title": "Maury Island Affair",
+      "score": 25,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "FBI/AAF-era public-record trail for a disputed/hoax-linked 1947 case; strongest value is early flying-disc investigation context, not event authenticity.",
+      "quoteConfidence": "Medium \u2014 FBI/official-file trail exists; event claims are heavily disputed and confession/hoax issues dominate.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "fbi"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    },
+    {
+      "id": "BF-1973-PG-01",
+      "title": "Pascagoula River Abduction Report",
+      "score": 25,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
+      "quoteConfidence": "Medium \u2014 covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    },
+    {
+      "id": "BF-1978-VL-01",
+      "title": "Valentich Disappearance, Bass Strait",
+      "score": 25,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
+      "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    },
+    {
+      "id": "BF-1996-VG-01",
+      "title": "Varginha Creature Narrative",
+      "score": 25,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
+      "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    },
+    {
+      "id": "BF-1997-PH-01",
+      "title": "Phoenix Lights Mass Sighting",
+      "score": 25,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verbatim-firsthand-commentary",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:cnn, november 9, 2007"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only"
+      ]
+    }
+  ]
+}

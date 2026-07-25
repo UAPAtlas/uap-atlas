@@ -342,111 +342,6 @@
     ]
   },
   {
-    "id": "BF-SF-09",
-    "title": "Special File: AAWSAP / AATIP & Skinwalker",
-    "score": 52,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-2023-WUS-03",
-    "title": "Western U.S. Federal LE Encounters",
-    "score": 50,
-    "sourceRecords": 2,
-    "indexedLinks": 1,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 7,
-    "sourceQuality": "Primary source",
-    "quoteConfidence": "confirmed source-phrase quotation",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:primary source"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field",
-      "thin source-index mapping"
-    ]
-  },
-  {
-    "id": "BF-1978-KK-01",
-    "title": "Kaikoura Lights, Filmed Encounters",
-    "score": 42,
-    "sourceRecords": 2,
-    "indexedLinks": 6,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "confirmed primary-source quotation",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-1978-VL-01",
-    "title": "Valentich Disappearance, Bass Strait",
-    "score": 42,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "confirmed primary-source quotation",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
     "id": "BF-1980-PE-01",
     "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
     "score": 42,
@@ -513,32 +408,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "civil-aviation"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-2019-OM-01",
-    "title": "USS Omaha Sphere & Swarm Events",
-    "score": 42,
-    "sourceRecords": 2,
-    "indexedLinks": 6,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "confirmed primary-source quotation",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
       ]
     },
     "reasons": [
@@ -1148,6 +1017,31 @@
     ]
   },
   {
+    "id": "BF-SF-09",
+    "title": "Special File: AAWSAP / AATIP & Skinwalker",
+    "score": 40,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
+    "quoteConfidence": "Low-medium \u2014 public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-1965-KB-01",
     "title": "Kecksburg Object Recovery Narrative",
     "score": 35,
@@ -1691,8 +1585,8 @@
     "title": "Nimitz / Tic Tac Encounter",
     "score": 30,
     "sourceRecords": 1,
-    "indexedLinks": 10,
-    "publicSourceUrls": 5,
+    "indexedLinks": 9,
+    "publicSourceUrls": 4,
     "evidenceAssets": 4,
     "sourceQuality": "Primary record",
     "quoteConfidence": "verbatim-document-quote",
@@ -1890,6 +1784,30 @@
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
         "press"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only"
+    ]
+  },
+  {
+    "id": "BF-1978-VL-01",
+    "title": "Valentich Disappearance, Bass Strait",
+    "score": 25,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
+    "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
       ]
     },
     "reasons": [

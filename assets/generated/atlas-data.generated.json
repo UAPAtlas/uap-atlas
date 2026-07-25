@@ -11173,9 +11173,9 @@
     {
       "keyQuote": "The objects remain classified as UFO's until identified.",
       "quoteSource": "NZ Ministry of Foreign Affairs savingram, Wellington, 23 January 1979",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for official-record summary; unresolved for exact filmed/radar object interpretation.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Archives New Zealand/RNZAF-DSIR official-record trail plus public film-frame media; partial official custody recovered, but first-generation film/radar workpapers remain missing.",
       "coordinateBasis": "Over-sea encounter corridor off Kaikoura, between Wellington and Christchurch",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-KK-01",
@@ -11250,11 +11250,19 @@
       "sourceRecords": [
         {
           "citation": "KAIKOURA-1978 · RNZAF report / Fogarty film record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "official-investigation-record-and-public-media-trail",
+          "provenance": "Archives New Zealand ABHS 6958 W5579 Box 227 NYP 3/58/13 Part 1 record, public Kaikoura image/film trail, and Atlas evidence-depth recovery note",
           "locator": "KAIKOURA-1978",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents official RNZAF/DSIR-style investigation context for the December 1978 Kaikoura filmed/radar encounters",
+            "Recovered Archives New Zealand page summarizes continuing analysis, film-copy distortion/aberration issues, and atmospheric/radar possibilities",
+            "Supports the case as a filmed/radar public-record case with government analytical attention, not just media lore"
+          ],
+          "limitations": [
+            "Recovered official page is not first-generation TV1/Fogarty film, Crockett film copy, native radar logs, or complete analytical workpapers",
+            "The record does not independently establish what produced the lights or radar returns",
+            "Extraterrestrial/extraordinary interpretation remains limited by missing native film/radar custody and final disposition materials"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -11336,9 +11344,9 @@
     {
       "keyQuote": "It's hovering and it's not an aircraft.",
       "quoteSource": "Frederick Valentich radio transmission, Melbourne Flight Service transcript, Oct 21, 1978",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
       "coordinateBasis": "Last reported position area over Bass Strait south of Cape Otway",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-VL-01",
@@ -11430,11 +11438,19 @@
       "sourceRecords": [
         {
           "citation": "VALENTICH-1978 · DoT transcript / National Archives of Australia file",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "national-archive-accident-file-and-transcript-trail",
+          "provenance": "National Archives of Australia B1497 V116/783/1047, ATSB accident summary, and public final-communications transcript trail",
           "locator": "VALENTICH-1978",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the official disappearance file and accident-investigation context for Frederick Valentich over Bass Strait",
+            "Preserves the final communications/transcript trail that anchors the UFO-related narrative to contemporaneous radio communication",
+            "Supports the case as a primary-record aviation disappearance with unusual reported observations before loss of contact"
+          ],
+          "limitations": [
+            "The transcript and accident file do not prove what caused the disappearance or identify the reported object",
+            "No wreckage, recovered aircraft, complete radar/sensor chain, or definitive causal finding is mapped",
+            "Public retellings must be separated from the official accident/transcript record and unresolved-status finding"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -15084,13 +15100,6 @@
           "scope": "official-record"
         },
         {
-          "label": "Wikimedia Commons — public media record",
-          "url": "https://commons.wikimedia.org/wiki/File:FLIR1_Official_UAP_Footage_from_the_USG_for_Public_Release.webm",
-          "publisher": "Wikimedia Commons",
-          "access": "Public",
-          "scope": "public-mirror"
-        },
-        {
           "label": "DocumentCloud — public document copy",
           "url": "https://www.documentcloud.org/documents/20743466-nimitz-unredacted",
           "publisher": "DocumentCloud",
@@ -15470,9 +15479,9 @@
     {
       "keyQuote": "AAWSAP/AATIP was a Department of Defense program investigating military UAP reports, including unusual phenomena at the Skinwalker Ranch, from 2007 to 2012.",
       "quoteSource": "AARO Historical Record Report Vol 1 & AAWSAP program records (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Low-medium — public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-09",
@@ -15549,11 +15558,19 @@
       "sourceRecords": [
         {
           "citation": "AAWSAP-2008 · DIA contract records / DIRD papers FOIA trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "program-contract-and-foia-trail",
+          "provenance": "DIA/AAWSAP-AATIP contract-record context, DIRD paper/FOIA trail, and current source-index local artifacts",
           "locator": "AAWSAP-2008",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents AAWSAP/AATIP as a real government-funded UAP-adjacent program/contract ecosystem",
+            "Supports the connection between DIA-era study work, DIRD-style technical papers, and later public AATIP/Skinwalker narratives",
+            "Useful as an institutional special file showing how official money, private contractors, and anomalous-topic research intersected"
+          ],
+          "limitations": [
+            "Program existence does not validate specific Skinwalker phenomena, recovered technology claims, or non-human-origin conclusions",
+            "The current Atlas record lacks a complete primary contract packet, full workpapers, and page-verified quote custody",
+            "Public documentary/interview sources are context, not substitute evidence for underlying anomalous events"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -16875,9 +16892,9 @@
     {
       "keyQuote": "It splashed!",
       "quoteSource": "USS Omaha CIC audio, July 15, 2019 (Pentagon-confirmed footage)",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for public/video-release existence; medium for broader swarm/deck-log claims without full packet custody.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Pentagon-confirmed/DVIDS/public-media video-frame trail with local source-index imagery; official media custody exists, but deck-log/raw-sensor packet remains incomplete.",
       "coordinateBasis": "Southern California operating area where the 2019 swarm events were logged",
       "coordinatePrecision": "offshore-area",
       "id": "BF-2019-OM-01",
@@ -16952,11 +16969,19 @@
       "sourceRecords": [
         {
           "citation": "OMAHA-2019 · Pentagon-confirmed footage / deck log FOIA trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "official-media-and-public-video-frame-trail",
+          "provenance": "DVIDS official media record, Pentagon-confirmed/public USS Omaha video-frame trail, Wikimedia/public mirror, and local Atlas source-index assets",
           "locator": "OMAHA-2019",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents USS Omaha sphere/swarm material through public video-frame imagery and official/public media records",
+            "Source index includes an Omaha video frame, DVIDS official media link, and USS Omaha contextual imagery",
+            "Supports the case as a modern Navy sensor/media event with public confirmation context"
+          ],
+          "limitations": [
+            "Public video/frame material is not the complete raw sensor/deck-log/radar/EW packet",
+            "The released imagery does not establish object identity, underwater transition mechanics, or non-human origin",
+            "Broader swarm chronology remains incomplete without full ship logs, sensor metadata, and contemporaneous analytical workpapers"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -19945,10 +19970,10 @@
       "whyItMatters": "Trained federal witnesses plus repeated narratives make this a serious records problem, especially because the public imagery is not the raw evidentiary layer.",
       "keyQuote": "like looking at something through water",
       "quoteSource": "DOW-UAP-D079–D083 · Western U.S. Event witness narratives",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "Medium-high — source phrase is confirmed in released narrative material, but full underlying raw data and case files are not public.",
       "heroFact": "Federal law-enforcement witnesses described repeated, reactive phenomena, but public visuals are later renderings rather than raw evidence.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "Department of War/AARO-style narrative release set with five mapped Western U.S. event images; primary-source custody for released narratives, but sensor/witness raw packets remain incomplete.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D079",
       "relatedCaseIds": [
@@ -20006,19 +20031,19 @@
       "sourceRecords": [
         {
           "citation": "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
+          "sourceType": "official-release-narrative-series",
+          "provenance": "War Department/UFO release page plus Atlas source-index mappings for DOW-UAP-D079 through D083 Western U.S. event narratives",
           "locator": "DOW-UAP-D079",
-          "supports": [],
-          "limitations": []
-        },
-        {
-          "citation": "WESTERN-US-SLIDES · Western U.S. Event slides",
-          "sourceType": "primary-record",
-          "provenance": "Primary source",
-          "locator": "DOW-UAP-D079",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a clustered set of Western U.S. federal law-enforcement encounter narratives in an official public release context",
+            "Atlas source index maps five case-specific released narrative/contact images for DOW-UAP-D079 through D083",
+            "Supports the case as an official-release series rather than a single unsupported witness anecdote"
+          ],
+          "limitations": [
+            "Released narrative/contact images are not the complete investigative packets, raw sensor files, or witness interview records",
+            "No NARA exact case mapping or complete local PDF custody packet is present in the current crosswalk",
+            "The records support unresolved/reporting status, not object identity or non-human origin"
+          ]
         }
       ],
       "phenomena": {
