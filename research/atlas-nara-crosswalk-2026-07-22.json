@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T03:23:50-04:00",
+  "generatedAt": "2026-07-25T04:11:06-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -982,12 +982,14 @@
       "localCustodyFileCount": 5,
       "localPdfCount": 2,
       "coverageLinks": 6,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 6,
+      "missingRecordClasses": [
+        "The records do not show a successful operational anti-gravity craft or high-performance recovered-technology platform",
+        "Avrocar/Project 1794 documentation should not be conflated with unexplained UAP cases or crash-retrieval claims",
+        "Technical-program existence supports aerospace history, not non-human origin or hidden fielded capability"
+      ],
+      "upgradePriorityScore": 2,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -2553,12 +2555,14 @@
       "localCustodyFileCount": 7,
       "localPdfCount": 5,
       "coverageLinks": 10,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "The document trail does not verify every claim fed to or made by Bennewitz, including Aquarius or underground-base narratives",
+        "OpenMinds/public mirrors are access copies and should not be treated as native agency archive endpoints without custody caveats",
+        "The case proves disinformation/provenance significance more strongly than it proves any specific exotic-technology allegation"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -2611,12 +2615,14 @@
       "localCustodyFileCount": 2,
       "localPdfCount": 1,
       "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "FBI/AFOSI custody does not authenticate the MJ-12 documents as genuine government crash-retrieval records",
+        "The case remains a disputed-document/fabrication-control record, not proof of a confirmed MJ-12 program",
+        "Public documentaries or reproductions must be treated as context unless tied back to the official file and determination trail"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -3054,12 +3060,14 @@
       "localCustodyFileCount": 3,
       "localPdfCount": 1,
       "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "COMETA was not an official French state conclusion or government policy directive",
+        "The report’s assessment and extraterrestrial hypothesis arguments are interpretive, not direct primary proof of object origin",
+        "The current Atlas custody relies on public translation/mirror material rather than a native official government publication endpoint"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -3987,12 +3995,14 @@
       "localCustodyFileCount": 7,
       "localPdfCount": 3,
       "coverageLinks": 12,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 8,
+      "missingRecordClasses": [
+        "Sworn/public testimony does not itself prove the alleged crash-retrieval or non-human technology programs",
+        "Many central claims depend on classified briefings, secondhand reports, or non-public inspector-general/context records",
+        "AARO/ODNI records provide official context and contradiction points, not a complete evidentiary resolution of the claims"
+      ],
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },

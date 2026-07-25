@@ -4194,9 +4194,9 @@
     {
       "keyQuote": "hubcapping",
       "quoteSource": "USAF/Army Avrocar flight-evaluation term for the craft's uncontrollable pitch oscillation",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "High — source phrase is confirmed in locally mapped declassified Project 1794/Avrocar records.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Declassified USAF/NARA Project 1794/Silver Bug/Avrocar technical-report custody; proves a real saucer-shaped aircraft program, not successful fielded exotic propulsion.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-02",
@@ -4272,11 +4272,19 @@
       "sourceRecords": [
         {
           "citation": "AVROCAR-1959 · Project Silver Bug ATIC-WADC report TR-AC-47 (1955) / Project 1794 Final Development Report (declassified, NARA via archive.org)",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "declassified-technical-program-record",
+          "provenance": "NARA Project 1794 NAID 6920770 plus local Project 1794 final development and Silver Bug technical-report assets",
           "locator": "AVROCAR-1959",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a real USAF/Avro saucer-shaped aircraft development program with declassified technical-report custody",
+            "Source index includes Project 1794 and Silver Bug page imagery plus local PDF files",
+            "Useful as an institutional baseline showing actual government exotic-aircraft experimentation adjacent to flying-saucer culture"
+          ],
+          "limitations": [
+            "The records do not show a successful operational anti-gravity craft or high-performance recovered-technology platform",
+            "Avrocar/Project 1794 documentation should not be conflated with unexplained UAP cases or crash-retrieval claims",
+            "Technical-program existence supports aerospace history, not non-human origin or hidden fielded capability"
+          ]
         }
       ],
       "phenomena": {
@@ -11788,9 +11796,9 @@
     {
       "keyQuote": "SA Richard C. Doty advised Dr. Bennewitz that AFOSI would not become involved in the investigation of these objects.",
       "quoteSource": "AFOSI Multipurpose Internal OSI Form, file 8017D93-0/29, 26 Nov 1980, signed Maj. Thomas A. Cseh",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for mapped AFOSI/Cseh/Doty document trail; lower for broader Aquarius/underground-base narratives attached to the affair.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "AFOSI/OpenMinds-mirrored Kirtland/Bennewitz/Doty FOIA document trail; strong disinformation/provenance case, but individual associated claims require separation.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-11",
@@ -11867,11 +11875,19 @@
       "sourceRecords": [
         {
           "citation": "BENNEWITZ-1980 · AFOSI Kirtland forms incl. Cseh form 8017D93-0/29 (FOIA scans via OpenMinds mirror) / Doty FOIA ATR-1 / Domenici 1981 record / 'Project Aquarius' forgery artifact",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "afosi-foia-and-disinformation-document-trail",
+          "provenance": "AFOSI Kirtland/Bennewitz forms, Cseh form, Doty FOIA ATR-1, Domenici record, and Project Aquarius forgery artifact mapped locally",
           "locator": "BENNEWITZ-1980",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents an official/FOIA-visible paper trail around Bennewitz, Kirtland AFB, AFOSI contacts, and Richard Doty-linked material",
+            "Source index includes AFOSI form imagery, FOIA PDFs, Domenici material, and a Project Aquarius forgery artifact",
+            "Supports the case as a key disinformation/provenance-control file showing real official contact with a civilian UFO claimant"
+          ],
+          "limitations": [
+            "The document trail does not verify every claim fed to or made by Bennewitz, including Aquarius or underground-base narratives",
+            "OpenMinds/public mirrors are access copies and should not be treated as native agency archive endpoints without custody caveats",
+            "The case proves disinformation/provenance significance more strongly than it proves any specific exotic-technology allegation"
+          ]
         }
       ],
       "phenomena": {
@@ -12089,9 +12105,9 @@
     {
       "keyQuote": "BOGUS",
       "quoteSource": "FBI annotation on the MJ-12 documents, FBI Records Vault",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "High for FBI Vault file custody; low for any claim that the underlying MJ-12 documents are authentic.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "FBI Vault / AFOSI-associated Majestic 12 document file; strong custody for the disputed document trail and bogus/fraud-control context, not authentication of MJ-12 claims.",
       "coordinateBasis": "Mail-drop provenance: undeveloped film received by Jaime Shandera in North Hollywood",
       "coordinatePrecision": "city",
       "id": "BF-SF-05",
@@ -12169,11 +12185,19 @@
       "sourceRecords": [
         {
           "citation": "MJ12-1984 · FBI Records Vault official file (Part 1, hosted) / AFOSI determination trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "fbi-disputed-document-file",
+          "provenance": "FBI Vault Majestic 12 Part 1 and AFOSI/fraud-determination trail mapped as local/source-index custody",
           "locator": "MJ12-1984",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the Majestic 12 papers as a real public FBI file/disputed-document trail",
+            "Supports analysis of how alleged crash-retrieval documents entered law-enforcement/intelligence review channels",
+            "Useful as a provenance/fraud-control special file because the document trail itself shaped public UFO belief"
+          ],
+          "limitations": [
+            "FBI/AFOSI custody does not authenticate the MJ-12 documents as genuine government crash-retrieval records",
+            "The case remains a disputed-document/fabrication-control record, not proof of a confirmed MJ-12 program",
+            "Public documentaries or reproductions must be treated as context unless tied back to the official file and determination trail"
+          ]
         }
       ],
       "phenomena": {
@@ -14379,9 +14403,9 @@
     {
       "keyQuote": "UFOs and Defense: What Should We Prepare For?",
       "quoteSource": "COMETA report title, 1999",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "High for report text/source phrase in the mapped English translation; medium for institutional-weight claims beyond authorship/context.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Public COMETA report/translation custody; significant institutional-style argument by French defense/scientific figures, but not an official French government finding.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-08",
@@ -14457,11 +14481,19 @@
       "sourceRecords": [
         {
           "citation": "COMETA-1999 · report text (English translation, archive.org mirror) / IHEDN-associated authorship record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "public-report-and-translation-record",
+          "provenance": "COMETA report text, English translation, archive.org mirror, and IHEDN-associated authorship/context trail",
           "locator": "COMETA-1999",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the COMETA report as a serious public defense-oriented UFO assessment authored by French military/scientific figures",
+            "Source index includes the English report PDF and page image/preview assets",
+            "Supports the special file as an influential institutional-style argument about UAP and defense implications"
+          ],
+          "limitations": [
+            "COMETA was not an official French state conclusion or government policy directive",
+            "The report’s assessment and extraterrestrial hypothesis arguments are interpretive, not direct primary proof of object origin",
+            "The current Atlas custody relies on public translation/mirror material rather than a native official government publication endpoint"
+          ]
         }
       ],
       "phenomena": {
@@ -19595,9 +19627,9 @@
     {
       "keyQuote": "…non-human biologics.",
       "quoteSource": "David Grusch, House Oversight subcommittee testimony, July 26, 2023",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "High for hearing-transcript/source phrases; limited for classified claims not independently public in the record.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official House hearing transcript/GovInfo record plus ODNI 2021 and AARO 2024 public records; strong congressional/public-record custody for testimony, not public proof of alleged programs.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-10",
@@ -19676,11 +19708,19 @@
       "sourceRecords": [
         {
           "citation": "GRUSCH-2023 · House hearing transcript (govinfo, Serial 118-53) / ODNI 2021 assessment / AARO 2024 Historical Record Report Vol. 1",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "congressional-hearing-and-official-report-record",
+          "provenance": "GovInfo House hearing transcript Serial 118-53, House Oversight hearing page, ODNI 2021 assessment, and AARO 2024 Historical Record Report Vol. 1 local assets",
           "locator": "GRUSCH-2023",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Grusch’s UAP allegations in an official congressional hearing/transcript record",
+            "Connects the testimony to ODNI/AARO public-record context and the post-2021 government UAP reporting framework",
+            "Supports the case as a modern disclosure/institutional-accountability record with strong public custody"
+          ],
+          "limitations": [
+            "Sworn/public testimony does not itself prove the alleged crash-retrieval or non-human technology programs",
+            "Many central claims depend on classified briefings, secondhand reports, or non-public inspector-general/context records",
+            "AARO/ODNI records provide official context and contradiction points, not a complete evidentiary resolution of the claims"
+          ]
         }
       ],
       "phenomena": {

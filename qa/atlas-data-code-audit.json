@@ -63,18 +63,18 @@
   "quotesSelected": 146,
   "quotesWithLocators": 146,
   "sourceRecordCount": 235,
-  "sourceDepthWeakCaseCount": 73,
+  "sourceDepthWeakCaseCount": 71,
   "sourceDepthEnrichmentCandidateCount": 115,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
-    "thin-summary": 34,
+    "thin-summary": 37,
     "multi-source-independent": 11,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 68
+    "single-primary-record": 65
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -756,12 +756,12 @@
       ]
     },
     "BF-SF-11": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:afosi kirtland/bennewitz forms, cseh form, doty foia atr-1, domenici record, and project aquarius forgery artifact mapped locally"
       ]
     },
     "BF-1981-TP-01": {
@@ -774,8 +774,8 @@
       ]
     },
     "BF-SF-05": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -904,12 +904,12 @@
       ]
     },
     "BF-SF-08": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:cometa report text, english translation, archive.org mirror, and ihedn-associated authorship/context trail"
       ]
     },
     "BF-2004-NM-01": {
@@ -1198,7 +1198,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:govinfo house hearing transcript serial 118-53, house oversight hearing page, odni 2021 assessment, and aaro 2024 historical record report vol. 1 local assets"
       ]
     },
     "BF-2023-GR-33": {
