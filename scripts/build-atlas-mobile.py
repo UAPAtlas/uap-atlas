@@ -152,7 +152,9 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
   .stack-banner-row:first-child{order:1}.stack-banner-row:nth-child(2){order:2;display:flex!important;flex-direction:column;align-items:stretch;min-width:0;overflow:hidden}
   .stack-banner-right{order:1;margin-top:0!important}.filter-chips{order:2}
   .panel-title{font-size:18px;letter-spacing:-.02em}
-  .filter-chips{position:relative;width:100%;max-width:100%;min-width:0;padding-right:24px;overflow-x:auto;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent)}
+  .filter-chips{position:relative;display:flex!important;width:100%;max-width:100%;min-width:0;padding-right:24px;overflow-x:auto;-webkit-mask-image:linear-gradient(90deg,#000 0,#000 calc(100% - 22px),transparent)}
+  .filter-chips .fchip{flex:0 0 auto;min-width:112px}
+  .filter-chips #toggleInstitutional{min-width:146px}
   .stack-banner-right{margin-top:6px}
   .case-row{min-height:58px;padding:8px 6px 8px 10px;grid-template-columns:92px minmax(0,1fr);gap:9px;border-radius:9px}
   .row-actions{display:none!important}
@@ -230,6 +232,10 @@ function setMobilePage(page,{write=true}={}){
   if(mobilePage==='dossier'){
     const id=state.selectedCaseId||(visibleStackCases()[0]||cases[0]||{}).id;
     if(id) openFullCase(id);
+  }else{
+    document.getElementById('drawerBackdrop')?.classList.remove('open');
+    urlCaseId=null;
+    drawerReturnFocus=null;
   }
   syncMobileNav(); renderMobilePeek();
   if(write) updateUrl();
@@ -237,10 +243,23 @@ function setMobilePage(page,{write=true}={}){
 document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>btn.addEventListener('click',()=>setMobilePage(btn.dataset.page)));
 document.getElementById('peekOpen')?.addEventListener('click',()=>setMobilePage('dossier'));
 document.addEventListener('atlas:home-reset',()=>{mobilePage='map';syncMobileNav();renderMobilePeek();});
+function focusMobileCaseFromStack(id){
+  selectCase(id,true);
+  setMobilePage('map');
+}
 caseList.addEventListener('click',e=>{
   const row=e.target.closest('.case-row'); if(!row) return;
-  setTimeout(()=>{selectCase(row.dataset.id,false); setMobilePage('dossier');},0);
-});
+  const id=row.dataset.id;
+  e.preventDefault(); e.stopPropagation();
+  focusMobileCaseFromStack(id);
+},true);
+caseList.addEventListener('keydown',e=>{
+  if(e.key!=='Enter'&&e.key!==' ') return;
+  const row=e.target.closest('.case-row'); if(!row) return;
+  const id=row.dataset.id;
+  e.preventDefault(); e.stopPropagation();
+  focusMobileCaseFromStack(id);
+},true);
 const mapFullscreen=document.querySelector('[data-map-fullscreen]');
 async function toggleMapImmersive(){
   const entering=!document.body.classList.contains('map-immersive');

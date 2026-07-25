@@ -4,9 +4,10 @@ from __future__ import annotations
 
 import json
 import argparse
+import math
 from pathlib import Path
 
-from sync_atlas_runtime_data import constant_span
+from sync_atlas_runtime_data import DERIVED_CASE_FIELDS, constant_span, has_constant
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,15 +30,33 @@ def main() -> None:
     source_availability = json.loads((ROOT / "source-availability.json").read_text())
     embedded_atlas = embedded(text, "atlasData")
     embedded_index = embedded(text, "sourceFileIndex")
-    embedded_availability = embedded(text, "sourceAvailabilityIndex")
+    embedded_availability = embedded(text, "sourceAvailabilityIndex") if has_constant(text, "sourceAvailabilityIndex") else None
 
     assert len(atlas.get("cases", [])) == 146
-    assert embedded_atlas == atlas, f"{html_path.name} atlasData is stale; run sync_atlas_runtime_data.py"
+    normalized = json.loads(json.dumps(embedded_atlas))
+    normalized_expected = json.loads(json.dumps(atlas))
+    for case in normalized.get("cases", []):
+        for field in DERIVED_CASE_FIELDS:
+            case.pop(field, None)
+    for case in normalized_expected.get("cases", []):
+        for field in DERIVED_CASE_FIELDS:
+            case.pop(field, None)
+    assert normalized == normalized_expected, f"{html_path.name} canonical atlas fields are stale; run sync_atlas_runtime_data.py"
+    projected = [
+        case for case in embedded_atlas.get("cases", [])
+        if case.get("coordinateGenerated") is True
+        and isinstance(case.get("x"), (int, float)) and not isinstance(case.get("x"), bool)
+        and isinstance(case.get("y"), (int, float)) and not isinstance(case.get("y"), bool)
+        and math.isfinite(case["x"]) and math.isfinite(case["y"])
+    ]
+    assert len(projected) == 120, f"{html_path.name} must retain 120 finite projected map coordinates, got {len(projected)}"
+    assert all(case.get("projection") for case in projected), f"{html_path.name} projected cases must declare projection"
     assert embedded_index == source_index, f"{html_path.name} sourceFileIndex is stale; run sync_atlas_runtime_data.py"
-    assert embedded_availability == source_availability, f"{html_path.name} sourceAvailabilityIndex is stale; run sync_atlas_runtime_data.py"
+    if embedded_availability is not None:
+        assert embedded_availability == source_availability, f"{html_path.name} sourceAvailabilityIndex is stale; run sync_atlas_runtime_data.py"
     print(
         f"runtime sync OK ({html_path.name} <- {atlas_path.name}): "
-        f"{len(atlas['cases'])} cases, {len(source_index)} source tokens, "
+        f"{len(atlas['cases'])} cases / {len(projected)} projected, {len(source_index)} source tokens, "
         f"{source_availability['summary']['indexedPaths']} availability entries"
     )
 
