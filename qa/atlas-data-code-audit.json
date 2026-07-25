@@ -70,11 +70,11 @@
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
-    "thin-summary": 50,
+    "thin-summary": 56,
     "multi-source-independent": 10,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 53
+    "single-primary-record": 47
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -316,8 +316,8 @@
       ]
     },
     "BF-NASA-D015": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -527,8 +527,8 @@
       ]
     },
     "BF-NASA-D004": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -594,8 +594,8 @@
       ]
     },
     "BF-NASA-D002": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -641,8 +641,8 @@
       ]
     },
     "BF-NASA-D005": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -650,8 +650,8 @@
       ]
     },
     "BF-NASA-D006": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -659,8 +659,8 @@
       ]
     },
     "BF-NASA-D007": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1457,156 +1457,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-NASA-D002",
-      "title": "Apollo 17 Transcript",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D004",
-      "title": "Apollo 11 Technical Crew Debriefing",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D005",
-      "title": "Apollo 17 Crew Debriefing for Science",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D006",
-      "title": "Apollo 17 Technical Crew Debriefing",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D007",
-      "title": "Skylab Technical Crew Debriefing",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-NASA-D015",
-      "title": "Astronaut Scientific Debriefings",
-      "score": 42,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
       "id": "BF-NASA-D016",
       "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
       "score": 42,
@@ -1704,6 +1554,154 @@
         "source profile=single-primary-record",
         "empty supports field",
         "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D020",
+      "title": "Gemini 5 Technical Debriefing Part 2",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-NASA-D021",
+      "title": "Gemini 7 Technical Debriefing",
+      "score": 42,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
+      "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
+      "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
+      "quoteConfidence": "web article quote \u2014 summary of record",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1994-AR-01",
+      "title": "Ariel School Encounter, Ruwa",
+      "score": 40,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 5,
+      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
+      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
       ]
     }
   ]

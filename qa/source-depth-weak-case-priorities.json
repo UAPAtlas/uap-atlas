@@ -1,155 +1,5 @@
 [
   {
-    "id": "BF-NASA-D002",
-    "title": "Apollo 17 Transcript",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 5,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-NASA-D004",
-    "title": "Apollo 11 Technical Crew Debriefing",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 5,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-NASA-D005",
-    "title": "Apollo 17 Crew Debriefing for Science",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-NASA-D006",
-    "title": "Apollo 17 Technical Crew Debriefing",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 5,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-NASA-D007",
-    "title": "Skylab Technical Crew Debriefing",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 6,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-NASA-D015",
-    "title": "Astronaut Scientific Debriefings",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 5,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
     "id": "BF-NASA-D016",
     "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
     "score": 42,
@@ -1209,6 +1059,144 @@
     "evidenceAssets": 2,
     "sourceQuality": "Official NASA/War.gov Apollo 12 transcript release with local page/ROI imagery; primary transcript custody, context unresolved.",
     "quoteConfidence": "Medium-high \u2014 released transcript record is mapped locally, but quote page/interpretive context remains limited.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D002",
+    "title": "Apollo 17 Transcript",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released Apollo 17 transcript with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D004",
+    "title": "Apollo 11 Technical Crew Debriefing",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released Apollo 11 technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D005",
+    "title": "Apollo 17 Crew Debriefing for Science",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released Apollo 17 crew debriefing for science with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D006",
+    "title": "Apollo 17 Technical Crew Debriefing",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released Apollo 17 technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D007",
+    "title": "Skylab Technical Crew Debriefing",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 6,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released Skylab technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-D015",
+    "title": "Astronaut Scientific Debriefings",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official NASA/War.gov released astronaut scientific debriefings with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
+    "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,

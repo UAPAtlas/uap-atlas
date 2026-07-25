@@ -4553,10 +4553,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Most of these things that we had planned to look into if we could on Astronomy sort of went by the board... a lot of the items back just had to go down the drain, but becoming night adapted the first time around I did get the eye patch out.",
       "quoteSource": "NASA Astronaut Scientific Debriefings 1962-1963, p. 2 (dark adaptation report)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Astronaut scientific debriefings from 1962–1963; prior corpus review found space-environment observations but no explicit UAP sighting in text.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released astronaut scientific debriefings with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D015",
       "relatedCaseIds": [
@@ -4599,11 +4599,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D015",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-scientific-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D015 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D015",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents astronaut scientific debriefings as an official released mission-document artifact tied to Mercury/Gemini-era astronaut science debriefing context",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -8154,10 +8162,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "The first unusual thing that we saw I guess was 1 day out or something pretty close to the moon. It had a sizeable dimension to it, so we put the monocular on it.",
       "quoteSource": "Apollo 11 Technical Crew Debriefing, July 31, 1969, p. 6-33 (Aldrin statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Apollo 11 technical crew debriefing; image-only/OCR-blocker status makes source handling important.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Apollo 11 technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D4",
       "relatedCaseIds": [
@@ -8200,11 +8208,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D4",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D4 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D4",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 11 technical crew debriefing as an official released mission-document artifact tied to Apollo 11",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -9173,10 +9189,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Not to me. They look like pieces of something... They're very bright. For the most part, these fragments are not — or are tumbling at a very slow rate.",
       "quoteSource": "Apollo 17 Transcript, 1972, Tape 5/3, p. 2 (CMP Evans statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Apollo 17 mission transcript released in the NASA/UAP corpus; evidence value is provenance and astronaut mission context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Apollo 17 transcript with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D2",
       "relatedCaseIds": [
@@ -9219,11 +9235,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D2",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-transcript-record",
+          "provenance": "NASA/War.gov NASA-UAP-D2 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D2",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 17 transcript as an official released mission-document artifact tied to Apollo 17",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -9945,10 +9969,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "We thought it might be in the form of ionized hydrogen. We looked for Lyman-alpha radiation, red shifted from the ionized hydrogen, and we didn't see any. We set a lower limit, which certainly excludes the possibility that the Coma cluster is held together by this ionized hydrogen.",
       "quoteSource": "Apollo 17 Crew Debriefing for Science, January 8, 1973, p. 119 (Henry statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Apollo 17 science debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Apollo 17 crew debriefing for science with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D5",
       "relatedCaseIds": [
@@ -9991,11 +10015,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D5",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D5 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D5",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 17 crew debriefing for science as an official released mission-document artifact tied to Apollo 17",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -10074,10 +10106,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "After the brightness of the fireball decreased, I could look back up through the rendezvous window and see what to me was kind of like a tunnel with a bright spot in the middle of the tunnel.",
       "quoteSource": "Apollo 17 Technical Crew Debriefing, January 4, 1973, p. 2-4 (Evans statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Apollo 17 technical crew debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Apollo 17 technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D6",
       "relatedCaseIds": [
@@ -10120,11 +10152,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D6",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D6 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D6",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Apollo 17 technical crew debriefing as an official released mission-document artifact tied to Apollo 17",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
@@ -10203,10 +10243,10 @@
       "whyItMatters": "It is a provenance-first NASA corpus entry: useful for source coverage and mission context, but not proof of object origin without original frame/debrief analysis.",
       "keyQuote": "Unusual or Unexpected Visual Phenomenon. We saw light flashes. I think all of us saw them. I saw them most often when I was in the sack at night with my eyes closed but awake naturally.",
       "quoteSource": "Skylab 1/2 Technical Crew Debriefing, June 30, 1973, p. 23-20 (Kerwin statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High for the OCR-derived quotation against mapped released-record page imagery; limited for anomaly interpretation without full operational/sensor context.",
       "heroFact": "Skylab technical crew debriefing released in the NASA/UAP corpus.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official NASA/War.gov released Skylab technical crew debriefing with local page/contact/ROI custody; primary mission-document record, interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-D7",
       "relatedCaseIds": [
@@ -10249,11 +10289,19 @@
       "sourceRecords": [
         {
           "citation": "NASA-UAP-D7",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "released-nasa-crew-debriefing",
+          "provenance": "NASA/War.gov NASA-UAP-D7 released mission document with local page/contact/ROI assets in the Orbital/Lunar evidence layer",
           "locator": "NASA-UAP-D7",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Skylab technical crew debriefing as an official released mission-document artifact tied to Skylab",
+            "Source index maps local contact sheet/page imagery and, where available, ROI crop assets for direct Atlas review",
+            "Supports the Orbital/Lunar layer by anchoring the relevant language to a named NASA/War.gov document locator rather than a later summary"
+          ],
+          "limitations": [
+            "A transcript or debriefing excerpt preserves reported/mission-context language but does not by itself establish object identity, origin, or anomalous technology",
+            "No complete independent sensor chain, camera geometry, trajectory reconstruction, or final anomaly-resolution packet is mapped in this record",
+            "Should be read as released mission-document custody within the Orbital/Lunar layer, not as standalone proof of anomalous craft"
+          ]
         }
       ],
       "phenomena": {
