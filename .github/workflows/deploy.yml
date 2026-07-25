@@ -24,6 +24,7 @@ jobs:
           mkdir -p /tmp/site
           # Copy web-facing files only (exclude large binaries)
           rsync -av \
+            --include='assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/*.pdf' \
             --exclude='*.pdf' \
             --exclude='*.mp4' \
             --exclude='*.webm' \

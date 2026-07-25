@@ -366,7 +366,21 @@
   "GHOSTROCKETS-1946": [
     "assets/source_previews/BF-1946-GR-01_source_image.jpg",
     "assets/source_previews/BF-1946-GR-01_source_manifest.svg",
-    "source-files/evidence-depth/GHOSTROCKETS-1946-evidence-depth.md"
+    "source-files/evidence-depth/GHOSTROCKETS-1946-evidence-depth.md",
+    "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.md",
+    "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.json",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000183.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000203.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000301.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000498.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000682.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000955.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001115.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001461.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001570.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001850.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001981.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/002001.pdf"
   ],
   "GORMAN-1948": [
     "assets/evidence/GORMAN-1948/GORMAN-1948-p037-no-control-tower-recording-exists.jpg",
@@ -1309,5 +1323,21 @@
     "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p151-balloon-analysis.jpg",
     "assets/evidence/KILLEEN-1954/KILLEEN-1954-NARA-NAID-310994070-p152-investigator-conclusion.jpg",
     "https://catalog.archives.gov/id/310994070"
+  ],
+  "GHOSTROCKETS-STRICT-12-SCAN-CUSTODY-MAP": [
+    "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.md",
+    "source-files/evidence-depth/GHOSTROCKETS-1946-CUSTODY-MAP.json",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000183.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000203.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000301.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000498.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000682.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/000955.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001115.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001461.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001570.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001850.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/001981.pdf",
+    "assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/002001.pdf"
   ]
 }

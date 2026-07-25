@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T19:03:13-04:00",
+  "generatedAt": "2026-07-24T21:01:15-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -155,23 +155,26 @@
       "sourceIndexTokens": [
         "GHOSTROCKETS-1946"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 4,
-      "localCustodyFileCount": 3,
-      "localPdfCount": 0,
-      "coverageLinks": 7,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 8,
+      "localCustodyFileCount": 18,
+      "localPdfCount": 12,
+      "coverageLinks": 25,
       "missingRecordClasses": [
-        "No item-level shelfmark recovered",
-        "No first-generation scan secured",
+        "No item-level shelfmark recovered from Riksarkivet for the deployed Atlas record",
+        "No first-party Riksarkivet scan package secured",
         "No exact NARA RG 59 diplomatic file identified",
+        "Public scans are Internet Archive derivatives from a private uploader, not first-party Riksarkivet downloads",
+        "Exact Riksarkivet volume/item shelfmark for each promoted scan remains unresolved",
+        "The 12-row strict map is a verified floor, not a complete count of all relevant reports",
+        "No exact NARA RG 59 diplomatic file or U.S. intelligence packet is identified by this map",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 7,
+      "upgradePriorityScore": 5,
       "upgradeReasons": [
         "historical case lacks exact NAID",
-        "no complete local PDF in mapped custody",
         "quote not verified to primary page"
       ],
       "archiveTarget": "State Department diplomatic reporting, U.S. air-intelligence records and Swedish military archives"
@@ -286,7 +289,7 @@
       ],
       "structuredSourceRecords": 5,
       "publicUrlCount": 4,
-      "localCustodyFileCount": 5,
+      "localCustodyFileCount": 6,
       "localPdfCount": 0,
       "coverageLinks": 9,
       "missingRecordClasses": [

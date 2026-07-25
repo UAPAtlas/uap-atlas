@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 210,
-  "sourceIndexFiles": 891,
+  "sourceIndexTerms": 211,
+  "sourceIndexFiles": 919,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,16 +62,18 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 236,
-  "sourceDepthWeakCaseCount": 84,
+  "sourceRecordCount": 237,
+  "sourceDepthWeakCaseCount": 83,
   "sourceDepthEnrichmentCandidateCount": 118,
   "sourceDepthWeakThreshold": 25,
+  "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
+  "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
-    "complete-primary-packet": 19,
+    "complete-primary-packet": 20,
     "secondary-only": 18,
     "multi-source-independent": 11,
-    "thin-summary": 20,
     "single-primary-record": 77,
+    "thin-summary": 19,
     "mixed-provenance": 1
   },
   "sourceProfiles": {
@@ -106,12 +108,13 @@
       ]
     },
     "BF-1946-GR-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
+        "other:official riksarkivet custody context cross-checked against downloaded/hash-checked internet archive pdfs and ocr references",
         "other:swedish national archives public subject/index pages"
       ]
     },

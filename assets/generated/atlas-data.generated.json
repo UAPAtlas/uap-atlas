@@ -598,7 +598,7 @@
       "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "Case significance",
-      "sourceQuality": "Official Riksarkivet topic and internal order citation verified; item-level shelfmark and scan-to-record mapping remain incomplete.",
+      "sourceQuality": "Official Riksarkivet topic/NAD custody family plus strict 12-scan public derivative map; exact item shelfmarks and corpus completeness remain unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1946-GR-01",
@@ -679,12 +679,32 @@
           "supports": [
             "Swedish military archival custody family",
             "Existence of a state investigation record group",
-            "Exact internal government order citation"
+            "Exact internal government order citation Fst/L 12/6 1946 nr 7:49",
+            "Official NAD/Riksarkivet context for Försvarsstaben / Rymdprojektilkommittén"
           ],
           "limitations": [
-            "No item-level shelfmark recovered",
-            "No first-generation scan secured",
+            "No item-level shelfmark recovered from Riksarkivet for the deployed Atlas record",
+            "No first-party Riksarkivet scan package secured",
             "No exact NARA RG 59 diplomatic file identified"
+          ]
+        },
+        {
+          "citation": "Ghost Rockets custody map · Riksarkivet/Krigsarkivet Rymdprojektilkommittén plus 12 strict public scan mappings containing Fst/L 12/6 1946 nr 7:49.",
+          "sourceType": "archival-scan-custody-map",
+          "provenance": "Official Riksarkivet custody context cross-checked against downloaded/hash-checked Internet Archive PDFs and OCR references",
+          "locator": "GHOSTROCKETS-STRICT-12-SCAN-CUSTODY-MAP",
+          "supports": [
+            "Official archive creator: Försvarsstaben",
+            "Responsible unit: Flyg- och luftförsvarsavdelningen",
+            "Official series context: Rymdprojektilkommittén at Riksarkivet i Täby / Krigsarkivet",
+            "Twelve public scans contain the same internal reference: Fst/L 12/6 1946 nr 7:49",
+            "Scans 000682 and 000955 were visually checked; all 12 promoted rows have downloaded/hash-checked PDFs"
+          ],
+          "limitations": [
+            "Public scans are Internet Archive derivatives from a private uploader, not first-party Riksarkivet downloads",
+            "Exact Riksarkivet volume/item shelfmark for each promoted scan remains unresolved",
+            "The 12-row strict map is a verified floor, not a complete count of all relevant reports",
+            "No exact NARA RG 59 diplomatic file or U.S. intelligence packet is identified by this map"
           ]
         },
         {
@@ -761,15 +781,47 @@
           "publisher": "Riksarkivet (Swedish National Archives)",
           "access": "Public",
           "scope": "official-archive-topic",
-          "note": "Official archive context; not an item-level catalog record or complete packet."
+          "note": "Official context page for the 1946 ghost-rocket archive story; not an item-level shelfmark."
         },
         {
           "label": "Internet Archive — Swedish Ghost Rockets scan corpus",
           "url": "https://archive.org/details/SwedishGhostRockets",
           "publisher": "Internet Archive / private uploader",
           "access": "Public; Public Domain Mark asserted by uploader",
-          "scope": "unverified-scan-corpus-lead",
-          "note": "1,779 original PDF files are publicly listed, but uploader identity, archival order, and item-level custody mapping are unverified; lead only."
+          "scope": "public-derivative-scan-corpus-lead",
+          "note": "1,779 listed original PDFs; Atlas strict map promotes only 12 scans with the internal Fst/L 12/6 1946 nr 7:49 reference and downloaded/hash-checked PDFs."
+        },
+        {
+          "label": "Riksarkivet NAD — Rymdprojektilkommittén record family",
+          "url": "https://sok.riksarkivet.se/?postid=Arkis+f9c6788e-df68-414d-8f3e-ea41cb6946a9&s=Balder",
+          "publisher": "Riksarkivet / Krigsarkivet",
+          "access": "Public catalog",
+          "scope": "official-archive-custody-family",
+          "note": "Identifies Försvarsstaben / Flyg- och luftförsvarsavdelningen / Rymdprojektilkommittén custody context."
+        },
+        {
+          "label": "Ghost Rockets mapped scan 000682",
+          "url": "https://archive.org/download/SwedishGhostRockets/000682.pdf",
+          "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+          "access": "Public PDF",
+          "scope": "mapped-public-derivative-scan",
+          "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; visually checked; item-level Riksarkivet shelfmark unresolved."
+        },
+        {
+          "label": "Ghost Rockets mapped scan 000955",
+          "url": "https://archive.org/download/SwedishGhostRockets/000955.pdf",
+          "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+          "access": "Public PDF",
+          "scope": "mapped-public-derivative-scan",
+          "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; visually checked; item-level Riksarkivet shelfmark unresolved."
+        },
+        {
+          "label": "Ghost Rockets mapped scan 000183",
+          "url": "https://archive.org/download/SwedishGhostRockets/000183.pdf",
+          "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+          "access": "Public PDF",
+          "scope": "mapped-public-derivative-scan",
+          "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; strict OCR/reference match; item-level Riksarkivet shelfmark unresolved."
         }
       ],
       "images": [

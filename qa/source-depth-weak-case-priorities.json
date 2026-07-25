@@ -846,32 +846,6 @@
     ]
   },
   {
-    "id": "BF-1946-GR-01",
-    "title": "Scandinavian Ghost Rockets",
-    "score": 45,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 4,
-    "evidenceAssets": 1,
-    "sourceQuality": "Official Riksarkivet topic and internal order citation verified; item-level shelfmark and scan-to-record mapping remain incomplete.",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:swedish national archives public subject/index pages"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "quote confidence needs verification upgrade",
-      "flagship/contradiction case"
-    ]
-  },
-  {
     "id": "BF-1947-MI-01",
     "title": "Maury Island Affair",
     "score": 42,

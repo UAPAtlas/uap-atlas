@@ -53,13 +53,13 @@
     "tokens": [
       "GHOSTROCKETS-1946"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 4,
+    "indexedLinks": 17,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 8,
     "evidenceAssets": 1,
-    "links": 7,
-    "local": 3,
-    "urls": 4,
+    "links": 25,
+    "local": 17,
+    "urls": 8,
     "missingLocal": [],
     "hasEvidence": true
   },
