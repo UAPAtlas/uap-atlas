@@ -9,9 +9,9 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 41,
+    "qualityUpgrades": 35,
     "acquisitionTargets": 14,
-    "complete": 91
+    "complete": 97
   },
   "cases": [
     {
@@ -281,44 +281,6 @@
       "quoteConfidence": "Medium \u2014 Ruppelt account is public and historically important; exact destroyed/unreleased Estimate text is not page-verified."
     },
     {
-      "id": "BF-1951-YK-01",
-      "title": "Yorkshire 'Perfect Flying Saucer' \u2014 RAF Standing Committee",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 declassified CIA intelligence report",
-      "quoteConfidence": "verified primary-source quotation (visual confirmation)"
-    },
-    {
-      "id": "BF-1955-USSR-01",
-      "title": "USSR \u2014 Objects at 12,000 km/h (Mach 10)",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 declassified CIA intelligence report",
-      "quoteConfidence": "verified primary-source quotation (visual confirmation)"
-    },
-    {
       "id": "BF-1956-DF-01",
       "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
       "domain": "MILITARY / SENSOR",
@@ -433,44 +395,6 @@
       "quoteConfidence": "confirmed primary-source quotation"
     },
     {
-      "id": "BF-1966-CC-00",
-      "title": "Condon Committee Pre-Judgment Record",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary Condon/Low pre-judgment and Project Blue Book review context; important institutional-bias record, not an event-evidence case.",
-      "quoteConfidence": "Medium-high \u2014 source language is preserved in public/DTIC and Atlas preview context, but local facsimile completeness remains limited."
-    },
-    {
-      "id": "BF-1980-PE-01",
-      "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Declassified DIA/JCS message trail plus Peruvian Santa Mar\u00eda testimony context; strong official-message custody for report existence, incomplete native Peruvian operational packet.",
-      "quoteConfidence": "High for the declassified message/source phrase; lower for later testimony-derived details beyond the message."
-    },
-    {
       "id": "BF-1985-PNG-01",
       "title": "Papua New Guinea \u2014 High-Altitude Overflights",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -490,25 +414,6 @@
       "quoteConfidence": "confirmed primary-source quotation"
     },
     {
-      "id": "BF-1986-JAL-01",
-      "title": "Japan Airlines 1628 Alaska Encounter",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 8,
-      "publicSourceUrls": 4,
-      "evidenceAssets": 11,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verbatim-document-quote"
-    },
-    {
       "id": "BF-1994-KZ-01",
       "title": "Kazakhstan Commercial Aviation Encounter",
       "domain": "HISTORICAL / AERIAL",
@@ -526,25 +431,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 declassified State Department cable",
       "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-2004-NM-01",
-      "title": "Nimitz / Tic Tac Encounter",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 9,
-      "publicSourceUrls": 4,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verbatim-document-quote"
     },
     {
       "id": "BF-SF-01",
@@ -1119,6 +1005,40 @@
       "quoteConfidence": "High \u2014 selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved."
     },
     {
+      "id": "BF-1951-YK-01",
+      "title": "Yorkshire 'Perfect Flying Saucer' \u2014 RAF Standing Committee",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 30,
+      "legacyWeaknessScore": 30,
+      "reasons": [],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "CIA Office of Scientific Intelligence Memorandum for Record dated Dec. 18, 1952, signed by Assistant Director H. Marshall Chadwell; Atlas custody includes both released pages.",
+      "quoteConfidence": "High \u2014 verbatim quotation visually verified on p. 1 of the declassified CIA memorandum."
+    },
+    {
+      "id": "BF-1955-USSR-01",
+      "title": "USSR \u2014 Objects at 12,000 km/h (Mach 10)",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 30,
+      "legacyWeaknessScore": 30,
+      "reasons": [],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "CIA information report OO-B-93674 with all three released pages in Atlas custody; the report explicitly marks its naturalized-citizen/relative-letter content as UNEVALUATED INFORMATION.",
+      "quoteConfidence": "High \u2014 verbatim translated-letter quotation visually verified on p. 2 of the declassified CIA report."
+    },
+    {
       "id": "BF-1973-SL-01",
       "title": "Skylab \u2014 'One or Two Objects Up There With Us'",
       "domain": "ORBITAL / NASA",
@@ -1134,6 +1054,23 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 NASA crew debriefing",
       "quoteConfidence": "confirmed primary-source quotation"
+    },
+    {
+      "id": "BF-1980-PE-01",
+      "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 30,
+      "legacyWeaknessScore": 30,
+      "reasons": [],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Declassified DIA/JCS message IR 6 876 0146 80 from USDAO Lima, received June 3, 1980; Atlas custody includes the exact message page and its 12-page public DIA collection PDF.",
+      "quoteConfidence": "High \u2014 verbatim official-message quotation visually verified on message p. 1 (collection PDF p. 11); later weapons and maneuver details remain testimony-derived."
     },
     {
       "id": "BF-1989-BW-01",
@@ -1864,6 +1801,23 @@
       "quoteConfidence": "High \u2014 primary CNES/GEPAN technical-note record is locally mapped and publicly hosted by GEIPAN."
     },
     {
+      "id": "BF-1986-JAL-01",
+      "title": "Japan Airlines 1628 Alaska Encounter",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 11,
+      "sourceQuality": "FAA Alaskan Region case packet in NARA Catalog record 40587205, with local chronology, certified ATC transcript, and releases 87-08/87-09; page-level primary-record custody.",
+      "quoteConfidence": "High \u2014 verbatim chronology quotation visually verified in the FAA packet image at packet p. 4."
+    },
+    {
       "id": "BF-2020-AG-D3",
       "title": "Four Objects in Sequence",
       "domain": "MILITARY / SENSOR",
@@ -2408,6 +2362,23 @@
       "quoteConfidence": "verified primary-source quotation"
     },
     {
+      "id": "BF-1966-CC-00",
+      "title": "Condon Committee Pre-Judgment Record",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 4,
+      "sourceQuality": "Recovered two-page facsimile of Robert J. Low\u2019s Aug. 9, 1966 memorandum through an archived NICAP mirror, paired with the DTIC-hosted official Condon report for institutional context.",
+      "quoteConfidence": "High \u2014 verbatim wording visually matched to the recovered two-page facsimile; public custody is an archived NICAP mirror rather than the originating University archive."
+    },
+    {
       "id": "BF-1967-SH-01",
       "title": "Shag Harbour Water Impact",
       "domain": "MARITIME / AERIAL",
@@ -2423,6 +2394,23 @@
       "evidenceAssets": 4,
       "sourceQuality": "Official summary plus archival catalog",
       "quoteConfidence": "verified"
+    },
+    {
+      "id": "BF-2004-NM-01",
+      "title": "Nimitz / Tic Tac Encounter",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 9,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 4,
+      "sourceQuality": "Page-level public copy of the 13-page Nimitz executive summary plus the official DoD/DVIDS FLIR1 media record; the summary\u2019s originating-office and release chain are not stated on its face.",
+      "quoteConfidence": "High \u2014 verbatim quotation visually verified on the cited document page."
     },
     {
       "id": "BF-2008-SV-01",

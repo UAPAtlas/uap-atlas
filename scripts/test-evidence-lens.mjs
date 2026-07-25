@@ -6,7 +6,9 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '..');
-const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const htmlArg = process.argv[2] || 'index.html';
+const htmlPath = path.resolve(root, htmlArg);
+const html = fs.readFileSync(htmlPath, 'utf8');
 const atlas = JSON.parse(fs.readFileSync(path.join(root, 'atlas-data.json'), 'utf8'));
 const triage = JSON.parse(fs.readFileSync(path.join(root, 'qa/atlas_operational_triage.json'), 'utf8'));
 
@@ -37,6 +39,12 @@ const expected = {
   'BF-SF-09': ['Multiple official records', 'Mapped custody', 'High'],
   'BF-1949-SA-01': ['Primary / official record', 'Mapped custody', 'High'],
   'BF-1994-AR-01': ['Witness / investigator trail', 'Acquisition required', 'Contextual'],
+  'BF-1986-JAL-01': ['Primary / official record', 'Mapped custody', 'High'],
+  'BF-2004-NM-01': ['Official + supporting records', 'Mapped custody', 'High'],
+  'BF-1980-PE-01': ['Primary / official record', 'Mapped custody', 'High'],
+  'BF-1966-CC-00': ['Official + supporting records', 'Mapped custody', 'High'],
+  'BF-1951-YK-01': ['Primary / official record', 'Mapped custody', 'High'],
+  'BF-1955-USSR-01': ['Primary / official record', 'Mapped custody', 'High'],
 };
 for (const [id, want] of Object.entries(expected)) {
   const c = atlas.cases.find(row => row.id === id);
@@ -44,4 +52,4 @@ for (const [id, want] of Object.entries(expected)) {
   const got = [context.lensEvidenceClass(c, records), context.lensCustody(c, records).label, context.lensQuoteSignal(c)];
   if (JSON.stringify(got) !== JSON.stringify(want)) throw new Error(`${id}: got ${JSON.stringify(got)} want ${JSON.stringify(want)}`);
 }
-console.log(`Evidence Lens OK: ${atlas.cases.length} cases, ${actualAcquisition.size} acquisition targets, 5 representative labels`);
+console.log(`Evidence Lens OK: ${atlas.cases.length} cases, ${actualAcquisition.size} acquisition targets, ${Object.keys(expected).length} representative labels`);

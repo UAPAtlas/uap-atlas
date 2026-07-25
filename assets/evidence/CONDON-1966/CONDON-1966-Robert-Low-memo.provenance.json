@@ -1,0 +1,40 @@
+{
+  "caseId": "BF-1966-CC-00",
+  "recordId": "CONDON-1966-LOW-MEMO",
+  "title": "Some Thoughts on the UFO Project",
+  "author": "Robert J. Low",
+  "date": "1966-08-09",
+  "addressees": [
+    "E. James Archer",
+    "Thurston E. Manning"
+  ],
+  "pages": 2,
+  "custody": {
+    "runtimeCopy": "Atlas-local derivatives of NICAP-hosted page scans recovered through the Internet Archive Wayback Machine",
+    "archivedTranscript": "https://web.archive.org/web/20080531154408/http:/www.nicap.org/docs/660809lowmemo.htm",
+    "page1Source": "https://web.archive.org/web/20080531154408id_/http://www.nicap.org/images/660809low1_2.jpg",
+    "page2Source": "https://web.archive.org/web/20080531154408id_/http://www.nicap.org/images/660809low2_2.jpg",
+    "boundary": "Public archival-mirror custody; the scans are not presented as a University of Colorado originating-archive download."
+  },
+  "files": [
+    {
+      "path": "CONDON-1966-Robert-Low-memo-page-1.jpg",
+      "sha256": "af1db2735035d0592973500d26e5c4783c78a656756c9bc82426db77ae529364"
+    },
+    {
+      "path": "CONDON-1966-Robert-Low-memo-page-2.jpg",
+      "sha256": "0e1699d377529b102c6766194f13071a48fabccf12c420de3a8f6c2ca7a2fbf0"
+    }
+  ],
+  "quoteLocator": "page 2, first paragraph",
+  "supports": [
+    "Robert Low wrote the memorandum before the Colorado project began its substantive case work.",
+    "The memorandum proposed presenting the project publicly as objective while signaling low expectations of finding a saucer to the scientific community.",
+    "The two recovered scans visually support the quoted wording and its continuation across pages 1 and 2."
+  ],
+  "limitations": [
+    "The public scan chain is an archived NICAP mirror rather than direct originating-archive custody.",
+    "The memorandum documents proposed framing and expectations; it does not alone establish how every case was selected, analyzed, or written.",
+    "Institutional pre-judgment does not establish the identity or origin of any reported UAP."
+  ]
+}

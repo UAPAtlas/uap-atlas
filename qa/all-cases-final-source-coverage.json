@@ -517,15 +517,16 @@
     "id": "BF-1966-CC-00",
     "title": "Condon Committee Pre-Judgment Record",
     "tokens": [
-      "CONDON-1966"
+      "CONDON-1966",
+      "DOW-UAP-D092"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "links": 4,
-    "local": 3,
-    "urls": 1,
+    "indexedLinks": 7,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 4,
+    "links": 8,
+    "local": 6,
+    "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1424,7 +1425,7 @@
       "NIMITZ-2004"
     ],
     "indexedLinks": 9,
-    "structuredSourceRecords": 1,
+    "structuredSourceRecords": 2,
     "publicSourceUrls": 4,
     "evidenceAssets": 4,
     "links": 11,
@@ -2221,12 +2222,12 @@
     "tokens": [
       "CIA-UAP-018-USSR"
     ],
-    "indexedLinks": 4,
+    "indexedLinks": 5,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 3,
-    "links": 4,
-    "local": 3,
+    "links": 5,
+    "local": 4,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2285,12 +2286,12 @@
     "tokens": [
       "CIA-UAP-014-BRITISH"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 4,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "links": 3,
-    "local": 2,
+    "links": 4,
+    "local": 3,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true

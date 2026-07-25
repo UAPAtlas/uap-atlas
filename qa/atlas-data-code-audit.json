@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 214,
-  "sourceIndexFiles": 951,
+  "sourceIndexFiles": 957,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,23 +62,23 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 238,
-  "sourceDepthWeakCaseCount": 67,
-  "sourceDepthEnrichmentCandidateCount": 114,
+  "sourceRecordCount": 240,
+  "sourceDepthWeakCaseCount": 64,
+  "sourceDepthEnrichmentCandidateCount": 112,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 41,
+    "qualityUpgrades": 35,
     "acquisitionTargets": 14,
-    "complete": 91
+    "complete": 97
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 23,
-    "thin-summary": 59,
+    "complete-primary-packet": 25,
+    "thin-summary": 56,
     "multi-source-independent": 11,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 43
+    "single-primary-record": 44
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -395,11 +395,12 @@
       ]
     },
     "BF-1966-CC-00": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
+        "private-archive",
         "usaf-blue-book"
       ]
     },
@@ -745,7 +746,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:dia/jcs message ir 6 876 0146 80 mirrored in black vault dia collection plus local page/pdf assets"
+        "other:department of defense joint chiefs of staff message center copy; originated by usdao lima, peru; declassified dia collection mirrored by the black vault; atlas-local pdf and page derivative"
       ]
     },
     "BF-1980-RF-01": {
@@ -787,8 +788,8 @@
       ]
     },
     "BF-1986-JAL-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -918,12 +919,13 @@
       ]
     },
     "BF-2004-NM-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:documentcloud public copy; originating-office chain not stated"
+        "other:department of defense public media record hosted by dvids; atlas-local webm and frame derivatives",
+        "other:documentcloud public copy with atlas-local pdf/page derivatives; originating-office authorship and release chain are not stated on the document face"
       ]
     },
     "BF-2006-OH-01": {

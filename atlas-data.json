@@ -5816,7 +5816,7 @@
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Before the Colorado study was complete, project administrator Robert Low wrote that it should appear objective to the public while presenting scientists with a group of non-believers having an almost zero expectation of finding a saucer. The later Condon Report was used by the Air Force to support ending Project Blue Book.",
       "official": "The Air Force relied on the Condon Report's recommendation against further extensive UFO study when it terminated Project Blue Book in 1969. That policy decision does not by itself resolve whether the pre-study language shaped case selection, analysis or the final synthesis.",
-      "gap": "The local source package lacks a facsimile of the Low memorandum. Also missing from this dossier are the complete internal methodology and case-selection correspondence, responses to the memorandum, and the Air Force decision trail comparing the report's synthesis with unresolved case chapters.",
+      "gap": "The recovered two-page Low memorandum documents proposed framing and expectations, but the complete internal methodology, case-selection correspondence, responses to the memo, and decision trail comparing the final synthesis with unresolved case chapters are not in Atlas custody.",
       "sources": [
         "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
         "DOW-UAP-D092 · DAF Project Blue Book review / Condon context"
@@ -5833,13 +5833,13 @@
       "keyFact": "The Condon study carried internal pre-judgment language before publication, yet the report still contained difficult cases and was later used to close Project Blue Book.",
       "whyItMatters": "It exposes a credibility problem at the exact study used to justify shutting down the Air Force public UFO investigation.",
       "keyQuote": "The trick would be, I think, to describe the project so that, to the public, it would appear a totally objective study but, to the scientific community, would present the image of a group of non-believers trying their best to be objective but having an almost zero expectation of finding a saucer.",
-      "quoteSource": "Robert Low memorandum, Aug. 9, 1966; exact wording preserved in the Atlas record, but a local facsimile is not archived",
-      "quoteConfidence": "Medium-high — source language is preserved in public/DTIC and Atlas preview context, but local facsimile completeness remains limited.",
+      "quoteSource": "Robert J. Low, “Some Thoughts on the UFO Project,” Aug. 9, 1966, p. 2 (archived two-page facsimile)",
+      "quoteConfidence": "High — verbatim wording visually matched to the recovered two-page facsimile; public custody is an archived NICAP mirror rather than the originating University archive.",
       "heroFact": "The Condon study carried pre-judgment language before publication, yet still became the basis for closing Project Blue Book.",
       "significance": "High significance",
-      "sourceQuality": "Primary Condon/Low pre-judgment and Project Blue Book review context; important institutional-bias record, not an event-evidence case.",
+      "sourceQuality": "Recovered two-page facsimile of Robert J. Low’s Aug. 9, 1966 memorandum through an archived NICAP mirror, paired with the DTIC-hosted official Condon report for institutional context.",
       "sourceLabel": "Condon archive",
-      "sourceLocator": "CONDON-1966",
+      "sourceLocator": "CONDON-1966-LOW-MEMO pp. 1–2; DTIC AD0680975",
       "relatedCaseIds": [
         "BF-1953-RP-00",
         "BF-1956-LB-01"
@@ -5887,19 +5887,35 @@
       },
       "sourceRecords": [
         {
-          "citation": "CONDON-1966 · Robert Low memo / Condon Committee pre-judgment record",
-          "sourceType": "institutional-prejudgment-record",
-          "provenance": "Robert Low memo / Condon Committee pre-judgment record plus DOW-UAP-D092 Project Blue Book review context and DTIC public report link",
-          "locator": "CONDON-1966",
+          "citation": "Robert J. Low — “Some Thoughts on the UFO Project,” Aug. 9, 1966",
+          "sourceType": "institutional-primary-memo-public-scan",
+          "provenance": "Two-page NICAP-hosted facsimile recovered through the Internet Archive Wayback Machine; Atlas-local derivatives and checksum provenance; not direct originating-archive custody",
+          "locator": "CONDON-1966-LOW-MEMO pp. 1–2; quoted paragraph at p. 2",
           "supports": [
-            "Documents early institutional framing and pre-judgment concerns around the Condon Committee/UFO study process",
-            "Connects Condon Committee history to Department of Air Force/Project Blue Book review context",
-            "Supports the case as institutional-process evidence relevant to debunking, research design, and public credibility management"
+            "The memo predates the Colorado project’s substantive case work and records Robert Low’s proposed framing for the study.",
+            "The recovered scan contains the quoted proposal to appear objective publicly while signaling an almost zero expectation of finding a saucer to the scientific community.",
+            "The two pages establish the quote’s addressees, author, subject, date, and continuation across the page break."
           ],
           "limitations": [
-            "This is not a UAP sighting, sensor event, or physical-evidence case",
-            "The current Atlas custody includes public/preview context but no exact NARA case mapping or complete local committee archive",
-            "Institutional bias/pre-judgment evidence does not by itself prove any specific UAP origin claim"
+            "The public scan chain is an archived NICAP mirror rather than a direct University of Colorado originating-archive download.",
+            "The memo documents proposed framing and expectations; it does not alone establish how every case was selected, analyzed, or written.",
+            "Institutional pre-judgment evidence does not establish the identity or origin of any reported UAP."
+          ]
+        },
+        {
+          "citation": "Scientific Study of Unidentified Flying Objects, University of Colorado, 1968",
+          "sourceType": "official-technical-report",
+          "provenance": "Defense Technical Information Center public report AD0680975; University of Colorado study conducted under USAF contract F44620-67-C-0035",
+          "locator": "DTIC AD0680975",
+          "supports": [
+            "Establishes the final study delivered under the Air Force-sponsored University of Colorado contract.",
+            "Provides the institutional and methodological context in which the earlier Low memorandum must be evaluated.",
+            "Documents that the completed report included both a broad synthesis and individual case analyses."
+          ],
+          "limitations": [
+            "The final report does not by itself resolve how the Low memorandum affected internal case selection or drafting decisions.",
+            "The report’s overall recommendations and its unresolved individual cases must not be collapsed into a single evidentiary claim.",
+            "Air Force reliance on the report to end Project Blue Book does not establish the identity or origin of any reported UAP."
           ]
         }
       ],
@@ -5941,6 +5957,14 @@
       },
       "publicSources": [
         {
+          "label": "Internet Archive — archived Robert Low memo facsimile and transcript",
+          "url": "https://web.archive.org/web/20080531154408/http:/www.nicap.org/docs/660809lowmemo.htm",
+          "publisher": "Internet Archive capture of NICAP public archive",
+          "access": "Public",
+          "scope": "archival-record-mirror",
+          "note": "Two-page public scan and transcript; mirror custody rather than originating University archive."
+        },
+        {
           "label": "DTIC — official technical report",
           "url": "https://apps.dtic.mil/sti/tr/pdf/AD0680975.pdf",
           "publisher": "Defense Technical Information Center",
@@ -5949,6 +5973,8 @@
         }
       ],
       "images": [
+        "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-2.jpg",
+        "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-1.jpg",
         "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
         "assets/source_previews/BF-1966-CC-00_source_image.jpg"
       ]
@@ -11662,10 +11688,10 @@
     },
     {
       "keyQuote": "The FAP tried to intercept and destroy the UFO, but without success.",
-      "quoteSource": "DIA/JCS Message Center report IR 6 876 0146 80, USDAO Lima, received June 3, 1980",
-      "quoteConfidence": "High for the declassified message/source phrase; lower for later testimony-derived details beyond the message.",
+      "quoteSource": "USDAO Lima information report IR 6 876 0146 80, message p. 1 / collection PDF p. 11, received June 3, 1980",
+      "quoteConfidence": "High — verbatim official-message quotation visually verified on message p. 1 (collection PDF p. 11); later weapons and maneuver details remain testimony-derived.",
       "significance": "High significance",
-      "sourceQuality": "Declassified DIA/JCS message trail plus Peruvian Santa María testimony context; strong official-message custody for report existence, incomplete native Peruvian operational packet.",
+      "sourceQuality": "Declassified DIA/JCS message IR 6 876 0146 80 from USDAO Lima, received June 3, 1980; Atlas custody includes the exact message page and its 12-page public DIA collection PDF.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-PE-01",
@@ -11691,7 +11717,7 @@
         "LAJOYA-1980 · DIA/JCS message IR 6 876 0146 80 (declassified, Black Vault DIA collection) / Santa María testimony, Citizen Hearing 2013"
       ],
       "sourceLabel": "DIA message record",
-      "sourceLocator": "LAJOYA-1980",
+      "sourceLocator": "LAJOYA-1980; DIA collection PDF p. 11; message IR 6 876 0146 80, p. 1",
       "relatedCaseIds": [
         "BF-1976-TH-01",
         "BF-1989-BW-01"
@@ -11739,19 +11765,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "LAJOYA-1980 · DIA/JCS message IR 6 876 0146 80 (declassified, Black Vault DIA collection) / Santa María testimony, Citizen Hearing 2013",
+          "citation": "USDAO Lima information report IR 6 876 0146 80 — “UFO Sighted in Peru”",
           "sourceType": "declassified-military-intelligence-message",
-          "provenance": "DIA/JCS message IR 6 876 0146 80 mirrored in Black Vault DIA collection plus local page/PDF assets",
-          "locator": "LAJOYA-1980",
+          "provenance": "Department of Defense Joint Chiefs of Staff Message Center copy; originated by USDAO Lima, Peru; declassified DIA collection mirrored by The Black Vault; Atlas-local PDF and page derivative",
+          "locator": "DTG 022052Z JUN 80; received June 3, 1980; message p. 1 / collection PDF p. 11",
           "supports": [
-            "Documents a Peruvian/Santa María engagement claim through a declassified DIA/JCS intelligence-message trail",
-            "Source index includes a local DIA-message page image and local PDF custody asset",
-            "Supports the case as an official-message military intercept report rather than later-only folklore"
+            "The message records that a UFO was reported on two occasions near a Peruvian Air Force base in southern Peru.",
+            "Its summary states that the Peruvian Air Force tried to intercept and destroy the UFO without success.",
+            "The source is described as a Peruvian Air Force officer who observed the event, was positioned to know related conversations, and had reported reliably in the past."
           ],
           "limitations": [
-            "The declassified message is not the complete Peruvian Air Force operational file, weapons/sensor packet, or pilot debrief archive",
-            "Black Vault mirror custody is useful public access but not the native originating Peruvian archive",
-            "The record supports the reported engagement narrative, not definitive object identity, damage assessment, or non-human origin"
+            "The page explicitly states that it is an information report and “not finally evaluated intelligence.”",
+            "The public U.S. message is not the complete Peruvian Air Force operational file, weapons record, gun-camera film, or pilot debrief archive.",
+            "Later claims about rounds fired, object behavior, and detailed maneuvers extend beyond the short declassified message and remain testimony-derived."
           ]
         }
       ],
@@ -12522,13 +12548,13 @@
       "keyFact": "The strength of JAL 1628 is the aviation/radar-handling record around a multi-crew report over Alaska, not just a pilot anecdote.",
       "whyItMatters": "Aircrew, ATC, radar discussion, and official handling make this a records-rich aviation case where the missing files matter.",
       "keyQuote": "The ROCC called ZAN advising they had confirmed a ‘flight of two’ in JL1628's position.",
-      "quoteSource": "FAA chronology, December 18, 1986, p. 2",
-      "quoteConfidence": "verbatim-document-quote",
+      "quoteSource": "FAA Anchorage ARTCC chronology, Dec. 18, 1986, packet p. 4",
+      "quoteConfidence": "High — verbatim chronology quotation visually verified in the FAA packet image at packet p. 4.",
       "heroFact": "The strength of JAL 1628 is the aviation/radar-handling record around a multi-crew report over Alaska, not just a pilot anecdote.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "FAA Alaskan Region case packet in NARA Catalog record 40587205, with local chronology, certified ATC transcript, and releases 87-08/87-09; page-level primary-record custody.",
       "sourceLabel": "FAA / JAL",
-      "sourceLocator": "JAL1628 FAA chronology pp. 1–3; transcript pp. 2–8; FAA release March 5, 1987",
+      "sourceLocator": "NARA 40587205; FAA packet chronology pp. 3–5; certified transcript pp. 2–8; releases 87-08/87-09",
       "relatedCaseIds": [
         "BF-2013-AG-01",
         "BF-1989-BW-01",
@@ -12601,19 +12627,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "FAA JAL 1628 chronology, transcript and press release",
-          "sourceType": "civil-aviation-record",
-          "provenance": "FAA Alaskan Region release",
-          "locator": "chronology pp. 1–3; transcript pp. 2–8; release 87-09",
+          "citation": "FAA Alaskan Region JAL 1628 packet — chronology, certified ATC transcript, and releases 87-08/87-09",
+          "sourceType": "civil-aviation-primary-record-packet",
+          "provenance": "Federal Aviation Administration, Alaskan Region; NARA Catalog record 40587205; Atlas-local page derivatives from public official-record mirrors",
+          "locator": "chronology packet pp. 3–5; certified transcript pp. 2–8; release 87-09 at packet p. 4",
           "supports": [
-            "pilot-controller-communications",
-            "ROCC-return-report",
-            "negative-intercept-observation",
-            "FAA-split-return-analysis"
+            "The certified communications transcript and chronology document the crew report and FAA/ROCC handling in real time.",
+            "The chronology records intermittent ROCC primary-return reports, including a reported “flight of two” in JL1628’s position.",
+            "FAA release 87-09 documents the inquiry, the agency’s inability to confirm the event, and its split-return interpretation for one radar target."
           ],
           "limitations": [
-            "no-continuous-confirmed-track",
-            "crew-object-size-estimate-uncertain"
+            "The released radar references do not form a continuous, common track linking the visual report, aircraft weather radar, and ground systems.",
+            "A diverted United crew saw JAL 1628 but reported no other traffic.",
+            "FAA’s split-return explanation addresses one radar indication but does not independently identify the crew’s visual stimulus or validate its size estimate."
           ]
         }
       ],
@@ -14850,13 +14876,13 @@
       "keyFact": "Nimitz is an officially acknowledged Navy UAP encounter with witness and sensor implications beyond the short public FLIR clip.",
       "whyItMatters": "Official acknowledgment plus unreleased command/sensor records make this a disclosure benchmark: the public clip is not the whole file.",
       "keyQuote": "The AAVs would descend ‘very rapidly’ from approximately 60,000 feet down to approximately 50 feet in a matter of seconds.",
-      "quoteSource": "Nimitz executive summary, p. 3",
-      "quoteConfidence": "verbatim-document-quote",
+      "quoteSource": "Nimitz executive-summary public copy, p. 1",
+      "quoteConfidence": "High — verbatim quotation visually verified on the cited document page.",
       "heroFact": "Nimitz is an officially acknowledged Navy UAP encounter with witness and sensor implications beyond the short public FLIR clip.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Page-level public copy of the 13-page Nimitz executive summary plus the official DoD/DVIDS FLIR1 media record; the summary’s originating-office and release chain are not stated on its face.",
       "sourceLabel": "USN / NAVAIR",
-      "sourceLocator": "NIMITZ-2004 executive summary, pp. 1, 3, 5–6",
+      "sourceLocator": "NIMITZ-2004 executive-summary public copy pp. 1, 5–6; DVIDS video 955825",
       "relatedCaseIds": [
         "BF-2015-NAV-01",
         "BF-2013-AG-01",
@@ -14927,20 +14953,35 @@
       },
       "sourceRecords": [
         {
-          "citation": "NIMITZ-2004 executive summary",
+          "citation": "NIMITZ-2004 executive-summary public copy",
           "sourceType": "military-executive-summary-public-copy",
-          "provenance": "DocumentCloud public copy; originating-office chain not stated",
-          "locator": "pp. 1, 3, 5–6",
+          "provenance": "DocumentCloud public copy with Atlas-local PDF/page derivatives; originating-office authorship and release chain are not stated on the document face",
+          "locator": "pp. 1, 5–6",
           "supports": [
-            "multi-platform-detection",
-            "visual-description",
-            "reported-intercept-position",
-            "sensor-list"
+            "The summary reports repeated USS Princeton detections of multiple anomalous aerial vehicles during the carrier group workups.",
+            "It records an F/A-18 intercept and a close visual description of a smooth, white, oblong “Tic Tac” form.",
+            "It records E-2C and fighter-radar context, including intermittent or weak returns and the systems involved."
           ],
           "limitations": [
-            "no-raw-radar",
-            "no-E2C-recording",
-            "authorship-chain-not-stated"
+            "The public copy does not identify its author, originating office, signature authority, or official release chain on its face.",
+            "Raw SPY-1 data, E-2C recordings, full FLIR metadata, deck logs, and complete mission records are not in Atlas custody.",
+            "The summary reports and assesses witness/sensor accounts; it does not independently establish extraordinary origin."
+          ]
+        },
+        {
+          "citation": "Defense Visual Information Distribution Service — FLIR UAP, video 955825",
+          "sourceType": "official-defense-video-record",
+          "provenance": "Department of Defense public media record hosted by DVIDS; Atlas-local WebM and frame derivatives",
+          "locator": "https://www.dvidshub.net/video/955825/flir-uap",
+          "supports": [
+            "Establishes official DoD public custody of the FLIR1 video record associated with the November 2004 Nimitz encounter.",
+            "Provides the publicly released infrared sequence and stable official media locator.",
+            "Allows the published clip to be evaluated separately from later witness interviews and the executive-summary copy."
+          ],
+          "limitations": [
+            "The short public clip does not include the complete sensor file, native metadata, or full mission timeline.",
+            "The imagery alone does not establish range, object dimensions, propulsion method, or extraordinary origin.",
+            "Official custody authenticates the released media record, not every interpretation attached to it."
           ]
         }
       ],
@@ -23260,22 +23301,22 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "A CIA intelligence report documents UFO sightings in the USSR in which 'these amazing fliers moved at a speed of 12,000 kilometers per hour' — approximately 7,456 mph, or Mach 10. The speed claim is extraordinary: no operational aircraft of any nation in 1955 could approach Mach 10. The report adds Soviet/USSR coverage to the Atlas and connects to the broader pattern of high-speed UAP observations across multiple nations and decades.",
-      "official": "CIA intelligence report. No official identification of the objects located in the available text.",
+      "summary": "A CIA information report reproduces a translated passage from a Budapest relative’s 1955 letter claiming that “amazing fliers moved at a speed of 12,000 kilometers per hour.” The report explicitly labels the material UNEVALUATED INFORMATION and provides no measurement method, named observer, exact location, or follow-up analysis.",
+      "official": "CIA preserved and disseminated the report, but did not validate the underlying speed claim or identify the reported objects in the three-page release.",
       "gap": "The CIA report labels the material UNEVALUATED INFORMATION from a naturalized U.S. citizen quoting a relative’s letter. The underlying observers, measurement method, exact location, and follow-up analysis are not identified in the three-page release.",
       "sources": [
         "CIA-UAP-018-USSR · Report of Unusual Flying Object Sightings and Attendant Scientific Activity (Report OO-B-93674; 3pp; declassified CIA file)"
       ],
-      "keyFact": "A CIA report documents Soviet UFO sightings with objects moving at 12,000 km/h — Mach 10, far beyond any operational aircraft of any nation in 1955.",
-      "whyItMatters": "Adds Soviet/Cold War coverage with an extraordinary speed claim. The Mach 10 speed is one of the highest in the entire UAP record. Helps correct the Atlas's American geographic bias and adds to the cross-source high-speed pattern (Port Lyautey 4,900 mph 1952, B-47 Mach 2-3 1957, Kazakhstan 90-degree turns 1994).",
+      "keyFact": "A declassified CIA information report preserves a secondhand 1955 letter claiming objects moved at 12,000 km/h; the report explicitly marks the claim unevaluated.",
+      "whyItMatters": "The record documents Cold War intelligence collection around Soviet-bloc UFO reporting and an extreme-speed claim, while its explicit source chain prevents treating the figure as a CIA measurement.",
       "keyQuote": "these amazing fliers moved at a speed of 12,000 kilometers per hour.",
       "quoteSource": "CIA-UAP-018, Report OO-B-93674, translated letter, p. 2 (visually confirmed)",
-      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
-      "heroFact": "A CIA report claims Soviet UFOs moving at 12,000 km/h — Mach 10 in 1955.",
+      "quoteConfidence": "High — verbatim translated-letter quotation visually verified on p. 2 of the declassified CIA report.",
+      "heroFact": "A CIA report preserves an unevaluated 1955 letter claiming objects moving at 12,000 km/h.",
       "significance": "High significance — Mach 10 speed claim",
-      "sourceQuality": "Primary source — declassified CIA intelligence report",
+      "sourceQuality": "CIA information report OO-B-93674 with all three released pages in Atlas custody; the report explicitly marks its naturalized-citizen/relative-letter content as UNEVALUATED INFORMATION.",
       "sourceLabel": "CIA / declassified",
-      "sourceLocator": "CIA-UAP-018-USSR",
+      "sourceLocator": "CIA-UAP-018-USSR; report OO-B-93674; translated letter at p. 2 of 3",
       "relatedCaseIds": [
         "BF-1952-PL-01",
         "BF-1957-B47-01",
@@ -23325,21 +23366,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "CIA-UAP-018 · Report of Unusual Flying Object Sightings and Attendant Scientific Activity",
+          "citation": "CIA Information Report OO-B-93674 — “Report of Unusual Flying Object Sightings and Attendant Scientific Activity”",
           "sourceType": "cia-information-report",
-          "provenance": "Central Intelligence Agency; report OO-B-93674; declassified for 2026 release",
-          "locator": "1955 report; translated letter at p. 2 of 3",
+          "provenance": "Central Intelligence Agency information report; source described as a naturalized U.S. citizen of Hungarian extraction quoting a relative’s Budapest letter; three-page declassified release in Atlas custody",
+          "locator": "report OO-B-93674; source and caveat at p. 1; translated letter at p. 2 of 3",
           "supports": [
-            "letter-reports-saucer-excitement",
-            "12000-kilometers-per-hour-claim",
-            "scientific-activity-mentioned"
+            "Documents that CIA collected and disseminated the source’s report of UFO-related discussion in Budapest in late 1955.",
+            "Preserves the translated sentence claiming “these amazing fliers moved at a speed of 12,000 kilometers per hour.”",
+            "Explicitly identifies the source chain and labels the report UNEVALUATED INFORMATION."
           ],
           "limitations": [
-            "explicitly-unevaluated-information",
-            "secondhand-relative-letter",
-            "measurement-method-not-given",
-            "underlying-observers-and-location-not-identified",
-            "no-follow-up-analysis-in-release"
+            "The claim is secondhand: a naturalized U.S. citizen relayed a relative’s letter from Budapest rather than reporting a personal observation.",
+            "No underlying observers, exact location, timing method, instrumentation, or speed-calculation method are identified.",
+            "The release contains no corroborating Soviet record or CIA follow-up analysis and does not establish the objects’ identity or extraordinary origin."
           ]
         }
       ],
@@ -23872,8 +23911,8 @@
     {
       "id": "BF-1951-YK-01",
       "title": "Yorkshire 'Perfect Flying Saucer' — RAF Standing Committee",
-      "date": "1951",
-      "year": 1951,
+      "date": "DEC 1952 (reported)",
+      "year": 1952,
       "location": "Yorkshire, England (exact site within Yorkshire not specified)",
       "mode": "approximate",
       "lon": -1.5,
@@ -23886,22 +23925,22 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "RAF officials reportedly observed a 'perfect flying saucer' during a public demonstration in Yorkshire. The sighting was connected to a British standing committee on flying saucers, created around 1951, with the RAF designated as the action agency and R.V. Jones in charge. The CIA reported this through CIA-UAP-014.",
-      "official": "The British standing committee treated the sighting seriously enough to establish a formal investigation framework with the RAF as the action agency.",
+      "summary": "A CIA Office of Scientific Intelligence memorandum dated Dec. 18, 1952 reports that a recently arrived messenger from Britain described a Yorkshire demonstration where RAF officials and pilots saw a “perfect flying saucer.” The same memo says Britain had maintained a standing committee on flying saucers for about sixteen months.",
+      "official": "The CIA memorandum preserves an official U.S. intelligence account of what the British messenger reported. It does not independently identify the witnesses, authenticate the underlying RAF event, or confirm that R. V. Jones formally directed the committee; the memo says this was presumed.",
       "gap": "The two-page release documents the report but does not identify the redacted messenger, the RAF officials or pilots, the exact Yorkshire field, or any final investigation and disposition records.",
       "sources": [
         "CIA-UAP-014-BRITISH · British Activity in the Field of Unidentified Flying Objects (18 Dec 1952; 2pp; declassified CIA file)"
       ],
-      "keyFact": "RAF officials saw a 'perfect flying saucer' during a public demonstration — the British established a standing committee on flying saucers with R.V. Jones in charge.",
-      "whyItMatters": "Adds UK coverage and an institutional response angle. R.V. Jones was Britain's leading intelligence scientist. The existence of a formal British standing committee on flying saucers in 1951 — before the Robertson Panel (1953) — shows allied governments were treating UAPs seriously at the institutional level.",
+      "keyFact": "A Dec. 18, 1952 CIA memorandum reports that RAF officials and pilots saw a “perfect flying saucer” during a Yorkshire demonstration.",
+      "whyItMatters": "The memorandum documents U.S. intelligence awareness of a reported British institutional response and a high-level RAF witness claim, while preserving the critical boundary that the account reached CIA secondhand.",
       "keyQuote": "During the show, a \"perfect flying saucer\" was seen by these officials as well as RAF pilots.",
       "quoteSource": "CIA-UAP-014, “British Activity in the field of Unidentified Flying Objects,” 18 Dec 1952, p. 1 (visually confirmed)",
-      "quoteConfidence": "verified primary-source quotation (visual confirmation)",
-      "heroFact": "RAF officials saw a 'perfect flying saucer' in Yorkshire — Britain created a standing committee on flying saucers with R.V. Jones in charge.",
+      "quoteConfidence": "High — verbatim quotation visually verified on p. 1 of the declassified CIA memorandum.",
+      "heroFact": "A 1952 CIA memo reports a “perfect flying saucer” seen by RAF officials and pilots at a Yorkshire demonstration.",
       "significance": "High significance — RAF officials, institutional response",
-      "sourceQuality": "Primary source — declassified CIA intelligence report",
+      "sourceQuality": "CIA Office of Scientific Intelligence Memorandum for Record dated Dec. 18, 1952, signed by Assistant Director H. Marshall Chadwell; Atlas custody includes both released pages.",
       "sourceLabel": "CIA / declassified",
-      "sourceLocator": "CIA-UAP-014-BRITISH",
+      "sourceLocator": "CIA-UAP-014-BRITISH; memorandum p. 1 of 2, paragraph 3",
       "relatedCaseIds": [
         "BF-1956-LB-01",
         "BF-1953-RP-00",
@@ -23952,21 +23991,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "CIA-UAP-014 · British Activity in the field of “Unidentified Flying Objects”",
+          "citation": "CIA Memorandum for Record — “British Activity in the field of ‘Unidentified Flying Objects’,” Dec. 18, 1952",
           "sourceType": "cia-memorandum-for-record",
-          "provenance": "Central Intelligence Agency, Office of Scientific Intelligence; declassified for 2026 release",
-          "locator": "18 Dec 1952; p. 1 of 2",
+          "provenance": "Central Intelligence Agency, Office of Scientific Intelligence; signed by Assistant Director H. Marshall Chadwell; two-page declassified release with Atlas-local page custody",
+          "locator": "p. 1 of 2, paragraphs 1–3",
           "supports": [
-            "british-standing-committee",
-            "raf-officials-and-pilots-reported-perfect-flying-saucer",
-            "yorkshire-demonstration",
-            "rv-jones-institutional-role"
+            "Documents that CIA received a British messenger’s report about a standing British committee on flying saucers.",
+            "Records the messenger’s claim that RAF officials and pilots saw a “perfect flying saucer” during a Yorkshire demonstration.",
+            "Dates the CIA memorandum to Dec. 18, 1952 and places the reported Yorkshire incident roughly ten to twelve days earlier."
           ],
           "limitations": [
-            "secondhand-report-to-cia",
-            "messenger-and-participant-identities-redacted-or-unnamed",
-            "exact-field-not-stated",
-            "final-disposition-records-not-located"
+            "The Yorkshire account is secondhand: the CIA author records what an unnamed messenger said after speaking with R. V. Jones and another redacted person.",
+            "The RAF officials, pilots, exact field, underlying reports, and final disposition are not identified in the two-page release.",
+            "The memo says committee control by Jones was presumed and does not independently authenticate the object or establish extraordinary origin."
           ]
         }
       ],

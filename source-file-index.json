@@ -168,7 +168,11 @@
   "CONDON-1966": [
     "assets/source_previews/BF-1966-CC-00_source_manifest.svg",
     "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
-    "https://apps.dtic.mil/sti/tr/pdf/AD0680975.pdf"
+    "https://apps.dtic.mil/sti/tr/pdf/AD0680975.pdf",
+    "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-1.jpg",
+    "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-2.jpg",
+    "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo.provenance.json",
+    "https://web.archive.org/web/20080531154408/http:/www.nicap.org/docs/660809lowmemo.htm"
   ],
   "COYNE-1973": [
     "assets/evidence/COYNE-1973/COYNE-1973-UH-1H-type-context.jpg"
@@ -1210,6 +1214,7 @@
     "https://catalog.archives.gov/id/310994070"
   ],
   "CIA-UAP-018-USSR": [
+    "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf",
     "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-2.png",
     "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-1.png",
     "assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_page-3.png",
@@ -1224,6 +1229,7 @@
     "https://catalog.archives.gov/id/311001910"
   ],
   "CIA-UAP-014-BRITISH": [
+    "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects.pdf",
     "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-1.png",
     "assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_page-2.png",
     "https://www.cia.gov/readingroom/collection/ufos"

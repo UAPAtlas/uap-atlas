@@ -25,6 +25,10 @@ jobs:
           # Copy web-facing files only (exclude large binaries)
           rsync -av \
             --include='assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/*.pdf' \
+            --include='assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary.pdf' \
+            --include='assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-JCS-message.pdf' \
+            --include='assets/evidence/CIA-UAP-014-BRITISH/CIA-UAP-014_British_Activity_in_the_Field_of_Unidentified_Flying_Objects.pdf' \
+            --include='assets/evidence/CIA-UAP-018-USSR/CIA-UAP-018_Report_of_Unusual_Flying_Object_Sightings_and_Attendant_Scientific_Activity.pdf' \
             --exclude='*.pdf' \
             --exclude='*.mp4' \
             --exclude='*.webm' \
