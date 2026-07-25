@@ -66,8 +66,12 @@
   "sourceDepthWeakCaseCount": 69,
   "sourceDepthEnrichmentCandidateCount": 115,
   "sourceDepthWeakThreshold": 25,
-  "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
-  "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
+  "operationalTriageCounts": {
+    "trueGaps": 0,
+    "qualityUpgrades": 44,
+    "acquisitionTargets": 14,
+    "complete": 88
+  },
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
     "thin-summary": 61,

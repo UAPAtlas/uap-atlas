@@ -1,19 +1,7 @@
 {
-  "schemaVersion": 2,
-  "policy": "sole-enrichment-backlog",
-  "source": "qa/atlas_operational_triage.json",
+  "schemaVersion": 1,
+  "category": "quality_upgrade",
   "caseCount": 44,
-  "categoryCounts": {
-    "trueGaps": 0,
-    "qualityUpgrades": 44
-  },
-  "exclusions": {
-    "acquisitionTargets": "tracked-separately-no-request-authorized",
-    "completeCases": "no-active-work",
-    "newCases": "not-authorized",
-    "foiaOrArchivalRequests": "not-authorized",
-    "outreach": "not-authorized"
-  },
   "cases": [
     {
       "id": "BF-SF-09",

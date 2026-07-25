@@ -162,6 +162,112 @@ def source_depth_weakness(case, coverage_row):
         "reasons": reasons,
     }
 
+
+def main_source_records(case):
+    """Exclude generated/local audit notes from the operational source-boundary gate."""
+    return [
+        record for record in (case.get("sourceRecords") or [])
+        if isinstance(record, dict)
+        and not str(record.get("locator", "")).startswith("source-files/")
+    ]
+
+
+def source_triage(case, coverage_row, weakness_row):
+    """Classify the next action without treating cautious language as structural failure.
+
+    Categories are mutually exclusive and ordered by operational urgency:
+    true_gap -> acquisition_target -> quality_upgrade -> complete.
+    """
+    main_records = main_source_records(case)
+    true_gap_reasons = []
+    if not main_records:
+        true_gap_reasons.append("no main source record")
+    if any(record.get("supports") in (None, "", []) for record in main_records):
+        true_gap_reasons.append("main source record has empty supports")
+    if any(record.get("limitations") in (None, "", []) for record in main_records):
+        true_gap_reasons.append("main source record has empty limitations")
+    if not coverage_row.get("indexedLinks"):
+        true_gap_reasons.append("no source-index mapping")
+    if coverage_row.get("missingLocal"):
+        true_gap_reasons.append("missing mapped local asset")
+
+    # Acquisition signals must come from case-level custody findings. Generic
+    # boundary language such as "no complete independent sensor chain" is a
+    # limitation, not automatically a request target.
+    source_text = " ".join([
+        str(case.get("sourceQuality", "")),
+        str(case.get("quoteConfidence", "")),
+    ]).lower()
+    acquisition_signals = {
+        "unrecovered record or packet": ("unrecovered", "not publicly recovered", "not recovered"),
+        "incomplete official packet": (
+            "no complete sheriff", "no complete official", "not complete faa",
+            "no official investigative packet", "complete packet unavailable",
+            "complete file unavailable",
+        ),
+        "missing first-party custody": ("no first-party", "first-party file unavailable", "first-party archive"),
+        "missing authenticated original": ("no authenticated original", "original negative", "original tape custody"),
+        "native agency material unavailable": ("native agency", "native media master", "native operational packet"),
+        "primary pages not fully mapped": ("primary-page", "primary pages not fully mapped", "primary law-enforcement pages"),
+    }
+    acquisition_reasons = [
+        label for label, phrases in acquisition_signals.items()
+        if any(phrase in source_text for phrase in phrases)
+    ]
+
+    quality_reasons = []
+    profile = weakness_row["sourceProfile"]["label"]
+    # A conservative profile label alone is not actionable. Only secondary-only
+    # custody or concrete metadata/verification gaps enter the upgrade queue.
+    orbital_complete = case.get("domain") == "ORBITAL / NASA" and bool(main_records)
+    if profile == "secondary-only" and not orbital_complete:
+        quality_reasons.append("secondary-only source profile")
+    quote_confidence = str(case.get("quoteConfidence", "")).lower()
+    if not orbital_complete and any(term in quote_confidence for term in ("low", "medium", "summary", "web article", "not verified", "unclear")):
+        quality_reasons.append("quote/source confidence can be upgraded")
+    source_quality = str(case.get("sourceQuality", "")).strip().lower()
+    if not orbital_complete and (source_quality == "primary record" or source_quality.startswith("primary source —")):
+        quality_reasons.append("generic sourceQuality needs provenance detail")
+    if coverage_row.get("indexedLinks", 0) <= 1:
+        quality_reasons.append("thin source-index mapping")
+
+    if true_gap_reasons:
+        category = "true_gap"
+        reasons = true_gap_reasons
+    elif acquisition_reasons:
+        category = "acquisition_target"
+        reasons = acquisition_reasons
+    elif quality_reasons:
+        category = "quality_upgrade"
+        reasons = quality_reasons
+    else:
+        category = "complete"
+        reasons = []
+
+    priority_base = {
+        "true_gap": 100,
+        "acquisition_target": 60,
+        "quality_upgrade": 20,
+        "complete": 0,
+    }[category]
+    return {
+        "id": case["id"],
+        "title": case["title"],
+        "domain": case.get("domain"),
+        "category": category,
+        "priorityScore": priority_base + min(weakness_row["score"], 40),
+        "legacyWeaknessScore": weakness_row["score"],
+        "reasons": reasons,
+        "sourceProfile": profile,
+        "sourceRecords": len(case.get("sourceRecords") or []),
+        "mainSourceRecords": len(main_records),
+        "indexedLinks": coverage_row.get("indexedLinks", 0),
+        "publicSourceUrls": coverage_row.get("publicSourceUrls", 0),
+        "evidenceAssets": coverage_row.get("evidenceAssets", 0),
+        "sourceQuality": case.get("sourceQuality"),
+        "quoteConfidence": case.get("quoteConfidence"),
+    }
+
 coverage = []
 missing_assets = []
 for case in cases:
@@ -211,6 +317,17 @@ enrichment_candidates = [item for item in ranked_cases if item["score"] > 0]
 # Scores below 25 identify modest metadata/quote upgrades, not genuinely weak dossiers.
 weak_cases = [item for item in enrichment_candidates if item["score"] >= 25]
 source_profiles = {case["id"]: source_profile(case) for case in cases}
+triage_rows = [
+    source_triage(case, coverage_row, weakness_row)
+    for case, coverage_row, weakness_row in zip(cases, coverage, (
+        source_depth_weakness(case, row) for case, row in zip(cases, coverage)
+    ))
+]
+triage_rows.sort(key=lambda item: (-item["priorityScore"], item["id"]))
+true_gaps = [item for item in triage_rows if item["category"] == "true_gap"]
+quality_upgrades = [item for item in triage_rows if item["category"] == "quality_upgrade"]
+acquisition_targets = [item for item in triage_rows if item["category"] == "acquisition_target"]
+complete_cases = [item for item in triage_rows if item["category"] == "complete"]
 
 report = {
     "schemaVersion": atlas.get("schemaVersion"),
@@ -252,6 +369,12 @@ report = {
     "sourceDepthWeakCaseCount": len(weak_cases),
     "sourceDepthEnrichmentCandidateCount": len(enrichment_candidates),
     "sourceDepthWeakThreshold": 25,
+    "operationalTriageCounts": {
+        "trueGaps": len(true_gaps),
+        "qualityUpgrades": len(quality_upgrades),
+        "acquisitionTargets": len(acquisition_targets),
+        "complete": len(complete_cases),
+    },
     "sourceProfileCounts": dict(Counter(item["label"] for item in source_profiles.values())),
     "sourceProfiles": source_profiles,
     "topSourceDepthWeakCases": weak_cases[:10],
@@ -261,6 +384,34 @@ report = {
 (QA / "all-cases-final-source-coverage.json").write_text(json.dumps(coverage, indent=2) + "\n")
 (QA / "source-depth-weak-case-priorities.json").write_text(json.dumps(weak_cases, indent=2) + "\n")
 (QA / "source-depth-enrichment-candidates.json").write_text(json.dumps(enrichment_candidates, indent=2) + "\n")
+(QA / "atlas_true_gaps.json").write_text(json.dumps({"schemaVersion": 1, "category": "true_gap", "caseCount": len(true_gaps), "cases": true_gaps}, indent=2) + "\n")
+(QA / "atlas_quality_upgrades.json").write_text(json.dumps({"schemaVersion": 1, "category": "quality_upgrade", "caseCount": len(quality_upgrades), "cases": quality_upgrades}, indent=2) + "\n")
+(QA / "atlas_acquisition_targets.json").write_text(json.dumps({"schemaVersion": 1, "category": "acquisition_target", "caseCount": len(acquisition_targets), "cases": acquisition_targets}, indent=2) + "\n")
+(QA / "atlas_operational_triage.json").write_text(json.dumps({
+    "schemaVersion": 1,
+    "policy": "mutually-exclusive-operational-triage",
+    "priorityOrder": ["true_gap", "acquisition_target", "quality_upgrade", "complete"],
+    "counts": report["operationalTriageCounts"],
+    "cases": triage_rows,
+}, indent=2) + "\n")
+(QA / "enrichment-backlog.json").write_text(json.dumps({
+    "schemaVersion": 2,
+    "policy": "sole-enrichment-backlog",
+    "source": "qa/atlas_operational_triage.json",
+    "caseCount": len(true_gaps) + len(quality_upgrades),
+    "categoryCounts": {
+        "trueGaps": len(true_gaps),
+        "qualityUpgrades": len(quality_upgrades),
+    },
+    "exclusions": {
+        "acquisitionTargets": "tracked-separately-no-request-authorized",
+        "completeCases": "no-active-work",
+        "newCases": "not-authorized",
+        "foiaOrArchivalRequests": "not-authorized",
+        "outreach": "not-authorized",
+    },
+    "cases": [*true_gaps, *quality_upgrades],
+}, indent=2) + "\n")
 print(json.dumps(report, indent=2))
 if missing_assets or any(field_missing.values()) or report["casesWithoutMappedLinks"]:
     raise SystemExit(1)
