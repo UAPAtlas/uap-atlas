@@ -1632,7 +1632,7 @@ svg.addEventListener('mousemove',e=>{
 });
 svg.addEventListener('mouseleave',hideMapTip);
 function drawerTimeline(id){return events.filter(e=>e.caseId===id).map(e=>`<div class="drawer-timeline-row"><b>${esc(e.date)}</b><i></i><div><strong>${esc(e.title)}</strong><span>${esc(e.desc||'Normalized atlas timeline event.')}</span></div></div>`).join('') || '<p class="drawer-summary">No normalized timeline event yet.</p>';}
-function linkUrl(path){const s=String(path||''); if(/^https?:\/\//i.test(s)||/^(?:assets\/|\.\/|\.\.\/|data:|blob:)/i.test(s)) return s; if(s.startsWith('/')) return 'file://' + s.split('/').map((part,i)=>i===0?'':encodeURIComponent(part)).join('/'); return s;}
+function linkUrl(path){const s=String(path||''); if(/^https?:\/\//i.test(s)||/^(?:assets\/|\.\/|\.\.\/|data:|blob:)/i.test(s)) return s; if(s.startsWith('/')) return '#local-file-not-published'; return s;}
 function fileUrl(path){return linkUrl(path);}
 function sourceTokens(src){const s=String(src||'').toUpperCase(); return Object.keys(sourceFileIndex).filter(tok=>s.includes(String(tok).toUpperCase()));}
 function mediaKind(path){const raw=String(path||''); if(/^https?:\/\//i.test(raw)) return 'url'; const ext=raw.split('?')[0].split('.').pop().toLowerCase(); if(['jpg','jpeg','png','gif','webp'].includes(ext)) return 'image'; if(['mp4','mov','webm'].includes(ext)) return 'video'; if(ext==='pdf') return 'pdf'; return 'file';}
@@ -1768,7 +1768,7 @@ function openFullCase(id){
 }
 function closeFullCase(){document.getElementById('drawerBackdrop').classList.remove('open'); urlCaseId=null; updateUrl(); if(drawerReturnFocus&&document.contains(drawerReturnFocus)){drawerReturnFocus.focus({preventScroll:true});} drawerReturnFocus=null;}
 
-/* URL state — everything lives in the hash so links work on file:// too */
+/* URL state — hash-based links preserve app state */
 let urlCaseId=null, lastWrittenHash='';
 function updateUrl(){
   const p=new URLSearchParams();
