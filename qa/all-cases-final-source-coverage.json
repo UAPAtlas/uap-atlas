@@ -375,13 +375,13 @@
     "tokens": [
       "HILL-1961"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 3,
+    "indexedLinks": 8,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 5,
     "evidenceAssets": 2,
-    "links": 7,
-    "local": 4,
-    "urls": 3,
+    "links": 11,
+    "local": 6,
+    "urls": 5,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1007,13 +1007,13 @@
     "tokens": [
       "WALTON-1975"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 2,
+    "indexedLinks": 4,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 3,
     "evidenceAssets": 1,
-    "links": 5,
+    "links": 6,
     "local": 3,
-    "urls": 2,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1215,8 +1215,8 @@
     "tokens": [
       "GULFBREEZE-1987"
     ],
-    "indexedLinks": 2,
-    "structuredSourceRecords": 1,
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
     "publicSourceUrls": 2,
     "evidenceAssets": 3,
     "links": 5,
@@ -1473,13 +1473,13 @@
     "tokens": [
       "AAWSAP-2008"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 2,
+    "indexedLinks": 9,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 6,
     "evidenceAssets": 1,
-    "links": 5,
+    "links": 9,
     "local": 3,
-    "urls": 2,
+    "urls": 6,
     "missingLocal": [],
     "hasEvidence": true
   },

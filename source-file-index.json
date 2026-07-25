@@ -5,7 +5,13 @@
   "AAWSAP-2008": [
     "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg",
     "assets/source_previews/BF-SF-09_source_manifest.svg",
-    "source-files/evidence-depth/AAWSAP-2008-evidence-depth.md"
+    "source-files/evidence-depth/AAWSAP-2008-evidence-depth.md",
+    "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/237625/",
+    "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170015/",
+    "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
+    "https://documents2.theblackvault.com/documents/dia/AAWSAP/Contract_Status_Briefing.pdf",
+    "https://documents2.theblackvault.com/documents/dia/AAWSAP/09117-Final_Packet_Presented_to_DepSecDef.pdf",
+    "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf"
   ],
   "AGUADILLA-2013": [
     "assets/source_previews/BF-2013-AG-01_DOD_110692805-1920x1080-9000k_frame.jpg",
@@ -414,13 +420,18 @@
   ],
   "GULFBREEZE-1987": [
     "assets/evidence/GULF-BREEZE/model.jpg",
-    "assets/evidence/GULF-BREEZE/prior_craft_illustration.png"
+    "assets/evidence/GULF-BREEZE/prior_craft_illustration.png",
+    "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
   ],
   "HILL-1961": [
     "assets/source_previews/BF-1961-BH-01_source_image.png",
     "assets/source_previews/BF-1961-BH-01_source_image.jpg",
     "assets/source_previews/BF-1961-BH-01_source_manifest.svg",
-    "source-files/evidence-depth/HILL-1961-evidence-depth.md"
+    "source-files/evidence-depth/HILL-1961-evidence-depth.md",
+    "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
+    "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.provenance.json",
+    "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/",
+    "https://sites.usnh.edu/archivalanalysis/wp-content/uploads/sites/219/2023/10/air_force_report.docx"
   ],
   "JAL1628-1986": [
     "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_003.jpg",
@@ -812,7 +823,8 @@
   "WALTON-1975": [
     "assets/source_previews/BF-1975-TW-01_source_image.jpg",
     "assets/source_previews/BF-1975-TW-01_source_manifest.svg",
-    "source-files/evidence-depth/WALTON-1975-evidence-depth.md"
+    "source-files/evidence-depth/WALTON-1975-evidence-depth.md",
+    "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/"
   ],
   "WESTALL-1966": [
     "assets/evidence/WESTALL-1966/Westall_Clayton_Calendar_student_drawing.png",

@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 214,
-  "sourceIndexFiles": 939,
+  "sourceIndexFiles": 951,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,23 +62,23 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 234,
-  "sourceDepthWeakCaseCount": 69,
-  "sourceDepthEnrichmentCandidateCount": 115,
+  "sourceRecordCount": 238,
+  "sourceDepthWeakCaseCount": 67,
+  "sourceDepthEnrichmentCandidateCount": 114,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 44,
+    "qualityUpgrades": 41,
     "acquisitionTargets": 14,
-    "complete": 88
+    "complete": 91
   },
   "sourceProfileCounts": {
     "complete-primary-packet": 23,
-    "thin-summary": 61,
-    "multi-source-independent": 10,
+    "thin-summary": 59,
+    "multi-source-independent": 11,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 42
+    "single-primary-record": 43
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -123,9 +123,9 @@
       ]
     },
     "BF-1947-KA-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
@@ -310,8 +310,8 @@
       ]
     },
     "BF-1961-BH-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -672,13 +672,14 @@
       ]
     },
     "BF-1975-TW-01": {
-      "label": "thin-summary",
+      "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
+        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources",
+        "press"
       ]
     },
     "BF-SF-13": {
@@ -798,8 +799,9 @@
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
+        "academic",
         "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
       ]
     },
@@ -944,12 +946,13 @@
       ]
     },
     "BF-SF-09": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
+        "other:aaro/department of defense declassified public report",
+        "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
         "other:local atlas audit derived from the current source inventory"
       ]
     },
@@ -1346,7 +1349,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:u.s. army counter intelligence corps, file 342-hs1"
+        "usaf-blue-book"
       ]
     },
     "BF-1949-HF-01": {
@@ -1461,71 +1464,22 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-1961-BH-01",
-      "title": "Betty & Barney Hill Encounter",
-      "score": 40,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
-      "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "usaf-blue-book"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1975-TW-01",
-      "title": "Travis Walton Abduction Report",
+      "id": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
       "score": 40,
       "sourceRecords": 2,
       "indexedLinks": 3,
       "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
-      "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+      "evidenceAssets": 3,
+      "sourceQuality": "Rice University\u2019s Richard F. Haines Ufology Papers provide an exact institutional folder lead\u2014MS 0706, Series VIII, Box 11, Folder 12, \u201cUFO photos: Gulf Breeze, Florida, 1990.\u201d No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
+      "quoteConfidence": "Medium \u2014 the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available.",
       "sourceProfile": {
         "label": "thin-summary",
         "primaryRecords": 0,
         "secondaryRecords": 0,
         "independentSourceFamilies": 2,
         "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1987-GB-01",
-      "title": "Gulf Breeze Photo Series",
-      "score": 40,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 3,
-      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
+          "academic",
           "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
         ]
       },
@@ -1551,31 +1505,6 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-SF-09",
-      "title": "Special File: AAWSAP / AATIP & Skinwalker",
-      "score": 40,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
-      "quoteConfidence": "Low-medium \u2014 public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
-          "other:local atlas audit derived from the current source inventory"
         ]
       },
       "reasons": [
@@ -1705,6 +1634,79 @@
       "reasons": [
         "source profile=thin-summary",
         "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
+      ]
+    },
+    {
+      "id": "BF-NASA-VM6",
+      "title": "Apollo 17 Visual Material",
+      "score": 38,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved."
+      ]
+    },
+    {
+      "id": "BF-1947-KA-01",
+      "title": "Kenneth Arnold Mount Rainier Sighting",
+      "score": 35,
+      "sourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Contemporary Chicago Sun page 2 UPI report dated June 26, 1947, recovered from Chicago Public Library microfilm and preserved with SHA-256 provenance; primary-period reporting of Arnold\u2019s claim, not event evidence or independent corroboration.",
+      "quoteConfidence": "High for the selected source phrase as reproduced in the mapped June 26, 1947 Chicago Sun/UPI clipping; interpretation and exact spoken wording beyond the clipping remain limited.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "score": 35,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary CIA/War.gov Sary Shagan report custody with local page-image/PDF assets; strong intelligence-record provenance, limited to reported observation context.",
+      "quoteConfidence": "High \u2014 primary-source quotation confirmed in mapped CIA-UAP-011 report.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
       ]
     }
   ]

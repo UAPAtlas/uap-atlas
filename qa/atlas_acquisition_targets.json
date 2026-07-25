@@ -4,45 +4,6 @@
   "caseCount": 14,
   "cases": [
     {
-      "id": "BF-1961-BH-01",
-      "title": "Betty & Barney Hill Encounter",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "acquisition_target",
-      "priorityScore": 100,
-      "legacyWeaknessScore": 40,
-      "reasons": [
-        "primary pages not fully mapped"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
-      "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified."
-    },
-    {
-      "id": "BF-1975-TW-01",
-      "title": "Travis Walton Abduction Report",
-      "domain": "CLAIM / CONTROVERSIAL",
-      "category": "acquisition_target",
-      "priorityScore": 100,
-      "legacyWeaknessScore": 40,
-      "reasons": [
-        "incomplete official packet",
-        "primary pages not fully mapped"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
-      "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped."
-    },
-    {
       "id": "BF-1987-GB-01",
       "title": "Gulf Breeze Photo Series",
       "domain": "MARITIME / AERIAL",
@@ -53,13 +14,13 @@
         "missing authenticated original"
       ],
       "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 3,
       "publicSourceUrls": 2,
       "evidenceAssets": 3,
-      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
-      "quoteConfidence": "web article quote \u2014 summary of record"
+      "sourceQuality": "Rice University\u2019s Richard F. Haines Ufology Papers provide an exact institutional folder lead\u2014MS 0706, Series VIII, Box 11, Folder 12, \u201cUFO photos: Gulf Breeze, Florida, 1990.\u201d No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
+      "quoteConfidence": "Medium \u2014 the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available."
     },
     {
       "id": "BF-1994-AR-01",
@@ -79,6 +40,25 @@
       "evidenceAssets": 5,
       "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
       "quoteConfidence": "web article quote \u2014 summary of historical record"
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "domain": "CLAIM / CONTROVERSIAL",
+      "category": "acquisition_target",
+      "priorityScore": 95,
+      "legacyWeaknessScore": 35,
+      "reasons": [
+        "incomplete official packet"
+      ],
+      "sourceProfile": "secondary-only",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
+      "quoteConfidence": "Medium \u2014 the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped."
     },
     {
       "id": "BF-1990-CV-01",
@@ -250,6 +230,25 @@
       "evidenceAssets": 1,
       "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
       "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified."
+    },
+    {
+      "id": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 72,
+      "legacyWeaknessScore": 12,
+      "reasons": [
+        "unrecovered record or packet"
+      ],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 8,
+      "publicSourceUrls": 5,
+      "evidenceAssets": 2,
+      "sourceQuality": "One exact primary USAF report page is now mapped from UNH MC 197, Box 5, Folder 1; it establishes the initial September 1961 report and cautious radar note. The referenced controller attachment and fuller Pease/NICAP packet remain unrecovered.",
+      "quoteConfidence": "High \u2014 exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61; later abduction and hypnosis narratives are outside this quote\u2019s scope."
     },
     {
       "id": "BF-SF-07",

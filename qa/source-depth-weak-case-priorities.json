@@ -1,70 +1,21 @@
 [
   {
-    "id": "BF-1961-BH-01",
-    "title": "Betty & Barney Hill Encounter",
-    "score": 40,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
-    "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1975-TW-01",
-    "title": "Travis Walton Abduction Report",
+    "id": "BF-1987-GB-01",
+    "title": "Gulf Breeze Photo Series",
     "score": 40,
     "sourceRecords": 2,
     "indexedLinks": 3,
     "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
-    "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+    "evidenceAssets": 3,
+    "sourceQuality": "Rice University\u2019s Richard F. Haines Ufology Papers provide an exact institutional folder lead\u2014MS 0706, Series VIII, Box 11, Folder 12, \u201cUFO photos: Gulf Breeze, Florida, 1990.\u201d No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
+    "quoteConfidence": "Medium \u2014 the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1987-GB-01",
-    "title": "Gulf Breeze Photo Series",
-    "score": 40,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 3,
-    "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
+        "academic",
         "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
       ]
     },
@@ -90,31 +41,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-SF-09",
-    "title": "Special File: AAWSAP / AATIP & Skinwalker",
-    "score": 40,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
-    "quoteConfidence": "Low-medium \u2014 public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:dia/aawsap-aatip contract-record context, dird paper/foia trail, and current source-index local artifacts",
-        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "reasons": [
@@ -271,6 +197,31 @@
     ]
   },
   {
+    "id": "BF-1947-KA-01",
+    "title": "Kenneth Arnold Mount Rainier Sighting",
+    "score": 35,
+    "sourceRecords": 2,
+    "indexedLinks": 7,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Contemporary Chicago Sun page 2 UPI report dated June 26, 1947, recovered from Chicago Public Library microfilm and preserved with SHA-256 provenance; primary-period reporting of Arnold\u2019s claim, not event evidence or independent corroboration.",
+    "quoteConfidence": "High for the selected source phrase as reproduced in the mapped June 26, 1947 Chicago Sun/UPI clipping; interpretation and exact spoken wording beyond the clipping remain limited.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "press"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary",
+      "flagship/contradiction case"
+    ]
+  },
+  {
     "id": "BF-1973-SS-01",
     "title": "Sary Shagan Green Circular Phenomenon",
     "score": 35,
@@ -292,6 +243,32 @@
     "reasons": [
       "source profile=thin-summary",
       "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1975-TW-01",
+    "title": "Travis Walton Abduction Report",
+    "score": 35,
+    "sourceRecords": 3,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
+    "quoteConfidence": "Medium \u2014 the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources",
+        "press"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only",
+      "quote confidence needs verification upgrade"
     ]
   },
   {
@@ -340,31 +317,6 @@
     },
     "reasons": [
       "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-1947-KA-01",
-    "title": "Kenneth Arnold Mount Rainier Sighting",
-    "score": 30,
-    "sourceRecords": 2,
-    "indexedLinks": 7,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Contemporary press clipping plus provenance audit; supports early public reporting of Arnold\u2019s claim, not object identity.",
-    "quoteConfidence": "confirmed source-phrase quotation",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "press"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "flagship/contradiction case"
     ]
   },
   {
@@ -421,15 +373,15 @@
     "indexedLinks": 3,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
-    "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+    "sourceQuality": "Primary restricted USAF 6th Weather Squadron report dated February 17, 1949, preserved in Army CIC file 342-HS1 at pages 75 and 77; includes named ship report, measured bearings, wind analysis, radiosonde assessment, alternative hypothesis, and command routing.",
+    "quoteConfidence": "High \u2014 selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:u.s. army counter intelligence corps, file 342-hs1"
+        "usaf-blue-book"
       ]
     },
     "reasons": [

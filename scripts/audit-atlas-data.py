@@ -203,7 +203,7 @@ def source_triage(case, coverage_row, weakness_row):
         "incomplete official packet": (
             "no complete sheriff", "no complete official", "not complete faa",
             "no official investigative packet", "complete packet unavailable",
-            "complete file unavailable",
+            "complete file unavailable", "sheriff/search packet",
         ),
         "missing first-party custody": ("no first-party", "first-party file unavailable", "first-party archive"),
         "missing authenticated original": ("no authenticated original", "original negative", "original tape custody"),

@@ -825,9 +825,9 @@
     {
       "keyQuote": "…like a saucer if you skip it across the water.",
       "quoteSource": "Kenneth Arnold press interviews, June 1947",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "High for the selected source phrase as reproduced in the mapped June 26, 1947 Chicago Sun/UPI clipping; interpretation and exact spoken wording beyond the clipping remain limited.",
       "significance": "High significance",
-      "sourceQuality": "Contemporary press clipping plus provenance audit; supports early public reporting of Arnold’s claim, not object identity.",
+      "sourceQuality": "Contemporary Chicago Sun page 2 UPI report dated June 26, 1947, recovered from Chicago Public Library microfilm and preserved with SHA-256 provenance; primary-period reporting of Arnold’s claim, not event evidence or independent corroboration.",
       "coordinateBasis": "Mount Rainier summit coordinate; sighting reported from private aircraft nearby",
       "coordinatePrecision": "region",
       "id": "BF-1947-KA-01",
@@ -905,19 +905,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "ARNOLD-1947 · press interviews / Project Sign-era file trail",
-          "sourceType": "contemporaneous-press-record",
-          "provenance": "Chicago Sun microfilm / UPI public-domain reproduction plus Atlas provenance audit",
-          "locator": "ARNOLD-1947",
+          "citation": "Chicago Sun, June 26, 1947, p. 2 — UPI report",
+          "sourceType": "contemporaneous-wire-service-newspaper-record",
+          "provenance": "Chicago Sun microfilm at Chicago Public Library; public-domain reproduction; local copy SHA-256 00619ebb5011d475654ae8e471cd57e8c22e7088ffe4f0208d2128e7f866325c",
+          "locator": "Chicago Sun, June 26, 1947, p. 2",
           "supports": [
-            "Reports Arnold’s own account two days after the June 24, 1947 sighting",
-            "Preserves early press framing and headline use of flying-saucer language",
-            "Provides a stronger period lead than modern reconstructions"
+            "Documents Arnold’s account in a UPI newspaper report published two days after the June 24 sighting",
+            "Preserves the period phrase comparing the objects’ motion to a saucer skipping across water",
+            "Anchors early “flying saucer” press language to a dated microfilm page with local checksum provenance"
           ],
           "limitations": [
-            "Press account is not event photography or independent sensor/witness confirmation",
-            "Does not settle the exact object shape, number, speed, or explanation",
-            "Complete Project Sign-era case file and original statement/interview packet remain unrecovered"
+            "The clipping reports Arnold’s statement; it is not event photography, sensor evidence, or independent witness confirmation",
+            "It does not settle the objects’ exact shape, number, speed, or explanation",
+            "Arnold’s original statement/interview transcript and complete Project Sign-era file remain outside current Atlas custody"
           ]
         },
         {
@@ -4342,11 +4342,11 @@
       ]
     },
     {
-      "keyQuote": "Betty and Barney Hill reported being taken aboard a craft by beings who performed a physical examination; their account became the first widely publicized abduction narrative.",
+      "keyQuote": "On the night of 19-20 Sept between 20/0001 and 20/0100 Mr. & Mrs. Hill were traveling south on route 3 near Lincoln, N.H. when they observed, through the windshield of their car, a strange object in the sky.",
       "quoteSource": "NICAP Hill Report, September 19, 1961 (summary)",
-      "quoteConfidence": "Medium — archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
+      "quoteConfidence": "High — exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61; later abduction and hypnosis narratives are outside this quote’s scope.",
       "significance": "Case significance",
-      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
+      "sourceQuality": "One exact primary USAF report page is now mapped from UNH MC 197, Box 5, Folder 1; it establishes the initial September 1961 report and cautious radar note. The referenced controller attachment and fuller Pease/NICAP packet remain unrecovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1961-BH-01",
@@ -4381,6 +4381,15 @@
       "heroFact": "The template abduction case: a contemporaneous sighting report exists on paper, while the famous abduction content came later from hypnosis sessions — two very different evidentiary tiers in one file.",
       "image": "assets/source_previews/BF-1961-BH-01_source_image.jpg",
       "images": [
+        {
+          "url": "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
+          "kind": "primary-document",
+          "source": "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/",
+          "sourceName": "UNH Milne Special Collections — MC 197, Box 5, Folder 1",
+          "sourceType": "university-archive-scan-of-usaf-record",
+          "caption": "USAF Air Intelligence Information Report 100-1-61, signed at Pease AFB on September 21, 1961. It records the Hills’ initial aerial-object report and treats a radar relationship as possible but indeterminate; it does not document an abduction.",
+          "rights": "Underlying U.S. Air Force record; university-hosted collection scan. Scan reuse status not independently adjudicated."
+        },
         "assets/source_previews/BF-1961-BH-01_source_image.jpg",
         "assets/source_previews/BF-1961-BH-01_source_image.png"
       ],
@@ -4424,6 +4433,23 @@
         "basis": "Published public coordinate for the named location"
       },
       "sourceRecords": [
+        {
+          "citation": "Major Paul W. Henderson, Air Intelligence Information Report 100-1-61, September 21, 1961",
+          "sourceType": "primary-usaf-intelligence-report",
+          "provenance": "100th Bomb Wing (M), SAC, DCOI, Pease AFB; UNH MC 197, Box 5, Folder 1",
+          "locator": "USAF Air Intelligence Information Report 100-1-61",
+          "url": "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
+          "supports": [
+            "Documents that the Hills reported seeing a strange object through their windshield while traveling south on Route 3 near Lincoln, New Hampshire, during the night of September 19-20, 1961",
+            "Shows that Pease AFB combat intelligence collected and signed an official report on September 21, 1961",
+            "Records a separate radar incident and says time and distance could hint at a possible relationship while declining to determine one"
+          ],
+          "limitations": [
+            "Documents an aerial-object report, not the later abduction narrative",
+            "States that the radar observation provided no description and cannot be linked to the visual report",
+            "References a Daily Report of Controller attachment that is absent from the currently recovered page"
+          ]
+        },
         {
           "citation": "HILL-1961 · Pease AFB / Blue Book entry & later interview trail",
           "sourceType": "witness-case-archive-and-blue-book-trail",
@@ -4523,6 +4549,22 @@
           "access": "Public",
           "scope": "public-document-archive",
           "note": "Public page pointing to Blue Book/NICAP/Hill correspondence materials; family/researcher archive context, not neutral agency custody."
+        },
+        {
+          "label": "UNH — Hill Collection Overview and Air Force Intelligence Report",
+          "url": "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/",
+          "publisher": "University of New Hampshire",
+          "access": "Public university collection page",
+          "scope": "primary-archive-page",
+          "note": "Identifies the report as Folder 1, Box 5, MC 197 and exposes a university-hosted document container with the scanned page."
+        },
+        {
+          "label": "UNH-hosted Air Force Intelligence Report scan container",
+          "url": "https://sites.usnh.edu/archivalanalysis/wp-content/uploads/sites/219/2023/10/air_force_report.docx",
+          "publisher": "University of New Hampshire",
+          "access": "Public university-hosted DOCX",
+          "scope": "primary-document-container",
+          "note": "Contains the photographed USAF report page used for the mapped Atlas image."
         }
       ]
     },
@@ -10403,9 +10445,9 @@
     {
       "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
       "quoteSource": "Travis Walton MUFON Case File & polygraph reports (summary)",
-      "quoteConfidence": "Low-medium — public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+      "quoteConfidence": "Medium — the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
+      "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1975-TW-01",
@@ -10510,6 +10552,23 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Arizona Daily Sun, “Travis Walton,” November 8, 1975",
+          "sourceType": "contemporaneous-press-clipping-locator",
+          "provenance": "Arizona Daily Sun clipping metadata preserved by Newspapers.com",
+          "locator": "Arizona Daily Sun, November 8, 1975",
+          "url": "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/",
+          "supports": [
+            "Confirms that Walton’s disappearance and search were reported in a Flagstaff-area newspaper within days of the event",
+            "Provides a dated contemporaneous press locator separate from later books, films, and interviews",
+            "Creates a concrete lead for future page-level review if clipping access is obtained"
+          ],
+          "limitations": [
+            "The clipping is not the Navajo County sheriff report, search log, or witness interview packet",
+            "Current access is metadata/paywall-limited, so exact article language has not been promoted into the Atlas key quote",
+            "Contemporaneous reporting does not authenticate the claimed abduction or resolve later polygraph disputes"
+          ]
         }
       ],
       "phenomena": {
@@ -10566,6 +10625,14 @@
           "access": "Public",
           "scope": "public-document-mirror",
           "note": "Preserves public discussion of Walton polygraph controversy; mirror/source-context only, not complete sheriff packet."
+        },
+        {
+          "label": "Arizona Daily Sun — Travis Walton, November 8, 1975",
+          "url": "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/",
+          "publisher": "Arizona Daily Sun via Newspapers.com",
+          "access": "Public metadata; clipping access may require subscription",
+          "scope": "contemporaneous-press-locator",
+          "note": "Contemporaneous Flagstaff newspaper locator. It helps date public reporting but is not the Navajo County sheriff packet."
         }
       ],
       "images": [
@@ -12634,9 +12701,9 @@
     {
       "keyQuote": "Ed Walters produced a series of polaroid photographs of a craft over Gulf Breeze, Florida; the case became one of the most contested photo series in UFO history.",
       "quoteSource": "Gulf Breeze photo series, 1987-1988 (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Medium — the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available.",
       "significance": "Case significance",
-      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
+      "sourceQuality": "Rice University’s Richard F. Haines Ufology Papers provide an exact institutional folder lead—MS 0706, Series VIII, Box 11, Folder 12, “UFO photos: Gulf Breeze, Florida, 1990.” No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1987-GB-01",
@@ -12729,6 +12796,23 @@
             "Model discovery and staged-comparison reporting materially weaken the evidentiary claim",
             "Photo controversy does not establish anomalous object identity"
           ]
+        },
+        {
+          "citation": "Richard F. Haines Ufology Papers, “UFO photos: Gulf Breeze, Florida, 1990”",
+          "sourceType": "institutional-archive-finding-aid",
+          "provenance": "Woodson Research Center, Rice University; MS 0706, Series VIII: Photos and Drawings",
+          "locator": "Rice MS 0706, Box 11, Folder 12",
+          "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044",
+          "supports": [
+            "Establishes that Rice University holds a folder cataloged as Gulf Breeze UFO photos in the Richard F. Haines papers",
+            "Provides exact collection, series, box, and folder custody for a future physical-source review",
+            "Confirms that the Haines collection includes UFO photographs with notes and photo analysis"
+          ],
+          "limitations": [
+            "The online finding aid does not display the folder contents or identify them as original Walters Polaroids",
+            "The folder date is 1990 and does not by itself establish first-generation custody from the 1987–1988 photo series",
+            "Institutional custody of photo material does not authenticate the depicted objects or resolve the model/hoax controversy"
+          ]
         }
       ],
       "phenomena": {
@@ -12769,20 +12853,20 @@
       },
       "publicSources": [
         {
-          "access": "Public",
-          "label": "Rice University Archives — Gulf Breeze UFO photographs, Box 11 Folder 12",
-          "note": "Exact archival object record in the Richard F. Haines papers; archival custody does not authenticate the photographs.",
-          "publisher": "Woodson Research Center, Rice University",
-          "scope": "archival-catalog-record",
-          "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
-        },
-        {
           "label": "Pensacola News Journal — Gulf Breeze UFO phenomenon 30 years later",
           "url": "https://www.pnj.com/story/news/2017/12/10/gulf-breeze-ufo-sightings-30-years-public-divided/915397001/",
           "publisher": "Pensacola News Journal",
           "access": "Public",
           "scope": "local-journalism-retrospective",
           "note": "Local retrospective summarizing the Walters photo controversy, model discovery, and divided interpretations."
+        },
+        {
+          "label": "Rice University — UFO photos: Gulf Breeze, Florida, 1990",
+          "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044",
+          "publisher": "Woodson Research Center, Rice University",
+          "access": "Public archival finding aid; physical material stored off-site",
+          "scope": "institutional-archive-folder-lead",
+          "note": "Richard F. Haines Ufology Papers MS 0706, Series VIII, Box 11, Folder 12. Folder title establishes institutional custody of Gulf Breeze photo material, not original-Walters-photo authenticity."
         }
       ]
     },
@@ -15306,11 +15390,11 @@
       ]
     },
     {
-      "keyQuote": "AAWSAP/AATIP was a Department of Defense program investigating military UAP reports, including unusual phenomena at the Skinwalker Ranch, from 2007 to 2012.",
+      "keyQuote": "AAWSAP/AATIP was managed by the Defense Intelligence Agency from 2009–2012 and funded through congressional earmarks.",
       "quoteSource": "AARO Historical Record Report Vol 1 & AAWSAP program records (summary)",
-      "quoteConfidence": "Low-medium — public claim trail is strong at program level, but selected summary quote is not verified to a primary page.",
+      "quoteConfidence": "High — selected sentence is tied to AARO’s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records.",
       "significance": "High significance",
-      "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
+      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO’s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-09",
@@ -15386,20 +15470,42 @@
       },
       "sourceRecords": [
         {
-          "citation": "AAWSAP-2008 · DIA contract records / DIRD papers FOIA trail",
-          "sourceType": "program-contract-and-foia-trail",
-          "provenance": "DIA/AAWSAP-AATIP contract-record context, DIRD paper/FOIA trail, and current source-index local artifacts",
+          "citation": "DIA AAWSAP contract-status and program-review releases",
+          "sourceType": "official-contract-and-program-review-records",
+          "provenance": "Defense Intelligence Agency FOIA Electronic Reading Room records FileId 237625 and FileId 170015",
           "locator": "AAWSAP-2008",
           "supports": [
-            "Documents AAWSAP/AATIP as a real government-funded UAP-adjacent program/contract ecosystem",
-            "Supports the connection between DIA-era study work, DIRD-style technical papers, and later public AATIP/Skinwalker narratives",
-            "Useful as an institutional special file showing how official money, private contractors, and anomalous-topic research intersected"
+            "DIA contract-status material identifies Bigelow Aerospace Advanced Space Studies as the AAWSAP contractor and places contract commencement in September 2008",
+            "Released DIA review material documents contracted technical research and report deliverables under the program",
+            "Establishes official program and contractor custody independently of later documentary or participant retellings"
           ],
           "limitations": [
-            "Program existence does not validate specific Skinwalker phenomena, recovered technology claims, or non-human-origin conclusions",
-            "The current Atlas record lacks a complete primary contract packet, full workpapers, and page-verified quote custody",
-            "Public documentary/interview sources are context, not substitute evidence for underlying anomalous events"
+            "Contract and review records establish program administration, not the truth of specific Skinwalker phenomena or UAP claims",
+            "They do not publicly expose the complete investigative database, contractor workpapers, or underlying case evidence",
+            "Program existence and technical-paper production do not establish recovered non-human technology"
+          ],
+          "mirrorUrls": [
+            "https://documents2.theblackvault.com/documents/dia/AAWSAP/Contract_Status_Briefing.pdf",
+            "https://documents2.theblackvault.com/documents/dia/AAWSAP/09117-Final_Packet_Presented_to_DepSecDef.pdf"
           ]
+        },
+        {
+          "citation": "AARO, History and Origin of KONA BLUE",
+          "sourceType": "official-dod-retrospective",
+          "provenance": "AARO/Department of Defense declassified public report",
+          "locator": "AARO KONA BLUE history, p. 1",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
+          "supports": [
+            "States that AAWSAP/AATIP was managed by DIA from 2009–2012 and funded through congressional earmarks",
+            "Identifies Bigelow Aerospace as the primary contractor and says it delivered multiple reports",
+            "Provides an official DoD account of program termination and the attempted KONA BLUE successor"
+          ],
+          "limitations": [
+            "This is a later official retrospective, not the complete contemporaneous AAWSAP case archive",
+            "AARO’s interpretation of merit and utility is an institutional conclusion, not public release of all underlying work",
+            "The report does not authenticate individual Skinwalker narratives or recovered-material claims"
+          ],
+          "mirrorUrl": "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf"
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -15456,24 +15562,52 @@
       },
       "publicSources": [
         {
-          "label": "UFO & Paranormal Connections — The AAWSAP Legacy",
-          "url": "https://www.youtube.com/watch?v=tvUfdN2fyww",
-          "publisher": "WEAPONIZED with Jeremy Corbell & George Knapp",
-          "access": "Public",
-          "scope": "program-analysis",
-          "role": "contextual-analysis",
-          "mediaKind": "video",
-          "note": "Program history and interpretation; use appropriations, contracts, and released program records for primary provenance."
+          "label": "DIA FOIA — Advanced Aerospace Weapon System Applications Contract Status",
+          "url": "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/237625/",
+          "publisher": "Defense Intelligence Agency",
+          "access": "Public official reading-room record",
+          "scope": "primary-contract-status",
+          "note": "Official contract-status briefing; identifies BAASS as contract awardee and the September 2008 commencement."
         },
         {
-          "label": "I Searched for UFOs on Skinwalker Ranch",
-          "url": "https://www.youtube.com/watch?v=7W7iOt57fOo",
-          "publisher": "Jesse Michels / American Alchemy",
-          "access": "Public",
-          "scope": "site-investigation",
-          "role": "contextual-analysis",
-          "mediaKind": "video",
-          "note": "On-location investigation and interviews; not a substitute for AAWSAP program documentation."
+          "label": "DIA FOIA — AAWSAP final/program review packet",
+          "url": "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170015/",
+          "publisher": "Defense Intelligence Agency",
+          "access": "Public official reading-room record",
+          "scope": "primary-program-review",
+          "note": "Official released review packet describing the contract, technical-report deliverables, and DIA review."
+        },
+        {
+          "label": "AARO — History and Origin of KONA BLUE",
+          "url": "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
+          "publisher": "All-domain Anomaly Resolution Office / Department of Defense",
+          "access": "Public official PDF",
+          "scope": "official-retrospective",
+          "note": "Official retrospective connecting KONA BLUE to AAWSAP/AATIP and stating the program period, funding route, contractor, reported deliverables, and DIA disposition."
+        },
+        {
+          "label": "Public mirror — DIA AAWSAP Contract Status Briefing",
+          "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP/Contract_Status_Briefing.pdf",
+          "publisher": "The Black Vault mirror of DIA FOIA release",
+          "access": "Public PDF mirror",
+          "scope": "official-release-mirror",
+          "note": "Access mirror for the DIA contract-status release; official DIA reading-room URL remains separately mapped."
+        },
+        {
+          "label": "Public mirror — DIA AAWSAP final/program packet",
+          "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP/09117-Final_Packet_Presented_to_DepSecDef.pdf",
+          "publisher": "The Black Vault mirror of DIA FOIA release",
+          "access": "Public PDF mirror",
+          "scope": "official-release-mirror",
+          "note": "Access mirror for the released DIA program packet; official DIA provenance remains separately mapped."
+        },
+        {
+          "label": "Public mirror — AARO History and Origin of KONA BLUE",
+          "url": "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf",
+          "publisher": "The Black Vault mirror of DoD/AARO release",
+          "access": "Public PDF mirror",
+          "scope": "official-release-mirror",
+          "note": "Byte-accessible public mirror of the AARO report; official AARO URL remains separately mapped."
         }
       ],
       "images": [
@@ -22430,10 +22564,10 @@
       "whyItMatters": "Fills a Caribbean geographic gap. Multiple trained maritime officers as witnesses. The CIC's own wind analysis eliminating a balloon is a strong primary-source rejection of the conventional explanation. Color-changing behavior adds phenomenological interest.",
       "keyQuote": "Wind analysis virtually eliminates any possibility of radiosonde.",
       "quoteSource": "DOW-UAP-D084, Army CIC Flying Discs 1949 (342-HS1), pp. 75-77",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High — selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved.",
       "heroFact": "Ship officers in the Caribbean watched three silver spheres change color — the Army CIC's own wind analysis eliminated the balloon explanation.",
       "significance": "High significance — balloon theory eliminated by investigation",
-      "sourceQuality": "Primary source — Army Counter Intelligence Corps file",
+      "sourceQuality": "Primary restricted USAF 6th Weather Squadron report dated February 17, 1949, preserved in Army CIC file 342-HS1 at pages 75 and 77; includes named ship report, measured bearings, wind analysis, radiosonde assessment, alternative hypothesis, and command routing.",
       "sourceLabel": "Army CIC / NARA",
       "sourceLocator": "DOW-UAP-D084, 342-HS1, pp. 75, 77",
       "relatedCaseIds": [
@@ -22488,20 +22622,19 @@
       },
       "sourceRecords": [
         {
-          "citation": "DOW-UAP-D084 · Army CIC Flying Discs 1949",
-          "sourceType": "counter-intelligence-report",
-          "provenance": "U.S. Army Counter Intelligence Corps, file 342-HS1",
-          "locator": "Feb 6, 1949; pp. 75, 77",
+          "citation": "Headquarters 6th Weather Squadron, “Unidentified Aerial Objects Vicinity of San Andres Islands, Caribbean Sea,” February 17, 1949",
+          "sourceType": "restricted-usaf-intelligence-weather-analysis",
+          "provenance": "Headquarters 6th Weather Squadron, Albrook Air Force Base; routed through Caribbean Air Command to Air Materiel Command and Headquarters USAF; preserved in Army CIC file 342-HS1",
+          "locator": "342-HS1, pp. 75, 77",
           "supports": [
-            "multiple-ship-officers",
-            "three-silver-spheres",
-            "color-changing-silver-yellow-red",
-            "balloon-theory-eliminated",
-            "wind-analysis-performed"
+            "Records Captain McBride’s report that several S.S. Antigua officers observed one overhead silver sphere and two additional objects near San Andres on February 6, 1949",
+            "Preserves sextant-derived directions and altitudes, ship course and speed, color change from silver to yellow to red, and the three-object timing",
+            "Documents formal wind analysis that made a radiosonde train improbable and states that proposed balloon explanations did not account for three objects within thirty minutes"
           ],
           "limitations": [
-            "full-follow-up-not-extracted",
-            "official-conclusion-not-located"
+            "The report records ship-officer observations through a later intelligence interview; no photographs, recovered material, or independent sensor track are included",
+            "Investigators retained balloon/free-flight hypotheses, including possible release from Russian vessels, and promised further reporting",
+            "The current mapped pages do not include a later follow-up, final identification, or closure disposition"
           ]
         }
       ],

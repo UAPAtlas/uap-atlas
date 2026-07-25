@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T05:23:11-04:00",
+  "generatedAt": "2026-07-25T08:17:42-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -199,9 +199,9 @@
       "localPdfCount": 0,
       "coverageLinks": 7,
       "missingRecordClasses": [
-        "Press account is not event photography or independent sensor/witness confirmation",
-        "Does not settle the exact object shape, number, speed, or explanation",
-        "Complete Project Sign-era case file and original statement/interview packet remain unrecovered",
+        "The clipping reports Arnold’s statement; it is not event photography, sensor evidence, or independent witness confirmation",
+        "It does not settle the objects’ exact shape, number, speed, or explanation",
+        "Arnold’s original statement/interview transcript and complete Project Sign-era file remain outside current Atlas custody",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
@@ -1007,12 +1007,15 @@
       "sourceIndexTokens": [
         "HILL-1961"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 3,
-      "localCustodyFileCount": 4,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 7,
+      "coverageLinks": 11,
       "missingRecordClasses": [
+        "Documents an aerial-object report, not the later abduction narrative",
+        "States that the radar observation provided no description and cannot be linked to the visual report",
+        "References a Daily Report of Controller attachment that is absent from the currently recovered page",
         "Archive/finding-aid context does not prove abduction or object origin",
         "Hypnosis-derived and retrospective narrative elements require separation from earliest reports",
         "Radar/physical-trace correlations remain weak or unresolved in the Atlas record",
@@ -1020,11 +1023,10 @@
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 7,
+      "upgradePriorityScore": 5,
       "upgradeReasons": [
         "historical case lacks exact NAID",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {
@@ -2287,18 +2289,21 @@
       "sourceIndexTokens": [
         "WALTON-1975"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 3,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 6,
       "missingRecordClasses": [
         "No complete sheriff case packet, radio logs, search records, or contemporaneous objective physical evidence are mapped",
         "Polygraph material is disputed and not definitive proof of abduction",
         "Later book/film/documentary retellings must be separated from earliest law-enforcement and witness records",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "The clipping is not the Navajo County sheriff report, search log, or witness interview packet",
+        "Current access is metadata/paywall-limited, so exact article language has not been promoted into the Atlas key quote",
+        "Contemporaneous reporting does not authenticate the claimed abduction or resolve later polygraph disputes"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -2709,7 +2714,7 @@
       "sourceIndexTokens": [
         "GULFBREEZE-1987"
       ],
-      "structuredSourceRecords": 1,
+      "structuredSourceRecords": 2,
       "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
@@ -2717,11 +2722,13 @@
       "missingRecordClasses": [
         "No authenticated original Polaroid/negative/first-generation public archive is mapped",
         "Model discovery and staged-comparison reporting materially weaken the evidentiary claim",
-        "Photo controversy does not establish anomalous object identity"
+        "Photo controversy does not establish anomalous object identity",
+        "The online finding aid does not display the folder contents or identify them as original Walters Polaroids",
+        "The folder date is 1990 and does not by itself establish first-generation custody from the 1987–1988 photo series",
+        "Institutional custody of photo material does not authenticate the depicted objects or resolve the model/hoax controversy"
       ],
-      "upgradePriorityScore": 7,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
       ]
@@ -3210,23 +3217,25 @@
       "sourceIndexTokens": [
         "AAWSAP-2008"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 6,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 9,
       "missingRecordClasses": [
-        "Program existence does not validate specific Skinwalker phenomena, recovered technology claims, or non-human-origin conclusions",
-        "The current Atlas record lacks a complete primary contract packet, full workpapers, and page-verified quote custody",
-        "Public documentary/interview sources are context, not substitute evidence for underlying anomalous events",
+        "Contract and review records establish program administration, not the truth of specific Skinwalker phenomena or UAP claims",
+        "They do not publicly expose the complete investigative database, contractor workpapers, or underlying case evidence",
+        "Program existence and technical-paper production do not establish recovered non-human technology",
+        "This is a later official retrospective, not the complete contemporaneous AAWSAP case archive",
+        "AARO’s interpretation of merit and utility is an institutional conclusion, not public release of all underlying work",
+        "The report does not authenticate individual Skinwalker narratives or recovered-material claims",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 5,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -4555,8 +4564,9 @@
       "localPdfCount": 0,
       "coverageLinks": 3,
       "missingRecordClasses": [
-        "full-follow-up-not-extracted",
-        "official-conclusion-not-located"
+        "The report records ship-officer observations through a later intelligence interview; no photographs, recovered material, or independent sensor track are included",
+        "Investigators retained balloon/free-flight hypotheses, including possible release from Russian vessels, and promised further reporting",
+        "The current mapped pages do not include a later follow-up, final identification, or closure disposition"
       ],
       "upgradePriorityScore": 9,
       "upgradeReasons": [

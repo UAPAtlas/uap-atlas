@@ -1,65 +1,8 @@
 {
   "schemaVersion": 1,
   "category": "quality_upgrade",
-  "caseCount": 44,
+  "caseCount": 41,
   "cases": [
-    {
-      "id": "BF-SF-09",
-      "title": "Special File: AAWSAP / AATIP & Skinwalker",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 60,
-      "legacyWeaknessScore": 40,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "DIA/AAWSAP-AATIP public-contract and DIRD/FOIA trail; proves program/contract context, not Skinwalker anomalous claims or recovered-technology evidence.",
-      "quoteConfidence": "Low-medium \u2014 public claim trail is strong at program level, but selected summary quote is not verified to a primary page."
-    },
-    {
-      "id": "BF-1947-KA-01",
-      "title": "Kenneth Arnold Mount Rainier Sighting",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "secondary-only source profile"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 7,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Contemporary press clipping plus provenance audit; supports early public reporting of Arnold\u2019s claim, not object identity.",
-      "quoteConfidence": "confirmed source-phrase quotation"
-    },
-    {
-      "id": "BF-1949-SA-01",
-      "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 Army Counter Intelligence Corps file",
-      "quoteConfidence": "confirmed primary-source quotation (OCR-derived)"
-    },
     {
       "id": "BF-1951-YK-01",
       "title": "Yorkshire 'Perfect Flying Saucer' \u2014 RAF Standing Committee",

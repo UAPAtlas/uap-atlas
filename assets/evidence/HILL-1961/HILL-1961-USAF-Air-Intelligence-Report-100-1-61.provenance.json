@@ -1,0 +1,25 @@
+{
+  "caseId": "BF-1961-BH-01",
+  "asset": "HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
+  "documentTitle": "Air Intelligence Information Report — Unidentified Flying Object",
+  "reportNumber": "100-1-61",
+  "documentDate": "1961-09-21",
+  "originator": "Major Paul W. Henderson, 100th Bomb Wing (M), SAC, DCOI, Pease AFB, New Hampshire",
+  "archiveCustody": "Betty and Barney Hill Papers, 1961-2006, MC 197, Box 5, Folder 1, Milne Special Collections and Archives, University of New Hampshire",
+  "publicCollectionPage": "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/",
+  "publicDocumentContainer": "https://sites.usnh.edu/archivalanalysis/wp-content/uploads/sites/219/2023/10/air_force_report.docx",
+  "extraction": "Embedded JPEG extracted from the university-hosted DOCX and rotated 90 degrees for upright display; document content otherwise unchanged.",
+  "originalDocxSha256": "4d1c802c278ddcf50dda6b5bdec6185aad7c0c8e971ada3ad078d6ef855a49e7",
+  "publishedJpegSha256": "245c09d7048b0e0ddb6fc6e7962f010051241b76c95b97cf2fac9c4121ea33c5",
+  "copyrightStatus": "Underlying U.S. Air Force record is a U.S. federal government work; reuse status of the UNH-hosted collection photograph was not independently adjudicated.",
+  "supports": [
+    "The Hills reported a strange object observed through their windshield while traveling south on Route 3 near Lincoln, New Hampshire, during the night of September 19-20, 1961.",
+    "Pease AFB intelligence created a signed Air Intelligence Information Report on September 21, 1961.",
+    "The report records a separate radar incident and says time and distance could hint at a possible relationship while explicitly declining to determine one."
+  ],
+  "limitations": [
+    "The report documents the initial aerial-object account, not a kidnapping or abduction.",
+    "It states that the radar observation provided no description and does not establish a relationship between the observations.",
+    "The referenced Daily Report of Controller attachment is not included in the recovered public page."
+  ]
+}

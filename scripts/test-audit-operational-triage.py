@@ -43,9 +43,18 @@ assert not ({row["id"] for row in backlog["cases"]} & {
 
 orbital_rows = [row for row in rows if row["domain"] == "ORBITAL / NASA"]
 assert orbital_rows
-assert all(row["category"] == "complete" for row in orbital_rows), {
-    row["id"]: row["category"] for row in orbital_rows if row["category"] != "complete"
-}
+orbital_active = [row["id"] for row in orbital_rows if row["category"] != "complete"]
+assert not orbital_active, f"operationally complete orbital records in active queues: {orbital_active}"
+
+# Known source-acquisition dependencies must not be demoted to wording-only
+# upgrades when their case-level custody findings use variant phrasing.
+by_id = {row["id"]: row for row in rows}
+for case_id in ("BF-1961-BH-01", "BF-1975-TW-01", "BF-1987-GB-01"):
+    assert by_id[case_id]["category"] == "acquisition_target", (
+        case_id,
+        by_id[case_id]["category"],
+        by_id[case_id]["reasons"],
+    )
 
 print(json.dumps({
     "status": "passed",
