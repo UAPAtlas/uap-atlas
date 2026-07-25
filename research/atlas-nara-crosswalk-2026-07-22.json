@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T22:02:54-04:00",
+  "generatedAt": "2026-07-24T22:18:27-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -444,14 +444,15 @@
       "localPdfCount": 0,
       "coverageLinks": 5,
       "missingRecordClasses": [
+        "The actual Estimate document is not publicly recovered or mapped in the Atlas record",
+        "Ruppelt’s account is secondhand/historical publication evidence, not the primary Estimate text",
+        "Without the original document, wording, authorship, routing, and final disposition remain unresolved",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 10,
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
@@ -726,12 +727,14 @@
       "localCustodyFileCount": 3,
       "localPdfCount": 1,
       "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 10,
+      "missingRecordClasses": [
+        "Public trail does not demonstrate operational anti-gravity or field propulsion craft",
+        "Observed effects are widely disputed and often attributed to ion wind/electrohydrodynamics rather than gravity control",
+        "No classified program-success record, flight hardware custody, or reproducible neutral lab validation is mapped"
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID"
       ]
     },
@@ -2102,19 +2105,20 @@
         "PASCAGOULA-1973"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 5,
       "missingRecordClasses": [
+        "Covert recording does not prove abduction, object identity, or non-human origin",
+        "No complete sheriff case packet, physical evidence chain, or independent sensor record is mapped",
+        "Later interviews and media retellings must be separated from the earliest law-enforcement context",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 7,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
       ]
@@ -2281,19 +2285,20 @@
         "MEIER-1975"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 13,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "No complete neutral custody path for original negatives, films, or samples is mapped",
+        "Model-reproduction and image-source critiques materially weaken the photographic corpus",
+        "Single-source contact narrative and organizational promotion are not independent corroboration"
+      ],
+      "upgradePriorityScore": 7,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "NARA collection/guide link only",
-        "quote not verified to primary page"
+        "NARA collection/guide link only"
       ]
     },
     {
@@ -2999,22 +3004,22 @@
         "VICTOR-1997"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
+      "publicUrlCount": 3,
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 7,
       "missingRecordClasses": [
+        "Victor’s identity, access, and transfer chain are unverified",
+        "No original tape, agency file, production record, or forensic master is mapped",
+        "Public mirrors and media analysis do not establish authenticity or non-human origin",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 10,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "NARA collection/guide link only",
-        "quote not verified to primary page"
+        "NARA collection/guide link only"
       ]
     },
     {

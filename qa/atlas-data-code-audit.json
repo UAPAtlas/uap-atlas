@@ -63,17 +63,17 @@
   "quotesSelected": 146,
   "quotesWithLocators": 146,
   "sourceRecordCount": 237,
-  "sourceDepthWeakCaseCount": 82,
+  "sourceDepthWeakCaseCount": 81,
   "sourceDepthEnrichmentCandidateCount": 118,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 20,
-    "thin-summary": 26,
+    "thin-summary": 29,
     "multi-source-independent": 11,
-    "secondary-only": 10,
-    "single-primary-record": 77,
+    "secondary-only": 6,
+    "single-primary-record": 78,
     "mixed-provenance": 2
   },
   "sourceProfiles": {
@@ -188,13 +188,13 @@
       ]
     },
     "BF-SF-07": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:edward j. ruppelt 1956 public account, project sign historical trail, and later ufo-history citations",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1949-LA-00": {
@@ -241,12 +241,12 @@
       ]
     },
     "BF-SF-03": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:project winterhaven proposal context, townsend brown electrogravitics claims, and bahnson labs film/public documentary trail"
       ]
     },
     "BF-1953-RP-00": {
@@ -629,7 +629,7 @@
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "press"
       ]
     },
     "BF-1973-SS-01": {
@@ -679,12 +679,12 @@
       ]
     },
     "BF-SF-13": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:figu/meier photographic corpus, reproduced/model-critiqued images, and public skeptical/ufological analysis"
       ]
     },
     "BF-1976-TH-01": {
@@ -894,13 +894,13 @@
       ]
     },
     "BF-SF-06": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:rocket pictures 1997 release record, victor anonymous-source narrative, public video mirrors, and later media analysis"
       ]
     },
     "BF-SF-08": {
@@ -1458,136 +1458,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-SF-06",
-      "title": "Special File: 'Alien Interview' / Victor Tape",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-SF-13",
-      "title": "Special File: Billy Meier Contact Corpus",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1973-PG-01",
-      "title": "Pascagoula River Abduction Report",
-      "score": 55,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "confirmed source-phrase quotation",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-SF-03",
-      "title": "Special File: T. Townsend Brown Electrogravitics",
-      "score": 55,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "confirmed source-phrase quotation",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
-      "id": "BF-SF-07",
-      "title": "Special File: The Estimate of the Situation",
-      "score": 55,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "confirmed source-phrase quotation",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field"
-      ]
-    },
-    {
       "id": "BF-1980-CLD-01",
       "title": "Cash-Landrum Injury Case",
       "score": 52,
@@ -1710,6 +1580,138 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D030",
+      "title": "STS-80 Unidentified Object Image 1",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D031",
+      "title": "STS-80 Unidentified Object Image 2",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D032",
+      "title": "STS-80 Unidentified Object Image 3",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM1",
+      "title": "Apollo 12 Visual Material 1",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM2",
+      "title": "Apollo 12 Visual Material 2",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
         ]
       },
       "reasons": [

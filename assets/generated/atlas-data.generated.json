@@ -2109,9 +2109,9 @@
     {
       "keyQuote": "The situation was the UFOs; the estimate was that they were interplanetary!",
       "quoteSource": "Edward J. Ruppelt, 'The Report on Unidentified Flying Objects' (1956)",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "Medium — Ruppelt account is public and historically important; exact destroyed/unreleased Estimate text is not page-verified.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Ruppelt/Project Sign historical account trail; important early Air Force narrative, but the actual Estimate document is not publicly recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-07",
@@ -2187,11 +2187,19 @@
       "sourceRecords": [
         {
           "citation": "ESTIMATE-1948 · Ruppelt account (1956) / Project Sign record trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "secondhand-official-insider-historical-account",
+          "provenance": "Edward J. Ruppelt 1956 public account, Project Sign historical trail, and later UFO-history citations",
           "locator": "ESTIMATE-1948",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the claim that Project Sign prepared an Estimate concluding UFOs were real and potentially interplanetary",
+            "Preserves an early insider Air Force narrative from Ruppelt, later Blue Book chief",
+            "Useful as a bedrock special-file case for early institutional conflict over UFO interpretation"
+          ],
+          "limitations": [
+            "The actual Estimate document is not publicly recovered or mapped in the Atlas record",
+            "Ruppelt’s account is secondhand/historical publication evidence, not the primary Estimate text",
+            "Without the original document, wording, authorship, routing, and final disposition remain unresolved"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -2249,11 +2257,11 @@
       },
       "publicSources": [
         {
-          "access": "Public/borrow restrictions may apply",
+          "access": "Public",
           "label": "Internet Archive — Ruppelt, The Report on Unidentified Flying Objects",
-          "note": "Ruppelt’s account is the principal public description. The Estimate itself has never been recovered.",
-          "publisher": "Internet Archive",
-          "scope": "firsthand-memoir-archive",
+          "note": "Public scan of Ruppelt’s 1956 account; key historical source for the Estimate narrative, not the missing Estimate document itself.",
+          "publisher": "Internet Archive / Edward J. Ruppelt",
+          "scope": "public-book-scan",
           "url": "https://archive.org/details/reportonunidenti00rupp"
         }
       ],
@@ -3153,9 +3161,9 @@
     {
       "keyQuote": "How I Control Gravitation",
       "quoteSource": "T. T. Brown article title, Science and Invention, August 1929",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "Medium — claim trail and historical research context are public, but technical performance claims remain disputed.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-03",
@@ -3230,11 +3238,19 @@
       "sourceRecords": [
         {
           "citation": "WINTERHAVEN-1952 · Project Winterhaven proposal / Bahnson Labs film record",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "technical-proposal-and-lab-film-public-trail",
+          "provenance": "Project Winterhaven proposal context, Townsend Brown electrogravitics claims, and Bahnson Labs film/public documentary trail",
           "locator": "WINTERHAVEN-1952",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Brown’s electrogravitics research as a real historical technical/UFO-culture thread",
+            "Preserves Project Winterhaven/Bahnson Labs as concrete research/proposal context rather than pure folklore",
+            "Useful as an advanced-propulsion special file connecting fringe physics, military interest, and later UFO mythology"
+          ],
+          "limitations": [
+            "Public trail does not demonstrate operational anti-gravity or field propulsion craft",
+            "Observed effects are widely disputed and often attributed to ion wind/electrohydrodynamics rather than gravity control",
+            "No classified program-success record, flight hardware custody, or reproducible neutral lab validation is mapped"
+          ]
         }
       ],
       "phenomena": {
@@ -9705,9 +9721,9 @@
     {
       "keyQuote": "They better wake up and start believin'.",
       "quoteSource": "Charles Hickson, covert sheriff's-office recording, October 11, 1973",
-      "quoteConfidence": "confirmed source-phrase quotation",
+      "quoteConfidence": "Medium — covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1973-PG-01",
@@ -9784,11 +9800,19 @@
       "sourceRecords": [
         {
           "citation": "PASCAGOULA-1973 · sheriff's covert recording / witness record trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "witness-report-and-covert-recording-public-trail",
+          "provenance": "Hickson/Parker witness report, sheriff/covert-recording public trail, and local press/history coverage",
           "locator": "PASCAGOULA-1973",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a contemporaneous two-witness abduction report made to local authorities in Pascagoula",
+            "Preserves the sheriff/covert-recording context often cited as evidence of witness distress when alone",
+            "Supports the case as a historically documented public incident, not merely a later retelling"
+          ],
+          "limitations": [
+            "Covert recording does not prove abduction, object identity, or non-human origin",
+            "No complete sheriff case packet, physical evidence chain, or independent sensor record is mapped",
+            "Later interviews and media retellings must be separated from the earliest law-enforcement context"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -9853,6 +9877,14 @@
           "role": "contextual-analysis",
           "mediaKind": "video",
           "note": "Case narrative with counterarguments; secondary analysis."
+        },
+        {
+          "label": "Hinds Community College LibGuide — Pascagoula 1973 recording",
+          "url": "https://libguides.hindscc.edu/paranormalms/pascagoula_abduction/1973_recording",
+          "publisher": "Hinds Community College Library",
+          "access": "Public",
+          "scope": "local-history-public-record",
+          "note": "Public educational page preserving/listing the 1973 Hickson/Parker recording context; useful local-history source, not full sheriff file."
         }
       ],
       "images": [
@@ -10597,9 +10629,9 @@
     {
       "keyQuote": "Billy Meier's contact corpus includes hundreds of alleged photographs and films of beamships; independent analysis has produced contested results.",
       "quoteSource": "Meier contact corpus (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Low-medium — corpus is public and prolific, but authentication claims are contested and original custody is unresolved.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-13",
@@ -10675,11 +10707,19 @@
       "sourceRecords": [
         {
           "citation": "MEIER-1975 · FIGU photographic corpus / model-reproduction analyses",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "large-claim-corpus-with-disputed-custody",
+          "provenance": "FIGU/Meier photographic corpus, reproduced/model-critiqued images, and public skeptical/ufological analysis",
           "locator": "MEIER-1975",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents one of the largest single-source UFO photographic/contact claim corpora",
+            "Preserves the repeated claim pattern: photographs, films, sound recordings, metal samples, and long-running FIGU narrative",
+            "Useful as the Atlas volume-versus-provenance lesson: many artifacts can still fail neutral custody standards"
+          ],
+          "limitations": [
+            "No complete neutral custody path for original negatives, films, or samples is mapped",
+            "Model-reproduction and image-source critiques materially weaken the photographic corpus",
+            "Single-source contact narrative and organizational promotion are not independent corroboration"
+          ]
         }
       ],
       "phenomena": {
@@ -10726,6 +10766,14 @@
           "access": "Public",
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
+        },
+        {
+          "label": "Public skeptical review — Billy Meier / FIGU model and fabrication critiques",
+          "url": "https://www.jrprudence.com/post/the-truth-unveiled-a-debunking-of-the-criminal-fraud-hoax-billy-meier-and-figu",
+          "publisher": "JR Prudence",
+          "access": "Public",
+          "scope": "skeptical-public-analysis",
+          "note": "Public skeptical synthesis of Meier/FIGU hoax and model-reproduction claims; secondary analysis, not neutral lab custody."
         }
       ],
       "images": [
@@ -14461,9 +14509,9 @@
     {
       "keyQuote": "The 'Alien Interview' video, allegedly smuggled out of Area 51 by a witness known as 'Victor,' shows a creature being interviewed; provenance and authenticity remain unverified.",
       "quoteSource": "Victor tape public release, 1997 (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Low-medium — public release history is documented, but the footage provenance rests on an anonymous source.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
       "coordinateBasis": "Production/distribution provenance: Rocket Pictures, Los Angeles",
       "coordinatePrecision": "city",
       "id": "BF-SF-06",
@@ -14538,11 +14586,19 @@
       "sourceRecords": [
         {
           "citation": "VICTOR-1997 · 'Area 51: The Alien Interview' release record / 2008 follow-up interview",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "anonymous-video-release-public-trail",
+          "provenance": "Rocket Pictures 1997 release record, Victor anonymous-source narrative, public video mirrors, and later media analysis",
           "locator": "VICTOR-1997",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the public emergence of the Alien Interview/Victor footage through Rocket Pictures in 1997",
+            "Preserves the specific claim structure: anonymous source, alleged S-4/Area 51 origin, and withheld provenance",
+            "Useful as a video-era provenance calibration case: visually provocative footage with no chain of custody"
+          ],
+          "limitations": [
+            "Victor’s identity, access, and transfer chain are unverified",
+            "No original tape, agency file, production record, or forensic master is mapped",
+            "Public mirrors and media analysis do not establish authenticity or non-human origin"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -14606,6 +14662,22 @@
           "access": "Public",
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
+        },
+        {
+          "label": "The Revealer — Area 51: The Alien Interview release context",
+          "url": "https://therevealer.org/the-last-twentieth-century-book-club-area-51-the-alien-interview/",
+          "publisher": "The Revealer",
+          "access": "Public",
+          "scope": "media-history-analysis",
+          "note": "Documents the 1997 Rocket Pictures VHS/public release context; useful release-history source, not authenticity proof."
+        },
+        {
+          "label": "Internet Archive — Victor's tape public upload",
+          "url": "https://archive.org/details/youtube-CeaHluO0Az0",
+          "publisher": "Internet Archive",
+          "access": "Public",
+          "scope": "public-video-mirror",
+          "note": "Public mirror of the Victor/Alien Interview video material; mirror custody only, not original tape custody."
         }
       ],
       "images": [

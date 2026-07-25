@@ -1,135 +1,5 @@
 [
   {
-    "id": "BF-SF-06",
-    "title": "Special File: 'Alien Interview' / Victor Tape",
-    "score": 65,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-SF-13",
-    "title": "Special File: Billy Meier Contact Corpus",
-    "score": 65,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1973-PG-01",
-    "title": "Pascagoula River Abduction Report",
-    "score": 55,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 1,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "confirmed source-phrase quotation",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-SF-03",
-    "title": "Special File: T. Townsend Brown Electrogravitics",
-    "score": 55,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "confirmed source-phrase quotation",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-SF-07",
-    "title": "Special File: The Estimate of the Situation",
-    "score": 55,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "confirmed source-phrase quotation",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
     "id": "BF-1980-CLD-01",
     "title": "Cash-Landrum Injury Case",
     "score": 52,
@@ -1968,6 +1838,76 @@
     ]
   },
   {
+    "id": "BF-SF-03",
+    "title": "Special File: T. Townsend Brown Electrogravitics",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
+    "quoteConfidence": "Medium \u2014 claim trail and historical research context are public, but technical performance claims remain disputed.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:project winterhaven proposal context, townsend brown electrogravitics claims, and bahnson labs film/public documentary trail"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-SF-06",
+    "title": "Special File: 'Alien Interview' / Victor Tape",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
+    "quoteConfidence": "Low-medium \u2014 public release history is documented, but the footage provenance rests on an anonymous source.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:rocket pictures 1997 release record, victor anonymous-source narrative, public video mirrors, and later media analysis"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-SF-13",
+    "title": "Special File: Billy Meier Contact Corpus",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
+    "quoteConfidence": "Low-medium \u2014 corpus is public and prolific, but authentication claims are contested and original custody is unresolved.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:figu/meier photographic corpus, reproduced/model-critiqued images, and public skeptical/ufological analysis"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
     "id": "BF-SF-14",
     "title": "Special File: CIA OSE Study Group \u2014 1952 Internal UFO Review",
     "score": 30,
@@ -1988,6 +1928,30 @@
     },
     "reasons": [
       "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-1973-PG-01",
+    "title": "Pascagoula River Abduction Report",
+    "score": 25,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
+    "quoteConfidence": "Medium \u2014 covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "press"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only"
     ]
   },
   {
