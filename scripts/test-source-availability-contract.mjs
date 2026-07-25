@@ -13,6 +13,13 @@ const atlas = JSON.parse(fs.readFileSync(path.join(root, 'atlas-data.json'), 'ut
 const sourceIndex = JSON.parse(fs.readFileSync(path.join(root, 'source-file-index.json'), 'utf8'));
 const contract = JSON.parse(fs.readFileSync(path.join(root, 'source-availability.json'), 'utf8'));
 
+const unsafePublicSources = atlas.cases.flatMap(c => (c.publicSources || [])
+  .filter(src => !/^https?:\/\//i.test(String(src.url || '')))
+  .map(src => `${c.id}: ${src.url || '(missing URL)'}`));
+if (unsafePublicSources.length) {
+  throw new Error(`publicSources must remain external HTTP(S) records: ${unsafePublicSources.slice(0, 5).join(', ')}`);
+}
+
 if (contract.schemaVersion !== 1 || contract.policy !== 'explicit-source-availability') {
   throw new Error('Unexpected source availability contract schema/policy');
 }
