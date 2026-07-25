@@ -63,18 +63,18 @@
   "quotesSelected": 146,
   "quotesWithLocators": 146,
   "sourceRecordCount": 237,
-  "sourceDepthWeakCaseCount": 81,
-  "sourceDepthEnrichmentCandidateCount": 118,
+  "sourceDepthWeakCaseCount": 79,
+  "sourceDepthEnrichmentCandidateCount": 116,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
-    "complete-primary-packet": 20,
-    "thin-summary": 29,
+    "complete-primary-packet": 22,
+    "thin-summary": 31,
     "multi-source-independent": 11,
-    "secondary-only": 6,
-    "single-primary-record": 78,
-    "mixed-provenance": 2
+    "secondary-only": 7,
+    "mixed-provenance": 2,
+    "single-primary-record": 73
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -129,8 +129,8 @@
       ]
     },
     "BF-1947-MI-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "secondary-only",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -160,7 +160,7 @@
       ]
     },
     "BF-1948-CW-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
@@ -269,7 +269,7 @@
       ]
     },
     "BF-1957-LV-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
@@ -726,13 +726,13 @@
       ]
     },
     "BF-1980-CLD-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "private-archive"
       ]
     },
     "BF-1980-PE-01": {
@@ -962,13 +962,13 @@
       ]
     },
     "BF-2014-CH-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:cefaa/chilean navy public-release reporting, uap archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2015-NAV-01": {
@@ -1458,60 +1458,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-1980-CLD-01",
-      "title": "Cash-Landrum Injury Case",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-2014-CH-01",
-      "title": "Chilean Navy IR Video (CEFAA)",
-      "score": 52,
-      "sourceRecords": 2,
-      "indexedLinks": 9,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "single-primary-record",
-        "primaryRecords": 1,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:primary record"
-        ]
-      },
-      "reasons": [
-        "source profile=single-primary-record",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
       "id": "BF-NASA-D001",
       "title": "Apollo 12 Transcript",
       "score": 52,
@@ -1697,6 +1643,60 @@
     {
       "id": "BF-NASA-VM2",
       "title": "Apollo 12 Visual Material 2",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM3",
+      "title": "Apollo 12 Visual Material 3",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "nasa",
+          "other:local atlas audit derived from the current source inventory"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-VM4",
+      "title": "Apollo 12 Visual Material 4",
       "score": 52,
       "sourceRecords": 2,
       "indexedLinks": 3,

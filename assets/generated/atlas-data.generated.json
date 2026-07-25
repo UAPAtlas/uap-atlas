@@ -1033,9 +1033,9 @@
     {
       "keyQuote": "Two harbor patrolmen reported witnessing six doughnut-shaped craft over Maury Island, Washington; the FBI noted the existence of a hoax connection to Fantasy Magazine.",
       "quoteSource": "FBI Maury Island file summary (pages 17, 26, 46-47)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "Medium — FBI/official-file trail exists; event claims are heavily disputed and confession/hoax issues dominate.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "FBI/AAF-era public-record trail for a disputed/hoax-linked 1947 case; strongest value is early flying-disc investigation context, not event authenticity.",
       "coordinateBasis": "Harbor-patrol boat position in Puget Sound off Maury Island",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1947-MI-01",
@@ -1108,11 +1108,19 @@
       "sourceRecords": [
         {
           "citation": "MAURY-1947 · FBI UFO records Part 1 (official FBI Vault release, 1947 flying-disc era) / FBI HQ file 62-HQ-83894 (local mirror, 184p) / AAF crash report trail",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "fbi-aaf-era-disputed-case-record-trail",
+          "provenance": "FBI UFO Vault/public-file context, AAF flying-disc-era investigation trail, and regional-history hoax/confession analysis",
           "locator": "MAURY-1947",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Maury Island as an early 1947 flying-disc controversy investigated in the FBI/AAF context",
+            "Preserves the connection to official concern over flying-disc reports and the later fatal B-25 crash context",
+            "Useful as a disputed-case calibration file for separating official investigation from event authenticity"
+          ],
+          "limitations": [
+            "Dahl/Crisman narrative is strongly disputed and linked to reported fabrication/hoax admissions",
+            "Recovered/debris claims are not supported by a clean physical custody chain",
+            "FBI/AAF interest in the report does not authenticate the claimed object, debris, or threat narrative"
+          ]
         }
       ],
       "phenomena": {
@@ -1173,6 +1181,14 @@
           "publisher": "Federal Bureau of Investigation",
           "scope": "official-collection",
           "url": "https://vault.fbi.gov/UFO"
+        },
+        {
+          "label": "HistoryLink — Maury Island incident chronology and hoax context",
+          "url": "https://www.historylink.org/File/2068",
+          "publisher": "HistoryLink",
+          "access": "Public",
+          "scope": "regional-history-analysis",
+          "note": "Public regional history entry summarizing Maury Island chronology, FBI investigation, and hoax/confession claims; secondary but useful boundary context."
         }
       ],
       "images": [
@@ -1630,9 +1646,9 @@
     {
       "keyQuote": "He stated that he had sighted a strange object coming toward us at a light rate of speed... as it came nearer I could see that it was much larger than any Air Force or Navy jet that I have ever seen or read about.",
       "quoteSource": "Blue Book case file CHILES-1948-BlueBook-full-file-BlackVault-162p.pdf, p. 81 (witness statement)",
-      "quoteConfidence": "verified primary-source quotation (OCR-derived)",
+      "quoteConfidence": "High — NARA/Blue Book case-file trail and witness-statement/sketch material are mapped; interpretation remains unresolved.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Project Blue Book/NARA exact case-file trail with witness sketches; strong primary case-file custody, but short-duration visual report remains disputed.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1948-CW-01",
@@ -1707,11 +1723,19 @@
       "sourceRecords": [
         {
           "citation": "CHILES-1948 · Project Blue Book case file, Montgomery July 1948 (Black Vault mirror; NARA NAID 28931059, 'Incident Number: 144') — witness sketches Exhibit E / Project Grudge report",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "project-blue-book-primary-case-file",
+          "provenance": "NARA NAID 28931059 Project Blue Book case file, witness statements/sketches, and Project Sign/Grudge interpretive trail",
           "locator": "CHILES-1948",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a specific Project Blue Book case-file custody path through NARA NAID 28931059",
+            "Preserves pilot/co-pilot witness reports and sketch/exhibit material from the 1948 airliner encounter",
+            "Supports the case as a classic high-quality aviation-witness report influential in early Project Sign thinking"
+          ],
+          "limitations": [
+            "Witness statements and sketches do not establish object identity or non-human origin",
+            "Encounter duration was brief and lacks a complete modern sensor/trajectory dataset",
+            "Later Project Sign/Grudge significance does not substitute for a definitive technical explanation"
+          ]
         }
       ],
       "phenomena": {
@@ -1759,6 +1783,14 @@
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/28931059"
+        },
+        {
+          "label": "The Black Vault — Chiles-Whitted Project Blue Book case context",
+          "url": "https://www.theblackvault.com/documentarchive/project-blue-book-the-chiles-whitted-ufo-encounter-july-24-1948-montgomery-alabama/",
+          "publisher": "The Black Vault",
+          "access": "Public",
+          "scope": "public-document-mirror-analysis",
+          "note": "Public mirror/analysis of the Project Blue Book Chiles-Whitted case; useful access layer alongside NARA catalog custody."
         }
       ],
       "images": [
@@ -3693,9 +3725,9 @@
     {
       "keyQuote": "No definite conclusion has been reached regarding the possible effects of ball lightning on ignition systems.",
       "quoteSource": "USAF Levelland incident summary, NARA NAID 28972840, scan 01039",
-      "quoteConfidence": "confirmed-primary-source-quotation",
+      "quoteConfidence": "High — NARA/Fold3 case-file trail and scan-specific Atlas mapping exist; physical mechanism remains disputed.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "NARA Project Blue Book files with multiple vehicle-interference reports and law-enforcement context; strong case-file custody but causation remains unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1957-LV-01",
@@ -3771,11 +3803,19 @@
       "sourceRecords": [
         {
           "citation": "LEVELLAND-1957 · Project Blue Book case file (NARA official, NAID 28974191; also NAID 28972840) / sheriff's record",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "project-blue-book-primary-case-file",
+          "provenance": "NARA Project Blue Book files NAID 28974191 and 28972840, Fold3 mirrors, sheriff/law-enforcement context, and scan-specific Atlas mapping",
           "locator": "LEVELLAND-1957",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents multiple Levelland-area reports involving vehicle electrical interference and luminous-object sightings",
+            "Preserves official Project Blue Book case-file custody through NARA/Fold3 records and scan-level local mapping",
+            "Supports the case as one of the stronger vehicle-interference waves because reports involved multiple callers and law-enforcement context"
+          ],
+          "limitations": [
+            "Case-file records do not prove a single anomalous object or mechanism caused all reports",
+            "Weather/plasma/ball-lightning/conventional explanations remain part of the contested analysis space",
+            "No physical trace chain or instrumental electromagnetic dataset is mapped"
+          ]
         },
         {
           "citation": "LEVELLAND-NARA-28972840 · Vicinity Levelland, Texas, November 1957",
@@ -11492,9 +11532,9 @@
     {
       "keyQuote": "Three witnesses reported a diamond-shaped craft emitting flame, surrounded by helicopters; all three subsequently developed symptoms consistent with radiation exposure.",
       "quoteSource": "Cash-Landrum civilian investigation files (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "Medium — public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-CLD-01",
@@ -11574,11 +11614,19 @@
       "sourceRecords": [
         {
           "citation": "CASH-LANDRUM-1980 · hospital records trail / federal court docket",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "document-collection-and-legal-medical-public-trail",
+          "provenance": "Blue Blurry Lines document guide, CUFON case compilation, hospital/medical-reporting trail, and federal court/military-accountability context",
           "locator": "CASH-LANDRUM-1980",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a named injury claim by Betty Cash, Vickie Landrum, and Colby Landrum after a reported close encounter",
+            "Preserves public case-file compilations including medical, witness, and investigation materials",
+            "Supports the case as a serious injury/legal-accountability file rather than a simple sighting report"
+          ],
+          "limitations": [
+            "Public compilations are not a complete first-party hospital, military, or court evidence packet",
+            "Medical symptoms do not by themselves establish radiation exposure source, object identity, or military responsibility",
+            "No confirmed helicopter unit, vehicle/craft custody chain, or official causation finding is mapped"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -15804,9 +15852,9 @@
     {
       "keyQuote": "The Chilean Navy CEFAA investigated an infrared video showing an object with hot gas emission that was later identified as a commercial aircraft at a distance.",
       "quoteSource": "CEFAA investigation file, 2014-2015 (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Medium — public release and reporting trail are specific; object identity remains disputed by flight-track/plume analysis.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Public CEFAA/Chilean Navy IR-video release trail with extracted public-mirror frame; native agency media master and metadata remain unavailable.",
       "coordinateBasis": "Naval helicopter patrol track off the central Chilean coast",
       "coordinatePrecision": "offshore-area",
       "id": "BF-2014-CH-01",
@@ -15881,11 +15929,19 @@
       "sourceRecords": [
         {
           "citation": "CEFAA-2014 · CEFAA release (2017) / independent flight-track analysis",
-          "sourceType": "primary-record",
-          "provenance": "Primary record",
+          "sourceType": "agency-release-public-mirror-and-analysis-trail",
+          "provenance": "CEFAA/Chilean Navy public-release reporting, UAP Archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
           "locator": "CEFAA-2014",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a Chilean Navy infrared video submitted to CEFAA and released through public reporting after analysis",
+            "Preserves a complete public video mirror and extracted frame for visual review",
+            "Supports the case as a documented disputed sensor-video case with official-investigation context"
+          ],
+          "limitations": [
+            "Public mirror is not a native CEFAA/Chilean Navy media master and lacks full original sensor metadata",
+            "The extracted frame does not establish anomalous object identity",
+            "Competing aircraft/contrail/plume analyses remain unresolved without agency workpapers and native data"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T22:18:27-04:00",
+  "generatedAt": "2026-07-24T22:33:08-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -228,16 +228,18 @@
         "MAURY-1947"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 2,
+      "publicUrlCount": 3,
       "localCustodyFileCount": 2,
       "localPdfCount": 1,
-      "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 10,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "Dahl/Crisman narrative is strongly disputed and linked to reported fabrication/hoax admissions",
+        "Recovered/debris claims are not supported by a clean physical custody chain",
+        "FBI/AAF interest in the report does not authenticate the claimed object, debris, or threat narrative"
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID"
       ]
     },
@@ -341,16 +343,18 @@
         "CHILES-1948"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 9,
       "localPdfCount": 4,
-      "coverageLinks": 10,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 5,
+      "coverageLinks": 11,
+      "missingRecordClasses": [
+        "Witness statements and sketches do not establish object identity or non-human origin",
+        "Encounter duration was brief and lacks a complete modern sensor/trajectory dataset",
+        "Later Project Sign/Grudge significance does not substitute for a definitive technical explanation"
+      ],
+      "upgradePriorityScore": 1,
       "upgradeReasons": [
-        "one structured source record",
-        "empty supports field",
-        "empty limitations field"
+        "one structured source record"
       ]
     },
     {
@@ -860,14 +864,15 @@
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
+        "Case-file records do not prove a single anomalous object or mechanism caused all reports",
+        "Weather/plasma/ball-lightning/conventional explanations remain part of the contested analysis space",
+        "No physical trace chain or instrumental electromagnetic dataset is mapped",
         "no-systematic-vehicle-testing",
         "underlying-weather-station-records-not-isolated",
         "prime-source-not-located-for-USAF-interview"
       ],
-      "upgradePriorityScore": 3,
+      "upgradePriorityScore": -1,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "high-significance dossier"
       ]
     },
@@ -2447,16 +2452,16 @@
       "localPdfCount": 0,
       "coverageLinks": 6,
       "missingRecordClasses": [
+        "Public compilations are not a complete first-party hospital, military, or court evidence packet",
+        "Medical symptoms do not by themselves establish radiation exposure source, object identity, or military responsibility",
+        "No confirmed helicopter unit, vehicle/craft custody chain, or official causation finding is mapped",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 9,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -3225,16 +3230,16 @@
       "localPdfCount": 0,
       "coverageLinks": 9,
       "missingRecordClasses": [
+        "Public mirror is not a native CEFAA/Chilean Navy media master and lacks full original sensor metadata",
+        "The extracted frame does not establish anomalous object identity",
+        "Competing aircraft/contrail/plume analyses remain unresolved without agency workpapers and native data",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 2,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {

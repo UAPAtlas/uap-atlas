@@ -1,59 +1,5 @@
 [
   {
-    "id": "BF-1980-CLD-01",
-    "title": "Cash-Landrum Injury Case",
-    "score": 52,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-2014-CH-01",
-    "title": "Chilean Navy IR Video (CEFAA)",
-    "score": 52,
-    "sourceRecords": 2,
-    "indexedLinks": 9,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 4,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
     "id": "BF-NASA-D001",
     "title": "Apollo 12 Transcript",
     "score": 52,
@@ -446,81 +392,6 @@
       "empty supports field",
       "empty limitations field",
       "thin source-index mapping"
-    ]
-  },
-  {
-    "id": "BF-1947-MI-01",
-    "title": "Maury Island Affair",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-1948-CW-01",
-    "title": "Chiles-Whitted Airliner Encounter",
-    "score": 42,
-    "sourceRecords": 1,
-    "indexedLinks": 7,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified primary-source quotation (OCR-derived)",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
-    ]
-  },
-  {
-    "id": "BF-1957-LV-01",
-    "title": "Levelland Vehicle-Interference Wave",
-    "score": 42,
-    "sourceRecords": 2,
-    "indexedLinks": 8,
-    "publicSourceUrls": 4,
-    "evidenceAssets": 4,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "confirmed-primary-source-quotation",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "empty supports field",
-      "empty limitations field"
     ]
   },
   {
@@ -1723,6 +1594,30 @@
     ]
   },
   {
+    "id": "BF-1980-CLD-01",
+    "title": "Cash-Landrum Injury Case",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 2,
+    "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
+    "quoteConfidence": "Medium \u2014 public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "private-archive"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
     "id": "BF-1985-PNG-01",
     "title": "Papua New Guinea \u2014 High-Altitude Overflights",
     "score": 30,
@@ -1808,6 +1703,30 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:documentcloud public copy; originating-office chain not stated"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-2014-CH-01",
+    "title": "Chilean Navy IR Video (CEFAA)",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 9,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 4,
+    "sourceQuality": "Public CEFAA/Chilean Navy IR-video release trail with extracted public-mirror frame; native agency media master and metadata remain unavailable.",
+    "quoteConfidence": "Medium \u2014 public release and reporting trail are specific; object identity remains disputed by flight-track/plume analysis.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:cefaa/chilean navy public-release reporting, uap archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "reasons": [
@@ -1928,6 +1847,29 @@
     },
     "reasons": [
       "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-1947-MI-01",
+    "title": "Maury Island Affair",
+    "score": 25,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "sourceQuality": "FBI/AAF-era public-record trail for a disputed/hoax-linked 1947 case; strongest value is early flying-disc investigation context, not event authenticity.",
+    "quoteConfidence": "Medium \u2014 FBI/official-file trail exists; event claims are heavily disputed and confession/hoax issues dominate.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only"
     ]
   },
   {
