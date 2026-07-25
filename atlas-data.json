@@ -256,9 +256,9 @@
       "whyItMatters": "Magenta binds the modern testimony era to MJ-12-grade provenance: if the papers are real it is history's first retrieval, and if not, it shows sworn-era claims amplifying uncorroborated paper — either way the chain of custody is the whole case.",
       "keyQuote": "Italian fascist archives document the seizure of UFO-related materials by Mussolini's Gabinetto RS/33; the case remains contested in Italian UFO research.",
       "quoteSource": "Italian state archives & RS/33 documentation (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "Low-medium — claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
       "sourceLabel": "RS/33 document set",
       "sourceLocator": "MAGENTA-1933",
       "relatedCaseIds": [
@@ -307,11 +307,19 @@
       "sourceRecords": [
         {
           "citation": "MAGENTA-1933 · Pinotti/Lissoni RS/33 document set (anonymous mail, 1996–) / Grusch citation record (2023)",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "anonymous-document-cache-public-trail",
+          "provenance": "Pinotti/Lissoni RS/33 document-cache reports, public case studies, and later Grusch citation record",
           "locator": "MAGENTA-1933",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the public claim that RS/33 papers were received by Roberto Pinotti and Alfredo Lissoni between 1996 and 2000",
+            "Provides a concrete document-chain narrative tied to alleged Fascist-era Gabinetto RS/33 materials",
+            "Useful as a high-profile crash-retrieval claim now cited in modern whistleblower/public-discussion context"
+          ],
+          "limitations": [
+            "The document cache was reportedly anonymous and lacks a verifiable first-party provenance chain",
+            "No original Italian state archive file, accession record, or physical object custody is mapped in the Atlas record",
+            "Public case studies and Grusch-era references do not independently authenticate the alleged 1933 recovery"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -376,6 +384,14 @@
           "role": "contextual-analysis",
           "mediaKind": "video",
           "note": "Documentary-style investigation of the Magenta claim; the underlying RS/33 document provenance remains disputed."
+        },
+        {
+          "label": "New Paradigm Institute — Magenta 1933 case study",
+          "url": "https://newparadigminstitute.org/learn/library/case-study-magenta-italy-1933/",
+          "publisher": "New Paradigm Institute",
+          "access": "Public",
+          "scope": "case-study-secondary",
+          "note": "Summarizes the Pinotti/Lissoni RS/33 document-cache trail and notes anonymous receipt between 1996 and 2000; useful public overview, not primary custody."
         }
       ],
       "images": [
@@ -4256,9 +4272,9 @@
     {
       "keyQuote": "Betty and Barney Hill reported being taken aboard a craft by beings who performed a physical examination; their account became the first widely publicized abduction narrative.",
       "quoteSource": "NICAP Hill Report, September 19, 1961 (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "Medium — archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1961-BH-01",
@@ -4338,11 +4354,19 @@
       "sourceRecords": [
         {
           "citation": "HILL-1961 · Pease AFB / Blue Book entry & later interview trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "witness-case-archive-and-blue-book-trail",
+          "provenance": "UNH Hill Papers finding aid, Pease/Blue Book information-report trail, NICAP/Webb investigation context",
           "locator": "HILL-1961",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Institutional archive exists for Betty and Barney Hill papers at the University of New Hampshire",
+            "Public trail includes Pease AFB / Blue Book reporting and NICAP/Walter Webb investigation context",
+            "Supports the case as a documented witness narrative with durable archive/research footprint"
+          ],
+          "limitations": [
+            "Archive/finding-aid context does not prove abduction or object origin",
+            "Hypnosis-derived and retrospective narrative elements require separation from earliest reports",
+            "Radar/physical-trace correlations remain weak or unresolved in the Atlas record"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -4415,10 +4439,18 @@
         {
           "access": "Public",
           "label": "UNH Archives — Betty and Barney Hill Papers, MC 197",
-          "note": "Exact collection finding aid for the Hills’ papers; personal archive, not an official determination of the encounter.",
-          "publisher": "University of New Hampshire Special Collections",
-          "scope": "archival-finding-aid",
+          "note": "Institutional finding aid for the Hill papers; collection context, not a single verified incident page.",
+          "publisher": "University of New Hampshire Archives",
+          "scope": "institutional-archive-finding-aid",
           "url": "https://archives.unh.edu/repositories/3/resources/107"
+        },
+        {
+          "label": "Kathleen Marden — Betty and Barney Hill archive materials",
+          "url": "https://www.kathleen-marden.com/betty-and-barney-hill-archive.php",
+          "publisher": "Kathleen Marden / Hill archive materials",
+          "access": "Public",
+          "scope": "public-document-archive",
+          "note": "Public page pointing to Blue Book/NICAP/Hill correspondence materials; family/researcher archive context, not neutral agency custody."
         }
       ]
     },
@@ -10123,9 +10155,9 @@
     {
       "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
       "quoteSource": "Travis Walton MUFON Case File & polygraph reports (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "Low-medium — public summary/testimony trail; primary law-enforcement pages not fully mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1975-TW-01",
@@ -10201,11 +10233,19 @@
       "sourceRecords": [
         {
           "citation": "WALTON-1975 · Navajo County record / crew testimony trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "witness-law-enforcement-public-trail",
+          "provenance": "Navajo County missing-person/search context, crew testimony, and polygraph controversy public sources",
           "locator": "WALTON-1975",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents a reported missing-person event involving Walton and a logging crew in Navajo County, Arizona",
+            "Preserves the multi-witness crew narrative as the core evidentiary claim",
+            "Includes public controversy over polygraph examinations and later retellings"
+          ],
+          "limitations": [
+            "No complete sheriff case packet, radio logs, search records, or contemporaneous objective physical evidence are mapped",
+            "Polygraph material is disputed and not definitive proof of abduction",
+            "Later book/film/documentary retellings must be separated from earliest law-enforcement and witness records"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -10270,6 +10310,14 @@
           "role": "witness-interview",
           "mediaKind": "video",
           "note": "Long-form interview with Travis Walton; testimony remains a claim requiring independent corroboration."
+        },
+        {
+          "label": "RR0 mirror — UFO Investigator Walton polygraph controversy documents",
+          "url": "https://rr0.org/time/1/9/7/6/06/WaltonAbductionCoverUpRevealed_UfoInvestigator/index.html",
+          "publisher": "UFO Investigator mirror via RR0",
+          "access": "Public",
+          "scope": "public-document-mirror",
+          "note": "Preserves public discussion of Walton polygraph controversy; mirror/source-context only, not complete sheriff packet."
         }
       ],
       "images": [
@@ -12622,9 +12670,9 @@
     {
       "keyQuote": "Bob Lazar claimed to have worked on extraterrestrial craft at S-4, a secret facility near Area 51; his claims have never been verified and his employment record is contested.",
       "quoteSource": "Lazar public statements & background investigation (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Low-medium — claim is publicly attributable, but S-4 employment/program claims remain unverified.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
       "coordinateBasis": "Papoose dry lake area south of Groom Lake, per Lazar's own claimed site",
       "coordinatePrecision": "region",
       "id": "BF-SF-01",
@@ -12705,11 +12753,19 @@
       "sourceRecords": [
         {
           "citation": "LAZAR-1989 · KLAS-TV broadcast record / employment-verification trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "broadcast-claim-and-credential-controversy-trail",
+          "provenance": "KLAS/George Knapp broadcast record, later interviews, and unresolved credential/employment verification trail",
           "locator": "LAZAR-1989",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Lazar as a major public source for the Area 51/S-4 reverse-engineering narrative beginning in 1989",
+            "Preserves the specific claim structure: S-4, recovered craft, gravity propulsion, compartmented program",
+            "Useful as a special-file case for myth-engine, disclosure-culture, and credential-verification analysis"
+          ],
+          "limitations": [
+            "No verified S-4 employment record or program-access document is mapped",
+            "Academic credential and employment-history claims remain disputed/unverified in public records",
+            "Detailed testimony is not independent evidence of recovered craft or non-human technology"
+          ]
         }
       ],
       "phenomena": {
@@ -12750,14 +12806,14 @@
       },
       "publicSources": [
         {
-          "label": "A Weekend With Bob Lazar: Inside Area 51's UFOs",
+          "label": "KLAS / George Knapp — original Lazar public-claim context",
           "url": "https://www.youtube.com/watch?v=d9tdJ2SkBKQ",
-          "publisher": "Jesse Michels / American Alchemy",
+          "publisher": "KLAS / George Knapp public broadcast context via public video",
           "access": "Public",
-          "scope": "firsthand-interview",
+          "scope": "broadcast-public-claim-record",
           "role": "witness-interview",
           "mediaKind": "video",
-          "note": "Long-form interview and profile; Lazar's account remains disputed and is not independently authenticated by the video."
+          "note": "Public broadcast/interview context for Lazar’s claims; source for claim emergence, not verification of S-4 employment or craft program."
         },
         {
           "label": "Bob Lazar + The Truth About a Secret UFO Base?",
@@ -13254,9 +13310,9 @@
     {
       "keyQuote": "Multiple residents of Varginha, Brazil reported seeing strange creatures after an alleged crash; IPM Volumes 01 through 09 comprise the formal investigation into the Varginha case.",
       "quoteSource": "Brazilian IPM Volumes 01-09 (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "quoteConfidence": "Low-medium — public testimony and documentary trail; primary Brazilian records not page-verified.",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1996-VG-01",
@@ -13331,11 +13387,19 @@
       "sourceRecords": [
         {
           "citation": "VARGINHA-1996 · witness testimony corpus / press record trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "witness-press-documentary-public-trail",
+          "provenance": "Witness testimony corpus, Brazilian press/public documentary reporting, and military-denial context",
           "locator": "VARGINHA-1996",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Varginha as a sustained public witness narrative with named locality, date, and alleged military/medical involvement",
+            "Preserves testimony and documentary/public reporting that made the case internationally prominent",
+            "Useful as a high-recognition alleged retrieval/creature case requiring strict custody boundaries"
+          ],
+          "limitations": [
+            "No first-party capture record, hospital medical file, military transport log, or physical custody chain is mapped",
+            "Many key claims remain witness/documentary based or anonymous-source based",
+            "Public Brazilian military/official denials and absence of released custody records remain controlling limitations"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -13412,6 +13476,14 @@
           "role": "witness-interview",
           "mediaKind": "video",
           "note": "Interview testimony concerning the Varginha hospital narrative; extraordinary claims remain unverified."
+        },
+        {
+          "label": "Réveil — Brazil UFO files / Varginha public-source analysis",
+          "url": "https://reveil.blog/inside-brazils-ufo-files-what-declassified-military-documents-reveal-about",
+          "publisher": "Réveil",
+          "access": "Public",
+          "scope": "secondary-document-analysis",
+          "note": "Public analysis discussing Brazilian documents and Varginha claims; useful lead, not complete first-party custody."
         }
       ],
       "images": [

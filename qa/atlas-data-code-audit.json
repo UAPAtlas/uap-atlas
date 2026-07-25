@@ -70,11 +70,11 @@
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 20,
-    "secondary-only": 14,
+    "thin-summary": 26,
     "multi-source-independent": 11,
+    "secondary-only": 10,
     "single-primary-record": 77,
-    "mixed-provenance": 2,
-    "thin-summary": 22
+    "mixed-provenance": 2
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -87,13 +87,13 @@
       ]
     },
     "BF-1933-MG-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record"
       ]
     },
     "BF-1944-FF-01": {
@@ -306,9 +306,9 @@
       ]
     },
     "BF-1961-BH-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
@@ -669,13 +669,13 @@
       ]
     },
     "BF-1975-TW-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
       ]
     },
     "BF-SF-13": {
@@ -811,12 +811,12 @@
       ]
     },
     "BF-SF-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:klas/george knapp broadcast record, later interviews, and unresolved credential/employment verification trail"
       ]
     },
     "BF-1990-CV-01": {
@@ -1458,140 +1458,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-1933-MG-01",
-      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1961-BH-01",
-      "title": "Betty & Barney Hill Encounter",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "usaf-blue-book"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1975-TW-01",
-      "title": "Travis Walton Abduction Report",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1996-VG-01",
-      "title": "Varginha Creature Narrative",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "press"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
       "id": "BF-SF-06",
       "title": "Special File: 'Alien Interview' / Victor Tape",
       "score": 65,
@@ -1719,6 +1585,138 @@
         "source profile=secondary-only",
         "empty supports field",
         "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-1980-CLD-01",
+      "title": "Cash-Landrum Injury Case",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-2014-CH-01",
+      "title": "Chilean Navy IR Video (CEFAA)",
+      "score": 52,
+      "sourceRecords": 2,
+      "indexedLinks": 9,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "web article quote \u2014 summary of record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:primary record"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D001",
+      "title": "Apollo 12 Transcript",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D022",
+      "title": "Gemini 9 Debriefing",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-NASA-D026",
+      "title": "Apollo 14 Debriefing Video Record",
+      "score": 52,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary record",
+      "quoteConfidence": "summary of document record",
+      "sourceProfile": {
+        "label": "single-primary-record",
+        "primaryRecords": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "nasa"
+        ]
+      },
+      "reasons": [
+        "source profile=single-primary-record",
+        "empty supports field",
+        "empty limitations field",
+        "quote confidence needs verification upgrade"
       ]
     }
   ]

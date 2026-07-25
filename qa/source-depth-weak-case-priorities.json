@@ -1,139 +1,5 @@
 [
   {
-    "id": "BF-1933-MG-01",
-    "title": "Magenta 1933 / Gabinetto RS/33 Claim",
-    "score": 65,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 1,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1961-BH-01",
-    "title": "Betty & Barney Hill Encounter",
-    "score": 65,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 2,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1975-TW-01",
-    "title": "Travis Walton Abduction Report",
-    "score": 65,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 1,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-1996-VG-01",
-    "title": "Varginha Creature Narrative",
-    "score": 65,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "press"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
-    "id": "BF-SF-01",
-    "title": "Special File: Bob Lazar / S-4",
-    "score": 65,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 3,
-    "sourceQuality": "Public-record trail",
-    "quoteConfidence": "web article quote \u2014 summary of record",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:public-record trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only",
-      "empty supports field",
-      "empty limitations field",
-      "quote confidence needs verification upgrade"
-    ]
-  },
-  {
     "id": "BF-SF-06",
     "title": "Special File: 'Alien Interview' / Victor Tape",
     "score": 65,
@@ -1417,6 +1283,31 @@
     ]
   },
   {
+    "id": "BF-1961-BH-01",
+    "title": "Betty & Barney Hill Encounter",
+    "score": 40,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "UNH Hill Papers / Pease-Blue Book / NICAP public trail; strong witness-case archive context but abduction narrative remains testimonial and contested.",
+    "quoteConfidence": "Medium \u2014 archive trail exists, but selected narrative remains summary/testimonial rather than primary-page verified.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-1966-CC-00",
     "title": "Condon Committee Pre-Judgment Record",
     "score": 40,
@@ -1439,6 +1330,31 @@
     "reasons": [
       "empty supports field",
       "empty limitations field",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
+    "id": "BF-1975-TW-01",
+    "title": "Travis Walton Abduction Report",
+    "score": 40,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "Witness/testimony and law-enforcement search/polygraph public trail; no complete sheriff case packet or objective physical custody recovered.",
+    "quoteConfidence": "Low-medium \u2014 public summary/testimony trail; primary law-enforcement pages not fully mapped.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary",
       "quote confidence needs verification upgrade"
     ]
   },
@@ -1562,6 +1478,30 @@
     "reasons": [
       "source profile=thin-summary",
       "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1933-MG-01",
+    "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
+    "quoteConfidence": "Low-medium \u2014 claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
     ]
   },
   {
@@ -2005,6 +1945,29 @@
     ]
   },
   {
+    "id": "BF-SF-01",
+    "title": "Special File: Bob Lazar / S-4",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
+    "quoteConfidence": "Low-medium \u2014 claim is publicly attributable, but S-4 employment/program claims remain unverified.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:klas/george knapp broadcast record, later interviews, and unresolved credential/employment verification trail"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
     "id": "BF-SF-14",
     "title": "Special File: CIA OSE Study Group \u2014 1952 Internal UFO Review",
     "score": 30,
@@ -2025,6 +1988,30 @@
     },
     "reasons": [
       "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-1996-VG-01",
+    "title": "Varginha Creature Narrative",
+    "score": 25,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 1,
+    "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
+    "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "press"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only"
     ]
   },
   {

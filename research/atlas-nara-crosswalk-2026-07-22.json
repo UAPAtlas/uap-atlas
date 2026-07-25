@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:30:37-04:00",
+  "generatedAt": "2026-07-24T21:55:21-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -86,22 +86,22 @@
         "MAGENTA-1933"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 5,
       "missingRecordClasses": [
+        "The document cache was reportedly anonymous and lacks a verifiable first-party provenance chain",
+        "No original Italian state archive file, accession record, or physical object custody is mapped in the Atlas record",
+        "Public case studies and Grusch-era references do not independently authenticate the alleged 1933 recovery",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 12,
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -997,19 +997,20 @@
         "HILL-1961"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
+      "publicUrlCount": 3,
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
-      "coverageLinks": 6,
+      "coverageLinks": 7,
       "missingRecordClasses": [
+        "Archive/finding-aid context does not prove abduction or object origin",
+        "Hypnosis-derived and retrospective narrative elements require separation from earliest reports",
+        "Radar/physical-trace correlations remain weak or unresolved in the Atlas record",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 11,
+      "upgradePriorityScore": 7,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
@@ -2247,19 +2248,20 @@
         "WALTON-1975"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 5,
       "missingRecordClasses": [
+        "No complete sheriff case packet, radio logs, search records, or contemporaneous objective physical evidence are mapped",
+        "Polygraph material is disputed and not definitive proof of abduction",
+        "Later book/film/documentary retellings must be separated from earliest law-enforcement and witness records",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
       ]
@@ -2722,12 +2724,14 @@
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
       "coverageLinks": 5,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "missingRecordClasses": [
+        "No verified S-4 employment record or program-access document is mapped",
+        "Academic credential and employment-history claims remain disputed/unverified in public records",
+        "Detailed testimony is not independent evidence of recovered craft or non-human technology"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page",
         "high-significance dossier"
@@ -2843,21 +2847,21 @@
         "VARGINHA-1996"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
+      "publicUrlCount": 3,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 6,
       "missingRecordClasses": [
+        "No first-party capture record, hospital medical file, military transport log, or physical custody chain is mapped",
+        "Many key claims remain witness/documentary based or anonymous-source based",
+        "Public Brazilian military/official denials and absence of released custody records remain controlling limitations",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 2,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
-        "no complete local PDF in mapped custody",
-        "quote not verified to primary page"
+        "no complete local PDF in mapped custody"
       ]
     },
     {
