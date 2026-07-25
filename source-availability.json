@@ -6,11 +6,11 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 814,
+    "indexedPaths": 813,
     "publicLocal": 594,
     "externalPublic": 83,
     "custodyOnly": 136,
-    "unavailable": 1
+    "unavailable": 0
   },
   "entries": {
     "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg": {
@@ -3163,10 +3163,6 @@
     "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/341-pbb-323-r2.mp4": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
-    },
-    "source-files/archives/GREATFALLS-1950-FILM-NARA-NAID-61935/SHA256SUMS.txt": {
-      "status": "unavailable",
-      "label": "Mapped file not found"
     },
     "source-files/archives/GREATFALLS-1950-NARA-NAID-28938188/custody-manifest.json": {
       "status": "custody-only",
