@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T21:01:15-04:00",
+  "generatedAt": "2026-07-24T21:30:37-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -199,14 +199,15 @@
       "localPdfCount": 0,
       "coverageLinks": 7,
       "missingRecordClasses": [
+        "Press account is not event photography or independent sensor/witness confirmation",
+        "Does not settle the exact object shape, number, speed, or explanation",
+        "Complete Project Sign-era case file and original statement/interview packet remain unrecovered",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 10,
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
@@ -255,19 +256,20 @@
         "ROSWELL-1947"
       ],
       "structuredSourceRecords": 2,
-      "publicUrlCount": 3,
+      "publicUrlCount": 5,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 6,
+      "coverageLinks": 8,
       "missingRecordClasses": [
+        "Retrospective USAF reports are not the complete original 1947 incident packet",
+        "No uninterrupted physical debris chain of custody is established in the Atlas record",
+        "Official explanation remains contested; public reports do not resolve all witness and classification claims",
         "not an independent source",
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 10,
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
-        "empty supports field",
-        "empty limitations field",
         "historical case lacks exact NAID",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
@@ -2654,16 +2656,18 @@
         "GULFBREEZE-1987"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 11,
+      "coverageLinks": 5,
+      "missingRecordClasses": [
+        "No authenticated original Polaroid/negative/first-generation public archive is mapped",
+        "Model discovery and staged-comparison reporting materially weaken the evidentiary claim",
+        "Photo controversy does not establish anomalous object identity"
+      ],
+      "upgradePriorityScore": 7,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page"
       ]
@@ -2744,18 +2748,19 @@
         "CALVINE-1990"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 3,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
-      "coverageLinks": 7,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "coverageLinks": 8,
+      "missingRecordClasses": [
+        "Not the original negative and not all reported prints",
+        "Does not establish object identity or rule out conventional/photographic explanations",
+        "Public reporting and surviving-print custody do not equal a complete MoD investigative file"
+      ],
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -2774,16 +2779,18 @@
         "ARIEL-1994"
       ],
       "structuredSourceRecords": 1,
-      "publicUrlCount": 1,
+      "publicUrlCount": 2,
       "localCustodyFileCount": 5,
       "localPdfCount": 0,
-      "coverageLinks": 6,
-      "missingRecordClasses": [],
-      "upgradePriorityScore": 12,
+      "coverageLinks": 7,
+      "missingRecordClasses": [
+        "Public mirror is not first-party archive custody for UFO AFRINEWS originals",
+        "Witness testimony/drawings do not establish object identity or origin",
+        "No official Zimbabwean school/government/police investigative packet is mapped in the Atlas record"
+      ],
+      "upgradePriorityScore": 8,
       "upgradeReasons": [
         "one structured source record",
-        "empty supports field",
-        "empty limitations field",
         "no complete local PDF in mapped custody",
         "quote not verified to primary page",
         "high-significance dossier"

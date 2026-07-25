@@ -811,7 +811,7 @@
       "quoteSource": "Kenneth Arnold press interviews, June 1947",
       "quoteConfidence": "confirmed source-phrase quotation",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Contemporary press clipping plus provenance audit; supports early public reporting of Arnold’s claim, not object identity.",
       "coordinateBasis": "Mount Rainier summit coordinate; sighting reported from private aircraft nearby",
       "coordinatePrecision": "region",
       "id": "BF-1947-KA-01",
@@ -890,11 +890,19 @@
       "sourceRecords": [
         {
           "citation": "ARNOLD-1947 · press interviews / Project Sign-era file trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "contemporaneous-press-record",
+          "provenance": "Chicago Sun microfilm / UPI public-domain reproduction plus Atlas provenance audit",
           "locator": "ARNOLD-1947",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Reports Arnold’s own account two days after the June 24, 1947 sighting",
+            "Preserves early press framing and headline use of flying-saucer language",
+            "Provides a stronger period lead than modern reconstructions"
+          ],
+          "limitations": [
+            "Press account is not event photography or independent sensor/witness confirmation",
+            "Does not settle the exact object shape, number, speed, or explanation",
+            "Complete Project Sign-era case file and original statement/interview packet remain unrecovered"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -963,6 +971,14 @@
           "publisher": "Wikimedia Commons",
           "access": "Public",
           "scope": "public-mirror"
+        },
+        {
+          "label": "Chicago Sun, June 26 1947 — Arnold UPI report reproduction",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
+          "publisher": "Chicago Sun / UPI via public-domain microfilm reproduction",
+          "access": "Public",
+          "scope": "contemporaneous-press",
+          "note": "Two-day contemporary report preserving Arnold’s account and early flying-saucer language; not event photography."
         }
       ]
     },
@@ -1120,7 +1136,7 @@
       "quoteSource": "509th Bomb Group press release, via Roswell Daily Record, July 8, 1947",
       "quoteConfidence": "confirmed primary-source quotation",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Primary/public official narrative trail exists, but complete original incident packet and chain of custody remain unresolved.",
       "coordinateBasis": "Commonly cited Foster ranch debris-field area southeast of Corona, NM",
       "coordinatePrecision": "region",
       "id": "BF-1947-RW-01",
@@ -1197,11 +1213,19 @@
       "sourceRecords": [
         {
           "citation": "ROSWELL-1947 · RAAF press release & retraction / USAF 1994-1997 report trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "official-public-record-trail",
+          "provenance": "RAAF press-release/retraction history plus USAF 1994/1997 public retrospective reports",
           "locator": "ROSWELL-1947",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents the public official narrative conflict between initial debris-recovery announcement and later retraction/explanations",
+            "USAF retrospective reports provide named official explanation trail and document classes reviewed",
+            "Case is historically significant as an early military-public-information reversal"
+          ],
+          "limitations": [
+            "Retrospective USAF reports are not the complete original 1947 incident packet",
+            "No uninterrupted physical debris chain of custody is established in the Atlas record",
+            "Official explanation remains contested; public reports do not resolve all witness and classification claims"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -1289,6 +1313,22 @@
           "role": "official-position",
           "scope": "official-report",
           "url": "https://www.af.mil/The-Roswell-Report/"
+        },
+        {
+          "label": "USAF — The Roswell Report: Fact vs. Fiction in the New Mexico Desert",
+          "url": "https://media.defense.gov/2010/Dec/01/2001329893/-1/-1/0/roswell-2.pdf",
+          "publisher": "United States Air Force",
+          "access": "Public",
+          "scope": "official-retrospective-report",
+          "note": "Official 1994 USAF retrospective; relevant to official explanation and document trail, not accepted as complete closure by all researchers."
+        },
+        {
+          "label": "USAF — The Roswell Report: Case Closed",
+          "url": "https://media.defense.gov/2010/Dec/01/2001329894/-1/-1/0/roswell-2.pdf",
+          "publisher": "United States Air Force",
+          "access": "Public",
+          "scope": "official-retrospective-report",
+          "note": "Official 1997 USAF follow-up focused on bodies/crash-test dummy explanation; retrospective and contested."
         }
       ],
       "images": [
@@ -12228,7 +12268,7 @@
       "quoteSource": "Gulf Breeze photo series, 1987-1988 (summary)",
       "quoteConfidence": "web article quote — summary of record",
       "significance": "Case significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Disputed photo-series public trail; MUFON-support/hoax-model controversy both explicit; no authenticated original negative/Polaroid chain recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1987-GB-01",
@@ -12308,11 +12348,19 @@
       "sourceRecords": [
         {
           "citation": "GULFBREEZE-1987 · photo series record / MUFON investigation trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "disputed-photo-series-public-record",
+          "provenance": "MUFON/photo-series public trail plus Pensacola News Journal model/hoax controversy coverage",
           "locator": "GULFBREEZE-1987",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Documents Gulf Breeze as a major public UFO photo-series controversy",
+            "Preserves both the pro-authenticity MUFON/Bruce Maccabee line and later hoax/model controversy",
+            "Useful as a disputed-photographic-evidence calibration case"
+          ],
+          "limitations": [
+            "No authenticated original Polaroid/negative/first-generation public archive is mapped",
+            "Model discovery and staged-comparison reporting materially weaken the evidentiary claim",
+            "Photo controversy does not establish anomalous object identity"
+          ]
         }
       ],
       "phenomena": {
@@ -12359,6 +12407,14 @@
           "publisher": "Woodson Research Center, Rice University",
           "scope": "archival-catalog-record",
           "url": "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
+        },
+        {
+          "label": "Pensacola News Journal — Gulf Breeze UFO phenomenon 30 years later",
+          "url": "https://www.pnj.com/story/news/2017/12/10/gulf-breeze-ufo-sightings-30-years-public-divided/915397001/",
+          "publisher": "Pensacola News Journal",
+          "access": "Public",
+          "scope": "local-journalism-retrospective",
+          "note": "Local retrospective summarizing the Walters photo controversy, model discovery, and divided interpretations."
         }
       ]
     },
@@ -12718,9 +12774,9 @@
     {
       "keyQuote": "The Calvine photograph shows a diamond-shaped object beside a military aircraft; the image was submitted anonymously and held by the Scottish Daily Record.",
       "quoteSource": "Calvine photo provenance file (summary)",
-      "quoteConfidence": "web article quote — summary of record",
+      "quoteConfidence": "Medium — public record/reporting anchored to surviving print trail; not original-negative verified.",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Surviving-print public trail with Sheffield Hallam/Craig Lindsay custody attribution; original negative and reported remaining prints unavailable.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1990-CV-01",
@@ -12799,11 +12855,19 @@
       "sourceRecords": [
         {
           "citation": "CALVINE-1990 · Sheffield Hallam release (2022) / MoD file record",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "surviving-print-public-custody-trail",
+          "provenance": "Craig Lindsay / Sheffield Hallam / David Clarke public release trail",
           "locator": "CALVINE-1990",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Surviving print reproduction publicly surfaced in 2022 after decades unavailable",
+            "Attribution chain ties the print to Craig Lindsay and Sheffield Hallam University context",
+            "Image record supports the existence of a notable surviving print and public MoD-file controversy"
+          ],
+          "limitations": [
+            "Not the original negative and not all reported prints",
+            "Does not establish object identity or rule out conventional/photographic explanations",
+            "Public reporting and surviving-print custody do not equal a complete MoD investigative file"
+          ]
         }
       ],
       "phenomena": {
@@ -12864,6 +12928,14 @@
           "publisher": "Sheffield Hallam release / Atlas archival copy",
           "scope": "archival-reproduction",
           "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg"
+        },
+        {
+          "label": "Sheffield Hallam / David Clarke — Calvine photograph archive coverage",
+          "url": "https://www.thestar.co.uk/news/people/sheffield-hallam-university-top-secret-ministry-of-defence-ufo-photo-now-in-sheffield-hallam-archives-3805049",
+          "publisher": "The Star / Sheffield Hallam coverage",
+          "access": "Public",
+          "scope": "institutional-public-reporting",
+          "note": "Reports the surviving Calvine print entering Sheffield Hallam orbit through David Clarke/Craig Lindsay; useful custody trail, not original MoD negative."
         }
       ]
     },
@@ -12872,7 +12944,7 @@
       "quoteSource": "Ariel School investigation files & child witness drawings (summary)",
       "quoteConfidence": "web article quote — summary of historical record",
       "significance": "High significance",
-      "sourceQuality": "Public-record trail",
+      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1994-AR-01",
@@ -12953,11 +13025,19 @@
       "sourceRecords": [
         {
           "citation": "ARIEL-1994 · interview footage corpus / follow-up study trail",
-          "sourceType": "public-record-trail",
-          "provenance": "Public-record trail",
+          "sourceType": "contemporaneous-investigator-and-witness-trail",
+          "provenance": "Cynthia Hind / UFO AFRINEWS public mirror plus witness drawings/interview corpus",
           "locator": "ARIEL-1994",
-          "supports": [],
-          "limitations": []
+          "supports": [
+            "Preserves near-contemporaneous investigator reporting from Cynthia Hind after the Ruwa school reports",
+            "Documents children’s drawings/interview accounts as central evidence type",
+            "Supports that a large group of students reported an encounter, not merely a later retelling by one witness"
+          ],
+          "limitations": [
+            "Public mirror is not first-party archive custody for UFO AFRINEWS originals",
+            "Witness testimony/drawings do not establish object identity or origin",
+            "No official Zimbabwean school/government/police investigative packet is mapped in the Atlas record"
+          ]
         }
       ],
       "phenomena": {
@@ -13005,6 +13085,14 @@
           "role": "contextual-analysis",
           "mediaKind": "video",
           "note": "Case-specific narrative and counterargument review; witness interviews and original field notes remain the stronger evidentiary layer."
+        },
+        {
+          "label": "UFO Evidence — Cynthia Hind / UFO AFRINEWS Ariel School report mirror",
+          "url": "http://ufoevidence.org/Cases/case127.htm",
+          "publisher": "UFO Evidence mirror of Cynthia Hind / UFO AFRINEWS material",
+          "access": "Public",
+          "scope": "contemporaneous-investigator-report",
+          "note": "Public mirror preserving Cynthia Hind/Afrinews reporting and children’s drawing/interview context; mirror, not original publisher custody."
         }
       ],
       "images": [

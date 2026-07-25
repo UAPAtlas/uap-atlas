@@ -63,18 +63,18 @@
   "quotesSelected": 146,
   "quotesWithLocators": 146,
   "sourceRecordCount": 237,
-  "sourceDepthWeakCaseCount": 83,
+  "sourceDepthWeakCaseCount": 82,
   "sourceDepthEnrichmentCandidateCount": 118,
   "sourceDepthWeakThreshold": 25,
   "soleEnrichmentBacklog": "qa/enrichment-backlog.json",
   "enrichmentBacklogPolicy": "Only the score >= 25 weak queue is authorized for Atlas enrichment. Lower-scored candidates are diagnostic only and are not a backlog.",
   "sourceProfileCounts": {
     "complete-primary-packet": 20,
-    "secondary-only": 18,
+    "secondary-only": 14,
     "multi-source-independent": 11,
     "single-primary-record": 77,
-    "thin-summary": 19,
-    "mixed-provenance": 1
+    "mixed-provenance": 2,
+    "thin-summary": 22
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -138,8 +138,8 @@
       ]
     },
     "BF-1947-RW-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
+      "label": "mixed-provenance",
+      "primaryRecords": 1,
       "secondaryRecords": 1,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -792,12 +792,12 @@
       ]
     },
     "BF-1987-GB-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
       ]
     },
     "BF-1989-BW-01": {
@@ -820,21 +820,21 @@
       ]
     },
     "BF-1990-CV-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:craig lindsay / sheffield hallam / david clarke public release trail"
       ]
     },
     "BF-1994-AR-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
       ]
     },
     "BF-SF-12": {
@@ -1458,33 +1458,6 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-1990-CV-01",
-      "title": "Calvine Photograph",
-      "score": 70,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade",
-        "flagship/contradiction case"
-      ]
-    },
-    {
       "id": "BF-1933-MG-01",
       "title": "Magenta 1933 / Gabinetto RS/33 Claim",
       "score": 65,
@@ -1555,58 +1528,6 @@
         "independentSourceFamilies": 2,
         "sourceFamilies": [
           "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1987-GB-01",
-      "title": "Gulf Breeze Photo Series",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1994-AR-01",
-      "title": "Ariel School Encounter, Ruwa",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 5,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
           "other:public-record trail"
         ]
       },
@@ -1721,6 +1642,83 @@
         "empty supports field",
         "empty limitations field",
         "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1973-PG-01",
+      "title": "Pascagoula River Abduction Report",
+      "score": 55,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:public-record trail"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-03",
+      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "score": 55,
+      "sourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:public-record trail"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "empty supports field",
+        "empty limitations field"
+      ]
+    },
+    {
+      "id": "BF-SF-07",
+      "title": "Special File: The Estimate of the Situation",
+      "score": 55,
+      "sourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Public-record trail",
+      "quoteConfidence": "confirmed source-phrase quotation",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:public-record trail"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "empty supports field",
+        "empty limitations field"
       ]
     }
   ]
