@@ -1,11 +1,16 @@
 #!/usr/bin/env python3
 from pathlib import Path
 from playwright.sync_api import sync_playwright
-import json, sys
+import argparse, json, time
 
 ROOT=Path(__file__).resolve().parents[1]
-URL=(ROOT/'atlas-mobile.html').as_uri()+'?qa=20260718'
-OUT=ROOT/'qa'/'atlas-mobile-2026-07-18'
+parser=argparse.ArgumentParser()
+parser.add_argument('--html',default=str(ROOT/'atlas-mobile.html'))
+parser.add_argument('--url')
+parser.add_argument('--out',default=str(ROOT/'qa'/'atlas-mobile'))
+args=parser.parse_args()
+URL=args.url or Path(args.html).resolve().as_uri()+f'?qa={int(time.time())}'
+OUT=Path(args.out).resolve()
 OUT.mkdir(parents=True,exist_ok=True)
 results={}
 

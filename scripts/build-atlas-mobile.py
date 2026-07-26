@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Build the three-page iPhone Atlas from the canonical desktop artifact."""
+"""Inject the responsive three-page mobile layer into an Atlas desktop artifact."""
+import argparse
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -191,6 +193,8 @@ MOBILE_JS = r'''
 /* Atlas Mobile three-page controller */
 let mobilePage='map';
 const mobilePages=new Set(['map','cases','dossier']);
+const mobileMedia=matchMedia('(max-width:1080px)');
+const isMobileAtlas=()=>mobileMedia.matches;
 function renderMobilePeek(){
   const c=cases.find(x=>x.id===state.selectedCaseId);
   const meta=document.getElementById('peekMeta'), title=document.getElementById('peekTitle'), loc=document.getElementById('peekLoc');
@@ -248,12 +252,14 @@ function focusMobileCaseFromStack(id){
   setMobilePage('map');
 }
 caseList.addEventListener('click',e=>{
+  if(!isMobileAtlas()) return;
   const row=e.target.closest('.case-row'); if(!row) return;
   const id=row.dataset.id;
   e.preventDefault(); e.stopPropagation();
   focusMobileCaseFromStack(id);
 },true);
 caseList.addEventListener('keydown',e=>{
+  if(!isMobileAtlas()) return;
   if(e.key!=='Enter'&&e.key!==' ') return;
   const row=e.target.closest('.case-row'); if(!row) return;
   const id=row.dataset.id;
@@ -275,14 +281,14 @@ document.addEventListener('fullscreenchange',()=>{if(!document.fullscreenElement
 /* Pointer-based pan + pinch for iPhone. Mouse keeps the established handlers. */
 const mapPointers=new Map(); let pinchStart=null;
 svg.addEventListener('pointerdown',e=>{
-  if(e.pointerType==='mouse') return;
+  if(!isMobileAtlas()||e.pointerType==='mouse') return;
   e.preventDefault(); svg.setPointerCapture?.(e.pointerId); cancelViewAnim();
   mapPointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
   if(mapPointers.size===1) state.dragStart={x:e.clientX,y:e.clientY,view:{...state.view}};
   if(mapPointers.size===2){const p=[...mapPointers.values()];pinchStart={distance:Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y),view:{...state.view},center:{x:(p[0].x+p[1].x)/2,y:(p[0].y+p[1].y)/2}};}
 },{passive:false});
 svg.addEventListener('pointermove',e=>{
-  if(!mapPointers.has(e.pointerId)||e.pointerType==='mouse') return;
+  if(!isMobileAtlas()||!mapPointers.has(e.pointerId)||e.pointerType==='mouse') return;
   e.preventDefault(); mapPointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
   if(mapPointers.size===2&&pinchStart){
     const p=[...mapPointers.values()],dist=Math.hypot(p[0].x-p[1].x,p[0].y-p[1].y);
@@ -303,38 +309,85 @@ svg.addEventListener('pointerup',releaseMapPointer);svg.addEventListener('pointe
 const desktopUpdateUrl=updateUrl;
 updateUrl=function(){
   desktopUpdateUrl();
+  if(!isMobileAtlas()) return;
   const h=location.hash.replace(/^#/,''); const p=new URLSearchParams(h); p.set('page',mobilePage);
   const next='#'+p.toString(); lastWrittenHash=next; try{history.replaceState(null,'',location.pathname+location.search+next);}catch(_){location.hash=next;}
 };
 const originalOpenFullCase=openFullCase;
-openFullCase=function(id){originalOpenFullCase(id);mobilePage='dossier';normalizeMobileDossier();syncMobileNav();renderMobilePeek();};
+openFullCase=function(id){
+  originalOpenFullCase(id);
+  if(!isMobileAtlas()) return;
+  mobilePage='dossier';normalizeMobileDossier();syncMobileNav();renderMobilePeek();
+};
 const originalCloseFullCase=closeFullCase;
-closeFullCase=function(){if(matchMedia('(max-width:1080px)').matches){setMobilePage('cases');return;}originalCloseFullCase();};
+closeFullCase=function(){if(isMobileAtlas()){setMobilePage('cases');return;}originalCloseFullCase();};
 const originalSelectCase=selectCase;
 selectCase=function(id,zoom){originalSelectCase(id,zoom);renderMobilePeek();};
 
 const initialMobileParams=new URLSearchParams(location.hash.replace(/^#\/?/,''));
 mobilePage=mobilePages.has(initialMobileParams.get('page'))?initialMobileParams.get('page'):(urlCaseId?'dossier':'map');
 syncMobileNav();renderMobilePeek();
-if(mobilePage==='dossier'&&state.selectedCaseId){originalOpenFullCase(state.selectedCaseId);normalizeMobileDossier();}
+if(isMobileAtlas()&&mobilePage==='dossier'&&state.selectedCaseId){originalOpenFullCase(state.selectedCaseId);normalizeMobileDossier();}
 '''
+
+MOBILE_CSS_BLOCK = f"/* ATLAS_MOBILE_CSS_START */\n{MOBILE_CSS}\n/* ATLAS_MOBILE_CSS_END */"
+MOBILE_PEEK_BLOCK = f"<!-- ATLAS_MOBILE_PEEK_START -->\n{MOBILE_HTML_PEEK}\n<!-- ATLAS_MOBILE_PEEK_END -->"
+MOBILE_NAV_BLOCK = f"<!-- ATLAS_MOBILE_NAV_START -->\n{MOBILE_HTML_NAV}\n<!-- ATLAS_MOBILE_NAV_END -->"
+MOBILE_JS_BLOCK = f"/* ATLAS_MOBILE_JS_START */\n{MOBILE_JS}\n/* ATLAS_MOBILE_JS_END */"
 
 def require_replace(text: str, old: str, new: str, label: str) -> str:
     if old not in text:
         raise SystemExit(f"Build failed: missing {label}")
     return text.replace(old, new, 1)
 
-html = SOURCE.read_text(encoding="utf-8")
-html = html.replace("<title>UAP Atlas — Interactive Case Dossier</title>", "<title>UAP Atlas Mobile — Map, Cases, Dossier</title>", 1)
-html = require_replace(html, "</style>\n</head>", f"{MOBILE_CSS}\n</style>\n</head>", "style terminator")
+
+MOBILE_FULLSCREEN_BUTTON = '<button class="iconbtn map-fullscreen mobile-only" data-map-fullscreen aria-label="Open full-screen map">⛶</button>'
+
+
+def project_path(value: str) -> Path:
+    path = Path(value).expanduser()
+    return path if path.is_absolute() else ROOT / path
+
+
+def strip_mobile_layer(text: str) -> str:
+    """Return the desktop base so in-place responsive rebuilds stay idempotent."""
+    for start, end in (
+        ("/* ATLAS_MOBILE_CSS_START */", "/* ATLAS_MOBILE_CSS_END */"),
+        ("<!-- ATLAS_MOBILE_PEEK_START -->", "<!-- ATLAS_MOBILE_PEEK_END -->"),
+        ("<!-- ATLAS_MOBILE_NAV_START -->", "<!-- ATLAS_MOBILE_NAV_END -->"),
+        ("/* ATLAS_MOBILE_JS_START */", "/* ATLAS_MOBILE_JS_END */"),
+    ):
+        text = re.sub(re.escape(start) + r".*?" + re.escape(end) + r"\n?", "", text, count=1, flags=re.DOTALL)
+    # Remove pre-marker generated layers during a one-time migration.
+    text = re.sub(r"^[ \t]*" + re.escape(MOBILE_HTML_PEEK) + r"\n", "", text, count=1, flags=re.MULTILINE)
+    for block in (MOBILE_CSS + "\n", MOBILE_HTML_NAV + "\n", MOBILE_JS + "\n"):
+        text = text.replace(block, "", 1)
+    text = text.replace(MOBILE_FULLSCREEN_BUTTON, "", 1)
+    return text
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--source", default=str(SOURCE), help="Desktop/base Atlas HTML")
+parser.add_argument("--target", default=str(TARGET), help="Responsive output HTML")
+parser.add_argument("--combined", action="store_true", help="Preserve the shared desktop/mobile page title")
+args = parser.parse_args()
+source = project_path(args.source)
+target = project_path(args.target)
+
+html = strip_mobile_layer(source.read_text(encoding="utf-8"))
+if args.combined:
+    html = html.replace("<title>UAP Atlas Mobile — Map, Cases, Dossier</title>", "<title>UAP Atlas — Interactive Case Dossier</title>", 1)
+else:
+    html = html.replace("<title>UAP Atlas — Interactive Case Dossier</title>", "<title>UAP Atlas Mobile — Map, Cases, Dossier</title>", 1)
+html = require_replace(html, "</style>\n</head>", f"{MOBILE_CSS_BLOCK}\n</style>\n</head>", "style terminator")
 html = require_replace(
     html,
     '<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button></div>',
-    '<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button><button class="iconbtn map-fullscreen mobile-only" data-map-fullscreen aria-label="Open full-screen map">⛶</button></div>',
+    f'<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button>{MOBILE_FULLSCREEN_BUTTON}</div>',
     "map controls",
 )
-html = require_replace(html, "      <div class=\"legend\"><span>", f"      {MOBILE_HTML_PEEK}\n      <div class=\"legend\"><span>", "map legend")
-html = require_replace(html, '<div class="drawer-backdrop" id="drawerBackdrop">', f'{MOBILE_HTML_NAV}\n<div class="drawer-backdrop" id="drawerBackdrop">', "drawer backdrop")
-html = require_replace(html, "</script>\n</body>", f"{MOBILE_JS}\n</script>\n</body>", "script terminator")
-TARGET.write_text(html, encoding="utf-8")
-print(f"Built {TARGET} ({TARGET.stat().st_size:,} bytes)")
+html = require_replace(html, "      <div class=\"legend\"><span>", f"{MOBILE_PEEK_BLOCK}\n      <div class=\"legend\"><span>", "map legend")
+html = require_replace(html, '<div class="drawer-backdrop" id="drawerBackdrop">', f'{MOBILE_NAV_BLOCK}\n<div class="drawer-backdrop" id="drawerBackdrop">', "drawer backdrop")
+html = require_replace(html, "</script>\n</body>", f"{MOBILE_JS_BLOCK}\n</script>\n</body>", "script terminator")
+target.write_text(html, encoding="utf-8")
+print(f"Built {target} ({target.stat().st_size:,} bytes)")
