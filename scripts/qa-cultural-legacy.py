@@ -58,7 +58,9 @@ def main() -> None:
                     "requestfailed",
                     lambda request: failed_requests.append(
                         f"{request.url} :: {request.failure or 'unknown failure'}"
-                    ),
+                    )
+                    if "net::ERR_ABORTED" not in str(request.failure or "")
+                    else None,
                 )
                 page.on(
                     "console",
@@ -84,6 +86,11 @@ def main() -> None:
                     assert "CONTEXT · NOT EVIDENCE" in text
                     image = card.locator("img")
                     image.wait_for(state="visible")
+                    page.wait_for_function(
+                        "image => image.complete",
+                        arg=image.element_handle(),
+                        timeout=15_000,
+                    )
                     dimensions = image.evaluate(
                         "i => ({complete:i.complete,w:i.naturalWidth,h:i.naturalHeight})"
                     )
