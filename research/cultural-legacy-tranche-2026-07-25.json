@@ -1,0 +1,1226 @@
+{
+  "schemaVersion": 1,
+  "policy": "optional-cultural-context-layer-not-evidence",
+  "reviewedOn": "2026-07-26",
+  "caseCount": 146,
+  "counts": {
+    "none": 133,
+    "include": 13,
+    "defer": 0
+  },
+  "boundary": "Cultural context — not case evidence",
+  "cases": [
+    {
+      "id": "BF-1957-RB-01",
+      "title": "RB-47 ELINT Pursuit Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1933-MG-01",
+      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1944-FF-01",
+      "title": "Foo Fighters, European Theater",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Foo Fighters — band name",
+          "year": "1994–present",
+          "image": "assets/context/FOO-1944/foo-fighters-dave-grohl-cc-by.jpg",
+          "imageAlt": "Dave Grohl performing with a guitar under concert lights",
+          "connection": "Dave Grohl named Foo Fighters after the Second World War pilots’ term for unexplained aerial lights, carrying an obscure wartime label into mainstream music. The name documents the reports’ linguistic legacy; it does not establish what the wartime objects were.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Clash — Dave Grohl on the Foo Fighters name",
+          "sourceUrl": "https://www.clashmusic.com/news/foo-fighters-on-their-band-name/",
+          "credit": "Roger Woolman / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dave_Grohl_(132997591).jpeg",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        }
+      ]
+    },
+    {
+      "id": "BF-1946-GR-01",
+      "title": "Scandinavian Ghost Rockets",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1947-KA-01",
+      "title": "Kenneth Arnold Mount Rainier Sighting",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "‘Flying saucer’ enters the modern vocabulary",
+          "year": 1947,
+          "image": "assets/context/ARNOLD-1947/chicago-sun-flying-saucers-headline.jpg",
+          "imageAlt": "Chicago Sun headline reading Supersonic Flying Saucers Sighted by Idaho Pilot",
+          "connection": "Press coverage of Kenneth Arnold’s June 1947 report rapidly popularized the phrase ‘flying saucer,’ giving the modern UFO era its dominant visual and linguistic shorthand. The headline documents the report’s cultural impact, not the identity of the objects Arnold described.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Smithsonian National Air and Space Museum — 1947: Year of the Flying Saucer",
+          "sourceUrl": "https://airandspace.si.edu/stories/editorial/1947-year-flying-saucer",
+          "credit": "Chicago Sun / United Press / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg",
+          "license": "Public domain",
+          "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+        }
+      ]
+    },
+    {
+      "id": "BF-1947-MI-01",
+      "title": "Maury Island Affair",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1947-RW-01",
+      "title": "Roswell Army Air Field Debris Recovery",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "International UFO Museum and Roswell UFO Festival",
+          "year": "1990s–present",
+          "image": "assets/context/ROSWELL-1947/international-ufo-museum-facade-cc-by.jpg",
+          "imageAlt": "Facade and entrance signs of the International UFO Museum and Research Center in Roswell",
+          "connection": "The 1947 incident became a defining part of Roswell’s civic identity, anchoring the International UFO Museum and a city-supported annual festival with concerts, tours, costume events, and alien-themed programming. That cultural prominence does not authenticate any crash-retrieval claim.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "City of Roswell — UFO Festival Report 2023",
+          "sourceUrl": "https://www.roswell-nm.gov/1852/UFO-Festival-Report-2023",
+          "credit": "Myotus / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:International_UFO_Museum-facade.jpg",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        }
+      ]
+    },
+    {
+      "id": "BF-1948-AZ-01",
+      "title": "Aztec Crash Fraud",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1948-CW-01",
+      "title": "Chiles-Whitted Airliner Encounter",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1948-GD-01",
+      "title": "Gorman Dogfight, Fargo",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1948-MT-01",
+      "title": "Mantell Pursuit Fatality",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-07",
+      "title": "Special File: The Estimate of the Situation",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1949-LA-00",
+      "title": "Los Alamos Aerial Phenomena Conference",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1950-GF-01",
+      "title": "Great Falls / Mariana Film",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1952-DC-01",
+      "title": "Washington D.C. Radar Flap",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1952-TM-01",
+      "title": "Tremonton / Newhouse Film",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-03",
+      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1953-RP-00",
+      "title": "Robertson Panel Recommendations",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1956-LB-01",
+      "title": "Lakenheath-Bentwaters Radar-Visual Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-LV-01",
+      "title": "Levelland Vehicle-Interference Wave",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-04",
+      "title": "Special File: Chapel Hill Gravity Conference",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1958-TR-01",
+      "title": "Trindade Island Navy Photographs",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-02",
+      "title": "Special File: VZ-9AV Avrocar",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "New Hampshire historical highway marker",
+          "year": 2011,
+          "image": "assets/context/HILL-1961/betty-barney-hill-historical-marker-cc-by-nc-nd.jpg",
+          "imageAlt": "New Hampshire historical marker describing the Betty and Barney Hill incident",
+          "connection": "New Hampshire installed an official highway marker near the Hills’ route fifty years after the reported encounter, recognizing the story as part of the state’s public history. The marker records the narrative’s historical and cultural reach; it does not authenticate an abduction.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "New Hampshire Public Radio — Marking History",
+          "sourceUrl": "https://www.nhpr.org/nh-news/2014-03-28/marking-history-the-betty-and-barney-hill-incident-in-lincoln",
+          "credit": "Jimmy Emerson, DVM / Flickr",
+          "imageSourceUrl": "https://www.flickr.com/photos/auvet/33896423598",
+          "license": "CC BY-NC-ND 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+        }
+      ]
+    },
+    {
+      "id": "BF-NASA-D015",
+      "title": "Astronaut Scientific Debriefings",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1964-SC-01",
+      "title": "Socorro Landing / Lonnie Zamora",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1965-KB-01",
+      "title": "Kecksburg Object Recovery Narrative",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Kecksburg acorn monument and UFO Festival",
+          "year": "Present-day legacy",
+          "image": "assets/context/KECKSBURG-1965/kecksburg-acorn-monument-cc-by-sa.jpg",
+          "imageAlt": "Large acorn-shaped Kecksburg UFO monument displayed outdoors",
+          "connection": "An acorn-shaped monument and the annual Kecksburg Volunteer Fire Department UFO Festival turned the alleged 1965 crash into enduring local iconography and a recurring community event. The monument commemorates the narrative; it is not a recovered object.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "GO Laurel Highlands — Kecksburg UFO Festival",
+          "sourceUrl": "https://www.golaurelhighlands.com/listing/kecksburg-ufo-festival-&-store/10436/",
+          "credit": "Ryright / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kecksburg_UFO.JPG",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        }
+      ]
+    },
+    {
+      "id": "BF-NASA-D016",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 1",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D017",
+      "title": "Gemini 4 Preliminary Crew Debriefing Part 2",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D019",
+      "title": "Gemini 5 Technical Debriefing Part 1",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D020",
+      "title": "Gemini 5 Technical Debriefing Part 2",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D021",
+      "title": "Gemini 7 Technical Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1966-CC-00",
+      "title": "Condon Committee Pre-Judgment Record",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1966-WS-01",
+      "title": "Westall School Mass Sighting",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D022",
+      "title": "Gemini 9 Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1967-MA-01",
+      "title": "Malmstrom AFB Missile Shutdown Incident",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1967-SH-01",
+      "title": "Shag Harbour Water Impact",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D018",
+      "title": "Gemini 4 Experiment Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-01",
+      "title": "Himalayan UAP Reports — Series Index",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-MN-01",
+      "title": "Minot AFB Multi-Sensor Events",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-02",
+      "title": "Northeast Nepal / North Sikkim Correlated Report",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-03",
+      "title": "Thimphu Bluish Object Report",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-04",
+      "title": "Chang La–Fukche–Koyul Light and Blasts",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-05",
+      "title": "Ane La Circular-Path Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-06",
+      "title": "Fukche–Koyul–Demchok Rocket-Like Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1968-HIM-07",
+      "title": "Kaski Blazing Object and Disc-Retrieval Claim",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D001",
+      "title": "Apollo 12 Transcript",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D004",
+      "title": "Apollo 11 Technical Crew Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM1",
+      "title": "Apollo 12 Visual Material 1",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM2",
+      "title": "Apollo 12 Visual Material 2",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM3",
+      "title": "Apollo 12 Visual Material 3",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM4",
+      "title": "Apollo 12 Visual Material 4",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM5",
+      "title": "Apollo 12 Visual Material 5",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D026",
+      "title": "Apollo 14 Debriefing Video Record",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D002",
+      "title": "Apollo 17 Transcript",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-VM6",
+      "title": "Apollo 17 Visual Material",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1973-CY-01",
+      "title": "Coyne Helicopter Near-Collision",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1973-PG-01",
+      "title": "Pascagoula River Abduction Report",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Pascagoula UFO historical marker",
+          "year": 2019,
+          "image": "assets/context/PASCAGOULA-1973/pascagoula-historical-marker-wlox.jpg",
+          "imageAlt": "Calvin Parker standing beside the Pascagoula UFO historical marker at Lighthouse Park",
+          "connection": "Pascagoula installed a riverfront historical marker commemorating Parker and Hickson’s account, formally incorporating the 1973 report into the city’s public memory. The marker commemorates the narrative and its local impact; it does not authenticate an abduction.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "WLOX — historical marker unveiling in Pascagoula",
+          "sourceUrl": "https://www.wlox.com/2019/06/23/historical-marker-unveiled-honoring-possible-alien-abduction-pascagoula/",
+          "credit": "Tristan Ruppert / WLOX",
+          "imageSourceUrl": "https://www.wlox.com/2019/06/23/historical-marker-unveiled-honoring-possible-alien-abduction-pascagoula/",
+          "rightsStatus": "Copyrighted editorial image — source credited"
+        }
+      ]
+    },
+    {
+      "id": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D005",
+      "title": "Apollo 17 Crew Debriefing for Science",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D006",
+      "title": "Apollo 17 Technical Crew Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D007",
+      "title": "Skylab Technical Crew Debriefing",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Fire in the Sky",
+          "year": 1993,
+          "image": "assets/context/WALTON-1975/fire-in-the-sky-theatrical-poster.jpg",
+          "imageAlt": "Theatrical poster for the 1993 film Fire in the Sky",
+          "connection": "Paramount’s feature film adapted Walton’s account into one of popular culture’s most recognizable alien-abduction narratives. Its dramatized imagery materially shaped public memory of the case but is not independent evidence for the reported event.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "American Film Institute Catalog — Fire in the Sky",
+          "sourceUrl": "https://catalog.afi.com/Catalog/moviedetails/59525",
+          "credit": "Paramount Pictures / Concept Arts",
+          "imageSourceUrl": "https://www.impawards.com/1993/fire_in_the_sky.html",
+          "rightsStatus": "Copyrighted theatrical artwork — source credited"
+        }
+      ]
+    },
+    {
+      "id": "BF-SF-13",
+      "title": "Special File: Billy Meier Contact Corpus",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "The X-Files — ‘I Want to Believe’",
+          "year": 1993,
+          "image": "assets/context/MEIER-1975/x-files-i-want-to-believe-variants-cc-by-sa.jpg",
+          "imageAlt": "Four versions of The X-Files I Want to Believe poster, including the original Season 1–3 design based on a Billy Meier photograph.",
+          "connection": "The original Season 1–3 poster used a photograph from Meier’s 1975 UFO corpus, turning one of his contested images into television’s defining symbol of UFO belief. Later versions replaced the photograph after an intellectual-property dispute.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Smithsonian Magazine — Chris Carter on the poster’s Meier origin",
+          "sourceUrl": "https://www.smithsonianmag.com/arts-culture/qampa-chris-carter-of-the-x-files-1194526/",
+          "credit": "Johan Kaufmann / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Posters_%22I_want_to_believe%22_from_X-Files_series.jpg",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        }
+      ]
+    },
+    {
+      "id": "BF-1976-TH-01",
+      "title": "Tehran F-4 Intercept Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1977-CL-01",
+      "title": "Colares Flap / Operation Prato",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1978-KK-01",
+      "title": "Kaikoura Lights, Filmed Encounters",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1978-VL-01",
+      "title": "Valentich Disappearance, Bass Strait",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1980-CLD-01",
+      "title": "Cash-Landrum Injury Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1980-PE-01",
+      "title": "La Joya Intercept / Santa María Engagement",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1980-RF-01",
+      "title": "Rendlesham Forest / RAF Bentwaters Incident",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Rendlesham Forest UFO Trail",
+          "year": "Present-day legacy",
+          "image": "assets/context/RENDLESHAM-1980/rendlesham-ufo-trail-cc-by-sa.jpg",
+          "imageAlt": "Triangular sign marking the start of the Rendlesham Forest UFO Trail",
+          "connection": "Forestry England maintains a dedicated UFO Trail through areas associated with the December 1980 reports, embedding the incident in the forest’s public interpretation and visitor experience. The trail commemorates the case; it does not independently corroborate it.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Forestry England — UFO Trail at Rendlesham Forest",
+          "sourceUrl": "https://www.forestryengland.uk/rendlesham-forest/ufo-trail-rendlesham-forest",
+          "credit": "Colin Park / Geograph Britain and Ireland",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Start_of_UFO_Trail_at_Rendlesham_Forest_Centre,_Suffolk_-_geograph.org.uk_-_5620397.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
+    },
+    {
+      "id": "BF-SF-11",
+      "title": "Special File: Bennewitz–Doty Disinformation Affair",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1981-TP-01",
+      "title": "Trans-en-Provence Trace Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-05",
+      "title": "Special File: Majestic 12 Documents",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1986-JAL-01",
+      "title": "Japan Airlines 1628 Alaska Encounter",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1987-GB-01",
+      "title": "Gulf Breeze Photo Series",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1989-BW-01",
+      "title": "Belgian Wave / F-16 Radar Case",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-01",
+      "title": "Special File: Bob Lazar / S-4",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1990-CV-01",
+      "title": "Calvine Photograph",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1994-AR-01",
+      "title": "Ariel School Encounter, Ruwa",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Ariel Phenomenon",
+          "year": 2022,
+          "image": "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg",
+          "imageAlt": "Official poster for the documentary Ariel Phenomenon",
+          "connection": "Randall Nickerson’s feature documentary centered the former students’ long-term experiences and introduced the Ariel School account to a much wider international audience. The film documents later testimony and reception; it does not independently verify the reported encounter.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Ariel Phenomenon — official film site",
+          "sourceUrl": "https://arielphenomenon.com/",
+          "credit": "String Theory Films / Randall Nickerson",
+          "imageSourceUrl": "https://arielphenomenon.com/wp-content/uploads/2022/04/ARposter_w_tagline.jpg",
+          "rightsStatus": "Copyrighted promotional artwork — source credited"
+        }
+      ]
+    },
+    {
+      "id": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1996-VG-01",
+      "title": "Varginha Creature Narrative",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "Memorial do ET and Varginha’s civic identity",
+          "year": 2022,
+          "image": "assets/context/VARGINHA-1996/varginha-spaceship-water-tower-cc-by-sa.jpg",
+          "imageAlt": "Saucer-shaped water tower and landmark in Varginha, Brazil",
+          "connection": "Varginha incorporated the 1996 narrative into its civic landscape through the saucer-shaped landmark, the municipal Memorial do ET, public sculpture, and themed tourism. The city’s cultural adoption documents the case’s influence, not the identity of any reported creature.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Municipality of Varginha — Memorial do ET inauguration",
+          "sourceUrl": "https://www.varginha.mg.gov.br/portal/noticias/0/3/7216/prefeitura-de-varginha-inaugura-memorial-do-et",
+          "credit": "ubirajararodrigues51 / Wikimedia Commons",
+          "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nave_Espacial_de_Varginha.jpg",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        }
+      ]
+    },
+    {
+      "id": "BF-NASA-D030",
+      "title": "STS-80 Unidentified Object Image 1",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D031",
+      "title": "STS-80 Unidentified Object Image 2",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-NASA-D032",
+      "title": "STS-80 Unidentified Object Image 3",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1997-PH-01",
+      "title": "Phoenix Lights Mass Sighting",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "The Phoenix Lights Documentary",
+          "year": 2005,
+          "image": "assets/context/PHOENIX-1997/phoenix-lights-documentary-cover.jpg",
+          "imageAlt": "DVD cover for The Phoenix Lights Documentary",
+          "connection": "The independently produced documentary consolidated witness interviews, reenactments, and the case’s expanding public mythology, becoming a major vehicle for its continued recognition. The film reflects later interpretation and advocacy, not independent proof of a single extraordinary craft.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Phoenix Lights Network — documentary history and credits",
+          "sourceUrl": "https://thephoenixlights.net/documentary/",
+          "credit": "Health Education Learning Programs / Steve Lantz Productions",
+          "imageSourceUrl": "https://thephoenixlights.net/wp-content/uploads/2024/11/DVD_cover_over.jpg",
+          "rightsStatus": "Copyrighted documentary artwork — source credited"
+        }
+      ]
+    },
+    {
+      "id": "BF-SF-06",
+      "title": "Special File: 'Alien Interview' / Victor Tape",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-08",
+      "title": "Special File: COMETA Report",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2004-NM-01",
+      "title": "Nimitz / Tic Tac Encounter",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2006-OH-01",
+      "title": "O'Hare Airport Disc Sighting",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2008-SV-01",
+      "title": "Stephenville Radar-Correlated Sightings",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-09",
+      "title": "Special File: AAWSAP / AATIP & Skinwalker",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2013-AG-01",
+      "title": "Aguadilla Puerto Rico Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2014-CH-01",
+      "title": "Chilean Navy IR Video (CEFAA)",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2015-NAV-01",
+      "title": "2015 Atlantic Navy Video Series",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2015-PX-04",
+      "title": "Pantex Unidentified Object Report",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2015-GIMBAL-01",
+      "title": "Gimbal Navy Sensor Event",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2015-GOFAST-01",
+      "title": "GoFast Navy Sensor Event",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located in authoritative sources; visual or thematic resemblance alone was insufficient.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2019-OM-01",
+      "title": "USS Omaha Sphere & Swarm Events",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-00",
+      "title": "Arabian Gulf 2020 Mission-Report Series",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AS-01",
+      "title": "Arabian Sea Range Fouler",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-JP-01",
+      "title": "Range Fouler Multiple Objects — Metadata Conflict",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D3",
+      "title": "Four Objects in Sequence",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D4",
+      "title": "Object Accelerating East",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D5A",
+      "title": "Constant-Speed Object at FL160–170",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D5B",
+      "title": "Two Objects Accelerating South",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D6",
+      "title": "Probable UAP — Sparse Mission Entry",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2020-AG-D7",
+      "title": "Windborne Balloon-Like Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2022-CS-01",
+      "title": "Cheyenne Mountain Structured Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2022-IQ-02",
+      "title": "Iraq ISR Object — No Positive Identification",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2022-ME-01",
+      "title": "Middle East Multi-UAP Observation",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-BC-01",
+      "title": "Restricted-Facility Bronze Cigar Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-GR-00",
+      "title": "Greece Maritime FMV Series — October 2023",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-IQ-20",
+      "title": "Northeastern Syria Targeting-Pod Bright Objects",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-LG-01",
+      "title": "Langley AFB Drone Incursions",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-SY-74",
+      "title": "Syria Near-Aircraft Bouncy-Ball Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-WUS-03",
+      "title": "Western U.S. Federal LE Encounters",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-10",
+      "title": "Special File: Grusch Testimony & ODNI–AARO Record",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-GR-33",
+      "title": "Greece Maritime Right-Angle Maneuvers",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2023-GR-35",
+      "title": "Greece Maritime Object Toward Land",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2024-ECS-01",
+      "title": "Ayn al-Asad Live-Fire Sensor Incident",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2024-GR-25",
+      "title": "Greece SWIR Diamond Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2024-NE-02",
+      "title": "Northeastern Orb Surveillance",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2025-USIC-01",
+      "title": "Senior USIC Test-Range Orb Encounters",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-2025-YS-01",
+      "title": "Yellow Sea IR Area of Contrast",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1994-KZ-01",
+      "title": "Kazakhstan Commercial Aviation Encounter",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1952-PL-01",
+      "title": "Port Lyautey 4,900 MPH Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1952-BE-01",
+      "title": "Bethesda Shape-Shifting Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-NC-01",
+      "title": "Northern California Coast Radar Skinpaint",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-B47-01",
+      "title": "B-47 Supersonic Acceleration Encounter",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1949-KD-01",
+      "title": "Kodiak Naval Base 1,500 MPH Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1952-R5D-01",
+      "title": "R5D Pilot — Bright Disc That Circled the Aircraft",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1965-G7-01",
+      "title": "Gemini 7 Astronaut 'Bogey' Report",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1949-SA-01",
+      "title": "San Andres Islands — Three Color-Changing Spheres",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1949-HF-01",
+      "title": "Hickam Field — Oscillating Object, No Sound",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1956-DF-01",
+      "title": "DeFuniak Springs — Instantaneous 400-Yard Movement",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1954-KL-01",
+      "title": "Killeen — Silent Near-Vertical Ascent",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1955-USSR-01",
+      "title": "USSR — Objects at 12,000 km/h (Mach 10)",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1973-SL-01",
+      "title": "Skylab — 'One or Two Objects Up There With Us'",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-HT-01",
+      "title": "Hastings MI — Arrowhead Formation from Separating Object",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-CG-01",
+      "title": "Three Cigar Objects in 'Y' Formation",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1951-YK-01",
+      "title": "Yorkshire 'Perfect Flying Saucer' — RAF Standing Committee",
+      "decision": "include",
+      "reason": "Implemented locally after independent connection, source, image, and license verification.",
+      "candidates": [
+        {
+          "title": "‘Topcliffe Airmen Sight a Flying Saucer’",
+          "year": 1952,
+          "image": "assets/context/TOPCLIFFE-1952/yorkshire-evening-press-topcliffe-front-page.jpg",
+          "imageAlt": "Yorkshire Evening Press front page reporting the RAF Topcliffe flying saucer sighting",
+          "connection": "The Yorkshire Evening Press made the Topcliffe report its front-page splash during Exercise Mainbrace, turning an RAF observation into immediate public iconography and reinforcing the postwar ‘flying saucer’ vocabulary. The newspaper records contemporary reception, not the object’s identity.",
+          "contextStatus": "Cultural context — not case evidence",
+          "sourceLabel": "Dr David Clarke — 70th anniversary of the RAF’s UFO project",
+          "sourceUrl": "https://drdavidclarke.co.uk/2022/09/18/70th-anniversary-of-the-rafs-ufo-project/",
+          "credit": "Yorkshire Evening Press / David Clarke",
+          "imageSourceUrl": "https://drdavidclarke.co.uk/wp-content/uploads/2022/09/topcliffe2.jpg",
+          "rightsStatus": "Historical newspaper image — source credited"
+        }
+      ]
+    },
+    {
+      "id": "BF-1985-PNG-01",
+      "title": "Papua New Guinea — High-Altitude Overflights",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1957-RA-01",
+      "title": "Robins AFB — Object That 'Did Not Appear Conventional'",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-SF-14",
+      "title": "Special File: CIA OSE Study Group — 1952 Internal UFO Review",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    },
+    {
+      "id": "BF-1951-FM-01",
+      "title": "Fort Monmouth Radar-Visual Incident",
+      "decision": "none",
+      "reason": "No consequential documented cultural artifact located that meets the Cultural Legacy inclusion standard.",
+      "candidates": []
+    }
+  ]
+}
