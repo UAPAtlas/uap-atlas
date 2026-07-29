@@ -25,6 +25,7 @@ jobs:
         run: |
           python3 validate_atlas.py
           python3 scripts/test-atlas-health-contract.py
+          python3 scripts/test-atlas-payload-contract.py
           node scripts/test-atlas-single-entry.mjs
           node scripts/test-source-availability-contract.mjs
           node scripts/test-evidence-lens.mjs

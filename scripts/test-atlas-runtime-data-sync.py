@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression gate: public HTML embedded data must match canonical Atlas JSON."""
+"""Regression gate: public runtime data must match canonical Atlas JSON."""
 from __future__ import annotations
 
 import json
@@ -20,17 +20,20 @@ def embedded(text: str, name: str) -> object:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("html", nargs="?", default="index.html")
-    parser.add_argument("--atlas", default="atlas-data.json", help="Expected embedded Atlas JSON, relative to repository root")
+    parser.add_argument("--atlas", default="atlas-data.json", help="Expected Atlas JSON, relative to repository root")
+    parser.add_argument("--runtime", default="atlas-runtime.js", help="External runtime payload, relative to repository root")
     args = parser.parse_args()
     html_path = (ROOT / args.html).resolve()
     text = html_path.read_text()
+    runtime_path = (ROOT / args.runtime).resolve()
+    runtime_text = text if has_constant(text, "atlasData") else runtime_path.read_text()
     atlas_path = (ROOT / args.atlas).resolve()
     atlas = json.loads(atlas_path.read_text())
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
     source_availability = json.loads((ROOT / "source-availability.json").read_text())
-    embedded_atlas = embedded(text, "atlasData")
-    embedded_index = embedded(text, "sourceFileIndex")
-    embedded_availability = embedded(text, "sourceAvailabilityIndex") if has_constant(text, "sourceAvailabilityIndex") else None
+    embedded_atlas = embedded(runtime_text, "atlasData")
+    embedded_index = embedded(runtime_text, "sourceFileIndex")
+    embedded_availability = embedded(runtime_text, "sourceAvailabilityIndex") if has_constant(runtime_text, "sourceAvailabilityIndex") else None
 
     assert len(atlas.get("cases", [])) == 146
     normalized = json.loads(json.dumps(embedded_atlas))

@@ -49,12 +49,15 @@ stale_urls = {
     "https://www.kathleen-marden.com/betty-and-barney-hill-archive.php",
     "https://www.atsb.gov.au/media/5226347/197802563.pdf",
 }
-for rel in (
+source_artifacts = [
     "atlas-data.json",
     "assets/generated/atlas-data.generated.json",
     "public-source-manifest.json",
     args.html,
-):
+]
+if (ROOT / "atlas-runtime.js").exists():
+    source_artifacts.append("atlas-runtime.js")
+for rel in source_artifacts:
     text = (ROOT / rel).read_text()
     for url in stale_urls:
         if url in text:

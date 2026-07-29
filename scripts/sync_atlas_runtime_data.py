@@ -85,6 +85,7 @@ def preserve_map_fields(canonical: dict, embedded_atlas: dict, generated_map: di
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--html", default="index.html", help="HTML path relative to repository root")
+    parser.add_argument("--runtime", default="atlas-runtime.js", help="External runtime payload relative to repository root")
     parser.add_argument("--map-data", default="assets/generated/atlas-map.json", help="Generated map payload relative to repository root")
     args = parser.parse_args()
 
@@ -95,10 +96,21 @@ def main() -> None:
     if len(atlas.get("cases", [])) != 146:
         raise RuntimeError(f"Refusing to sync unexpected case count: {len(atlas.get('cases', []))}")
 
-    text = html_path.read_text()
+    html_text = html_path.read_text()
+    runtime_path = ROOT / args.runtime
+    external_runtime = not has_constant(html_text, "atlasData")
+    if external_runtime:
+        if not runtime_path.exists():
+            raise RuntimeError(f"External Atlas runtime is missing: {runtime_path}")
+        runtime_text = runtime_path.read_text()
+    else:
+        runtime_text = html_text
     map_path = ROOT / args.map_data
     generated_map = json.loads(map_path.read_text()) if map_path.exists() else None
-    atlas = preserve_map_fields(atlas, embedded_constant(text, "atlasData"), generated_map)
+    existing_runtime_atlas = embedded_constant(runtime_text, "atlasData")
+    if not isinstance(existing_runtime_atlas, dict):
+        raise RuntimeError("Atlas runtime payload must be an object")
+    atlas = preserve_map_fields(atlas, existing_runtime_atlas, generated_map)
     projected = [
         case for case in atlas["cases"]
         if case.get("coordinateGenerated") is True
@@ -107,15 +119,20 @@ def main() -> None:
     ]
     if len(projected) != 120:
         raise RuntimeError(f"Refusing to sync runtime without 120 projected cases: {len(projected)}")
-    text = replace_constant(text, "atlasData", atlas)
-    text = replace_constant(text, "sourceFileIndex", source_index)
-    if has_constant(text, "sourceAvailabilityIndex"):
-        text = replace_constant(text, "sourceAvailabilityIndex", source_availability)
+    runtime_text = replace_constant(runtime_text, "atlasData", atlas)
+    runtime_text = replace_constant(runtime_text, "sourceFileIndex", source_index)
+    if has_constant(runtime_text, "sourceAvailabilityIndex"):
+        runtime_text = replace_constant(runtime_text, "sourceAvailabilityIndex", source_availability)
     else:
-        text = insert_constant_after(text, "sourceFileIndex", "sourceAvailabilityIndex", source_availability)
-    html_path.write_text(text)
+        runtime_text = insert_constant_after(runtime_text, "sourceFileIndex", "sourceAvailabilityIndex", source_availability)
+    if external_runtime:
+        runtime_path.write_text(runtime_text)
+        synced_target = runtime_path.name
+    else:
+        html_path.write_text(runtime_text)
+        synced_target = html_path.name
     print(
-        f"synced {html_path.name}: {len(atlas['cases'])} cases / {len(projected)} projected, "
+        f"synced {synced_target}: {len(atlas['cases'])} cases / {len(projected)} projected, "
         f"{len(source_index)} source tokens, "
         f"{source_availability['summary']['indexedPaths']} availability entries"
     )

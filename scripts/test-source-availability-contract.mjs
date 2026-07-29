@@ -9,6 +9,12 @@ const root = path.resolve(__dirname, '..');
 const htmlArg = process.argv[2] || 'index.html';
 const htmlPath = path.resolve(root, htmlArg);
 const html = fs.readFileSync(htmlPath, 'utf8');
+const runtimeSource = html.includes('const sourceAvailabilityIndex = ')
+  ? html
+  : fs.readFileSync(path.join(root, 'atlas-runtime.js'), 'utf8');
+const appSource = html.includes('function sourceAvailability(')
+  ? html
+  : fs.readFileSync(path.join(root, 'atlas-app.js'), 'utf8');
 const atlas = JSON.parse(fs.readFileSync(path.join(root, 'atlas-data.json'), 'utf8'));
 const sourceIndex = JSON.parse(fs.readFileSync(path.join(root, 'source-file-index.json'), 'utf8'));
 const contract = JSON.parse(fs.readFileSync(path.join(root, 'source-availability.json'), 'utf8'));
@@ -51,21 +57,21 @@ for (const [p, expectedStatus] of Object.entries(requiredStatuses)) {
   if (got !== expectedStatus) throw new Error(`${p}: got ${got} want ${expectedStatus}`);
 }
 
-const constantStart = html.indexOf('const sourceAvailabilityIndex = ');
+const constantStart = runtimeSource.indexOf('const sourceAvailabilityIndex = ');
 if (constantStart < 0) throw new Error('sourceAvailabilityIndex constant missing from runtime');
-const functionStart = html.indexOf('function sourceAvailability(');
-const functionEnd = html.indexOf('function titleCase', functionStart);
+const functionStart = appSource.indexOf('function sourceAvailability(');
+const functionEnd = appSource.indexOf('function titleCase', functionStart);
 if (functionStart < 0 || functionEnd < 0) throw new Error('source availability production functions missing');
 
 const prefix = 'const sourceAvailabilityIndex = ';
 const valueStart = constantStart + prefix.length;
-const semi = html.indexOf(';', valueStart);
-const embedded = JSON.parse(html.slice(valueStart, semi));
+const semi = runtimeSource.indexOf(';', valueStart);
+const embedded = JSON.parse(runtimeSource.slice(valueStart, semi));
 if (JSON.stringify(embedded) !== JSON.stringify(contract)) throw new Error('Embedded source availability contract is stale');
 
 const context = { sourceAvailabilityIndex: embedded };
 vm.createContext(context);
-vm.runInContext(html.slice(functionStart, functionEnd), context);
+vm.runInContext(appSource.slice(functionStart, functionEnd), context);
 
 let actionable = 0;
 let custodyOnly = 0;
@@ -78,17 +84,17 @@ for (const p of indexedPaths) {
   if (row.status === 'unavailable') unavailable += 1;
 }
 if (!custodyOnly) throw new Error('Expected custody-only source records');
-if (html.includes("files.map(f=>`<a class=\"file-link\"")) {
+if (appSource.includes("files.map(f=>`<a class=\"file-link\"")) {
   throw new Error('Source renderer still turns every mapped source into an anchor');
 }
-if (!html.includes('Held in Atlas research corpus—not publicly served')) {
+if (!(appSource + runtimeSource).includes('Held in Atlas research corpus—not publicly served')) {
   throw new Error('Transparent custody-only drawer copy missing');
 }
-if (!html.includes('source-custody')) throw new Error('Custody-only source state markup missing');
-if (/h\.mediaUrl\?`<a class="file-link"/.test(html)) {
+if (!appSource.includes('source-custody')) throw new Error('Custody-only source state markup missing');
+if (/h\.mediaUrl\?`<a class="file-link"/.test(appSource)) {
   throw new Error('Featured media still bypasses the source availability contract');
 }
-if (!html.includes('sourceDisclosureHtml({path:h.mediaUrl,kind:mediaKind(h.mediaUrl)})')) {
+if (!appSource.includes('sourceDisclosureHtml({path:h.mediaUrl,kind:mediaKind(h.mediaUrl)})')) {
   throw new Error('Featured media availability-aware renderer missing');
 }
 

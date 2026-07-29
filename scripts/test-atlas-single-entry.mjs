@@ -7,6 +7,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const indexPath = path.resolve(process.argv[2] || path.join(root, 'index.html'));
 const legacyPath = path.resolve(process.argv[3] || path.join(root, 'atlas-mobile.html'));
 const index = fs.readFileSync(indexPath, 'utf8');
+const app = index.includes('/* ATLAS_MOBILE_JS_START */')
+  ? index
+  : fs.readFileSync(path.join(root, 'atlas-app.js'), 'utf8');
 const legacy = fs.readFileSync(legacyPath, 'utf8');
 
 const requireText = (text, needle, label) => {
@@ -16,9 +19,9 @@ const requireText = (text, needle, label) => {
 requireText(index, '<title>UAP Atlas — Interactive Case Dossier</title>', 'shared Atlas title');
 requireText(index, '/* ATLAS_MOBILE_CSS_START */', 'responsive CSS layer');
 requireText(index, '<!-- ATLAS_MOBILE_NAV_START -->', 'responsive mobile navigation');
-requireText(index, '/* ATLAS_MOBILE_JS_START */', 'responsive mobile controller');
-requireText(index, "const isMobileAtlas=()=>mobileMedia.matches;", 'desktop/mobile behavior boundary');
-requireText(index, "if(!isMobileAtlas()) return;", 'mobile-only event ownership');
+requireText(app, '/* ATLAS_MOBILE_JS_START */', 'responsive mobile controller');
+requireText(app, "const isMobileAtlas=()=>mobileMedia.matches;", 'desktop/mobile behavior boundary');
+requireText(app, "if(!isMobileAtlas()) return;", 'mobile-only event ownership');
 requireText(index, "body:before{content:none!important;display:none!important;}", 'narrow-screen desktop-block override');
 
 if (Buffer.byteLength(legacy) > 4096) throw new Error('atlas-mobile.html must remain a lightweight compatibility redirect');

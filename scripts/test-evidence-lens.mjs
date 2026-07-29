@@ -9,15 +9,18 @@ const root = path.resolve(__dirname, '..');
 const htmlArg = process.argv[2] || 'index.html';
 const htmlPath = path.resolve(root, htmlArg);
 const html = fs.readFileSync(htmlPath, 'utf8');
+const appSource = html.includes('function lensRecords')
+  ? html
+  : fs.readFileSync(path.join(root, 'atlas-app.js'), 'utf8');
 const atlas = JSON.parse(fs.readFileSync(path.join(root, 'atlas-data.json'), 'utf8'));
 const triage = JSON.parse(fs.readFileSync(path.join(root, 'qa/atlas_operational_triage.json'), 'utf8'));
 
-const start = html.indexOf('function lensRecords');
-const end = html.indexOf('function heroTypeLabel', start);
+const start = appSource.indexOf('function lensRecords');
+const end = appSource.indexOf('function heroTypeLabel', start);
 if (start < 0 || end < 0) throw new Error('Evidence Lens production functions not found');
 const context = {};
 vm.createContext(context);
-vm.runInContext(html.slice(start, end), context);
+vm.runInContext(appSource.slice(start, end), context);
 
 const expectedAcquisition = new Set(triage.cases.filter(c => c.category === 'acquisition_target').map(c => c.id));
 const actualAcquisition = new Set();
