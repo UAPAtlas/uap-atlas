@@ -1385,7 +1385,7 @@
         },
         {
           "label": "USAF — The Roswell Report: Fact vs. Fiction in the New Mexico Desert",
-          "url": "https://media.defense.gov/2010/Dec/01/2001329893/-1/-1/0/roswell-2.pdf",
+          "url": "https://www.dafhistory.af.mil/The-DAF-Legacy-Vault/DAF-History-Publications/igphoto/2003789023/",
           "publisher": "United States Air Force",
           "access": "Public",
           "scope": "official-retrospective-report",
@@ -1393,7 +1393,7 @@
         },
         {
           "label": "USAF — The Roswell Report: Case Closed",
-          "url": "https://media.defense.gov/2010/Dec/01/2001329894/-1/-1/0/roswell-2.pdf",
+          "url": "https://media.defense.gov/2010/Oct/27/2001330219/-1/-1/0/AFD-101027-030.pdf",
           "publisher": "United States Air Force",
           "access": "Public",
           "scope": "official-retrospective-report",
@@ -4497,6 +4497,7 @@
       "heroFact": "The template abduction case: a contemporaneous sighting report exists on paper, while the famous abduction content came later from hypnosis sessions — two very different evidentiary tiers in one file.",
       "image": "assets/source_previews/BF-1961-BH-01_source_image.jpg",
       "images": [
+        "assets/source_previews/BF-1961-BH-01_source_image.jpg",
         {
           "url": "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
           "kind": "primary-document",
@@ -4506,7 +4507,6 @@
           "caption": "USAF Air Intelligence Information Report 100-1-61, signed at Pease AFB on September 21, 1961. It records the Hills’ initial aerial-object report and treats a radar relationship as possible but indeterminate; it does not document an abduction.",
           "rights": "Underlying U.S. Air Force record; university-hosted collection scan. Scan reuse status not independently adjudicated."
         },
-        "assets/source_previews/BF-1961-BH-01_source_image.jpg",
         "assets/source_previews/BF-1961-BH-01_source_image.png"
       ],
       "caseTypes": [
@@ -4659,9 +4659,9 @@
           "url": "https://archives.unh.edu/repositories/3/resources/107"
         },
         {
-          "label": "Kathleen Marden — Betty and Barney Hill archive materials",
-          "url": "https://www.kathleen-marden.com/betty-and-barney-hill-archive.php",
-          "publisher": "Kathleen Marden / Hill archive materials",
+          "label": "UNH Library — Betty and Barney Hill Papers collection",
+          "url": "https://library.unh.edu/find/archives/collections/betty-barney-hill-papers-1961-2006",
+          "publisher": "University of New Hampshire Library",
           "access": "Public",
           "scope": "public-document-archive",
           "note": "Public page pointing to Blue Book/NICAP/Hill correspondence materials; family/researcher archive context, not neutral agency custody."
@@ -6122,9 +6122,9 @@
         }
       ],
       "images": [
+        "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
         "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-2.jpg",
         "assets/evidence/CONDON-1966/CONDON-1966-Robert-Low-memo-page-1.jpg",
-        "assets/source_previews/BF-1966-CC-00_DOW-UAP-D092_DAF-Committee-to-Review-Project-Bluebook_1966-1967_page_001.png",
         "assets/source_previews/BF-1966-CC-00_source_image.jpg"
       ],
       "mapGeometry": null,
@@ -11790,7 +11790,7 @@
           "note": "Official accident-investigation summary for the Valentich disappearance; no published radar corroboration of the reported object.",
           "publisher": "Australian Transport Safety Bureau",
           "scope": "official-investigation-report",
-          "url": "https://www.atsb.gov.au/media/5226347/197802563.pdf"
+          "url": "https://www.atsb.gov.au/sites/default/files/investigation-reports/197802563.pdf"
         },
         {
           "access": "Public",

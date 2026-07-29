@@ -81,13 +81,22 @@ for c in cases:
     for source in c.get("publicSources", []):
         if not source.get("label") or not source.get("url", "").startswith(("http://", "https://")):
             errors.append(f"{cid}: invalid public source entry")
-    hero_src = (c.get("heroVisual") or {}).get("src")
+    def asset_src(value):
+        if isinstance(value, str):
+            return value
+        if isinstance(value, dict):
+            return value.get("src") or value.get("url") or value.get("path")
+        return None
+
+    hero_src = asset_src(c.get("heroVisual"))
+    image_src = asset_src(c.get("image"))
     images = c.get("images") or []
-    if hero_src:
-        if c.get("image") != hero_src or not images or images[0] != hero_src:
-            errors.append(f"{cid}: heroVisual.src, image, and images[0] must match")
-    for asset in dict.fromkeys([c.get("image"), *images, hero_src]):
-        if asset and not asset.startswith(("http://", "https://")) and not (ROOT / asset).exists():
+    first_src = asset_src(images[0]) if images else None
+    if hero_src and (image_src != hero_src or first_src != hero_src):
+        errors.append(f"{cid}: heroVisual.src, image, and images[0] must match")
+    assets = [image_src, *[asset_src(value) for value in images], hero_src]
+    for asset in dict.fromkeys(value for value in assets if value):
+        if not asset.startswith(("http://", "https://")) and not (ROOT / asset).exists():
             errors.append(f"{cid}: missing referenced display asset {asset}")
     missing_normalized = normalized_fields.difference(c)
     if missing_normalized:
