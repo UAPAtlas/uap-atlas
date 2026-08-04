@@ -5,9 +5,17 @@ import path from 'node:path';
 const root = process.cwd();
 const desktopPath = process.argv[2] || 'atlas-fresh.html';
 const mobilePath = process.argv[3] || 'atlas-mobile.html';
-const read = p => fs.readFileSync(path.resolve(root, p), 'utf8');
-const desktop = read(desktopPath);
-const mobile = read(mobilePath);
+const readWithAppPayload = p => {
+  const absolute = path.resolve(root, p);
+  const html = fs.readFileSync(absolute, 'utf8');
+  const match = html.match(/<script\s+src=["']([^"']*atlas-app\.js)["'][^>]*><\/script>/i);
+  if (!match) return html;
+  const appPath = path.resolve(path.dirname(absolute), match[1]);
+  if (!fs.existsSync(appPath)) throw new Error(`Missing external Atlas app payload: ${appPath}`);
+  return `${html}\n${fs.readFileSync(appPath, 'utf8')}`;
+};
+const desktop = readWithAppPayload(desktopPath);
+const mobile = readWithAppPayload(mobilePath);
 const failures = [];
 const requireMatch = (condition, message) => { if (!condition) failures.push(message); };
 

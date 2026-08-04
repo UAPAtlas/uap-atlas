@@ -6,8 +6,8 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 813,
-    "publicLocal": 594,
+    "indexedPaths": 818,
+    "publicLocal": 599,
     "externalPublic": 83,
     "custodyOnly": 136,
     "unavailable": 0
@@ -37,27 +37,23 @@
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
     },
-    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_011.png": {
+    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-019.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_012.png": {
+    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-020.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_013.png": {
+    "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-021.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_100.png": {
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-258.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_101.png": {
-      "status": "public-local",
-      "label": "Public Atlas asset"
-    },
-    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_102.png": {
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-260.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -597,15 +593,15 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-017.png": {
+    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-001.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-019.png": {
+    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-002.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-020.png": {
+    "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-003.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -1401,7 +1397,31 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_page-015.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-243.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-244.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-245.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-246.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-249.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-250.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-251.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },

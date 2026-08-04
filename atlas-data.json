@@ -21973,7 +21973,7 @@
       "title": "Northern California Coast Radar Skinpaint",
       "date": "AUG 1957",
       "year": 1957,
-      "location": "Northern California coast (offshore)",
+      "location": "Northern California coast (35°30′N, 124°30′W)",
       "mode": "approximate",
       "lon": -124.5,
       "lat": 39.0,
@@ -21990,19 +21990,18 @@
       "official": "Investigator concluded: 'This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.' No conventional explanation offered.",
       "gap": "Full mission logs, any follow-up investigation, and the identity of the AW&C aircraft and crew are not in the extracted pages.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Reports, NAID 311001910, 301 pages (report from DABS, McClellan AFB)"
+        "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-NC-01.png",
       "images": [
         "assets/editorial-reconstructions/BF-1957-NC-01.png",
-        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_100.png",
-        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_101.png",
-        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_page_102.png"
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-258.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-260.png"
       ],
       "keyFact": "First confirmed radar skinpaint of a UAP — the object was detected by raw radar return, closed to 6 miles flying parallel, then accelerated away over 3.5 hours of intermittent contact.",
       "whyItMatters": "Pure sensor case with no visual component. The parallel-flight behavior demonstrates what looks like intelligent tracking. The investigator's own words — 'significant' and 'unprecedented' — carry weight. Adds a radar-only case to balance the visual-heavy Atlas.",
       "keyQuote": "This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.",
-      "quoteSource": "AIIRS-1957, report from DABS, McClellan AFB (NAID 311001910)",
+      "quoteSource": "AIIRS-1957, Northern California report, raw object 258 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "A radar operator tracked a UAP by raw skinpaint for 3.5 hours — the object closed to 6 miles, flew parallel, then accelerated away.",
       "significance": "High significance — first radar skinpaint",
@@ -22061,10 +22060,10 @@
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · NAID 311001910",
+          "citation": "AIIRS-1957 · Northern California radar-skinpaint report",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS / DABS, McClellan AFB",
-          "locator": "Aug 3, 1957 report",
+          "provenance": "552nd Airborne Early Warning and Control Wing / McClellan AFB; routed by Western Air Defense Force",
+          "locator": "AIIRs 1957 compilation, raw object 258 of 301; routing memorandum on object 260",
           "supports": [
             "3.5-hours-radar-contact",
             "raw-skinpaint",
@@ -22125,8 +22124,8 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (Aug. 3, 1957 Northern California radar-skinpaint report)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Aug. 3, 1957 Northern California radar-skinpaint report. Government custody confirms the record, not the reported object's identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (Northern California report, raw object 258)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Object 258 is the case report and object 260 documents routing; a duplicate routing scan is omitted. Government custody confirms the record, not the radar target’s identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"
@@ -22136,42 +22135,42 @@
     {
       "id": "BF-1957-B47-01",
       "title": "B-47 Supersonic Acceleration Encounter",
-      "date": "1957",
+      "date": "APR 1957",
       "year": 1957,
-      "location": "United States (exact location not extracted from AIIRs pages)",
-      "mode": "approximate",
-      "lon": -98.5,
-      "lat": 38.5,
-      "coordinateBasis": "Contiguous United States representative centroid; exact location within AIIRs 1957 pages not yet identified",
+      "location": "Eglin AFB, Florida",
+      "mode": "exact",
+      "lon": -86.5333,
+      "lat": 30.4833,
+      "coordinateBasis": "Eglin Air Force Base, Florida, identified in IR-2-57",
       "expectedCountry": "United States of America",
       "geometryExpectation": "region",
-      "coordinatePrecision": "redacted-generalized",
+      "coordinatePrecision": "site/city",
       "agency": "USAF / 4602D AISS",
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "A B-47 crew observed an object at the same azimuth and elevation as their aircraft. Initially appearing stationary like a weather balloon, the object then accelerated with a maneuver 'resembling a pull up of a supersonic aircraft' and reached a speed estimated at over Mach 2 or 3. The investigator noted the 'possibility that the object was not of a conventional nature.'",
       "official": "Investigator noted the possibility that the object was not conventional, and that if it were an advanced missile or rocket, the sighting might give some intelligence value. No conventional explanation offered.",
-      "gap": "Exact date, location, B-47 unit identity, and follow-up investigation not extracted from the available AIIRs pages.",
+      "gap": "The recovered three-page report identifies the sighting as 15 April 1957 near Eglin AFB, but the B-47 aircraft/unit identity and any follow-up investigation remain absent.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Reports, NAID 311001910, 301 pages"
+        "AIIRS-1957, NAID 311001910, IR-2-57 raw objects 019-021"
       ],
-      "image": "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_011.png",
+      "image": "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-019.png",
       "images": [
-        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_011.png",
-        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_012.png",
-        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_013.png"
+        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-019.png",
+        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-020.png",
+        "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-021.png"
       ],
       "keyFact": "A B-47 crew watched a stationary object accelerate to Mach 2-3 in seconds — the investigator explicitly noted the 'possibility that the object was not of a conventional nature.'",
       "whyItMatters": "The stationary-to-supersonic acceleration profile is one of the sharpest in the record. The investigator's own conclusion — 'not conventional' — is unusually candid for Blue Book. Military aircraft encounter with extreme performance envelope.",
       "keyQuote": "Object appeared to reach a speed of over Mach 2 or 3.",
-      "quoteSource": "AIIRS-1957, B-47 encounter report (NAID 311001910)",
+      "quoteSource": "AIIRS-1957, IR-2-57, raw object 020 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "A B-47 crew watched a stationary object accelerate to Mach 2-3 — the investigator called it 'not of a conventional nature.'",
       "significance": "High significance",
       "sourceQuality": "Primary source — Air Intelligence Information Report",
       "sourceLabel": "AIIRs 1957 / NARA",
-      "sourceLocator": "AIIRS-1957, NAID 311001910, B-47 encounter report",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, IR-2-57, raw objects 019–021",
       "relatedCaseIds": [
         "BF-1957-NC-01",
         "BF-1957-RB-01",
@@ -22197,7 +22196,7 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "1957",
+        "dateLabel": "15 APR 1957",
         "year": 1957,
         "startDateTime": null,
         "endDateTime": null,
@@ -22207,28 +22206,28 @@
           15,
           15
         ],
-        "precision": "year",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -98.5,
-            38.5
+            -86.5333,
+            30.4833
           ]
         },
-        "role": "representative-centroid",
-        "precision": "redacted-national",
-        "uncertaintyKm": 1500,
-        "basis": "Contiguous U.S. centroid; exact location not extracted from AIIRs pages"
+        "role": "event-site",
+        "precision": "site/city",
+        "uncertaintyKm": 10,
+        "basis": "Eglin Air Force Base identified in IR-2-57"
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · NAID 311001910",
+          "citation": "AIIRS-1957 · IR-2-57, Eglin AFB",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS",
-          "locator": "B-47 encounter report, 1957",
+          "provenance": "HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
+          "locator": "AIIRs 1957 compilation, raw objects 019–021 of 301; Mach 2/3 language on object 020",
           "supports": [
             "B-47-crew-observation",
             "stationary-then-acceleration",
@@ -22237,9 +22236,8 @@
             "intelligence-value-noted"
           ],
           "limitations": [
-            "exact-date-not-extracted",
-            "exact-location-not-extracted",
-            "B-47-unit-identity-not-extracted"
+            "B-47-unit-identity-not-extracted",
+            "follow-up-investigation-not-located"
           ]
         }
       ],
@@ -22276,7 +22274,7 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_page_011.png",
+        "src": "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-019.png",
         "mediaType": "image",
         "visualType": "document-excerpt",
         "caption": "Page from the AIIRs 1957 compilation containing the B-47 encounter report.",
@@ -22287,13 +22285,14 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — Air Intelligence Information Reports: 1957",
-          "note": "Exact 301-object 4602D AISS compilation containing the B-47 encounter report; it is a collection-level file unit with a page-level internal locator, not a standalone case record.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (IR-2-57, raw objects 019–021)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Objects 019–021 form the complete three-page Eglin IR-2-57 report; object 020 contains the Mach 2/3 estimate. Government custody confirms the record, not the estimate’s accuracy or the object’s identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"
         }
-      ]
+      ],
+      "expectedAdmin1": "Florida"
     },
     {
       "id": "BF-1949-KD-01",
@@ -23107,19 +23106,19 @@
       "official": "Investigator concluded 'probably a helicopter' but explicitly noted the helicopter explanation left the high-velocity movement unexplained.",
       "gap": "Full follow-up investigation and any additional witness reports not located in the extracted AIIRs pages.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Report TR-1-57, Eglin AFB (NAID 311001910), pp. 17, 19-20"
+        "AIIRS-1957, NAID 311001910, TR-1-57 raw objects 001-003"
       ],
       "image": "assets/editorial-reconstructions/BF-1956-DF-01.png",
       "images": [
         "assets/editorial-reconstructions/BF-1956-DF-01.png",
-        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-017.png",
-        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-019.png",
-        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_page-020.png"
+        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-001.png",
+        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-002.png",
+        "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-003.png"
       ],
       "keyFact": "An object moved 400 yards 'instantaneously' with speed that 'could not be measured' — the investigator's own helicopter conclusion left this explicitly unexplained.",
       "whyItMatters": "The investigator's own conclusion is internally contradictory — 'probably a helicopter' but 'this would only leave the initial high velocity unexplained.' This is a case where the official explanation was a forced fit that the investigator knew didn't work.",
       "keyQuote": "This would only leave the initial high velocity unexplained.",
-      "quoteSource": "AIIRS-1957, TR-1-57, Eglin AFB (NAID 311001910)",
+      "quoteSource": "AIIRS-1957, TR-1-57, raw object 003 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "An object moved 400 yards instantaneously — the investigator called it 'probably a helicopter' but admitted the speed was unexplained.",
       "significance": "High significance — forced explanation admitted by investigator",
@@ -23181,8 +23180,8 @@
         {
           "citation": "AIIRS-1957 · TR-1-57, Eglin AFB",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "1st Lt Richard H. Lane, Asst Chief Intelligence Division, Eglin AFB",
-          "locator": "Dec 26, 1956; pp. 17, 19-20",
+          "provenance": "HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
+          "locator": "AIIRs 1957 compilation, raw objects 001–003 of 301; quoted assessment on object 003",
           "supports": [
             "egg-shaped-grapefruit-size",
             "stationary-10-minutes",
@@ -23245,8 +23244,8 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, pp. 17 and 19–20)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: TR-1-57, pp. 17 and 19–20. Government custody confirms the record, not the reported object's identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (TR-1-57, raw objects 001–003)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Objects 001–003 form the complete three-page TR-1-57 report; the quoted high-velocity assessment is on object 003. Government custody confirms the record, not the reported object’s identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"
@@ -23791,17 +23790,23 @@
       "official": "Investigator concluded objects were likely 'air-to-air refueling of Everglades mission aircraft' — speculative, as no air-to-air refueling entries appeared in the 781st AC&W logs.",
       "gap": "Full follow-up investigation and radar data not located in extracted pages.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Report 1-57, 781st AC&W Squadron (NAID 311001910), p. 15"
+        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-HT-01.png",
       "images": [
         "assets/editorial-reconstructions/BF-1957-HT-01.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_page-015.png"
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-243.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-244.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-245.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-246.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-250.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-249.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-251.png"
       ],
       "keyFact": "Four witnesses watched an object separate into three smaller objects forming an 'arrowhead formation' — the investigator's 'refueling' explanation doesn't match the separating/rejoining behavior.",
       "whyItMatters": "Multi-witness case with detailed narrative. The separating/rejoining and formation behavior matches the cross-source pattern (AIIRs 1957, USPER 2025, FBI D009). The investigator's refueling conclusion was speculative and didn't fit.",
       "keyQuote": "Separating and rejoining again to leave only three smaller objects.",
-      "quoteSource": "AIIRS-1957, Report 1-57, 781st AC&W Squadron (NAID 311001910)",
+      "quoteSource": "AIIRS-1957, Report 1-57, raw object 244 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "Four witnesses watched an object split into three forming an arrowhead — the investigator called it 'refueling' but the logs showed none.",
       "significance": "High significance — formation behavior, forced explanation",
@@ -23860,8 +23865,8 @@
         {
           "citation": "AIIRS-1957 · Report 1-57, 781st AC&W Squadron",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS",
-          "locator": "Jul 16, 1957; p. 15",
+          "provenance": "781st Aircraft Control and Warning Squadron, Custer AFS, Battle Creek, Michigan",
+          "locator": "AIIRs 1957 compilation, raw objects 243–251; official report 243–245, transmittal 246, witness statement 250/249/251; quoted language on object 244",
           "supports": [
             "four-civilian-witnesses",
             "oval-object",
@@ -23924,8 +23929,8 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, p. 15)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: Report 1-57, p. 15. Government custody confirms the record, not the reported object's identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (Report 1-57, raw objects 243–251)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. The evidence gallery maps the official report, one transmittal copy, and the three-page witness statement while omitting a duplicate transmittal and reverse scan. Government custody confirms the record, not the reported objects’ identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"
@@ -23935,25 +23940,25 @@
     {
       "id": "BF-1957-CG-01",
       "title": "Three Cigar Objects in 'Y' Formation",
-      "date": "AUG 1957",
+      "date": "09 AUG 1957",
       "year": 1957,
-      "location": "United States (exact location not extracted from AIIRs pages)",
+      "location": "St. Martins Bay, off Sand Point, Michigan",
       "mode": "approximate",
-      "lon": -98.5,
-      "lat": 38.5,
-      "coordinateBasis": "Contiguous United States representative centroid; exact location within AIIRs 1957 pages not yet identified",
+      "lon": -84.6167,
+      "lat": 46.0,
+      "coordinateBasis": "Approximate center of Saint Martin Bay, Michigan; the AIIR locates the aircraft off Sand Point within the bay",
       "expectedCountry": "United States of America",
       "geometryExpectation": "region",
-      "coordinatePrecision": "redacted-generalized",
+      "coordinatePrecision": "regional",
       "agency": "USAF / 4602D AISS",
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "Three cigar-shaped objects connected to form a 'Y' shape were observed at approximately 20,000 feet. The objects were silver and black, observed for 35-40 seconds, with a faint whistling sound. The Y-formation is a unique geometric arrangement in the UAP record. Classified under the Espionage Act.",
       "official": "No official conclusion located in the available AIIRs pages.",
-      "gap": "Exact date, location, witness identity, and follow-up investigation not extracted from the AIIRs 1957 compilation.",
+      "gap": "The recovered report identifies the date and location, but the witness identity remains redacted and no follow-up investigation has been located.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Reports (NAID 311001910, 301pp), p. 15"
+        "AIIRS-1957, NAID 311001910, raw object 015"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-CG-01.png",
       "images": [
@@ -23963,7 +23968,7 @@
       "keyFact": "Three cigar-shaped objects in a 'Y' formation at 20,000 feet — a unique geometric arrangement in the declassified record.",
       "whyItMatters": "Unique formation phenomenology. The Y-formation is not consistent with any known aircraft formation, balloon cluster, or natural phenomenon. The cigar shape connects to the FBI Serial-3 bronze cigar (2023) and historical cigar-shaped UAP reports. Silver-and-black coloring is unusual.",
       "keyQuote": "Three cigar-shaped objects connected to form a Y shape.",
-      "quoteSource": "AIIRS-1957 (NAID 311001910), p. 15",
+      "quoteSource": "AIIRS-1957, raw object 015 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "Three cigar-shaped objects flew in a Y formation at 20,000 feet — a unique geometric arrangement in the declassified record.",
       "significance": "Medium-high significance — unique formation",
@@ -23993,7 +23998,7 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "AUG 1957",
+        "dateLabel": "09 AUG 1957",
         "year": 1957,
         "startDateTime": null,
         "endDateTime": null,
@@ -24003,28 +24008,28 @@
           35,
           40
         ],
-        "precision": "month",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -98.5,
-            38.5
+            -84.6167,
+            46.0
           ]
         },
-        "role": "representative-centroid",
-        "precision": "redacted-national",
-        "uncertaintyKm": 1500,
-        "basis": "Contiguous U.S. centroid; exact location not extracted"
+        "role": "event-area",
+        "precision": "regional",
+        "uncertaintyKm": 15,
+        "basis": "Approximate Saint Martin Bay center; the report locates the aircraft off Sand Point within the bay"
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · NAID 311001910",
+          "citation": "AIIRS-1957 · cigar-Y report",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS",
-          "locator": "Aug 9, 1957; p. 15",
+          "provenance": "4602D AISS compilation; report received 19 August 1957",
+          "locator": "AIIRs 1957 compilation, raw object 015 of 301; sighting 9 August 1957 at St. Martins Bay off Sand Point, Michigan",
           "supports": [
             "three-cigar-objects",
             "y-formation",
@@ -24088,13 +24093,14 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, p. 15)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, p. 15. Government custody confirms the record, not the reported object's identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (cigar-Y report, raw object 015)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Object 015 contains the complete one-page report. Government custody confirms the record, not the reported objects’ identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"
         }
-      ]
+      ],
+      "expectedAdmin1": "Michigan"
     },
     {
       "id": "BF-1951-YK-01",
@@ -24419,7 +24425,7 @@
     {
       "id": "BF-1957-RA-01",
       "title": "Robins AFB — Object That 'Did Not Appear Conventional'",
-      "date": "1957",
+      "date": "10 MAR 1957",
       "year": 1957,
       "location": "Robins AFB, Georgia (one mile west of base)",
       "mode": "exact",
@@ -24436,9 +24442,9 @@
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "Air and ground observers near Robins AFB, Georgia observed an object at the 2 o'clock position to an aircraft, with a slight angle of climb. The object disappeared in an unusual manner. Major John W. Porter noted 'evidence of the object in view of the gravitational pull at the altitude' that 'prevents further evaluation' — meaning it couldn't be explained. The object 'did not appear' conventional.",
       "official": "No conventional explanation located. Major Porter's assessment that gravitational factors 'prevent further evaluation' is an implicit admission the case was unresolved.",
-      "gap": "Exact date, specific witness identities, and follow-up investigation not extracted from the AIIRs pages.",
+      "gap": "The recovered three-page Robins AFB report identifies the sighting date as 10 March 1957, but specific witness identities and follow-up investigation remain absent.",
       "sources": [
-        "AIIRS-1957 · Air Intelligence Information Reports (NAID 311001910, 301pp), pp. 16-18"
+        "AIIRS-1957, NAID 311001910, raw objects 016-018"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-RA-01.png",
       "images": [
@@ -24450,7 +24456,7 @@
       "keyFact": "An object near Robins AFB 'did not appear' conventional — Major Porter noted gravitational factors that 'prevent further evaluation.'",
       "whyItMatters": "Military base-adjacent sighting with an officer's assessment that gravitational factors prevent resolution. The 'did not appear conventional' language and the gravitational pull note suggest performance characteristics beyond conventional explanation.",
       "keyQuote": "Evidence of the object in view of the gravitational pull at the altitude prevents further evaluation.",
-      "quoteSource": "AIIRS-1957 (NAID 311001910), pp. 16-18, Major John W. Porter",
+      "quoteSource": "AIIRS-1957, Robins AFB report, raw object 018 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "An object near Robins AFB 'did not appear conventional' — Major Porter said gravitational factors 'prevent further evaluation.'",
       "significance": "Medium-high significance — military base, officer assessment",
@@ -24482,14 +24488,14 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "1957",
+        "dateLabel": "10 MAR 1957",
         "year": 1957,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
         "durationSeconds": null,
         "durationRangeSeconds": null,
-        "precision": "year",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -24507,10 +24513,10 @@
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · NAID 311001910",
+          "citation": "AIIRS-1957 · Robins AFB report",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS / DABS",
-          "locator": "pp. 16-18",
+          "provenance": "Robins Air Force Base; assessment by Major John W. Porter, Chief, Flight Operations Division",
+          "locator": "AIIRs 1957 compilation, raw objects 016–018 of 301; quoted assessment on object 018",
           "supports": [
             "air-and-ground-observers",
             "object-at-2-oclock",
@@ -24570,8 +24576,8 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation (Robins AFB report, raw objects 016–018)",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Objects 016–018 form the three-page Robins AFB report; the quoted assessment is on object 018. Government custody confirms the record, not the reported object’s identity.",
           "publisher": "National Archives and Records Administration",
           "scope": "official-catalog-record",
           "url": "https://catalog.archives.gov/id/311001910"

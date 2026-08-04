@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 214,
-  "sourceIndexFiles": 956,
+  "sourceIndexFiles": 961,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -1306,7 +1306,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
       ]
     },
     "BF-1957-B47-01": {
@@ -1315,7 +1315,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "BF-1949-KD-01": {
@@ -1369,7 +1369,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:1st lt richard h. lane, asst chief intelligence division, eglin afb"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "BF-1954-KL-01": {
@@ -1405,7 +1405,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:781st aircraft control and warning squadron, custer afs, battle creek, michigan"
       ]
     },
     "BF-1957-CG-01": {

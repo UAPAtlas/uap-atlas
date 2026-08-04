@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T09:36:43-04:00",
+  "generatedAt": "2026-08-04T11:14:34-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -4390,13 +4390,13 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, Aug 3, 1957 report"
+        "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 5,
+      "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 4,
       "missingRecordClasses": [
         "no-visual-contact",
         "aircraft-identity-not-extracted",
@@ -4413,7 +4413,7 @@
       "caseId": "BF-1957-B47-01",
       "title": "B-47 Supersonic Acceleration Encounter",
       "year": 1957,
-      "sourceLocator": "AIIRS-1957, NAID 311001910, B-47 encounter report",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, IR-2-57, raw objects 019–021",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "311001910"
@@ -4434,17 +4434,16 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, B-47 encounter report"
+        "AIIRS-1957, NAID 311001910, IR-2-57 raw objects 019-021"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 5,
+      "localCustodyFileCount": 3,
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "exact-date-not-extracted",
-        "exact-location-not-extracted",
-        "B-47-unit-identity-not-extracted"
+        "B-47-unit-identity-not-extracted",
+        "follow-up-investigation-not-located"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4639,11 +4638,11 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, TR-1-57"
+        "AIIRS-1957, NAID 311001910, TR-1-57 raw objects 001-003"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 8,
+      "localCustodyFileCount": 4,
       "localPdfCount": 0,
       "coverageLinks": 5,
       "missingRecordClasses": [
@@ -4795,13 +4794,13 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, Report 1-57"
+        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 2,
+      "localCustodyFileCount": 8,
       "localPdfCount": 0,
-      "coverageLinks": 3,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "no-radar-confirmation",
         "no-photographic-evidence"
@@ -4838,7 +4837,7 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, p. 15"
+        "AIIRS-1957, NAID 311001910, raw object 015"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
@@ -4945,7 +4944,7 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, pp. 16-18"
+        "AIIRS-1957, NAID 311001910, raw objects 016-018"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,

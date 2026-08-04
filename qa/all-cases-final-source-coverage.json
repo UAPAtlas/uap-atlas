@@ -2076,14 +2076,14 @@
     "id": "BF-1957-NC-01",
     "title": "Northern California Coast Radar Skinpaint",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, Aug 3, 1957 report"
+      "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
     ],
-    "indexedLinks": 4,
+    "indexedLinks": 3,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
-    "evidenceAssets": 4,
-    "links": 5,
-    "local": 4,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2092,7 +2092,7 @@
     "id": "BF-1957-B47-01",
     "title": "B-47 Supersonic Acceleration Encounter",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, B-47 encounter report"
+      "AIIRS-1957, NAID 311001910, IR-2-57 raw objects 019-021"
     ],
     "indexedLinks": 4,
     "structuredSourceRecords": 1,
@@ -2188,7 +2188,7 @@
     "id": "BF-1956-DF-01",
     "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, TR-1-57"
+      "AIIRS-1957, NAID 311001910, TR-1-57 raw objects 001-003"
     ],
     "indexedLinks": 4,
     "structuredSourceRecords": 1,
@@ -2252,14 +2252,14 @@
     "id": "BF-1957-HT-01",
     "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, Report 1-57"
+      "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
     ],
-    "indexedLinks": 2,
+    "indexedLinks": 8,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "links": 3,
-    "local": 2,
+    "evidenceAssets": 8,
+    "links": 9,
+    "local": 8,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2268,7 +2268,7 @@
     "id": "BF-1957-CG-01",
     "title": "Three Cigar Objects in 'Y' Formation",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, p. 15"
+      "AIIRS-1957, NAID 311001910, raw object 015"
     ],
     "indexedLinks": 2,
     "structuredSourceRecords": 1,
@@ -2316,7 +2316,7 @@
     "id": "BF-1957-RA-01",
     "title": "Robins AFB \u2014 Object That 'Did Not Appear Conventional'",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, pp. 16-18"
+      "AIIRS-1957, NAID 311001910, raw objects 016-018"
     ],
     "indexedLinks": 4,
     "structuredSourceRecords": 1,

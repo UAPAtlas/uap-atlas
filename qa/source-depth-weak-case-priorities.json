@@ -450,7 +450,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:1st lt richard h. lane, asst chief intelligence division, eglin afb"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "reasons": [
@@ -473,7 +473,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "reasons": [
@@ -508,9 +508,9 @@
     "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
     "score": 30,
     "sourceRecords": 1,
-    "indexedLinks": 2,
+    "indexedLinks": 8,
     "publicSourceUrls": 1,
-    "evidenceAssets": 2,
+    "evidenceAssets": 8,
     "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
@@ -519,7 +519,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:781st aircraft control and warning squadron, custer afs, battle creek, michigan"
       ]
     },
     "reasons": [
@@ -531,9 +531,9 @@
     "title": "Northern California Coast Radar Skinpaint",
     "score": 30,
     "sourceRecords": 1,
-    "indexedLinks": 4,
+    "indexedLinks": 3,
     "publicSourceUrls": 1,
-    "evidenceAssets": 4,
+    "evidenceAssets": 3,
     "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
@@ -542,7 +542,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
       ]
     },
     "reasons": [

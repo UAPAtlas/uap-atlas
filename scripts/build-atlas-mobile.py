@@ -369,10 +369,12 @@ def strip_mobile_layer(text: str) -> str:
 parser = argparse.ArgumentParser()
 parser.add_argument("--source", default=str(SOURCE), help="Desktop/base Atlas HTML")
 parser.add_argument("--target", default=str(TARGET), help="Responsive output HTML")
+parser.add_argument("--app", default="atlas-app.js", help="External application payload when the HTML uses split scripts")
 parser.add_argument("--combined", action="store_true", help="Preserve the shared desktop/mobile page title")
 args = parser.parse_args()
 source = project_path(args.source)
 target = project_path(args.target)
+app_path = project_path(args.app)
 
 html = strip_mobile_layer(source.read_text(encoding="utf-8"))
 if args.combined:
@@ -388,6 +390,14 @@ html = require_replace(
 )
 html = require_replace(html, "      <div class=\"legend\"><span>", f"{MOBILE_PEEK_BLOCK}\n      <div class=\"legend\"><span>", "map legend")
 html = require_replace(html, '<div class="drawer-backdrop" id="drawerBackdrop">', f'{MOBILE_NAV_BLOCK}\n<div class="drawer-backdrop" id="drawerBackdrop">', "drawer backdrop")
-html = require_replace(html, "</script>\n</body>", f"{MOBILE_JS_BLOCK}\n</script>\n</body>", "script terminator")
+external_app_tag = '<script src="atlas-app.js" defer></script>'
+if external_app_tag in html:
+    if not app_path.exists():
+        raise SystemExit(f"Build failed: missing external application payload {app_path}")
+    app_text = strip_mobile_layer(app_path.read_text(encoding="utf-8")).rstrip()
+    app_path.write_text(f"{app_text}\n{MOBILE_JS_BLOCK}\n", encoding="utf-8")
+else:
+    html = require_replace(html, "</script>\n</body>", f"{MOBILE_JS_BLOCK}\n</script>\n</body>", "script terminator")
 target.write_text(html, encoding="utf-8")
-print(f"Built {target} ({target.stat().st_size:,} bytes)")
+app_note = f", app={app_path.stat().st_size:,} bytes" if external_app_tag in html else ""
+print(f"Built {target} ({target.stat().st_size:,} bytes{app_note})")
