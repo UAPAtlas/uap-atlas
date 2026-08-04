@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:14:34-04:00",
+  "generatedAt": "2026-08-04T11:53:00-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -157,7 +157,7 @@
       ],
       "structuredSourceRecords": 3,
       "publicUrlCount": 8,
-      "localCustodyFileCount": 18,
+      "localCustodyFileCount": 17,
       "localPdfCount": 12,
       "coverageLinks": 25,
       "missingRecordClasses": [
@@ -293,7 +293,7 @@
       ],
       "structuredSourceRecords": 5,
       "publicUrlCount": 4,
-      "localCustodyFileCount": 6,
+      "localCustodyFileCount": 5,
       "localPdfCount": 0,
       "coverageLinks": 9,
       "missingRecordClasses": [
@@ -637,7 +637,7 @@
       ],
       "structuredSourceRecords": 5,
       "publicUrlCount": 5,
-      "localCustodyFileCount": 54,
+      "localCustodyFileCount": 11,
       "localPdfCount": 5,
       "coverageLinks": 15,
       "missingRecordClasses": [
@@ -1515,7 +1515,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1602,7 +1602,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1634,7 +1634,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1666,7 +1666,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1698,7 +1698,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1730,7 +1730,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 15,
+      "localCustodyFileCount": 9,
       "localPdfCount": 1,
       "coverageLinks": 10,
       "missingRecordClasses": [
@@ -1762,7 +1762,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 16,
+      "localCustodyFileCount": 10,
       "localPdfCount": 1,
       "coverageLinks": 11,
       "missingRecordClasses": [
@@ -2174,7 +2174,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 6,
+      "localCustodyFileCount": 5,
       "localPdfCount": 1,
       "coverageLinks": 6,
       "missingRecordClasses": [
@@ -3263,7 +3263,7 @@
       ],
       "structuredSourceRecords": 3,
       "publicUrlCount": 4,
-      "localCustodyFileCount": 8,
+      "localCustodyFileCount": 7,
       "localPdfCount": 2,
       "coverageLinks": 11,
       "missingRecordClasses": [
@@ -3792,7 +3792,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 6,
+      "localCustodyFileCount": 5,
       "localPdfCount": 1,
       "coverageLinks": 6,
       "missingRecordClasses": [
@@ -4224,7 +4224,7 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 5,
+      "localCustodyFileCount": 4,
       "localPdfCount": 1,
       "coverageLinks": 5,
       "missingRecordClasses": [
@@ -4369,7 +4369,7 @@
       "caseId": "BF-1957-NC-01",
       "title": "Northern California Coast Radar Skinpaint",
       "year": 1957,
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Aug 3, 1957 report",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, raw objects 058-064",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "311001910"
@@ -4390,17 +4390,18 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
+        "AIIRS-1957, NAID 311001910, raw objects 058-064"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 3,
+      "localCustodyFileCount": 8,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "no-visual-contact",
-        "aircraft-identity-not-extracted",
-        "follow-up-investigation-not-located"
+        "no-raw-radar-film",
+        "no-calibration-records",
+        "no-independent-sensor-corroboration"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4773,7 +4774,7 @@
       "caseId": "BF-1957-HT-01",
       "title": "Hastings MI — Arrowhead Formation from Separating Object",
       "year": 1957,
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "311001910"
@@ -4794,7 +4795,7 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
+        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
@@ -4803,7 +4804,8 @@
       "coverageLinks": 9,
       "missingRecordClasses": [
         "no-radar-confirmation",
-        "no-photographic-evidence"
+        "no-photographic-evidence",
+        "no-independent-follow-up-in-packet"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4921,9 +4923,9 @@
     },
     {
       "caseId": "BF-1957-RA-01",
-      "title": "Robins AFB — Object That 'Did Not Appear Conventional'",
+      "title": "Robins AFB — Star-shaped Object over Warner Robins",
       "year": 1957,
-      "sourceLocator": "AIIRS-1957, NAID 311001910, pp. 16-18",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "311001910"
@@ -4944,22 +4946,24 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, raw objects 016-018"
+        "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 4,
+      "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 4,
       "missingRecordClasses": [
-        "exact-date-not-extracted",
-        "witness-identities-not-extracted"
+        "single-witness",
+        "no-photographic-evidence",
+        "no-instrument-record",
+        "nearby-aircraft-did-not-corroborate-object",
+        "no-follow-up-analysis-in-packet"
       ],
-      "upgradePriorityScore": 4,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
         "one structured source record",
-        "no complete local PDF in mapped custody",
-        "high-significance dossier"
+        "no complete local PDF in mapped custody"
       ]
     },
     {

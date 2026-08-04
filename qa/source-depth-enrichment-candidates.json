@@ -450,7 +450,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:1st lt richard h. lane, asst chief intelligence division, eglin afb"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "reasons": [
@@ -473,7 +473,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "reasons": [
@@ -508,10 +508,10 @@
     "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
     "score": 30,
     "sourceRecords": 1,
-    "indexedLinks": 2,
+    "indexedLinks": 8,
     "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+    "evidenceAssets": 8,
+    "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
       "label": "thin-summary",
@@ -519,7 +519,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:781st aircraft control and warning squadron, custer afs, battle creek, michigan"
       ]
     },
     "reasons": [
@@ -531,10 +531,10 @@
     "title": "Northern California Coast Radar Skinpaint",
     "score": 30,
     "sourceRecords": 1,
-    "indexedLinks": 4,
+    "indexedLinks": 8,
     "publicSourceUrls": 1,
-    "evidenceAssets": 4,
-    "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
+    "evidenceAssets": 8,
+    "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
       "label": "thin-summary",
@@ -542,7 +542,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
       ]
     },
     "reasons": [
@@ -551,14 +551,14 @@
   },
   {
     "id": "BF-1957-RA-01",
-    "title": "Robins AFB \u2014 Object That 'Did Not Appear Conventional'",
+    "title": "Robins AFB \u2014 Star-shaped Object over Warner Robins",
     "score": 30,
     "sourceRecords": 1,
     "indexedLinks": 4,
     "publicSourceUrls": 1,
-    "evidenceAssets": 4,
-    "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-    "quoteConfidence": "confirmed primary-source quotation",
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 055\u2013057.",
+    "quoteConfidence": "High \u2014 exact official assessment on raw object 057; the witness name is redacted in the archival scan and bracketed here.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,

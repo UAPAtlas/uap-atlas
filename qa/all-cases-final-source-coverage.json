@@ -2076,14 +2076,14 @@
     "id": "BF-1957-NC-01",
     "title": "Northern California Coast Radar Skinpaint",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
+      "AIIRS-1957, NAID 311001910, raw objects 058-064"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 8,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "links": 4,
-    "local": 3,
+    "evidenceAssets": 8,
+    "links": 9,
+    "local": 8,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2252,7 +2252,7 @@
     "id": "BF-1957-HT-01",
     "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
+      "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054"
     ],
     "indexedLinks": 8,
     "structuredSourceRecords": 1,
@@ -2314,16 +2314,16 @@
   },
   {
     "id": "BF-1957-RA-01",
-    "title": "Robins AFB \u2014 Object That 'Did Not Appear Conventional'",
+    "title": "Robins AFB \u2014 Star-shaped Object over Warner Robins",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, raw objects 016-018"
+      "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
     ],
     "indexedLinks": 4,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
-    "evidenceAssets": 4,
-    "links": 5,
-    "local": 4,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true

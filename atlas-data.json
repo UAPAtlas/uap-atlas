@@ -21988,26 +21988,31 @@
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "An airborne radar operator detected an unidentified object via raw radar skinpaint (not transponder) over 3.5 hours of intermittent contact off the Northern California coast. The object closed to 6 miles and flew parallel to the AW&C aircraft, then accelerated away. The investigator flagged this as the first confirmed radar skinpaint of a UAP — 'significant' and 'unprecedented.'",
       "official": "Investigator concluded: 'This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.' No conventional explanation offered.",
-      "gap": "Full mission logs, any follow-up investigation, and the identity of the AW&C aircraft and crew are not in the extracted pages.",
+      "gap": "The seven-object packet includes the AIIR, routing memoranda, control roster, scope-operator log, handwritten operator statement, and route plot, but not raw radar film, calibration records, or independent sensor corroboration.",
       "sources": [
-        "AIIRS-1957, NAID 311001910, raw objects 258 and 260"
+        "AIIRS-1957, NAID 311001910, raw objects 058-064"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-NC-01.png",
       "images": [
         "assets/editorial-reconstructions/BF-1957-NC-01.png",
-        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-258.png",
-        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-260.png"
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-058.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-059.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-060.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-061.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-062.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-063.png",
+        "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-064.png"
       ],
       "keyFact": "First confirmed radar skinpaint of a UAP — the object was detected by raw radar return, closed to 6 miles flying parallel, then accelerated away over 3.5 hours of intermittent contact.",
       "whyItMatters": "Pure sensor case with no visual component. The parallel-flight behavior demonstrates what looks like intelligent tracking. The investigator's own words — 'significant' and 'unprecedented' — carry weight. Adds a radar-only case to balance the visual-heavy Atlas.",
       "keyQuote": "This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.",
-      "quoteSource": "AIIRS-1957, Northern California report, raw object 258 (NARA NAID 311001910)",
+      "quoteSource": "AIIRS-1957, Northern California report, raw object 058 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "A radar operator tracked a UAP by raw skinpaint for 3.5 hours — the object closed to 6 miles, flew parallel, then accelerated away.",
       "significance": "High significance — first radar skinpaint",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "sourceQuality": "Primary source — complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
       "sourceLabel": "AIIRs 1957 / NARA",
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Aug 3, 1957 report",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, raw objects 058-064",
       "relatedCaseIds": [
         "BF-1952-DC-01",
         "BF-1956-LB-01",
@@ -22063,20 +22068,25 @@
           "citation": "AIIRS-1957 · Northern California radar-skinpaint report",
           "sourceType": "air-intelligence-information-report",
           "provenance": "552nd Airborne Early Warning and Control Wing / McClellan AFB; routed by Western Air Defense Force",
-          "locator": "AIIRs 1957 compilation, raw object 258 of 301; routing memorandum on object 260",
+          "locator": "AIIRs 1957 compilation, raw objects 058–064 of 301; AIIR 058, routing 059–060, control roster 061, scope log 062, operator statement 063, route plot 064",
           "supports": [
             "3.5-hours-radar-contact",
             "raw-skinpaint",
             "closed-to-6-miles",
             "flew-parallel",
             "accelerated-away",
+            "scope-operator-log",
+            "operator-statement",
+            "route-plot",
             "investigator-flagged-significant"
           ],
           "limitations": [
             "no-visual-contact",
-            "aircraft-identity-not-extracted",
-            "follow-up-investigation-not-located"
-          ]
+            "no-raw-radar-film",
+            "no-calibration-records",
+            "no-independent-sensor-corroboration"
+          ],
+          "url": "https://catalog.archives.gov/id/311001910"
         }
       ],
       "phenomena": {
@@ -23788,31 +23798,31 @@
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Four civilians (restaurant owner, newspaper reporter, movie projectionist, newspaper owner) observed an oval object with a shaft-like brighter white center. The object disappeared and reappeared, then 'separated and rejoined to leave only three smaller objects' forming an 'arrowhead type formation.' All objects moved NE at low altitude with no sound. The investigator concluded 'air-to-air refueling' but the separating/rejoining and formation behavior is inconsistent with refueling operations.",
       "official": "Investigator concluded objects were likely 'air-to-air refueling of Everglades mission aircraft' — speculative, as no air-to-air refueling entries appeared in the 781st AC&W logs.",
-      "gap": "Full follow-up investigation and radar data not located in extracted pages.",
+      "gap": "No radar confirmation, photography, or additional independent investigative follow-up is included in the recovered seven-object packet.",
       "sources": [
-        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 243-251"
+        "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054"
       ],
       "image": "assets/editorial-reconstructions/BF-1957-HT-01.png",
       "images": [
         "assets/editorial-reconstructions/BF-1957-HT-01.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-243.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-244.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-245.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-246.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-250.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-249.png",
-        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-251.png"
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-048.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-049.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-050.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-051.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-052.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-053.png",
+        "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-054.png"
       ],
       "keyFact": "Four witnesses watched an object separate into three smaller objects forming an 'arrowhead formation' — the investigator's 'refueling' explanation doesn't match the separating/rejoining behavior.",
       "whyItMatters": "Multi-witness case with detailed narrative. The separating/rejoining and formation behavior matches the cross-source pattern (AIIRs 1957, USPER 2025, FBI D009). The investigator's refueling conclusion was speculative and didn't fit.",
       "keyQuote": "Separating and rejoining again to leave only three smaller objects.",
-      "quoteSource": "AIIRS-1957, Report 1-57, raw object 244 (NARA NAID 311001910)",
+      "quoteSource": "AIIRS-1957, Report 1-57, raw object 049 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
       "heroFact": "Four witnesses watched an object split into three forming an arrowhead — the investigator called it 'refueling' but the logs showed none.",
       "significance": "High significance — formation behavior, forced explanation",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "sourceQuality": "Primary source — complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
       "sourceLabel": "AIIRs 1957 / NARA",
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054",
       "relatedCaseIds": [
         "BF-1957-NC-01",
         "BF-1957-B47-01",
@@ -23866,7 +23876,7 @@
           "citation": "AIIRS-1957 · Report 1-57, 781st AC&W Squadron",
           "sourceType": "air-intelligence-information-report",
           "provenance": "781st Aircraft Control and Warning Squadron, Custer AFS, Battle Creek, Michigan",
-          "locator": "AIIRs 1957 compilation, raw objects 243–251; official report 243–245, transmittal 246, witness statement 250/249/251; quoted language on object 244",
+          "locator": "AIIRs 1957 compilation, raw objects 048–054 of 301; official report 048–050, transmittal 051, witness statement 052–054; quoted language on object 049",
           "supports": [
             "four-civilian-witnesses",
             "oval-object",
@@ -23877,8 +23887,10 @@
           ],
           "limitations": [
             "no-radar-confirmation",
-            "no-photographic-evidence"
-          ]
+            "no-photographic-evidence",
+            "no-independent-follow-up-in-packet"
+          ],
+          "url": "https://catalog.archives.gov/id/311001910"
         }
       ],
       "phenomena": {
@@ -24424,71 +24436,67 @@
     },
     {
       "id": "BF-1957-RA-01",
-      "title": "Robins AFB — Object That 'Did Not Appear Conventional'",
-      "date": "10 MAR 1957",
+      "title": "Robins AFB — Star-shaped Object over Warner Robins",
+      "date": "21 AUG 1957",
       "year": 1957,
-      "location": "Robins AFB, Georgia (one mile west of base)",
+      "location": "Warner Robins, Georgia, one mile west of Robins AFB",
       "mode": "exact",
-      "lon": -83.6,
-      "lat": 32.6,
-      "coordinateBasis": "Robins AFB, Georgia (one mile west of base)",
+      "lon": -83.5083,
+      "lat": 32.5125,
+      "coordinateBasis": "AIIR coordinates 32°30′45″N, 83°30′30″W; Warner Robins, one mile west of Robins AFB",
       "expectedCountry": "United States of America",
       "expectedAdmin1": "Georgia",
       "geometryExpectation": "admin1",
       "coordinatePrecision": "site/city",
-      "agency": "USAF / 4602D AISS",
-      "domain": "MILITARY / SENSOR",
-      "status": "DOCUMENTED · UNRESOLVED",
-      "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "Air and ground observers near Robins AFB, Georgia observed an object at the 2 o'clock position to an aircraft, with a slight angle of climb. The object disappeared in an unusual manner. Major John W. Porter noted 'evidence of the object in view of the gravitational pull at the altitude' that 'prevents further evaluation' — meaning it couldn't be explained. The object 'did not appear' conventional.",
-      "official": "No conventional explanation located. Major Porter's assessment that gravitational factors 'prevent further evaluation' is an implicit admission the case was unresolved.",
-      "gap": "The recovered three-page Robins AFB report identifies the sighting date as 10 March 1957, but specific witness identities and follow-up investigation remain absent.",
+      "agency": "Civilian witness / USAF Robins AFB",
+      "domain": "CIVILIAN / AERIAL",
+      "status": "DOCUMENTED · OFFICIAL PROBABLE ASTRONOMICAL",
+      "confidence": "CONFIRMED RECORD · LIMITED CORROBORATION",
+      "summary": "A civilian service-station operator in Warner Robins reported a white, star-shaped object about dime-sized in apparent scale. It moved erratically for roughly ten minutes, then traveled in a high-speed arc toward the southeast and descended beyond the horizon. A B-57 pilot flying nearby reported seeing only two planets; the Robins AFB airdrome officer assessed that the witness probably mistook Venus or Jupiter for a piloted object.",
+      "official": "A B-57 pilot flying in the area reported only two planets and no unidentified object. Captain Jerry E. Moore, Robins AFB airdrome officer, assessed that the witness probably mistook Venus or Jupiter for a piloted object.",
+      "gap": "The three-page report contains one civilian account and a contemporaneous aircraft check, but no photograph, instrument record, additional witness statement, or follow-up analysis.",
       "sources": [
-        "AIIRS-1957, NAID 311001910, raw objects 016-018"
+        "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
       ],
-      "image": "assets/editorial-reconstructions/BF-1957-RA-01.png",
+      "image": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
       "images": [
-        "assets/editorial-reconstructions/BF-1957-RA-01.png",
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-016.png",
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-017.png",
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-018.png"
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-056.png",
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-057.png"
       ],
-      "keyFact": "An object near Robins AFB 'did not appear' conventional — Major Porter noted gravitational factors that 'prevent further evaluation.'",
-      "whyItMatters": "Military base-adjacent sighting with an officer's assessment that gravitational factors prevent resolution. The 'did not appear conventional' language and the gravitational pull note suggest performance characteristics beyond conventional explanation.",
-      "keyQuote": "Evidence of the object in view of the gravitational pull at the altitude prevents further evaluation.",
-      "quoteSource": "AIIRS-1957, Robins AFB report, raw object 018 (NARA NAID 311001910)",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "An object near Robins AFB 'did not appear conventional' — Major Porter said gravitational factors 'prevent further evaluation.'",
-      "significance": "Medium-high significance — military base, officer assessment",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "keyFact": "A ten-minute civilian sighting prompted an aircraft cross-check; the nearby B-57 pilot reported only planets, and Robins AFB assessed Venus or Jupiter as the probable explanation.",
+      "whyItMatters": "The packet preserves both the witness report and the Air Force’s immediate counterevidence, making it a useful example of an official probable-astronomical assessment rather than an unresolved military anomaly.",
+      "keyQuote": "Believes [the observer] mistaken Venus or Jupiter for a piloted object.",
+      "quoteSource": "AIIRS-1957, Robins AFB report, raw object 057 (NARA NAID 311001910)",
+      "quoteConfidence": "High — exact official assessment on raw object 057; the witness name is redacted in the archival scan and bracketed here.",
+      "heroFact": "A civilian reported a star-shaped object for ten minutes; a nearby B-57 pilot saw only two planets, and Robins AFB assessed Venus or Jupiter as probable.",
+      "significance": "Moderate significance — documented civilian report with contemporaneous aircraft check and explicit official assessment.",
+      "sourceQuality": "Primary source — complete three-page Robins AFB Air Intelligence Information Report, raw objects 055–057.",
       "sourceLabel": "AIIRs 1957 / NARA",
-      "sourceLocator": "AIIRS-1957, NAID 311001910, pp. 16-18",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057",
       "relatedCaseIds": [
         "BF-1957-NC-01",
         "BF-1957-B47-01",
         "BF-1957-HT-01"
       ],
       "caseTypes": [
-        "military-base-encounter",
-        "officer-assessment",
-        "gravitational-anomaly"
+        "civilian-witness-report",
+        "military-investigation"
       ],
       "evidenceModes": [
-        "visual",
-        "air-and-ground-observers"
+        "visual"
       ],
       "environment": [
-        "military-airspace",
-        "georgia"
+        "terrestrial"
       ],
-      "outcome": "unresolved",
+      "outcome": "documented",
       "confidenceModel": {
         "record": "confirmed",
         "anomaly": "undetermined",
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "10 MAR 1957",
+        "dateLabel": "21 AUG 1957",
         "year": 1957,
         "startDateTime": null,
         "endDateTime": null,
@@ -24502,32 +24510,37 @@
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -83.6,
-            32.6
+            -83.5083,
+            32.5125
           ]
         },
         "role": "event-location",
         "precision": "site/city",
-        "uncertaintyKm": 5,
-        "basis": "Robins AFB, Georgia (one mile west)"
+        "uncertaintyKm": 2,
+        "basis": "AIIR coordinates 32°30′45″N, 83°30′30″W; Warner Robins, one mile west of Robins AFB"
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · Robins AFB report",
+          "citation": "AIIRS-1957 · Robins AFB report, August 21, 1957",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "Robins Air Force Base; assessment by Major John W. Porter, Chief, Flight Operations Division",
-          "locator": "AIIRs 1957 compilation, raw objects 016–018 of 301; quoted assessment on object 018",
+          "provenance": "Robins Air Force Base; assessment by Captain Jerry E. Moore, USAF, Airdrome Officer",
+          "locator": "AIIRs 1957 compilation, raw objects 055–057 of 301; official assessment on object 057",
+          "url": "https://catalog.archives.gov/id/311001910",
           "supports": [
-            "air-and-ground-observers",
-            "object-at-2-oclock",
-            "slight-angle-of-climb",
-            "disappeared-unusually",
-            "major-porter-gravitational-assessment",
-            "did-not-appear-conventional"
+            "single-civilian-ground-visual-witness",
+            "white-star-shaped-object",
+            "erratic-motion",
+            "ten-minute-duration",
+            "high-speed-southeast-arc",
+            "b57-aircraft-cross-check",
+            "official-venus-or-jupiter-assessment"
           ],
           "limitations": [
-            "exact-date-not-extracted",
-            "witness-identities-not-extracted"
+            "single-witness",
+            "no-photographic-evidence",
+            "no-instrument-record",
+            "nearby-aircraft-did-not-corroborate-object",
+            "no-follow-up-analysis-in-packet"
           ]
         }
       ],
@@ -24536,41 +24549,38 @@
           "star-shaped"
         ],
         "objectCount": 1,
-        "luminosity": null,
+        "luminosity": "white",
         "motion": [
           "erratic-back-and-forth",
-          "high-speed-se-heading"
+          "high-speed-southeast-arc",
+          "direct-descent-beyond-horizon"
         ],
-        "effects": [
-          "gravitational-factor-noted"
-        ]
+        "effects": []
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 1,
         "witnessRoles": [
-          "air observers",
-          "ground observers",
-          "Major John W. Porter"
+          "civilian service-station operator"
         ],
         "sensors": [
           "unaided-visual"
         ],
-        "durationSeconds": null,
-        "independentWitnessGroups": null
+        "durationSeconds": 600,
+        "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
-        "domain": "MILITARY / BASE-ADJACENT",
-        "status": "AIIR — OFFICER ASSESSED UNRESOLVED",
-        "confidence": "CONFIRMED RECORD / UNRESOLVED"
+        "domain": "CIVILIAN / BASE-ADJACENT",
+        "status": "AIIR — PROBABLE ASTRONOMICAL",
+        "confidence": "CONFIRMED RECORD / LIMITED CORROBORATION"
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/editorial-reconstructions/BF-1957-RA-01.png",
+        "src": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
         "mediaType": "image",
-        "visualType": "editorial-reconstruction",
-        "caption": "Editorial reconstruction of Robins AFB — Unconventional Object, based on AIIRs 1957, NARA NAID 311001910.",
-        "provenance": "UAP Atlas editorial reconstruction derived from the cited primary record",
-        "evidenceStatus": "Illustrative reconstruction, not released event imagery and not proof of object identity or origin.",
+        "visualType": "archival-document",
+        "caption": "Robins AFB Air Intelligence Information Report dated August 21, 1957.",
+        "provenance": "NARA NAID 311001910, raw object 055",
+        "evidenceStatus": "Primary archival document; not event imagery.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -25259,11 +25269,11 @@
     {
       "id": "TL-1957-RA",
       "year": 1957,
-      "date": "1957",
+      "date": "AUG 1957",
       "type": "case",
       "caseId": "BF-1957-RA-01",
-      "title": "Robins AFB 'did not appear conventional'",
-      "desc": "An object near Robins AFB 'did not appear conventional' — Major Porter noted gravitational factors that 'prevent further evaluation.'"
+      "title": "Warner Robins star-shaped-object report",
+      "desc": "A civilian reported a white star-shaped object for ten minutes. A nearby B-57 pilot saw only two planets; Robins AFB assessed Venus or Jupiter as the probable explanation."
     },
     {
       "id": "TL-1957-CG",

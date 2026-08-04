@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 214,
-  "sourceIndexFiles": 961,
+  "sourceIndexFiles": 966,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -35,15 +35,15 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 8,
-    "statuses": 9,
-    "confidenceLabels": 9,
-    "agencies": 87
+    "domains": 9,
+    "statuses": 10,
+    "confidenceLabels": 10,
+    "agencies": 88
   },
   "normalizedTaxonomy": {
-    "caseTypes": 92,
-    "evidenceModes": 55,
-    "environments": 48,
+    "caseTypes": 91,
+    "evidenceModes": 54,
+    "environments": 47,
     "outcomes": 26
   },
   "geometryTypes": {

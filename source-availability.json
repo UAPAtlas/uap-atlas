@@ -6,8 +6,8 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 818,
-    "publicLocal": 599,
+    "indexedPaths": 823,
+    "publicLocal": 604,
     "externalPublic": 83,
     "custodyOnly": 136,
     "unavailable": 0
@@ -49,11 +49,31 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-258.png": {
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-058.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-260.png": {
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-059.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-060.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-061.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-062.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-063.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-064.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -1397,31 +1417,31 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-243.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-048.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-244.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-049.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-245.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-050.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-246.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-051.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-249.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-052.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-250.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-053.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-251.png": {
+    "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-054.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -2189,15 +2209,15 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-016.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-017.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-056.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_page-018.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-057.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
