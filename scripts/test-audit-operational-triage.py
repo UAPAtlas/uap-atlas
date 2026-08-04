@@ -49,12 +49,16 @@ assert not orbital_active, f"operationally complete orbital records in active qu
 # Known source-acquisition dependencies must not be demoted to wording-only
 # upgrades when their case-level custody findings use variant phrasing.
 by_id = {row["id"]: row for row in rows}
-for case_id in ("BF-1961-BH-01", "BF-1975-TW-01", "BF-1987-GB-01"):
+for case_id in ("BF-1975-TW-01", "BF-1987-GB-01", "BF-1994-AR-01"):
     assert by_id[case_id]["category"] == "acquisition_target", (
         case_id,
         by_id[case_id]["category"],
         by_id[case_id]["reasons"],
     )
+
+# The exact 57-object Blue Book file closes Hill's official-file acquisition
+# target while retaining explicit limitations around later abduction claims.
+assert by_id["BF-1961-BH-01"]["category"] == "complete", by_id["BF-1961-BH-01"]
 
 print(json.dumps({
     "status": "passed",

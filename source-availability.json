@@ -6,9 +6,9 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 823,
-    "publicLocal": 604,
-    "externalPublic": 83,
+    "indexedPaths": 834,
+    "publicLocal": 613,
+    "externalPublic": 85,
     "custodyOnly": 136,
     "unavailable": 0
   },
@@ -1469,6 +1469,22 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1043.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1044.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-selected.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
     "assets/evidence/ICA-UAP-D001/ICA-UAP-D001_Analysis_Colorado-Springs-UAP-Incident.pdf": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
@@ -2765,6 +2781,31 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "assets/sources/ARIEL-1994/afrinews-11-p12.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/ARIEL-1994/afrinews-11-p13.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/ARIEL-1994/afrinews-12-p06.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/ARIEL-1994/afrinews-12-p07.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/ARIEL-1994/afrinews-selected.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "http://ufoevidence.org/Cases/case127.htm": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "ufoevidence.org"
+    },
     "https://apps.dtic.mil/sti/tr/pdf/AD0680975.pdf": {
       "status": "external-public",
       "label": "External public source",
@@ -2801,6 +2842,11 @@
       "host": "catalog.archives.gov"
     },
     "https://catalog.archives.gov/id/28976748": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "catalog.archives.gov"
+    },
+    "https://catalog.archives.gov/id/28994660": {
       "status": "external-public",
       "label": "External public source",
       "host": "catalog.archives.gov"

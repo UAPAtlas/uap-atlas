@@ -10,8 +10,8 @@
   "counts": {
     "trueGaps": 0,
     "qualityUpgrades": 35,
-    "acquisitionTargets": 14,
-    "complete": 97
+    "acquisitionTargets": 13,
+    "complete": 98
   },
   "cases": [
     {
@@ -41,16 +41,19 @@
       "priorityScore": 100,
       "legacyWeaknessScore": 40,
       "reasons": [
-        "incomplete official packet"
+        "declared acquisition target: Complete unedited 1994 interview footage and original Mack/Hind field materials",
+        "declared acquisition target: First-party UFO AFRINEWS publisher custody",
+        "declared acquisition target: Official Zimbabwean, Ariel School, or police investigative packet",
+        "declared acquisition target: Soil-sampling raw laboratory data and chain-of-custody records"
       ],
       "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 5,
-      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
-      "quoteConfidence": "web article quote \u2014 summary of historical record"
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 10,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 9,
+      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
+      "quoteConfidence": "High transcription confidence \u2014 page-verified quotation from a derivative scan; the publication is not the original interview archive."
     },
     {
       "id": "BF-1975-TW-01",
@@ -241,25 +244,6 @@
       "evidenceAssets": 1,
       "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
       "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified."
-    },
-    {
-      "id": "BF-1961-BH-01",
-      "title": "Betty & Barney Hill Encounter",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "acquisition_target",
-      "priorityScore": 72,
-      "legacyWeaknessScore": 12,
-      "reasons": [
-        "unrecovered record or packet"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 8,
-      "publicSourceUrls": 5,
-      "evidenceAssets": 2,
-      "sourceQuality": "One exact primary USAF report page is now mapped from UNH MC 197, Box 5, Folder 1; it establishes the initial September 1961 report and cautious radar note. The referenced controller attachment and fuller Pease/NICAP packet remain unrecovered.",
-      "quoteConfidence": "High \u2014 exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61; later abduction and hypnosis narratives are outside this quote\u2019s scope."
     },
     {
       "id": "BF-SF-07",
@@ -2343,6 +2327,23 @@
       "evidenceAssets": 5,
       "sourceQuality": "Official file with mixed embedded sources",
       "quoteConfidence": "verified quotation in government-file reproduction"
+    },
+    {
+      "id": "BF-1961-BH-01",
+      "title": "Betty & Barney Hill Encounter",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "multi-source-independent",
+      "sourceRecords": 4,
+      "mainSourceRecords": 3,
+      "indexedLinks": 13,
+      "publicSourceUrls": 6,
+      "evidenceAssets": 2,
+      "sourceQuality": "Exact 57-object Project Blue Book file unit acquired from NARA, NAID 28994660, with a complete checksum custody manifest. Selected mapped objects include the Project 10073 record card, UFO Analysis Sheet, and 1963 Foreign Technology Division status memorandum; the separate UNH-mapped USAF Air Intelligence Information Report records the initial sighting report. These records authenticate the federal file and its administrative/investigative trail, not the later hypnosis-derived abduction account.",
+      "quoteConfidence": "High \u2014 exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61. The NARA file separately authenticates Blue Book custody and disposition; later abduction and hypnosis narratives remain outside the quote\u2019s scope."
     },
     {
       "id": "BF-1964-SC-01",

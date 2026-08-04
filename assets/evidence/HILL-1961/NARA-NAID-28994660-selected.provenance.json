@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "caseId": "BF-1961-BH-01",
+  "title": "Lincoln, New Hampshire, September 1961",
+  "catalogUrl": "https://catalog.archives.gov/id/28994660",
+  "naId": 28994660,
+  "recordGroupNumber": 341,
+  "seriesNaId": 597821,
+  "fullPacket": {
+    "objectCount": 57,
+    "complete": true,
+    "totalBytes": 517979454,
+    "durableIntakeLocation": "Private durable source intake; complete 57-object packet retained offline"
+  },
+  "selectionPolicy": "Only page-verified official records with direct evidentiary value are published in the Atlas gallery. The full 57-object packet remains in durable intake. Later correspondence, hypnosis material, press coverage, and low-content/reverse scans are not imported as incident evidence.",
+  "selectedFiles": [
+    {
+      "viewerPage": 1,
+      "sourceFilename": "1043.jpg",
+      "atlasAsset": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1043.jpg",
+      "recordType": "Project 10073 Record Card",
+      "sourceUrl": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1043.jpg",
+      "bytes": 8151744,
+      "detectedContentType": "image/jpeg",
+      "sha256": "f65a4db85161bd07c81510a55bf7f636865dd9eac441b7470928372f2d38c18e",
+      "supports": "Blue Book record identity, September 20, 1961 date, Lincoln, New Hampshire location, ground-visual classification, and insufficient-data disposition.",
+      "limitations": "A record card documents case handling; it does not authenticate the reported object's identity or any later abduction narrative."
+    },
+    {
+      "viewerPage": 2,
+      "sourceFilename": "1044.jpg",
+      "atlasAsset": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1044.jpg",
+      "recordType": "UFO Analysis Sheet",
+      "sourceUrl": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1044.jpg",
+      "bytes": 8184220,
+      "detectedContentType": "image/jpeg",
+      "sha256": "b0f600796e728e2ace287da96abd94b2598d17c9974978cd2cc05d2e96d20935",
+      "supports": "Official analysis noting possible false radar target from a strong inversion, source reliability assessed as probably good, and insufficient optical data.",
+      "limitations": "The sheet discusses an uncertain radar relationship and does not establish that radar tracked the Hills' reported object."
+    },
+    {
+      "viewerPage": 4,
+      "sourceFilename": "1046.jpg",
+      "atlasAsset": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg",
+      "recordType": "Foreign Technology Division memorandum, Request for UFO Information",
+      "sourceUrl": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1046.jpg",
+      "bytes": 7954349,
+      "detectedContentType": "image/jpeg",
+      "sha256": "1b9813edbdce2b6b00d82eb0431bea82e6e9ea9cac0295dd69a48899756899d6",
+      "supports": "A September 27, 1963 Air Force memorandum states that Pease AFB investigated the sighting, that the file carried insufficient data, and that officials considered Jupiter probable while acknowledging the actual light source was not known.",
+      "limitations": "This is a later administrative assessment of the aerial sighting, not evidence for an abduction, occupants, or extraordinary origin."
+    }
+  ],
+  "custodyBoundary": "NARA custody authenticates the federal Project Blue Book file and its administrative/investigative trail. It does not validate the later hypnosis-derived abduction account, identify the observed object, or establish a radar correlation.",
+  "createdAt": "2026-08-04"
+}

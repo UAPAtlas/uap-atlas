@@ -243,6 +243,14 @@
       "publisher": "University of New Hampshire Special Collections",
       "scope": "archival-finding-aid",
       "url": "https://archives.unh.edu/repositories/3/resources/107"
+    },
+    {
+      "access": "Public",
+      "label": "NARA Catalog — Lincoln, New Hampshire, September 1961 (NAID 28994660)",
+      "note": "Exact 57-object Project Blue Book file unit in RG 341, series NAID 597821. Atlas maps three page-verified official records. Federal custody confirms the file and its handling, not an abduction or extraordinary origin.",
+      "publisher": "National Archives and Records Administration",
+      "scope": "exact-primary-file-unit",
+      "url": "https://catalog.archives.gov/id/28994660"
     }
   ],
   "BF-1964-SC-01": [
@@ -413,6 +421,34 @@
       "publisher": "Sheffield Hallam release / Atlas archival copy",
       "scope": "archival-reproduction",
       "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg"
+    }
+  ],
+  "BF-1994-AR-01": [
+    {
+      "access": "Public local derivative page render",
+      "label": "Atlas selected pages — UFO AFRINEWS No. 11, Ariel School Case No. 96",
+      "publisher": "UFO AFRINEWS / Cynthia Hind; Atlas render from local derivative PDF scan",
+      "scope": "near-contemporaneous-investigator-report-selected-pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ARIEL-1994/afrinews-11-p12.jpg",
+      "locator": "PDF pp. 12–13 / printed pp. 19–21",
+      "note": "Selected page renders only; not first-party 1994 publisher custody or the full original interview archive."
+    },
+    {
+      "access": "Public local derivative page render",
+      "label": "Atlas selected pages — UFO AFRINEWS No. 12, Ariel School Report continuation",
+      "publisher": "UFO AFRINEWS / Cynthia Hind; Atlas render from local derivative PDF scan",
+      "scope": "follow-up-investigator-report-selected-pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
+      "locator": "PDF pp. 6–7 / printed pp. 7–9",
+      "note": "Selected page renders only; complete Mack footage, soil-lab chain, and first-party custody remain unavailable."
+    },
+    {
+      "access": "Public",
+      "label": "UFO Evidence mirror — Cynthia Hind / UFO AFRINEWS Ariel School report",
+      "publisher": "UFO Evidence mirror of Cynthia Hind / UFO AFRINEWS material",
+      "scope": "contemporaneous-investigator-report-mirror",
+      "url": "http://ufoevidence.org/Cases/case127.htm",
+      "note": "Public mirror preserving text/drawing context; mirror custody, not original publisher custody."
     }
   ],
   "BF-1994-KZ-01": [

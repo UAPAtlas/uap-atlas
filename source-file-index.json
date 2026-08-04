@@ -24,6 +24,20 @@
     "assets/evidence/ARIEL-1994/ArielSchool_sketch_sheet.jpg",
     "assets/evidence/ARIEL-1994/ArielSchool_grounds.jpg"
   ],
+  "ARIEL-1994 · interview footage corpus / follow-up study trail": [
+    "assets/evidence/ARIEL-1994/ArielSchool_child_drawing.jpg",
+    "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
+    "assets/evidence/ARIEL-1994/ArielSchool_sketch_sheet.jpg",
+    "assets/evidence/ARIEL-1994/ArielSchool_grounds.jpg"
+  ],
+  "ARIEL-1994 · UFO AFRINEWS No. 11–12 selected-page derivative scans": [
+    "assets/sources/ARIEL-1994/afrinews-11-p12.jpg",
+    "assets/sources/ARIEL-1994/afrinews-11-p13.jpg",
+    "assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
+    "assets/sources/ARIEL-1994/afrinews-12-p07.jpg",
+    "assets/sources/ARIEL-1994/afrinews-selected.provenance.json",
+    "http://ufoevidence.org/Cases/case127.htm"
+  ],
   "ARNOLD-1947": [
     "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
     "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.provenance.json",
@@ -435,7 +449,12 @@
     "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.jpg",
     "assets/evidence/HILL-1961/HILL-1961-USAF-Air-Intelligence-Report-100-1-61.provenance.json",
     "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/",
-    "https://sites.usnh.edu/archivalanalysis/wp-content/uploads/sites/219/2023/10/air_force_report.docx"
+    "https://sites.usnh.edu/archivalanalysis/wp-content/uploads/sites/219/2023/10/air_force_report.docx",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1043.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1044.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-selected.provenance.json",
+    "https://catalog.archives.gov/id/28994660"
   ],
   "JAL1628-1986": [
     "assets/evidence/JAL1628-1986/JAL1628_FAA_Summary_page_003.jpg",
@@ -1392,5 +1411,12 @@
     "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_002.png",
     "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_003.png",
     "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_003__roi_01.jpg"
+  ],
+  "NARA NAID 28994660 · Project Blue Book file unit · Lincoln, New Hampshire, September 1961": [
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1043.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1044.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg",
+    "assets/evidence/HILL-1961/NARA-NAID-28994660-selected.provenance.json",
+    "https://catalog.archives.gov/id/28994660"
   ]
 }

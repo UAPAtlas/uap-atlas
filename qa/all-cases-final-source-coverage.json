@@ -373,15 +373,16 @@
     "id": "BF-1961-BH-01",
     "title": "Betty & Barney Hill Encounter",
     "tokens": [
-      "HILL-1961"
+      "HILL-1961",
+      "NARA NAID 28994660 \u00b7 Project Blue Book file unit \u00b7 Lincoln, New Hampshire, September 1961"
     ],
-    "indexedLinks": 8,
-    "structuredSourceRecords": 3,
-    "publicSourceUrls": 5,
+    "indexedLinks": 13,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 6,
     "evidenceAssets": 2,
-    "links": 11,
-    "local": 6,
-    "urls": 5,
+    "links": 16,
+    "local": 10,
+    "urls": 6,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1278,15 +1279,17 @@
     "id": "BF-1994-AR-01",
     "title": "Ariel School Encounter, Ruwa",
     "tokens": [
-      "ARIEL-1994"
+      "ARIEL-1994",
+      "ARIEL-1994 \u00b7 interview footage corpus / follow-up study trail",
+      "ARIEL-1994 \u00b7 UFO AFRINEWS No. 11\u201312 selected-page derivative scans"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 5,
-    "links": 7,
-    "local": 5,
-    "urls": 2,
+    "indexedLinks": 10,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 9,
+    "links": 14,
+    "local": 10,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },

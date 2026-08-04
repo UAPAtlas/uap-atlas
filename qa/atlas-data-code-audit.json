@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 214,
-  "sourceIndexFiles": 966,
+  "sourceIndexTerms": 217,
+  "sourceIndexFiles": 986,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -62,23 +62,23 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 240,
+  "sourceRecordCount": 243,
   "sourceDepthWeakCaseCount": 64,
-  "sourceDepthEnrichmentCandidateCount": 112,
+  "sourceDepthEnrichmentCandidateCount": 111,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 35,
-    "acquisitionTargets": 14,
-    "complete": 97
+    "acquisitionTargets": 13,
+    "complete": 98
   },
   "sourceProfileCounts": {
     "complete-primary-packet": 25,
     "thin-summary": 56,
-    "multi-source-independent": 11,
+    "multi-source-independent": 12,
     "secondary-only": 8,
     "mixed-provenance": 2,
-    "single-primary-record": 44
+    "single-primary-record": 43
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -310,8 +310,8 @@
       ]
     },
     "BF-1961-BH-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -838,9 +838,11 @@
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
+        "other:cynthia hind / ufo afrinews no. 11; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:cynthia hind / ufo afrinews no. 12; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
       ]
     },
     "BF-SF-12": {
@@ -1494,19 +1496,21 @@
       "id": "BF-1994-AR-01",
       "title": "Ariel School Encounter, Ruwa",
       "score": 40,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 5,
-      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "sourceRecords": 3,
+      "indexedLinks": 10,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 9,
+      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
+      "quoteConfidence": "High transcription confidence \u2014 page-verified quotation from a derivative scan; the publication is not the original interview archive.",
       "sourceProfile": {
         "label": "thin-summary",
         "primaryRecords": 0,
         "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
+        "independentSourceFamilies": 3,
         "sourceFamilies": [
-          "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
+          "other:cynthia hind / ufo afrinews no. 11; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "other:cynthia hind / ufo afrinews no. 12; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
         ]
       },
       "reasons": [

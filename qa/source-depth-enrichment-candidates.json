@@ -28,19 +28,21 @@
     "id": "BF-1994-AR-01",
     "title": "Ariel School Encounter, Ruwa",
     "score": 40,
-    "sourceRecords": 1,
-    "indexedLinks": 4,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 5,
-    "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
+    "sourceRecords": 3,
+    "indexedLinks": 10,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 9,
+    "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
+    "quoteConfidence": "High transcription confidence \u2014 page-verified quotation from a derivative scan; the publication is not the original interview archive.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:cynthia hind / ufo afrinews public mirror plus witness drawings/interview corpus"
+        "other:cynthia hind / ufo afrinews no. 11; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:cynthia hind / ufo afrinews no. 12; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
       ]
     },
     "reasons": [
@@ -1810,30 +1812,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "cia"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
-    "id": "BF-1961-BH-01",
-    "title": "Betty & Barney Hill Encounter",
-    "score": 12,
-    "sourceRecords": 3,
-    "indexedLinks": 8,
-    "publicSourceUrls": 5,
-    "evidenceAssets": 2,
-    "sourceQuality": "One exact primary USAF report page is now mapped from UNH MC 197, Box 5, Folder 1; it establishes the initial September 1961 report and cautious radar note. The referenced controller attachment and fuller Pease/NICAP packet remain unrecovered.",
-    "quoteConfidence": "High \u2014 exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61; later abduction and hypnosis narratives are outside this quote\u2019s scope.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "usaf-blue-book"
       ]
     },
     "reasons": [

@@ -214,6 +214,12 @@ def source_triage(case, coverage_row, weakness_row):
         label for label, phrases in acquisition_signals.items()
         if any(phrase in source_text for phrase in phrases)
     ]
+    declared_targets = case.get("acquisitionTargets") or []
+    acquisition_reasons.extend(
+        f"declared acquisition target: {target}"
+        for target in declared_targets
+        if isinstance(target, str) and target.strip()
+    )
 
     quality_reasons = []
     profile = weakness_row["sourceProfile"]["label"]

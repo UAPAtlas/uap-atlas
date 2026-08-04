@@ -6,6 +6,10 @@ import { fileURLToPath } from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const data=JSON.parse(fs.readFileSync(path.join(root,'atlas-data.json'),'utf8'));
 const html=fs.readFileSync(process.argv[2]||path.join(root,'atlas-fresh.html'),'utf8');
+const appPath=path.join(root,'atlas-app.js');
+const uiSource=html.includes('function culturalLegacyHtml(c)')
+  ? html
+  : `${html}\n${fs.existsSync(appPath)?fs.readFileSync(appPath,'utf8'):''}`;
 const cases=data.cases.filter(c=>(c.culturalLegacy||[]).length);
 if(!cases.length) throw new Error('No Cultural Legacy records found');
 if(!cases.some(c=>c.id==='BF-SF-13')) throw new Error('Billy Meier Cultural Legacy record missing');
@@ -26,6 +30,6 @@ for(const c of cases){
   }
 }
 for(const required of ['function culturalLegacyHtml(c)','class="cultural-legacy"','Context · Not evidence']){
-  if(!html.includes(required)) throw new Error(`Cultural Legacy UI missing: ${required}`);
+  if(!uiSource.includes(required)) throw new Error(`Cultural Legacy UI missing: ${required}`);
 }
 console.log(`Cultural Legacy OK: ${cases.length} case(s), ${cases.reduce((n,c)=>n+c.culturalLegacy.length,0)} documented artifact(s)`);

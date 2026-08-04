@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T11:53:00-04:00",
+  "generatedAt": "2026-08-04T17:46:48-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -7,11 +7,11 @@
   },
   "caseCount": 146,
   "statusCounts": {
-    "exact-naid": 21,
-    "no-exact-nara-mapping": 115,
+    "exact-naid": 22,
+    "no-exact-nara-mapping": 114,
     "collection-guide-only": 10
   },
-  "exactMappedCaseCount": 21,
+  "exactMappedCaseCount": 22,
   "candidateLeadCaseCount": 0,
   "top10SelectionMethod": "Curated NARA-first tranche using significance, official-record tractability, local custody gaps and missing-record value; arithmetic score retained as a secondary triage signal.",
   "top10UpgradeCaseIds": [
@@ -997,22 +997,50 @@
       "caseId": "BF-1961-BH-01",
       "title": "Betty & Barney Hill Encounter",
       "year": 1961,
-      "sourceLocator": "HILL-1961",
-      "mappingStatus": "no-exact-nara-mapping",
-      "exactNaids": [],
-      "seriesNaids": [],
-      "recordGroups": [],
-      "resolvedNaraRecords": [],
+      "sourceLocator": "NARA NAID 28994660, selected objects 1043, 1044, and 1046; USAF Air Intelligence Information Report 100-1-61 via UNH MC 197, Box 5, Folder 1",
+      "mappingStatus": "exact-naid",
+      "exactNaids": [
+        "28994660"
+      ],
+      "seriesNaids": [
+        "597821"
+      ],
+      "recordGroups": [
+        341
+      ],
+      "resolvedNaraRecords": [
+        {
+          "naid": "597821",
+          "recordGroup": 341,
+          "title": "Project Blue Book series",
+          "series": "series-level identifier",
+          "access": "catalog series",
+          "digitalObjectCount": null
+        },
+        {
+          "naid": "28994660",
+          "recordGroup": null,
+          "title": null,
+          "series": null,
+          "access": "explicit NAID; metadata not present in local inventories",
+          "digitalObjectCount": null
+        }
+      ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "HILL-1961"
+        "HILL-1961",
+        "NARA NAID 28994660 · Project Blue Book file unit · Lincoln, New Hampshire, September 1961"
       ],
-      "structuredSourceRecords": 3,
-      "publicUrlCount": 5,
-      "localCustodyFileCount": 6,
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 6,
+      "localCustodyFileCount": 10,
       "localPdfCount": 0,
-      "coverageLinks": 11,
+      "coverageLinks": 16,
       "missingRecordClasses": [
+        "Government custody authenticates the file, not the reported object’s identity",
+        "The selected records do not authenticate the later abduction narrative or hypnosis-derived recall",
+        "The referenced Daily Report of Controller attachment remains absent and no radar correlation is established",
+        "The full file includes later correspondence and publications that are not independent incident evidence",
         "Documents an aerial-object report, not the later abduction narrative",
         "States that the radar observation provided no description and cannot be linked to the visual report",
         "References a Daily Report of Controller attachment that is absent from the currently recovered page",
@@ -1023,9 +1051,8 @@
         "does not corroborate the event narrative",
         "cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 5,
+      "upgradePriorityScore": 0,
       "upgradeReasons": [
-        "historical case lacks exact NAID",
         "no complete local PDF in mapped custody"
       ]
     },
@@ -2835,7 +2862,7 @@
       "caseId": "BF-1994-AR-01",
       "title": "Ariel School Encounter, Ruwa",
       "year": 1994,
-      "sourceLocator": "ARIEL-1994",
+      "sourceLocator": "ARIEL-1994 · AFRINEWS No. 11 PDF pp. 12–13; No. 12 PDF pp. 6–7",
       "mappingStatus": "no-exact-nara-mapping",
       "exactNaids": [],
       "seriesNaids": [],
@@ -2843,23 +2870,29 @@
       "resolvedNaraRecords": [],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "ARIEL-1994"
+        "ARIEL-1994",
+        "ARIEL-1994 · interview footage corpus / follow-up study trail",
+        "ARIEL-1994 · UFO AFRINEWS No. 11–12 selected-page derivative scans"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 2,
-      "localCustodyFileCount": 5,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 10,
       "localPdfCount": 0,
-      "coverageLinks": 7,
+      "coverageLinks": 14,
       "missingRecordClasses": [
-        "Public mirror is not first-party archive custody for UFO AFRINEWS originals",
-        "Witness testimony/drawings do not establish object identity or origin",
-        "No official Zimbabwean school/government/police investigative packet is mapped in the Atlas record"
+        "Derivative scan, not first-party publisher archive or original 1994 material",
+        "Investigator reporting and testimony/drawings do not establish object identity or origin",
+        "Does not provide complete unedited interview footage or an official investigative packet",
+        "Does not supply Mack's complete unedited footage, transcripts, or field notes",
+        "Does not supply raw soil-laboratory measurements or sampling chain-of-custody records",
+        "Derivative publication scan, not a substitute for original-material acquisition",
+        "Not event photography",
+        "Not the complete unedited interview archive",
+        "Item-level original provenance and chain of custody remain incomplete"
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },

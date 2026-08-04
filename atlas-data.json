@@ -4391,10 +4391,10 @@
     },
     {
       "keyQuote": "On the night of 19-20 Sept between 20/0001 and 20/0100 Mr. & Mrs. Hill were traveling south on route 3 near Lincoln, N.H. when they observed, through the windshield of their car, a strange object in the sky.",
-      "quoteSource": "NICAP Hill Report, September 19, 1961 (summary)",
-      "quoteConfidence": "High — exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61; later abduction and hypnosis narratives are outside this quote’s scope.",
+      "quoteSource": "USAF Air Intelligence Information Report 100-1-61, September 21, 1961 (UNH MC 197, Box 5, Folder 1)",
+      "quoteConfidence": "High — exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61. The NARA file separately authenticates Blue Book custody and disposition; later abduction and hypnosis narratives remain outside the quote’s scope.",
       "significance": "Case significance",
-      "sourceQuality": "One exact primary USAF report page is now mapped from UNH MC 197, Box 5, Folder 1; it establishes the initial September 1961 report and cautious radar note. The referenced controller attachment and fuller Pease/NICAP packet remain unrecovered.",
+      "sourceQuality": "Exact 57-object Project Blue Book file unit acquired from NARA, NAID 28994660, with a complete checksum custody manifest. Selected mapped objects include the Project 10073 record card, UFO Analysis Sheet, and 1963 Foreign Technology Division status memorandum; the separate UNH-mapped USAF Air Intelligence Information Report records the initial sighting report. These records authenticate the federal file and its administrative/investigative trail, not the later hypnosis-derived abduction account.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1961-BH-01",
@@ -4430,14 +4430,15 @@
       "confidence": "ALLEGATION · UNVERIFIED",
       "summary": "The first widely publicized American abduction account. The Hills reported a pacing object on Route 3; a contemporaneous report was logged through Pease AFB channels. The abduction narrative itself emerged later under hypnosis, which is not treated as evidentiary.",
       "keyFact": "The template abduction case: a contemporaneous sighting report exists on paper, while the famous abduction content came later from hypnosis sessions — two very different evidentiary tiers in one file.",
-      "official": "Blue Book carried the sighting entry as insufficient data / probable optical; no agency has treated hypnosis-derived recall as evidence.",
-      "gap": "The original Pease AFB report entry and the unedited hypnosis tapes have never been published together as one authenticated set. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "official": "Project Blue Book carried the aerial sighting as insufficient data. A 1963 Foreign Technology Division memorandum said Pease AFB investigated it, considered Jupiter probable, acknowledged that the actual light source was not known, and reported no evidence for other than natural causes. No official record treats hypnosis-derived abduction recall as evidence.",
+      "gap": "The referenced Daily Report of Controller attachment remains absent, and original unedited hypnosis media remain separate from the official file. The NARA packet does not authenticate an abduction, occupants, or extraordinary object origin.",
       "whyItMatters": "Nearly every later abduction narrative borrows its structure from this case, so its split between contemporaneous record and reconstructed memory is the split the whole genre inherits.",
       "sources": [
-        "HILL-1961 · Pease AFB / Blue Book entry & later interview trail"
+        "HILL-1961 · Pease AFB / Blue Book entry & later interview trail",
+        "NARA NAID 28994660 · Project Blue Book file unit · Lincoln, New Hampshire, September 1961"
       ],
-      "sourceLabel": "Blue Book-era entry",
-      "sourceLocator": "HILL-1961",
+      "sourceLabel": "NARA Project Blue Book file + USAF report",
+      "sourceLocator": "NARA NAID 28994660, selected objects 1043, 1044, and 1046; USAF Air Intelligence Information Report 100-1-61 via UNH MC 197, Box 5, Folder 1",
       "relatedCaseIds": [
         "BF-1975-TW-01",
         "BF-1994-AR-01"
@@ -4454,6 +4455,33 @@
           "sourceType": "university-archive-scan-of-usaf-record",
           "caption": "USAF Air Intelligence Information Report 100-1-61, signed at Pease AFB on September 21, 1961. It records the Hills’ initial aerial-object report and treats a radar relationship as possible but indeterminate; it does not document an abduction.",
           "rights": "Underlying U.S. Air Force record; university-hosted collection scan. Scan reuse status not independently adjudicated."
+        },
+        {
+          "url": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1043.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1043.jpg",
+          "sourceName": "NARA NAID 28994660, viewer object 1043",
+          "sourceType": "federal-archive-scan",
+          "caption": "Project 10073 record card for Lincoln, New Hampshire, dated September 20, 1961. It identifies a ground-visual report and carries an insufficient-data disposition.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1044.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1044.jpg",
+          "sourceName": "NARA NAID 28994660, viewer object 1044",
+          "sourceType": "federal-archive-scan",
+          "caption": "UFO Analysis Sheet assessing the source as “probably good,” noting insufficient optical data, and discussing a possible false radar target associated with a strong atmospheric inversion.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/60/9946/28994660/content/TB0106/T1206-ProjectBlueBook/T1206_0043/images/1046.jpg",
+          "sourceName": "NARA NAID 28994660, viewer object 1046",
+          "sourceType": "federal-archive-scan",
+          "caption": "Foreign Technology Division memorandum dated September 27, 1963. It states that Pease AFB investigated the sighting, the case remained insufficient data, and officials considered Jupiter probable while saying the actual light source was not known.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
         },
         "assets/source_previews/BF-1961-BH-01_source_image.png"
       ],
@@ -4497,6 +4525,25 @@
         "basis": "Published public coordinate for the named location"
       },
       "sourceRecords": [
+        {
+          "citation": "National Archives, Project Blue Book file unit “Lincoln, New Hampshire, September 1961,” NAID 28994660",
+          "sourceType": "primary-federal-archival-file-unit",
+          "provenance": "NARA Record Group 341, Project Blue Book series NAID 597821; exact file unit NAID 28994660; 57 of 57 media objects downloaded and checksum-manifested",
+          "locator": "Selected viewer objects: 1043 (Project 10073 record card), 1044 (UFO Analysis Sheet), and 1046 (Foreign Technology Division memorandum dated September 27, 1963)",
+          "url": "https://catalog.archives.gov/id/28994660",
+          "supports": [
+            "Authenticates federal Project Blue Book custody for the Lincoln, New Hampshire, September 1961 file",
+            "Records the sighting as ground-visual and insufficient data",
+            "Documents an official analysis that assessed source reliability as probably good while treating radar association as uncertain",
+            "Documents a later Air Force assessment that considered Jupiter probable but acknowledged that the actual light source was not known"
+          ],
+          "limitations": [
+            "Government custody authenticates the file, not the reported object’s identity",
+            "The selected records do not authenticate the later abduction narrative or hypnosis-derived recall",
+            "The referenced Daily Report of Controller attachment remains absent and no radar correlation is established",
+            "The full file includes later correspondence and publications that are not independent incident evidence"
+          ]
+        },
         {
           "citation": "Major Paul W. Henderson, Air Intelligence Information Report 100-1-61, September 21, 1961",
           "sourceType": "primary-usaf-intelligence-report",
@@ -4571,7 +4618,7 @@
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
-      "evidenceDepthStatus": "structure-repaired-primary-gap-remains",
+      "evidenceDepthStatus": "primary-packet-acquired-page-mapped-claim-boundary-retained",
       "taxonomyOriginal": {
         "domain": "WITNESS NARRATIVE / ABDUCTION",
         "status": "ABDUCTION NARRATIVE FILE",
@@ -4629,6 +4676,14 @@
           "access": "Public university-hosted DOCX",
           "scope": "primary-document-container",
           "note": "Contains the photographed USAF report page used for the mapped Atlas image."
+        },
+        {
+          "label": "NARA Catalog — Lincoln, New Hampshire, September 1961 (NAID 28994660)",
+          "url": "https://catalog.archives.gov/id/28994660",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public catalog and media objects",
+          "scope": "exact-primary-file-unit",
+          "note": "Exact 57-object Project Blue Book file unit in RG 341, series NAID 597821. Atlas maps only three page-verified official records. Federal custody confirms the file and its handling, not an abduction or extraordinary origin."
         }
       ]
     },
@@ -13568,11 +13623,11 @@
       ]
     },
     {
-      "keyQuote": "Sixty-two children at the Ariel School in Ruwa, Zimbabwe reported seeing a landed craft and beings during morning recess; the children's drawings depicted consistent details.",
-      "quoteSource": "Ariel School investigation files & child witness drawings (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "keyQuote": "Out of the 250 children at the school, more than 60 were now witnesses to an extraordinary event.",
+      "quoteSource": "UFO AFRINEWS No. 11, Case No. 96, PDF p. 13 / printed p. 20 (derivative local scan)",
+      "quoteConfidence": "High transcription confidence — page-verified quotation from a derivative scan; the publication is not the original interview archive.",
       "significance": "High significance",
-      "sourceQuality": "Cynthia Hind/UFO AFRINEWS and witness-drawing public trail; strong contemporaneous interview context but no official investigative packet.",
+      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11–12 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1994-AR-01",
@@ -13605,15 +13660,16 @@
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "About sixty children at Ariel School reported a landed craft and small beings at the edge of the schoolyard during morning break. They were interviewed on camera within days, including by BBC correspondent Tim Leach and later Harvard psychiatrist John Mack; adult follow-up interviews decades later remain broadly consistent.",
-      "keyFact": "Sixty child witnesses, filmed within days, telling structurally consistent accounts that have held up in adult re-interviews — the strongest mass-witness testimony corpus in the record.",
+      "keyFact": "UFO AFRINEWS No. 11 reported that more than 60 of roughly 250 pupils were witnesses and that the children were returned to classrooms and asked to draw what they had seen.",
       "official": "No Zimbabwean government investigation was conducted; skeptical readings attribute the event to suggestion cascading through the group.",
-      "gap": "The complete unedited 1994 interview footage has never been archived in one public collection.",
-      "whyItMatters": "Ariel is the benchmark for testimony-only evidence: no instruments, no traces, but a witness corpus large and consistent enough that explanation attempts must engage it seriously.",
+      "gap": "Complete unedited 1994 interview footage; original Mack/Hind notes, recordings, and drawings; first-party Afrinews custody; an official Zimbabwean/school/police packet; and underlying soil-sampling laboratory records with chain of custody remain unavailable in the Atlas source set.",
+      "whyItMatters": "Ariel is a major testimony-heavy case. The selected Afrinews pages make its near-contemporaneous investigative layer directly inspectable while preserving the decisive limitation: the original interview and field archive is still incomplete.",
       "sources": [
+        "ARIEL-1994 · UFO AFRINEWS No. 11–12 selected-page derivative scans",
         "ARIEL-1994 · interview footage corpus / follow-up study trail"
       ],
-      "sourceLabel": "Interview corpus + witness drawings",
-      "sourceLocator": "ARIEL-1994",
+      "sourceLabel": "UFO AFRINEWS No. 11–12 page-verified derivative scans + witness trail",
+      "sourceLocator": "ARIEL-1994 · AFRINEWS No. 11 PDF pp. 12–13; No. 12 PDF pp. 6–7",
       "relatedCaseIds": [
         "BF-1966-WS-01",
         "BF-1961-BH-01"
@@ -13667,19 +13723,50 @@
       },
       "sourceRecords": [
         {
-          "citation": "ARIEL-1994 · interview footage corpus / follow-up study trail",
-          "sourceType": "contemporaneous-investigator-and-witness-trail",
-          "provenance": "Cynthia Hind / UFO AFRINEWS public mirror plus witness drawings/interview corpus",
-          "locator": "ARIEL-1994",
+          "citation": "UFO AFRINEWS No. 11, Case No. 96, 'The Children of Ariel School', PDF pp. 12–13 (printed pp. 19–21)",
+          "sourceType": "near-contemporaneous-investigator-report-derivative-scan",
+          "provenance": "Cynthia Hind / UFO AFRINEWS No. 11; local derivative PDF scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "locator": "ARIEL-1994 · UFO-AFRINEWS-No-11.pdf#page=12-13",
           "supports": [
-            "Preserves near-contemporaneous investigator reporting from Cynthia Hind after the Ruwa school reports",
-            "Documents children’s drawings/interview accounts as central evidence type",
-            "Supports that a large group of students reported an encounter, not merely a later retelling by one witness"
+            "Published opening account of the September 16, 1994 Ariel School report",
+            "Adult/schoolyard context and first reporting to Mrs Alyson Kirkman",
+            "Published claim that more than 60 of about 250 pupils were witnesses",
+            "Report that children were returned to classrooms and asked to draw what they had seen"
           ],
           "limitations": [
-            "Public mirror is not first-party archive custody for UFO AFRINEWS originals",
-            "Witness testimony/drawings do not establish object identity or origin",
-            "No official Zimbabwean school/government/police investigative packet is mapped in the Atlas record"
+            "Derivative scan, not first-party publisher archive or original 1994 material",
+            "Investigator reporting and testimony/drawings do not establish object identity or origin",
+            "Does not provide complete unedited interview footage or an official investigative packet"
+          ]
+        },
+        {
+          "citation": "UFO AFRINEWS No. 12, 'ARIEL SCHOOL REPORT (CONT.) case N°96', PDF pp. 6–7 (printed pp. 7–9)",
+          "sourceType": "follow-up-investigator-report-derivative-scan",
+          "provenance": "Cynthia Hind / UFO AFRINEWS No. 12; local derivative PDF scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "locator": "ARIEL-1994 · UFO-AFRINEWS-No-12.pdf#page=6-7",
+          "supports": [
+            "Reports that Dr. John Mack spent two days speaking with children",
+            "Documents a reported prior-day object account and mixed-corroboration handling",
+            "Includes Figure 2 map and describes soil-sample follow-up by Gunter Hofer"
+          ],
+          "limitations": [
+            "Does not supply Mack's complete unedited footage, transcripts, or field notes",
+            "Does not supply raw soil-laboratory measurements or sampling chain-of-custody records",
+            "Derivative publication scan, not a substitute for original-material acquisition"
+          ]
+        },
+        {
+          "citation": "ARIEL-1994 · witness interview and drawing public trail",
+          "sourceType": "witness-media-and-drawing-context",
+          "provenance": "Selected witness-interview stills and drawing images preserved in the local Atlas evidence set; complete item-level original custody is not established",
+          "locator": "assets/evidence/ARIEL-1994/",
+          "supports": [
+            "Preserves representative visual context for the child-witness interview and drawing trail"
+          ],
+          "limitations": [
+            "Not event photography",
+            "Not the complete unedited interview archive",
+            "Item-level original provenance and chain of custody remain incomplete"
           ]
         }
       ],
@@ -13698,7 +13785,8 @@
           "students/schoolchildren"
         ],
         "sensors": [
-          "photographic/film"
+          "recorded-interviews",
+          "witness-drawings"
         ],
         "durationSeconds": null,
         "independentWitnessGroups": null
@@ -13720,6 +13808,28 @@
       },
       "publicSources": [
         {
+          "label": "UFO AFRINEWS No. 11 — Ariel School Case No. 96 selected pages",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ARIEL-1994/afrinews-11-p12.jpg",
+          "publisher": "UFO AFRINEWS / Cynthia Hind; Atlas page render from local derivative PDF scan",
+          "access": "Public local derivative page render",
+          "scope": "near-contemporaneous-investigator-report-selected-pages",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "locator": "PDF pp. 12–13 / printed pp. 19–21",
+          "note": "Selected derivative page renders; not first-party 1994 publisher custody or original interview footage."
+        },
+        {
+          "label": "UFO AFRINEWS No. 12 — Ariel School Report continuation selected pages",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
+          "publisher": "UFO AFRINEWS / Cynthia Hind; Atlas page render from local derivative PDF scan",
+          "access": "Public local derivative page render",
+          "scope": "near-contemporaneous-investigator-report-selected-pages",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "locator": "PDF pp. 6–7 / printed pp. 7–9",
+          "note": "Selected derivative page renders; complete Mack footage, soil-lab chain, and first-party custody remain gaps."
+        },
+        {
           "label": "The UFO Incident That Shocked Ariel School",
           "url": "https://www.youtube.com/watch?v=8L6M2mRcux4",
           "publisher": "The Why Files",
@@ -13740,7 +13850,17 @@
       ],
       "images": [
         "assets/evidence/ARIEL-1994/ArielSchool_witness_children.jpg",
-        "assets/source_previews/BF-1994-AR-01_source_image.jpg"
+        "assets/source_previews/BF-1994-AR-01_source_image.jpg",
+        "assets/sources/ARIEL-1994/afrinews-11-p12.jpg",
+        "assets/sources/ARIEL-1994/afrinews-11-p13.jpg",
+        "assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
+        "assets/sources/ARIEL-1994/afrinews-12-p07.jpg"
+      ],
+      "acquisitionTargets": [
+        "Complete unedited 1994 interview footage and original Mack/Hind field materials",
+        "First-party UFO AFRINEWS publisher custody",
+        "Official Zimbabwean, Ariel School, or police investigative packet",
+        "Soil-sampling raw laboratory data and chain-of-custody records"
       ]
     },
     {

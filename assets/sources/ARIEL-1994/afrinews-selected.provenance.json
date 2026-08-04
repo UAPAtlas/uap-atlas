@@ -1,0 +1,94 @@
+{
+  "caseId": "BF-1994-AR-01",
+  "created": "2026-08-04",
+  "sourceLayer": "near-contemporaneous investigative publication; derivative relative to original interviews, recordings, notes, and drawings",
+  "sourceDocuments": [
+    {
+      "filename": "UFO-AFRINEWS-No-11.pdf",
+      "durableIntakeRecord": "Private durable source intake / UFO-AFRINEWS-No-11.pdf",
+      "sha256": "9a575720b68306bcb916bbb38dd8671647ed034f6176bb24479027b0e0c5a9e5",
+      "bytes": 4633748,
+      "pages": 24,
+      "embeddedCreationDate": "2008-10-18T15:00:06-04:00",
+      "embeddedModificationDate": "2021-07-29T11:08:28-04:00",
+      "localAcquisitionDate": "2026-08-04",
+      "acquisitionUrl": "not preserved in the four-file intake folder"
+    },
+    {
+      "filename": "UFO-AFRINEWS-No-12.pdf",
+      "durableIntakeRecord": "Private durable source intake / UFO-AFRINEWS-No-12.pdf",
+      "sha256": "82f6a0bb1ce14a7461dba10f3f46abdccb8fbb3dd2692e970e4645e1bf2db850",
+      "bytes": 4930916,
+      "pages": 24,
+      "embeddedCreationDate": "2008-10-18T15:06:55-04:00",
+      "embeddedModificationDate": "2021-07-29T11:10:16-04:00",
+      "localAcquisitionDate": "2026-08-04",
+      "acquisitionUrl": "not preserved in the four-file intake folder"
+    }
+  ],
+  "selectedRenders": [
+    {
+      "assetPath": "assets/sources/ARIEL-1994/afrinews-11-p12.jpg",
+      "sourceDocument": "UFO-AFRINEWS-No-11.pdf",
+      "pdfPage": 12,
+      "printedPageLocator": "printed pp. 18–19; article opens on p. 19",
+      "caption": "UFO AFRINEWS No. 11, Case No. 96, opening of 'The Children of Ariel School'.",
+      "sha256": "989c9f9810ae73517be3ba56051e157c0e83c90cdc394a61f61c4c276d901859",
+      "bytes": 356966,
+      "dimensions": {
+        "width": 2109,
+        "height": 1493
+      },
+      "rendering": "pdftoppm JPEG, 180 DPI"
+    },
+    {
+      "assetPath": "assets/sources/ARIEL-1994/afrinews-11-p13.jpg",
+      "sourceDocument": "UFO-AFRINEWS-No-11.pdf",
+      "pdfPage": 13,
+      "printedPageLocator": "printed pp. 20–21",
+      "caption": "UFO AFRINEWS No. 11, witness-count and drawing-summary spread for Case No. 96.",
+      "sha256": "7f702c7db64542b530328aa44d375afb5343e62b4a1c02c1c9ac3d0660574c7a",
+      "bytes": 388824,
+      "dimensions": {
+        "width": 2106,
+        "height": 1489
+      },
+      "rendering": "pdftoppm JPEG, 180 DPI"
+    },
+    {
+      "assetPath": "assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
+      "sourceDocument": "UFO-AFRINEWS-No-12.pdf",
+      "pdfPage": 6,
+      "printedPageLocator": "printed pp. 6–7; continuation opens on p. 7",
+      "caption": "UFO AFRINEWS No. 12, Ariel School continuation and John Mack interview context.",
+      "sha256": "dcf5ad83356f358ddfb72afc2fbcaff3b4ba772e2cce68dc8b06aaa6e9993f50",
+      "bytes": 354920,
+      "dimensions": {
+        "width": 2106,
+        "height": 1489
+      },
+      "rendering": "pdftoppm JPEG, 180 DPI"
+    },
+    {
+      "assetPath": "assets/sources/ARIEL-1994/afrinews-12-p07.jpg",
+      "sourceDocument": "UFO-AFRINEWS-No-12.pdf",
+      "pdfPage": 7,
+      "printedPageLocator": "printed pp. 8–9; Figure 2 map and follow-up context",
+      "caption": "UFO AFRINEWS No. 12, Figure 2 map and soil-sampling follow-up context.",
+      "sha256": "caa332eb6d4b923d8f59a98c1d5349c29b693c676407c582c9559aca37e1ea47",
+      "bytes": 432452,
+      "dimensions": {
+        "width": 2106,
+        "height": 1489
+      },
+      "rendering": "pdftoppm JPEG, 180 DPI"
+    }
+  ],
+  "intendedUse": "Public page-verified rendering of selected Afrinews reporting, witness-count/drawing context, John Mack follow-up context, Figure 2 map, and soil-sampling narrative.",
+  "limitations": [
+    "Local PDFs are later scans with 2008/2021 embedded metadata, not first-party 1994 publisher custody.",
+    "Afrinews is a contemporaneous investigative publication, not the original Mack/Hind interview, audio, video, notebook, or drawing archive.",
+    "Page renders support what Afrinews reported; they do not independently establish object identity or origin.",
+    "Complete unedited interview footage, official Zimbabwean/school/police records, and soil-lab raw data/chain of custody remain unavailable."
+  ]
+}
