@@ -9,9 +9,9 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 27,
+    "qualityUpgrades": 25,
     "acquisitionTargets": 13,
-    "complete": 106
+    "complete": 108
   },
   "cases": [
     {
@@ -398,44 +398,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 declassified State Department cable",
       "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 3,
-      "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
-      "quoteConfidence": "Low-medium \u2014 claim is publicly attributable, but S-4 employment/program claims remain unverified."
-    },
-    {
-      "id": "BF-SF-03",
-      "title": "Special File: T. Townsend Brown Electrogravitics",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
-      "quoteConfidence": "Medium \u2014 claim trail and historical research context are public, but technical performance claims remain disputed."
     },
     {
       "id": "BF-SF-08",
@@ -2587,6 +2549,40 @@
       "evidenceAssets": 4,
       "sourceQuality": "Primary source",
       "quoteConfidence": "confirmed source-phrase quotation"
+    },
+    {
+      "id": "BF-SF-01",
+      "title": "Bob Lazar / S-4 Claims",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "multi-source-independent",
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 2,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 3,
+      "sourceQuality": "Three independent source families answer different questions: KLAS/8 News documents claim emergence; CIA documents Groom Lake's real classified aircraft history; NIST/IUPAC document moscovium science. None independently establishes S-4 employment, recovered craft, non-human origin or a stable element-115 fuel isotope. Los Alamos employment and education disputes remain secondary or locator-only in current Atlas custody.",
+      "quoteConfidence": "High for attribution and public-claim emergence; not a verbatim quote and not verification of employment, craft, program or propulsion claims."
+    },
+    {
+      "id": "BF-SF-03",
+      "title": "T. Townsend Brown / Project Winterhaven",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 4,
+      "mainSourceRecords": 4,
+      "indexedLinks": 2,
+      "publicSourceUrls": 6,
+      "evidenceAssets": 2,
+      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation.",
+      "quoteConfidence": "High for exact patent text; patent wording and issuance do not validate electrogravitic or antigravity performance."
     },
     {
       "id": "BF-SF-09",

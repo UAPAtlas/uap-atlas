@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 222,
-  "sourceIndexFiles": 1032,
+  "sourceIndexTerms": 223,
+  "sourceIndexFiles": 1034,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -36,13 +36,13 @@
   },
   "uniqueDisplayTaxonomy": {
     "domains": 9,
-    "statuses": 15,
-    "confidenceLabels": 14,
+    "statuses": 17,
+    "confidenceLabels": 16,
     "agencies": 88
   },
   "normalizedTaxonomy": {
     "caseTypes": 94,
-    "evidenceModes": 59,
+    "evidenceModes": 68,
     "environments": 49,
     "outcomes": 28
   },
@@ -62,21 +62,21 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 251,
-  "sourceDepthWeakCaseCount": 60,
-  "sourceDepthEnrichmentCandidateCount": 108,
+  "sourceRecordCount": 256,
+  "sourceDepthWeakCaseCount": 58,
+  "sourceDepthEnrichmentCandidateCount": 106,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 27,
+    "qualityUpgrades": 25,
     "acquisitionTargets": 13,
-    "complete": 106
+    "complete": 108
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 31,
+    "complete-primary-packet": 32,
     "secondary-only": 9,
-    "multi-source-independent": 13,
-    "thin-summary": 51,
+    "multi-source-independent": 14,
+    "thin-summary": 49,
     "mixed-provenance": 2,
     "single-primary-record": 40
   },
@@ -247,12 +247,15 @@
       ]
     },
     "BF-SF-03": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 4,
       "sourceFamilies": [
-        "other:project winterhaven proposal context, townsend brown electrogravitics claims, and bahnson labs film/public documentary trail"
+        "academic",
+        "other:arc seibersdorf research paper, publicly hosted by tu dresden",
+        "other:public rexresearch transcription attributed to onr pasadena; first-party onr or nara scan is not atlas-mapped",
+        "usaf-blue-book"
       ]
     },
     "BF-1953-RP-00": {
@@ -823,12 +826,14 @@
       ]
     },
     "BF-SF-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "label": "multi-source-independent",
+      "primaryRecords": 3,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:klas/george knapp broadcast record, later interviews, and unresolved credential/employment verification trail"
+        "cia",
+        "other:official nist and iupac public scientific references",
+        "other:official station retrospective and public video; exact original 1989 broadcast master is not locally held"
       ]
     },
     "BF-1990-CV-01": {

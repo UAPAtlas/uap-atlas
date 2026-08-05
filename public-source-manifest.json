@@ -1008,5 +1008,89 @@
       "scope": "public-mirror",
       "note": "Public mirror of a frame attributed to the Omaha clip; mirror custody does not independently authenticate event claims."
     }
+  ],
+  "BF-SF-01": [
+    {
+      "label": "8 News Now / KLAS — 1989 Bob Lazar broadcast retrospective",
+      "url": "https://www.youtube.com/watch?v=2GRjgBVw9Pk",
+      "publisher": "8 News Now — Las Vegas / KLAS-TV",
+      "access": "Public",
+      "scope": "broadcast-claim-provenance",
+      "note": "Official station retrospective identifying the 15 May 1989 anonymous 'Dennis' interview. It documents public emergence of Lazar's claims, not their truth."
+    },
+    {
+      "label": "CIA — What really went on at Area 51?",
+      "url": "https://www.cia.gov/stories/story/ask-molly-what-really-went-on-at-area-51/",
+      "publisher": "Central Intelligence Agency",
+      "access": "Public",
+      "scope": "official-site-history",
+      "note": "Confirms Groom Lake as a secret U-2 and A-12 test and training site; does not establish Lazar's alleged S-4 program, recovered craft, or non-human technology."
+    },
+    {
+      "label": "NIST — Taking a Seat at the Periodic Table",
+      "url": "https://www.nist.gov/blogs/taking-measure/taking-seat-periodic-table",
+      "publisher": "National Institute of Standards and Technology",
+      "access": "Public",
+      "scope": "official-scientific-reference",
+      "note": "Identifies element 115 as moscovium and row 7 as all-radioactive; does not verify Lazar's claimed stable fuel isotope or propulsion account."
+    },
+    {
+      "label": "IUPAC — Naming moscovium, element 115",
+      "url": "https://iupac.org/iupac-is-naming-the-four-new-elements-nihonium-moscovium-tennessine-and-oganesson/",
+      "publisher": "International Union of Pure and Applied Chemistry",
+      "access": "Public",
+      "scope": "official-element-naming-record",
+      "note": "Establishes official naming of element 115 as moscovium; atomic number 115 followed from the periodic table and was not a unique prediction of a stable isotope or exotic fuel."
+    }
+  ],
+  "BF-SF-03": [
+    {
+      "label": "Google Patents — US1974483A Electrostatic motor",
+      "url": "https://patents.google.com/patent/US1974483A/en",
+      "publisher": "Google Patents / USPTO patent record",
+      "access": "Public",
+      "scope": "patent-record",
+      "note": "Confirms Brown's patent and claimed apparatus. Patent issuance does not establish antigravity, vacuum thrust or operational propulsion."
+    },
+    {
+      "label": "USPTO patent image — US1974483",
+      "url": "https://patentimages.storage.googleapis.com/c2/71/b6/8e8101a7724b05/US1974483.pdf",
+      "publisher": "USPTO patent image mirror via Google",
+      "access": "Public PDF",
+      "scope": "patent-image-pdf",
+      "note": "Direct five-page patent image matching the Atlas holding; documents disclosure and claims, not performance validation."
+    },
+    {
+      "label": "Project Winterhaven proposal scan",
+      "url": "https://www.thomastownsendbrown.com/hydro/winterhaven.pdf",
+      "publisher": "Thomas Townsend Brown family/archive site",
+      "access": "Public PDF",
+      "scope": "proposal-scan-public-copy",
+      "note": "Sixty-six-page proposal scan. Proposal language is conditional and does not establish contract award, funding, completion, adoption or successful propulsion."
+    },
+    {
+      "label": "University of Maryland — Project Winterhaven archival catalog record",
+      "url": "https://archives.lib.umd.edu/repositories/2/archival_objects/187959",
+      "publisher": "University of Maryland Special Collections and University Archives",
+      "access": "Public catalog",
+      "scope": "archive-custody-listing",
+      "note": "Catalogs a 1953 Project Winterhaven proposal in the Oscar Reed, Jr. Papers. Archival custody does not establish Department of Defense acceptance or implementation."
+    },
+    {
+      "label": "ONR File 24-185 / Cady evaluation — public transcription",
+      "url": "http://www.rexresearch.com/ttbrown/ttbrown.htm",
+      "publisher": "RexResearch mirror; attributed to Office of Naval Research File 24-185",
+      "access": "Public transcription",
+      "scope": "official-evaluation-mirror-transcription",
+      "note": "Mirror-qualified transcription attributes Brown's observed effects to ionization/electric wind and says no experimental-program allotment was made. First-party ONR/NARA scan is not mapped."
+    },
+    {
+      "label": "Tajmar — The Biefeld-Brown Effect: Misinterpretation of Corona Wind Phenomena",
+      "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/Biefeld-Brown-Effect-AIAA-Journal-Revised.pdf?lang=en",
+      "publisher": "M. Tajmar / ARC Seibersdorf Research; TU Dresden public PDF mirror",
+      "access": "Public PDF",
+      "scope": "independent-technical-test",
+      "note": "Independent experiment found no linear thrust within its accuracy and concluded corona-wind effects had been misinterpreted as gravitational coupling."
+    }
   ]
 }

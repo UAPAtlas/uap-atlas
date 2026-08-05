@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "quality_upgrade",
-  "caseCount": 27,
+  "caseCount": 25,
   "cases": [
     {
       "id": "BF-1956-DF-01",
@@ -116,44 +116,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 declassified State Department cable",
       "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 3,
-      "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
-      "quoteConfidence": "Low-medium \u2014 claim is publicly attributable, but S-4 employment/program claims remain unverified."
-    },
-    {
-      "id": "BF-SF-03",
-      "title": "Special File: T. Townsend Brown Electrogravitics",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
-      "quoteConfidence": "Medium \u2014 claim trail and historical research context are public, but technical performance claims remain disputed."
     },
     {
       "id": "BF-SF-08",

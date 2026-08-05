@@ -257,17 +257,17 @@
   },
   {
     "id": "BF-SF-03",
-    "title": "Special File: T. Townsend Brown Electrogravitics",
+    "title": "T. Townsend Brown / Project Winterhaven",
     "tokens": [
       "WINTERHAVEN-1952"
     ],
     "indexedLinks": 2,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 1,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 6,
     "evidenceAssets": 2,
-    "links": 4,
+    "links": 9,
     "local": 3,
-    "urls": 1,
+    "urls": 6,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1245,17 +1245,17 @@
   },
   {
     "id": "BF-SF-01",
-    "title": "Special File: Bob Lazar / S-4",
+    "title": "Bob Lazar / S-4 Claims",
     "tokens": [
       "LAZAR-1989"
     ],
     "indexedLinks": 2,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 2,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
     "evidenceAssets": 3,
-    "links": 5,
+    "links": 7,
     "local": 3,
-    "urls": 2,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },

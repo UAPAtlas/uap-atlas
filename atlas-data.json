@@ -3230,15 +3230,15 @@
       "evidenceDepthStatus": "primary-complete"
     },
     {
-      "keyQuote": "How I Control Gravitation",
-      "quoteSource": "T. T. Brown article title, Science and Invention, August 1929",
-      "quoteConfidence": "Medium — claim trail and historical research context are public, but technical performance claims remain disputed.",
-      "significance": "Case significance",
-      "sourceQuality": "Project Winterhaven/Bahnson Labs public research trail; documents electrogravitics/UFO-culture overlap, not operational anti-gravity craft proof.",
+      "keyQuote": "This invention relates to a method of producing force or motion by applying and maintaining high potential electro-static charges...",
+      "quoteSource": "US Patent 1,974,483, Electrostatic Motor, specification p. 1 / local PDF p. 3, issued 25 September 1934",
+      "quoteConfidence": "High for exact patent text; patent wording and issuance do not validate electrogravitic or antigravity performance.",
+      "significance": "High history-of-technology significance; extraordinary propulsion performance not established.",
+      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-03",
-      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "title": "T. Townsend Brown / Project Winterhaven",
       "date": "1929–1958",
       "year": 1952,
       "location": "Bahnson Laboratories, Winston-Salem, North Carolina",
@@ -3250,17 +3250,20 @@
       "geometryExpectation": "admin1",
       "agency": "USN / Bahnson Labs",
       "domain": "GOVERNMENT / INSTITUTIONAL",
-      "status": "DOCUMENTED · DISPUTED",
-      "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Thomas Townsend Brown spent three decades promoting charged-capacitor thrust (the 'Biefeld–Brown effect'), pitched the Pentagon a disc-shaped electrogravitic craft program in 1952 (Project Winterhaven), and demonstrated flying test rigs at Bahnson Laboratories in 1957–58, captured on film. Mainstream analysis attributes the thrust to ionic wind, not gravity control.",
-      "keyFact": "The documented root of 'antigravity' lore: real experiments, a real Pentagon proposal, filmed demonstrations — and a conventional electrohydrodynamic explanation.",
-      "official": "No service adopted Winterhaven; published physics attributes Biefeld–Brown thrust to ion momentum transfer in air, which vanishes in vacuum tests.",
-      "gap": "The distribution list and any classified service evaluations of Project Winterhaven — and the 1956 'Electrogravitics Systems' industry survey's sponsorship — remain incompletely documented.",
-      "whyItMatters": "Brown's file separates a genuinely documented research thread from the propulsion mythology built on top of it — the atlas's cleanest example of real paper feeding unreal claims.",
+      "status": "DOCUMENTED PROPOSAL / ANOMALOUS PERFORMANCE NOT ESTABLISHED",
+      "confidence": "PRIMARY RECORDS / CONVENTIONAL EXPLANATION STRONG",
+      "summary": "US Patent 1,974,483, filed in 1930 and issued in 1934, documents Thomas Townsend Brown's electrostatic-motor claims and apparatus; the patent records Brown's claims and apparatus, not independent validation. Project Winterhaven is a 66-page proposal for a Joint Services research and development contract. Proposal p. 1 calls for experiments to confirm or deny an electrodynamic-gravitational relationship, pp. 17 and 20 propose controlled vacuum or reduced-pressure tests, pp. 21–22 frame uses under 'if experiments prove to be positive,' and p. 27 says no responsibility can be assumed to guarantee results. University of Maryland archival custody identifies a 1953 proposal copy but does not establish Department of Defense acceptance, funding, completion, or operational use. An independent technical experiment reported that no linear thrust was observed within its accuracy and concluded that corona wind effects were misinterpreted as gravitational coupling.",
+      "keyFact": "Brown's patent, Winterhaven proposal and defense-interest trail are real; they document claimed apparatus and proposed research, while conditional proposal language and independent null-result testing stop the record short of operational antigravity.",
+      "official": "A public transcription attributed to ONR File 24-185 reports an analytical review, no experimental-program allotment, and an electric-wind explanation; first-party ONR custody is not mapped. Tajmar's independent technical test found no linear thrust within experimental accuracy and constrained any anomalous force far below corona-wind effects.",
+      "gap": "Still needed are first-party government custody for Project Winterhaven and ONR File 24-185; any contract-award, funding, completion or service-adoption record; first-generation Bahnson film and calibrated notebooks; and neutral vacuum replication records capable of separating electrohydrodynamic thrust from extraordinary electrogravitic claims.",
+      "whyItMatters": "Brown's file is a clean demonstration of how real patents, proposals, military attention and filmed rigs can seed antigravity lore without establishing an operational antigravity technology.",
       "sources": [
-        "WINTERHAVEN-1952 · Project Winterhaven proposal / Bahnson Labs film record"
+        "WINTERHAVEN-1952 · US Patent 1,974,483 local holding",
+        "WINTERHAVEN-1952 · Project Winterhaven public proposal scan / UMD archive listing",
+        "WINTERHAVEN-1952 · ONR File 24-185 mirror-qualified transcription",
+        "WINTERHAVEN-1952 · Tajmar independent technical test"
       ],
-      "sourceLabel": "Winterhaven proposal",
+      "sourceLabel": "Patent, proposal, evaluation and independent test",
       "sourceLocator": "WINTERHAVEN-1952",
       "relatedCaseIds": [
         "BF-SF-04",
@@ -3272,16 +3275,22 @@
         "special-file"
       ],
       "evidenceModes": [
-        "film"
+        "patent-record",
+        "technical-proposal",
+        "archive-custody-listing",
+        "official-evaluation-mirror",
+        "independent-technical-test"
       ],
       "environment": [
         "terrestrial"
       ],
       "outcome": "documented",
       "confidenceModel": {
-        "record": "confirmed",
-        "anomaly": "not-assessed",
-        "provenance": "public-record-trail"
+        "record": "patent-and-proposal-confirmed",
+        "defenseInterest": "documented-evaluation-trail-with-mirror-qualified-onr-custody",
+        "performance": "anomalous-thrust-not-established",
+        "mechanism": "conventional-electrohydrodynamic-explanation-strong",
+        "provenance": "mixed-primary-public-and-mirror-qualified"
       },
       "temporal": {
         "dateLabel": "1929–1958",
@@ -3308,19 +3317,56 @@
       },
       "sourceRecords": [
         {
-          "citation": "WINTERHAVEN-1952 · Project Winterhaven proposal / Bahnson Labs film record",
-          "sourceType": "technical-proposal-and-lab-film-public-trail",
-          "provenance": "Project Winterhaven proposal context, Townsend Brown electrogravitics claims, and Bahnson Labs film/public documentary trail",
-          "locator": "WINTERHAVEN-1952",
+          "citation": "Thomas Townsend Brown, US Patent 1,974,483, 'Electrostatic Motor', filed 7 February 1930, issued 25 September 1934",
+          "sourceType": "inventor-patent",
+          "provenance": "USPTO patent record mirrored by Google Patents; Atlas local PDF and sheet-image holding",
+          "locator": "US1974483A; specification p. 1 / local PDF p. 3; claims pp. 3–5",
+          "sourceFilePath": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-patent.pdf",
+          "sourceUrl": "https://patents.google.com/patent/US1974483A/en",
           "supports": [
-            "Documents Brown’s electrogravitics research as a real historical technical/UFO-culture thread",
-            "Preserves Project Winterhaven/Bahnson Labs as concrete research/proposal context rather than pure folklore",
-            "Useful as an advanced-propulsion special file connecting fringe physics, military interest, and later UFO mythology"
+            "Patent existence, Brown's inventorship, apparatus disclosure and claimed electrostatic force or motion."
           ],
           "limitations": [
-            "Public trail does not demonstrate operational anti-gravity or field propulsion craft",
-            "Observed effects are widely disputed and often attributed to ion wind/electrohydrodynamics rather than gravity control",
-            "No classified program-success record, flight hardware custody, or reproducible neutral lab validation is mapped"
+            "Patent issuance records claims and disclosure; it is not independent validation of antigravity, vacuum thrust, defense adoption or operational performance."
+          ]
+        },
+        {
+          "citation": "Project Winterhaven, proposal for Joint Services Research and Development Contract, issue trail 20 October 1952 / 1 January 1953; UMD cataloged 1953 copy",
+          "sourceType": "proposal-and-archive-custody",
+          "provenance": "Sixty-six-page public family/archive scan plus University of Maryland Special Collections catalog entry in Oscar Reed, Jr. Papers",
+          "locator": "Proposal pp. 1, 17, 20–22 and 27; UMD Box 20, Folder 6.0, archival object 187959",
+          "sourceUrl": "https://www.thomastownsendbrown.com/hydro/winterhaven.pdf",
+          "supports": [
+            "Proposal existence, Joint Services framing, planned controlled tests and explicitly conditional development goals."
+          ],
+          "limitations": [
+            "Proposal and archive custody do not establish contract award, funding, completion, adoption, successful field propulsion or classified continuation."
+          ]
+        },
+        {
+          "citation": "Willoughby M. Cady, 'An Investigation Relative to T. T. Brown,' attributed ONR File 24-185, 15 September 1952, public transcription",
+          "sourceType": "official-evaluation-mirror-transcription",
+          "provenance": "Public RexResearch transcription attributed to ONR Pasadena; first-party ONR or NARA scan is not Atlas-mapped",
+          "locator": "Conclusion §9; analytical investigation and electric-wind explanation",
+          "sourceUrl": "http://www.rexresearch.com/ttbrown/ttbrown.htm",
+          "supports": [
+            "Mirror-qualified evidence of an attributed ONR analytical investigation and a contemporary conventional ionization/electric-wind explanation."
+          ],
+          "limitations": [
+            "Mirror transcription does not establish first-party official custody, an experimental program, operational performance or successful electrogravity."
+          ]
+        },
+        {
+          "citation": "M. Tajmar, 'The Biefeld-Brown Effect: Misinterpretation of Corona Wind Phenomena,' 2003 public technical paper",
+          "sourceType": "independent-technical-test",
+          "provenance": "ARC Seibersdorf Research paper, publicly hosted by TU Dresden",
+          "locator": "Abstract; discussion; conclusion, PDF pp. 1, 10–12",
+          "sourceUrl": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/Biefeld-Brown-Effect-AIAA-Journal-Revised.pdf?lang=en",
+          "supports": [
+            "Independent test reported no linear thrust within measurement accuracy and placed any anomalous force at least five orders below corona-wind forces."
+          ],
+          "limitations": [
+            "One experimental configuration does not test every Brown apparatus, but it directly constrains the claimed non-corona mechanism and practical propulsion interpretation."
           ]
         }
       ],
@@ -3356,25 +3402,84 @@
         "visualType": "technical-document",
         "caption": "Technical drawing from T. Townsend Brown patent material.",
         "provenance": "Winterhaven proposal",
-        "evidenceStatus": "Authentic technical-document image; it documents a propulsion concept, not operational proof of extraordinary performance.",
+        "evidenceStatus": "Authentic patent/technical-document image; proves Brown disclosed a claimed electrostatic motor design, not that it achieved antigravity, vacuum thrust or operational aircraft performance.",
         "isEventEvidence": false
       },
       "publicSources": [
         {
-          "label": "The CIA Scientist Who Built UFOs Before Bob Lazar — Townsend Brown Documentary",
-          "url": "https://www.youtube.com/watch?v=RTEWLSTyUic",
-          "publisher": "Jesse Michels / American Alchemy",
+          "label": "Google Patents — US1974483A Electrostatic motor",
+          "url": "https://patents.google.com/patent/US1974483A/en",
+          "publisher": "Google Patents / USPTO patent record",
           "access": "Public",
-          "scope": "case-specific-analysis",
-          "role": "contextual-analysis",
-          "mediaKind": "video",
-          "note": "Long-form documentary context on Townsend Brown and electrogravitics; interpretive analysis, not proof of operational antigravity craft."
+          "scope": "patent-record",
+          "note": "Confirms Brown's patent and claimed apparatus. Patent issuance does not establish antigravity, vacuum thrust or operational propulsion."
+        },
+        {
+          "label": "USPTO patent image — US1974483",
+          "url": "https://patentimages.storage.googleapis.com/c2/71/b6/8e8101a7724b05/US1974483.pdf",
+          "publisher": "USPTO patent image mirror via Google",
+          "access": "Public PDF",
+          "scope": "patent-image-pdf",
+          "note": "Direct five-page patent image matching the Atlas holding; documents disclosure and claims, not performance validation."
+        },
+        {
+          "label": "Project Winterhaven proposal scan",
+          "url": "https://www.thomastownsendbrown.com/hydro/winterhaven.pdf",
+          "publisher": "Thomas Townsend Brown family/archive site",
+          "access": "Public PDF",
+          "scope": "proposal-scan-public-copy",
+          "note": "Sixty-six-page proposal scan. Proposal language is conditional and does not establish contract award, funding, completion, adoption or successful propulsion."
+        },
+        {
+          "label": "University of Maryland — Project Winterhaven archival catalog record",
+          "url": "https://archives.lib.umd.edu/repositories/2/archival_objects/187959",
+          "publisher": "University of Maryland Special Collections and University Archives",
+          "access": "Public catalog",
+          "scope": "archive-custody-listing",
+          "note": "Catalogs a 1953 Project Winterhaven proposal in the Oscar Reed, Jr. Papers. Archival custody does not establish Department of Defense acceptance or implementation."
+        },
+        {
+          "label": "ONR File 24-185 / Cady evaluation — public transcription",
+          "url": "http://www.rexresearch.com/ttbrown/ttbrown.htm",
+          "publisher": "RexResearch mirror; attributed to Office of Naval Research File 24-185",
+          "access": "Public transcription",
+          "scope": "official-evaluation-mirror-transcription",
+          "note": "Mirror-qualified transcription attributes Brown's observed effects to ionization/electric wind and says no experimental-program allotment was made. First-party ONR/NARA scan is not mapped."
+        },
+        {
+          "label": "Tajmar — The Biefeld-Brown Effect: Misinterpretation of Corona Wind Phenomena",
+          "url": "https://tu-dresden.de/ing/maschinenwesen/ilr/rfs/ressourcen/dateien/forschung/folder-2007-08-21-5231434330/ag_raumfahrtantriebe/Biefeld-Brown-Effect-AIAA-Journal-Revised.pdf?lang=en",
+          "publisher": "M. Tajmar / ARC Seibersdorf Research; TU Dresden public PDF mirror",
+          "access": "Public PDF",
+          "scope": "independent-technical-test",
+          "note": "Independent experiment found no linear thrust within its accuracy and concluded corona-wind effects had been misinterpreted as gravitational coupling."
         }
       ],
       "images": [
         "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
         "assets/source_previews/BF-SF-03_source_image.jpg"
-      ]
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Brown held US Patent 1,974,483 for a claimed electrostatic motor.",
+          "Project Winterhaven existed as a proposal for Joint Services research and development.",
+          "The proposal called for experiments to confirm or deny the claimed relationship and made applications conditional on positive results.",
+          "A public transcription attributed to ONR File 24-185 reports defense analytical attention and an electric-wind explanation.",
+          "An independent technical experiment observed no linear non-corona thrust within its measurement accuracy."
+        ],
+        "notEstablished": [
+          "Department of Defense contract award, funding, implementation or operational adoption.",
+          "Reproducible gravity control or useful vacuum thrust.",
+          "Operational disc aircraft, classified successful continuation or non-human technology.",
+          "First-party ONR custody for the currently reviewed File 24-185 transcription.",
+          "Calibrated performance from public Bahnson film copies."
+        ],
+        "competingExplanations": [
+          "Ionization and electrohydrodynamic corona wind account for the visible thrust.",
+          "Patents and proposals document ideas and intended experiments rather than validated performance.",
+          "Later antigravity narratives amplified real historical research beyond its demonstrated results."
+        ]
+      }
     },
     {
       "id": "BF-1953-RP-00",
@@ -13832,15 +13937,15 @@
       ]
     },
     {
-      "keyQuote": "Bob Lazar claimed to have worked on extraterrestrial craft at S-4, a secret facility near Area 51; his claims have never been verified and his employment record is contested.",
-      "quoteSource": "Lazar public statements & background investigation (summary)",
-      "quoteConfidence": "Low-medium — claim is publicly attributable, but S-4 employment/program claims remain unverified.",
-      "significance": "High significance",
-      "sourceQuality": "KLAS/George Knapp public claim record plus unresolved credential/employment trail; useful as myth-engine/disclosure-culture case, not verified program evidence.",
+      "keyQuote": "Claim record: Lazar alleged that he worked at S-4 reverse-engineering recovered craft powered by a stable form of element 115.",
+      "quoteSource": "8 News Now / KLAS retrospective identifying the 15 May 1989 anonymous 'Dennis' broadcast; claim summary, not verbatim quotation",
+      "quoteConfidence": "High for attribution and public-claim emergence; not a verbatim quote and not verification of employment, craft, program or propulsion claims.",
+      "significance": "High cultural significance; low direct verification of the extraordinary claims.",
+      "sourceQuality": "Three independent source families answer different questions: KLAS/8 News documents claim emergence; CIA documents Groom Lake's real classified aircraft history; NIST/IUPAC document moscovium science. None independently establishes S-4 employment, recovered craft, non-human origin or a stable element-115 fuel isotope. Los Alamos employment and education disputes remain secondary or locator-only in current Atlas custody.",
       "coordinateBasis": "Papoose dry lake area south of Groom Lake, per Lazar's own claimed site",
       "coordinatePrecision": "region",
       "id": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
+      "title": "Bob Lazar / S-4 Claims",
       "date": "NOV 1989",
       "year": 1989,
       "location": "Papoose Lake / 'S-4' (claimed), Nevada",
@@ -13852,17 +13957,19 @@
       "geometryExpectation": "admin1",
       "agency": "Civilian / KLAS-TV",
       "domain": "GOVERNMENT / INSTITUTIONAL",
-      "status": "CLAIM · UNVERIFIED",
-      "confidence": "ALLEGATION · UNVERIFIED",
-      "summary": "In November 1989 Bob Lazar told KLAS-TV's George Knapp he had reverse-engineered saucer propulsion at a site called S-4 near Groom Lake, powered by 'element 115.' His employment trail is thin (a W-2 stub and a Los Alamos phone-directory listing), his claimed MIT/Caltech degrees are unverified, and element 115 as later synthesized (moscovium) has no stable isotope matching his claims.",
-      "keyFact": "The most influential whistleblower narrative in UFOlogy rests on a nearly empty verifiable record: one pay stub, one phone-book line, and no confirmable education history.",
-      "official": "The USAF and DOE do not acknowledge any S-4 facility; Los Alamos records place Lazar at most as a contractor-period technician.",
-      "gap": "Any payroll, clearance, or badge record placing Lazar inside EG&G special projects would settle the case and has never surfaced.",
-      "whyItMatters": "Lazar defined the modern Area 51 mythos and the template for every 'insider' narrative since; the file documents exactly where testimony outruns paper.",
+      "status": "DOCUMENTED CLAIM / UNVERIFIED PROGRAM",
+      "confidence": "CLAIM EMERGENCE CONFIRMED / PROGRAM UNVERIFIED",
+      "summary": "In 1989 KLAS broadcasts, Bob Lazar claimed he worked at a site called S-4 near Groom Lake reverse-engineering recovered non-human craft and a propulsion system using a stable isotope of element 115. The broadcast is primary evidence that he made the claims, not that S-4 or the program existed. The current Atlas holdings contain no primary employment, education, program, material-sample, laboratory, or chain-of-custody record that verifies those claims. CIA history independently establishes Groom Lake/Area 51 as a secret U-2 and A-12 test site; it does not establish Lazar's alleged S-4 program. NIST and IUPAC establish element 115 as moscovium and the all-radioactive row 7 scientific context; naming atomic number 115 was not a unique prediction, and discovery of moscovium does not verify Lazar's claimed stable fuel isotope.",
+      "keyFact": "Lazar's 1989 claims are historically documented and culturally consequential, but claim provenance, Groom Lake's real classified history, and moscovium science are three separate evidence layers; none verifies the alleged S-4 reverse-engineering program.",
+      "official": "CIA public history confirms Groom Lake as a classified U-2 and A-12 test site. That official site history does not establish Lazar's alleged S-4 program. NIST and IUPAC confirm moscovium as element 115 within an all-radioactive scientific context, not a stable propulsion isotope.",
+      "gap": "No mapped primary payroll, contractor, badge, clearance, education, program, material-sample, laboratory, original KLAS broadcast-master, or chain-of-custody record independently verifies Lazar's S-4 narrative. Reported Los Alamos directory, newspaper and credential-check artifacts remain secondary or locator-only until exact primary pages are mapped.",
+      "whyItMatters": "Lazar defined the modern Area 51 reverse-engineering narrative. The case is therefore a provenance-control test: a documented claim and a real classified test site cannot be collapsed into proof of the claimed program.",
       "sources": [
-        "LAZAR-1989 · KLAS-TV broadcast record / employment-verification trail"
+        "LAZAR-1989 · KLAS/8 News broadcast-claim provenance",
+        "LAZAR-1989 · CIA official Groom Lake site history",
+        "LAZAR-1989 · NIST/IUPAC moscovium science boundary"
       ],
-      "sourceLabel": "KLAS broadcast record",
+      "sourceLabel": "Claim, site-history and science boundary",
       "sourceLocator": "LAZAR-1989",
       "relatedCaseIds": [
         "BF-SF-06",
@@ -13880,16 +13987,21 @@
         "special-file"
       ],
       "evidenceModes": [
-        "documentary-record"
+        "broadcast-claim-record",
+        "official-site-history",
+        "official-scientific-reference",
+        "context-imagery"
       ],
       "environment": [
         "terrestrial"
       ],
       "outcome": "documented",
       "confidenceModel": {
-        "record": "unverified",
-        "anomaly": "not-assessed",
-        "provenance": "public-record-trail"
+        "record": "claim-emergence-documented",
+        "siteContext": "official-groom-lake-history-confirmed",
+        "employmentAndProgram": "not-established",
+        "materialAndPropulsion": "not-established",
+        "provenance": "mixed-public-record-with-no-program-chain-of-custody"
       },
       "temporal": {
         "dateLabel": "NOV 1989",
@@ -13916,19 +14028,42 @@
       },
       "sourceRecords": [
         {
-          "citation": "LAZAR-1989 · KLAS-TV broadcast record / employment-verification trail",
-          "sourceType": "broadcast-claim-and-credential-controversy-trail",
-          "provenance": "KLAS/George Knapp broadcast record, later interviews, and unresolved credential/employment verification trail",
-          "locator": "LAZAR-1989",
+          "citation": "8 News Now / KLAS-TV, retrospective identifying the 15 May 1989 anonymous 'Dennis' Bob Lazar broadcast",
+          "sourceType": "broadcast-claim-record",
+          "provenance": "Official station retrospective and public video; exact original 1989 broadcast master is not locally held",
+          "locator": "YouTube 2GRjgBVw9Pk; 15 May 1989 broadcast identified by KLAS retrospective",
+          "sourceUrl": "https://www.youtube.com/watch?v=2GRjgBVw9Pk",
           "supports": [
-            "Documents Lazar as a major public source for the Area 51/S-4 reverse-engineering narrative beginning in 1989",
-            "Preserves the specific claim structure: S-4, recovered craft, gravity propulsion, compartmented program",
-            "Useful as a special-file case for myth-engine, disclosure-culture, and credential-verification analysis"
+            "Documents the public emergence and attributable content of Lazar's S-4 claims in 1989."
           ],
           "limitations": [
-            "No verified S-4 employment record or program-access document is mapped",
-            "Academic credential and employment-history claims remain disputed/unverified in public records",
-            "Detailed testimony is not independent evidence of recovered craft or non-human technology"
+            "Claimant interview evidence establishes that claims were made, not that S-4 employment, recovered craft or non-human technology existed."
+          ]
+        },
+        {
+          "citation": "CIA, 'Ask Molly: What really went on at Area 51?', 1 July 2022",
+          "sourceType": "official-site-history",
+          "provenance": "Central Intelligence Agency public history",
+          "locator": "Area 51 / Groom Lake U-2 and A-12 test-site history",
+          "sourceUrl": "https://www.cia.gov/stories/story/ask-molly-what-really-went-on-at-area-51/",
+          "supports": [
+            "Establishes that Groom Lake was a genuine secret aircraft test and pilot-training site."
+          ],
+          "limitations": [
+            "Does not establish Lazar's alleged S-4 facility, employment, reverse-engineering program, recovered craft or non-human origin."
+          ]
+        },
+        {
+          "citation": "NIST, 'Taking a Seat at the Periodic Table' (2017); IUPAC moscovium naming record (2016)",
+          "sourceType": "official-scientific-reference",
+          "provenance": "Official NIST and IUPAC public scientific references",
+          "locator": "Element 115 / moscovium; all-radioactive row 7 context",
+          "sourceUrl": "https://www.nist.gov/blogs/taking-measure/taking-seat-periodic-table",
+          "supports": [
+            "Establishes official scientific context for element 115 as moscovium and radioactive row-7 elements."
+          ],
+          "limitations": [
+            "Does not verify Lazar's claimed stable isotope, sample, fuel properties, gravity effects, S-4 access or recovered craft; atomic number 115 was not a unique prediction."
           ]
         }
       ],
@@ -13970,26 +14105,71 @@
       },
       "publicSources": [
         {
-          "label": "KLAS / George Knapp — original Lazar public-claim context",
-          "url": "https://www.youtube.com/watch?v=d9tdJ2SkBKQ",
-          "publisher": "KLAS / George Knapp public broadcast context via public video",
+          "label": "8 News Now / KLAS — 1989 Bob Lazar broadcast retrospective",
+          "url": "https://www.youtube.com/watch?v=2GRjgBVw9Pk",
+          "publisher": "8 News Now — Las Vegas / KLAS-TV",
           "access": "Public",
-          "scope": "broadcast-public-claim-record",
-          "role": "witness-interview",
-          "mediaKind": "video",
-          "note": "Public broadcast/interview context for Lazar’s claims; source for claim emergence, not verification of S-4 employment or craft program."
+          "scope": "broadcast-claim-provenance",
+          "note": "Official station retrospective identifying the 15 May 1989 anonymous 'Dennis' interview. It documents public emergence of Lazar's claims, not their truth."
         },
         {
-          "label": "Bob Lazar + The Truth About a Secret UFO Base?",
-          "url": "https://www.youtube.com/watch?v=Z4_gJ4gJ17A",
-          "publisher": "Jeremy Corbell / WEAPONIZED",
+          "label": "CIA — What really went on at Area 51?",
+          "url": "https://www.cia.gov/stories/story/ask-molly-what-really-went-on-at-area-51/",
+          "publisher": "Central Intelligence Agency",
           "access": "Public",
-          "scope": "case-specific-analysis",
-          "role": "contextual-analysis",
-          "mediaKind": "video",
-          "note": "Advocacy-oriented analysis from Lazar documentarian Jeremy Corbell; preserve alongside the Atlas credibility caveats."
+          "scope": "official-site-history",
+          "note": "Confirms Groom Lake as a secret U-2 and A-12 test and training site; does not establish Lazar's alleged S-4 program, recovered craft, or non-human technology."
+        },
+        {
+          "label": "NIST — Taking a Seat at the Periodic Table",
+          "url": "https://www.nist.gov/blogs/taking-measure/taking-seat-periodic-table",
+          "publisher": "National Institute of Standards and Technology",
+          "access": "Public",
+          "scope": "official-scientific-reference",
+          "note": "Identifies element 115 as moscovium and row 7 as all-radioactive; does not verify Lazar's claimed stable fuel isotope or propulsion account."
+        },
+        {
+          "label": "IUPAC — Naming moscovium, element 115",
+          "url": "https://iupac.org/iupac-is-naming-the-four-new-elements-nihonium-moscovium-tennessine-and-oganesson/",
+          "publisher": "International Union of Pure and Applied Chemistry",
+          "access": "Public",
+          "scope": "official-element-naming-record",
+          "note": "Establishes official naming of element 115 as moscovium; atomic number 115 followed from the periodic table and was not a unique prediction of a stable isotope or exotic fuel."
         }
-      ]
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Lazar publicly made S-4 reverse-engineering claims through KLAS in 1989.",
+          "Groom Lake was a classified U-2 and A-12 test and training site.",
+          "Element 115 was later synthesized and officially named moscovium within an all-radioactive row-7 scientific context."
+        ],
+        "notEstablished": [
+          "Direct LANL physicist employment or MIT/Caltech degrees from mapped primary records.",
+          "EG&G, Navy, DOE or USAF employment, clearance or access to an S-4 program.",
+          "Existence of S-4 as Lazar described it.",
+          "Recovered non-human craft, propulsion hardware or a stable element-115 sample.",
+          "Any current Lazar image as workplace, hardware or event evidence."
+        ],
+        "competingExplanations": [
+          "Contractor or user-facility association at Los Alamos rather than direct LANL physicist employment.",
+          "Misinterpretation, embellishment or later media amplification of classified terrestrial test-site lore.",
+          "A claimant narrative whose cultural persistence exceeds its primary documentary support."
+        ]
+      },
+      "visualEvidenceBoundary": {
+        "classification": "context-imagery-not-event-evidence",
+        "assets": [
+          "assets/evidence/LAZAR/groom_papoose.jpg",
+          "assets/evidence/LAZAR/area51_gate.jpg",
+          "assets/source_previews/BF-SF-01_source_image.jpg"
+        ],
+        "supports": [
+          "Area 51, Groom Lake and Papoose-region visual context."
+        ],
+        "doesNotEstablish": [
+          "No image is mapped as an S-4 interior, Lazar workplace, recovered craft, propulsion hardware or contemporaneous event record."
+        ]
+      }
     },
     {
       "keyQuote": "have reached no definite conclusion regarding the large object.",
@@ -26031,7 +26211,7 @@
       "type": "investigation",
       "caseId": "BF-SF-03",
       "title": "Project Winterhaven proposed",
-      "desc": "T. T. Brown pitches the Pentagon a disc-shaped electrogravitic craft program; no service adopts it."
+      "desc": "T. T. Brown circulates a Joint Services electrogravitics proposal; current holdings do not establish contract award, adoption, or successful propulsion."
     },
     {
       "id": "TL-1952-OSE",
@@ -26751,7 +26931,7 @@
       "type": "case",
       "caseId": "BF-SF-01",
       "title": "Lazar goes public on KLAS",
-      "desc": "Bob Lazar claims S-4 reverse engineering on Las Vegas television; his verifiable record stays nearly empty."
+      "desc": "Bob Lazar claims S-4 reverse engineering on Las Vegas television; claim emergence is documented, while primary S-4 program records remain unmapped."
     },
     {
       "id": "TL-1990B",
