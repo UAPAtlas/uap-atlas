@@ -97,7 +97,11 @@
   function syncMobileLabels() {
     document.querySelectorAll('.mobile-nav [data-page]').forEach(btn => {
       const label = btn.querySelector('.mobile-nav-label');
-      if (label) label.textContent = modeIsBlackfile() ? label.dataset.blackfile : label.dataset.atlas;
+      const text = modeIsBlackfile() ? label?.dataset.blackfile : label?.dataset.atlas;
+      if (label && text) label.textContent = text;
+      if (text) btn.setAttribute('aria-label', text);
+      if (btn.classList.contains('active')) btn.setAttribute('aria-current', 'page');
+      else btn.removeAttribute('aria-current');
     });
   }
 

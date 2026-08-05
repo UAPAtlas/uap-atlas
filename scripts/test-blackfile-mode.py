@@ -80,6 +80,7 @@ required_html = (
     'src="blackfile-analysis.js"',
     'src="blackfile-mode.js"',
     'window.__blackfileInitialHash=location.hash;',
+    'aria-controls="blackfileShell"',
 )
 for needle in required_html:
     require(needle in html, f"HTML missing Blackfile contract: {needle}")
@@ -97,6 +98,7 @@ for needle in (
     "setAtlasMode('atlas', {write:false})",
     "window.__blackfileInitialHash",
     "if (modeIsBlackfile()) updateUrl();",
+    "btn.setAttribute('aria-current', 'page')",
 ):
     require(needle in mode_js, f"mode controller missing: {needle}")
 for needle in (
@@ -105,6 +107,8 @@ for needle in (
     'body[data-atlas-mode="blackfile"][data-mobile-page="dossier"] .bf-brief-panel',
     '@media(max-width:1080px)',
     '@media(prefers-reduced-motion:reduce)',
+    ':focus-visible',
+    '.secure-pill.mode-toggle:before',
 ):
     require(needle in mode_css, f"mode stylesheet missing: {needle}")
 
