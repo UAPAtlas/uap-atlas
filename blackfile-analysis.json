@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "title": "Blackfile — State of Evidence",
+  "updated": "2026-08-05",
+  "analysisSource": "Blackfile Seven Questions — State of Evidence (2026-08-05)",
+  "boundarySource": "D10 Contradiction & Interpretive-Boundary Ledger",
+  "scope": "Analysis layer built from the existing UAP Atlas evidence registry",
+  "questions": [
+    {
+      "id": "q1",
+      "number": 1,
+      "shortTitle": "Objective Reality",
+      "title": "Is the phenomenon objectively real?",
+      "status": "Established narrowly",
+      "tone": "strong",
+      "confidence": "Very high for sustained reporting and investigation · Moderate-high for an unresolved physical residue",
+      "answer": "Yes, narrowly defined. A persistent, cross-decade class of observations entered official military, intelligence, scientific, law-enforcement, and security systems. Several cases include sensor or multi-channel evidence. The corpus does not establish that every case belongs to one phenomenon or that the unresolved residue is non-human.",
+      "findings": [
+        "Official reality of sustained UAP reporting and investigation: very high confidence.",
+        "Some unresolved physical or sensor events exist: moderate-high confidence.",
+        "One coherent exotic phenomenon explaining the full corpus: low-moderate confidence."
+      ],
+      "counterEvidence": [
+        "The corpus is heterogeneous and includes aircraft, balloons, drones, astronomy, atmospheric optics, sensor artifacts, classified systems, hoaxes, and perceptual error.",
+        "The strongest historical cases still lack portions of the native radar, ECM, telemetry, audio, or calibration chain."
+      ],
+      "missingEvidence": [
+        "Synchronized native radar, EO/IR, telemetry, environmental, and platform-calibration data.",
+        "Complete custody and reproducible analysis across independent source families.",
+        "Documented elimination of classified United States and foreign systems."
+      ],
+      "caseIds": ["BF-1957-RB-01", "BF-1956-LB-01", "BF-1976-TH-01", "BF-2004-NM-01", "BF-2015-PX-04", "BF-2022-CS-01"],
+      "tensions": [
+        {
+          "label": "Cheyenne Mountain optical hypothesis",
+          "summary": "The witness record remains unresolved. The released low-confidence backscattering proposal cannot be reproduced from the mapped environmental, sight-line, or sensor material, but that gap does not establish a physical craft.",
+          "caseIds": ["BF-2022-CS-01"]
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "number": 2,
+      "shortTitle": "Non-Human Origin",
+      "title": "What evidence indicates non-human origin?",
+      "status": "Not established",
+      "tone": "weak",
+      "confidence": "Low for established non-human origin · Moderate that it remains a hypothesis for part of the unresolved residue",
+      "answer": "The strongest indicators are negative and inferential: unresolved official cases, reported performance difficult to reconcile with conventional explanations, and serious official consideration of extraordinary hypotheses. None supplies direct proof of non-human origin.",
+      "findings": [
+        "A subset of military reports remains difficult to explain from the public record.",
+        "Serious non-human or interplanetary allegations entered official and congressional channels.",
+        "Public and local evidence does not establish non-human origin."
+      ],
+      "counterEvidence": [
+        "Many UAP reports resolve conventionally, while range uncertainty, sensor limitations, incomplete raw data, and classified systems remain live alternatives.",
+        "Examined alleged UAP materials in official AARO/ORNL analyses were compatible with terrestrial or conventional manufacture."
+      ],
+      "missingEvidence": [
+        "A physical or biological sample with uninterrupted custody and independently replicated anomalous results.",
+        "Native multi-sensor data demonstrating performance outside known human capability beyond measurement uncertainty.",
+        "Authenticated program, budget, inventory, and technical-exploitation records tied explicitly to non-human material."
+      ],
+      "caseIds": ["BF-1957-RB-01", "BF-1957-NC-01", "BF-1954-KL-01", "BF-1976-TH-01", "BF-2004-NM-01", "BF-SF-07", "BF-SF-10", "BF-2023-WUS-03"],
+      "tensions": [
+        {
+          "label": "Unusual narrative versus measured performance",
+          "summary": "Western United States federal law-enforcement narratives contain unusual reported behavior, but the mapped records lack the raw sensor and original-media chain needed to establish mechanism, technology, or origin.",
+          "caseIds": ["BF-2023-WUS-03"]
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "number": 3,
+      "shortTitle": "Nuclear Interaction",
+      "title": "Is there credible nuclear interaction?",
+      "status": "Association established",
+      "tone": "mixed",
+      "confidence": "High for nuclear-site association and security response · Low-moderate for causal interference",
+      "answer": "Nuclear-site association and security response are credible. Deliberate nuclear interference is not established.",
+      "findings": [
+        "Nuclear-site association appears in primary official records: high confidence.",
+        "Official security response is documented in multiple nuclear-site cases: high confidence.",
+        "Intentional non-human interaction with nuclear systems: low confidence."
+      ],
+      "counterEvidence": [
+        "Sensitive sites create more observation, reporting, radar coverage, security response, classified activity, and record retention.",
+        "Technical faults, exercises, aircraft, drones, meteors, atmospheric effects, and later narrative accretion remain case-specific alternatives."
+      ],
+      "missingEvidence": [
+        "Time-synchronized sensor and weapon-system logs.",
+        "Technical failure analysis excluding electrical, maintenance, test, and human causes.",
+        "Evidence establishing intent rather than proximity."
+      ],
+      "caseIds": ["BF-1949-LA-00", "BF-2015-PX-04", "BF-1967-MA-01", "BF-1968-MN-01", "BF-1980-RF-01"],
+      "tensions": [
+        {
+          "label": "Malmstrom outage versus later UFO causation",
+          "summary": "The outage and investigation are established. Later testimony associates an object with the shutdown, while the contemporaneous history records UFO rumors but negative Mobile Strike Team witness and radar checks. Causation and deliberate interference remain unproven.",
+          "caseIds": ["BF-1967-MA-01"]
+        },
+        {
+          "label": "Rendlesham event record versus later narrative layers",
+          "summary": "Halt's memorandum is the principal event-bearing record and combines relayed and firsthand layers. Later administrative custody and testimony are not independent raw-sensor confirmation and do not establish exotic origin or effects on weapons storage.",
+          "caseIds": ["BF-1980-RF-01"]
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "number": 4,
+      "shortTitle": "Crash Retrieval",
+      "title": "What supports crash retrieval?",
+      "status": "Claims documented · retrieval unproven",
+      "tone": "weak",
+      "confidence": "High for the existence of claims and narrative reversals · Low for proven anomalous retrieval",
+      "answer": "The corpus strongly supports the existence of crash-retrieval claims, official narrative reversals, serious testimony, and unresolved record gaps. It does not prove recovery of anomalous craft or biological material.",
+      "findings": [
+        "Crash-retrieval claims and narrative-management evidence exist: high confidence.",
+        "Government record gaps exist around major claims: moderate-high confidence.",
+        "An anomalous crash retrieval is proven: low confidence."
+      ],
+      "counterEvidence": [
+        "Fraud, hoax, anonymous provenance, official secrecy, conventional recovery, and witness-memory accretion are demonstrated within the same claim ecosystem.",
+        "Agency custody of submitted material does not authenticate an original or its alleged authorship."
+      ],
+      "missingEvidence": [
+        "Contemporaneous transport, inventory, and program records tied to a specific recovered object.",
+        "Physical debris or biological material with uninterrupted custody.",
+        "Independent laboratory or medical reports tied to that custody."
+      ],
+      "caseIds": ["BF-1947-RW-01", "BF-1965-KB-01", "BF-1933-MG-01", "BF-1996-VG-01", "BF-SF-10", "BF-1948-AZ-01", "BF-1947-MI-01", "BF-SF-05", "BF-SF-12"],
+      "tensions": [
+        {
+          "label": "MJ-12 custody versus authentication",
+          "summary": "FBI custody and the relayed AFOSI bogus assessment establish official handling of submitted copies. They do not recover an authenticated original, identify authorship, prove a fabrication method or motive, or automatically resolve every derivative.",
+          "caseIds": ["BF-SF-05"]
+        },
+        {
+          "label": "Magenta narrative versus contemporaneous clipping",
+          "summary": "The recovered contemporaneous clipping describes a lightning incident near Magenta, not a UFO crash or recovery. The later RS-33 chain remains a provenance problem rather than proof of retrieval.",
+          "caseIds": ["BF-1933-MG-01"]
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "number": 5,
+      "shortTitle": "Reverse Engineering",
+      "title": "What supports reverse engineering?",
+      "status": "Infrastructure real · claim unproven",
+      "tone": "weak",
+      "confidence": "High for exploitation infrastructure · Low for non-human reverse engineering",
+      "answer": "Real foreign-materiel and exotic-aerospace exploitation infrastructure exists. Reverse engineering of non-human craft is not established.",
+      "findings": [
+        "Real exploitation and exotic-aerospace infrastructure: high confidence.",
+        "Government interest in alleged UAP material: moderate-high confidence.",
+        "Reverse engineering of non-human craft proven: low confidence."
+      ],
+      "counterEvidence": [
+        "Classified aerospace research, speculative contracts, foreign-materiel exploitation, circular insider reporting, and disinformation can generate the same narrative without non-human hardware.",
+        "Independent testing of the examined Biefeld-Brown configuration found no linear thrust within experimental accuracy and identified corona-wind misinterpretation."
+      ],
+      "missingEvidence": [
+        "Authenticated program charter, budget, contract, or inventory tied explicitly to non-human material.",
+        "A contractor custody chain and technical exploitation reports demonstrating unknown manufacture.",
+        "Independently replicated anomalous sample or propulsion results."
+      ],
+      "caseIds": ["BF-SF-09", "BF-SF-02", "BF-SF-10", "BF-SF-01", "BF-SF-03"],
+      "tensions": [
+        {
+          "label": "Lazar context versus S-4 proof",
+          "summary": "A documented public claim, a real classified Groom Lake history, and later moscovium science answer different questions. They do not corroborate employment, S-4, recovered craft, a stable fuel isotope, or propulsion.",
+          "caseIds": ["BF-SF-01"]
+        },
+        {
+          "label": "Brown patent and proposal versus operational success",
+          "summary": "Patent issuance is not performance validation, and Winterhaven proposal custody does not establish award, funding, implementation, or success. Independent testing is adverse to the claimed gravitational-thrust interpretation for the tested configuration.",
+          "caseIds": ["BF-SF-03"]
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "number": 6,
+      "shortTitle": "Concealment & Disinformation",
+      "railTitle": "Disinformation",
+      "title": "Are concealment and disinformation documented?",
+      "status": "Documented",
+      "tone": "documented",
+      "confidence": "High · Very high for historical debunking policy and classified-aircraft cover",
+      "answer": "Yes. Historical records document debunking and public-education policy, secrecy around classified aircraft, misleading public explanations, and UAP-linked disinformation. The motive and target vary by case, and this does not make every denial false.",
+      "findings": [
+        "Historical debunking and narrative-management policy existed: very high confidence.",
+        "Classified aerospace produced knowingly incomplete or misleading public explanations: very high confidence.",
+        "UAP-linked disinformation operations occurred: high confidence."
+      ],
+      "counterEvidence": [
+        "Legitimate secrecy, public-panic concerns, air-defense workload, overclassification, program protection, and independent hoaxers can overlap.",
+        "The existence of disinformation does not prove that every modern denial or partial release is a deliberate limited hangout."
+      ],
+      "missingEvidence": [
+        "A continuous policy chain from the Robertson era to current operations.",
+        "Internal records proving a specific modern explanation was knowingly false.",
+        "Communications tying public messaging to a hidden crash-retrieval program."
+      ],
+      "caseIds": ["BF-1953-RP-00", "BF-SF-14", "BF-SF-11", "BF-1966-CC-00", "BF-1947-RW-01", "BF-SF-05"],
+      "tensions": [
+        {
+          "label": "Bennewitz handling versus authorized campaign scope",
+          "summary": "Official contact and handling are documented, and Doty later said he supplied disinformation. The reviewed holdings do not establish an authorization order, complete operational scope, or independent institutional confirmation of the broad alleged AFOSI campaign.",
+          "caseIds": ["BF-SF-11"]
+        },
+        {
+          "label": "Partial release versus institutional intent",
+          "summary": "The measurable finding is the evidentiary gap. Withholding, destruction, classification, non-collection, ordinary partial release, and strategic disclosure must be distinguished before intent is assigned.",
+          "caseIds": []
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "number": 7,
+      "shortTitle": "Institutional Continuity",
+      "title": "Is there institutional continuity?",
+      "status": "Attention continuous · hidden program unproven",
+      "tone": "mixed",
+      "confidence": "Very high for recurring institutional attention · Low-moderate for one hidden program",
+      "answer": "There is clear continuity of institutional attention across agencies and decades. There is not proof of one continuous hidden crash-retrieval or reverse-engineering program.",
+      "findings": [
+        "Recurring institutional attention across decades: very high confidence.",
+        "Continuity of secrecy and classification practices: high confidence.",
+        "One continuous hidden crash-retrieval or reverse-engineering program: low-moderate confidence and allegation-led."
+      ],
+      "counterEvidence": [
+        "Recurring reports can force disconnected institutions to revisit the same problem without shared knowledge or custody.",
+        "Classified-aircraft activity, sensor clutter, bureaucratic persistence, and institutional mythology can produce continuity without one operational chain."
+      ],
+      "missingEvidence": [
+        "Continuous charter, budget, program-element, or contractor records.",
+        "Cross-decade indexes and custody records tied to the same material or program.",
+        "Documents directly linking Sign, Blue Book, NSA, AAWSAP, and AARO into one hidden operational chain."
+      ],
+      "caseIds": ["BF-SF-07", "BF-1949-LA-00", "BF-SF-14", "BF-1953-RP-00", "BF-SF-09", "BF-SF-10", "BF-2024-NE-02"],
+      "tensions": [
+        {
+          "label": "Institutional attention versus program continuity",
+          "summary": "Collection, analysis, security response, policy, and public communication recur across decades. The record does not establish one uninterrupted charter, common conclusion, or cross-decade custody of recovered craft or biologics.",
+          "caseIds": ["BF-SF-14", "BF-1953-RP-00", "BF-SF-09"]
+        }
+      ]
+    }
+  ],
+  "bestCurrentModel": [
+    "A persistent unresolved phenomenon or residue exists.",
+    "Governments repeatedly investigated it for air-defense, intelligence, scientific, and security reasons.",
+    "Conventional aircraft, classified programs, sensor error, natural phenomena, hoaxes, and misperception account for a large portion of reports.",
+    "Classified aerospace and disinformation contaminated the public record.",
+    "Institutions sometimes used debunking, secrecy, and misleading explanations to manage that contamination and public response.",
+    "Crash retrieval and non-human reverse engineering remain possible but unproven within the current evidence bound."
+  ],
+  "guardrails": [
+    "Classification gaps are not proof of anomalous content.",
+    "Program existence is not proof of recovered technology.",
+    "Sworn testimony proves that testimony occurred, not every underlying claim.",
+    "Disinformation existing does not make every denial false.",
+    "A real unresolved phenomenon does not prove crash retrieval or non-human origin.",
+    "Repeated reporting may still derive from one source family."
+  ]
+}

@@ -4,12 +4,12 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>UAP Atlas — Interactive Case Dossier</title>
-<meta name="description" content="Explore 145 documented UAP cases from 1933–2025 through an interactive map, timeline, and primary-source evidence archive drawing from DOE, CIA, DOW, NASA, FBI, and military records." />
+<meta name="description" content="Explore 146 documented UAP cases from 1933–2025 through an interactive map, timeline, and primary-source evidence archive drawing from DOE, CIA, DOW, NASA, FBI, and military records." />
 <meta name="robots" content="index,follow,max-image-preview:large" />
 <link rel="canonical" href="https://uapatlas.github.io/uap-atlas/" />
 <link rel="image_src" href="https://uapatlas.github.io/uap-atlas/assets/uap-atlas-link-preview-v3.jpg" />
 <meta itemprop="name" content="UAP Atlas — Interactive Case Dossier" />
-<meta itemprop="description" content="145 documented UAP cases. Interactive map, timeline, and primary-source evidence archive." />
+<meta itemprop="description" content="146 documented UAP cases. Interactive map, timeline, and primary-source evidence archive." />
 <meta itemprop="image" content="https://uapatlas.github.io/uap-atlas/assets/uap-atlas-link-preview-v3.jpg" />
 
 <!-- Open Graph -->
@@ -18,7 +18,7 @@
 <meta property="og:site_name" content="UAP Atlas" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:title" content="UAP Atlas — Interactive Case Dossier" />
-<meta property="og:description" content="145 documented UAP cases spanning 1933–2025. Interactive map, timeline, and primary-source evidence from DOE, CIA, DOW, NASA, FBI, and military records." />
+<meta property="og:description" content="146 documented UAP cases spanning 1933–2025. Interactive map, timeline, and primary-source evidence from DOE, CIA, DOW, NASA, FBI, and military records." />
 <meta property="og:image" content="https://uapatlas.github.io/uap-atlas/assets/uap-atlas-link-preview-v3.jpg" />
 <meta property="og:image:secure_url" content="https://uapatlas.github.io/uap-atlas/assets/uap-atlas-link-preview-v3.jpg" />
 <meta property="og:image:type" content="image/jpeg" />
@@ -30,7 +30,7 @@
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:url" content="https://uapatlas.github.io/uap-atlas/" />
 <meta name="twitter:title" content="UAP Atlas — Interactive Case Dossier" />
-<meta name="twitter:description" content="145 documented UAP cases spanning 1933–2025. Interactive map, timeline, and primary-source evidence archive." />
+<meta name="twitter:description" content="146 documented UAP cases spanning 1933–2025. Interactive map, timeline, and primary-source evidence archive." />
 <meta name="twitter:image" content="https://uapatlas.github.io/uap-atlas/assets/uap-atlas-link-preview-v3.jpg" />
 <meta name="twitter:image:alt" content="UAP Atlas preview card with dark obsidian UI and cyan archive styling." />
 
@@ -44,6 +44,8 @@
 <link rel="preload" href="atlas-map.js" as="script" />
 <link rel="preload" href="atlas-runtime.js" as="script" />
 <link rel="preload" href="atlas-app.js" as="script" />
+<link rel="preload" href="blackfile-analysis.js" as="script" />
+<link rel="preload" href="blackfile-mode.js" as="script" />
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -962,12 +964,14 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
 
 /* ATLAS_MOBILE_CSS_END */
 </style>
+<link rel="stylesheet" href="blackfile-mode.css" />
+<script>window.__blackfileInitialHash=location.hash;</script>
 </head>
 <body>
 <div class="app">
   <div class="securebar" aria-label="Cortana Blackfile Atlas header">
     <button class="brand" id="atlasHome" type="button" aria-label="Cortana UAP Case Atlas — reset to home"><span class="aperture-logo" aria-hidden="true"></span><span class="brand-primary">Cortana</span><i></i><span class="brand-secondary">UAP Case Atlas</span></button>
-    <div class="sysline"><span class="system-meta">Archive · Active</span><span class="system-meta">Rev 2.0</span><span class="secure-pill">Blackfile <b></b></span></div>
+    <div class="sysline"><span class="system-meta">Archive · Active</span><span class="system-meta">Rev 2.0</span><button class="secure-pill mode-toggle" id="blackfileModeToggle" type="button" aria-pressed="false" aria-label="Open Blackfile analytical mode"><span id="blackfileModeLabel">Blackfile</span><b aria-hidden="true"></b></button></div>
   </div>
 
   <section class="temporal-band" aria-label="Temporal signal — full corpus chronology">
@@ -1007,18 +1011,32 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
     <aside class="panel detail"><div class="detail-inner" id="detail"></div></aside>
     <section class="panel list-panel"><div class="panel-inner"><div class="panel-head"><div class="stack-banner-row"><div class="stack-banner-left"><div class="panel-title" id="stackTitle">Case Stack</div><div class="count" id="stackSubtitle">Sorted by date · main records</div></div><div class="count" id="caseCount"></div></div><div class="stack-banner-row"><div class="filter-chips"><select class="fchip" id="agencyFilter" aria-label="Filter cases by agency"></select><select class="fchip" id="domainFilter" aria-label="Filter cases by domain"></select><select class="fchip" id="precisionFilter" aria-label="Filter cases by location precision"></select><button class="fchip active" id="toggleInstitutional">Institutional: ON</button></div><div class="stack-banner-right"><button class="stack-return" id="stackReturn" type="button" hidden>← Main Stack</button><input class="case-search" id="caseSearch" type="search" placeholder="Search cases…" autocomplete="off" spellcheck="false" aria-label="Search cases"></div></div></div><div class="case-list" id="caseList"></div></div></section>
   </main>
+  <section class="blackfile-shell" id="blackfileShell" aria-label="Blackfile analytical mode" hidden>
+    <section class="bf-panel bf-signal" aria-label="Seven Questions state-of-evidence signal">
+      <div class="bf-signal-inner"><div class="bf-signal-heading"><div class="bf-section-label">State of Evidence</div><strong>Seven Questions</strong><span>Reconciled through evidence-quality Waves A–C</span></div><div class="bf-signal-rail" id="blackfileSignal"></div></div>
+    </section>
+    <div class="bf-workspace">
+      <section class="bf-panel bf-constellation-panel" aria-label="Seven Questions constellation">
+        <div class="bf-constellation-inner"><div class="bf-constellation-head"><strong>Question Constellation</strong><span>Move from cases to the larger questions they bear on</span></div><div class="bf-constellation-stage" id="blackfileConstellation"></div></div>
+      </section>
+      <aside class="bf-panel bf-brief-panel" aria-label="Selected Blackfile question brief"><div class="bf-brief-scroll" id="blackfileBrief" aria-live="polite"></div></aside>
+      <section class="bf-panel bf-evidence-panel" aria-label="Linked Atlas evidence"><div class="bf-evidence-inner" id="blackfileEvidence"></div></section>
+    </div>
+  </section>
  <div class="console-footer"><span>Classification&nbsp;&nbsp;//&nbsp;&nbsp;<b>Restricted</b></span><span>◎ Data sources verified</span><span>Last sync&nbsp;&nbsp;<b id="syncClock">--:--:--</b></span></div>
 </div>
 <!-- ATLAS_MOBILE_NAV_START -->
 <nav class="mobile-nav mobile-only" aria-label="Atlas pages">
-  <button type="button" data-page="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20Z"/><path d="M9 4v13.5M15 6.5V20"/></svg>Map</button>
-  <button type="button" data-page="cases"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>Cases</button>
-  <button type="button" data-page="dossier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6Z"/><path d="M15 3v4h4M9 11h6M9 15h6"/></svg>Dossier</button>
+  <button type="button" data-page="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20Z"/><path d="M9 4v13.5M15 6.5V20"/></svg><span class="mobile-nav-label" data-atlas="Map" data-blackfile="Questions">Map</span></button>
+  <button type="button" data-page="cases"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg><span class="mobile-nav-label" data-atlas="Cases" data-blackfile="Evidence">Cases</span></button>
+  <button type="button" data-page="dossier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6Z"/><path d="M15 3v4h4M9 11h6M9 15h6"/></svg><span class="mobile-nav-label" data-atlas="Dossier" data-blackfile="Brief">Dossier</span></button>
 </nav>
 <!-- ATLAS_MOBILE_NAV_END -->
 <div class="drawer-backdrop" id="drawerBackdrop"><aside class="case-drawer" id="caseDrawer" role="dialog" aria-modal="true" aria-label="Full case file"></aside></div>
 <script src="atlas-map.js" defer></script>
 <script src="atlas-runtime.js" defer></script>
+<script src="blackfile-analysis.js" defer></script>
 <script src="atlas-app.js" defer></script>
+<script src="blackfile-mode.js" defer></script>
 </body>
 </html>
