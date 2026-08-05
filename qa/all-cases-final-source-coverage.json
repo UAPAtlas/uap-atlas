@@ -35,14 +35,15 @@
     "id": "BF-1944-FF-01",
     "title": "Foo Fighters, European Theater",
     "tokens": [
-      "FOO-1944"
+      "FOO-1944",
+      "FOO-1944-AFHRA-60059"
     ],
-    "indexedLinks": 6,
+    "indexedLinks": 10,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 3,
     "evidenceAssets": 2,
-    "links": 9,
-    "local": 6,
+    "links": 10,
+    "local": 7,
     "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
@@ -51,9 +52,11 @@
     "id": "BF-1946-GR-01",
     "title": "Scandinavian Ghost Rockets",
     "tokens": [
-      "GHOSTROCKETS-1946"
+      "GHOSTROCKETS-1946",
+      "GHOSTROCKETS-RIKSARKIVET-1946",
+      "GHOSTROCKETS-STRICT-12-SCAN-CUSTODY-MAP"
     ],
-    "indexedLinks": 17,
+    "indexedLinks": 19,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 8,
     "evidenceAssets": 1,
@@ -87,11 +90,11 @@
     ],
     "indexedLinks": 2,
     "structuredSourceRecords": 1,
-    "publicSourceUrls": 3,
+    "publicSourceUrls": 4,
     "evidenceAssets": 1,
-    "links": 5,
+    "links": 6,
     "local": 2,
-    "urls": 3,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -195,14 +198,23 @@
     "id": "BF-1949-LA-00",
     "title": "Los Alamos Aerial Phenomena Conference",
     "tokens": [
-      "DOE-UAP-D004-CONFERENCE"
+      "DOE-UAP-D004-CONFERENCE",
+      "DOE-UAP-D004",
+      "DOE-UAP-D004-TRANSMITTAL",
+      "DOE-UAP-D004-DEBATE",
+      "DOE-UAP-D002",
+      "DOE-UAP-D003",
+      "DOW-UAP-D017",
+      "DOW-UAP-D017-SUMMARY",
+      "DOW-UAP-D017-TRIP",
+      "DOW-UAP-D017-PARTICLES"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 21,
     "structuredSourceRecords": 7,
     "publicSourceUrls": 1,
     "evidenceAssets": 16,
-    "links": 18,
-    "local": 17,
+    "links": 22,
+    "local": 21,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -211,14 +223,15 @@
     "id": "BF-1950-GF-01",
     "title": "Great Falls / Mariana Film",
     "tokens": [
-      "GREATFALLS-1950"
+      "GREATFALLS-1950",
+      "GREATFALLS-1950-FILM"
     ],
-    "indexedLinks": 6,
+    "indexedLinks": 9,
     "structuredSourceRecords": 2,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "links": 8,
-    "local": 7,
+    "links": 10,
+    "local": 9,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -291,9 +304,11 @@
     "id": "BF-1956-LB-01",
     "title": "Lakenheath-Bentwaters Radar-Visual Case",
     "tokens": [
-      "LAKENHEATH-1956"
+      "LAKENHEATH-1956",
+      "CIA-UAP-015",
+      "LAKENHEATH-1956-RAF-ORBS"
     ],
-    "indexedLinks": 6,
+    "indexedLinks": 8,
     "structuredSourceRecords": 4,
     "publicSourceUrls": 3,
     "evidenceAssets": 2,
@@ -567,7 +582,9 @@
     "id": "BF-1967-MA-01",
     "title": "Malmstrom AFB Missile Shutdown Incident",
     "tokens": [
-      "MALMSTROM-1967"
+      "MALMSTROM-1967",
+      "MALMSTROM-1967-FOIA-PACKET",
+      "MALMSTROM-1967-LATER-TESTIMONY"
     ],
     "indexedLinks": 8,
     "structuredSourceRecords": 3,
@@ -1135,9 +1152,12 @@
     "id": "BF-1980-RF-01",
     "title": "Rendlesham Forest / RAF Bentwaters Incident",
     "tokens": [
-      "RENDLESHAM-1980"
+      "RENDLESHAM-1980",
+      "RENDLESHAM-1980-HALT-MEMO",
+      "RENDLESHAM-1980-TNA",
+      "RENDLESHAM-1980-DEFE"
     ],
-    "indexedLinks": 7,
+    "indexedLinks": 8,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 3,
     "evidenceAssets": 6,
@@ -1151,7 +1171,9 @@
     "id": "BF-SF-11",
     "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
     "tokens": [
-      "BENNEWITZ-1980"
+      "BENNEWITZ-1980",
+      "BENNEWITZ-1980-DOTY-ADMISSION",
+      "BENNEWITZ-1980-AQUARIUS"
     ],
     "indexedLinks": 10,
     "structuredSourceRecords": 3,
@@ -1329,7 +1351,8 @@
     "id": "BF-NASA-D030",
     "title": "STS-80 Unidentified Object Image 1",
     "tokens": [
-      "NASA-UAP-D030"
+      "NASA-UAP-D030",
+      "NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg"
     ],
     "indexedLinks": 6,
     "structuredSourceRecords": 1,
@@ -1525,9 +1548,10 @@
     "id": "BF-2015-NAV-01",
     "title": "2015 Atlantic Navy Video Series",
     "tokens": [
-      "DOD-NAVY-VIDEOS-2020"
+      "DOD-NAVY-VIDEOS-2020",
+      "AARO-IMAGERY"
     ],
-    "indexedLinks": 1,
+    "indexedLinks": 2,
     "structuredSourceRecords": 2,
     "publicSourceUrls": 2,
     "evidenceAssets": 2,
@@ -1541,14 +1565,18 @@
     "id": "BF-2015-PX-04",
     "title": "Pantex Unidentified Object Report",
     "tokens": [
-      "DOE-UAP-D005-NARRATIVE"
+      "DOE-UAP-D005-NARRATIVE",
+      "DOE-UAP-D005",
+      "DOE-UAP-D005-TRANSMITTAL",
+      "DOE-UAP-D005-IMAGERY",
+      "DOE-UAP-D001"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 14,
     "structuredSourceRecords": 4,
     "publicSourceUrls": 1,
     "evidenceAssets": 11,
-    "links": 13,
-    "local": 12,
+    "links": 15,
+    "local": 14,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -1628,7 +1656,8 @@
     "id": "BF-2020-AS-01",
     "title": "Arabian Sea Range Fouler",
     "tokens": [
-      "DOW-UAP-D44"
+      "DOW-UAP-D44",
+      "DOW-UAP-D56"
     ],
     "indexedLinks": 2,
     "structuredSourceRecords": 1,
@@ -1823,7 +1852,8 @@
     "id": "BF-2023-GR-00",
     "title": "Greece Maritime FMV Series \u2014 October 2023",
     "tokens": [
-      "GREECE2023-INDEX"
+      "GREECE2023-INDEX",
+      "DOW-UAP-D33"
     ],
     "indexedLinks": 6,
     "structuredSourceRecords": 1,
@@ -1855,14 +1885,17 @@
     "id": "BF-2023-LG-01",
     "title": "Langley AFB Drone Incursions",
     "tokens": [
-      "LANGLEY-2023-DOD-BRIEFING"
+      "LANGLEY-2023-DOD-BRIEFING",
+      "LANGLEY-2023",
+      "LANGLEY-2023-DOD-NEWS",
+      "LANGLEY-2023-HOUSE-HEARING-2025"
     ],
-    "indexedLinks": 1,
+    "indexedLinks": 5,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 3,
     "evidenceAssets": 1,
-    "links": 4,
-    "local": 1,
+    "links": 5,
+    "local": 2,
     "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
@@ -1887,10 +1920,14 @@
     "id": "BF-2023-WUS-03",
     "title": "Western U.S. Federal LE Encounters",
     "tokens": [
-      "DOW-UAP-D079"
+      "DOW-UAP-D079",
+      "DOW-UAP-D080",
+      "DOW-UAP-D081",
+      "DOW-UAP-D082",
+      "DOW-UAP-D083"
     ],
-    "indexedLinks": 1,
-    "structuredSourceRecords": 1,
+    "indexedLinks": 5,
+    "structuredSourceRecords": 5,
     "publicSourceUrls": 1,
     "evidenceAssets": 7,
     "links": 8,
@@ -1983,14 +2020,20 @@
     "id": "BF-2024-NE-02",
     "title": "Northeastern Orb Surveillance",
     "tokens": [
-      "FBI-UAP-D004"
+      "FBI-UAP-D004",
+      "FBI-UAP-D005",
+      "FBI-UAP-D006",
+      "FBI-UAP-D007",
+      "FBI-UAP-D008",
+      "FBI-UAP-D009",
+      "FBI-UAP-D010"
     ],
-    "indexedLinks": 5,
+    "indexedLinks": 45,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 6,
-    "links": 12,
-    "local": 11,
+    "links": 47,
+    "local": 46,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2047,15 +2090,16 @@
     "id": "BF-1952-PL-01",
     "title": "Port Lyautey 4,900 MPH Object",
     "tokens": [
-      "DC-FLAP-1952, pp. 30, 51, 53"
+      "DC-FLAP-1952, pp. 30, 51, 53",
+      "DC-FLAP-1952"
     ],
-    "indexedLinks": 4,
+    "indexedLinks": 16,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 3,
-    "links": 4,
-    "local": 3,
-    "urls": 1,
+    "links": 16,
+    "local": 13,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2063,15 +2107,16 @@
     "id": "BF-1952-BE-01",
     "title": "Bethesda Shape-Shifting Object",
     "tokens": [
-      "DC-FLAP-1952, pp. 99-103"
+      "DC-FLAP-1952, pp. 99-103",
+      "DC-FLAP-1952"
     ],
-    "indexedLinks": 6,
+    "indexedLinks": 18,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 6,
-    "links": 7,
-    "local": 6,
-    "urls": 1,
+    "links": 19,
+    "local": 16,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2111,14 +2156,15 @@
     "id": "BF-1949-KD-01",
     "title": "Kodiak Naval Base 1,500 MPH Object",
     "tokens": [
-      "DOW-UAP-D084, 342-HS1, pp. 51-52"
+      "DOW-UAP-D084, 342-HS1, pp. 51-52",
+      "DOW-UAP-D084"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 9,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "links": 4,
-    "local": 2,
+    "links": 10,
+    "local": 8,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -2127,15 +2173,16 @@
     "id": "BF-1952-R5D-01",
     "title": "R5D Pilot \u2014 Bright Disc That Circled the Aircraft",
     "tokens": [
-      "DC-FLAP-1952, p. 53"
+      "DC-FLAP-1952, p. 53",
+      "DC-FLAP-1952"
     ],
-    "indexedLinks": 2,
+    "indexedLinks": 14,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "links": 3,
-    "local": 2,
-    "urls": 1,
+    "links": 15,
+    "local": 12,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2143,14 +2190,16 @@
     "id": "BF-1965-G7-01",
     "title": "Gemini 7 Astronaut 'Bogey' Report",
     "tokens": [
-      "NASA T-00763(Rlb)"
+      "NASA T-00763(Rlb)",
+      "NASA-UAP-D021",
+      "NASA-T-00763"
     ],
-    "indexedLinks": 4,
+    "indexedLinks": 6,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 4,
-    "links": 6,
-    "local": 4,
+    "links": 8,
+    "local": 6,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -2159,14 +2208,15 @@
     "id": "BF-1949-SA-01",
     "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
     "tokens": [
-      "DOW-UAP-D084, 342-HS1, pp. 75, 77"
+      "DOW-UAP-D084, 342-HS1, pp. 75, 77",
+      "DOW-UAP-D084"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 9,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 2,
-    "links": 3,
-    "local": 2,
+    "links": 9,
+    "local": 8,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2175,14 +2225,15 @@
     "id": "BF-1949-HF-01",
     "title": "Hickam Field \u2014 Oscillating Object, No Sound",
     "tokens": [
-      "DOW-UAP-D084, 342-HS1, pp. 90-93"
+      "DOW-UAP-D084, 342-HS1, pp. 90-93",
+      "DOW-UAP-D084"
     ],
-    "indexedLinks": 5,
+    "indexedLinks": 9,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 1,
     "evidenceAssets": 4,
-    "links": 5,
-    "local": 4,
+    "links": 9,
+    "local": 8,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true
@@ -2335,14 +2386,16 @@
     "id": "BF-SF-14",
     "title": "Special File: CIA OSE Study Group \u2014 1952 Internal UFO Review",
     "tokens": [
-      "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6"
+      "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6",
+      "CIA-IAC-1952-012-7",
+      "CIA-OSE-1952-013-6"
     ],
-    "indexedLinks": 5,
+    "indexedLinks": 53,
     "structuredSourceRecords": 2,
     "publicSourceUrls": 2,
     "evidenceAssets": 3,
-    "links": 7,
-    "local": 3,
+    "links": 53,
+    "local": 49,
     "urls": 4,
     "missingLocal": [],
     "hasEvidence": true

@@ -141,6 +141,11 @@
           "label": "Magenta narrative versus contemporaneous clipping",
           "summary": "The recovered contemporaneous clipping describes a lightning incident near Magenta, not a UFO crash or recovery. The later RS-33 chain remains a provenance problem rather than proof of retrieval.",
           "caseIds": ["BF-1933-MG-01"]
+        },
+        {
+          "label": "Maury and Santilli suspicion versus verified admission custody",
+          "summary": "The mapped Maury FBI teletype records investigative hoax suspicion but explicitly says the subject did not admit a hoax. For Santilli, the exact later interview and originating film/production records are not in mapped Atlas custody. Neither case should carry a verified-confession conclusion until those records are acquired.",
+          "caseIds": ["BF-1947-MI-01", "BF-SF-12"]
         }
       ]
     },

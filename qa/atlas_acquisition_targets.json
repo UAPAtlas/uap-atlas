@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "acquisition_target",
-  "caseCount": 13,
+  "caseCount": 15,
   "cases": [
     {
       "id": "BF-1987-GB-01",
@@ -107,6 +107,28 @@
       "evidenceAssets": 5,
       "sourceQuality": "Complete contemporaneous Isto\u00c9 press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
       "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread."
+    },
+    {
+      "id": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "acquisition_target",
+      "priorityScore": 93,
+      "legacyWeaknessScore": 33,
+      "reasons": [
+        "declared acquisition target: Exact 2006 Eamonn Investigates interview recording or transcript containing Santilli\u2019s restoration characterization",
+        "declared acquisition target: First-generation 1995 broadcast/distribution record and production documentation",
+        "declared acquisition target: Any claimed original film master, camera negative, or frames with an independently reviewable chain of custody",
+        "declared acquisition target: Exact John Humphreys interview/admission record and supporting production documentation"
+      ],
+      "sourceProfile": "secondary-only",
+      "sourceRecords": 2,
+      "mainSourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Secondary contextual custody only: a local preview image, generated manifest, and Atlas audit note are held; the exact 1995 broadcast, exact 2006 interview, original film master, and production records are not held.",
+      "quoteConfidence": "Unverified in current custody \u2014 the exact 2006 interview recording or transcript is not held."
     },
     {
       "id": "BF-1966-WS-01",
@@ -253,6 +275,27 @@
       "evidenceAssets": 6,
       "sourceQuality": "Official MoD public-viewer pages map receipt, staff review, press handling, and return of six negatives to the Scottish Daily Record; Sheffield Hallam documents the surviving-print analysis. The original negatives and remaining reported frames remain unavailable.",
       "quoteConfidence": "High transcription confidence \u2014 exact page-verified wording from the 14 September 1990 MoD loose minute; the memo records official handling but does not authenticate the photographed object."
+    },
+    {
+      "id": "BF-1947-MI-01",
+      "title": "Maury Island Affair",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 60,
+      "legacyWeaknessScore": 0,
+      "reasons": [
+        "declared acquisition target: Complete Seattle FBI field report referenced in the 14 August 1947 teletype",
+        "declared acquisition target: AAF accident-investigation record for the B-25 crash that killed William Davidson and Frank Brown",
+        "declared acquisition target: Laboratory report and custody record for the fragments described as Tacoma slag"
+      ],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 1,
+      "sourceQuality": "Official FBI primary part-file custody: the held 69-page FBI Vault PDF includes Maury-related teletype records, but the complete Seattle report, AAF crash investigation, and sample-analysis custody record are not mapped.",
+      "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession."
     },
     {
       "id": "BF-SF-07",

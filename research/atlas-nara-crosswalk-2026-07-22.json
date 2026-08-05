@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T22:37:17-04:00",
+  "generatedAt": "2026-08-05T17:05:38-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -58,13 +58,14 @@
       "localPdfCount": 1,
       "coverageLinks": 11,
       "missingRecordClasses": [
-        "not-the-original-case-file",
-        "some-details-from-1969-interviews",
-        "no-radar-scope-film",
-        "raw-radar-plots-absent",
-        "raw-ECM-recording-absent",
-        "interphone-recording-absent",
-        "public-grouping-includes-later-analysis"
+        "Published in 1971, not contemporaneous with the event",
+        "Depends partly on USAF records and 1969 interviews; not independent raw sensor data",
+        "No radar-scope film or raw ECM recording",
+        "Longer approximately 90-minute duration belongs to later analytical reconstruction, not the message interval",
+        "No raw radar plot or scope film",
+        "No raw ECM recording",
+        "Recorded interphone and command-position audio referenced but absent",
+        "A single compiled message chain is not four independent source families"
       ],
       "upgradePriorityScore": -1,
       "upgradeReasons": [
@@ -126,7 +127,7 @@
       "publicUrlCount": 3,
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 9,
+      "coverageLinks": 10,
       "missingRecordClasses": [
         "Original microfilm scans not yet secured",
         "December quotations still rely on public transcriptions pending image comparison",
@@ -234,11 +235,12 @@
       "publicUrlCount": 3,
       "localCustodyFileCount": 2,
       "localPdfCount": 1,
-      "coverageLinks": 5,
+      "coverageLinks": 6,
       "missingRecordClasses": [
-        "Dahl/Crisman narrative is strongly disputed and linked to reported fabrication/hoax admissions",
-        "Recovered/debris claims are not supported by a clean physical custody chain",
-        "FBI/AAF interest in the report does not authenticate the claimed object, debris, or threat narrative"
+        "Does not authenticate the reported objects, debris, or threat narrative",
+        "Held part-file does not include the complete Seattle report referenced by the 14 August teletype",
+        "Mapped pages do not establish the B-25 crash cause or a causal link to alleged samples",
+        "No complete laboratory/sample custody record is mapped"
       ],
       "upgradePriorityScore": 6,
       "upgradeReasons": [
@@ -485,7 +487,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 21,
       "localPdfCount": 4,
-      "coverageLinks": 18,
+      "coverageLinks": 22,
       "missingRecordClasses": [
         "administrative cover only",
         "underlying reports not attached",
@@ -549,7 +551,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 21,
       "localPdfCount": 1,
-      "coverageLinks": 8,
+      "coverageLinks": 10,
       "missingRecordClasses": [
         "Missing first 35 frames are not recovered",
         "Surviving public movie is not established as first-generation film",
@@ -719,7 +721,7 @@
     },
     {
       "caseId": "BF-SF-03",
-      "title": "Special File: T. Townsend Brown Electrogravitics",
+      "title": "T. Townsend Brown / Project Winterhaven",
       "year": 1952,
       "sourceLocator": "WINTERHAVEN-1952",
       "mappingStatus": "no-exact-nara-mapping",
@@ -731,20 +733,21 @@
       "sourceIndexTokens": [
         "WINTERHAVEN-1952"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 1,
+      "structuredSourceRecords": 4,
+      "publicUrlCount": 6,
       "localCustodyFileCount": 3,
       "localPdfCount": 1,
-      "coverageLinks": 4,
+      "coverageLinks": 9,
       "missingRecordClasses": [
-        "Public trail does not demonstrate operational anti-gravity or field propulsion craft",
-        "Observed effects are widely disputed and often attributed to ion wind/electrohydrodynamics rather than gravity control",
-        "No classified program-success record, flight hardware custody, or reproducible neutral lab validation is mapped"
+        "Patent issuance records claims and disclosure; it is not independent validation of antigravity, vacuum thrust, defense adoption or operational performance.",
+        "Proposal and archive custody do not establish contract award, funding, completion, adoption, successful field propulsion or classified continuation.",
+        "Mirror transcription does not establish first-party official custody, an experimental program, operational performance or successful electrogravity.",
+        "One experimental configuration does not test every Brown apparatus, but it directly constrains the claimed non-corona mechanism and practical propulsion interpretation."
       ],
-      "upgradePriorityScore": 6,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
-        "one structured source record",
-        "historical case lacks exact NAID"
+        "historical case lacks exact NAID",
+        "high-significance dossier"
       ]
     },
     {
@@ -1436,7 +1439,7 @@
       "caseId": "BF-1967-MA-01",
       "title": "Malmstrom AFB Missile Shutdown Incident",
       "year": 1967,
-      "sourceLocator": "MALMSTROM-1967-UNIT-HISTORY",
+      "sourceLocator": "MALMSTROM-1967",
       "mappingStatus": "no-exact-nara-mapping",
       "exactNaids": [],
       "seriesNaids": [],
@@ -1444,21 +1447,23 @@
       "resolvedNaraRecords": [],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "MALMSTROM-1967-UNIT-HISTORY"
+        "MALMSTROM-1967"
       ],
       "structuredSourceRecords": 3,
       "publicUrlCount": 2,
-      "localCustodyFileCount": 6,
+      "localCustodyFileCount": 7,
       "localPdfCount": 1,
-      "coverageLinks": 7,
+      "coverageLinks": 9,
       "missingRecordClasses": [
-        "does not establish a UFO cause",
-        "preview is a reproduced page rather than the archival original",
-        "a later summary of the investigation",
-        "cannot substitute for missing raw maintenance and security records",
-        "private mirror custody",
-        "scanned-image quality",
-        "government release does not validate later UFO interpretations"
+        "unit history summarizes and cites the engineering report rather than supplying raw channel-50 data",
+        "negative checks do not prove what every person near the wider missile field observed",
+        "does not establish the exact common cause",
+        "private-mirror access copy",
+        "not an independent source family",
+        "government release does not authenticate later UFO interpretations",
+        "retrospective testimony published decades later",
+        "not present in the held contemporaneous unit-history account",
+        "does not override the official negative UFO/radar checks or independently establish causation"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -2393,19 +2398,19 @@
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
-      "localCustodyFileCount": 4,
-      "localPdfCount": 0,
-      "coverageLinks": 5,
+      "localCustodyFileCount": 5,
+      "localPdfCount": 1,
+      "coverageLinks": 6,
       "missingRecordClasses": [
-        "no-raw-radar",
-        "no-maintenance-or-fault-records",
-        "no-follow-up-results",
-        "message-records-claims-not-object-identity"
+        "No raw radar plots or tapes",
+        "No maintenance, fault or missile-system diagnostic records",
+        "No promised follow-up or radiation-test results",
+        "No causal link is established between object proximity and the reported systems effects",
+        "The message records relayed claims, not object identity"
       ],
-      "upgradePriorityScore": 6,
+      "upgradePriorityScore": 4,
       "upgradeReasons": [
         "one structured source record",
-        "no complete local PDF in mapped custody",
         "high-significance dossier"
       ]
     },
@@ -2573,7 +2578,7 @@
       "caseId": "BF-1980-RF-01",
       "title": "Rendlesham Forest / RAF Bentwaters Incident",
       "year": 1980,
-      "sourceLocator": "RENDLESHAM-1980-HALT-MEMO",
+      "sourceLocator": "RENDLESHAM-1980",
       "mappingStatus": "collection-guide-only",
       "exactNaids": [],
       "seriesNaids": [],
@@ -2581,21 +2586,23 @@
       "resolvedNaraRecords": [],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "RENDLESHAM-1980-HALT-MEMO"
+        "RENDLESHAM-1980"
       ],
       "structuredSourceRecords": 3,
-      "publicUrlCount": 2,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 8,
+      "coverageLinks": 10,
       "missingRecordClasses": [
-        "short summary memo",
-        "mixes subordinate reports with Halt's later firsthand account",
+        "short post-event memorandum",
+        "paragraph 1 is relayed subordinate reporting rather than Halt firsthand testimony",
+        "no raw radar, calibrated radiation baseline, photographs or physical-sample custody",
         "does not identify the phenomena",
         "retrospective collection summary",
-        "not an independent technical analysis",
-        "later administrative correspondence",
-        "does not reconstruct the event from raw sensor evidence"
+        "not an independent technical analysis or second event-bearing source",
+        "created nearly 17 years after the event",
+        "not independent event evidence",
+        "does not reconstruct the event from raw sensor or investigative records"
       ],
       "upgradePriorityScore": 5,
       "upgradeReasons": [
@@ -2618,19 +2625,24 @@
       "sourceIndexTokens": [
         "BENNEWITZ-1980"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 3,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 7,
       "localPdfCount": 5,
-      "coverageLinks": 10,
+      "coverageLinks": 11,
       "missingRecordClasses": [
-        "The document trail does not verify every claim fed to or made by Bennewitz, including Aquarius or underground-base narratives",
-        "OpenMinds/public mirrors are access copies and should not be treated as native agency archive endpoints without custody caveats",
-        "The case proves disinformation/provenance significance more strongly than it proves any specific exotic-technology allegation"
+        "does not document an authorized disinformation operation",
+        "does not validate Bennewitz's alien-contact claims",
+        "privacy redactions and incomplete wider file context",
+        "retrospective self-report",
+        "not agency acknowledgment",
+        "no released authorization, full recipient list or independently preserved operation file",
+        "does not authenticate the document",
+        "does not establish AFOSI authorship, MJ12 existence, alien contact or an authorized disinformation operation",
+        "local filename classification as “forgery” is an analytical label, not proof supplied by the artifact itself"
       ],
-      "upgradePriorityScore": 4,
+      "upgradePriorityScore": 1,
       "upgradeReasons": [
-        "one structured source record",
         "high-significance dossier"
       ]
     },
@@ -2678,19 +2690,22 @@
       "sourceIndexTokens": [
         "MJ12-1984"
       ],
-      "structuredSourceRecords": 1,
+      "structuredSourceRecords": 2,
       "publicUrlCount": 2,
       "localCustodyFileCount": 2,
       "localPdfCount": 1,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "FBI/AFOSI custody does not authenticate the MJ-12 documents as genuine government crash-retrieval records",
-        "The case remains a disputed-document/fabrication-control record, not proof of a confirmed MJ-12 program",
-        "Public documentaries or reproductions must be treated as context unless tied back to the official file and determination trail"
+        "FBI custody does not authenticate the underlying documents",
+        "does not identify the creator or motive",
+        "received copies are not authenticated 1952 originals",
+        "does not establish an MJ-12 program or crash retrieval",
+        "no identified sender",
+        "no continuous custody chain",
+        "not established by the FBI file as an authenticated 1984 event"
       ],
-      "upgradePriorityScore": 4,
+      "upgradePriorityScore": 1,
       "upgradeReasons": [
-        "one structured source record",
         "high-significance dossier"
       ]
     },
@@ -2802,7 +2817,7 @@
     },
     {
       "caseId": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
+      "title": "Bob Lazar / S-4 Claims",
       "year": 1989,
       "sourceLocator": "LAZAR-1989",
       "mappingStatus": "no-exact-nara-mapping",
@@ -2814,21 +2829,19 @@
       "sourceIndexTokens": [
         "LAZAR-1989"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 2,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 7,
       "missingRecordClasses": [
-        "No verified S-4 employment record or program-access document is mapped",
-        "Academic credential and employment-history claims remain disputed/unverified in public records",
-        "Detailed testimony is not independent evidence of recovered craft or non-human technology"
+        "Claimant interview evidence establishes that claims were made, not that S-4 employment, recovered craft or non-human technology existed.",
+        "Does not establish Lazar's alleged S-4 facility, employment, reverse-engineering program, recovered craft or non-human origin.",
+        "Does not verify Lazar's claimed stable isotope, sample, fuel properties, gravity effects, S-4 access or recovered craft; atomic number 115 was not a unique prediction."
       ],
-      "upgradePriorityScore": 8,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
-        "quote not verified to primary page",
         "high-significance dossier"
       ]
     },
@@ -2925,17 +2938,18 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "No original film master, camera negative, chain-of-custody packet, or agency-originating record is mapped",
-        "The record does not authenticate the footage as Roswell, alien, or government-origin material",
-        "Later interviews/broadcasts are context for provenance and reception, not independent proof of the depicted event",
-        "not an independent source",
-        "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "Not an original film master, broadcast record, production record, or interview transcript",
+        "Does not authenticate the footage or independently verify reported admissions",
+        "Cannot establish Roswell, alien, medical, or government provenance",
+        "Not an independent source",
+        "Does not corroborate the event narrative",
+        "Cannot substitute for missing primary records"
       ],
-      "upgradePriorityScore": 4,
+      "upgradePriorityScore": 6,
       "upgradeReasons": [
         "no complete local PDF in mapped custody",
-        "NARA collection/guide link only"
+        "NARA collection/guide link only",
+        "quote not verified to primary page"
       ]
     },
     {
@@ -3403,7 +3417,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 28,
       "localPdfCount": 2,
-      "coverageLinks": 13,
+      "coverageLinks": 15,
       "missingRecordClasses": [
         "recipient and contact details redacted",
         "event date conflicts with the enclosed narrative",
@@ -3509,12 +3523,13 @@
       "localPdfCount": 0,
       "coverageLinks": 7,
       "missingRecordClasses": [
-        "Public video/frame material is not the complete raw sensor/deck-log/radar/EW packet",
-        "The released imagery does not establish object identity, underwater transition mechanics, or non-human origin",
-        "Broader swarm chronology remains incomplete without full ship logs, sensor metadata, and contemporaneous analytical workpapers",
-        "not an independent source",
-        "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "No exact official media master or originating Navy event record is mapped",
+        "Pentagon statement does not independently confirm USS Omaha attribution or reported date",
+        "Public clip/frame does not establish water entry, range, speed, object identity, swarm linkage or transmedium behavior",
+        "No complete radar, EW, deck-log or sonar packet is mapped",
+        "Not an independent source",
+        "Does not corroborate the event narrative",
+        "Cannot substitute for missing primary records"
       ],
       "upgradePriorityScore": 2,
       "upgradeReasons": [
@@ -3995,7 +4010,7 @@
       "publicUrlCount": 3,
       "localCustodyFileCount": 1,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 5,
       "missingRecordClasses": [
         "does not disclose operators, raw data, platform types, or full chronology",
         "retrospective public-affairs summary",
@@ -4054,19 +4069,18 @@
       "sourceIndexTokens": [
         "DOW-UAP-D079"
       ],
-      "structuredSourceRecords": 1,
+      "structuredSourceRecords": 5,
       "publicUrlCount": 1,
       "localCustodyFileCount": 7,
       "localPdfCount": 0,
       "coverageLinks": 8,
       "missingRecordClasses": [
-        "Released narrative/contact images are not the complete investigative packets, raw sensor files, or witness interview records",
-        "No NARA exact case mapping or complete local PDF custody packet is present in the current crosswalk",
-        "The records support unresolved/reporting status, not object identity or non-human origin"
+        "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+        "Redacted location and witness identity",
+        "Authenticates the report, not object identity, performance, or origin"
       ],
-      "upgradePriorityScore": 6,
+      "upgradePriorityScore": 3,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
         "high-significance dossier"
       ]
@@ -4242,7 +4256,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 12,
       "localPdfCount": 0,
-      "coverageLinks": 12,
+      "coverageLinks": 47,
       "missingRecordClasses": [
         "identities-and-location-redacted",
         "original-videos-not-mapped",
@@ -4322,7 +4336,7 @@
       "caseId": "BF-1994-KZ-01",
       "title": "Kazakhstan Commercial Aviation Encounter",
       "year": 1994,
-      "sourceLocator": "DOS-UAP-D2, DUSHANBE 00259",
+      "sourceLocator": "DOS-UAP-D2, DUSHANBE 00259; cable 31 Jan 1994 reporting 27 Jan encounter",
       "mappingStatus": "no-exact-nara-mapping",
       "exactNaids": [],
       "seriesNaids": [],
@@ -4339,8 +4353,10 @@
       "coverageLinks": 5,
       "missingRecordClasses": [
         "photographs-not-in-released-file",
-        "no-radar-correlation",
-        "no-follow-up-investigation"
+        "no-radar-or-atc-correlation",
+        "no-follow-up-investigation-located",
+        "extraterrestrial-intelligent-control-was-crew-opinion",
+        "embassy-stated-no-opinion"
       ],
       "upgradePriorityScore": 6,
       "upgradeReasons": [
@@ -4367,7 +4383,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 3,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 16,
       "missingRecordClasses": [
         "no-radar-data-located",
         "investigator-worksheets-missing"
@@ -4399,7 +4415,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 7,
+      "coverageLinks": 19,
       "missingRecordClasses": [
         "no-blue-book-case-number-located",
         "no-official-conclusion-located"
@@ -4446,10 +4462,10 @@
       "localPdfCount": 0,
       "coverageLinks": 9,
       "missingRecordClasses": [
-        "no-visual-contact",
-        "no-raw-radar-film",
-        "no-calibration-records",
-        "no-independent-sensor-corroboration"
+        "No visual contact",
+        "No raw radar film or calibration records",
+        "No independent sensor corroboration",
+        "Suggested technical explanation is not a final object identification"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4491,8 +4507,11 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "B-47-unit-identity-not-extracted",
-        "follow-up-investigation-not-located"
+        "object-range-not-established",
+        "speed-estimate-visual-no-instrument-corroboration",
+        "no-radar-or-photographic-corroboration",
+        "no-follow-up-investigation-located",
+        "preparing-officer-judged-event-not-significant"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4519,7 +4538,7 @@
       "publicUrlCount": 2,
       "localCustodyFileCount": 2,
       "localPdfCount": 0,
-      "coverageLinks": 4,
+      "coverageLinks": 10,
       "missingRecordClasses": [
         "full-file-requires-OCR",
         "follow-up-investigation-not-extracted",
@@ -4551,7 +4570,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 2,
       "localPdfCount": 0,
-      "coverageLinks": 3,
+      "coverageLinks": 15,
       "missingRecordClasses": [
         "no-blue-book-case-number-located",
         "no-official-conclusion-located"
@@ -4583,7 +4602,7 @@
       "publicUrlCount": 2,
       "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 6,
+      "coverageLinks": 8,
       "missingRecordClasses": [
         "no-radar-correlation",
         "no-follow-up-analysis",
@@ -4616,7 +4635,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 2,
       "localPdfCount": 0,
-      "coverageLinks": 3,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "The report records ship-officer observations through a later intelligence interview; no photographs, recovered material, or independent sensor track are included",
         "Investigators retained balloon/free-flight hypotheses, including possible release from Russian vessels, and promised further reporting",
@@ -4648,7 +4667,7 @@
       "publicUrlCount": 1,
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "full-follow-up-not-extracted",
         "official-conclusion-not-located",
@@ -4695,8 +4714,10 @@
       "localPdfCount": 0,
       "coverageLinks": 5,
       "missingRecordClasses": [
-        "single-witness",
-        "investigator-forced-helicopter-explanation"
+        "no-instrument-or-photographic-corroboration",
+        "range-and-speed-estimates-visual-only",
+        "investigator-assessed-probably-helicopter",
+        "no-follow-up-packet-mapped"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4853,6 +4874,7 @@
       "missingRecordClasses": [
         "no-radar-confirmation",
         "no-photographic-evidence",
+        "no-exact-refueling-information-in-squadron-record",
         "no-independent-follow-up-in-packet"
       ],
       "upgradePriorityScore": 4,
@@ -4895,9 +4917,9 @@
       "localPdfCount": 0,
       "coverageLinks": 3,
       "missingRecordClasses": [
-        "exact-location-not-extracted",
-        "witness-identity-not-extracted",
-        "no-follow-up-located"
+        "single-witness",
+        "no-instrument-or-photographic-corroboration",
+        "no-follow-up-investigation-located"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4941,7 +4963,7 @@
       "caseId": "BF-1985-PNG-01",
       "title": "Papua New Guinea — High-Altitude Overflights",
       "year": 1985,
-      "sourceLocator": "DOS-UAP-D1, PORT MORESBY 00199",
+      "sourceLocator": "DOS-UAP-D1, PORT MORESBY 00199; cable 28 Jan 1985 reporting 24 Jan events",
       "mappingStatus": "collection-guide-only",
       "exactNaids": [],
       "seriesNaids": [],
@@ -4957,9 +4979,10 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "no-radar-data",
-        "no-follow-up-investigation",
-        "no-uscincpac-response-located"
+        "no-raw-radar-plot-or-recording",
+        "underlying-witness-statements-not-in-file",
+        "reported-directions-described-as-uncertain",
+        "no-uscincpac-or-43rd-wing-response-located"
       ],
       "upgradePriorityScore": 8,
       "upgradeReasons": [
@@ -5032,7 +5055,7 @@
       "publicUrlCount": 4,
       "localCustodyFileCount": 52,
       "localPdfCount": 3,
-      "coverageLinks": 7,
+      "coverageLinks": 53,
       "missingRecordClasses": [
         "working-papers-not-declassified",
         "consultant-identities-redacted",

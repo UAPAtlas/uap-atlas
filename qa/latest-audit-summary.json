@@ -37,7 +37,7 @@
   "uniqueDisplayTaxonomy": {
     "domains": 9,
     "statuses": 17,
-    "confidenceLabels": 16,
+    "confidenceLabels": 17,
     "agencies": 88
   },
   "normalizedTaxonomy": {
@@ -62,23 +62,23 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 256,
-  "sourceDepthWeakCaseCount": 52,
-  "sourceDepthEnrichmentCandidateCount": 103,
+  "sourceRecordCount": 260,
+  "sourceDepthWeakCaseCount": 51,
+  "sourceDepthEnrichmentCandidateCount": 101,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 19,
-    "acquisitionTargets": 13,
-    "complete": 114
+    "qualityUpgrades": 13,
+    "acquisitionTargets": 15,
+    "complete": 118
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 35,
+    "complete-primary-packet": 37,
     "secondary-only": 9,
     "multi-source-independent": 14,
-    "thin-summary": 43,
+    "thin-summary": 42,
     "mixed-provenance": 2,
-    "single-primary-record": 43
+    "single-primary-record": 42
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -134,8 +134,8 @@
       ]
     },
     "BF-1947-MI-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -858,13 +858,13 @@
       ]
     },
     "BF-SF-12": {
-      "label": "thin-summary",
+      "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 0,
+      "secondaryRecords": 1,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
-        "other:local atlas audit derived from the current source inventory"
+        "other:local atlas audit derived from the current source inventory",
+        "other:local contextual preview image and atlas-generated source manifest; no originating broadcast/interview custody"
       ]
     },
     "BF-1996-VG-01": {
@@ -1207,12 +1207,13 @@
       ]
     },
     "BF-2023-WUS-03": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "complete-primary-packet",
+      "primaryRecords": 5,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:war department/ufo release page plus atlas source-index mappings for dow-uap-d079 through d083 western u.s. event narratives"
+        "other:aaro / office of the under secretary; memorandum for record dated 02 june 2026; 2-page released witness narrative",
+        "other:aaro / office of the under secretary; memorandum for record dated 02 june 2026; 3-page released witness narrative"
       ]
     },
     "BF-SF-10": {
@@ -1658,11 +1659,36 @@
       ]
     },
     {
+      "id": "BF-SF-12",
+      "title": "Special File: Santilli 'Alien Autopsy' Film",
+      "score": 33,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Secondary contextual custody only: a local preview image, generated manifest, and Atlas audit note are held; the exact 1995 broadcast, exact 2006 interview, original film master, and production records are not held.",
+      "quoteConfidence": "Unverified in current custody \u2014 the exact 2006 interview recording or transcript is not held.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:local contextual preview image and atlas-generated source manifest; no originating broadcast/interview custody"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "sourceQuality=Secondary contextual custody only: a local preview image, generated manifest, and Atlas audit note are held; the exact 1995 broadcast, exact 2006 interview, original film master, and production records are not held."
+      ]
+    },
+    {
       "id": "BF-1949-HF-01",
       "title": "Hickam Field \u2014 Oscillating Object, No Sound",
       "score": 30,
       "sourceRecords": 1,
-      "indexedLinks": 5,
+      "indexedLinks": 9,
       "publicSourceUrls": 1,
       "evidenceAssets": 4,
       "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
@@ -1685,7 +1711,7 @@
       "title": "Kodiak Naval Base 1,500 MPH Object",
       "score": 30,
       "sourceRecords": 1,
-      "indexedLinks": 3,
+      "indexedLinks": 9,
       "publicSourceUrls": 1,
       "evidenceAssets": 2,
       "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
@@ -1697,29 +1723,6 @@
         "independentSourceFamilies": 1,
         "sourceFamilies": [
           "other:u.s. army counter intelligence corps, file 342-hs1"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary"
-      ]
-    },
-    {
-      "id": "BF-1949-SA-01",
-      "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
-      "score": 30,
-      "sourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary restricted USAF 6th Weather Squadron report dated February 17, 1949, preserved in Army CIC file 342-HS1 at pages 75 and 77; includes named ship report, measured bearings, wind analysis, radiosonde assessment, alternative hypothesis, and command routing.",
-      "quoteConfidence": "High \u2014 selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "usaf-blue-book"
         ]
       },
       "reasons": [

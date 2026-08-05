@@ -1068,11 +1068,11 @@
       ]
     },
     {
-      "keyQuote": "Two harbor patrolmen reported witnessing six doughnut-shaped craft over Maury Island, Washington; the FBI noted the existence of a hoax connection to Fantasy Magazine.",
-      "quoteSource": "FBI Maury Island file summary (pages 17, 26, 46-47)",
-      "quoteConfidence": "Medium — FBI/official-file trail exists; event claims are heavily disputed and confession/hoax issues dominate.",
+      "keyQuote": "‘did not admit … that his story was a hoax but only stated that if questioned by authorities he was going to say it was a hoax because he did not want any further trouble over the matter.’",
+      "quoteSource": "FBI Seattle teletype, 14 August 1947, FBI file 62-83894, UFO Part 1 of 16, PDF p. 46",
+      "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession.",
       "significance": "Case significance",
-      "sourceQuality": "FBI/AAF-era public-record trail for a disputed/hoax-linked 1947 case; strongest value is early flying-disc investigation context, not event authenticity.",
+      "sourceQuality": "Official FBI primary part-file custody: the held 69-page FBI Vault PDF includes Maury-related teletype records, but the complete Seattle report, AAF crash investigation, and sample-analysis custody record are not mapped.",
       "coordinateBasis": "Harbor-patrol boat position in Puget Sound off Maury Island",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1947-MI-01",
@@ -1088,11 +1088,11 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Days before the Arnold sighting, Harold Dahl claimed a doughnut-shaped craft dropped slag onto his boat in Puget Sound; Fred Crisman promoted the tale. Two Army Air Forces intelligence officers, Davidson and Brown, died when their B-25 crashed flying samples out — a real fatality attached to what FBI records treat as a hoax Dahl himself disavowed.",
-      "keyFact": "The first 'physical evidence' story of the modern era was a hoax that still cost two intelligence officers their lives — provenance failure with a body count.",
-      "official": "FBI and Air Force records classify the claims as a hoax; the B-25 crash was attributed to an engine fire.",
-      "gap": "Crisman's motives and the slag's origin were never fully documented, feeding decades of secondary conspiracy literature.",
-      "whyItMatters": "Maury Island predates Arnold and set the pattern: sensational claim, physical 'samples,' institutional response, and a provenance collapse — the field's original cautionary tale.",
+      "summary": "FBI records document investigation of Harold Dahl and Fred Crisman’s Maury Island claims, the deaths of AAF officers William Davidson and Frank Brown in a later B-25 crash, a report that submitted fragments came from a Tacoma slag mill, and an investigator’s suspicion that publicity and a Fantasy Magazine deal motivated the story. Crucially, the 14 August teletype states that the redacted subject did not admit a hoax; he said he would call it a hoax if questioned to avoid further trouble.",
+      "keyFact": "The mapped FBI record supports official investigation and strong hoax suspicion, but explicitly does not contain the confession previously attributed to Dahl.",
+      "official": "The FBI packet records investigative suspicion of publicity/profit motives and relays that analyzed fragments were reportedly Tacoma slag. Its 14 August 1947 teletype explicitly says the subject did not admit a hoax. The mapped pages document Davidson and Brown’s deaths but do not establish the crash cause or prove that alleged samples caused or contributed to the accident.",
+      "gap": "The complete Seattle field report referenced by the FBI teletype, the AAF accident-investigation record for the B-25 crash, and a laboratory/sample custody record for the slag are not mapped.",
+      "whyItMatters": "Maury Island remains an early provenance and institutional-response case, but it should demonstrate the difference between documented investigative suspicion and a confession—not collapse the two.",
       "sources": [
         "MAURY-1947 · FBI UFO records Part 1 (official FBI Vault release, 1947 flying-disc era) / FBI HQ file 62-HQ-83894 (local mirror, 184p) / AAF crash report trail"
       ],
@@ -1102,7 +1102,7 @@
         "BF-1947-KA-01",
         "BF-1948-AZ-01"
       ],
-      "heroFact": "The first 'physical evidence' story of the modern era was a hoax that still cost two intelligence officers their lives — provenance failure with a body count.",
+      "heroFact": "The mapped FBI record supports official investigation and strong hoax suspicion, but explicitly does not contain the confession previously attributed to Dahl.",
       "image": "assets/source_previews/BF-1947-MI-01_source_image.jpg",
       "caseTypes": [
         "provenance-file"
@@ -1113,10 +1113,10 @@
       "environment": [
         "terrestrial"
       ],
-      "outcome": "resolved-fabrication",
+      "outcome": "documented-disputed",
       "confidenceModel": {
         "record": "confirmed",
-        "anomaly": "low",
+        "anomaly": "undetermined",
         "provenance": "primary-record"
       },
       "temporal": {
@@ -1144,19 +1144,22 @@
       },
       "sourceRecords": [
         {
-          "citation": "MAURY-1947 · FBI UFO records Part 1 (official FBI Vault release, 1947 flying-disc era) / FBI HQ file 62-HQ-83894 (local mirror, 184p) / AAF crash report trail",
-          "sourceType": "fbi-aaf-era-disputed-case-record-trail",
-          "provenance": "FBI UFO Vault/public-file context, AAF flying-disc-era investigation trail, and regional-history hoax/confession analysis",
+          "citation": "FBI file 62-83894 · UFO Part 1 of 16 · Maury/Tacoma teletype trail",
+          "sourceType": "official-fbi-primary-part-file",
+          "provenance": "Official FBI Vault release, UFO Part 1 of 16, 69-page PDF; Maury-related records include pp. 28 and 46",
           "locator": "MAURY-1947",
+          "url": "https://vault.fbi.gov/UFO/UFO%20Part%201%20of%2016/view",
           "supports": [
-            "Documents Maury Island as an early 1947 flying-disc controversy investigated in the FBI/AAF context",
-            "Preserves the connection to official concern over flying-disc reports and the later fatal B-25 crash context",
-            "Useful as a disputed-case calibration file for separating official investigation from event authenticity"
+            "Official FBI handling of the Maury/Tacoma claim",
+            "Documented deaths of AAF officers William Davidson and Frank Brown in the subsequent B-25 crash",
+            "Reported Tacoma slag analysis and FBI suspicion of publicity/profit motives",
+            "Exact boundary that the redacted subject did not admit the story was a hoax"
           ],
           "limitations": [
-            "Dahl/Crisman narrative is strongly disputed and linked to reported fabrication/hoax admissions",
-            "Recovered/debris claims are not supported by a clean physical custody chain",
-            "FBI/AAF interest in the report does not authenticate the claimed object, debris, or threat narrative"
+            "Does not authenticate the reported objects, debris, or threat narrative",
+            "Held part-file does not include the complete Seattle report referenced by the 14 August teletype",
+            "Mapped pages do not establish the B-25 crash cause or a causal link to alleged samples",
+            "No complete laboratory/sample custody record is mapped"
           ]
         }
       ],
@@ -1172,14 +1175,9 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "military police",
-          "USAF personnel",
-          "Army personnel",
-          "FBI agent",
-          "intelligence community personnel"
+          "civilian claimants"
         ],
         "sensors": [
-          "infrared/thermal",
           "unaided-visual"
         ],
         "durationSeconds": null,
@@ -1230,6 +1228,11 @@
       ],
       "images": [
         "assets/source_previews/BF-1947-MI-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Complete Seattle FBI field report referenced in the 14 August 1947 teletype",
+        "AAF accident-investigation record for the B-25 crash that killed William Davidson and Frank Brown",
+        "Laboratory report and custody record for the fragments described as Tacoma slag"
       ]
     },
     {
@@ -14627,11 +14630,11 @@
       ]
     },
     {
-      "keyQuote": "…a restoration.",
-      "quoteSource": "Ray Santilli, 'Eamonn Investigates: Alien Autopsy' interview, 2006",
-      "quoteConfidence": "Medium — public source phrase is confirmed, but no original film/camera negative or agency custody packet is mapped.",
+      "keyQuote": "[Exact 2006 interview wording is not verified in the current mapped Atlas corpus.]",
+      "quoteSource": "Atlas custody audit, 18 July 2026",
+      "quoteConfidence": "Unverified in current custody — the exact 2006 interview recording or transcript is not held.",
       "significance": "Case significance",
-      "sourceQuality": "Broadcast/admission-era public provenance trail for the Santilli alien-autopsy film; useful as disputed-media calibration, not authenticated Roswell footage.",
+      "sourceQuality": "Secondary contextual custody only: a local preview image, generated manifest, and Atlas audit note are held; the exact 1995 broadcast, exact 2006 interview, original film master, and production records are not held.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-12",
@@ -14648,11 +14651,11 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "London producer Ray Santilli licensed worldwide broadcast of film purporting to show a 1947 Roswell-era alien autopsy. In 2006 he stated the aired footage was a 'restoration' — a staged re-shoot — while claiming a degraded original existed; sculptor John Humphreys described building the body. No original film has ever been produced.",
-      "keyFact": "The rare hoax with a confession on the record: the distributor himself reclassified the film as a staged recreation, leaving only an unevidenced claim of a lost original.",
-      "official": "No agency ever authenticated the film; broadcasters aired it as entertainment, and the 2006 admission closed the authenticity question for practical purposes.",
-      "gap": "Santilli's claimed 'original frames' have never been produced or independently examined — the residual loose end. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "Paired with the Victor tape, it completes the media-artifact lesson: production-quality footage plus withheld provenance equals zero evidentiary weight — confirmed here by confession.",
+      "summary": "Ray Santilli distributed film in 1995 that was presented as a Roswell-era alien autopsy. Later public accounts describe Santilli calling the aired material a staged ‘restoration’ and identify sculptor John Humphreys with the production, but the current Atlas corpus does not hold the exact interview, broadcast master, production record, or original film needed to quote or independently verify those admissions.",
+      "keyFact": "The mapped Atlas corpus documents a severe provenance gap; it does not independently authenticate either the footage or the reported later admissions about how it was made.",
+      "official": "No mapped agency-originating record authenticates the film as Roswell, extraterrestrial, or government material. The current local holdings also do not contain the exact 2006 interview needed to treat the reported ‘restoration’ wording as a verified quotation.",
+      "gap": "Acquire the exact 2006 interview recording/transcript, first-generation 1995 broadcast or distribution record, production documentation, and any claimed original film material with custody sufficient for independent examination.",
+      "whyItMatters": "This remains a useful provenance-control case, but the evidentiary lesson is narrower than the previous dossier claimed: withheld originals and unmapped admission records cannot carry a settled authentication or fabrication conclusion.",
       "sources": [
         "SANTILLI-1995 · broadcast record / 2006 admission interviews"
       ],
@@ -14663,7 +14666,7 @@
         "BF-SF-05",
         "BF-1947-RW-01"
       ],
-      "heroFact": "The rare hoax with a confession on the record: the distributor himself reclassified the film as a staged recreation, leaving only an unevidenced claim of a lost original.",
+      "heroFact": "The mapped Atlas corpus documents a severe provenance gap; it does not independently authenticate either the footage or the reported later admissions about how it was made.",
       "image": "assets/source_previews/BF-SF-12_source_image.jpg",
       "caseTypes": [
         "special-file"
@@ -14674,11 +14677,11 @@
       "environment": [
         "terrestrial"
       ],
-      "outcome": "resolved-fabrication",
+      "outcome": "documented-disputed",
       "confidenceModel": {
         "record": "confirmed",
         "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "provenance": "secondary-only"
       },
       "temporal": {
         "dateLabel": "1995",
@@ -14705,35 +14708,34 @@
       },
       "sourceRecords": [
         {
-          "citation": "SANTILLI-1995 · broadcast record / 2006 admission interviews",
-          "sourceType": "disputed-media-provenance-record",
-          "provenance": "Broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
+          "citation": "SANTILLI-1995 · local contextual preview and generated source manifest",
+          "sourceType": "secondary-context-record",
+          "provenance": "Local contextual preview image and Atlas-generated source manifest; no originating broadcast/interview custody",
           "locator": "SANTILLI-1995",
           "supports": [
-            "Documents the Santilli alien-autopsy film as a real 1990s broadcast/distribution phenomenon with later admission/interview context",
-            "Supports the case as a disputed-media/provenance-failure example important to UFO public-culture history",
-            "Local source preview and audit note preserve the Atlas boundary that no primary packet was recovered"
+            "Preserves contextual material associated with the Santilli alien-autopsy film",
+            "Documents that the current Atlas corpus does not contain an originating film or interview record"
           ],
           "limitations": [
-            "No original film master, camera negative, chain-of-custody packet, or agency-originating record is mapped",
-            "The record does not authenticate the footage as Roswell, alien, or government-origin material",
-            "Later interviews/broadcasts are context for provenance and reception, not independent proof of the depicted event"
+            "Not an original film master, broadcast record, production record, or interview transcript",
+            "Does not authenticate the footage or independently verify reported admissions",
+            "Cannot establish Roswell, alien, medical, or government provenance"
           ]
         },
         {
-          "citation": "Atlas evidence-depth audit · 2026-07-18",
+          "citation": "Atlas evidence-depth audit · 18 July 2026",
           "sourceType": "evidence-audit",
           "provenance": "Local Atlas audit derived from the current source inventory",
           "locator": "source-files/evidence-depth/SANTILLI-1995-evidence-depth.md",
           "supports": [
-            "current source inventory",
-            "explicit primary-record gaps",
-            "provenance boundary"
+            "Current source inventory",
+            "Explicit primary-record gaps",
+            "Provenance boundary"
           ],
           "limitations": [
-            "not an independent source",
-            "does not corroborate the event narrative",
-            "cannot substitute for missing primary records"
+            "Not an independent source",
+            "Does not corroborate the event narrative",
+            "Cannot substitute for missing primary records"
           ]
         }
       ],
@@ -14747,7 +14749,7 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "intelligence community personnel"
+          "civilian media producer"
         ],
         "sensors": [
           "photographic/film"
@@ -14783,6 +14785,12 @@
       ],
       "images": [
         "assets/source_previews/BF-SF-12_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Exact 2006 Eamonn Investigates interview recording or transcript containing Santilli’s restoration characterization",
+        "First-generation 1995 broadcast/distribution record and production documentation",
+        "Any claimed original film master, camera negative, or frames with an independently reviewable chain of custody",
+        "Exact John Humphreys interview/admission record and supporting production documentation"
       ]
     },
     {
@@ -21047,19 +21055,19 @@
     {
       "id": "BF-2023-WUS-03",
       "title": "Western U.S. Federal LE Encounters",
-      "date": "2023",
+      "date": "OCT 2023",
       "year": 2023,
       "location": "Western United States [REDACTED]",
       "mode": "redacted",
       "x": 20.43,
       "y": 23.6,
-      "agency": "DOW / FEDERAL LE",
-      "domain": "MILITARY / SENSOR",
-      "status": "DOCUMENTED · DISPUTED",
-      "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Federal law-enforcement witnesses described glowing orbs and apparent vehicle-like mimicry across multiple incidents.",
-      "official": "Released as unresolved narratives; public visuals are later AI-generated renderings.",
-      "gap": "Exact location, identities, and contemporaneous body-camera or sensor evidence remain unavailable. The cited Western U.S. slide deck remains unarchived; the five released narrative documents are mapped separately.",
+      "agency": "AARO / FEDERAL LE",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED · UNRESOLVED",
+      "confidence": "CONFIRMED RECORD · UNRESOLVED INTERPRETATION",
+      "summary": "Five U.S. federal law-enforcement special agents later provided first-hand narratives describing multiple visual encounters over two days in October 2023 in the western United States, including orange/red lights, apparent orb-like forms, and—in some accounts—lights or objects the witnesses described as mimicking vehicles. The records preserve reported observations; they do not independently establish object identity, performance, or origin.",
+      "official": "AARO released five signed Memoranda for Record dated 2 June 2026, each preserving one agent’s first-hand narrative. Publication authenticates the released narratives, not the reported phenomena. Accompanying digital renderings are illustrative, not event imagery.",
+      "gap": "Exact location and identities remain redacted, and no contemporaneous body-camera footage, native sensor files, complete investigative packet, or independent analytical work product is mapped.",
       "sources": [
         "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives"
       ],
@@ -21071,14 +21079,14 @@
       "coordinatePrecision": "redacted-generalized",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Western US redacted regional centroid; lower-48 calibrated to embedded Atlas USA geometry",
-      "keyFact": "The Western U.S. file is valuable because federal law-enforcement witnesses describe repeated, reactive phenomena, but public visuals are later renderings rather than raw evidence.",
-      "whyItMatters": "Trained federal witnesses plus repeated narratives make this a serious records problem, especially because the public imagery is not the raw evidentiary layer.",
-      "keyQuote": "like looking at something through water",
-      "quoteSource": "DOW-UAP-D079–D083 · Western U.S. Event witness narratives",
-      "quoteConfidence": "Medium-high — source phrase is confirmed in released narrative material, but full underlying raw data and case files are not public.",
-      "heroFact": "Federal law-enforcement witnesses described repeated, reactive phenomena, but public visuals are later renderings rather than raw evidence.",
+      "keyFact": "The held evidence is a complete released set of five retrospective first-hand witness memoranda—not raw event imagery or a complete sensor investigation.",
+      "whyItMatters": "The case carries unusual, partially overlapping reports from trained federal agents, but its evidentiary weight rests on testimony and released-record custody rather than measured performance.",
+      "keyQuote": "‘The objects initially appeared to mimic vehicles.’",
+      "quoteSource": "DOW-UAP-D080 · Narrative from Witness 2 — Western U.S. Event, memorandum dated 2 June 2026, p. 3",
+      "quoteConfidence": "High — exact wording in the mapped official Witness 2 memorandum; the quotation is the witness’s interpretation, not AARO’s finding.",
+      "heroFact": "The held evidence is a complete released set of five retrospective first-hand witness memoranda—not raw event imagery or a complete sensor investigation.",
       "significance": "High significance",
-      "sourceQuality": "Department of War/AARO-style narrative release set with five mapped Western U.S. event images; primary-source custody for released narratives, but sensor/witness raw packets remain incomplete.",
+      "sourceQuality": "Complete official released set of five first-hand witness memoranda (DOW-UAP-D079–D083), each dated 2 June 2026 and mapped locally; complete investigative, raw-sensor, and contemporaneous media custody is not present.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D079",
       "relatedCaseIds": [
@@ -21111,14 +21119,14 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "2023",
+        "dateLabel": "OCT 2023",
         "year": 2023,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
         "durationSeconds": null,
-        "precision": "year",
-        "eventForm": "single-event"
+        "precision": "month",
+        "eventForm": "multi-event"
       },
       "geospatial": {
         "geometry": {
@@ -21135,19 +21143,83 @@
       },
       "sourceRecords": [
         {
-          "citation": "DOW-UAP-D079; DOW-UAP-D080; DOW-UAP-D081; DOW-UAP-D082; DOW-UAP-D083 · Western U.S. Event narratives",
-          "sourceType": "official-release-narrative-series",
-          "provenance": "War Department/UFO release page plus Atlas source-index mappings for DOW-UAP-D079 through D083 Western U.S. event narratives",
+          "citation": "DOW-UAP-D079 · Narrative from Witness 1 — Western U.S. Event",
+          "sourceType": "official-memorandum-for-record",
+          "provenance": "AARO / Office of the Under Secretary; Memorandum for Record dated 02 June 2026; 2-page released witness narrative",
           "locator": "DOW-UAP-D079",
           "supports": [
-            "Documents a clustered set of Western U.S. federal law-enforcement encounter narratives in an official public release context",
-            "Atlas source index maps five case-specific released narrative/contact images for DOW-UAP-D079 through D083",
-            "Supports the case as an official-release series rather than a single unsupported witness anecdote"
+            "Multiple reported orange/red-light observations",
+            "Reported vehicle-like light/object behavior",
+            "Binocular observation"
           ],
           "limitations": [
-            "Released narrative/contact images are not the complete investigative packets, raw sensor files, or witness interview records",
-            "No NARA exact case mapping or complete local PDF custody packet is present in the current crosswalk",
-            "The records support unresolved/reporting status, not object identity or non-human origin"
+            "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+            "Redacted location and witness identity",
+            "Authenticates the report, not object identity, performance, or origin"
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D080 · Narrative from Witness 2 — Western U.S. Event",
+          "sourceType": "official-memorandum-for-record",
+          "provenance": "AARO / Office of the Under Secretary; Memorandum for Record dated 02 June 2026; 3-page released witness narrative",
+          "locator": "DOW-UAP-D080",
+          "supports": [
+            "Three reported incidents",
+            "Repeated orb/red-light observations",
+            "Witness interpretation that objects appeared to mimic vehicles"
+          ],
+          "limitations": [
+            "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+            "Redacted location and witness identity",
+            "Authenticates the report, not object identity, performance, or origin"
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D081 · Narrative from Witness 3 — Western U.S. Event",
+          "sourceType": "official-memorandum-for-record",
+          "provenance": "AARO / Office of the Under Secretary; Memorandum for Record dated 02 June 2026; 2-page released witness narrative",
+          "locator": "DOW-UAP-D081",
+          "supports": [
+            "Two reported occurrences",
+            "Orange/red-orb observations",
+            "Night-vision-goggle observation"
+          ],
+          "limitations": [
+            "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+            "Redacted location and witness identity",
+            "Authenticates the report, not object identity, performance, or origin"
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D082 · Narrative from Witness 4 — Western U.S. Event",
+          "sourceType": "official-memorandum-for-record",
+          "provenance": "AARO / Office of the Under Secretary; Memorandum for Record dated 02 June 2026; 3-page released witness narrative",
+          "locator": "DOW-UAP-D082",
+          "supports": [
+            "Multi-day reported light observations",
+            "Unaided and night-vision-goggle observations",
+            "Witness-provided sketch"
+          ],
+          "limitations": [
+            "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+            "Redacted location and witness identity",
+            "Authenticates the report, not object identity, performance, or origin"
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D083 · Narrative from Witness 5 — Western U.S. Event",
+          "sourceType": "official-memorandum-for-record",
+          "provenance": "AARO / Office of the Under Secretary; Memorandum for Record dated 02 June 2026; 3-page released witness narrative",
+          "locator": "DOW-UAP-D083",
+          "supports": [
+            "Detailed field chronology",
+            "Reported orange/red-light and low-altitude observations",
+            "Night-vision-goggle use and later field search"
+          ],
+          "limitations": [
+            "Retrospective first-hand narrative rather than contemporaneous raw sensor data",
+            "Redacted location and witness identity",
+            "Authenticates the report, not object identity, performance, or origin"
           ]
         }
       ],
@@ -21163,12 +21235,14 @@
         "effects": []
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 5,
         "witnessRoles": [
-          "civilian witnesses"
+          "federal law enforcement special agents"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided-visual",
+          "binoculars",
+          "night-vision-goggle"
         ],
         "durationSeconds": null,
         "independentWitnessGroups": null
@@ -26112,11 +26186,11 @@
     {
       "id": "TL-1947C",
       "year": 1947,
-      "date": "JUN 1947",
+      "date": "21 JUN 1947",
       "type": "contradiction",
       "caseId": "BF-1947-MI-01",
       "title": "Maury Island hoax and B-25 crash",
-      "desc": "The era's first 'physical evidence' story collapses as a hoax after two intelligence officers die flying samples."
+      "desc": "FBI records document the Maury claim, investigative hoax suspicion, and the later deaths of two AAF officers, but explicitly do not record the confession previously attributed to the witness."
     },
     {
       "id": "TL-1948E",
@@ -26989,7 +27063,7 @@
       "type": "contradiction",
       "caseId": "BF-SF-12",
       "title": "'Alien Autopsy' airs worldwide",
-      "desc": "Santilli's film is broadcast globally; in 2006 he reclassifies it as a staged 'restoration.'"
+      "desc": "Santilli’s film entered broadcast distribution in 1995; the exact later interview, production record, and original-film custody are not held in the mapped Atlas corpus."
     },
     {
       "id": "EV-NASA-D030",
@@ -27312,11 +27386,11 @@
     {
       "id": "TL-2023B",
       "year": 2023.8,
-      "date": "2023",
+      "date": "OCT 2023",
       "type": "incident",
       "caseId": "BF-2023-WUS-03",
       "title": "Western U.S. LE encounters",
-      "desc": "Multiple federal-law-enforcement witness narratives."
+      "desc": "Five federal law-enforcement special agents later supplied first-hand narratives for encounters reported over two days in October 2023; AARO released the memoranda in June 2026."
     },
     {
       "id": "TL-2023-GR-35",

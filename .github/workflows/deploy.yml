@@ -45,6 +45,7 @@ jobs:
           python3 scripts/test-atlas-runtime-data-sync.py
           python3 scripts/test-audit-operational-triage.py
           python3 scripts/test-selective-primary-record-quality.py
+          python3 scripts/test-blackfile-boundary-queue-calibration.py
   deploy:
     needs: validate
     environment:

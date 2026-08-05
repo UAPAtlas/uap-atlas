@@ -232,7 +232,7 @@ def source_triage(case, coverage_row, weakness_row):
     if not orbital_complete and any(term in quote_confidence for term in ("low", "medium", "summary", "web article", "not verified", "unclear")):
         quality_reasons.append("quote/source confidence can be upgraded")
     source_quality = str(case.get("sourceQuality", "")).strip().lower()
-    if not orbital_complete and (source_quality == "primary record" or source_quality.startswith("primary source —")):
+    if not orbital_complete and source_quality in {"primary record", "primary source —", "primary source -"}:
         quality_reasons.append("generic sourceQuality needs provenance detail")
     if coverage_row.get("indexedLinks", 0) <= 1:
         quality_reasons.append("thin source-index mapping")
@@ -279,7 +279,14 @@ missing_assets = []
 for case in cases:
     haystack = source_haystack(case)
     locator = str(case.get("sourceLocator", "")).strip()
-    tokens = [locator] if locator in index else [key for key in index if key.lower() in haystack]
+    # A case can have one primary locator while citing a multi-record source
+    # series. Count every exact index alias present in the factual payload;
+    # otherwise the primary locator masks sibling records and creates a false
+    # "thin source-index mapping" result.
+    tokens = unique_strings(
+        ([locator] if locator in index else [])
+        + [key for key in index if key.lower() in haystack]
+    )
     indexed_links = unique_strings(item for token in tokens for item in index[token])
     direct_public_urls = public_urls(case)
     direct_evidence_assets = evidence_assets(case)
