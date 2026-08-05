@@ -42,7 +42,7 @@
   },
   "normalizedTaxonomy": {
     "caseTypes": 94,
-    "evidenceModes": 68,
+    "evidenceModes": 69,
     "environments": 49,
     "outcomes": 28
   },
@@ -62,8 +62,8 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 260,
-  "sourceDepthWeakCaseCount": 51,
+  "sourceRecordCount": 262,
+  "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 101,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
@@ -76,9 +76,9 @@
     "complete-primary-packet": 37,
     "secondary-only": 9,
     "multi-source-independent": 14,
-    "thin-summary": 42,
+    "thin-summary": 40,
     "mixed-provenance": 2,
-    "single-primary-record": 42
+    "single-primary-record": 44
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -137,9 +137,10 @@
       "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "fbi"
+        "fbi",
+        "other:four-page air rescue service report dated 4 august 1947, recovered as jpeg scans from 2001/2004 internet archive captures of a personal-site mirror; page hashes and visually verified ocr are preserved in private atlas research custody."
       ]
     },
     "BF-1947-RW-01": {
@@ -737,12 +738,13 @@
       ]
     },
     "BF-1980-CLD-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
+        "other:public mirror hosted by archives for the unexplained of quest publications item 101; sha-256 c871d8f6eb68496a3fc92a8d1475a681fcabe6c9b67898f5f2ece3f21459a346. it reproduces federal pleadings and declarations but is not court-origin hosting.",
         "private-archive"
       ]
     },
@@ -944,8 +946,8 @@
       ]
     },
     "BF-2006-OH-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [

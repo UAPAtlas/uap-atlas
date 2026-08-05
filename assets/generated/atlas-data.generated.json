@@ -1104,7 +1104,7 @@
       "quoteSource": "FBI Seattle teletype, 14 August 1947, FBI file 62-83894, UFO Part 1 of 16, PDF p. 46",
       "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession.",
       "significance": "Case significance",
-      "sourceQuality": "Official FBI primary part-file custody: the held 69-page FBI Vault PDF includes Maury-related teletype records, but the complete Seattle report, AAF crash investigation, and sample-analysis custody record are not mapped.",
+      "sourceQuality": "Official FBI primary part-file plus a public Wayback mirror of a four-page Air Rescue Service mission report. The FBI record preserves the exact non-confession boundary; the ARS report documents a left-engine fire, wreckage response, and classified-document handling. The complete Seattle report, formal AAF accident-investigation board file, and sample-analysis custody record are still not mapped.",
       "coordinateBasis": "Harbor-patrol boat position in Puget Sound off Maury Island",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1947-MI-01",
@@ -1122,8 +1122,8 @@
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "FBI records document investigation of Harold Dahl and Fred Crisman’s Maury Island claims, the deaths of AAF officers William Davidson and Frank Brown in a later B-25 crash, a report that submitted fragments came from a Tacoma slag mill, and an investigator’s suspicion that publicity and a Fantasy Magazine deal motivated the story. Crucially, the 14 August teletype states that the redacted subject did not admit a hoax; he said he would call it a hoax if questioned to avoid further trouble.",
       "keyFact": "The mapped FBI record supports official investigation and strong hoax suspicion, but explicitly does not contain the confession previously attributed to Dahl.",
-      "official": "The FBI packet records investigative suspicion of publicity/profit motives and relays that analyzed fragments were reportedly Tacoma slag. Its 14 August 1947 teletype explicitly says the subject did not admit a hoax. The mapped pages document Davidson and Brown’s deaths but do not establish the crash cause or prove that alleged samples caused or contributed to the accident.",
-      "gap": "The complete Seattle field report referenced by the FBI teletype, the AAF accident-investigation record for the B-25 crash, and a laboratory/sample custody record for the slag are not mapped.",
+      "official": "The FBI packet records investigative suspicion of publicity/profit motives and relays that analyzed fragments were reportedly Tacoma slag; its 14 August 1947 teletype explicitly says the subject did not admit a hoax. A separate 4 August 1947 Air Rescue Service Final Mission Report states that the B-25 crash was determined at that time to involve a left-engine fire and documents recovered classified material. It does not identify that material as Maury fragments or slag samples and does not establish a causal link between the samples and the crash.",
+      "gap": "The complete Seattle field report referenced by the FBI teletype, the formal AAF accident-investigation board file beyond the held Air Rescue Service mission report, and a laboratory/sample custody record for the slag are not mapped.",
       "whyItMatters": "Maury Island remains an early provenance and institutional-response case, but it should demonstrate the difference between documented investigative suspicion and a confession—not collapse the two.",
       "sources": [
         "MAURY-1947 · FBI UFO records Part 1 (official FBI Vault release, 1947 flying-disc era) / FBI HQ file 62-HQ-83894 (local mirror, 184p) / AAF crash report trail"
@@ -1192,6 +1192,24 @@
             "Held part-file does not include the complete Seattle report referenced by the 14 August teletype",
             "Mapped pages do not establish the B-25 crash cause or a causal link to alleged samples",
             "No complete laboratory/sample custody record is mapped"
+          ]
+        },
+        {
+          "citation": "Air Rescue Service Detachment 8 (62d AAF BU) · Final Mission Report · Mission Thirty-Nine · 4 August 1947",
+          "sourceType": "public-wayback-mirror-military-mission-report",
+          "provenance": "Four-page Air Rescue Service report dated 4 August 1947, recovered as JPEG scans from 2001/2004 Internet Archive captures of a personal-site mirror; page hashes and visually verified OCR are preserved in private Atlas research custody.",
+          "locator": "MAURY-1947-ARS-FMR",
+          "url": "https://web.archive.org/web/20010212144906id_/http://www.seanet.com:80/~johnco/b25crash.htm",
+          "supports": [
+            "Air Rescue Service chronology for the B-25 crash and recovery response near Kelso, Washington",
+            "The report states that the cause was determined at that time to be a fire in the left engine and describes fire spreading from the power section toward the flight deck",
+            "Preliminary wreckage observations, two survivor accounts, two fatalities, classified-document recovery, and transfer of recovered-document responsibility to a CIC agent"
+          ],
+          "limitations": [
+            "Public Wayback mirror of report scans, not official NARA or military digital custody",
+            "Air Rescue Service mission report, not the complete formal AAF accident-investigation board file",
+            "Does not identify the classified material as Maury fragments and does not establish any causal link between alleged samples and the crash",
+            "Does not contain the missing Seattle FBI report or a laboratory/sample custody record for the reported Tacoma slag"
           ]
         }
       ],
@@ -1263,7 +1281,7 @@
       ],
       "acquisitionTargets": [
         "Complete Seattle FBI field report referenced in the 14 August 1947 teletype",
-        "AAF accident-investigation record for the B-25 crash that killed William Davidson and Frank Brown",
+        "Complete formal AAF accident-investigation board record for the B-25 crash that killed William Davidson and Frank Brown",
         "Laboratory report and custody record for the fragments described as Tacoma slag"
       ],
       "mapGeometry": null,
@@ -12577,11 +12595,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "Three witnesses reported a diamond-shaped craft emitting flame, surrounded by helicopters; all three subsequently developed symptoms consistent with radiation exposure.",
-      "quoteSource": "Cash-Landrum civilian investigation files (summary)",
-      "quoteConfidence": "Medium — public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
+      "keyQuote": "“IT IS HEREBY ORDERED that the above noted cause of action is DISMISSED pursuant to Federal Rule of Civil Procedure Rule 12(b)(1), Rule 12(b)(6) and Rule 56.”",
+      "quoteSource": "Order of Dismissal, Cash et al. v. United States, Civil Action No. H-84-348, filed 21 August 1986; reproduced in the AFU/Quest public legal-file mirror",
+      "quoteConfidence": "High confidence from the legible filed-order scan; the held copy is a public archival mirror, not a court-origin electronic docket export.",
       "significance": "High significance",
-      "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
+      "sourceQuality": "Public document trail plus an AFU mirror of the Quest Publications legal-file compilation for Civil Action H-84-348. The packet contains the docket sheet, dismissal order, party briefs, and NASA/USAF/Navy/Army declarations, but it is not a complete court file or authenticated hospital/military operations packet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-CLD-01",
@@ -12599,11 +12617,11 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
-      "summary": "Betty Cash, Vickie Landrum, and her grandson Colby reported a diamond-shaped object venting flame over the road, escorted by what they counted as more than twenty CH-47-type helicopters. Their subsequent hospital-documented symptoms resembled radiation exposure. Their federal lawsuit was dismissed in 1986 after every service denied owning such a craft.",
-      "keyFact": "The injuries are on hospital paper and the lawsuit is on court paper; only the object has no paper — the U.S. government's defense was that the craft could not be theirs.",
-      "official": "All military branches denied operating the object or helicopters; the court dismissed for lack of a provable government instrumentality.",
-      "gap": "Complete medical baselines predating the event and any Army helicopter flight logs for that night have never been reconciled publicly. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "Cash-Landrum is the only case where U.S. courts formally adjudicated UAP-attributed injuries — and resolved it by proving an absence of ownership, not an absence of event.",
+      "summary": "Betty Cash, Vickie Landrum, and Colby Landrum reported a diamond-shaped object venting flame over a Texas road and more than twenty CH-47-type helicopters, followed by serious reported symptoms. Public legal-file scans document Civil Action H-84-348, agency declarations denying inventory or control of a craft matching the description, and a 21 August 1986 dismissal under Rules 12(b)(1), 12(b)(6), and 56. The short dismissal order did not adjudicate object identity, medical causation, or whether the reported event occurred.",
+      "keyFact": "The recovered legal packet documents the suit, the government’s inventory/control declarations, and the dismissal; it does not convert either side’s allegations into judicial findings about the event.",
+      "official": "The United States argued that no federal ownership or control was shown, relying on declarations from NASA, Air Force, Navy, and Army officials; NASA separately accounted for its single CH-47 as remaining at Ames, and the Air Force said the CH-47 was not in its inventory. The court dismissed under Rules 12(b)(1), 12(b)(6), and 56, but the short order did not adjudicate the event, object identity, medical causation, or the origin of the reported helicopters.",
+      "gap": "A complete court-origin federal file, authenticated hospital/medical exhibits, the defense’s underlying investigation, and Army/DoD/FAA/unit flight or operations records capable of testing the alleged CH-47 activity remain publicly unrecovered.",
+      "whyItMatters": "Cash-Landrum is a rare UAP-attributed injury claim litigated in federal court. Its value is the documented legal boundary: the case was dismissed on jurisdictional, pleading, and summary-judgment grounds without a judicial determination of what the witnesses encountered.",
       "sources": [
         "CASH-LANDRUM-1980 · hospital records trail / federal court docket"
       ],
@@ -12690,6 +12708,25 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Cash et al. v. United States · Civil Action No. H-84-348 · AFU/Quest legal-file compilation",
+          "sourceType": "public-mirror-partial-primary-federal-legal-file",
+          "provenance": "Public mirror hosted by Archives for the Unexplained of Quest Publications item 101; SHA-256 c871d8f6eb68496a3fc92a8d1475a681fcabe6c9b67898f5f2ece3f21459a346. It reproduces federal pleadings and declarations but is not court-origin hosting.",
+          "locator": "CASH-LANDRUM-H84-348-AFU-QUEST",
+          "url": "https://files.afu.se/Downloads/Books/Other/Quest_Publications/Quest_Publications_101-Cash_Landrum_File-Civil_Action.pdf",
+          "supports": [
+            "Docket identity and proceedings for Civil Action No. H-84-348 in the Southern District of Texas",
+            "Filed Order of Dismissal dated 21 August 1986",
+            "Government motion and memorandum, plaintiffs’ response, and reproduced NASA/USAF/Navy/Army declarations",
+            "Exact legal distinction between allegations, agency declarations, and the court’s operative dismissal order"
+          ],
+          "limitations": [
+            "Public third-party archival compilation, not a court-certified electronic docket export",
+            "Not the complete federal court file and does not include authenticated hospital originals or the defense’s underlying investigation",
+            "Pleadings and declarations contain party positions and agency assertions; they are not judicial findings of fact about the event, medical causation, or object identity",
+            "Does not recover CH-47 unit logs, Fort Hood/III Corps records, or FAA/radar/airspace records"
+          ]
         }
       ],
       "phenomena": {
@@ -12702,16 +12739,15 @@
         "effects": []
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 3,
         "witnessRoles": [
-          "military police",
-          "intelligence community personnel"
+          "civilian witnesses"
         ],
         "sensors": [
-          "infrared/thermal"
+          "unaided-visual"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": 1
       },
       "evidenceDepthStatus": "structure-repaired-primary-gap-remains",
       "taxonomyOriginal": {
@@ -12745,6 +12781,14 @@
           "publisher": "Computer UFO Network",
           "scope": "public-document-copy",
           "url": "https://www.cufon.org/cufon/cashlanL.pdf"
+        },
+        {
+          "access": "Public",
+          "label": "AFU/Quest — Cash-Landrum Civil Action H-84-348 legal-file compilation",
+          "note": "Public third-party mirror of a partial legal-file compilation; not a complete court-origin docket or proof of object identity, causation, or military responsibility.",
+          "publisher": "Archives for the Unexplained / Quest Publications",
+          "scope": "public-legal-file-mirror",
+          "url": "https://files.afu.se/Downloads/Books/Other/Quest_Publications/Quest_Publications_101-Cash_Landrum_File-Civil_Action.pdf"
         }
       ],
       "acquisitionTargets": [
@@ -16707,7 +16751,7 @@
       "quoteSource": "FAA ground-control tape, ~4:48 pm CST, Nov 7 2006, transcribed in NARCAP TR-10 p.11",
       "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
       "significance": "Case significance",
-      "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
+      "sourceQuality": "NARCAP aviation-safety technical report incorporating FAA tower-transcript material, FOIA correspondence, certified facility records, and published analysis of 13 FAA NTAP radar data files. Strong public technical custody, but not the complete native FAA/United Airlines production.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-2006-OH-01",
@@ -16727,8 +16771,8 @@
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "United Airlines ramp and flight-deck personnel reported a metallic disc hovering over gate C17 before it shot upward, reportedly punching a hole through the overcast. The FAA initially denied any report existed, acknowledged it after a FOIA request, attributed it to weather, and declined to investigate.",
       "keyFact": "Trained aviation professionals reported a disc over a major U.S. airport and the FAA's documented response was to log it as weather and not investigate.",
-      "official": "FAA: a 'weather phenomenon,' with no safety investigation warranted; United declined to discuss the reports.",
-      "gap": "Tower tapes and the full set of employee statements were never released; no radar analysis was published.",
+      "official": "The FAA attributed the reports to a possible weather phenomenon and did not open a safety investigation. Through FOIA, FAA supplied tower/facility material and 13 one-minute NTAP primary/secondary radar files to NARCAP; NARCAP’s independent published analyses found no radar return corresponding to the reported stationary object or rapid vertical departure.",
+      "gap": "The native tower audio, the 13 native FAA NTAP radar files, complete employee statements, full FAA production, United Airlines records, and airport-operations material are not held in mapped Atlas custody.",
       "whyItMatters": "A modern daylight case at controlled airspace showing the institutional reporting gap AARO-era reforms were later built to close.",
       "sources": [
         "OHARE-2006 · NARCAP TR-10 Case 18 incl. FAA tower-tape transcript / FAA FY2007 FOIA logs (GovernmentAttic) / FAA FOIA acknowledgment trail"
@@ -16747,7 +16791,8 @@
         "witness-report"
       ],
       "evidenceModes": [
-        "testimony"
+        "testimony",
+        "sensor-analysis"
       ],
       "environment": [
         "airborne"
@@ -16784,18 +16829,20 @@
       "sourceRecords": [
         {
           "citation": "OHARE-2006 · NARCAP TR-10 Case 18 incl. FAA tower-tape transcript / FAA FY2007 FOIA logs (GovernmentAttic) / FAA FOIA acknowledgment trail",
-          "sourceType": "aviation-technical-report-and-faa-transcript-trail",
-          "provenance": "NARCAP TR-10 Case 18, FAA tower-tape transcript pages, and FAA FY2007 FOIA log context mapped locally",
+          "sourceType": "independent-aviation-technical-report-with-official-faa-primary-record-reproductions",
+          "provenance": "NARCAP TR-10 Case 18 with reproduced FAA tower-tape transcript material, certified facility records, NTAP analysis, and FAA FY2007 FOIA log context mapped locally",
           "locator": "OHARE-2006",
           "supports": [
             "Documents the O’Hare sighting through an aviation-focused technical report and FAA/tower-transcript material",
-            "Source index includes NARCAP Case 18, tower-transcript pages, and FAA FOIA-log context",
-            "Supports the case as a multi-witness airport/aviation-safety report with public technical analysis"
+            "NARCAP reports that FAA supplied 13 one-minute NTAP primary/secondary radar data files spanning approximately 2230–2243 UTC",
+            "Published NARCAP radar analyses found no return corresponding to the reported stationary object near Gate C17 or its reported rapid vertical departure",
+            "Certified FAA facility records preserve three United ramp-tower inquiries and a Daily Record of Facility Operation entry"
           ],
           "limitations": [
-            "NARCAP is not the complete FAA investigative file or a native United Airlines/FAA custody packet",
-            "Witness synthesis and transcript excerpts do not establish object identity or physical mechanism",
-            "No complete radar/sensor dataset, official causal finding, or authenticated object imagery is mapped"
+            "NARCAP is independent and is not a complete FAA investigative file or native United Airlines/FAA custody packet",
+            "The 13 native NTAP radar files and native tower audio are not held in mapped Atlas custody; the report preserves analyses, figures, and transcript reproductions",
+            "A lack of a correlated radar return does not disprove the visual witness reports or establish object identity, distance, altitude, or physical mechanism",
+            "No authenticated event photograph or official causal finding is mapped"
           ]
         }
       ],
@@ -16812,10 +16859,12 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "unaided-visual witness"
+          "United Airlines aviation ramp and maintenance personnel",
+          "United Airlines pilots and flight-deck personnel"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided-visual",
+          "FAA primary/secondary radar data reviewed — no correlated return"
         ],
         "durationSeconds": null,
         "independentWitnessGroups": null
@@ -27627,7 +27676,7 @@
       "type": "incident",
       "caseId": "BF-1980-CLD-01",
       "title": "Cash-Landrum injuries",
-      "desc": "Hospital-documented symptoms follow a roadside encounter; the lawsuit fails on ownership, not on the event."
+      "desc": "Three civilians report a heated roadside object and helicopters; the later federal suit is dismissed on legal grounds without adjudicating the event, object identity, or medical causation."
     },
     {
       "id": "TL-1981B",

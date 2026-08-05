@@ -387,30 +387,6 @@
     ]
   },
   {
-    "id": "BF-1980-CLD-01",
-    "title": "Cash-Landrum Injury Case",
-    "score": 30,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 2,
-    "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
-    "quoteConfidence": "Medium \u2014 public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "private-archive"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
     "id": "BF-1980-PE-01",
     "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
     "score": 30,
@@ -427,29 +403,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:department of defense joint chiefs of staff message center copy; originated by usdao lima, peru; declassified dia collection mirrored by the black vault; atlas-local pdf and page derivative"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-2006-OH-01",
-    "title": "O'Hare Airport Disc Sighting",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 6,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
-    "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "civil-aviation"
       ]
     },
     "reasons": [

@@ -152,48 +152,6 @@
       "quoteConfidence": "High for the preserved press/archive artifacts; unresolved for official-file claims because no complete RAAF, police, or school packet is mapped."
     },
     {
-      "id": "BF-1980-CLD-01",
-      "title": "Cash-Landrum Injury Case",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "acquisition_target",
-      "priorityScore": 90,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "primary pages not fully mapped",
-        "declared acquisition target: Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
-        "declared acquisition target: DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
-      "quoteConfidence": "Medium \u2014 public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation."
-    },
-    {
-      "id": "BF-2006-OH-01",
-      "title": "O'Hare Airport Disc Sighting",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "acquisition_target",
-      "priorityScore": 90,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "incomplete official packet",
-        "declared acquisition target: Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
-        "declared acquisition target: Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
-      "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public."
-    },
-    {
       "id": "BF-2014-CH-01",
       "title": "Chilean Navy IR Video (CEFAA)",
       "domain": "MILITARY / SENSOR",
@@ -277,6 +235,46 @@
       "quoteConfidence": "High transcription confidence \u2014 exact page-verified wording from the 14 September 1990 MoD loose minute; the memo records official handling but does not authenticate the photographed object."
     },
     {
+      "id": "BF-1980-CLD-01",
+      "title": "Cash-Landrum Injury Case",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 72,
+      "legacyWeaknessScore": 12,
+      "reasons": [
+        "declared acquisition target: Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
+        "declared acquisition target: DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
+      ],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "Public document trail plus an AFU mirror of the Quest Publications legal-file compilation for Civil Action H-84-348. The packet contains the docket sheet, dismissal order, party briefs, and NASA/USAF/Navy/Army declarations, but it is not a complete court file or authenticated hospital/military operations packet.",
+      "quoteConfidence": "High confidence from the legible filed-order scan; the held copy is a public archival mirror, not a court-origin electronic docket export."
+    },
+    {
+      "id": "BF-2006-OH-01",
+      "title": "O'Hare Airport Disc Sighting",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 72,
+      "legacyWeaknessScore": 12,
+      "reasons": [
+        "declared acquisition target: Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
+        "declared acquisition target: Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
+      ],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "NARCAP aviation-safety technical report incorporating FAA tower-transcript material, FOIA correspondence, certified facility records, and published analysis of 13 FAA NTAP radar data files. Strong public technical custody, but not the complete native FAA/United Airlines production.",
+      "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public."
+    },
+    {
       "id": "BF-1947-MI-01",
       "title": "Maury Island Affair",
       "domain": "HISTORICAL / AERIAL",
@@ -285,16 +283,16 @@
       "legacyWeaknessScore": 0,
       "reasons": [
         "declared acquisition target: Complete Seattle FBI field report referenced in the 14 August 1947 teletype",
-        "declared acquisition target: AAF accident-investigation record for the B-25 crash that killed William Davidson and Frank Brown",
+        "declared acquisition target: Complete formal AAF accident-investigation board record for the B-25 crash that killed William Davidson and Frank Brown",
         "declared acquisition target: Laboratory report and custody record for the fragments described as Tacoma slag"
       ],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
       "indexedLinks": 2,
-      "publicSourceUrls": 4,
+      "publicSourceUrls": 5,
       "evidenceAssets": 1,
-      "sourceQuality": "Official FBI primary part-file custody: the held 69-page FBI Vault PDF includes Maury-related teletype records, but the complete Seattle report, AAF crash investigation, and sample-analysis custody record are not mapped.",
+      "sourceQuality": "Official FBI primary part-file plus a public Wayback mirror of a four-page Air Rescue Service mission report. The FBI record preserves the exact non-confession boundary; the ARS report documents a left-engine fire, wreckage response, and classified-document handling. The complete Seattle report, formal AAF accident-investigation board file, and sample-analysis custody record are still not mapped.",
       "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession."
     },
     {

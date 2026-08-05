@@ -387,30 +387,6 @@
     ]
   },
   {
-    "id": "BF-1980-CLD-01",
-    "title": "Cash-Landrum Injury Case",
-    "score": 30,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 2,
-    "sourceQuality": "Document collection and CUFON case-file trail with medical/legal context; injury narrative documented, causation and military source remain unresolved.",
-    "quoteConfidence": "Medium \u2014 public document collections and case compilations exist; selected medical/legal claims need primary-page custody separation.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "private-archive"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
     "id": "BF-1980-PE-01",
     "title": "La Joya Intercept / Santa Mar\u00eda Engagement",
     "score": 30,
@@ -427,29 +403,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:department of defense joint chiefs of staff message center copy; originated by usdao lima, peru; declassified dia collection mirrored by the black vault; atlas-local pdf and page derivative"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-2006-OH-01",
-    "title": "O'Hare Airport Disc Sighting",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 6,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "sourceQuality": "NARCAP aviation-safety technical report with FAA tower-transcript material and FOIA-log context; strong public aviation-analysis record, not complete FAA investigative custody.",
-    "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "civil-aviation"
       ]
     },
     "reasons": [
@@ -1776,6 +1729,31 @@
     ]
   },
   {
+    "id": "BF-1980-CLD-01",
+    "title": "Cash-Landrum Injury Case",
+    "score": 12,
+    "sourceRecords": 3,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "Public document trail plus an AFU mirror of the Quest Publications legal-file compilation for Civil Action H-84-348. The packet contains the docket sheet, dismissal order, party briefs, and NASA/USAF/Navy/Army declarations, but it is not a complete court file or authenticated hospital/military operations packet.",
+    "quoteConfidence": "High confidence from the legible filed-order scan; the held copy is a public archival mirror, not a court-origin electronic docket export.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:public mirror hosted by archives for the unexplained of quest publications item 101; sha-256 c871d8f6eb68496a3fc92a8d1475a681fcabe6c9b67898f5f2ece3f21459a346. it reproduces federal pleadings and declarations but is not court-origin hosting.",
+        "private-archive"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
     "id": "BF-1981-TP-01",
     "title": "Trans-en-Provence Trace Case",
     "score": 12,
@@ -1861,6 +1839,29 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2006-OH-01",
+    "title": "O'Hare Airport Disc Sighting",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 6,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "NARCAP aviation-safety technical report incorporating FAA tower-transcript material, FOIA correspondence, certified facility records, and published analysis of 13 FAA NTAP radar data files. Strong public technical custody, but not the complete native FAA/United Airlines production.",
+    "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "civil-aviation"
       ]
     },
     "reasons": [

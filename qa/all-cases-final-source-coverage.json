@@ -89,12 +89,12 @@
       "MAURY-1947"
     ],
     "indexedLinks": 2,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 5,
     "evidenceAssets": 1,
-    "links": 6,
+    "links": 7,
     "local": 2,
-    "urls": 4,
+    "urls": 5,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1123,12 +1123,12 @@
       "CASH-LANDRUM-1980"
     ],
     "indexedLinks": 4,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 2,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 3,
     "evidenceAssets": 2,
-    "links": 6,
+    "links": 7,
     "local": 4,
-    "urls": 2,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
