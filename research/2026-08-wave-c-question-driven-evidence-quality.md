@@ -12,7 +12,8 @@
 - Full canonical contract chain: PASS.
 - Full deployment contract chain: PASS.
 - Local browser verification: PASS, 4/4 desktop/mobile dossier states with four screenshots and no console errors.
-- Public deployment: pending at report-writing time.
+- Public deployment: complete. Wave C runtime/data verified at revision `43f47b1859efb41a65a51d8cab6217970f5c8ef8`; Pages run `31008944590` succeeded.
+- Live browser verification: PASS, 4/4 desktop/mobile dossier states with four screenshots and no console errors.
 
 ## Governing boundaries
 
@@ -277,3 +278,5 @@ It does directly constrain the extraordinary interpretation and practical propel
 - Navigation, Evidence Lens, Cultural Legacy, runtime sync, operational triage, source availability, and Atlas health contracts: PASS.
 - Deployment single-entry, navigation, payload, runtime, Orbital/Lunar, Evidence Lens, Cultural Legacy, source availability, operational triage, tranche regressions, and Atlas health contracts: PASS.
 - Local Playwright QA: PASS, four states / four screenshots; results retained outside the public release tree.
+- Cache-busted public data/runtime verification: PASS.
+- Live Playwright QA: PASS, four states / four screenshots; results retained outside the public release tree.
