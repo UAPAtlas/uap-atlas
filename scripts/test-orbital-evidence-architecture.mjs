@@ -55,6 +55,10 @@ for (const caseId of ['BF-NASA-VM1','BF-NASA-VM2','BF-NASA-VM3','BF-NASA-VM4','B
   assert.equal(c.orbitalEvidence.recordType, 'released-annotated-visual', `${caseId}: visual record type drift`);
   assert.match(c.sourceQuality, /annotated visual-material artifact/i, `${caseId}: native-frame custody must not be implied`);
 }
+const d032 = orbital.find(c => c.id === 'BF-NASA-D032').orbitalEvidence;
+assert.equal(d032.interpretationStatus, 'released-image-context-unresolved', 'D032: unresolved visual-mark status drift');
+assert.match(d032.supports.join(' '), /small angular mark/i, 'D032: visible angular mark must remain documented');
+assert.match(d032.doesNotEstablish.join(' '), /does not establish.*identity.*motion.*distance.*scale/i, 'D032: single-frame boundary drift');
 
 assert.match(app, /function orbitalEvidenceLensHtml\(c\)/, 'orbital Evidence Lens renderer missing');
 assert.match(app, /Official record boundary/, 'orbital boundary heading missing');

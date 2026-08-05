@@ -15241,14 +15241,14 @@
         "schemaVersion": 1,
         "architectureRole": "corpus-record",
         "recordType": "released-orbital-photograph",
-        "interpretationStatus": "context-frame-no-distinct-object",
+        "interpretationStatus": "released-image-context-unresolved",
         "officialRecord": "NASA-UAP-D032 · official released STS-80 unidentified-object image 3, 1996",
         "supports": [
           "Verifies custody of the exact released photograph and item-level official endpoint.",
-          "The photograph supplies related cabin/window and Earth-limb context for the STS-80 visual set."
+          "The photograph visibly contains Earth/cloud field, frame/cabin context, and a small angular mark in the lower-middle of the Earth field."
         ],
         "doesNotEstablish": [
-          "No distinct anomalous object can be established from the inspected pixels of this frame alone."
+          "A single photograph does not establish the mark’s identity, motion, distance, scale, or anomalous origin."
         ],
         "limitations": [
           "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",

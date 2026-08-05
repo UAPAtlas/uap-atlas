@@ -21,7 +21,7 @@ The layer contains 24 corpus records and 2 curated event dossiers. Official cust
 1. **Gemini 7:** the mapped `NASA-UAP-D021` page is a debriefing preface. It does not contain “bogey,” “ten o’clock high,” or “third and unidentified object.” `BF-1965-G7-01` remains a curated event dossier, but its exact event-bearing NASA transcript pages are not locally mapped.
 2. **Skylab:** the mapped `NASA-UAP-D007` pages discuss closed-eye/open-eye light flashes. They do not contain “bright reddish object” or “one or two objects up there with us.” `BF-1973-SL-01` remains a curated event dossier, but its exact event-bearing debrief pages are not locally mapped.
 3. **Apollo visual material:** `VM1–VM6` are exact official released annotated visual panels. They are not represented as clean native mission frames or as proof of object identity.
-4. **STS-80:** the three released photographs preserve visual artifacts and cabin/window context. Single frames do not establish motion, distance, trajectory, or origin; image 3 functions primarily as a contextual frame in the inspected pixels.
+4. **STS-80:** the three released photographs preserve visual artifacts and cabin/window or Earth-field context. Images 1–2 show bright angular marks; image 3 shows a smaller angular mark against the cloud field. The stills do not establish motion, distance, trajectory, identity, or origin.
 
 ## Case register
 
@@ -368,13 +368,13 @@ The layer contains 24 corpus records and 2 curated event dossiers. Official cust
 ### BF-NASA-D032
 - **Role:** corpus-record
 - **Record type:** released-orbital-photograph
-- **Interpretation:** context-frame-no-distinct-object
+- **Interpretation:** released-image-context-unresolved
 - **Official record:** NASA-UAP-D032 · official released STS-80 unidentified-object image 3, 1996
 - **Supports:**
   - Verifies custody of the exact released photograph and item-level official endpoint.
-  - The photograph supplies related cabin/window and Earth-limb context for the STS-80 visual set.
+  - The photograph visibly contains Earth/cloud field, frame/cabin context, and a small angular mark in the lower-middle of the Earth field.
 - **Does not establish:**
-  - No distinct anomalous object can be established from the inspected pixels of this frame alone.
+  - A single photograph does not establish the mark’s identity, motion, distance, scale, or anomalous origin.
 - **Limitations:**
   - No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.
   - The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone.
