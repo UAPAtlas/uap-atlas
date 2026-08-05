@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "quality_upgrade",
-  "caseCount": 31,
+  "caseCount": 27,
   "cases": [
     {
       "id": "BF-1956-DF-01",
@@ -156,25 +156,6 @@
       "quoteConfidence": "Medium \u2014 claim trail and historical research context are public, but technical performance claims remain disputed."
     },
     {
-      "id": "BF-SF-05",
-      "title": "Special File: Majestic 12 Documents",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "FBI Vault / AFOSI-associated Majestic 12 document file; strong custody for the disputed document trail and bogus/fraud-control context, not authentication of MJ-12 claims.",
-      "quoteConfidence": "High for FBI Vault file custody; low for any claim that the underlying MJ-12 documents are authentic."
-    },
-    {
       "id": "BF-SF-08",
       "title": "Special File: COMETA Report",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -192,25 +173,6 @@
       "evidenceAssets": 1,
       "sourceQuality": "Public COMETA report/translation custody; significant institutional-style argument by French defense/scientific figures, but not an official French government finding.",
       "quoteConfidence": "High for report text/source phrase in the mapped English translation; medium for institutional-weight claims beyond authorship/context."
-    },
-    {
-      "id": "BF-SF-11",
-      "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 7,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "AFOSI/OpenMinds-mirrored Kirtland/Bennewitz/Doty FOIA document trail; strong disinformation/provenance case, but individual associated claims require separation.",
-      "quoteConfidence": "High for mapped AFOSI/Cseh/Doty document trail; lower for broader Aquarius/underground-base narratives attached to the affair."
     },
     {
       "id": "BF-SF-12",
@@ -501,44 +463,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 016\u2013018, in NARA NAID 311001910.",
       "quoteConfidence": "High \u2014 exact official assessment on raw object 018; government custody authenticates the report, not the object\u2019s identity."
-    },
-    {
-      "id": "BF-1967-MA-01",
-      "title": "Malmstrom AFB Missile Shutdown Incident",
-      "domain": "NUCLEAR / SENSITIVE SITE",
-      "category": "quality_upgrade",
-      "priorityScore": 20,
-      "legacyWeaknessScore": 0,
-      "reasons": [
-        "thin source-index mapping"
-      ],
-      "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 3,
-      "mainSourceRecords": 3,
-      "indexedLinks": 1,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 5,
-      "sourceQuality": "Contemporaneous unit history plus later engineering record",
-      "quoteConfidence": "verified"
-    },
-    {
-      "id": "BF-1980-RF-01",
-      "title": "Rendlesham Forest / RAF Bentwaters Incident",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 20,
-      "legacyWeaknessScore": 0,
-      "reasons": [
-        "thin source-index mapping"
-      ],
-      "sourceProfile": "multi-source-independent",
-      "sourceRecords": 3,
-      "mainSourceRecords": 3,
-      "indexedLinks": 1,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 6,
-      "sourceQuality": "Primary memo plus official archive description",
-      "quoteConfidence": "verified"
     },
     {
       "id": "BF-2015-NAV-01",

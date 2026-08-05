@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 217,
-  "sourceIndexFiles": 1007,
+  "sourceIndexTerms": 222,
+  "sourceIndexFiles": 1032,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -36,15 +36,15 @@
   },
   "uniqueDisplayTaxonomy": {
     "domains": 9,
-    "statuses": 11,
-    "confidenceLabels": 10,
+    "statuses": 15,
+    "confidenceLabels": 14,
     "agencies": 88
   },
   "normalizedTaxonomy": {
-    "caseTypes": 91,
-    "evidenceModes": 54,
-    "environments": 47,
-    "outcomes": 26
+    "caseTypes": 94,
+    "evidenceModes": 59,
+    "environments": 49,
+    "outcomes": 28
   },
   "geometryTypes": {
     "LineString": 4,
@@ -62,21 +62,21 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 248,
-  "sourceDepthWeakCaseCount": 62,
-  "sourceDepthEnrichmentCandidateCount": 107,
+  "sourceRecordCount": 251,
+  "sourceDepthWeakCaseCount": 60,
+  "sourceDepthEnrichmentCandidateCount": 108,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 31,
+    "qualityUpgrades": 27,
     "acquisitionTargets": 13,
-    "complete": 102
+    "complete": 106
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 29,
+    "complete-primary-packet": 31,
     "secondary-only": 9,
     "multi-source-independent": 13,
-    "thin-summary": 53,
+    "thin-summary": 51,
     "mixed-provenance": 2,
     "single-primary-record": 40
   },
@@ -426,10 +426,11 @@
     },
     "BF-1967-MA-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
+        "other:public long-form interview with former launch officer robert salas",
         "usaf-blue-book"
       ]
     },
@@ -753,22 +754,24 @@
     },
     "BF-1980-RF-01": {
       "label": "multi-source-independent",
-      "primaryRecords": 3,
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:contemporaneous official memorandum by lt col charles i. halt",
-        "other:the national archives collection guide",
-        "other:uk ministry of defence records in defe file series"
+        "other:official memorandum signed by lt col charles i. halt and dated 13 jan 1981",
+        "other:the national archives (uk) collection guide for defe 24/1948/1",
+        "other:uk ministry of defence defe records prepared for 1997 parliamentary questions"
       ]
     },
     "BF-SF-11": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:afosi kirtland/bennewitz forms, cseh form, doty foia atr-1, domenici record, and project aquarius forgery artifact mapped locally"
+        "other:afosi records released in a 2 aug 2013 foia response; local 10-page release plus underlying forms",
+        "other:later media interview in which doty says he fed disinformation to bennewitz and others",
+        "other:locally held scan with top secret/mj12-style markings and extraordinary claims; origin and chain of custody not established in the artifact"
       ]
     },
     "BF-1981-TP-01": {
@@ -781,12 +784,13 @@
       ]
     },
     "BF-SF-05": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "fbi"
+        "fbi",
+        "other:later public account that undeveloped film arrived by mail in 1984"
       ]
     },
     "BF-1986-JAL-01": {

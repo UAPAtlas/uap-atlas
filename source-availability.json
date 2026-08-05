@@ -6,9 +6,9 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 855,
-    "publicLocal": 626,
-    "externalPublic": 92,
+    "indexedPaths": 863,
+    "publicLocal": 627,
+    "externalPublic": 99,
     "custodyOnly": 137,
     "unavailable": 0
   },
@@ -1653,6 +1653,10 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_014.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
     "assets/evidence/MANTELL/MANTELL-1948-BlueBook-Godman-case-file.pdf": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
@@ -2958,6 +2962,11 @@
       "label": "External public source",
       "host": "discovery.nationalarchives.gov.uk"
     },
+    "https://discovery.nationalarchives.gov.uk/details/r/C10342055": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "discovery.nationalarchives.gov.uk"
+    },
     "https://discovery.nationalarchives.gov.uk/details/r/C2505380": {
       "status": "external-public",
       "label": "External public source",
@@ -3068,10 +3077,20 @@
       "label": "External public source",
       "host": "upload.wikimedia.org"
     },
+    "https://vault.fbi.gov/Majestic%2012": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "vault.fbi.gov"
+    },
     "https://web.archive.org/web/20080531154408/http:/www.nicap.org/docs/660809lowmemo.htm": {
       "status": "external-public",
       "label": "External public source",
       "host": "web.archive.org"
+    },
+    "https://www.8newsnow.com/mystery-wire/spying-disinformation-accusations-follow-ufo-figure-rick-doty-an-exclusive-interview/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.8newsnow.com"
     },
     "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf": {
       "status": "external-public",
@@ -3278,6 +3297,11 @@
       "label": "External public source",
       "host": "www.nationalarchives.gov.uk"
     },
+    "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.nationalarchives.gov.uk"
+    },
     "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/": {
       "status": "external-public",
       "label": "External public source",
@@ -3287,6 +3311,16 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.nsa.gov"
+    },
+    "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.openminds.tv"
+    },
+    "https://www.openminds.tv/wp-content/uploads/S3-Bennewitz-Kirtland-Bennewitz-Meeting-Nov-80.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.openminds.tv"
     },
     "https://www.war.gov/medialink/ufo/061226/release_03/documents/CIA-UAP-016-Sightings_of_Unidentified_Flying_Ojbects_in_Ladakh_Nepal_Sikkim_and_Bhutan.pdf": {
       "status": "external-public",
@@ -3302,6 +3336,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.war.gov"
+    },
+    "https://www.youtube.com/watch?v=-0g3lLGxNfc": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.youtube.com"
     },
     "https://youtu.be/iK-xOvRaUm4": {
       "status": "external-public",

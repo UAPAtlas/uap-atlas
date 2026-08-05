@@ -567,14 +567,14 @@
     "id": "BF-1967-MA-01",
     "title": "Malmstrom AFB Missile Shutdown Incident",
     "tokens": [
-      "MALMSTROM-1967-UNIT-HISTORY"
+      "MALMSTROM-1967"
     ],
-    "indexedLinks": 1,
+    "indexedLinks": 8,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 2,
-    "evidenceAssets": 5,
-    "links": 7,
-    "local": 5,
+    "evidenceAssets": 6,
+    "links": 9,
+    "local": 7,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -1135,15 +1135,15 @@
     "id": "BF-1980-RF-01",
     "title": "Rendlesham Forest / RAF Bentwaters Incident",
     "tokens": [
-      "RENDLESHAM-1980-HALT-MEMO"
+      "RENDLESHAM-1980"
     ],
-    "indexedLinks": 1,
+    "indexedLinks": 7,
     "structuredSourceRecords": 3,
-    "publicSourceUrls": 2,
+    "publicSourceUrls": 3,
     "evidenceAssets": 6,
-    "links": 8,
+    "links": 10,
     "local": 6,
-    "urls": 2,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1153,13 +1153,13 @@
     "tokens": [
       "BENNEWITZ-1980"
     ],
-    "indexedLinks": 7,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 3,
+    "indexedLinks": 10,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
     "evidenceAssets": 2,
-    "links": 10,
+    "links": 11,
     "local": 7,
-    "urls": 3,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1185,8 +1185,8 @@
     "tokens": [
       "MJ12-1984"
     ],
-    "indexedLinks": 2,
-    "structuredSourceRecords": 1,
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
     "publicSourceUrls": 2,
     "evidenceAssets": 1,
     "links": 4,

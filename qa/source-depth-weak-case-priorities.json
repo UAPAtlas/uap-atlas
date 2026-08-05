@@ -1173,29 +1173,6 @@
     ]
   },
   {
-    "id": "BF-SF-05",
-    "title": "Special File: Majestic 12 Documents",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "FBI Vault / AFOSI-associated Majestic 12 document file; strong custody for the disputed document trail and bogus/fraud-control context, not authentication of MJ-12 claims.",
-    "quoteConfidence": "High for FBI Vault file custody; low for any claim that the underlying MJ-12 documents are authentic.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
     "id": "BF-SF-06",
     "title": "Special File: 'Alien Interview' / Victor Tape",
     "score": 30,
@@ -1237,29 +1214,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:cometa report text, english translation, archive.org mirror, and ihedn-associated authorship/context trail"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-SF-11",
-    "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 7,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "AFOSI/OpenMinds-mirrored Kirtland/Bennewitz/Doty FOIA document trail; strong disinformation/provenance case, but individual associated claims require separation.",
-    "quoteConfidence": "High for mapped AFOSI/Cseh/Doty document trail; lower for broader Aquarius/underground-base narratives attached to the affair.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:afosi kirtland/bennewitz forms, cseh form, doty foia atr-1, domenici record, and project aquarius forgery artifact mapped locally"
       ]
     },
     "reasons": [

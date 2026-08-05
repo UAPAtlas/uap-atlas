@@ -849,11 +849,11 @@
   "BF-SF-05": [
     {
       "access": "Public; site may block automated clients",
-      "label": "FBI Vault — Majestic 12 Part 1",
-      "note": "Official FBI-hosted copy includes the Bureau's bogus determination; custody does not authenticate the underlying MJ-12 documents.",
+      "label": "FBI Vault — Majestic 12",
       "publisher": "Federal Bureau of Investigation",
-      "scope": "official-record",
-      "url": "https://vault.fbi.gov/Majestic%2012/Majestic%2012%20Part%201%20of%201/view"
+      "scope": "official-investigative-file",
+      "url": "https://vault.fbi.gov/Majestic%2012",
+      "note": "Official file documents receipt, inquiry and a bogus determination; custody does not authenticate the papers."
     }
   ],
   "BF-SF-07": [
@@ -932,6 +932,14 @@
       "publisher": "OpenMinds",
       "scope": "official-record-mirror",
       "url": "https://www.openminds.tv/wp-content/uploads/DOTY-FOIA-ATR-1.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "KLAS / Mystery Wire — Richard Doty interview",
+      "publisher": "KLAS / Mystery Wire",
+      "scope": "later-attributed-testimony",
+      "url": "https://www.8newsnow.com/mystery-wire/spying-disinformation-accusations-follow-ufo-figure-rick-doty-an-exclusive-interview/",
+      "note": "Doty says he fed disinformation to Bennewitz; later testimony, not an official operation record."
     }
   ],
   "BF-1996-VG-01": [

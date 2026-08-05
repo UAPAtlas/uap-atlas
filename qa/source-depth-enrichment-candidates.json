@@ -1173,29 +1173,6 @@
     ]
   },
   {
-    "id": "BF-SF-05",
-    "title": "Special File: Majestic 12 Documents",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "FBI Vault / AFOSI-associated Majestic 12 document file; strong custody for the disputed document trail and bogus/fraud-control context, not authentication of MJ-12 claims.",
-    "quoteConfidence": "High for FBI Vault file custody; low for any claim that the underlying MJ-12 documents are authentic.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
     "id": "BF-SF-06",
     "title": "Special File: 'Alien Interview' / Victor Tape",
     "score": 30,
@@ -1237,29 +1214,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:cometa report text, english translation, archive.org mirror, and ihedn-associated authorship/context trail"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-SF-11",
-    "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 7,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "AFOSI/OpenMinds-mirrored Kirtland/Bennewitz/Doty FOIA document trail; strong disinformation/provenance case, but individual associated claims require separation.",
-    "quoteConfidence": "High for mapped AFOSI/Cseh/Doty document trail; lower for broader Aquarius/underground-base narratives attached to the affair.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:afosi kirtland/bennewitz forms, cseh form, doty foia atr-1, domenici record, and project aquarius forgery artifact mapped locally"
       ]
     },
     "reasons": [
@@ -1675,6 +1629,31 @@
     },
     "reasons": [
       "source profile=mixed-provenance",
+      "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1967-MA-01",
+    "title": "Malmstrom AFB Missile Shutdown Incident",
+    "score": 15,
+    "sourceRecords": 3,
+    "indexedLinks": 8,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 6,
+    "sourceQuality": "One Air Force FOIA document family held through a private mirror: contemporaneous unit history reproducing and citing the engineering investigation, plus separate later witness testimony.",
+    "quoteConfidence": "verified-primary-record-transcription",
+    "sourceProfile": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:public long-form interview with former launch officer robert salas",
+        "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "quote confidence needs verification upgrade",
       "flagship/contradiction case"
     ]
   },
@@ -2508,6 +2487,55 @@
     },
     "reasons": [
       "source profile=mixed-provenance"
+    ]
+  },
+  {
+    "id": "BF-SF-05",
+    "title": "Special File: Majestic 12 Documents",
+    "score": 10,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official FBI file 65-81170 documenting receipt, classification inquiries and a relayed AFOSI bogus determination. The held material consists of agency-handled copies; the alleged 1984 film and 1952 original lack a verified custody chain.",
+    "quoteConfidence": "verified-official-file-transcription",
+    "sourceProfile": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "fbi",
+        "other:later public account that undeveloped film arrived by mail in 1984"
+      ]
+    },
+    "reasons": [
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
+    "id": "BF-SF-11",
+    "title": "Special File: Bennewitz\u2013Doty Disinformation Affair",
+    "score": 10,
+    "sourceRecords": 3,
+    "indexedLinks": 10,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 2,
+    "sourceQuality": "Official AFOSI FOIA file for contact and handling; later public Doty admission as testimony; unauthenticated Aquarius artifact as a separate disputed-document family.",
+    "quoteConfidence": "verified-official-record-transcription",
+    "sourceProfile": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
+      "sourceFamilies": [
+        "other:afosi records released in a 2 aug 2013 foia response; local 10-page release plus underlying forms",
+        "other:later media interview in which doty says he fed disinformation to bennewitz and others",
+        "other:locally held scan with top secret/mj12-style markings and extraordinary claims; origin and chain of custody not established in the artifact"
+      ]
+    },
+    "reasons": [
+      "quote confidence needs verification upgrade"
     ]
   }
 ]

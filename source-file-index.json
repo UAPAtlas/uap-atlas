@@ -74,7 +74,10 @@
     "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-Nov-1980.pdf",
     "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Bennewitz-visit-Oct-1980.pdf",
     "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Doty-FOIA-ATR-1.pdf",
-    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Domenici-July-1981.pdf"
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Domenici-July-1981.pdf",
+    "https://www.8newsnow.com/mystery-wire/spying-disinformation-accusations-follow-ufo-figure-rick-doty-an-exclusive-interview/",
+    "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf",
+    "https://www.openminds.tv/wp-content/uploads/S3-Bennewitz-Kirtland-Bennewitz-Meeting-Nov-80.pdf"
   ],
   "CALVINE-1990": [
     "assets/evidence/CALVINE/photo.provenance.json",
@@ -530,7 +533,11 @@
     "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
     "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_007.jpg",
     "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_008.jpg",
-    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_010.jpg"
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_010.jpg",
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_014.jpg",
+    "assets/evidence/MALMSTROM-1967/MALMSTROM-1967-USAF-FOIA-package-BlackVault-mirror.pdf",
+    "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf",
+    "https://www.youtube.com/watch?v=-0g3lLGxNfc"
   ],
   "MANTELL-1948": [
     "assets/evidence/MANTELL/portrait.jpg",
@@ -553,7 +560,8 @@
   ],
   "MJ12-1984": [
     "assets/source_previews/BF-SF-05_source_image.jpg",
-    "assets/evidence/MJ12-1984/MJ12-1984-FBI-Vault-official-Part1.pdf"
+    "assets/evidence/MJ12-1984/MJ12-1984-FBI-Vault-official-Part1.pdf",
+    "https://vault.fbi.gov/Majestic%2012"
   ],
   "NASA-UAP-D015": [
     "assets/evidence/NASA-UAP-D015/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963__contact.jpg",
@@ -778,7 +786,9 @@
     "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_007.jpg",
     "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_008.jpg",
     "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_009.jpg",
-    "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_010.jpg"
+    "assets/evidence/RENDLESHAM-1980/Rendlesham_DEFE_page_010.jpg",
+    "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/postwar/ufo-reports/",
+    "https://discovery.nationalarchives.gov.uk/details/r/C10342055"
   ],
   "ROSWELL-1947": [
     "assets/source_previews/BF-1947-RW-01_source_image.jpg",
@@ -976,7 +986,10 @@
     "https://www.congress.gov/event/119th-congress/house-event/118165"
   ],
   "MALMSTROM-1967-UNIT-HISTORY": [
-    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg"
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_007.jpg",
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_008.jpg",
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_010.jpg",
+    "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_014.jpg"
   ],
   "MALMSTROM-1967-ENGINEERING": [
     "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_007.jpg",
@@ -1439,5 +1452,27 @@
     "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-017.png",
     "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-018.png",
     "https://catalog.archives.gov/id/311001910"
+  ],
+  "MALMSTROM-1967-FOIA-PACKET": [
+    "assets/evidence/MALMSTROM-1967/MALMSTROM-1967-USAF-FOIA-package-BlackVault-mirror.pdf",
+    "https://documents.theblackvault.com/documents/ufos/malmstromufo.pdf"
+  ],
+  "MALMSTROM-1967-LATER-TESTIMONY": [
+    "https://www.youtube.com/watch?v=-0g3lLGxNfc"
+  ],
+  "BENNEWITZ-1980-AFOSI-FILE": [
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-p1.png",
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Cseh-form-Nov-1980.pdf",
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Bennewitz-visit-Oct-1980.pdf",
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Doty-FOIA-ATR-1.pdf",
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-AFOSI-Domenici-July-1981.pdf",
+    "https://www.openminds.tv/wp-content/uploads/S1-Bennewitz-AFOSI-Visit-Oct-80.pdf"
+  ],
+  "BENNEWITZ-1980-DOTY-ADMISSION": [
+    "https://www.8newsnow.com/mystery-wire/spying-disinformation-accusations-follow-ufo-figure-rick-doty-an-exclusive-interview/"
+  ],
+  "BENNEWITZ-1980-AQUARIUS": [
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Aquarius-forgery-cover.png",
+    "assets/evidence/BENNEWITZ-1980/BENNEWITZ-1980-Project-Aquarius-forgery.pdf"
   ]
 }
