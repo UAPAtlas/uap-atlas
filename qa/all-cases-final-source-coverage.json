@@ -21,13 +21,13 @@
     "tokens": [
       "MAGENTA-1933"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "links": 5,
-    "local": 3,
-    "urls": 2,
+    "indexedLinks": 6,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 2,
+    "links": 9,
+    "local": 5,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -181,13 +181,13 @@
     "tokens": [
       "ESTIMATE-1948"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "links": 5,
-    "local": 4,
-    "urls": 1,
+    "indexedLinks": 7,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 3,
+    "links": 9,
+    "local": 6,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1265,13 +1265,13 @@
     "tokens": [
       "CALVINE-1990"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 4,
-    "evidenceAssets": 3,
-    "links": 8,
-    "local": 4,
-    "urls": 4,
+    "indexedLinks": 11,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 6,
+    "evidenceAssets": 6,
+    "links": 15,
+    "local": 8,
+    "urls": 7,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1315,13 +1315,13 @@
     "tokens": [
       "VARGINHA-1996"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 1,
-    "links": 6,
-    "local": 3,
-    "urls": 3,
+    "indexedLinks": 9,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 5,
+    "evidenceAssets": 5,
+    "links": 13,
+    "local": 8,
+    "urls": 5,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1395,13 +1395,13 @@
     "tokens": [
       "VICTOR-1997"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 3,
+    "indexedLinks": 5,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 4,
     "evidenceAssets": 2,
-    "links": 7,
+    "links": 8,
     "local": 4,
-    "urls": 3,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2317,9 +2317,9 @@
   },
   {
     "id": "BF-1957-RA-01",
-    "title": "Robins AFB \u2014 Star-shaped Object over Warner Robins",
+    "title": "Robins AFB Report \u2014 Pine Grove Railway Sighting",
     "tokens": [
-      "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
+      "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018"
     ],
     "indexedLinks": 4,
     "structuredSourceRecords": 1,

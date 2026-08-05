@@ -218,8 +218,8 @@
   "BF-1957-RA-01": [
     {
       "access": "Public",
-      "label": "NARA Catalog — AIIRs 1957 compilation (AIIRs 1957 compilation, pp. 16–18)",
-      "note": "Exact 301-object NARA file unit, NAID 311001910; case locator: AIIRs 1957 compilation, pp. 16–18. Government custody confirms the record, not the reported object's identity.",
+      "label": "NARA Catalog — AIIRs 1957 compilation (Robins AFB report, raw objects 016–018)",
+      "note": "Exact 301-object NARA file unit, NAID 311001910. Objects 016–018 form the three-page Robins AFB report; the quoted assessment is on object 018. Government custody confirms the record, not the reported object’s identity.",
       "publisher": "National Archives and Records Administration",
       "scope": "official-catalog-record",
       "url": "https://catalog.archives.gov/id/311001910"
@@ -421,6 +421,24 @@
       "publisher": "Sheffield Hallam release / Atlas archival copy",
       "scope": "archival-reproduction",
       "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/photo.jpg"
+    },
+    {
+      "access": "Public catalog and low-resolution viewer",
+      "label": "The National Archives — DEFE 24/1940 Calvine record",
+      "publisher": "The National Archives (UK)",
+      "scope": "official-record-file-unit",
+      "url": "https://discovery.nationalarchives.gov.uk/details/r/C10130124",
+      "locator": "Discovery C10130124; selected public viewer pp. 112–114",
+      "note": "Documents MoD receipt, staff review, press handling, and return of six negatives; does not authenticate the object or recover the negatives."
+    },
+    {
+      "access": "Public local official-record thumbnails",
+      "label": "Atlas selected pages — MoD Calvine loose minute and defensive lines",
+      "publisher": "The National Archives (UK); Atlas extraction from public viewer",
+      "scope": "official-record-selected-pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-113.jpg",
+      "locator": "DEFE 24/1940 public viewer pp. 112–114",
+      "note": "Exact low-resolution TNA viewer thumbnails; adjacent unrelated reports excluded."
     }
   ],
   "BF-1994-AR-01": [
@@ -846,6 +864,24 @@
       "publisher": "Internet Archive",
       "scope": "firsthand-memoir-archive",
       "url": "https://archive.org/details/reportonunidenti00rupp"
+    },
+    {
+      "access": "Public domain",
+      "label": "Project Gutenberg — Ruppelt, The Report on Unidentified Flying Objects",
+      "publisher": "Project Gutenberg / Edward J. Ruppelt",
+      "scope": "official-insider-historical-account",
+      "url": "https://www.gutenberg.org/ebooks/17346",
+      "locator": "PDF edition p. 35",
+      "note": "Page-verifies Ruppelt’s account; not the missing Estimate."
+    },
+    {
+      "access": "Public local page render",
+      "label": "Atlas page render — Ruppelt’s Estimate passage",
+      "publisher": "Project Gutenberg edition; Atlas render",
+      "scope": "page-verified-insider-account",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+      "locator": "PDF p. 35",
+      "note": "Verifies Ruppelt’s exact wording."
     }
   ],
   "BF-SF-08": [
@@ -896,6 +932,55 @@
       "publisher": "OpenMinds",
       "scope": "official-record-mirror",
       "url": "https://www.openminds.tv/wp-content/uploads/DOTY-FOIA-ATR-1.pdf"
+    }
+  ],
+  "BF-1996-VG-01": [
+    {
+      "access": "Public PDF",
+      "label": "Arquivo Nacional/SIAN — IstoÉ Varginha spread",
+      "publisher": "Arquivo Nacional do Brasil / IstoÉ",
+      "scope": "contemporaneous-press-archive-record",
+      "url": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf",
+      "locator": "22 May 1996, pp. 29–32",
+      "note": "Complete press spread with witness claims, allegations, and explicit Army denials; not an official incident file."
+    },
+    {
+      "access": "Public local page renders",
+      "label": "Atlas page renders — IstoÉ Varginha spread",
+      "publisher": "Arquivo Nacional do Brasil / IstoÉ; Atlas render",
+      "scope": "contemporaneous-press-selected-pages",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg",
+      "locator": "Printed pp. 29–32",
+      "note": "All four pages rendered from the exact SIAN PDF."
+    }
+  ],
+  "BF-1933-MG-01": [
+    {
+      "access": "Public",
+      "label": "Internet Archive — Lissoni reproduction of 1933 clipping",
+      "publisher": "Internet Archive / Alfredo Lissoni",
+      "scope": "contemporaneous-press-reproduction",
+      "url": "https://archive.org/details/ufo-crash-at-vergiate",
+      "locator": "Domenica del Corriere, 9 July 1933, p. 16",
+      "note": "The caption describes a lightning strike near Magenta, not a UFO crash."
+    },
+    {
+      "access": "Public local image",
+      "label": "Atlas render — Magenta-area lightning clipping",
+      "publisher": "Domenica del Corriere / Lissoni reproduction; Atlas render",
+      "scope": "press-source-boundary",
+      "url": "https://uapatlas.github.io/uap-atlas/assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg",
+      "note": "Constrains rather than corroborates the RS/33 recovery claim."
+    }
+  ],
+  "BF-SF-06": [
+    {
+      "access": "Public",
+      "label": "Internet Archive — Area 51: The Alien Interview (1997), full program",
+      "publisher": "Internet Archive / public-release mirror",
+      "scope": "full-program-public-mirror",
+      "url": "https://archive.org/details/area-51-the-alien-interview-1997",
+      "note": "Complete public-release artifact; not original alleged tape custody."
     }
   ]
 }

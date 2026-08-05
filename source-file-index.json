@@ -80,7 +80,14 @@
     "assets/evidence/CALVINE/photo.provenance.json",
     "assets/evidence/CALVINE/photo.jpg",
     "assets/evidence/CALVINE/vufoil.jpg",
-    "assets/evidence/CALVINE/mod_note.jpg"
+    "assets/evidence/CALVINE/mod_note.jpg",
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-113.jpg",
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-114.jpg",
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-selected.provenance.json",
+    "https://discovery.nationalarchives.gov.uk/details/r/C10130124",
+    "https://discovery.nationalarchives.gov.uk/image/getthumbnail/C10130124",
+    "https://shura.shu.ac.uk/34877/1/Robinson-PhotographicAnalysisVersion5(VoR).pdf",
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-112.jpg"
   ],
   "CASH-LANDRUM-1980": [
     "assets/evidence/CASH-LANDRUM-1980/Cash_Landrum_original_illustration.jpg",
@@ -298,7 +305,10 @@
     "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
     "assets/source_previews/BF-SF-07_source_manifest.svg",
     "assets/source_previews/BF-SF-07_source_image.jpg",
-    "source-files/evidence-depth/ESTIMATE-1948-evidence-depth.md"
+    "source-files/evidence-depth/ESTIMATE-1948-evidence-depth.md",
+    "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+    "assets/sources/ESTIMATE-1948/Ruppelt-public-domain.provenance.json",
+    "https://www.gutenberg.org/ebooks/17346"
   ],
   "FBI-SERIAL3-2023": [
     "assets/evidence/FBI-SERIAL3-2023/FBI-Serial-3_Redacted_2023.pdf",
@@ -511,7 +521,10 @@
   "MAGENTA-1933": [
     "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
     "assets/source_previews/BF-1933-MG-01_source_manifest.svg",
-    "source-files/evidence-depth/MAGENTA-1933-evidence-depth.md"
+    "source-files/evidence-depth/MAGENTA-1933-evidence-depth.md",
+    "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg",
+    "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933.provenance.json",
+    "https://archive.org/details/ufo-crash-at-vergiate"
   ],
   "MALMSTROM-1967": [
     "assets/evidence/MALMSTROM-1967/Malmstrom_FOIA_page_005.jpg",
@@ -835,13 +848,20 @@
   "VARGINHA-1996": [
     "assets/source_previews/BF-1996-VG-01_source_image.jpg",
     "assets/source_previews/BF-1996-VG-01_source_manifest.svg",
-    "source-files/evidence-depth/VARGINHA-1996-evidence-depth.md"
+    "source-files/evidence-depth/VARGINHA-1996-evidence-depth.md",
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg",
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg",
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-31.jpg",
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-32.jpg",
+    "assets/sources/VARGINHA-1996/SIAN-ISTOE-1996-05-22.provenance.json",
+    "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf"
   ],
   "VICTOR-1997": [
     "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
     "assets/source_previews/BF-SF-06_source_manifest.svg",
     "assets/source_previews/BF-SF-06_source_image.jpg",
-    "source-files/evidence-depth/VICTOR-1997-evidence-depth.md"
+    "source-files/evidence-depth/VICTOR-1997-evidence-depth.md",
+    "https://archive.org/details/area-51-the-alien-interview-1997"
   ],
   "WALTON-1975": [
     "assets/source_previews/BF-1975-TW-01_source_image.jpg",
@@ -1268,12 +1288,6 @@
     "assets/evidence/PNG-1985/png-cable-2.png",
     "https://www.war.gov/ufo"
   ],
-  "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057": [
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-056.png",
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-057.png",
-    "https://catalog.archives.gov/id/311001910"
-  ],
   "CIA-IAC-1952-012-7 / CIA-OSE-1952-013-6": [
     "assets/evidence/CIA-UAP-014/CIA-UAP-014_Flying-Saucers__page_001.png",
     "assets/evidence/CIA-UAP-018/CIA-UAP-018_Flying-Saucers__page_001.png",
@@ -1418,5 +1432,11 @@
     "assets/evidence/HILL-1961/NARA-NAID-28994660-object-1046.jpg",
     "assets/evidence/HILL-1961/NARA-NAID-28994660-selected.provenance.json",
     "https://catalog.archives.gov/id/28994660"
+  ],
+  "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018": [
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-016.png",
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-017.png",
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-018.png",
+    "https://catalog.archives.gov/id/311001910"
   ]
 }

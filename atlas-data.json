@@ -254,11 +254,11 @@
       "keyFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "heroFact": "A pre-Roswell retrieval claim resting entirely on documents mailed anonymously in 1996 — revived when a sworn-era whistleblower cited it by name in 2023.",
       "whyItMatters": "Magenta binds the modern testimony era to MJ-12-grade provenance: if the papers are real it is history's first retrieval, and if not, it shows sworn-era claims amplifying uncorroborated paper — either way the chain of custody is the whole case.",
-      "keyQuote": "Italian fascist archives document the seizure of UFO-related materials by Mussolini's Gabinetto RS/33; the case remains contested in Italian UFO research.",
-      "quoteSource": "Italian state archives & RS/33 documentation (summary)",
-      "quoteConfidence": "Low-medium — claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified.",
+      "keyQuote": "Sullo stradale fra Novara e Magenta, cinque operai che rincasavano in bicicletta durante un temporale sono stati investiti dal fulmine.",
+      "quoteSource": "Domenica del Corriere, 9 July 1933, p. 16; reproduced by Alfredo Lissoni",
+      "quoteConfidence": "High transcription confidence for the contemporaneous lightning caption; low confidence for the separate RS/33 recovery claim because its anonymous document cache lacks first-party provenance.",
       "significance": "High significance",
-      "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later research trail. A recovered contemporaneous Domenica del Corriere clipping documents a lightning strike near Magenta, not a UFO crash or recovery; no first-party Italian state file or physical custody is recovered.",
       "sourceLabel": "RS/33 document set",
       "sourceLocator": "MAGENTA-1933",
       "relatedCaseIds": [
@@ -336,6 +336,21 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Domenica del Corriere, 9 July 1933, p. 16, clipping reproduced by Alfredo Lissoni",
+          "sourceType": "contemporaneous-press-reproduction-disconfirming-boundary",
+          "provenance": "2023 Lissoni image-only PDF in Internet Archive reproducing a contemporaneous clipping with handwritten date/page locator",
+          "locator": "Domenica del Corriere, 9 July 1933, p. 16; Lissoni/Internet Archive reproduction",
+          "supports": [
+            "Documents a contemporaneous lightning incident on the road between Novara and Magenta",
+            "Provides an exact press caption and visual clipping for a source sometimes associated with the alleged event"
+          ],
+          "limitations": [
+            "The caption describes workers struck by lightning and does not mention a UFO, crash, recovery, RS/33, or recovered craft",
+            "The clipping is a later Lissoni reproduction, not Italian state-archive custody",
+            "It constrains rather than corroborates the alleged recovery narrative"
+          ]
         }
       ],
       "phenomena": {
@@ -392,10 +407,34 @@
           "access": "Public",
           "scope": "case-study-secondary",
           "note": "Summarizes the Pinotti/Lissoni RS/33 document-cache trail and notes anonymous receipt between 1996 and 2000; useful public overview, not primary custody."
+        },
+        {
+          "label": "Internet Archive — Lissoni reproduction of 1933 Magenta-area clipping",
+          "url": "https://archive.org/details/ufo-crash-at-vergiate",
+          "publisher": "Internet Archive / Alfredo Lissoni",
+          "access": "Public",
+          "scope": "contemporaneous-press-reproduction",
+          "locator": "Domenica del Corriere, 9 July 1933, p. 16",
+          "note": "Caption describes a lightning strike involving cyclists/workers near Magenta; it does not report a UFO crash or recovery."
+        },
+        {
+          "label": "Atlas render — 1933 Magenta-area lightning clipping",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg",
+          "publisher": "Domenica del Corriere / Lissoni reproduction; Atlas render",
+          "access": "Public local image",
+          "scope": "press-source-boundary",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "note": "Contemporaneous clipping reproduced in a 2023 Lissoni PDF; does not corroborate the RS/33 recovery claim."
         }
       ],
       "images": [
-        "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg"
+        "assets/evidence/MAGENTA-1933/MAGENTA-1933-Magenta-piazza-context.jpg",
+        "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg"
+      ],
+      "acquisitionTargets": [
+        "Original RS/33 documents with verifiable Italian state-archive accession and physical custody",
+        "Contemporaneous Italian government, military, intelligence, or recovery records specific to an alleged 1933 craft"
       ]
     },
     {
@@ -2125,11 +2164,11 @@
       "evidenceDepthStatus": "primary-complete"
     },
     {
-      "keyQuote": "The situation was the UFOs; the estimate was that they were interplanetary!",
-      "quoteSource": "Edward J. Ruppelt, 'The Report on Unidentified Flying Objects' (1956)",
-      "quoteConfidence": "Medium — Ruppelt account is public and historically important; exact destroyed/unreleased Estimate text is not page-verified.",
+      "keyQuote": "The situation was the UFO's; the estimate was that they were interplanetary!",
+      "quoteSource": "Edward J. Ruppelt, The Report on Unidentified Flying Objects (1956), public-domain PDF p. 35",
+      "quoteConfidence": "High for Ruppelt’s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered.",
       "significance": "High significance",
-      "sourceQuality": "Ruppelt/Project Sign historical account trail; important early Air Force narrative, but the actual Estimate document is not publicly recovered.",
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt’s 1956 insider account. It authenticates his published description and wording, not the missing 1948 Estimate document or its administrative trail.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-07",
@@ -2234,6 +2273,20 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Edward J. Ruppelt, The Report on Unidentified Flying Objects (1956), public-domain edition, PDF p. 35",
+          "sourceType": "page-verified-official-insider-historical-account",
+          "provenance": "Project Gutenberg public-domain text edition; exact PDF, text, and page render retained with hashes",
+          "locator": "Ruppelt 1956 public-domain edition, PDF p. 35",
+          "supports": [
+            "Verifies Ruppelt’s exact published statement that the Estimate concluded the UFOs were interplanetary",
+            "Provides a stable page-level locator for the principal public insider account"
+          ],
+          "limitations": [
+            "Ruppelt’s book is a later insider account, not the 1948 Estimate document",
+            "Does not independently establish the Estimate’s complete text, authorship, routing, approval, or destruction"
+          ]
         }
       ],
       "phenomena": {
@@ -2281,11 +2334,36 @@
           "publisher": "Internet Archive / Edward J. Ruppelt",
           "scope": "public-book-scan",
           "url": "https://archive.org/details/reportonunidenti00rupp"
+        },
+        {
+          "label": "Project Gutenberg — Ruppelt, The Report on Unidentified Flying Objects",
+          "url": "https://www.gutenberg.org/ebooks/17346",
+          "publisher": "Project Gutenberg / Edward J. Ruppelt",
+          "access": "Public domain",
+          "scope": "official-insider-historical-account",
+          "locator": "PDF edition p. 35",
+          "note": "Page-verifies Ruppelt’s account; the missing Estimate itself remains unrecovered."
+        },
+        {
+          "label": "Atlas page render — Ruppelt’s Estimate passage",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+          "publisher": "Project Gutenberg edition; Atlas render",
+          "access": "Public local page render",
+          "scope": "page-verified-insider-account",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "locator": "PDF p. 35",
+          "note": "Verifies Ruppelt’s wording, not the missing 1948 document."
         }
       ],
       "images": [
         "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
-        "assets/source_previews/BF-SF-07_source_image.jpg"
+        "assets/source_previews/BF-SF-07_source_image.jpg",
+        "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png"
+      ],
+      "acquisitionTargets": [
+        "Original 1948 Estimate of the Situation or an authenticated surviving copy",
+        "ATIC/Air Force control-register, routing, withdrawal, destruction, or transfer records establishing the document’s administrative trail"
       ]
     },
     {
@@ -5249,6 +5327,10 @@
       ],
       "images": [
         "assets/source_previews/BF-1965-KB-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Underlying NASA, Army, USAF, or recovery/transport records specific to Kecksburg",
+        "Complete Kean v. NASA litigation and agency search/destruction record packet"
       ]
     },
     {
@@ -6279,6 +6361,10 @@
           "scope": "contemporaneous-press-copy",
           "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/WESTALL-1966/Westall_Dandenong_Journal_1966_headline.png"
         }
+      ],
+      "acquisitionTargets": [
+        "RAAF, police, school-administration, or Department of Civil Aviation incident records specific to Westall",
+        "Original witness statements, drawings, photographs, film, and investigator files with first-generation custody"
       ]
     },
     {
@@ -10828,6 +10914,10 @@
       ],
       "images": [
         "assets/source_previews/BF-1975-TW-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Navajo County Sheriff missing-person, dispatch, search, interview, and incident records",
+        "Original polygraph charts, examiner worksheets, and authenticated testing custody"
       ]
     },
     {
@@ -11865,6 +11955,10 @@
           "scope": "public-document-copy",
           "url": "https://www.cufon.org/cufon/cashlanL.pdf"
         }
+      ],
+      "acquisitionTargets": [
+        "Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
+        "DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
       ]
     },
     {
@@ -13091,6 +13185,10 @@
           "scope": "institutional-archive-folder-lead",
           "note": "Richard F. Haines Ufology Papers MS 0706, Series VIII, Box 11, Folder 12. Folder title establishes institutional custody of Gulf Breeze photo material, not original-Walters-photo authenticity."
         }
+      ],
+      "acquisitionTargets": [
+        "Authenticated Walters original negatives, first-generation prints, and complete camera/processing custody",
+        "Publicly released digital objects from Rice MS 0706 Box 11 Folder 12 or another institutional first-generation holding"
       ]
     },
     {
@@ -13455,11 +13553,11 @@
       ]
     },
     {
-      "keyQuote": "The Calvine photograph shows a diamond-shaped object beside a military aircraft; the image was submitted anonymously and held by the Scottish Daily Record.",
-      "quoteSource": "Calvine photo provenance file (summary)",
-      "quoteConfidence": "Medium — public record/reporting anchored to surviving print trail; not original-negative verified.",
+      "keyQuote": "have reached no definite conclusion regarding the large object.",
+      "quoteSource": "UK MoD loose minute, 14 September 1990 (TNA DEFE 24/1940 public viewer p. 113)",
+      "quoteConfidence": "High transcription confidence — exact page-verified wording from the 14 September 1990 MoD loose minute; the memo records official handling but does not authenticate the photographed object.",
       "significance": "High significance",
-      "sourceQuality": "Surviving-print public trail with Sheffield Hallam/Craig Lindsay custody attribution; original negative and reported remaining prints unavailable.",
+      "sourceQuality": "Official MoD public-viewer pages map receipt, staff review, press handling, and return of six negatives to the Scottish Daily Record; Sheffield Hallam documents the surviving-print analysis. The original negatives and remaining reported frames remain unavailable.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1990-CV-01",
@@ -13484,8 +13582,8 @@
       "sources": [
         "CALVINE-1990 · Sheffield Hallam release (2022) / MoD file record"
       ],
-      "sourceLabel": "MoD file trail",
-      "sourceLocator": "CALVINE-1990",
+      "sourceLabel": "UK Ministry of Defence / Sheffield Hallam University",
+      "sourceLocator": "TNA DEFE 24/1940, Discovery C10130124, public viewer pp. 112–114; SHURA item 34877",
       "relatedCaseIds": [
         "BF-1958-TR-01",
         "BF-1980-RF-01"
@@ -13495,7 +13593,10 @@
       "images": [
         "assets/evidence/CALVINE/photo.jpg",
         "assets/evidence/CALVINE/vufoil.jpg",
-        "assets/evidence/CALVINE/mod_note.jpg"
+        "assets/evidence/CALVINE/mod_note.jpg",
+        "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-113.jpg",
+        "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-114.jpg",
+        "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-112.jpg"
       ],
       "caseTypes": [
         "provenance-file"
@@ -13538,7 +13639,7 @@
       "sourceRecords": [
         {
           "citation": "CALVINE-1990 · Sheffield Hallam release (2022) / MoD file record",
-          "sourceType": "surviving-print-public-custody-trail",
+          "sourceType": "secondary academic surviving-print-public-custody-trail",
           "provenance": "Craig Lindsay / Sheffield Hallam / David Clarke public release trail",
           "locator": "CALVINE-1990",
           "supports": [
@@ -13550,6 +13651,23 @@
             "Not the original negative and not all reported prints",
             "Does not establish object identity or rule out conventional/photographic explanations",
             "Public reporting and surviving-print custody do not equal a complete MoD investigative file"
+          ]
+        },
+        {
+          "citation": "UK Ministry of Defence, Calvine photographs loose minute and defensive lines, 14 September 1990",
+          "sourceType": "official-record",
+          "provenance": "UK Ministry of Defence record preserved by The National Archives (UK), Discovery C10130124; exact low-resolution public-viewer objects retained with hashes",
+          "locator": "TNA DEFE 24/1940 public viewer pp. 112–114",
+          "supports": [
+            "MoD received six photographic negatives from the Scottish Daily Record",
+            "Relevant staffs identified one Harrier and a probable second Harrier but reached no definite conclusion regarding the large object",
+            "MoD found no record of Harriers operating in the area at the alleged time and returned the negatives to the newspaper"
+          ],
+          "limitations": [
+            "Public objects are low-resolution watermarked thumbnails, not the unwatermarked file download",
+            "Official receipt and review do not authenticate the photographed object",
+            "Original negatives and remaining reported frames are not recovered",
+            "Adjacent viewer pp. 115–116 are unrelated aerial-phenomena reports and are excluded"
           ]
         }
       ],
@@ -13619,7 +13737,31 @@
           "access": "Public",
           "scope": "institutional-public-reporting",
           "note": "Reports the surviving Calvine print entering Sheffield Hallam orbit through David Clarke/Craig Lindsay; useful custody trail, not original MoD negative."
+        },
+        {
+          "label": "The National Archives — DEFE 24/1940 Calvine record and public viewer",
+          "url": "https://discovery.nationalarchives.gov.uk/details/r/C10130124",
+          "publisher": "The National Archives (UK)",
+          "access": "Public catalog and low-resolution viewer",
+          "scope": "official-record-file-unit",
+          "locator": "Discovery C10130124; selected viewer pp. 112–114",
+          "note": "Official MoD press-handling record. It documents receipt and review of six negatives and their return to the Scottish Daily Record; it does not authenticate the object or recover the negatives."
+        },
+        {
+          "label": "Atlas selected pages — MoD Calvine loose minute and defensive lines",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-113.jpg",
+          "publisher": "The National Archives (UK); Atlas extraction from public viewer",
+          "access": "Public local official-record thumbnails",
+          "scope": "official-record-selected-pages",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "locator": "DEFE 24/1940 public viewer pp. 112–114",
+          "note": "Exact low-resolution TNA viewer thumbnails. Adjacent pp. 115–116 are unrelated reports and were excluded."
         }
+      ],
+      "acquisitionTargets": [
+        "Original Calvine negatives and remaining reported photographic frames with first-generation custody",
+        "Full-resolution MoD photographic-analysis attachments, routing records, and unwatermarked complete record pages if publicly released"
       ]
     },
     {
@@ -14023,11 +14165,11 @@
       ]
     },
     {
-      "keyQuote": "Multiple residents of Varginha, Brazil reported seeing strange creatures after an alleged crash; IPM Volumes 01 through 09 comprise the formal investigation into the Varginha case.",
-      "quoteSource": "Brazilian IPM Volumes 01-09 (summary)",
-      "quoteConfidence": "Low-medium — public testimony and documentary trail; primary Brazilian records not page-verified.",
+      "keyQuote": "O extraordinário relato de um contato alienígena mobiliza ufólogos e envolve o Exército numa acusação de sequestro.",
+      "quoteSource": "IstoÉ, 22 May 1996, p. 29; scan in Arquivo Nacional/SIAN custody",
+      "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread.",
       "significance": "Case significance",
-      "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
+      "sourceQuality": "Complete contemporaneous IstoÉ press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1996-VG-01",
@@ -14147,6 +14289,22 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Luiza Villamea, “O Caso do ET de Varginha,” IstoÉ, 22 May 1996, pp. 29–32",
+          "sourceType": "contemporaneous-press-archive-record",
+          "provenance": "Complete four-page magazine spread preserved and served by Arquivo Nacional do Brasil / SIAN; exact PDF and rendered pages retained with hashes",
+          "locator": "IstoÉ, 22 May 1996, pp. 29–32; SIAN BR_DFANBSB_ARX_0_0_0443",
+          "supports": [
+            "Contemporaneous named-witness and ufologist reporting four months after the alleged event",
+            "Documents the public allegation of Army involvement and records explicit Army denials in the same article",
+            "Provides exact publication date, author, printed pages, and official archival custody"
+          ],
+          "limitations": [
+            "A magazine article is not a military investigation, medical record, capture record, or physical custody chain",
+            "Reported witness and ufologist claims are not independently authenticated by archival custody of the article",
+            "The article records Army denials and does not establish a recovered creature or craft"
+          ]
         }
       ],
       "phenomena": {
@@ -14215,10 +14373,38 @@
           "access": "Public",
           "scope": "secondary-document-analysis",
           "note": "Public analysis discussing Brazilian documents and Varginha claims; useful lead, not complete first-party custody."
+        },
+        {
+          "label": "Arquivo Nacional/SIAN — IstoÉ, “O Caso do ET de Varginha”",
+          "url": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf",
+          "publisher": "Arquivo Nacional do Brasil / IstoÉ",
+          "access": "Public PDF",
+          "scope": "contemporaneous-press-archive-record",
+          "locator": "22 May 1996, pp. 29–32",
+          "note": "Complete contemporaneous press spread with witness claims, ufologist allegations, and explicit Army denials; not an official incident file."
+        },
+        {
+          "label": "Atlas page renders — IstoÉ Varginha spread",
+          "url": "https://uapatlas.github.io/uap-atlas/assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg",
+          "publisher": "Arquivo Nacional do Brasil / IstoÉ; Atlas render",
+          "access": "Public local page renders",
+          "scope": "contemporaneous-press-selected-pages",
+          "role": "page-verified-source-render",
+          "mediaKind": "image",
+          "locator": "Printed pp. 29–32",
+          "note": "All four pages rendered from the exact SIAN PDF; archival custody authenticates the publication, not the alleged event."
         }
       ],
       "images": [
-        "assets/source_previews/BF-1996-VG-01_source_image.jpg"
+        "assets/source_previews/BF-1996-VG-01_source_image.jpg",
+        "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg",
+        "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg",
+        "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-31.jpg",
+        "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-32.jpg"
+      ],
+      "acquisitionTargets": [
+        "Brazilian military, police, fire-service, and hospital records specific to the January 1996 allegations",
+        "Authenticated capture, transport, medical, pathology, or physical-custody records"
       ]
     },
     {
@@ -14834,9 +15020,9 @@
     {
       "keyQuote": "The 'Alien Interview' video, allegedly smuggled out of Area 51 by a witness known as 'Victor,' shows a creature being interviewed; provenance and authenticity remain unverified.",
       "quoteSource": "Victor tape public release, 1997 (summary)",
-      "quoteConfidence": "Low-medium — public release history is documented, but the footage provenance rests on an anonymous source.",
+      "quoteConfidence": "High for the documented 1997 public-release artifact; low for the alleged Area 51 provenance and authenticity, which remain unsupported by an original tape or verifiable transfer chain.",
       "significance": "Case significance",
-      "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
+      "sourceQuality": "Rocket Pictures / Victor public-release trail plus a verified full-program Internet Archive copy; the anonymous source, original alleged tape, production master, and agency custody remain unverified.",
       "coordinateBasis": "Production/distribution provenance: Rocket Pictures, Los Angeles",
       "coordinatePrecision": "city",
       "id": "BF-SF-06",
@@ -14940,6 +15126,21 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Area 51: The Alien Interview (1997), full-program public mirror",
+          "sourceType": "public-release-program-mirror",
+          "provenance": "Internet Archive H.264 copy of the full 1997 program; exact 149,946,368-byte file retained with SHA-256",
+          "locator": "Internet Archive item area-51-the-alien-interview-1997; full program 64:30",
+          "supports": [
+            "Documents the complete public-release artifact and its presentation of the Victor claim",
+            "Preserves a stable full-program media-history object rather than a short excerpt"
+          ],
+          "limitations": [
+            "Internet Archive custody is not Rocket Pictures production-master or alleged agency-tape custody",
+            "Victor’s identity and access remain unverified",
+            "The program does not establish authenticity or non-human origin"
+          ]
         }
       ],
       "phenomena": {
@@ -15003,11 +15204,24 @@
           "access": "Public",
           "scope": "public-video-mirror",
           "note": "Public mirror of the Victor/Alien Interview video material; mirror custody only, not original tape custody."
+        },
+        {
+          "label": "Internet Archive — Area 51: The Alien Interview (1997), full program",
+          "url": "https://archive.org/details/area-51-the-alien-interview-1997",
+          "publisher": "Internet Archive / public-release mirror",
+          "access": "Public",
+          "scope": "full-program-public-mirror",
+          "mediaKind": "video",
+          "note": "Complete 64.5-minute public-release artifact; not the original alleged tape or authenticated agency footage."
         }
       ],
       "images": [
         "assets/evidence/VICTOR-1997/VICTOR-1997-Area51-gate-context.jpg",
         "assets/source_previews/BF-SF-06_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Original alleged Victor tape or production master with authenticated transfer and duplication history",
+        "Verifiable Victor identity/access evidence and Rocket Pictures production/forensic records"
       ]
     },
     {
@@ -15535,6 +15749,10 @@
         "assets/editorial-reconstructions/BF-2006-OH-01-editorial-reconstruction.png",
         "assets/evidence/OHARE-2006/OHARE-2006-NARCAP-TR10-Case18-page1-white-bg.jpg",
         "assets/source_previews/BF-2006-OH-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
+        "Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
       ]
     },
     {
@@ -16345,6 +16563,10 @@
         "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-public-mirror-frame-490s.jpg",
         "assets/evidence/hero-visuals/CEFAA-2014-Chilean-Navy-IR-video-thumbnail.jpg",
         "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg"
+      ],
+      "acquisitionTargets": [
+        "Native 2014 Chilean Navy WESCAM/FLIR master with embedded telemetry and complete metadata",
+        "Complete CEFAA/SEFAA analyst case file, aircraft position/orientation data, and sensor chain of custody"
       ]
     },
     {
@@ -24556,44 +24778,44 @@
     },
     {
       "id": "BF-1957-RA-01",
-      "title": "Robins AFB — Star-shaped Object over Warner Robins",
-      "date": "21 AUG 1957",
+      "title": "Robins AFB Report — Pine Grove Railway Sighting",
+      "date": "09 MAR 1957",
       "year": 1957,
-      "location": "Warner Robins, Georgia, one mile west of Robins AFB",
-      "mode": "exact",
-      "lon": -83.5083,
-      "lat": 32.5125,
-      "coordinateBasis": "AIIR coordinates 32°30′45″N, 83°30′30″W; Warner Robins, one mile west of Robins AFB",
+      "location": "Pine Grove, Appling County, Georgia",
+      "mode": "approximate",
+      "lon": -82.447,
+      "lat": 31.813,
+      "coordinateBasis": "AIIR names Pine Grove, Georgia; mapped approximately to the GNIS Pine Grove community in Appling County on the Macon–Brunswick rail corridor",
       "expectedCountry": "United States of America",
       "expectedAdmin1": "Georgia",
       "geometryExpectation": "admin1",
-      "coordinatePrecision": "site/city",
-      "agency": "Civilian witness / USAF Robins AFB",
+      "coordinatePrecision": "community/approximate",
+      "agency": "Civilian railway crew / USAF Robins AFB",
       "domain": "CIVILIAN / AERIAL",
-      "status": "DOCUMENTED · OFFICIAL PROBABLE ASTRONOMICAL",
-      "confidence": "CONFIRMED RECORD · LIMITED CORROBORATION",
-      "summary": "A civilian service-station operator in Warner Robins reported a white, star-shaped object about dime-sized in apparent scale. It moved erratically for roughly ten minutes, then traveled in a high-speed arc toward the southeast and descended beyond the horizon. A B-57 pilot flying nearby reported seeing only two planets; the Robins AFB airdrome officer assessed that the witness probably mistook Venus or Jupiter for a piloted object.",
-      "official": "A B-57 pilot flying in the area reported only two planets and no unidentified object. Captain Jerry E. Moore, Robins AFB airdrome officer, assessed that the witness probably mistook Venus or Jupiter for a piloted object.",
-      "gap": "The three-page report contains one civilian account and a contemporaneous aircraft check, but no photograph, instrument record, additional witness statement, or follow-up analysis.",
+      "status": "DOCUMENTED · OFFICIAL METEOR CHARACTERISTICS",
+      "confidence": "CONFIRMED RECORD · THREE CO-WITNESSES",
+      "summary": "Three Southern Railway employees aboard train No. 153 from Macon to Brunswick reported a single green object near Pine Grove, Georgia. They described it as a chord with a handle or tadpole, about grapefruit-sized in apparent scale, traveling straight and level from southwest to northeast at roughly jet speed, with a yellow glowing substance seeming to drip from its tail. The object remained visible for about one minute.",
+      "official": "Major John W. Porter, Chief of the Flight Operations Division at Robins AFB, recorded that the observers said the object did not appear to be a comet or meteor, while judging that their descriptions indicated characteristics of a meteor.",
+      "gap": "The three-page report preserves three co-witness descriptions and weather data but no photograph, instrument record, independent witness group, trajectory reconstruction, or follow-up analysis.",
       "sources": [
-        "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
+        "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018"
       ],
-      "image": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
+      "image": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-016.png",
       "images": [
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-056.png",
-        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-057.png"
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-016.png",
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-017.png",
+        "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-018.png"
       ],
-      "keyFact": "A ten-minute civilian sighting prompted an aircraft cross-check; the nearby B-57 pilot reported only planets, and Robins AFB assessed Venus or Jupiter as the probable explanation.",
-      "whyItMatters": "The packet preserves both the witness report and the Air Force’s immediate counterevidence, making it a useful example of an official probable-astronomical assessment rather than an unresolved military anomaly.",
-      "keyQuote": "Believes [the observer] mistaken Venus or Jupiter for a piloted object.",
-      "quoteSource": "AIIRS-1957, Robins AFB report, raw object 057 (NARA NAID 311001910)",
-      "quoteConfidence": "High — exact official assessment on raw object 057; the witness name is redacted in the archival scan and bracketed here.",
-      "heroFact": "A civilian reported a star-shaped object for ten minutes; a nearby B-57 pilot saw only two planets, and Robins AFB assessed Venus or Jupiter as probable.",
-      "significance": "Moderate significance — documented civilian report with contemporaneous aircraft check and explicit official assessment.",
-      "sourceQuality": "Primary source — complete three-page Robins AFB Air Intelligence Information Report, raw objects 055–057.",
+      "keyFact": "Three railway employees reported a green tadpole-like object with a yellow glowing trail for about one minute; Robins AFB judged the description meteor-like while noting the witnesses did not perceive a comet or meteor.",
+      "whyItMatters": "The packet is a complete official three-page report with multiple named-role co-witnesses and a qualified Air Force assessment. It is useful precisely because the primary record differs materially from later summaries that described a separate Warner Robins/Venus-Jupiter case.",
+      "keyQuote": "The observers stated that this object did not appear to be a comet or meteor, however descriptions furnished indicated characteristics of a meteor.",
+      "quoteSource": "AIIRS-1957, Robins AFB report, raw object 018 (NARA NAID 311001910)",
+      "quoteConfidence": "High — exact official assessment on raw object 018; government custody authenticates the report, not the object’s identity.",
+      "heroFact": "Three Southern Railway employees described a green, tadpole-like object with a yellow glowing trail near Pine Grove; Robins AFB said the description had meteor characteristics.",
+      "significance": "Moderate significance — complete official report with three co-witnesses, weather detail, and a qualified meteor assessment, but no instrumental or physical evidence.",
+      "sourceQuality": "Primary source — complete three-page Robins AFB Air Intelligence Information Report, raw objects 016–018, in NARA NAID 311001910.",
       "sourceLabel": "AIIRs 1957 / NARA",
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018",
       "relatedCaseIds": [
         "BF-1957-NC-01",
         "BF-1957-B47-01",
@@ -24616,90 +24838,92 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "21 AUG 1957",
+        "dateLabel": "09 MAR 1957",
         "year": 1957,
-        "startDateTime": null,
+        "startDateTime": "1957-03-09T07:14:00Z",
         "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
+        "timezone": "UTC",
+        "durationSeconds": 60,
         "durationRangeSeconds": null,
-        "precision": "day",
+        "precision": "minute",
         "eventForm": "single-event"
       },
       "geospatial": {
         "geometry": {
           "type": "Point",
           "coordinates": [
-            -83.5083,
-            32.5125
+            -82.447,
+            31.813
           ]
         },
         "role": "event-location",
-        "precision": "site/city",
-        "uncertaintyKm": 2,
-        "basis": "AIIR coordinates 32°30′45″N, 83°30′30″W; Warner Robins, one mile west of Robins AFB"
+        "precision": "community/approximate",
+        "uncertaintyKm": 15,
+        "basis": "AIIR names Pine Grove, Georgia; mapped approximately to the GNIS Pine Grove community in Appling County on the Macon–Brunswick rail corridor"
       },
       "sourceRecords": [
         {
-          "citation": "AIIRS-1957 · Robins AFB report, August 21, 1957",
+          "citation": "AIIRS-1957 · Robins AFB Air Intelligence Information Report, 10 March 1957",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "Robins Air Force Base; assessment by Captain Jerry E. Moore, USAF, Airdrome Officer",
-          "locator": "AIIRs 1957 compilation, raw objects 055–057 of 301; official assessment on object 057",
+          "provenance": "Robins Air Force Base, Georgia; report date 10 March 1957; official NARA file unit NAID 311001910",
+          "locator": "AIIRs 1957 compilation, raw objects 016–018 of 301; assessment on object 018",
           "url": "https://catalog.archives.gov/id/311001910",
           "supports": [
-            "single-civilian-ground-visual-witness",
-            "white-star-shaped-object",
-            "erratic-motion",
-            "ten-minute-duration",
-            "high-speed-southeast-arc",
-            "b57-aircraft-cross-check",
-            "official-venus-or-jupiter-assessment"
+            "three-civilian-railway-co-witnesses",
+            "green-chord-with-handle-or-tadpole-shape",
+            "yellow-glowing-tail",
+            "straight-level-southwest-to-northeast-course",
+            "approximately-one-minute-duration",
+            "official-meteor-characteristics-assessment"
           ],
           "limitations": [
-            "single-witness",
+            "co-witnesses-shared-one-train-setting",
             "no-photographic-evidence",
             "no-instrument-record",
-            "nearby-aircraft-did-not-corroborate-object",
+            "estimated-distance-and-speed",
             "no-follow-up-analysis-in-packet"
           ]
         }
       ],
       "phenomena": {
         "shapes": [
-          "star-shaped"
+          "chord-with-handle",
+          "tadpole-shaped"
         ],
         "objectCount": 1,
-        "luminosity": "white",
+        "luminosity": "green object with yellow glowing tail",
         "motion": [
-          "erratic-back-and-forth",
-          "high-speed-southeast-arc",
-          "direct-descent-beyond-horizon"
+          "straight-and-level",
+          "southwest-to-northeast",
+          "approximately-jet-speed"
         ],
         "effects": []
       },
       "observation": {
-        "witnessCount": 1,
+        "witnessCount": 3,
         "witnessRoles": [
-          "civilian service-station operator"
+          "Southern Railway engineer",
+          "Southern Railway brakeman",
+          "Southern Railway fireman"
         ],
         "sensors": [
           "unaided-visual"
         ],
-        "durationSeconds": 600,
+        "durationSeconds": 60,
         "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
-        "domain": "CIVILIAN / BASE-ADJACENT",
-        "status": "AIIR — PROBABLE ASTRONOMICAL",
-        "confidence": "CONFIRMED RECORD / LIMITED CORROBORATION"
+        "domain": "CIVILIAN / RAILWAY",
+        "status": "AIIR — METEOR CHARACTERISTICS",
+        "confidence": "CONFIRMED RECORD / THREE CO-WITNESSES"
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png",
+        "src": "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-016.png",
         "mediaType": "image",
         "visualType": "archival-document",
-        "caption": "Robins AFB Air Intelligence Information Report dated August 21, 1957.",
-        "provenance": "NARA NAID 311001910, raw object 055",
+        "caption": "First page of the Robins AFB Air Intelligence Information Report dated 10 March 1957.",
+        "provenance": "NARA NAID 311001910, raw object 016",
         "evidenceStatus": "Primary archival document; not event imagery.",
         "isEventEvidence": false
       },

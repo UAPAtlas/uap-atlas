@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "caseId": "BF-1996-VG-01",
+  "record": {
+    "custodian": "Arquivo Nacional do Brasil / SIAN",
+    "reference": "BR_DFANBSB_ARX_0_0_0443_d0001de0001",
+    "sourceUrl": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf",
+    "publication": "IstoÉ",
+    "date": "1996-05-22",
+    "printedPages": "29-32",
+    "title": "O Caso do ET de Varginha",
+    "byline": "Luiza Villamea",
+    "sourcePdfBytes": 1944316,
+    "sourcePdfSha256": "c60afc5b41b9717e3cad02cd3294df94087a8b7ee353f54c9abd98332c524c51"
+  },
+  "selectedObjects": [
+    {"file":"ISTOE-1996-05-22-page-29.jpg","sha256":"3f09ceb698b281b920e53f68e17b132e627d7ce3c2b2e4c847b99048cb09928d","printedPage":29},
+    {"file":"ISTOE-1996-05-22-page-30.jpg","sha256":"d4a3ecaaeea7298bce3d46b809690b84a76423bca078e5f643142b9f72272131","printedPage":30},
+    {"file":"ISTOE-1996-05-22-page-31.jpg","sha256":"16d3b56d902d299afd989e1b46e7ec0b48be6716d517af8c5364d845b7fad1f6","printedPage":31},
+    {"file":"ISTOE-1996-05-22-page-32.jpg","sha256":"2d9361fac40a1290183f3a1b05daa8f5412eacdd49400a7ccf2a0e9f74781a37","printedPage":32}
+  ],
+  "custody": "Exact source PDF retained in private durable source intake; public JPEGs are direct 120 dpi renders of all four pages.",
+  "limitations": "Official archival custody of a contemporaneous magazine article, not an official military or medical case file. The article reports witness claims, ufologist allegations, and explicit Army denials; it does not authenticate a creature, capture, transport, or recovered body."
+}

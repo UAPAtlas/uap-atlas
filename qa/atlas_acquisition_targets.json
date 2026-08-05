@@ -11,7 +11,9 @@
       "priorityScore": 100,
       "legacyWeaknessScore": 40,
       "reasons": [
-        "missing authenticated original"
+        "missing authenticated original",
+        "declared acquisition target: Authenticated Walters original negatives, first-generation prints, and complete camera/processing custody",
+        "declared acquisition target: Publicly released digital objects from Rice MS 0706 Box 11 Folder 12 or another institutional first-generation holding"
       ],
       "sourceProfile": "thin-summary",
       "sourceRecords": 2,
@@ -45,6 +47,27 @@
       "quoteConfidence": "High transcription confidence \u2014 page-verified quotation from a derivative scan; the publication is not the original interview archive."
     },
     {
+      "id": "BF-1933-MG-01",
+      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 95,
+      "legacyWeaknessScore": 35,
+      "reasons": [
+        "missing first-party custody",
+        "declared acquisition target: Original RS/33 documents with verifiable Italian state-archive accession and physical custody",
+        "declared acquisition target: Contemporaneous Italian government, military, intelligence, or recovery records specific to an alleged 1933 craft"
+      ],
+      "sourceProfile": "secondary-only",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 6,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 2,
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later research trail. A recovered contemporaneous Domenica del Corriere clipping documents a lightning strike near Magenta, not a UFO crash or recovery; no first-party Italian state file or physical custody is recovered.",
+      "quoteConfidence": "High transcription confidence for the contemporaneous lightning caption; low confidence for the separate RS/33 recovery claim because its anonymous document cache lacks first-party provenance."
+    },
+    {
       "id": "BF-1975-TW-01",
       "title": "Travis Walton Abduction Report",
       "domain": "CLAIM / CONTROVERSIAL",
@@ -52,7 +75,9 @@
       "priorityScore": 95,
       "legacyWeaknessScore": 35,
       "reasons": [
-        "incomplete official packet"
+        "incomplete official packet",
+        "declared acquisition target: Navajo County Sheriff missing-person, dispatch, search, interview, and incident records",
+        "declared acquisition target: Original polygraph charts, examiner worksheets, and authenticated testing custody"
       ],
       "sourceProfile": "secondary-only",
       "sourceRecords": 3,
@@ -64,42 +89,24 @@
       "quoteConfidence": "Medium \u2014 the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped."
     },
     {
-      "id": "BF-1990-CV-01",
-      "title": "Calvine Photograph",
-      "domain": "HISTORICAL / AERIAL",
+      "id": "BF-1996-VG-01",
+      "title": "Varginha Creature Narrative",
+      "domain": "CLAIM / CONTROVERSIAL",
       "category": "acquisition_target",
       "priorityScore": 95,
       "legacyWeaknessScore": 35,
       "reasons": [
-        "missing authenticated original"
+        "declared acquisition target: Brazilian military, police, fire-service, and hospital records specific to the January 1996 allegations",
+        "declared acquisition target: Authenticated capture, transport, medical, pathology, or physical-custody records"
       ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 4,
-      "evidenceAssets": 3,
-      "sourceQuality": "Surviving-print public trail with Sheffield Hallam/Craig Lindsay custody attribution; original negative and reported remaining prints unavailable.",
-      "quoteConfidence": "Medium \u2014 public record/reporting anchored to surviving print trail; not original-negative verified."
-    },
-    {
-      "id": "BF-1933-MG-01",
-      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "acquisition_target",
-      "priorityScore": 90,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "missing first-party custody"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
-      "quoteConfidence": "Low-medium \u2014 claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified."
+      "sourceProfile": "secondary-only",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 9,
+      "publicSourceUrls": 5,
+      "evidenceAssets": 5,
+      "sourceQuality": "Complete contemporaneous Isto\u00c9 press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
+      "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread."
     },
     {
       "id": "BF-1966-WS-01",
@@ -109,7 +116,9 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "unrecovered record or packet"
+        "unrecovered record or packet",
+        "declared acquisition target: RAAF, police, school-administration, or Department of Civil Aviation incident records specific to Westall",
+        "declared acquisition target: Original witness statements, drawings, photographs, film, and investigator files with first-generation custody"
       ],
       "sourceProfile": "secondary-only",
       "sourceRecords": 1,
@@ -128,7 +137,9 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "primary pages not fully mapped"
+        "primary pages not fully mapped",
+        "declared acquisition target: Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
+        "declared acquisition target: DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
       ],
       "sourceProfile": "thin-summary",
       "sourceRecords": 2,
@@ -147,7 +158,9 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "incomplete official packet"
+        "incomplete official packet",
+        "declared acquisition target: Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
+        "declared acquisition target: Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
       ],
       "sourceProfile": "thin-summary",
       "sourceRecords": 1,
@@ -166,7 +179,9 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "native agency material unavailable"
+        "native agency material unavailable",
+        "declared acquisition target: Native 2014 Chilean Navy WESCAM/FLIR master with embedded telemetry and complete metadata",
+        "declared acquisition target: Complete CEFAA/SEFAA analyst case file, aircraft position/orientation data, and sensor chain of custody"
       ],
       "sourceProfile": "thin-summary",
       "sourceRecords": 2,
@@ -185,16 +200,17 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "missing authenticated original"
+        "declared acquisition target: Original alleged Victor tape or production master with authenticated transfer and duplication history",
+        "declared acquisition target: Verifiable Victor identity/access evidence and Rocket Pictures production/forensic records"
       ],
       "sourceProfile": "thin-summary",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 5,
+      "publicSourceUrls": 4,
       "evidenceAssets": 2,
-      "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
-      "quoteConfidence": "Low-medium \u2014 public release history is documented, but the footage provenance rests on an anonymous source."
+      "sourceQuality": "Rocket Pictures / Victor public-release trail plus a verified full-program Internet Archive copy; the anonymous source, original alleged tape, production master, and agency custody remain unverified.",
+      "quoteConfidence": "High for the documented 1997 public-release artifact; low for the alleged Area 51 provenance and authenticity, which remain unsupported by an original tape or verifiable transfer chain."
     },
     {
       "id": "BF-1965-KB-01",
@@ -204,7 +220,9 @@
       "priorityScore": 85,
       "legacyWeaknessScore": 25,
       "reasons": [
-        "unrecovered record or packet"
+        "unrecovered record or packet",
+        "declared acquisition target: Underlying NASA, Army, USAF, or recovery/transport records specific to Kecksburg",
+        "declared acquisition target: Complete Kean v. NASA litigation and agency search/destruction record packet"
       ],
       "sourceProfile": "secondary-only",
       "sourceRecords": 3,
@@ -216,42 +234,45 @@
       "quoteConfidence": "Mixed \u2014 federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records."
     },
     {
-      "id": "BF-1996-VG-01",
-      "title": "Varginha Creature Narrative",
-      "domain": "CLAIM / CONTROVERSIAL",
+      "id": "BF-1990-CV-01",
+      "title": "Calvine Photograph",
+      "domain": "HISTORICAL / AERIAL",
       "category": "acquisition_target",
-      "priorityScore": 85,
-      "legacyWeaknessScore": 25,
+      "priorityScore": 75,
+      "legacyWeaknessScore": 15,
       "reasons": [
-        "missing first-party custody"
+        "missing authenticated original",
+        "declared acquisition target: Original Calvine negatives and remaining reported photographic frames with first-generation custody",
+        "declared acquisition target: Full-resolution MoD photographic-analysis attachments, routing records, and unwatermarked complete record pages if publicly released"
       ],
-      "sourceProfile": "secondary-only",
+      "sourceProfile": "complete-primary-packet",
       "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 1,
-      "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
-      "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified."
+      "mainSourceRecords": 2,
+      "indexedLinks": 11,
+      "publicSourceUrls": 6,
+      "evidenceAssets": 6,
+      "sourceQuality": "Official MoD public-viewer pages map receipt, staff review, press handling, and return of six negatives to the Scottish Daily Record; Sheffield Hallam documents the surviving-print analysis. The original negatives and remaining reported frames remain unavailable.",
+      "quoteConfidence": "High transcription confidence \u2014 exact page-verified wording from the 14 September 1990 MoD loose minute; the memo records official handling but does not authenticate the photographed object."
     },
     {
       "id": "BF-SF-07",
       "title": "Special File: The Estimate of the Situation",
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "category": "acquisition_target",
-      "priorityScore": 72,
-      "legacyWeaknessScore": 12,
+      "priorityScore": 60,
+      "legacyWeaknessScore": 0,
       "reasons": [
-        "unrecovered record or packet"
+        "declared acquisition target: Original 1948 Estimate of the Situation or an authenticated surviving copy",
+        "declared acquisition target: ATIC/Air Force control-register, routing, withdrawal, destruction, or transfer records establishing the document\u2019s administrative trail"
       ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Ruppelt/Project Sign historical account trail; important early Air Force narrative, but the actual Estimate document is not publicly recovered.",
-      "quoteConfidence": "Medium \u2014 Ruppelt account is public and historically important; exact destroyed/unreleased Estimate text is not page-verified."
+      "sourceProfile": "multi-source-independent",
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 3,
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account. It authenticates his published description and wording, not the missing 1948 Estimate document or its administrative trail.",
+      "quoteConfidence": "High for Ruppelt\u2019s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered."
     }
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "caseId": "BF-SF-07",
+  "record": {
+    "author": "Edward J. Ruppelt",
+    "title": "The Report on Unidentified Flying Objects",
+    "publicationYear": 1956,
+    "projectGutenberg": "https://www.gutenberg.org/ebooks/17346",
+    "downloadUrl": "https://ia800501.us.archive.org/20/items/FritjofCapraTheTurningPoint/Edward%20J%20Ruppelt%20-%20The%20Report%20on%20Unidentified%20Flying%20Objects.pdf",
+    "sourcePdfBytes": 1110840,
+    "sourcePdfSha256": "e2c58fb71cd0ceff470013968b2d2d1e61fd1875657ef572b8cbe074e94ba911",
+    "quoteLocator": "PDF page 35"
+  },
+  "selectedObject": {
+    "file": "Ruppelt-Report-Estimate-PDF-page-35.png",
+    "sha256": "d4dc2219891678cfc91e29e1a383bf59a89d0bfa780559592907f4000b56425e"
+  },
+  "custody": "Public-domain text edition; exact PDF and extracted text retained in private durable source intake.",
+  "limitations": "The page verifies Ruppelt's published account and exact quotation. It is not the missing 1948 Estimate document and does not independently establish its complete text, authorship, routing, approval, or destruction."
+}

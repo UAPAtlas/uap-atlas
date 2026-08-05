@@ -6,9 +6,9 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 834,
-    "publicLocal": 613,
-    "externalPublic": 85,
+    "indexedPaths": 854,
+    "publicLocal": 626,
+    "externalPublic": 92,
     "custodyOnly": 136,
     "unavailable": 0
   },
@@ -170,6 +170,22 @@
       "label": "Public Atlas asset"
     },
     "assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_103.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-selected.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-112.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-113.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/CALVINE/TNA-DEFE-24-1940-viewer-page-114.jpg": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -2225,15 +2241,15 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-055.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-016.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-056.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-017.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
-    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-057.png": {
+    "assets/evidence/ROBINS-1957/ROBINS-1957_aiirs1957_raw-object-018.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
     },
@@ -2801,6 +2817,42 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/ESTIMATE-1948/Ruppelt-public-domain.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-31.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-32.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/VARGINHA-1996/SIAN-ISTOE-1996-05-22.provenance.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
     "http://ufoevidence.org/Cases/case127.htm": {
       "status": "external-public",
       "label": "External public source",
@@ -2811,7 +2863,17 @@
       "label": "External public source",
       "host": "apps.dtic.mil"
     },
+    "https://archive.org/details/area-51-the-alien-interview-1997": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "archive.org"
+    },
     "https://archive.org/details/jal1628": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "archive.org"
+    },
+    "https://archive.org/details/ufo-crash-at-vergiate": {
       "status": "external-public",
       "label": "External public source",
       "host": "archive.org"
@@ -2891,12 +2953,22 @@
       "label": "External public source",
       "host": "cufos.org"
     },
+    "https://discovery.nationalarchives.gov.uk/details/r/C10130124": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "discovery.nationalarchives.gov.uk"
+    },
     "https://discovery.nationalarchives.gov.uk/details/r/C2505380": {
       "status": "external-public",
       "label": "External public source",
       "host": "discovery.nationalarchives.gov.uk"
     },
     "https://discovery.nationalarchives.gov.uk/details/r/C4099443": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "discovery.nationalarchives.gov.uk"
+    },
+    "https://discovery.nationalarchives.gov.uk/image/getthumbnail/C10130124": {
       "status": "external-public",
       "label": "External public source",
       "host": "discovery.nationalarchives.gov.uk"
@@ -2926,6 +2998,11 @@
       "label": "External public source",
       "host": "documents2.theblackvault.com"
     },
+    "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "imagem.sian.an.gov.br"
+    },
     "https://imagem.sian.an.gov.br/acervo/derivadas/br_dfanbsb_v8/mic/gnc/kkk/83003252/br_dfanbsb_v8_mic_gnc_kkk_83003252_d0001de0001.pdf": {
       "status": "external-public",
       "label": "External public source",
@@ -2945,6 +3022,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "sgp.fas.org"
+    },
+    "https://shura.shu.ac.uk/34877/1/Robinson-PhotographicAnalysisVersion5(VoR).pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "shura.shu.ac.uk"
     },
     "https://sites.usnh.edu/archivalanalysis/hill-collection-overview/": {
       "status": "external-public",
@@ -3165,6 +3247,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.fold3.com"
+    },
+    "https://www.gutenberg.org/ebooks/17346": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.gutenberg.org"
     },
     "https://www.hsdl.org/c/view?docid=895849": {
       "status": "external-public",

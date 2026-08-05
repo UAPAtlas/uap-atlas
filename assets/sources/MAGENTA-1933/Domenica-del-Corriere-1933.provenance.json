@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "caseId": "BF-1933-MG-01",
+  "record": {
+    "itemUrl": "https://archive.org/details/ufo-crash-at-vergiate",
+    "fileUrl": "https://archive.org/download/ufo-crash-at-vergiate/UFO%20crash%20at%20Vergiate.pdf",
+    "uploaderCreator": "Alfredo Lissoni",
+    "fileCreated": "2023-04-09",
+    "sourcePdfBytes": 701573,
+    "sourcePdfSha256": "43c158074a7b586dbaeb34149694def73e8260b747f5c8041046f71192b7b892",
+    "embeddedClipping": "Domenica del Corriere, handwritten locator 9 July 1933, p. 16"
+  },
+  "selectedObject": {
+    "file": "Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg",
+    "sha256": "1efd5d63a9fdf2703a4c9c2ee92a84974ccf262ca0a53a39c6343f88d27d09eb"
+  },
+  "custody": "Public Internet Archive reproduction uploaded by Alfredo Lissoni; exact PDF retained in private durable source intake.",
+  "limitations": "The embedded contemporaneous caption describes five workers struck by lightning between Novara and Magenta, one seriously injured. It does not mention a UFO, crash, recovered craft, RS/33, or state custody. The reproduction therefore constrains rather than corroborates the alleged recovery narrative."
+}

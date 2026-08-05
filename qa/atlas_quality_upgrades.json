@@ -99,25 +99,6 @@
       "quoteConfidence": "confirmed primary-source quotation"
     },
     {
-      "id": "BF-1957-RA-01",
-      "title": "Robins AFB \u2014 Star-shaped Object over Warner Robins",
-      "domain": "CIVILIAN / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 055\u2013057.",
-      "quoteConfidence": "High \u2014 exact official assessment on raw object 057; the witness name is redacted in the archival scan and bracketed here."
-    },
-    {
       "id": "BF-1985-PNG-01",
       "title": "Papua New Guinea \u2014 High-Altitude Overflights",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -558,6 +539,25 @@
       "evidenceAssets": 2,
       "sourceQuality": "Primary record",
       "quoteConfidence": "verbatim-document-quote"
+    },
+    {
+      "id": "BF-1957-RA-01",
+      "title": "Robins AFB Report \u2014 Pine Grove Railway Sighting",
+      "domain": "CIVILIAN / AERIAL",
+      "category": "quality_upgrade",
+      "priorityScore": 20,
+      "legacyWeaknessScore": 0,
+      "reasons": [
+        "generic sourceQuality needs provenance detail"
+      ],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 016\u2013018, in NARA NAID 311001910.",
+      "quoteConfidence": "High \u2014 exact official assessment on raw object 018; government custody authenticates the report, not the object\u2019s identity."
     },
     {
       "id": "BF-1957-RB-01",

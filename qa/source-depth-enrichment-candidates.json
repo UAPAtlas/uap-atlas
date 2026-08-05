@@ -199,6 +199,32 @@
     ]
   },
   {
+    "id": "BF-1933-MG-01",
+    "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+    "score": 35,
+    "sourceRecords": 3,
+    "indexedLinks": 6,
+    "publicSourceUrls": 4,
+    "evidenceAssets": 2,
+    "sourceQuality": "Anonymous RS/33 document-chain claim plus later research trail. A recovered contemporaneous Domenica del Corriere clipping documents a lightning strike near Magenta, not a UFO crash or recovery; no first-party Italian state file or physical custody is recovered.",
+    "quoteConfidence": "High transcription confidence for the contemporaneous lightning caption; low confidence for the separate RS/33 recovery claim because its anonymous document cache lacks first-party provenance.",
+    "sourceProfile": {
+      "label": "secondary-only",
+      "primaryRecords": 0,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record",
+        "press"
+      ]
+    },
+    "reasons": [
+      "source profile=secondary-only",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-1947-KA-01",
     "title": "Kenneth Arnold Mount Rainier Sighting",
     "score": 35,
@@ -274,51 +300,28 @@
     ]
   },
   {
-    "id": "BF-1990-CV-01",
-    "title": "Calvine Photograph",
+    "id": "BF-1996-VG-01",
+    "title": "Varginha Creature Narrative",
     "score": 35,
-    "sourceRecords": 1,
-    "indexedLinks": 4,
-    "publicSourceUrls": 4,
-    "evidenceAssets": 3,
-    "sourceQuality": "Surviving-print public trail with Sheffield Hallam/Craig Lindsay custody attribution; original negative and reported remaining prints unavailable.",
-    "quoteConfidence": "Medium \u2014 public record/reporting anchored to surviving print trail; not original-negative verified.",
+    "sourceRecords": 3,
+    "indexedLinks": 9,
+    "publicSourceUrls": 5,
+    "evidenceAssets": 5,
+    "sourceQuality": "Complete contemporaneous Isto\u00c9 press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
+    "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread.",
     "sourceProfile": {
-      "label": "thin-summary",
+      "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:craig lindsay / sheffield hallam / david clarke public release trail"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "flagship/contradiction case"
-    ]
-  },
-  {
-    "id": "BF-1933-MG-01",
-    "title": "Magenta 1933 / Gabinetto RS/33 Claim",
-    "score": 30,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Anonymous RS/33 document-chain claim plus later Grusch-citation/public research trail; no first-party Italian state file or physical custody recovered.",
-    "quoteConfidence": "Low-medium \u2014 claim is public and historically specific, but the document cache provenance is anonymous and not first-party verified.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
+      "secondaryRecords": 2,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record"
+        "press"
       ]
     },
     "reasons": [
-      "source profile=thin-summary"
+      "source profile=secondary-only",
+      "quote confidence needs verification upgrade"
     ]
   },
   {
@@ -545,29 +548,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary"
-    ]
-  },
-  {
-    "id": "BF-1957-RA-01",
-    "title": "Robins AFB \u2014 Star-shaped Object over Warner Robins",
-    "score": 30,
-    "sourceRecords": 1,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 055\u2013057.",
-    "quoteConfidence": "High \u2014 exact official assessment on raw object 057; the witness name is redacted in the archival scan and bracketed here.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
       ]
     },
     "reasons": [
@@ -1225,18 +1205,19 @@
     "id": "BF-SF-06",
     "title": "Special File: 'Alien Interview' / Victor Tape",
     "score": 30,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 3,
+    "sourceRecords": 3,
+    "indexedLinks": 5,
+    "publicSourceUrls": 4,
     "evidenceAssets": 2,
-    "sourceQuality": "Rocket Pictures / Victor public-release trail plus later media analysis; anonymous source and original tape custody remain unverified.",
-    "quoteConfidence": "Low-medium \u2014 public release history is documented, but the footage provenance rests on an anonymous source.",
+    "sourceQuality": "Rocket Pictures / Victor public-release trail plus a verified full-program Internet Archive copy; the anonymous source, original alleged tape, production master, and agency custody remain unverified.",
+    "quoteConfidence": "High for the documented 1997 public-release artifact; low for the alleged Area 51 provenance and authenticity, which remain unsupported by an original tape or verifiable transfer chain.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
+        "other:internet archive h.264 copy of the full 1997 program; exact 149,946,368-byte file retained with sha-256",
         "other:local atlas audit derived from the current source inventory",
         "other:rocket pictures 1997 release record, victor anonymous-source narrative, public video mirrors, and later media analysis"
       ]
@@ -1451,30 +1432,6 @@
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
         "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only"
-    ]
-  },
-  {
-    "id": "BF-1996-VG-01",
-    "title": "Varginha Creature Narrative",
-    "score": 25,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 1,
-    "sourceQuality": "Witness/press/documentary public trail with Brazilian military-denial context; no first-party capture/medical/military custody packet recovered.",
-    "quoteConfidence": "Low-medium \u2014 public testimony and documentary trail; primary Brazilian records not page-verified.",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "press"
       ]
     },
     "reasons": [
@@ -1723,6 +1680,31 @@
     },
     "reasons": [
       "source profile=mixed-provenance",
+      "flagship/contradiction case"
+    ]
+  },
+  {
+    "id": "BF-1990-CV-01",
+    "title": "Calvine Photograph",
+    "score": 15,
+    "sourceRecords": 2,
+    "indexedLinks": 11,
+    "publicSourceUrls": 6,
+    "evidenceAssets": 6,
+    "sourceQuality": "Official MoD public-viewer pages map receipt, staff review, press handling, and return of six negatives to the Scottish Daily Record; Sheffield Hallam documents the surviving-print analysis. The original negatives and remaining reported frames remain unavailable.",
+    "quoteConfidence": "High transcription confidence \u2014 exact page-verified wording from the 14 September 1990 MoD loose minute; the memo records official handling but does not authenticate the photographed object.",
+    "sourceProfile": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:craig lindsay / sheffield hallam / david clarke public release trail",
+        "other:uk ministry of defence record preserved by the national archives (uk), discovery c10130124; exact low-resolution public-viewer objects retained with hashes"
+      ]
+    },
+    "reasons": [
+      "quote confidence needs verification upgrade",
       "flagship/contradiction case"
     ]
   },
@@ -2527,30 +2509,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
-    "id": "BF-SF-07",
-    "title": "Special File: The Estimate of the Situation",
-    "score": 12,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Ruppelt/Project Sign historical account trail; important early Air Force narrative, but the actual Estimate document is not publicly recovered.",
-    "quoteConfidence": "Medium \u2014 Ruppelt account is public and historically important; exact destroyed/unreleased Estimate text is not page-verified.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:edward j. ruppelt 1956 public account, project sign historical trail, and later ufo-history citations",
-        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "reasons": [

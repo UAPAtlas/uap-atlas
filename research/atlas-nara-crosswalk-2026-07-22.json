@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T17:46:48-04:00",
+  "generatedAt": "2026-08-04T22:37:17-04:00",
   "method": {
     "exactRule": "Explicit NAID/catalog identifier in case data, source index, or case-linked local manifest/file name.",
     "candidateRule": "Same-year distinctive token overlap against the sampled 4602D AISS inventory; leads are never promoted to exact mappings.",
@@ -8,8 +8,8 @@
   "caseCount": 146,
   "statusCounts": {
     "exact-naid": 22,
-    "no-exact-nara-mapping": 114,
-    "collection-guide-only": 10
+    "no-exact-nara-mapping": 113,
+    "collection-guide-only": 11
   },
   "exactMappedCaseCount": 22,
   "candidateLeadCaseCount": 0,
@@ -85,18 +85,21 @@
       "sourceIndexTokens": [
         "MAGENTA-1933"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 2,
-      "localCustodyFileCount": 3,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
+      "localCustodyFileCount": 5,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "The document cache was reportedly anonymous and lacks a verifiable first-party provenance chain",
         "No original Italian state archive file, accession record, or physical object custody is mapped in the Atlas record",
         "Public case studies and Grusch-era references do not independently authenticate the alleged 1933 recovery",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "The caption describes workers struck by lightning and does not mention a UFO, crash, recovery, RS/33, or recovered craft",
+        "The clipping is a later Lissoni reproduction, not Italian state-archive custody",
+        "It constrains rather than corroborates the alleged recovery narrative"
       ],
       "upgradePriorityScore": 6,
       "upgradeReasons": [
@@ -442,18 +445,20 @@
       "sourceIndexTokens": [
         "ESTIMATE-1948"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 1,
-      "localCustodyFileCount": 4,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 3,
+      "localCustodyFileCount": 6,
       "localPdfCount": 0,
-      "coverageLinks": 5,
+      "coverageLinks": 9,
       "missingRecordClasses": [
         "The actual Estimate document is not publicly recovered or mapped in the Atlas record",
         "Ruppelt’s account is secondhand/historical publication evidence, not the primary Estimate text",
         "Without the original document, wording, authorship, routing, and final disposition remain unresolved",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "Ruppelt’s book is a later insider account, not the 1948 Estimate document",
+        "Does not independently establish the Estimate’s complete text, authorship, routing, approval, or destruction"
       ],
       "upgradePriorityScore": 6,
       "upgradeReasons": [
@@ -2831,8 +2836,8 @@
       "caseId": "BF-1990-CV-01",
       "title": "Calvine Photograph",
       "year": 1990,
-      "sourceLocator": "CALVINE-1990",
-      "mappingStatus": "no-exact-nara-mapping",
+      "sourceLocator": "TNA DEFE 24/1940, Discovery C10130124, public viewer pp. 112–114; SHURA item 34877",
+      "mappingStatus": "collection-guide-only",
       "exactNaids": [],
       "seriesNaids": [],
       "recordGroups": [],
@@ -2841,20 +2846,24 @@
       "sourceIndexTokens": [
         "CALVINE-1990"
       ],
-      "structuredSourceRecords": 1,
-      "publicUrlCount": 4,
-      "localCustodyFileCount": 4,
+      "structuredSourceRecords": 2,
+      "publicUrlCount": 7,
+      "localCustodyFileCount": 8,
       "localPdfCount": 0,
-      "coverageLinks": 8,
+      "coverageLinks": 15,
       "missingRecordClasses": [
         "Not the original negative and not all reported prints",
         "Does not establish object identity or rule out conventional/photographic explanations",
-        "Public reporting and surviving-print custody do not equal a complete MoD investigative file"
+        "Public reporting and surviving-print custody do not equal a complete MoD investigative file",
+        "Public objects are low-resolution watermarked thumbnails, not the unwatermarked file download",
+        "Official receipt and review do not authenticate the photographed object",
+        "Original negatives and remaining reported frames are not recovered",
+        "Adjacent viewer pp. 115–116 are unrelated aerial-phenomena reports and are excluded"
       ],
-      "upgradePriorityScore": 6,
+      "upgradePriorityScore": 5,
       "upgradeReasons": [
-        "one structured source record",
         "no complete local PDF in mapped custody",
+        "NARA collection/guide link only",
         "high-significance dossier"
       ]
     },
@@ -2943,18 +2952,21 @@
       "sourceIndexTokens": [
         "VARGINHA-1996"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 3,
-      "localCustodyFileCount": 3,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 5,
+      "localCustodyFileCount": 8,
       "localPdfCount": 0,
-      "coverageLinks": 6,
+      "coverageLinks": 13,
       "missingRecordClasses": [
         "No first-party capture record, hospital medical file, military transport log, or physical custody chain is mapped",
         "Many key claims remain witness/documentary based or anonymous-source based",
         "Public Brazilian military/official denials and absence of released custody records remain controlling limitations",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "A magazine article is not a military investigation, medical record, capture record, or physical custody chain",
+        "Reported witness and ufologist claims are not independently authenticated by archival custody of the article",
+        "The article records Army denials and does not establish a recovered creature or craft"
       ],
       "upgradePriorityScore": 2,
       "upgradeReasons": [
@@ -3098,18 +3110,21 @@
       "sourceIndexTokens": [
         "VICTOR-1997"
       ],
-      "structuredSourceRecords": 2,
-      "publicUrlCount": 3,
+      "structuredSourceRecords": 3,
+      "publicUrlCount": 4,
       "localCustodyFileCount": 4,
       "localPdfCount": 0,
-      "coverageLinks": 7,
+      "coverageLinks": 8,
       "missingRecordClasses": [
         "Victor’s identity, access, and transfer chain are unverified",
         "No original tape, agency file, production record, or forensic master is mapped",
         "Public mirrors and media analysis do not establish authenticity or non-human origin",
         "not an independent source",
         "does not corroborate the event narrative",
-        "cannot substitute for missing primary records"
+        "cannot substitute for missing primary records",
+        "Internet Archive custody is not Rocket Pictures production-master or alleged agency-tape custody",
+        "Victor’s identity and access remain unverified",
+        "The program does not establish authenticity or non-human origin"
       ],
       "upgradePriorityScore": 4,
       "upgradeReasons": [
@@ -4956,9 +4971,9 @@
     },
     {
       "caseId": "BF-1957-RA-01",
-      "title": "Robins AFB — Star-shaped Object over Warner Robins",
+      "title": "Robins AFB Report — Pine Grove Railway Sighting",
       "year": 1957,
-      "sourceLocator": "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057",
+      "sourceLocator": "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018",
       "mappingStatus": "exact-naid",
       "exactNaids": [
         "311001910"
@@ -4979,7 +4994,7 @@
       ],
       "candidateAissLeads": [],
       "sourceIndexTokens": [
-        "AIIRS-1957, NAID 311001910, Warner Robins raw objects 055-057"
+        "AIIRS-1957, NAID 311001910, Robins AFB raw objects 016-018"
       ],
       "structuredSourceRecords": 1,
       "publicUrlCount": 1,
@@ -4987,10 +5002,10 @@
       "localPdfCount": 0,
       "coverageLinks": 4,
       "missingRecordClasses": [
-        "single-witness",
+        "co-witnesses-shared-one-train-setting",
         "no-photographic-evidence",
         "no-instrument-record",
-        "nearby-aircraft-did-not-corroborate-object",
+        "estimated-distance-and-speed",
         "no-follow-up-analysis-in-packet"
       ],
       "upgradePriorityScore": 3,

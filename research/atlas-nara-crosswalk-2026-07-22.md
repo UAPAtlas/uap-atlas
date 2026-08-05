@@ -1,6 +1,6 @@
 # Atlas-to-NARA Evidence Crosswalk
 
-**Generated:** 2026-08-04T17:46:48-04:00
+**Generated:** 2026-08-04T22:37:17-04:00
 **Atlas cases:** 146
 **Exact NAID mappings:** 22
 **Cases with candidate AISS leads:** 0
@@ -9,9 +9,9 @@
 
 | Status | Cases |
 |---|---:|
-| collection-guide-only | 10 |
+| collection-guide-only | 11 |
 | exact-naid | 22 |
-| no-exact-nara-mapping | 114 |
+| no-exact-nara-mapping | 113 |
 
 ## First 10 evidence-depth upgrades
 

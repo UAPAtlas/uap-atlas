@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "caseId": "BF-1990-CV-01",
+  "record": {
+    "title": "UFO reports; with redactions",
+    "reference": "DEFE 24/1940",
+    "discoveryId": "C10130124",
+    "publisher": "The National Archives (UK)",
+    "catalogUrl": "https://discovery.nationalarchives.gov.uk/details/r/C10130124",
+    "publicViewerEndpoint": "https://discovery.nationalarchives.gov.uk/image/getthumbnail/C10130124",
+    "viewerObjectCount": 156,
+    "retrievedAt": "2026-08-04T21:44:55-04:00"
+  },
+  "selectedObjects": [
+    {
+      "viewerPage": 112,
+      "arrayIndex": 111,
+      "objectId": "66/DEFE/24/8849BB08-4D60-11E8-9EB2-974FD881634A_thb.jpg",
+      "file": "TNA-DEFE-24-1940-viewer-page-112.jpg",
+      "bytes": 14292,
+      "sha256": "36773addf92f394c0ba6f2a708969c8216c9d0aaa891525ffdc32bcf95822df7",
+      "description": "Handwritten Calvine incident summary with reported event, witness routing, weather, and photographic follow-up fields."
+    },
+    {
+      "viewerPage": 113,
+      "arrayIndex": 112,
+      "objectId": "66/DEFE/24/889034E8-4D60-11E8-9EB2-974FD881634A_thb.jpg",
+      "file": "TNA-DEFE-24-1940-viewer-page-113.jpg",
+      "bytes": 15727,
+      "sha256": "a41a964178d7fef3a659567de4ac06c7c2a748d244470586d41621318bd07ad1",
+      "description": "14 September 1990 MoD loose minute concerning Calvine photographs supplied by the Scottish Daily Record."
+    },
+    {
+      "viewerPage": 114,
+      "arrayIndex": 113,
+      "objectId": "66/DEFE/24/88D521C0-4D60-11E8-9EB2-974FD881634A_thb.jpg",
+      "file": "TNA-DEFE-24-1940-viewer-page-114.jpg",
+      "bytes": 8387,
+      "sha256": "c14f11ef33ddd94ac71e3696dda534f2d29d538ca33416701784df8c086bc69e",
+      "description": "MoD defensive press lines for the Scottish Daily Record photographs."
+    }
+  ],
+  "custody": "Exact JPEG bytes decoded from the public TNA viewer's base64 thumbnail objects; complete inventory and OCR retained in private durable source intake.",
+  "limitations": "Low-resolution public viewer thumbnails, not the unwatermarked record download. Pages 115-116 are unrelated adjacent reports and were intentionally excluded. The selected pages authenticate MoD receipt, staff review, press handling, and return of six negatives to the Scottish Daily Record; they do not authenticate the photographed object or recover the original negatives."
+}

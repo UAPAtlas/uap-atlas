@@ -18,7 +18,7 @@ A follow-up independent audit found that the NARA unit contains duplicate scans 
 | `BF-1957-CG-01` — Cigar-Y / Sand Point | `015` | One-page report; Sand Point, Michigan location |
 | `BF-1957-B47-01` — Eglin B-47 acceleration | `019–021` | Complete report; quotation on `020` |
 | `BF-1957-HT-01` — Hastings | `048–054` | Official report `048–050`, transmittal `051`, complete witness statement `052–054`; quotation on `049` |
-| `BF-1957-RA-01` — Warner Robins | `055–057` | Complete three-page Robins AFB report; official Venus/Jupiter assessment on `057` |
+| `BF-1957-RA-01` — Robins AFB / Pine Grove railway sighting | `016–018` | Complete three-page Robins AFB report; official meteor-characteristics assessment on `018` |
 | `BF-1957-NC-01` — Northern California radar skinpaint | `058–064` | AIIR `058`, routing `059–060`, control roster `061`, scope log `062`, operator statement `063`, route plot `064` |
 
 ## Duplicate-run reconciliation
@@ -35,9 +35,9 @@ The inherited Robins dossier mixed three separate AIIR packets:
 2. `016–018` — Pine Grove railway-observer report.
 3. `055–057` — Warner Robins star-shaped-object report, one mile west of Robins AFB.
 
-Because the canonical case is the Robins AFB dossier, it now maps only to `055–057`. Its summary, coordinates, witness model, quotation, official assessment, taxonomy, phenomena fields, timeline language, source record, and visual treatment were rebuilt from that packet. The old generic saucer reconstruction was removed from the case gallery because it did not depict the source account.
+Following object-identity review, the canonical `BF-1957-RA-01` dossier maps only to the coherent Robins-origin packet at `016–018`: the Pine Grove railway-observer report. Its date, location, witness model, quotation, official assessment, taxonomy, phenomena fields, timeline language, source record, and visual treatment were rebuilt from those three pages. Objects `055–057` are a distinct later Warner Robins civilian report and are intentionally not assigned to this case; their unsupported narrative and images must not be restored here.
 
-The corrected official conclusion is presented with its counterevidence: a nearby B-57 pilot reported seeing only two planets, and Captain Jerry E. Moore assessed that the witness probably mistook Venus or Jupiter for a piloted object. The Atlas does not recast this case as unresolved.
+The corrected packet records three Southern Railway co-witnesses who described a green chord-with-handle or tadpole-shaped object with a yellow glowing trail for about one minute. Major John W. Porter recorded that the witnesses did not perceive a comet or meteor, while judging that the description indicated meteor characteristics.
 
 ## Provenance rules applied
 
