@@ -58,6 +58,14 @@ requireMatch(
   /getElementById\('peekOpen'\)\?\.addEventListener\('click',\(\)=>setMobilePage\('dossier'\)\)/.test(mobile),
   'mobile map peek must retain an explicit dossier-opening action'
 );
+requireMatch(
+  /openFullCase=function\(id\)\{[\s\S]*?mobilePage='dossier';[\s\S]*?updateUrl\(\);[\s\S]*?\};/.test(mobile),
+  'mobile dossier opening must persist page=dossier in the URL'
+);
+requireMatch(
+  /data-landscape-exit/.test(mobile) && /querySelector\('\[data-landscape-exit\]'\)\?\.addEventListener\('click',\(\)=>setMobilePage\('cases'\)\)/.test(mobile),
+  'phone-landscape map must retain an explicit route to Cases'
+);
 
 if (failures.length) {
   console.error(`Atlas navigation contract FAILED (${failures.length})`);

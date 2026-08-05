@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 144,
-  "sourceIndexTerms": 210,
-  "sourceIndexFiles": 891,
+  "sourceIndexTerms": 223,
+  "sourceIndexFiles": 1034,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -35,16 +35,16 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 8,
-    "statuses": 9,
-    "confidenceLabels": 9,
-    "agencies": 87
+    "domains": 9,
+    "statuses": 17,
+    "confidenceLabels": 16,
+    "agencies": 88
   },
   "normalizedTaxonomy": {
-    "caseTypes": 92,
-    "evidenceModes": 55,
-    "environments": 48,
-    "outcomes": 26
+    "caseTypes": 94,
+    "evidenceModes": 68,
+    "environments": 49,
+    "outcomes": 28
   },
   "geometryTypes": {
     "LineString": 4,
@@ -62,17 +62,23 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 236,
-  "sourceDepthWeakCaseCount": 84,
-  "sourceDepthEnrichmentCandidateCount": 118,
+  "sourceRecordCount": 256,
+  "sourceDepthWeakCaseCount": 58,
+  "sourceDepthEnrichmentCandidateCount": 106,
   "sourceDepthWeakThreshold": 25,
+  "operationalTriageCounts": {
+    "trueGaps": 0,
+    "qualityUpgrades": 25,
+    "acquisitionTargets": 13,
+    "complete": 108
+  },
   "sourceProfileCounts": {
-    "complete-primary-packet": 19,
-    "secondary-only": 18,
-    "multi-source-independent": 11,
-    "thin-summary": 20,
-    "single-primary-record": 77,
-    "mixed-provenance": 1
+    "complete-primary-packet": 32,
+    "secondary-only": 9,
+    "multi-source-independent": 14,
+    "thin-summary": 49,
+    "mixed-provenance": 2,
+    "single-primary-record": 40
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -88,10 +94,11 @@
       "label": "secondary-only",
       "primaryRecords": 0,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record",
+        "press"
       ]
     },
     "BF-1944-FF-01": {
@@ -106,19 +113,20 @@
       ]
     },
     "BF-1946-GR-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
+        "other:official riksarkivet custody context cross-checked against downloaded/hash-checked internet archive pdfs and ocr references",
         "other:swedish national archives public subject/index pages"
       ]
     },
     "BF-1947-KA-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
@@ -126,8 +134,8 @@
       ]
     },
     "BF-1947-MI-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "secondary-only",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -135,8 +143,8 @@
       ]
     },
     "BF-1947-RW-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
+      "label": "mixed-provenance",
+      "primaryRecords": 1,
       "secondaryRecords": 1,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -157,7 +165,7 @@
       ]
     },
     "BF-1948-CW-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
@@ -185,13 +193,14 @@
       ]
     },
     "BF-SF-07": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
+        "other:edward j. ruppelt 1956 public account, project sign historical trail, and later ufo-history citations",
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:project gutenberg public-domain text edition; exact pdf, text, and page render retained with hashes"
       ]
     },
     "BF-1949-LA-00": {
@@ -238,12 +247,15 @@
       ]
     },
     "BF-SF-03": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 4,
       "sourceFamilies": [
-        "other:public-record trail"
+        "academic",
+        "other:arc seibersdorf research paper, publicly hosted by tu dresden",
+        "other:public rexresearch transcription attributed to onr pasadena; first-party onr or nara scan is not atlas-mapped",
+        "usaf-blue-book"
       ]
     },
     "BF-1953-RP-00": {
@@ -266,7 +278,7 @@
       ]
     },
     "BF-1957-LV-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
@@ -275,12 +287,12 @@
       ]
     },
     "BF-SF-04": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:local gr1 proceedings title-page/proceedings file mapped in source index; nara link is collection-guide context rather than exact naid custody"
       ]
     },
     "BF-1958-TR-01": {
@@ -303,9 +315,9 @@
       ]
     },
     "BF-1961-BH-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
@@ -313,8 +325,8 @@
       ]
     },
     "BF-NASA-D015": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -343,8 +355,8 @@
       ]
     },
     "BF-NASA-D016": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -352,8 +364,8 @@
       ]
     },
     "BF-NASA-D017": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -361,8 +373,8 @@
       ]
     },
     "BF-NASA-D019": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -370,8 +382,8 @@
       ]
     },
     "BF-NASA-D020": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -379,8 +391,8 @@
       ]
     },
     "BF-NASA-D021": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -388,27 +400,27 @@
       ]
     },
     "BF-1966-CC-00": {
-      "label": "multi-source-independent",
+      "label": "complete-primary-packet",
       "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:primary source",
+        "private-archive",
         "usaf-blue-book"
       ]
     },
     "BF-1966-WS-01": {
       "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "press"
+        "other:contemporaneous dandenong journal/student sketch material plus state library victoria review and local atlas evidence images"
       ]
     },
     "BF-NASA-D022": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -417,10 +429,11 @@
     },
     "BF-1967-MA-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
+        "other:public long-form interview with former launch officer robert salas",
         "usaf-blue-book"
       ]
     },
@@ -435,8 +448,8 @@
       ]
     },
     "BF-NASA-D018": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -516,8 +529,8 @@
       ]
     },
     "BF-NASA-D001": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -525,8 +538,8 @@
       ]
     },
     "BF-NASA-D004": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -534,8 +547,8 @@
       ]
     },
     "BF-NASA-VM1": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -544,8 +557,8 @@
       ]
     },
     "BF-NASA-VM2": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -554,8 +567,8 @@
       ]
     },
     "BF-NASA-VM3": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -564,8 +577,8 @@
       ]
     },
     "BF-NASA-VM4": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -574,8 +587,8 @@
       ]
     },
     "BF-NASA-VM5": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -592,8 +605,8 @@
       ]
     },
     "BF-NASA-D002": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -601,8 +614,8 @@
       ]
     },
     "BF-NASA-VM6": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -626,7 +639,7 @@
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "press"
       ]
     },
     "BF-1973-SS-01": {
@@ -639,8 +652,8 @@
       ]
     },
     "BF-NASA-D005": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -648,8 +661,8 @@
       ]
     },
     "BF-NASA-D006": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -657,8 +670,8 @@
       ]
     },
     "BF-NASA-D007": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -669,28 +682,29 @@
       "label": "secondary-only",
       "primaryRecords": 0,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources",
+        "press"
       ]
     },
     "BF-SF-13": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:figu/meier photographic corpus, reproduced/model-critiqued images, and public skeptical/ufological analysis"
       ]
     },
     "BF-1976-TH-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:declassified us government record mirrored by nsa"
+        "other:declassified u.s. government record mirrored by nsa and preserved locally as a four-page pdf rendering of a three-page message"
       ]
     },
     "BF-1977-CL-01": {
@@ -708,57 +722,59 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:archives new zealand abhs 6958 w5579 box 227 nyp 3/58/13 part 1 record, public kaikoura image/film trail, and atlas evidence-depth recovery note",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1978-VL-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "secondary-only",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
       ]
     },
     "BF-1980-CLD-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "private-archive"
       ]
     },
     "BF-1980-PE-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:department of defense joint chiefs of staff message center copy; originated by usdao lima, peru; declassified dia collection mirrored by the black vault; atlas-local pdf and page derivative"
       ]
     },
     "BF-1980-RF-01": {
       "label": "multi-source-independent",
-      "primaryRecords": 3,
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:contemporaneous official memorandum by lt col charles i. halt",
-        "other:the national archives collection guide",
-        "other:uk ministry of defence records in defe file series"
+        "other:official memorandum signed by lt col charles i. halt and dated 13 jan 1981",
+        "other:the national archives (uk) collection guide for defe 24/1948/1",
+        "other:uk ministry of defence defe records prepared for 1997 parliamentary questions"
       ]
     },
     "BF-SF-11": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:primary record"
+        "other:afosi records released in a 2 aug 2013 foia response; local 10-page release plus underlying forms",
+        "other:later media interview in which doty says he fed disinformation to bennewitz and others",
+        "other:locally held scan with top secret/mj12-style markings and extraordinary claims; origin and chain of custody not established in the artifact"
       ]
     },
     "BF-1981-TP-01": {
@@ -767,21 +783,22 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:cnes/gepan note technique no.16, enqu\u00eate 81/01 \u2014 analyse d\u2019une trace, with local pdf/page image and official geipan case page"
       ]
     },
     "BF-SF-05": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "fbi"
+        "fbi",
+        "other:later public account that undeveloped film arrived by mail in 1984"
       ]
     },
     "BF-1986-JAL-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -789,12 +806,13 @@
       ]
     },
     "BF-1987-GB-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:public-record trail"
+        "academic",
+        "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
       ]
     },
     "BF-1989-BW-01": {
@@ -808,46 +826,51 @@
       ]
     },
     "BF-SF-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
+      "label": "multi-source-independent",
+      "primaryRecords": 3,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:public-record trail"
+        "cia",
+        "other:official nist and iupac public scientific references",
+        "other:official station retrospective and public video; exact original 1989 broadcast master is not locally held"
       ]
     },
     "BF-1990-CV-01": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:craig lindsay / sheffield hallam / david clarke public release trail",
+        "other:uk ministry of defence record preserved by the national archives (uk), discovery c10130124; exact low-resolution public-viewer objects retained with hashes"
       ]
     },
     "BF-1994-AR-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:public-record trail"
+        "other:cynthia hind / ufo afrinews no. 11; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:cynthia hind / ufo afrinews no. 12; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+        "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
       ]
     },
     "BF-SF-12": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:broadcast record / 2006 admission-interview trail plus local source-preview and evidence-depth audit note",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1996-VG-01": {
       "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 2,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
@@ -855,8 +878,8 @@
       ]
     },
     "BF-NASA-D030": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -864,8 +887,8 @@
       ]
     },
     "BF-NASA-D031": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -873,8 +896,8 @@
       ]
     },
     "BF-NASA-D032": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -891,36 +914,38 @@
       ]
     },
     "BF-SF-06": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
+        "other:internet archive h.264 copy of the full 1997 program; exact 149,946,368-byte file retained with sha-256",
         "other:local atlas audit derived from the current source inventory",
-        "other:public-record trail"
+        "other:rocket pictures 1997 release record, victor anonymous-source narrative, public video mirrors, and later media analysis"
       ]
     },
     "BF-SF-08": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:primary record"
-      ]
-    },
-    "BF-2004-NM-01": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:documentcloud public copy; originating-office chain not stated"
+        "other:cometa report text, english translation, archive.org mirror, and ihedn-associated authorship/context trail"
+      ]
+    },
+    "BF-2004-NM-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:department of defense public media record hosted by dvids; atlas-local webm and frame derivatives",
+        "other:documentcloud public copy with atlas-local pdf/page derivatives; originating-office authorship and release chain are not stated on the document face"
       ]
     },
     "BF-2006-OH-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -938,13 +963,14 @@
       ]
     },
     "BF-SF-09": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 1,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:aaro/department of defense declassified public report",
+        "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2013-AG-01": {
@@ -959,13 +985,13 @@
       ]
     },
     "BF-2014-CH-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "thin-summary",
+      "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:cefaa/chilean navy public-release reporting, uap archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2015-NAV-01": {
@@ -1019,7 +1045,7 @@
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
-        "other:primary record"
+        "other:susan gough email confirmation as quoted by the debrief; uss omaha/date attribution from jeremy corbell; public clip/frame distributed by mystery wire and mirrored on wikimedia"
       ]
     },
     "BF-2020-AG-00": {
@@ -1033,11 +1059,11 @@
     },
     "BF-2020-AS-01": {
       "label": "single-primary-record",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary source"
+        "other:war.gov dow-uap-d44 arabian sea range-fouler record, dow-uap-d56 debrief preview, and atlas source-index page images"
       ]
     },
     "BF-2023-JP-01": {
@@ -1182,11 +1208,11 @@
     },
     "BF-2023-WUS-03": {
       "label": "single-primary-record",
-      "primaryRecords": 2,
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary source"
+        "other:war department/ufo release page plus atlas source-index mappings for dow-uap-d079 through d083 western u.s. event narratives"
       ]
     },
     "BF-SF-10": {
@@ -1195,7 +1221,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:primary record"
+        "other:govinfo house hearing transcript serial 118-53, house oversight hearing page, odni 2021 assessment, and aaro 2024 historical record report vol. 1 local assets"
       ]
     },
     "BF-2023-GR-33": {
@@ -1295,7 +1321,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
       ]
     },
     "BF-1957-B47-01": {
@@ -1304,7 +1330,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "BF-1949-KD-01": {
@@ -1326,8 +1352,8 @@
       ]
     },
     "BF-1965-G7-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1340,7 +1366,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:u.s. army counter intelligence corps, file 342-hs1"
+        "usaf-blue-book"
       ]
     },
     "BF-1949-HF-01": {
@@ -1358,7 +1384,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:1st lt richard h. lane, asst chief intelligence division, eglin afb"
+        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
       ]
     },
     "BF-1954-KL-01": {
@@ -1394,7 +1420,7 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "usaf-blue-book"
+        "other:781st aircraft control and warning squadron, custer afs, battle creek, michigan"
       ]
     },
     "BF-1957-CG-01": {
@@ -1425,8 +1451,8 @@
       ]
     },
     "BF-1957-RA-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1455,179 +1481,171 @@
   },
   "topSourceDepthWeakCases": [
     {
-      "id": "BF-1990-CV-01",
-      "title": "Calvine Photograph",
-      "score": 70,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade",
-        "flagship/contradiction case"
-      ]
-    },
-    {
-      "id": "BF-1933-MG-01",
-      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1961-BH-01",
-      "title": "Betty & Barney Hill Encounter",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "usaf-blue-book"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-1975-TW-01",
-      "title": "Travis Walton Abduction Report",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
       "id": "BF-1987-GB-01",
       "title": "Gulf Breeze Photo Series",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
+      "score": 40,
+      "sourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
       "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
+      "sourceQuality": "Rice University\u2019s Richard F. Haines Ufology Papers provide an exact institutional folder lead\u2014MS 0706, Series VIII, Box 11, Folder 12, \u201cUFO photos: Gulf Breeze, Florida, 1990.\u201d No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
+      "quoteConfidence": "Medium \u2014 the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available.",
       "sourceProfile": {
-        "label": "secondary-only",
+        "label": "thin-summary",
         "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
         "sourceFamilies": [
-          "other:public-record trail"
+          "academic",
+          "other:mufon/photo-series public trail plus pensacola news journal model/hoax controversy coverage"
         ]
       },
       "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
+        "source profile=thin-summary",
         "quote confidence needs verification upgrade"
       ]
     },
     {
       "id": "BF-1994-AR-01",
       "title": "Ariel School Encounter, Ruwa",
-      "score": 65,
-      "sourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 5,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "score": 40,
+      "sourceRecords": 3,
+      "indexedLinks": 10,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 9,
+      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
+      "quoteConfidence": "High transcription confidence \u2014 page-verified quotation from a derivative scan; the publication is not the original interview archive.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 3,
+        "sourceFamilies": [
+          "other:cynthia hind / ufo afrinews no. 11; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "other:cynthia hind / ufo afrinews no. 12; local derivative pdf scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
+          "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1933-MG-01",
+      "title": "Magenta 1933 / Gabinetto RS/33 Claim",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 6,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 2,
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later research trail. A recovered contemporaneous Domenica del Corriere clipping documents a lightning strike near Magenta, not a UFO crash or recovery; no first-party Italian state file or physical custody is recovered.",
+      "quoteConfidence": "High transcription confidence for the contemporaneous lightning caption; low confidence for the separate RS/33 recovery claim because its anonymous document cache lacks first-party provenance.",
       "sourceProfile": {
         "label": "secondary-only",
         "primaryRecords": 0,
         "secondaryRecords": 1,
-        "independentSourceFamilies": 1,
+        "independentSourceFamilies": 3,
         "sourceFamilies": [
-          "other:public-record trail"
+          "other:local atlas audit derived from the current source inventory",
+          "other:pinotti/lissoni rs/33 document-cache reports, public case studies, and later grusch citation record",
+          "press"
         ]
       },
       "reasons": [
         "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1947-KA-01",
+      "title": "Kenneth Arnold Mount Rainier Sighting",
+      "score": 35,
+      "sourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Contemporary Chicago Sun page 2 UPI report dated June 26, 1947, recovered from Chicago Public Library microfilm and preserved with SHA-256 provenance; primary-period reporting of Arnold\u2019s claim, not event evidence or independent corroboration.",
+      "quoteConfidence": "High for the selected source phrase as reproduced in the mapped June 26, 1947 Chicago Sun/UPI clipping; interpretation and exact spoken wording beyond the clipping remain limited.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "score": 35,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary CIA/War.gov Sary Shagan report custody with local page-image/PDF assets; strong intelligence-record provenance, limited to reported observation context.",
+      "quoteConfidence": "High \u2014 primary-source quotation confirmed in mapped CIA-UAP-011 report.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
+      "quoteConfidence": "Medium \u2014 the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 3,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
         "quote confidence needs verification upgrade"
       ]
     },
     {
       "id": "BF-1996-VG-01",
       "title": "Varginha Creature Narrative",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of historical record",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 9,
+      "publicSourceUrls": 5,
+      "evidenceAssets": 5,
+      "sourceQuality": "Complete contemporaneous Isto\u00c9 press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
+      "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread.",
       "sourceProfile": {
         "label": "secondary-only",
         "primaryRecords": 0,
-        "secondaryRecords": 1,
+        "secondaryRecords": 2,
         "independentSourceFamilies": 2,
         "sourceFamilies": [
           "other:local atlas audit derived from the current source inventory",
@@ -1636,88 +1654,76 @@
       },
       "reasons": [
         "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
         "quote confidence needs verification upgrade"
       ]
     },
     {
-      "id": "BF-SF-01",
-      "title": "Special File: Bob Lazar / S-4",
-      "score": 65,
+      "id": "BF-1949-HF-01",
+      "title": "Hickam Field \u2014 Oscillating Object, No Sound",
+      "score": 30,
       "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 3,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 90\u201393.",
       "sourceProfile": {
-        "label": "secondary-only",
+        "label": "thin-summary",
         "primaryRecords": 0,
-        "secondaryRecords": 1,
+        "secondaryRecords": 0,
         "independentSourceFamilies": 1,
         "sourceFamilies": [
-          "other:public-record trail"
+          "other:u.s. army counter intelligence corps, file 342-hs1"
         ]
       },
       "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
+        "source profile=thin-summary"
       ]
     },
     {
-      "id": "BF-SF-06",
-      "title": "Special File: 'Alien Interview' / Victor Tape",
-      "score": 65,
-      "sourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
-      "sourceProfile": {
-        "label": "secondary-only",
-        "primaryRecords": 0,
-        "secondaryRecords": 1,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "other:local atlas audit derived from the current source inventory",
-          "other:public-record trail"
-        ]
-      },
-      "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
-      ]
-    },
-    {
-      "id": "BF-SF-13",
-      "title": "Special File: Billy Meier Contact Corpus",
-      "score": 65,
+      "id": "BF-1949-KD-01",
+      "title": "Kodiak Naval Base 1,500 MPH Object",
+      "score": 30,
       "sourceRecords": 1,
-      "indexedLinks": 2,
+      "indexedLinks": 3,
       "publicSourceUrls": 1,
       "evidenceAssets": 2,
-      "sourceQuality": "Public-record trail",
-      "quoteConfidence": "web article quote \u2014 summary of record",
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 51\u201352.",
       "sourceProfile": {
-        "label": "secondary-only",
+        "label": "thin-summary",
         "primaryRecords": 0,
-        "secondaryRecords": 1,
+        "secondaryRecords": 0,
         "independentSourceFamilies": 1,
         "sourceFamilies": [
-          "other:public-record trail"
+          "other:u.s. army counter intelligence corps, file 342-hs1"
         ]
       },
       "reasons": [
-        "source profile=secondary-only",
-        "empty supports field",
-        "empty limitations field",
-        "quote confidence needs verification upgrade"
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1949-SA-01",
+      "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary restricted USAF 6th Weather Squadron report dated February 17, 1949, preserved in Army CIC file 342-HS1 at pages 75 and 77; includes named ship report, measured bearings, wind analysis, radiosonde assessment, alternative hypothesis, and command routing.",
+      "quoteConfidence": "High \u2014 selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
       ]
     }
   ]

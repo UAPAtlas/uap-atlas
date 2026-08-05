@@ -22,6 +22,7 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
 @media(max-width:1080px){
   body:before{content:none!important;display:none!important;}
   .mobile-only{display:flex!important;}
+  .mobile-landscape-exit{display:none!important;}
   body{background:#020408;}
   .app{
     width:100%;height:100dvh;margin:0;border:0;border-radius:0;box-shadow:none;
@@ -127,12 +128,14 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   body[data-mobile-page="map"] .iconbtn{width:44px;height:44px}
   body[data-mobile-page="map"] .map-title{left:calc(14px + env(safe-area-inset-left));top:13px}
   body[data-mobile-page="map"] svg#atlasSvg{width:100%;margin-left:0;}
+  body[data-mobile-page="map"] .mobile-landscape-exit{display:flex!important;position:fixed;z-index:72;right:calc(12px + env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom));min-width:88px;height:44px;align-items:center;justify-content:center;gap:7px;padding:0 14px;border:1px solid rgba(95,212,242,.32);border-radius:12px;background:rgba(3,7,12,.9);color:#EAFBFF;font:600 11px var(--sans);letter-spacing:.02em;backdrop-filter:blur(18px);box-shadow:0 12px 30px rgba(0,0,0,.38)}
 }
 
 body.map-immersive .app{grid-template-rows:0 minmax(0,1fr)!important;padding:0!important;}
 body.map-immersive .securebar,body.map-immersive .mobile-nav,body.map-immersive .mobile-case-peek{display:none!important;}
 body.map-immersive .map-ui{top:calc(10px + env(safe-area-inset-top));right:calc(10px + env(safe-area-inset-right));}
 body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
+body.map-immersive .mobile-landscape-exit{display:none!important;}
 
 @media(max-width:380px){
   .brand-secondary{display:none}.case-row{grid-template-columns:88px minmax(0,1fr) auto}.row-actions{display:none}.carousel-stage{height:clamp(280px,42vh,330px)}.drawer-navbtn{width:42px}
@@ -184,9 +187,9 @@ MOBILE_HTML_PEEK = r'''<div class="mobile-case-peek mobile-only" id="mobileCaseP
 </div>'''
 
 MOBILE_HTML_NAV = r'''<nav class="mobile-nav mobile-only" aria-label="Atlas pages">
-  <button type="button" data-page="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20Z"/><path d="M9 4v13.5M15 6.5V20"/></svg>Map</button>
-  <button type="button" data-page="cases"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>Cases</button>
-  <button type="button" data-page="dossier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6Z"/><path d="M15 3v4h4M9 11h6M9 15h6"/></svg>Dossier</button>
+  <button type="button" data-page="map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5 9 4l6 2.5L20 4v13.5L15 20l-6-2.5L4 20Z"/><path d="M9 4v13.5M15 6.5V20"/></svg><span class="mobile-nav-label" data-atlas="Map" data-blackfile="Questions">Map</span></button>
+  <button type="button" data-page="cases"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h12M8 12h12M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg><span class="mobile-nav-label" data-atlas="Cases" data-blackfile="Evidence">Cases</span></button>
+  <button type="button" data-page="dossier"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6Z"/><path d="M15 3v4h4M9 11h6M9 15h6"/></svg><span class="mobile-nav-label" data-atlas="Dossier" data-blackfile="Brief">Dossier</span></button>
 </nav>'''
 
 MOBILE_JS = r'''
@@ -246,6 +249,7 @@ function setMobilePage(page,{write=true}={}){
 }
 document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>btn.addEventListener('click',()=>setMobilePage(btn.dataset.page)));
 document.getElementById('peekOpen')?.addEventListener('click',()=>setMobilePage('dossier'));
+document.querySelector('[data-landscape-exit]')?.addEventListener('click',()=>setMobilePage('cases'));
 document.addEventListener('atlas:home-reset',()=>{mobilePage='map';syncMobileNav();renderMobilePeek();});
 function focusMobileCaseFromStack(id){
   selectCase(id,true);
@@ -318,6 +322,7 @@ openFullCase=function(id){
   originalOpenFullCase(id);
   if(!isMobileAtlas()) return;
   mobilePage='dossier';normalizeMobileDossier();syncMobileNav();renderMobilePeek();
+  updateUrl();
 };
 const originalCloseFullCase=closeFullCase;
 closeFullCase=function(){if(isMobileAtlas()){setMobilePage('cases');return;}originalCloseFullCase();};
@@ -342,6 +347,7 @@ def require_replace(text: str, old: str, new: str, label: str) -> str:
 
 
 MOBILE_FULLSCREEN_BUTTON = '<button class="iconbtn map-fullscreen mobile-only" data-map-fullscreen aria-label="Open full-screen map">⛶</button>'
+MOBILE_LANDSCAPE_EXIT_BUTTON = '<button class="mobile-landscape-exit mobile-only" type="button" data-landscape-exit aria-label="Open case list"><span>Cases</span><b aria-hidden="true">→</b></button>'
 
 
 def project_path(value: str) -> Path:
@@ -363,6 +369,7 @@ def strip_mobile_layer(text: str) -> str:
     for block in (MOBILE_CSS + "\n", MOBILE_HTML_NAV + "\n", MOBILE_JS + "\n"):
         text = text.replace(block, "", 1)
     text = text.replace(MOBILE_FULLSCREEN_BUTTON, "", 1)
+    text = text.replace(MOBILE_LANDSCAPE_EXIT_BUTTON, "", 1)
     return text
 
 
@@ -381,11 +388,11 @@ if args.combined:
     html = html.replace("<title>UAP Atlas Mobile — Map, Cases, Dossier</title>", "<title>UAP Atlas — Interactive Case Dossier</title>", 1)
 else:
     html = html.replace("<title>UAP Atlas — Interactive Case Dossier</title>", "<title>UAP Atlas Mobile — Map, Cases, Dossier</title>", 1)
-html = require_replace(html, "</style>\n</head>", f"{MOBILE_CSS_BLOCK}\n</style>\n</head>", "style terminator")
+html = require_replace(html, "</style>", f"{MOBILE_CSS_BLOCK}\n</style>", "style terminator")
 html = require_replace(
     html,
     '<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button></div>',
-    f'<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button>{MOBILE_FULLSCREEN_BUTTON}</div>',
+    f'<div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button>{MOBILE_FULLSCREEN_BUTTON}</div>{MOBILE_LANDSCAPE_EXIT_BUTTON}',
     "map controls",
 )
 html = require_replace(html, "      <div class=\"legend\"><span>", f"{MOBILE_PEEK_BLOCK}\n      <div class=\"legend\"><span>", "map legend")

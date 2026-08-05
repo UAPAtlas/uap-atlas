@@ -103,6 +103,8 @@
       if (btn.classList.contains('active')) btn.setAttribute('aria-current', 'page');
       else btn.removeAttribute('aria-current');
     });
+    const landscapeLabel = document.querySelector('[data-landscape-exit] span');
+    if (landscapeLabel) landscapeLabel.textContent = modeIsBlackfile() ? 'Evidence' : 'Cases';
   }
 
   function syncModeChrome() {
@@ -155,7 +157,7 @@
     if (isMobileAtlas()) {
       setAtlasMode('atlas', {write:false});
       selectCase(id, true);
-      openFullCase(id);
+      setMobilePage('dossier');
       return;
     }
     selectCase(id, false);

@@ -43,6 +43,7 @@
 <link rel="apple-touch-icon" sizes="512x512" href="assets/apple-touch-icon.png" />
 <link rel="preload" href="atlas-map.js" as="script" />
 <link rel="preload" href="atlas-runtime.js" as="script" />
+<link rel="preload" href="image-derivatives.js" as="script" />
 <link rel="preload" href="atlas-app.js" as="script" />
 <link rel="preload" href="blackfile-analysis.js" as="script" />
 <link rel="preload" href="blackfile-mode.js" as="script" />
@@ -92,6 +93,9 @@ body{
 button,select{font:inherit;font-family:var(--sans)}
 a{color:inherit;text-decoration:none}
 button:focus-visible,select:focus-visible,a:focus-visible{outline:2px solid rgba(95,212,242,.8);outline-offset:2px}
+[role="button"]:focus-visible{outline:2px solid rgba(95,212,242,.9);outline-offset:3px}
+.atlas-marker:focus-visible,.cluster-badge:focus-visible{outline:none;filter:drop-shadow(0 0 7px rgba(95,212,242,.9))}
+.atlas-marker:focus-visible .marker-ring,.cluster-badge:focus-visible .cluster-pill{stroke:#F8FEFF;stroke-width:.3}
 ::selection{background:rgba(95,212,242,.28)}
 ::-webkit-scrollbar{width:9px;height:9px}
 ::-webkit-scrollbar-thumb{background:rgba(255,255,255,.12);border:2px solid transparent;background-clip:content-box;border-radius:999px}
@@ -518,6 +522,7 @@ svg#atlasSvg:active{cursor:grabbing}
 .carousel-stage img,.carousel-stage video{max-width:100%;max-height:100%;width:100%;height:100%;object-fit:contain;display:block}
 .carousel-stage img{cursor:zoom-in}
 .carousel-media-shell{position:relative;width:100%;height:100%;display:grid;place-items:center;background:rgba(255,255,255,.018)}
+.carousel-media-shell:focus-visible{outline:2px solid rgba(95,212,242,.9);outline-offset:-3px}
 .carousel-media-shell:before{content:'Loading evidence…';position:absolute;inset:0;display:grid;place-items:center;font:600 9px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:rgba(140,150,163,.58)}
 .carousel-media-shell.loaded:before{display:none}
 .carousel-media-shell img{position:relative;z-index:1;opacity:0;transition:opacity .16s ease}
@@ -807,6 +812,7 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
 @media(max-width:1080px){
   body:before{content:none!important;display:none!important;}
   .mobile-only{display:flex!important;}
+  .mobile-landscape-exit{display:none!important;}
   body{background:#020408;}
   .app{
     width:100%;height:100dvh;margin:0;border:0;border-radius:0;box-shadow:none;
@@ -912,12 +918,14 @@ body{overflow:hidden;-webkit-tap-highlight-color:transparent;}
   body[data-mobile-page="map"] .iconbtn{width:44px;height:44px}
   body[data-mobile-page="map"] .map-title{left:calc(14px + env(safe-area-inset-left));top:13px}
   body[data-mobile-page="map"] svg#atlasSvg{width:100%;margin-left:0;}
+  body[data-mobile-page="map"] .mobile-landscape-exit{display:flex!important;position:fixed;z-index:72;right:calc(12px + env(safe-area-inset-right));bottom:calc(12px + env(safe-area-inset-bottom));min-width:88px;height:44px;align-items:center;justify-content:center;gap:7px;padding:0 14px;border:1px solid rgba(95,212,242,.32);border-radius:12px;background:rgba(3,7,12,.9);color:#EAFBFF;font:600 11px var(--sans);letter-spacing:.02em;backdrop-filter:blur(18px);box-shadow:0 12px 30px rgba(0,0,0,.38)}
 }
 
 body.map-immersive .app{grid-template-rows:0 minmax(0,1fr)!important;padding:0!important;}
 body.map-immersive .securebar,body.map-immersive .mobile-nav,body.map-immersive .mobile-case-peek{display:none!important;}
 body.map-immersive .map-ui{top:calc(10px + env(safe-area-inset-top));right:calc(10px + env(safe-area-inset-right));}
 body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
+body.map-immersive .mobile-landscape-exit{display:none!important;}
 
 @media(max-width:380px){
   .brand-secondary{display:none}.case-row{grid-template-columns:88px minmax(0,1fr) auto}.row-actions{display:none}.carousel-stage{height:clamp(280px,42vh,330px)}.drawer-navbtn{width:42px}
@@ -997,7 +1005,7 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
   <main class="main">
     <section class="panel map-panel"><div class="panel-inner map-shell" id="mapShell">
       <div class="map-title">Global case map</div>
-      <div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button><button class="iconbtn map-fullscreen mobile-only" data-map-fullscreen aria-label="Open full-screen map">⛶</button></div>
+      <div class="map-ui"><span class="zoom-readout" id="zoomReadout">1.0×</span><button class="iconbtn" data-zoom="in" aria-label="Zoom in">+</button><button class="iconbtn" data-zoom="out" aria-label="Zoom out">−</button><button class="iconbtn" data-zoom="reset" aria-label="Reset view">↺</button><button class="iconbtn map-fullscreen mobile-only" data-map-fullscreen aria-label="Open full-screen map">⛶</button></div><button class="mobile-landscape-exit mobile-only" type="button" data-landscape-exit aria-label="Open case list"><span>Cases</span><b aria-hidden="true">→</b></button>
       <div class="map-tip" id="mapTip" aria-hidden="true"></div>
       <div id="atlas-map-mount"></div>
 <!-- ATLAS_MOBILE_PEEK_START -->
@@ -1035,6 +1043,7 @@ body.map-immersive .legend{bottom:calc(10px + env(safe-area-inset-bottom));}
 <div class="drawer-backdrop" id="drawerBackdrop"><aside class="case-drawer" id="caseDrawer" role="dialog" aria-modal="true" aria-label="Full case file"></aside></div>
 <script src="atlas-map.js" defer></script>
 <script src="atlas-runtime.js" defer></script>
+<script src="image-derivatives.js" defer></script>
 <script src="blackfile-analysis.js" defer></script>
 <script src="atlas-app.js" defer></script>
 <script src="blackfile-mode.js" defer></script>

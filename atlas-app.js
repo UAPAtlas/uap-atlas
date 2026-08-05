@@ -114,7 +114,7 @@ function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : '';
 function renderCaseList(){const base=stackBaseCases(); const filtered = base.filter(matchesFilters); syncStackHeader(); caseCount.textContent = `${filtered.length} / ${base.length}`; const empty=state.stackMode==='orbital'?'No orbital / lunar evidence matches the current filters.':'No main-stack cases match the current filters.'; caseList.innerHTML = filtered.map(caseCard).join('') || `<div class="empty">${empty}</div>`; caseList.querySelectorAll('.case-row').forEach(el=>{const choose=()=>selectCase(el.dataset.id,true);el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});});}
 function quoteHtml(c,caption=true){if(!c.keyQuote) return ''; const source=caption&&c.quoteSource?`<figcaption>${esc(c.quoteSource)} · ${esc(c.quoteConfidence||'quote selected')}</figcaption>`:''; return `<figure class="quote-card"><blockquote>“${esc(c.keyQuote)}”</blockquote>${source}</figure>`;}
 function keyFactHtml(c,includeWhy=false){const hero=includeWhy; const quote=hero?quoteHtml(c,false):''; const meta=hero?factMetaLine(c):''; const why=hero&&c.whyItMatters?`<div class="why-card"><b>Why it matters</b><p>${esc(c.whyItMatters)}</p></div>`:''; return `<div class="case-intel ${hero?'fact-hero':''}"><div class="label2">Key finding</div><div class="key-fact-copy">${esc(c.heroFact||c.keyFact||c.summary)}</div>${quote}${meta}</div>${why}`;}
-function renderDetail(){const c = cases.find(x=>x.id===state.selectedCaseId); if(!c){detail.innerHTML = '<div class="empty">Select a case from the map, list, or timeline.</div>'; return;} const files=filesForCase(c).length||evidenceItems(c).length; detail.innerHTML = `<div class="preview-context"><div class="eyebrow">${esc(c.mode)} · ${esc(c.domain)}</div><div class="meta">${esc(c.id)} · ${esc(c.date)}</div></div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.location)} · ${esc(c.agency)}</div>${c.mapGeometry?`<div class="geometry-context">Map overlay · ${esc(c.mapGeometry.isObjectTrack?'object track':(['LineString','MultiLineString'].includes(c.mapGeometry.type)?'reference route':'approximate area'))} · ${esc(c.mapGeometry.confidence||'approximate')}</div>`:''}${c.image?`<button class="detail-media" type="button" data-open-case="${esc(c.id)}" aria-label="Open dossier evidence"><img src="${esc(c.image)}" alt="" loading="lazy"><span class="detail-media-tag">Evidence · ${esc(String(files))} file${files===1?'':'s'}</span></button>`:''}${keyFactHtml(c,false)}${c.summary?`<div class="preview-summary"><b>Summary</b><p>${esc(c.summary)}</p></div>`:''}<div class="preview-meta-line"><span><b>Source</b>${esc(c.sourceLabel||c.agency)}</span><span><b>Files</b>${esc(String(files))}</span><span><b>Date</b>${esc(c.date)}</span></div><button class="cta" type="button" data-open-case="${esc(c.id)}">Open Dossier <span aria-hidden="true">→</span></button>`; detail.querySelectorAll('[data-open-case]').forEach(btn=>btn.addEventListener('click',()=>openFullCase(btn.dataset.openCase)));}
+function renderDetail(){const c = cases.find(x=>x.id===state.selectedCaseId); if(!c){detail.innerHTML = '<div class="empty">Select a case from the map, list, or timeline.</div>'; return;} const files=filesForCase(c).length||evidenceItems(c).length; detail.innerHTML = `<div class="preview-context"><div class="eyebrow">${esc(c.mode)} · ${esc(c.domain)}</div><div class="meta">${esc(c.id)} · ${esc(c.date)}</div></div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.location)} · ${esc(c.agency)}</div>${c.mapGeometry?`<div class="geometry-context">Map overlay · ${esc(c.mapGeometry.isObjectTrack?'object track':(['LineString','MultiLineString'].includes(c.mapGeometry.type)?'reference route':'approximate area'))} · ${esc(c.mapGeometry.confidence||'approximate')}</div>`:''}${c.image?`<button class="detail-media" type="button" data-open-case="${esc(c.id)}" aria-label="Open dossier evidence"><img src="${esc(displayImageUrl(c.image))}" alt="" loading="lazy" decoding="async"><span class="detail-media-tag">Evidence · ${esc(String(files))} file${files===1?'':'s'}</span></button>`:''}${keyFactHtml(c,false)}${c.summary?`<div class="preview-summary"><b>Summary</b><p>${esc(c.summary)}</p></div>`:''}<div class="preview-meta-line"><span><b>Source</b>${esc(c.sourceLabel||c.agency)}</span><span><b>Files</b>${esc(String(files))}</span><span><b>Date</b>${esc(c.date)}</span></div><button class="cta" type="button" data-open-case="${esc(c.id)}">Open Dossier <span aria-hidden="true">→</span></button>`; detail.querySelectorAll('[data-open-case]').forEach(btn=>btn.addEventListener('click',()=>openFullCase(btn.dataset.openCase)));}
 function typeClass(t){return t==='official-position'?'official-position':t;}
 /* Normalize 10 raw event types into 7 visual color buckets */
 function signalTypeClass(t){
@@ -155,10 +155,12 @@ function renderSignal(){
   if(corpusLayer){
     corpusLayer.innerHTML=visible.map(ev=>{
       const x=eventX(ev)*100;
-      return `<div class="corpus-dot ${signalTypeClass(ev.type)} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}" data-date="${esc(ev.date)}" data-title="${esc(ev.title)}"></div>`;
+      return `<div class="corpus-dot ${signalTypeClass(ev.type)} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}" data-date="${esc(ev.date)}" data-title="${esc(ev.title)}" role="button" tabindex="0" aria-label="Select ${esc(ev.title)}, ${esc(ev.date)}"></div>`;
     }).join('');
     corpusLayer.querySelectorAll('.corpus-dot').forEach(el=>{
-      el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);});
+      const activate=()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);};
+      el.addEventListener('click',activate);
+      el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
       el.addEventListener('mouseenter',e=>showSignalTooltip(el));
       el.addEventListener('mouseleave',hideSignalTooltip);
     });
@@ -170,10 +172,12 @@ function renderSignal(){
       const nodes=visible.filter(ev=>ev.caseId===sel);
       nodeLayer.innerHTML=nodes.map(ev=>{
         const x=eventX(ev)*100;
-        return `<div class="signal-node ${signalTypeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}"><div class="node-dot"></div><div class="node-date">${esc(ev.date)}</div></div>`;
+        return `<div class="signal-node ${signalTypeClass(ev.type)} ${ev.id===state.selectedEventId?'selected':''} ${inEra(ev)?'':'era-out'}" style="left:${x.toFixed(2)}%" data-case="${esc(ev.caseId)}" data-event="${esc(ev.id)}" role="button" tabindex="0" aria-label="Select ${esc(ev.title)}, ${esc(ev.date)}"><div class="node-dot"></div><div class="node-date">${esc(ev.date)}</div></div>`;
       }).join('');
       nodeLayer.querySelectorAll('.signal-node').forEach(el=>{
-        el.addEventListener('click',()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);});
+        const activate=()=>{state.selectedEventId=el.dataset.event; selectCase(el.dataset.case,true);};
+        el.addEventListener('click',activate);
+        el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});
       });
     }
   }
@@ -200,7 +204,7 @@ function markerEl(c){
   const cls=colorByMode[markerStatus(c)];
   const selected=c.id===state.selectedCaseId;
   const sc=selected?selectedMarkerScale():markerScale();
-  return `<g class="atlas-marker ${cls} ${selected?'selected':''}" data-id="${c.id}" data-x="${c.x}" data-y="${c.y}" transform="translate(${c.x},${c.y}) scale(${sc})"><circle class="marker-halo" r="1.0"/><circle class="marker-ring" r="0.7"/><circle class="marker-core" r="0.4"/></g>`;
+  return `<g class="atlas-marker ${cls} ${selected?'selected':''}" data-id="${c.id}" data-x="${c.x}" data-y="${c.y}" transform="translate(${c.x},${c.y}) scale(${sc})" role="button" tabindex="0" aria-label="Select ${esc(c.title)}, ${esc(c.date)}"><circle class="marker-halo" r="1.0"/><circle class="marker-ring" r="0.7"/><circle class="marker-core" r="0.4"/></g>`;
 }
 function orbitalAggregateEl(orbitals){
   if(!orbitals.length) return '';
@@ -208,7 +212,7 @@ function orbitalAggregateEl(orbitals){
   const active=orbitals.find(c=>c.id===state.selectedCaseId) || orbitals[0];
   const count=orbitals.length;
   const x=50, y=7.7;
-  return `<g class="atlas-marker orbital-aggregate marker-orbital ${selected}" data-id="${active.id}" data-x="${x}" data-y="${y}" transform="translate(${x},${y}) scale(${markerScale()})"><path class="orbital-arc-glow" d="M -39 2.6 Q 0 -10.8 39 2.6"/><path class="orbital-arc" d="M -39 2.6 Q 0 -10.8 39 2.6"/><circle class="orbital-node-outer" r="1.42"/><circle class="orbital-node-inner" r=".56"/><text class="orbital-count" text-anchor="middle" dominant-baseline="middle">${count}</text><text class="orbital-label" x="3.0" y="-.34">ORBITAL / LUNAR EVIDENCE</text><text class="orbital-caption" x="3.0" y="1.12">NASA RELEASE CORPUS</text></g>`;
+  return `<g class="atlas-marker orbital-aggregate marker-orbital ${selected}" data-id="${active.id}" data-x="${x}" data-y="${y}" transform="translate(${x},${y}) scale(${markerScale()})" role="button" tabindex="0" aria-label="Open ${count} Orbital and Lunar evidence records"><path class="orbital-arc-glow" d="M -39 2.6 Q 0 -10.8 39 2.6"/><path class="orbital-arc" d="M -39 2.6 Q 0 -10.8 39 2.6"/><circle class="orbital-node-outer" r="1.42"/><circle class="orbital-node-inner" r=".56"/><text class="orbital-count" text-anchor="middle" dominant-baseline="middle">${count}</text><text class="orbital-label" x="3.0" y="-.34">ORBITAL / LUNAR EVIDENCE</text><text class="orbital-caption" x="3.0" y="1.12">NASA RELEASE CORPUS</text></g>`;
 }
 function renderCaseGeometry(){
   if(!caseGeometryG) return;
@@ -227,11 +231,11 @@ function renderMarkers(){
   const selectedTerrestrial=terrestrial.filter(c=>c.id===state.selectedCaseId);
   const regularTerrestrial=terrestrial.filter(c=>c.id!==state.selectedCaseId);
   markersG.innerHTML = regularTerrestrial.map(markerEl).join('') + orbitalAggregateEl(orbitals) + selectedTerrestrial.map(markerEl).join('');
-  markersG.querySelectorAll('.atlas-marker').forEach(el=>el.addEventListener('click',()=>{
+  markersG.querySelectorAll('.atlas-marker').forEach(el=>{const activate=()=>{
     const c=cases.find(c=>c.id===el.dataset.id);
     if(c && markerStatus(c)==='orbital') return selectOrbitalAggregate(el.dataset.id);
     selectCase(el.dataset.id,true);
-  }));
+  }; el.addEventListener('click',activate); el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});});
 }
 function selectOrbitalAggregate(id){
   state.stackMode='orbital';
@@ -263,14 +267,14 @@ function renderClusters(){
   clusters.forEach((g,idx)=>{
     const x=g.reduce((sum,c)=>sum+c.x,0)/g.length;
     const y=g.reduce((sum,c)=>sum+c.y,0)/g.length;
-    clustersG.insertAdjacentHTML('beforeend',`<g class="cluster-badge" data-index="${idx}" data-x="${x}" data-y="${y}" transform="translate(${x},${y}) scale(${ms})"><rect class="cluster-pill" x="-1.6" y="-0.95" rx="0.75" ry="0.75" width="3.2" height="1.9"/><text class="cluster-text" text-anchor="middle" dominant-baseline="middle">${g.length}</text></g>`);
+    clustersG.insertAdjacentHTML('beforeend',`<g class="cluster-badge" data-index="${idx}" data-x="${x}" data-y="${y}" transform="translate(${x},${y}) scale(${ms})" role="button" tabindex="0" aria-label="Zoom into cluster of ${g.length} cases"><rect class="cluster-pill" x="-1.6" y="-0.95" rx="0.75" ry="0.75" width="3.2" height="1.9"/><text class="cluster-text" text-anchor="middle" dominant-baseline="middle">${g.length}</text></g>`);
   });
-  clustersG.querySelectorAll('.cluster-badge').forEach(el=>el.addEventListener('click',()=>{
+  clustersG.querySelectorAll('.cluster-badge').forEach(el=>{const activate=()=>{
     const g=clusters[Number(el.dataset.index)];
     const x=g.reduce((sum,c)=>sum+c.x,0)/g.length;
     const y=g.reduce((sum,c)=>sum+c.y,0)/g.length;
     zoomToCase(x,y,6);
-  }));
+  }; el.addEventListener('click',activate); el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate();}});});
 }
 
 function updateSelectionBeaconTransform(){
@@ -335,6 +339,10 @@ svg.addEventListener('mouseleave',hideMapTip);
 function drawerTimeline(id){return events.filter(e=>e.caseId===id).map(e=>`<div class="drawer-timeline-row"><b>${esc(e.date)}</b><i></i><div><strong>${esc(e.title)}</strong><span>${esc(e.desc||'Normalized atlas timeline event.')}</span></div></div>`).join('') || '<p class="drawer-summary">No normalized timeline event yet.</p>';}
 function linkUrl(path){const s=String(path||''); if(/^https?:\/\//i.test(s)||/^(?:assets\/|\.\/|\.\.\/|data:|blob:)/i.test(s)) return s; if(s.startsWith('/')) return '#local-file-not-published'; return s;}
 function fileUrl(path){return linkUrl(path);}
+function imageDerivative(path){const key=String(path||'').split('#')[0].split('?')[0].replace(/^\.\//,'').replace(/^\//,''); return window.imageDerivativeIndex?.entries?.[key]||null;}
+function displayImageUrl(path){return imageDerivative(path)?.display?.path||linkUrl(path);}
+function thumbImageUrl(path){return imageDerivative(path)?.thumb?.path||displayImageUrl(path);}
+function originalImageUrl(path){return imageDerivative(path)?.originalUrl||linkUrl(path);}
 function sourceTokens(src){const s=String(src||'').toUpperCase(); return Object.keys(sourceFileIndex).filter(tok=>s.includes(String(tok).toUpperCase()));}
 function mediaKind(path){const raw=String(path||''); if(/^https?:\/\//i.test(raw)) return 'url'; const ext=raw.split('?')[0].split('.').pop().toLowerCase(); if(['jpg','jpeg','png','gif','webp'].includes(ext)) return 'image'; if(['mp4','mov','webm'].includes(ext)) return 'video'; if(ext==='pdf') return 'pdf'; return 'file';}
 function fileName(path){return String(path||'').split('/').pop();}
@@ -343,7 +351,7 @@ function sourceAvailability(path){return sourceAvailabilityIndex.entries[String(
 function sourceIsActionable(path){return ['public-local','external-public'].includes(sourceAvailability(path).status);}
 function sourceDisclosureHtml(file){
   const availability=sourceAvailability(file.path);
-  if(sourceIsActionable(file.path)) return `<a class="file-link" href="${esc(fileUrl(file.path))}" target="_blank" rel="noopener" title="${esc(file.path)}">${esc(sourceActionLabel(file.kind,file.path))}<small>${esc(fileName(file.path))}</small></a>`;
+  if(sourceIsActionable(file.path)) return `<a class="file-link" href="${esc(availability.url||fileUrl(file.path))}" target="_blank" rel="noopener" title="${esc(file.path)}">${esc(sourceActionLabel(file.kind,file.path))}<small>${esc(fileName(file.path))}</small></a>`;
   const custody=availability.status==='custody-only';
   const label=custody?'Research corpus':'Unavailable mapping';
   return `<span class="source-disclosure ${custody?'source-custody':'source-unavailable'}" title="${esc(file.path)}"><span>${label}</span><small>${esc(fileName(file.path))}</small><small>${esc(availability.label)}</small></span>`;
@@ -365,7 +373,7 @@ function culturalLegacyHtml(c){
     const imageHref=item.imageSourceUrl||item.image;
     const source=item.sourceUrl?`<a href="${esc(linkUrl(item.sourceUrl))}" target="_blank" rel="noopener">Source</a>`:'';
     const rights=item.licenseUrl?`<a href="${esc(linkUrl(item.licenseUrl))}" target="_blank" rel="noopener">${esc(item.license||'License')}</a>`:esc(item.rightsStatus||item.license||'');
-    return `<article class="cultural-item"><a class="cultural-image" href="${esc(linkUrl(imageHref))}" target="_blank" rel="noopener"><img src="${esc(item.image)}" alt="${esc(item.imageAlt||item.title)}" loading="lazy" decoding="async"></a><div class="cultural-copy"><h4>${esc(item.title)}${item.year?`<span class="cultural-year">${esc(item.year)}</span>`:''}</h4><p>${esc(item.connection)}</p><div class="cultural-meta"><span>${esc(item.credit||'Context image')}</span>${source}${rights}</div></div></article>`;
+    return `<article class="cultural-item"><a class="cultural-image" href="${esc(item.imageSourceUrl||originalImageUrl(imageHref))}" target="_blank" rel="noopener"><img src="${esc(displayImageUrl(item.image))}" alt="${esc(item.imageAlt||item.title)}" loading="lazy" decoding="async"></a><div class="cultural-copy"><h4>${esc(item.title)}${item.year?`<span class="cultural-year">${esc(item.year)}</span>`:''}</h4><p>${esc(item.connection)}</p><div class="cultural-meta"><span>${esc(item.credit||'Context image')}</span>${source}${rights}</div></div></article>`;
   }).join('');
   return `<section class="cultural-legacy" aria-label="Cultural Legacy"><div class="cultural-legacy-head"><div class="cultural-legacy-title">Cultural Legacy</div><div class="cultural-legacy-boundary">Context · Not evidence</div></div>${rows}</section>`;
 }
@@ -396,7 +404,7 @@ function evidenceTypeLabel(item){
 function heroActionLabel(h){const u=String(h.mediaUrl||h.sourceUrl||h.src||''); if(/\.(mp4|mov|webm)($|\?)/i.test(u)||/(?:youtube\.com|youtu\.be|dvidshub\.net\/video)/i.test(u)) return 'Watch footage'; if(/\.pdf($|\?)/i.test(u)) return 'Open source file'; if(h.sourceUrl) return 'View source'; return 'Open image';}
 function evidenceItems(c){
   const items=[]; const seen=new Set();
-  const add=(src,label,kind='image',href=null,rank=50,meta={})=>{if(!src||seen.has(src)) return; seen.add(src); items.push({src,label:label||fileName(src),kind,href:href||src,rank,...meta});};
+  const add=(src,label,kind='image',href=null,rank=50,meta={})=>{if(!src||seen.has(src)) return; seen.add(src); const derived=kind==='image'?imageDerivative(src):null; items.push({src:derived?.display?.path||src,thumbSrc:derived?.thumb?.path||derived?.display?.path||src,originalSrc:src,label:label||fileName(src),kind,href:derived?.originalUrl||href||src,rank,...meta});};
   const h=c.heroVisual;
   if(h?.src) add(h.src,h.caption||'Case lead visual',h.mediaType||'image',h.mediaUrl||h.sourceUrl||h.src,0,{role:'lead',visualType:h.visualType,provenance:h.provenance||'',evidenceStatus:h.evidenceStatus||'',actionLabel:heroActionLabel(h)});
   (c.sources||[]).forEach(src=>filesForSource(src).forEach(f=>{if(f.kind==='image') add(fileUrl(f.path),`${f.token} · ${fileName(f.path)}`,'image',fileUrl(f.path), /__roi_/i.test(f.path)?30:10,{role:'evidence'});}));
@@ -418,7 +426,7 @@ function evidenceItems(c){
   }
   return items.sort((a,b)=>a.rank-b.rank || evidenceTypeLabel(a).localeCompare(evidenceTypeLabel(b)) || a.label.localeCompare(b.label));
 }
-function carouselMediaHtml(item){return item.kind==='video'?`<video class="carousel-media" controls preload="metadata" src="${esc(item.src)}"></video>`:`<div class="carousel-media-shell"><img class="carousel-media" src="${esc(item.src)}" alt="${esc(item.label)}" data-lightbox-src="${esc(item.src)}" decoding="async"></div>`;}
+function carouselMediaHtml(item){return item.kind==='video'?`<video class="carousel-media" controls preload="metadata" src="${esc(item.src)}"></video>`:`<div class="carousel-media-shell" data-lightbox-trigger role="button" tabindex="0" aria-label="Open ${esc(item.label)} in image viewer"><img class="carousel-media" src="${esc(item.src)}" alt="${esc(item.label)}" data-lightbox-src="${esc(item.src)}" loading="eager" decoding="async"></div>`;}
 function settleCarouselMedia(slot){
   const img=slot?.querySelector('img'); if(!img) return;
   const shell=img.closest('.carousel-media-shell');
@@ -432,7 +440,7 @@ function evidenceCarousel(c){
   const items=evidenceItems(c);
   if(!items.length) return '<div class="drawer-evidence"><div class="carousel-empty">No visual evidence file mapped for this case yet.</div></div>';
   const first=items[0];
-  const thumbs=items.map((it,i)=>`<button class="carousel-thumb ${i===0?'active':''}" data-evidence-index="${i}" title="${esc(it.label)}"><img src="${esc(it.kind==='image'?it.src:(c.image||''))}" alt=""><span class="carousel-thumb-label">${esc(it.role==='lead'?'Lead':evidenceTypeLabel(it))}</span></button>`).join('');
+  const thumbs=items.map((it,i)=>`<button class="carousel-thumb ${i===0?'active':''}" data-evidence-index="${i}" title="${esc(it.label)}"><img src="${esc(it.kind==='image'?(it.thumbSrc||it.src):thumbImageUrl(c.image||''))}" alt="" loading="lazy" decoding="async"><span class="carousel-thumb-label">${esc(it.role==='lead'?'Lead':evidenceTypeLabel(it))}</span></button>`).join('');
   return `<div class="drawer-evidence ${first.role==='lead'?'has-lead':''}" data-carousel="${esc(JSON.stringify(items))}"><div class="carousel-stage">${items.length>1?'<button class="carousel-nav carousel-prev" data-carousel-step="-1" aria-label="Previous evidence">‹</button>':''}<div class="carousel-slot">${carouselMediaHtml(first)}</div>${items.length>1?'<button class="carousel-nav carousel-next" data-carousel-step="1" aria-label="Next evidence">›</button>':''}</div>${items.length>1?`<div class="carousel-thumbs">${thumbs}</div>`:''}</div>`;
 }
 function publicSourceLinksHtml(c){
@@ -448,13 +456,13 @@ function publicSourceLinksHtml(c){
 }
 function sourceLinksHtml(c){
   const h=c.heroVisual;
-  const heroLinks=h&&h.src?`<div class="drawer-source featured-source"><div class="drawer-source-label">↳ Featured visual · ${esc(heroTypeLabel(h.visualType))}</div><a class="file-link" href="${esc(linkUrl(h.src))}" target="_blank" rel="noopener">View lead image<small>${esc(fileName(h.src))}</small></a>${h.mediaUrl?sourceDisclosureHtml({path:h.mediaUrl,kind:mediaKind(h.mediaUrl)}):''}${h.sourceUrl?`<a class="file-link" href="${esc(linkUrl(h.sourceUrl))}" target="_blank" rel="noopener">View visual source<small>${esc(h.provenance||h.sourceUrl)}</small></a>`:''}<div class="hero-provenance">${esc(h.evidenceStatus||'')}</div></div>`:'';
+  const heroLinks=h&&h.src?`<div class="drawer-source featured-source"><div class="drawer-source-label">↳ Featured visual · ${esc(heroTypeLabel(h.visualType))}</div><a class="file-link" href="${esc(originalImageUrl(h.src))}" target="_blank" rel="noopener">View archival original<small>${esc(fileName(h.src))}</small></a>${h.mediaUrl?sourceDisclosureHtml({path:h.mediaUrl,kind:mediaKind(h.mediaUrl)}):''}${h.sourceUrl?`<a class="file-link" href="${esc(linkUrl(h.sourceUrl))}" target="_blank" rel="noopener">View visual source<small>${esc(h.provenance||h.sourceUrl)}</small></a>`:''}<div class="hero-provenance">${esc(h.evidenceStatus||'')}</div></div>`:'';
   const rows=(c.sources||[]).map(src=>{
     const files=filesForSource(src);
     const links=files.map(sourceDisclosureHtml).join('');
     return `<div class="drawer-source"><div class="drawer-source-label">↳ ${esc(src)}</div>${links || '<span class="file-missing">No mapped source asset yet</span>'}</div>`;
   }).join('');
-  const preview=c.image?`<div class="drawer-source"><div class="drawer-source-label">↳ Atlas preview asset</div><a class="file-link" href="${esc(c.image)}" target="_blank" rel="noopener">View Atlas preview<small>${esc(fileName(c.image))}</small></a></div>`:'';
+  const preview=c.image?`<div class="drawer-source"><div class="drawer-source-label">↳ Atlas preview asset</div><a class="file-link" href="${esc(originalImageUrl(c.image))}" target="_blank" rel="noopener">View archival original<small>${esc(fileName(c.image))}</small></a></div>`:'';
   return `<div class="source-links">${publicSourceLinksHtml(c)}${heroLinks}${rows || '<p class="drawer-summary">No source trail listed.</p>'}${preview}</div>`;
 }
 function initCarousel(drawer){
@@ -465,25 +473,32 @@ function initCarousel(drawer){
   const show=i=>{idx=(i+items.length)%items.length; const it=items[idx]; slot.innerHTML=carouselMediaHtml(it); settleCarouselMedia(slot); root.classList.toggle('has-lead',it.role==='lead'); root.querySelectorAll('[data-evidence-index]').forEach((b,n)=>b.classList.toggle('active',n===idx));};
   root.querySelectorAll('[data-carousel-step]').forEach(btn=>btn.addEventListener('click',()=>show(idx+Number(btn.dataset.carouselStep))));
   root.querySelectorAll('[data-evidence-index]').forEach(btn=>btn.addEventListener('click',()=>show(Number(btn.dataset.evidenceIndex))));
-  root.addEventListener('click',e=>{const img=e.target.closest('[data-lightbox-src]'); if(img) openLightbox(img.dataset.lightboxSrc,img.alt,items,idx);});
+  const openFromTrigger=trigger=>{const img=trigger.querySelector('[data-lightbox-src]'); if(img) openLightbox(img.dataset.lightboxSrc,img.alt,items,idx,trigger);};
+  root.addEventListener('click',e=>{const trigger=e.target.closest('[data-lightbox-trigger]'); if(trigger) openFromTrigger(trigger);});
+  root.addEventListener('keydown',e=>{const trigger=e.target.closest('[data-lightbox-trigger]'); if(trigger&&(e.key==='Enter'||e.key===' ')){e.preventDefault();openFromTrigger(trigger);}});
 }
-function ensureLightbox(){let lb=document.getElementById('imageLightbox'); if(lb) return lb; document.body.insertAdjacentHTML('beforeend','<div class="lightbox" id="imageLightbox"><div class="lightbox-frame"><button class="lightbox-nav lightbox-prev" data-lb-step="-1" aria-label="Previous image">‹</button><button class="lightbox-nav lightbox-next" data-lb-step="1" aria-label="Next image">›</button><div class="lightbox-tools"><button data-lb="out" aria-label="Zoom out">−</button><button data-lb="in" aria-label="Zoom in">+</button><button data-lb="reset">100%</button><a data-lb-link href="#" target="_blank" rel="noopener">Open file</a><button data-lb="close" aria-label="Close image viewer">×</button></div><img class="lightbox-img" alt="Full size evidence"><div class="lightbox-status" data-lb-status></div></div></div>'); return document.getElementById('imageLightbox');}
-function openLightbox(src,alt='Evidence image',carouselItems=[],carouselIndex=0){
+let lightboxReturnFocus=null;
+function focusableElements(root){return [...root.querySelectorAll('button:not([disabled]):not([hidden]),a[href],input:not([disabled]),select:not([disabled]),textarea:not([disabled]),[tabindex]:not([tabindex="-1"]):not([hidden])')].filter(el=>!el.closest('[hidden]')&&el.getClientRects().length);}
+function trapModalFocus(event,root){if(event.key!=='Tab') return false; const focusable=focusableElements(root); if(!focusable.length){event.preventDefault();root.focus?.();return true;} const first=focusable[0],last=focusable[focusable.length-1]; if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus();return true;} if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus();return true;} return false;}
+function ensureLightbox(){let lb=document.getElementById('imageLightbox'); if(lb) return lb; document.body.insertAdjacentHTML('beforeend','<div class="lightbox" id="imageLightbox" role="dialog" aria-modal="true" aria-label="Evidence image viewer"><div class="lightbox-frame" tabindex="-1"><button class="lightbox-nav lightbox-prev" data-lb-step="-1" aria-label="Previous image">‹</button><button class="lightbox-nav lightbox-next" data-lb-step="1" aria-label="Next image">›</button><div class="lightbox-tools"><button data-lb="out" aria-label="Zoom out">−</button><button data-lb="in" aria-label="Zoom in">+</button><button data-lb="reset" aria-label="Reset zoom">100%</button><a data-lb-link href="#" target="_blank" rel="noopener">Open original</a><button data-lb="close" aria-label="Close image viewer">×</button></div><img class="lightbox-img" alt="Full size evidence"><div class="lightbox-status" data-lb-status aria-live="polite"></div></div></div>'); return document.getElementById('imageLightbox');}
+function closeLightbox(){const lb=document.getElementById('imageLightbox'); if(!lb?.classList.contains('open')) return; lb.classList.remove('open'); document.getElementById('caseDrawer')?.removeAttribute('inert'); window.onmousemove=null; window.onmouseup=null; if(lightboxReturnFocus&&document.contains(lightboxReturnFocus)) lightboxReturnFocus.focus({preventScroll:true}); lightboxReturnFocus=null;}
+function openLightbox(src,alt='Evidence image',carouselItems=[],carouselIndex=0,trigger=null){
   const lb=ensureLightbox(), img=lb.querySelector('.lightbox-img'), link=lb.querySelector('[data-lb-link]'), status=lb.querySelector('[data-lb-status]'); const visuals=carouselItems.filter(it=>it.kind==='image'); let current=Math.max(0,visuals.findIndex(it=>it.src===src)); let zoom=1, pan={x:0,y:0}, dragging=false, start=null;
   const apply=()=>{img.style.transform=`translate(${pan.x}px,${pan.y}px) scale(${zoom})`;};
-  const show=i=>{if(!visuals.length) return; current=(i+visuals.length)%visuals.length; const it=visuals[current]; zoom=1; pan={x:0,y:0}; img.src=it.src; img.alt=it.label||alt; link.href=it.href||it.src; status.textContent=`${current+1} / ${visuals.length} · ${it.label||'Evidence image'}`; apply();};
+  const show=i=>{if(!visuals.length) return; current=(i+visuals.length)%visuals.length; const it=visuals[current], original=it.originalSrc||it.src; zoom=1; pan={x:0,y:0}; img.src=originalImageUrl(original); img.alt=it.label||alt; link.href=originalImageUrl(original); status.textContent=`${current+1} / ${visuals.length} · ${it.label||'Evidence image'}`; apply();};
   if(!visuals.length) visuals.push({src,label:alt,href:src,kind:'image'});
   lb.querySelectorAll('[data-lb-step]').forEach(btn=>{btn.hidden=visuals.length<2; btn.onclick=()=>show(current+Number(btn.dataset.lbStep));});
-  show(current); lb.classList.add('open');
+  lightboxReturnFocus=trigger||document.activeElement; document.getElementById('caseDrawer')?.setAttribute('inert',''); show(current); lb.classList.add('open');
   lb.querySelector('[data-lb="in"]').onclick=()=>{zoom=clamp(zoom+.35,1,5); apply();};
   lb.querySelector('[data-lb="out"]').onclick=()=>{zoom=clamp(zoom-.35,1,5); if(zoom===1) pan={x:0,y:0}; apply();};
   lb.querySelector('[data-lb="reset"]').onclick=()=>{zoom=1; pan={x:0,y:0}; apply();};
-  lb.querySelector('[data-lb="close"]').onclick=()=>lb.classList.remove('open');
-  lb.onclick=e=>{if(e.target===lb) lb.classList.remove('open');};
+  lb.querySelector('[data-lb="close"]').onclick=closeLightbox;
+  lb.onclick=e=>{if(e.target===lb) closeLightbox();};
   img.onmousedown=e=>{if(zoom<=1) return; dragging=true; start={x:e.clientX-pan.x,y:e.clientY-pan.y}; e.preventDefault();};
   window.onmousemove=e=>{if(!dragging) return; pan={x:e.clientX-start.x,y:e.clientY-start.y}; apply();};
   window.onmouseup=()=>{dragging=false;};
   img.onwheel=e=>{e.preventDefault(); zoom=clamp(zoom+(e.deltaY<0?.28:-.28),1,5); if(zoom===1) pan={x:0,y:0}; apply();};
+  lb.querySelector('[data-lb="close"]').focus({preventScroll:true});
 }
 let drawerReturnFocus=null;
 function openFullCase(id){
@@ -494,6 +509,7 @@ function openFullCase(id){
   const navPos=navList.findIndex(x=>x.id===id);
   drawer.innerHTML=`<div class="drawer-header"><div class="drawer-heading"><div class="eyebrow">${esc(c.id)} · ${esc(c.mode)} · ${esc(c.domain)}</div><div class="case-title">${esc(c.title)}</div><div class="loc">${esc(c.date)} · ${esc(c.location)} · ${esc(c.agency)}</div></div><div class="drawer-nav">${navPos>=0&&navList.length>1?`<button class="drawer-navbtn" type="button" data-drawer-nav="-1" aria-label="Previous case">‹</button><span class="drawer-pos">${navPos+1} / ${navList.length}</span><button class="drawer-navbtn" type="button" data-drawer-nav="1" aria-label="Next case">›</button>`:''}<button class="drawer-close" aria-label="Close full case file">×</button></div></div>${evidenceCarousel(c)}<div class="pills"><span class="pill ${statusPill[markerStatus(c)]}">${esc(c.status)}</span><span class="pill">${esc(compactConfidence(c.confidence))}</span></div><div class="drawer-tabs"><button class="drawer-tab active" data-tab="brief">BRIEF</button><button class="drawer-tab" data-tab="timeline">TIMELINE</button><button class="drawer-tab" data-tab="official">OFFICIAL POSITION</button><button class="drawer-tab" data-tab="gaps">RECORD GAPS</button><button class="drawer-tab" data-tab="sources">FILES / SOURCES</button></div><section class="drawer-panel active" data-panel="brief">${c.summary?`<div class="dossier-summary"><b>Case summary</b><p>${esc(c.summary)}</p></div>`:''}${keyFactHtml(c,true)}${evidenceLensHtml(c)}${culturalLegacyHtml(c)}${briefFooterStrip(c)}${relatedRecordsHtml(c)}</section><section class="drawer-panel" data-panel="timeline">${drawerTimeline(c.id)}</section><section class="drawer-panel" data-panel="official"><div class="drawer-box"><h4>Public / official position</h4><p>${esc(c.official)}</p></div></section><section class="drawer-panel" data-panel="gaps"><div class="drawer-box"><h4>What is still missing</h4><p>${esc(c.gap)}</p></div></section><section class="drawer-panel" data-panel="sources">${sourceLinksHtml(c)}</section>`;
   backdrop.classList.add('open');
+  if(!matchMedia('(max-width:1080px)').matches) document.querySelector('.app')?.setAttribute('inert','');
   initCarousel(drawer);
 
   drawer.scrollTop=0;
@@ -510,7 +526,7 @@ function openFullCase(id){
   urlCaseId=id;
   updateUrl();
 }
-function closeFullCase(){document.getElementById('drawerBackdrop').classList.remove('open'); urlCaseId=null; updateUrl(); if(drawerReturnFocus&&document.contains(drawerReturnFocus)){drawerReturnFocus.focus({preventScroll:true});} drawerReturnFocus=null;}
+function closeFullCase(){const backdrop=document.getElementById('drawerBackdrop'); backdrop.classList.remove('open'); document.querySelector('.app')?.removeAttribute('inert'); document.getElementById('caseDrawer')?.removeAttribute('inert'); urlCaseId=null; updateUrl(); if(drawerReturnFocus&&document.contains(drawerReturnFocus)){drawerReturnFocus.focus({preventScroll:true});} drawerReturnFocus=null;}
 
 /* URL state — hash-based links preserve app state */
 let urlCaseId=null, lastWrittenHash='';
@@ -559,7 +575,7 @@ function parseUrlState(){
   if(urlCaseId){const linked=cases.find(c=>c.id===urlCaseId); if(linked) state.stackMode=stackModeForCase(linked);}
 }
 document.getElementById('drawerBackdrop').addEventListener('click',e=>{if(e.target.id==='drawerBackdrop') closeFullCase();});
-document.addEventListener('keydown',e=>{const lb=document.getElementById('imageLightbox'); if(lb&&lb.classList.contains('open')){if(e.key==='Escape'){lb.classList.remove('open'); return;} if(e.key==='ArrowLeft'||e.key==='ArrowRight'){lb.querySelector(`[data-lb-step="${e.key==='ArrowLeft'?'-1':'1'}"]`)?.click(); e.preventDefault(); return;}} if(e.key==='Escape') closeFullCase();});
+document.addEventListener('keydown',e=>{const lb=document.getElementById('imageLightbox'); if(lb&&lb.classList.contains('open')){if(e.key==='Tab'){trapModalFocus(e,lb);return;} if(e.key==='Escape'){e.preventDefault();closeLightbox();return;} if(e.key==='ArrowLeft'||e.key==='ArrowRight'){lb.querySelector(`[data-lb-step="${e.key==='ArrowLeft'?'-1':'1'}"]`)?.click(); e.preventDefault(); return;}} const backdrop=document.getElementById('drawerBackdrop'); if(backdrop.classList.contains('open')){if(e.key==='Tab'&&!matchMedia('(max-width:1080px)').matches){trapModalFocus(e,document.getElementById('caseDrawer'));return;} if(e.key==='Escape'){e.preventDefault();closeFullCase();}}});
 
 function selectCase(id,zoom){
   state.selectedCaseId=id;
@@ -593,6 +609,9 @@ function resetAtlasHome(){
   urlCaseId=null;
   document.getElementById('drawerBackdrop').classList.remove('open');
   document.getElementById('imageLightbox')?.classList.remove('open');
+  document.querySelector('.app')?.removeAttribute('inert');
+  document.getElementById('caseDrawer')?.removeAttribute('inert');
+  lightboxReturnFocus=null;
   document.dispatchEvent(new CustomEvent('atlas:home-reset'));
   renderAll();
   resetView();
@@ -600,7 +619,7 @@ function resetAtlasHome(){
 }
 window.resetAtlasHome=resetAtlasHome;
 document.getElementById('atlasHome').addEventListener('click',resetAtlasHome);
-function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; renderAll(); updateUrl();}
+function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; if(state.filters.precision==='orbital') state.stackMode='orbital'; else if(state.filters.precision!=='all') state.stackMode='main'; renderAll(); updateUrl();}
 agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; toggleInstitutional.classList.toggle('active', state.institutional); renderSignal(); updateUrl();});
 svg.addEventListener('wheel',e=>{e.preventDefault(); cancelViewAnim(); const pt = svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY; const ctm=svg.getScreenCTM().inverse(); const p=pt.matrixTransform(ctm); const factor = e.deltaY>0 ? 1.12 : 0.89; const nw = clamp(state.view.w*factor, 8, 100); const nh = nw*0.62; const mx = (p.x-state.view.x)/state.view.w, my = (p.y-state.view.y)/state.view.h; const x = clamp(p.x - mx*nw, 0, 100-nw); const y = clamp(p.y - my*nh, 0, 62-nh); setView(x,y,nw);},{passive:false});
 svg.addEventListener('mousedown',e=>{cancelViewAnim(); hideMapTip(); state.dragging=true; state.dragStart={x:e.clientX,y:e.clientY,view:{...state.view}};}); window.addEventListener('mousemove',e=>{if(!state.dragging) return; const dx=(e.clientX-state.dragStart.x)/svg.clientWidth*state.dragStart.view.w; const dy=(e.clientY-state.dragStart.y)/svg.clientHeight*state.dragStart.view.h; setView(clamp(state.dragStart.view.x-dx,0,100-state.dragStart.view.w), clamp(state.dragStart.view.y-dy,0,62-state.dragStart.view.h), state.dragStart.view.w);}); window.addEventListener('mouseup',()=>state.dragging=false);
@@ -738,6 +757,7 @@ function setMobilePage(page,{write=true}={}){
 }
 document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>btn.addEventListener('click',()=>setMobilePage(btn.dataset.page)));
 document.getElementById('peekOpen')?.addEventListener('click',()=>setMobilePage('dossier'));
+document.querySelector('[data-landscape-exit]')?.addEventListener('click',()=>setMobilePage('cases'));
 document.addEventListener('atlas:home-reset',()=>{mobilePage='map';syncMobileNav();renderMobilePeek();});
 function focusMobileCaseFromStack(id){
   selectCase(id,true);
@@ -810,6 +830,7 @@ openFullCase=function(id){
   originalOpenFullCase(id);
   if(!isMobileAtlas()) return;
   mobilePage='dossier';normalizeMobileDossier();syncMobileNav();renderMobilePeek();
+  updateUrl();
 };
 const originalCloseFullCase=closeFullCase;
 closeFullCase=function(){if(isMobileAtlas()){setMobilePage('cases');return;}originalCloseFullCase();};

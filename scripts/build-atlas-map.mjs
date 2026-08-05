@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import * as d3 from 'd3-geo';
 import {
@@ -98,9 +99,18 @@ function projectCase(c, projection, geoPath) {
 }
 
 function buildMapPayload() {
-  const atlas = readJson('atlas-data.json');
-  const countriesGeo = readJson(COUNTRY_SOURCE);
-  const admin1Geo = readJson(ADMIN1_SOURCE);
+  const atlasSource = fs.readFileSync(path.join(ROOT, 'atlas-data.json'));
+  const countrySource = fs.readFileSync(path.join(ROOT, COUNTRY_SOURCE));
+  const admin1Source = fs.readFileSync(path.join(ROOT, ADMIN1_SOURCE));
+  const atlas = JSON.parse(atlasSource);
+  const countriesGeo = JSON.parse(countrySource);
+  const admin1Geo = JSON.parse(admin1Source);
+  const sourceFingerprint = crypto.createHash('sha256')
+    .update(atlasSource)
+    .update(countrySource)
+    .update(admin1Source)
+    .update(PROJECTION_VERSION)
+    .digest('hex');
   const projection = makeProjection(countriesGeo);
   const geoPath = d3.geoPath(projection).digits(2);
 
@@ -135,7 +145,7 @@ function buildMapPayload() {
       fitExtent: FIT_EXTENT,
       countrySource: COUNTRY_SOURCE,
       admin1Source: ADMIN1_SOURCE,
-      generatedAt: new Date().toISOString(),
+      sourceFingerprint,
       countryCount: countries.length,
       admin1Count: admin1.length,
       projectedCaseCount: projectedCases.filter((c) => c.coordinateGenerated).length,
@@ -227,6 +237,11 @@ function writeHtml(payload, hydratedAtlas) {
   if (fs.existsSync(sourceIndexPath)) {
     const sourceIndex = JSON.parse(fs.readFileSync(sourceIndexPath, 'utf8'));
     html = replaceJsConstant(html, 'const sourceFileIndex = ', sourceIndex);
+  }
+  const sourceAvailabilityPath = path.join(ROOT, 'source-availability.json');
+  if (fs.existsSync(sourceAvailabilityPath)) {
+    const sourceAvailability = JSON.parse(fs.readFileSync(sourceAvailabilityPath, 'utf8'));
+    html = replaceJsConstant(html, 'const sourceAvailabilityIndex = ', sourceAvailability);
   }
 
   const layerPattern = /<g[^>]*(?:id="countryLayer"|opacity="\.98")[^>]*><g class="continents">[\s\S]*?<\/g><\/g>\s*<g id="stateLines" class="state-lines(?: admin1-lines)?" aria-hidden="true"[^>]*>[\s\S]*?<\/g>/;

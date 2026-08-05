@@ -21,13 +21,24 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
+      - name: Verify deterministic generated artifacts
+        run: |
+          npm ci
+          python3 -m pip install --disable-pip-version-check -r requirements-build.txt
+          npm run verify:build
+          python3 scripts/build-image-derivatives.py --check
+          python3 scripts/build-source-availability.py
+          git diff --exit-code -- source-availability.json source-availability.js
+          python3 scripts/test-repository-hygiene.py
       - name: Validate Atlas data and runtime contracts
         run: |
           python3 validate_atlas.py
           python3 scripts/test-atlas-health-contract.py
           python3 scripts/test-atlas-payload-contract.py
           python3 scripts/test-blackfile-mode.py
+          python3 scripts/test-atlas-product-integrity.py
           node scripts/test-atlas-single-entry.mjs
+          node scripts/test-atlas-navigation-contract.mjs index.html index.html
           node scripts/test-source-availability-contract.mjs
           node scripts/test-evidence-lens.mjs
           node scripts/test-orbital-evidence-architecture.mjs
@@ -47,6 +58,7 @@ jobs:
           mkdir -p /tmp/site
           # Copy web-facing files only (exclude large binaries)
           rsync -av \
+            --exclude-from='assets/image-derivatives-exclude.txt' \
             --include='assets/evidence/GHOSTROCKETS-1946/mapped-pdfs/*.pdf' \
             --include='assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary.pdf' \
             --include='assets/evidence/LAJOYA-1980/LAJOYA-1980-DIA-JCS-message.pdf' \
@@ -65,6 +77,7 @@ jobs:
             --exclude='source-files' \
             --exclude='scripts' \
             ./ /tmp/site/
+          python3 scripts/test-atlas-artifact-budget.py --root /tmp/site
       - uses: actions/upload-pages-artifact@v5
         with:
           path: /tmp/site

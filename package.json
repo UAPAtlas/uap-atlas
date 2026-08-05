@@ -3,7 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:map": "node scripts/build-atlas-map.mjs"
+    "build:map": "node scripts/build-atlas-map.mjs",
+    "verify:build": "python3 scripts/test-atlas-build-reproducibility.py",
+    "verify:images": "python3 scripts/build-image-derivatives.py --check"
   },
   "dependencies": {
     "d3-geo": "^3.1.1"

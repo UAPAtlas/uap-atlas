@@ -1,2 +1,5 @@
 node_modules/
 __pycache__/
+.DS_Store
+assets/source_previews/test.pdf
+atlas-mobile.qa.html

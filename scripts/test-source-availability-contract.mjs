@@ -18,6 +18,7 @@ const appSource = html.includes('function sourceAvailability(')
 const atlas = JSON.parse(fs.readFileSync(path.join(root, 'atlas-data.json'), 'utf8'));
 const sourceIndex = JSON.parse(fs.readFileSync(path.join(root, 'source-file-index.json'), 'utf8'));
 const contract = JSON.parse(fs.readFileSync(path.join(root, 'source-availability.json'), 'utf8'));
+const derivatives = JSON.parse(fs.readFileSync(path.join(root, 'image-derivatives.json'), 'utf8'));
 
 const unsafePublicSources = atlas.cases.flatMap(c => (c.publicSources || [])
   .filter(src => !/^https?:\/\//i.test(String(src.url || '')))
@@ -36,6 +37,14 @@ const extra = Object.keys(contract.entries).filter(p => !indexedPaths.includes(p
 const invalid = Object.entries(contract.entries).filter(([, row]) => !allowed.has(row.status));
 if (missing.length || extra.length || invalid.length) {
   throw new Error(`Contract mismatch: missing=${missing.length} extra=${extra.length} invalid=${invalid.length}`);
+}
+const indexedDerivativePaths = Object.keys(derivatives.entries).filter(p => contract.entries[p]);
+const invalidDerivativeRoutes = indexedDerivativePaths.filter(p => {
+  const row = contract.entries[p];
+  return row.status !== 'external-public' || !/^https:\/\/raw\.githubusercontent\.com\/UAPAtlas\/uap-atlas\/main\//.test(row.url || '');
+});
+if (!indexedDerivativePaths.length || invalidDerivativeRoutes.length) {
+  throw new Error(`Derivative original routing invalid: indexed=${indexedDerivativePaths.length} invalid=${invalidDerivativeRoutes.length}`);
 }
 
 const pagesExcludedPrefixes = ['source-files/', 'research/', 'qa/', 'scripts/'];
@@ -91,6 +100,7 @@ if (!(appSource + runtimeSource).includes('Held in Atlas research corpus—not p
   throw new Error('Transparent custody-only drawer copy missing');
 }
 if (!appSource.includes('source-custody')) throw new Error('Custody-only source state markup missing');
+if (!appSource.includes('availability.url||fileUrl(file.path)')) throw new Error('External-public source URL override missing');
 if (/h\.mediaUrl\?`<a class="file-link"/.test(appSource)) {
   throw new Error('Featured media still bypasses the source availability contract');
 }

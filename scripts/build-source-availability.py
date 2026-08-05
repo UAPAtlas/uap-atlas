@@ -12,6 +12,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_WORKFLOW = ROOT / ".github/workflows/deploy.yml"
+DEFAULT_DERIVATIVES = ROOT / "image-derivatives.json"
 
 
 def workflow_rules(path: Path) -> list[tuple[str, str]]:
@@ -44,7 +45,7 @@ def pages_includes(path: str, rules: list[tuple[str, str]]) -> bool:
     return True
 
 
-def classify(raw: str, rules: list[tuple[str, str]]) -> dict[str, str]:
+def classify(raw: str, rules: list[tuple[str, str]], derivatives: dict[str, dict]) -> dict[str, str]:
     value = raw.strip()
     if re.match(r"^https?://", value, re.I):
         parsed = urlparse(value)
@@ -62,6 +63,16 @@ def classify(raw: str, rules: list[tuple[str, str]]) -> dict[str, str]:
     local_path = ROOT / clean
     if not local_path.exists():
         return {"status": "unavailable", "label": "Mapped file not found"}
+    derivative = derivatives.get(clean)
+    if derivative:
+        original_url = derivative.get("originalUrl", "")
+        parsed = urlparse(original_url)
+        return {
+            "status": "external-public",
+            "label": "Archival original served from the Atlas Git repository",
+            "host": parsed.netloc.lower(),
+            "url": original_url,
+        }
     if not pages_includes(clean, rules):
         return {
             "status": "custody-only",
@@ -73,18 +84,21 @@ def classify(raw: str, rules: list[tuple[str, str]]) -> dict[str, str]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--workflow", type=Path, default=DEFAULT_WORKFLOW)
+    parser.add_argument("--derivatives", type=Path, default=DEFAULT_DERIVATIVES)
     parser.add_argument("--output", type=Path, default=ROOT / "source-availability.json")
     args = parser.parse_args()
 
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
     rules = workflow_rules(args.workflow)
+    derivative_payload = json.loads(args.derivatives.read_text()) if args.derivatives.exists() else {"entries": {}}
+    derivatives = derivative_payload.get("entries", {})
     paths = sorted({item for values in source_index.values() for item in values})
-    entries = {item: classify(item, rules) for item in paths}
+    entries = {item: classify(item, rules, derivatives) for item in paths}
     counts = Counter(row["status"] for row in entries.values())
     payload = {
         "schemaVersion": 1,
         "policy": "explicit-source-availability",
-        "generatedFrom": ["source-file-index.json", ".github/workflows/deploy.yml"],
+        "generatedFrom": ["source-file-index.json", ".github/workflows/deploy.yml", "image-derivatives.json"],
         "summary": {
             "indexedPaths": len(paths),
             "publicLocal": counts["public-local"],
