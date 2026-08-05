@@ -391,7 +391,7 @@
     "indexedLinks": 8,
     "publicSourceUrls": 1,
     "evidenceAssets": 8,
-    "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
+    "sourceQuality": "Primary source: complete page-mapped Air Intelligence Information Report packet, NARA NAID 311001910, canonical raw objects 058\u2013064; later duplicate objects 258\u2013264 are excluded from the mapping.",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
       "label": "thin-summary",

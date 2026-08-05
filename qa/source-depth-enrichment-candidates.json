@@ -391,7 +391,7 @@
     "indexedLinks": 8,
     "publicSourceUrls": 1,
     "evidenceAssets": 8,
-    "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
+    "sourceQuality": "Primary source: complete page-mapped Air Intelligence Information Report packet, NARA NAID 311001910, canonical raw objects 058\u2013064; later duplicate objects 258\u2013264 are excluded from the mapping.",
     "quoteConfidence": "confirmed primary-source quotation",
     "sourceProfile": {
       "label": "thin-summary",
@@ -1505,6 +1505,31 @@
     ]
   },
   {
+    "id": "BF-2019-OM-01",
+    "title": "USS Omaha Sphere & Swarm Events",
+    "score": 20,
+    "sourceRecords": 2,
+    "indexedLinks": 6,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "Named Pentagon spokesperson confirmation reported by The Debrief, plus a public leaked-video/frame trail; USS Omaha attribution remains secondary, and no exact official media master or event packet is mapped.",
+    "quoteConfidence": "Confirmed direct quotation in named reporting; establishes Navy origin and UAPTF review only, not ship identity, reported date or water entry.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:local atlas audit derived from the current source inventory",
+        "other:susan gough email confirmation as quoted by the debrief; uss omaha/date attribution from jeremy corbell; public clip/frame distributed by mystery wire and mirrored on wikimedia"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "sourceQuality=Named Pentagon spokesperson confirmation reported by The Debrief, plus a public leaked-video/frame trail; USS Omaha attribution remains secondary, and no exact official media master or event packet is mapped."
+    ]
+  },
+  {
     "id": "BF-2020-AS-01",
     "title": "Arabian Sea Range Fouler",
     "score": 20,
@@ -1574,30 +1599,6 @@
     "reasons": [
       "source profile=single-primary-record",
       "sourceQuality=Official DVIDS Apollo 14 debriefing video record with local frame preview; released visual custody, context unresolved."
-    ]
-  },
-  {
-    "id": "BF-1976-TH-01",
-    "title": "Tehran F-4 Intercept Case",
-    "score": 17,
-    "sourceRecords": 1,
-    "indexedLinks": 4,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 4,
-    "sourceQuality": "Primary record",
-    "quoteConfidence": "verified against declassified report image",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:declassified us government record mirrored by nsa"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record",
-      "flagship/contradiction case"
     ]
   },
   {
@@ -2042,30 +2043,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "civil-aviation"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
-    "id": "BF-2019-OM-01",
-    "title": "USS Omaha Sphere & Swarm Events",
-    "score": 12,
-    "sourceRecords": 2,
-    "indexedLinks": 6,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "Pentagon-confirmed/DVIDS/public-media video-frame trail with local source-index imagery; official media custody exists, but deck-log/raw-sensor packet remains incomplete.",
-    "quoteConfidence": "High for public/video-release existence; medium for broader swarm/deck-log claims without full packet custody.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:dvids official media record, pentagon-confirmed/public uss omaha video-frame trail, wikimedia/public mirror, and local atlas source-index assets",
-        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "reasons": [

@@ -6,10 +6,10 @@
     ".github/workflows/deploy.yml"
   ],
   "summary": {
-    "indexedPaths": 854,
+    "indexedPaths": 855,
     "publicLocal": 626,
     "externalPublic": 92,
-    "custodyOnly": 136,
+    "custodyOnly": 137,
     "unavailable": 0
   },
   "entries": {
@@ -3048,6 +3048,11 @@
       "label": "External public source",
       "host": "sok.riksarkivet.se"
     },
+    "https://thedebrief.org/pentagon-confirms-leaked-video-showing-transmedium-ufo-is-authentic/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "thedebrief.org"
+    },
     "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg": {
       "status": "external-public",
       "label": "External public source",
@@ -3184,11 +3189,6 @@
       "host": "www.dvidshub.net"
     },
     "https://www.dvidshub.net/video/1014107/nasa-uap-d026-apollo-14-debriefing-1971": {
-      "status": "external-public",
-      "label": "External public source",
-      "host": "www.dvidshub.net"
-    },
-    "https://www.dvidshub.net/video/843593/navy-2019-west-coast-video": {
       "status": "external-public",
       "label": "External public source",
       "host": "www.dvidshub.net"
@@ -3510,6 +3510,10 @@
       "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/evidence-depth/WALTON-1975-evidence-depth.md": {
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
+    },
+    "source-files/external/TEHRAN-1976-BlackVault-joint_chiefs_staff_report.pdf": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
     },

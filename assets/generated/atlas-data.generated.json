@@ -5,12 +5,12 @@
       "quoteSource": "55th Strategic Reconnaissance Wing Joint Message Form, 17 July 1957, NARA NAID 28970538, scan 0397, message p. 2",
       "quoteConfidence": "confirmed-primary-source-quotation",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Primary official record: four-page 55th Strategic Reconnaissance Wing Joint Message Form, NARA NAID 28970538, scans 0396–0399; later published technical analysis is a separate dependent source family.",
       "coordinateBasis": "Mid-track coordinate of the documented 700-mile pursuit corridor",
       "coordinatePrecision": "region",
       "id": "BF-1957-RB-01",
       "title": "RB-47 ELINT Pursuit Case",
-      "date": "JUL 1957",
+      "date": "17 JUL 1957",
       "year": 1957,
       "location": "South-central U.S. corridor (TX–LA–MS–OK)",
       "mode": "approximate",
@@ -23,13 +23,13 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "An RB-47H electronic-intelligence aircraft with six officers encountered a luminous source over the southern United States. A contemporaneous 55th Strategic Reconnaissance Wing message records repeated visual observations, matching ECM direction-finding bearings, and ground-radar confirmation by the Utah ADC site during pursuit.",
-      "keyFact": "Four independent detection channels — visual, airborne radar, ground radar, and signals intelligence — tracked the same unknown for 700 miles.",
-      "official": "The recovered USAF message describes the event as an “unidentified flying object” report and records visual, ECM, and ground-radar observations. Later Blue Book material carried an airliner explanation, while later analysts disputed whether that identification fit the timing and sensor record.",
-      "gap": "The original four-page operational message is now recovered, but the Utah radar-scope film/plots, the recorded interphone and command-position audio noted in the message, and raw ECM recordings remain absent. The public file also appends later analyses, which must not be confused with the contemporaneous message.",
-      "whyItMatters": "It is the single best multi-sensor case of the pre-digital era, and it sits unexplained inside the very study used to close Blue Book.",
+      "summary": "A contemporaneous four-page 55th Strategic Reconnaissance Wing message reports a luminous source observed by the RB-47 crew, coincident ECM direction-finding bearings near 2,995–3,000 MHz, and a Utah ADC site’s reported ground-radar contact during pursuit. Raw radar, ECM and audio records are absent, so the message documents correlated reports rather than independently preserved sensor data.",
+      "keyFact": "One contemporaneous USAF message correlates crew visual observation, airborne ECM direction finding, and relayed ground-radar contact during pursuit.",
+      "official": "The message labels the event an unidentified flying object report and states that electronic direction findings coincided repeatedly with visual observations. It also relays immediate Utah ADC ground-radar confirmation. Later Condon/Blue Book and McDonald analyses disagree over an airliner explanation and timing; those are later interpretations, not additional sensor families.",
+      "gap": "The complete four-page operational message is recovered. Still absent are Utah radar-scope film or plots, raw ECM recordings, and the interphone and command-position audio referenced in the message. Later analyses in the public file must remain separate from the contemporaneous message.",
+      "whyItMatters": "An unusually strong pre-digital record because a four-page military message preserves cross-modal correlation while making the missing raw sensor and audio evidence explicit.",
       "sources": [
-        "RB47-1957 · Condon Report Case 5 / McDonald AIAA analysis (1971)"
+        "RB47-1957"
       ],
       "sourceLabel": "Condon Report record",
       "sourceLocator": "NARA NAID 28970538, scans 0396–0399; Fold3 T1206 sequence beginning image 6961835",
@@ -38,7 +38,7 @@
         "BF-1956-LB-01",
         "BF-1952-DC-01"
       ],
-      "heroFact": "Four independent detection channels — visual, airborne radar, ground radar, and signals intelligence — tracked the same unknown for 700 miles.",
+      "heroFact": "One contemporaneous USAF message correlates crew visual observation, airborne ECM direction finding, and relayed ground-radar contact during pursuit.",
       "image": "assets/source_previews/BF-1957-RB-01_source_image.jpg",
       "caseTypes": [
         "military-encounter"
@@ -57,13 +57,13 @@
         "provenance": "primary-record"
       },
       "temporal": {
-        "dateLabel": "JUL 1957",
+        "dateLabel": "17 JUL 1957",
         "year": 1957,
-        "startDateTime": null,
-        "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
-        "precision": "month",
+        "startDateTime": "1957-07-17T10:10:00Z",
+        "endDateTime": "1957-07-17T11:02:00Z",
+        "timezone": "UTC",
+        "durationSeconds": 3120,
+        "precision": "minute",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -111,39 +111,37 @@
       },
       "sourceRecords": [
         {
-          "citation": "AIAA UFO Subcommittee sample case / McDonald analysis",
+          "citation": "AIAA UFO Subcommittee sample case / James E. McDonald RB-47 analysis",
           "sourceType": "published-technical-analysis",
-          "provenance": "Astronautics & Aeronautics, July 1971; cites contemporary USAF intelligence records",
+          "provenance": "Astronautics & Aeronautics, July 1971; analyzes contemporary USAF records and later interviews",
           "locator": "pp. 66–70",
           "supports": [
-            "six-person-aircrew",
-            "visual-ECM-radar-correlation",
-            "route",
-            "duration"
+            "Later technical reconstruction of route, duration and reported visual/ECM correlation",
+            "Analysis disputing whether an airliner explanation fits the reported timing and sensor sequence",
+            "Message records an encounter interval of 1010Z–1102Z on 17 July 1957 (52 minutes)"
           ],
           "limitations": [
-            "not-the-original-case-file",
-            "some-details-from-1969-interviews",
-            "no-radar-scope-film"
+            "Published in 1971, not contemporaneous with the event",
+            "Depends partly on USAF records and 1969 interviews; not independent raw sensor data",
+            "No radar-scope film or raw ECM recording",
+            "Longer approximately 90-minute duration belongs to later analytical reconstruction, not the message interval"
           ]
         },
         {
           "citation": "RB47-NARA-28970538 · Forbes AFB, Kansas, July 1957",
           "sourceType": "contemporaneous-military-message-and-case-file",
           "provenance": "NARA Record Group 341, Project Blue Book public file, NAID 28970538",
-          "locator": "Scans 0396–0399 (four-page 55th Strategic Reconnaissance Wing message); complete 56-object public grouping archived locally",
+          "locator": "Scans 0396–0399: four-page 55th Strategic Reconnaissance Wing message; complete 56-object public grouping archived locally",
           "supports": [
-            "RB-47H-platform",
-            "2995-to-3000-MHz-signal",
-            "visual-ECM-correlation",
-            "Mach-0.83-pursuit",
-            "Utah-ADC-ground-radar-confirmation"
+            "Contemporaneous report of crew visual observations and ECM direction findings",
+            "Message relays Utah ADC ground-radar confirmation",
+            "Reports Mach 0.83 pursuit and signal frequency near 2,995–3,000 MHz"
           ],
           "limitations": [
-            "raw-radar-plots-absent",
-            "raw-ECM-recording-absent",
-            "interphone-recording-absent",
-            "public-grouping-includes-later-analysis"
+            "No raw radar plot or scope film",
+            "No raw ECM recording",
+            "Recorded interphone and command-position audio referenced but absent",
+            "A single compiled message chain is not four independent source families"
           ]
         }
       ],
@@ -174,10 +172,10 @@
         ],
         "sensors": [
           "unaided-visual",
-          "airborne ECM direction finding",
-          "ground radar"
+          "airborne-ECM-direction-finding",
+          "ground-radar-reported-in-message"
         ],
-        "durationSeconds": 5400,
+        "durationSeconds": 3120,
         "independentWitnessGroups": 2
       },
       "taxonomyOriginal": {
@@ -11761,11 +11759,11 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "A declassified U.S. defense message records two Iranian F-4 intercept attempts, a reported radar lock at 27 nautical miles, communications and instrumentation failures near the object, and a weapons-control failure during a missile attempt. The message preserves the military report but not the raw operational data needed to reproduce it.",
-      "official": "The released USDAO/JCS message records the Iranian military account, radar-lock report and equipment effects, then states that more information would be forwarded when available. It gives no final object identification and includes no reproduced radar, maintenance or radiation-analysis results.",
-      "gap": "Still absent are raw radar plots or tapes, ground-controller and communications logs, F-4 maintenance and fault records, missile-system diagnostics, named crew statements, and the promised follow-up or radiation-test results.",
+      "summary": "A declassified USDAO Tehran/JCS message relays two Iranian F-4 intercept attempts, a reported airborne radar lock at 27 nautical miles, communications and instrumentation failures near the reported object, and a weapons-control failure during a missile attempt. It is a strong contemporaneous reporting record, but it does not preserve the raw operational data needed to reproduce or causally attribute those effects.",
+      "official": "The released message records Iranian military and civilian reports, including the reported airborne radar lock and equipment effects, and says more information would be forwarded when available. It gives no final object identification and includes no raw radar, maintenance, communications, radiation-analysis or promised follow-up record.",
+      "gap": "Still absent are raw airborne or ground radar plots or tapes, ground-controller and communications logs, F-4 maintenance and fault records, missile-system diagnostics, primary crew statements, the civil-airliner record, the promised follow-up message, and radiation-test results.",
       "sources": [
-        "TEHRAN-1976 · DIA/JCS/NSA Iran case file"
+        "TEHRAN-1976"
       ],
       "image": "assets/editorial-reconstructions/BF-1976-TH-01.png",
       "lon": 51.389,
@@ -11775,14 +11773,14 @@
       "coordinatePrecision": "city",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Tehran public coordinate",
-      "keyFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept rather than reducing the case to a routine misidentification.",
-      "whyItMatters": "Military intercept records with reported system interference are operationally serious, especially when preserved in U.S. defense/intelligence reporting.",
+      "keyFact": "One declassified defense message preserves pilot-reported radar contact and localized instrumentation, communications and weapons-panel failures during an attempted intercept.",
+      "whyItMatters": "Operationally serious because the report combines an intercept, an airborne radar-lock claim and systems-effect reports, while the missing raw and maintenance data prevent causal attribution.",
       "keyQuote": "The backseater acquired a radar lock on at 27 NM, 12 o'clock position with the V.C. (rate of closure) at 150 NMPH.",
-      "quoteSource": "USDAO Tehran/JCS message, rendered report p. 3 (message p. 2)",
-      "quoteConfidence": "verified against declassified report image",
-      "heroFact": "A defense/intelligence record preserved pilot-reported instrument and weapons interference during an attempted intercept.",
+      "quoteSource": "USDAO Tehran/JCS message, local PDF p. 3 / visible message p. 02, mapped image Tehran_JCS_Report_page_003.jpg",
+      "quoteConfidence": "Verified against the mapped declassified report scan; the quotation records a reported radar lock, not preserved raw radar data.",
+      "heroFact": "A declassified USDAO/JCS message preserves pilot-reported radar contact and localized systems failures—but not the raw data needed to establish cause.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Primary official reporting record: USDAO Tehran/JCS three-page message relaying Iranian accounts, mirrored by NSA and locally mapped; a single official message chain, not independent raw sensor or maintenance custody.",
       "sourceLabel": "Iranian AF / DIA",
       "sourceLocator": "Tehran JCS/USDAO report pp. 2–3",
       "relatedCaseIds": [
@@ -11836,21 +11834,22 @@
       },
       "sourceRecords": [
         {
-          "citation": "USDAO Tehran/JCS message, September 1976",
+          "citation": "USDAO Tehran/JCS message, “Reported UFO Sighting,” September 1976",
           "sourceType": "official-defense-message",
-          "provenance": "Declassified US government record mirrored by NSA",
-          "locator": "report pp. 2–3",
+          "provenance": "Declassified U.S. government record mirrored by NSA and preserved locally as a four-page PDF rendering of a three-page message",
+          "locator": "Local PDF pp. 2–4 / visible message pp. 01–03; mapped images Tehran_JCS_Report_page_002.jpg through page_004.jpg",
           "supports": [
-            "two-reported-intercepts",
-            "reported-airborne-radar-lock",
-            "reported-communications-and-instrument-effects",
-            "reported-weapons-control-failure"
+            "Message reports two Iranian F-4 intercept attempts",
+            "Message reports an airborne radar lock at 27 nautical miles",
+            "Message reports communications and instrumentation effects near the object",
+            "Message reports a weapons-control-panel failure during a missile attempt"
           ],
           "limitations": [
-            "no-raw-radar",
-            "no-maintenance-or-fault-records",
-            "no-follow-up-results",
-            "message-records-claims-not-object-identity"
+            "No raw radar plots or tapes",
+            "No maintenance, fault or missile-system diagnostic records",
+            "No promised follow-up or radiation-test results",
+            "No causal link is established between object proximity and the reported systems effects",
+            "The message records relayed claims, not object identity"
           ]
         }
       ],
@@ -11874,7 +11873,7 @@
       },
       "observation": {
         "witnessCount": null,
-        "witnessCountBasis": "multiple citizen calls plus two interceptor crews and tower personnel",
+        "witnessCountBasis": "Multiple reported witness groups relayed through one USDAO/JCS message chain",
         "witnessRoles": [
           "citizens",
           "Iranian Air Force interceptor crews",
@@ -11882,11 +11881,10 @@
         ],
         "sensors": [
           "unaided-visual",
-          "F-4 radar",
-          "tower radar-reported"
+          "F-4-radar-reported-in-message"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": 3
+        "independentWitnessGroups": null
       },
       "taxonomyOriginal": {
         "domain": "MILITARY / RADAR",
@@ -18287,11 +18285,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "It splashed!",
-      "quoteSource": "USS Omaha CIC audio, July 15, 2019 (Pentagon-confirmed footage)",
-      "quoteConfidence": "High for public/video-release existence; medium for broader swarm/deck-log claims without full packet custody.",
+      "keyQuote": "I can confirm that the video was taken by Navy personnel, and that the UAPTF included it in their ongoing examinations.",
+      "quoteSource": "Pentagon spokesperson Susan Gough email response, reported by The Debrief, May 2021",
+      "quoteConfidence": "Confirmed direct quotation in named reporting; establishes Navy origin and UAPTF review only, not ship identity, reported date or water entry.",
       "significance": "Case significance",
-      "sourceQuality": "Pentagon-confirmed/DVIDS/public-media video-frame trail with local source-index imagery; official media custody exists, but deck-log/raw-sensor packet remains incomplete.",
+      "sourceQuality": "Named Pentagon spokesperson confirmation reported by The Debrief, plus a public leaked-video/frame trail; USS Omaha attribution remains secondary, and no exact official media master or event packet is mapped.",
       "coordinateBasis": "Southern California operating area where the 2019 swarm events were logged",
       "coordinatePrecision": "offshore-area",
       "id": "BF-2019-OM-01",
@@ -18307,13 +18305,13 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "In July 2019, warships off Southern California logged multi-night 'drone' swarms; USS Omaha sensors recorded a spherical object appearing to enter the water without debris, and the Pentagon confirmed the leaked footage as authentic Navy imagery taken by the UAP Task Force. Later document releases tie many swarm tracks to surface vessels — with an unresolved subset.",
-      "keyFact": "Pentagon-authenticated shipboard footage of a trans-medium candidate, inside a documented multi-ship swarm investigation — the modern case where authentication and identification fully separated.",
-      "official": "DoD confirmed the videos' authenticity and referred identity questions to the UAPTF; deck logs and follow-up FOIA point to drone activity for much of the swarm without resolving all tracks.",
-      "gap": "Sonar records that would confirm or refute the water entry have never been released. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "Omaha extends this atlas's Nimitz thread into the swarm era and frames the modern problem: perfect chain of custody, persistent ambiguity.",
+      "summary": "A public thermal-style clip attributed by Jeremy Corbell to USS Omaha shows a dark spot near the horizon that fades from view while CIC audio reacts. Pentagon spokesperson Susan Gough told The Debrief that the video was taken by Navy personnel and included in UAPTF examinations. That confirmation does not itself establish USS Omaha, the reported date, object identity, physical water entry, swarm linkage, range, speed or transmedium behavior.",
+      "keyFact": "Navy origin and UAPTF review are reported as Pentagon-confirmed, while USS Omaha attribution and the water-entry interpretation remain unverified by an exact official public event record.",
+      "official": "The public confirmation reported by The Debrief establishes Navy origin and UAPTF review. The exact ship/date attribution and broader swarm context remain secondary in the current corpus. DVIDS video 843593 is a different 2019 West Coast night-vision/UAS record and is not evidence for this Omaha-attributed clip.",
+      "gap": "A complete unedited media master, originating Navy event record, embedded ship/time metadata, radar/EW/deck-log packet and any sonar record are not mapped. The existing frame, public mirror and contextual ship image are not independent corroboration.",
+      "whyItMatters": "A clear custody-versus-interpretation case: named official confirmation supports Navy provenance, but the extraordinary water-entry and transmedium conclusions require missing metadata and sensor records.",
       "sources": [
-        "OMAHA-2019 · Pentagon-confirmed footage / deck log FOIA trail"
+        "OMAHA-2019"
       ],
       "sourceLabel": "UAPTF footage record",
       "sourceLocator": "OMAHA-2019",
@@ -18322,7 +18320,7 @@
         "BF-2015-NAV-01",
         "BF-2023-LG-01"
       ],
-      "heroFact": "Pentagon-authenticated shipboard footage of a trans-medium candidate, inside a documented multi-ship swarm investigation — the modern case where authentication and identification fully separated.",
+      "heroFact": "Navy origin and UAPTF review are reported as Pentagon-confirmed; ship identity, water entry and transmedium behavior are not established by the mapped public record.",
       "image": "assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
       "caseTypes": [
         "military-encounter"
@@ -18365,19 +18363,20 @@
       },
       "sourceRecords": [
         {
-          "citation": "OMAHA-2019 · Pentagon-confirmed footage / deck log FOIA trail",
-          "sourceType": "official-media-and-public-video-frame-trail",
-          "provenance": "DVIDS official media record, Pentagon-confirmed/public USS Omaha video-frame trail, Wikimedia/public mirror, and local Atlas source-index assets",
-          "locator": "OMAHA-2019",
+          "citation": "Pentagon spokesperson confirmation reported by The Debrief / public Omaha-attributed clip",
+          "sourceType": "reported-official-confirmation-and-public-video-trail",
+          "provenance": "Susan Gough email confirmation as quoted by The Debrief; USS Omaha/date attribution from Jeremy Corbell; public clip/frame distributed by Mystery Wire and mirrored on Wikimedia",
+          "locator": "The Debrief confirmation article; Mystery Wire public video; local frame assets/evidence/hero-visuals/OMAHA-2019-video-frame.png",
           "supports": [
-            "Documents USS Omaha sphere/swarm material through public video-frame imagery and official/public media records",
-            "Source index includes an Omaha video frame, DVIDS official media link, and USS Omaha contextual imagery",
-            "Supports the case as a modern Navy sensor/media event with public confirmation context"
+            "Pentagon spokesperson statement that the video was taken by Navy personnel",
+            "Pentagon spokesperson statement that UAPTF included the video in ongoing examinations",
+            "Public clip/frame shows a dark spot near the horizon fading from view with contemporaneous audio"
           ],
           "limitations": [
-            "Public video/frame material is not the complete raw sensor/deck-log/radar/EW packet",
-            "The released imagery does not establish object identity, underwater transition mechanics, or non-human origin",
-            "Broader swarm chronology remains incomplete without full ship logs, sensor metadata, and contemporaneous analytical workpapers"
+            "No exact official media master or originating Navy event record is mapped",
+            "Pentagon statement does not independently confirm USS Omaha attribution or reported date",
+            "Public clip/frame does not establish water entry, range, speed, object identity, swarm linkage or transmedium behavior",
+            "No complete radar, EW, deck-log or sonar packet is mapped"
           ]
         },
         {
@@ -18386,14 +18385,14 @@
           "provenance": "Local Atlas audit derived from the current source inventory",
           "locator": "source-files/evidence-depth/OMAHA-2019-evidence-depth.md",
           "supports": [
-            "current source inventory",
-            "explicit primary-record gaps",
-            "provenance boundary"
+            "Current source inventory",
+            "Explicit primary-record gaps",
+            "Provenance boundary"
           ],
           "limitations": [
-            "not an independent source",
-            "does not corroborate the event narrative",
-            "cannot substitute for missing primary records"
+            "Not an independent source",
+            "Does not corroborate the event narrative",
+            "Cannot substitute for missing primary records"
           ]
         }
       ],
@@ -18437,28 +18436,30 @@
       },
       "publicSources": [
         {
-          "label": "MYSTERY WIRE — Jeremy Corbell and George Knapp: New USS Omaha deck video",
+          "label": "The Debrief — Pentagon spokesperson confirms Navy origin and UAPTF review",
+          "url": "https://thedebrief.org/pentagon-confirms-leaked-video-showing-transmedium-ufo-is-authentic/",
+          "publisher": "The Debrief",
+          "access": "Public",
+          "scope": "named-official-confirmation-reported-by-press",
+          "note": "Reports Susan Gough’s direct email confirmation that the video was taken by Navy personnel and included in UAPTF examinations. The statement does not independently confirm USS Omaha, the reported date, water entry or object identity."
+        },
+        {
+          "label": "Mystery Wire — Corbell/Knapp USS Omaha attribution and public clip context",
           "url": "https://www.youtube.com/watch?v=4wK39G-zD8s",
           "publisher": "Mystery Wire / George Knapp / Jeremy Corbell",
           "access": "Public",
-          "scope": "case-specific-analysis",
+          "scope": "secondary-case-attribution-and-public-video",
           "role": "contextual-analysis",
           "mediaKind": "video",
-          "note": "Case-specific coverage of the USS Omaha material; contextual reporting and analysis, not the official sensor record or a complete Navy investigative file."
+          "note": "Carries the USS Omaha/date attribution and public clip context; not an originating Navy record or complete sensor packet."
         },
         {
-          "label": "Wikimedia Commons — public media record",
+          "label": "Wikimedia Commons — public frame mirror",
           "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/USS_Omaha_UFO_video_-_July_2019.png",
           "publisher": "Wikimedia Commons",
           "access": "Public",
-          "scope": "public-mirror"
-        },
-        {
-          "label": "DVIDS — official media record",
-          "url": "https://www.dvidshub.net/video/843593/navy-2019-west-coast-video",
-          "publisher": "Defense Visual Information Distribution Service",
-          "access": "Public",
-          "scope": "official-record"
+          "scope": "public-mirror",
+          "note": "Public mirror of a frame attributed to the Omaha clip; mirror custody does not independently authenticate event claims."
         }
       ],
       "images": [
@@ -23340,8 +23341,8 @@
       "location": "Northern California coast (35°30′N, 124°30′W)",
       "mode": "approximate",
       "lon": -124.5,
-      "lat": 39,
-      "coordinateBasis": "Offshore Northern California coast, approximate area of AW&C aircraft radar contact",
+      "lat": 35.5,
+      "coordinateBasis": "Primary AIIR area field gives Northern California Coast at 35°30′N, 124°30′W; plotted route and target annotations appear in raw object 064.",
       "expectedCountry": "United States of America",
       "expectedAdmin1": "California",
       "geometryExpectation": "offshore",
@@ -23350,9 +23351,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "An airborne radar operator detected an unidentified object via raw radar skinpaint (not transponder) over 3.5 hours of intermittent contact off the Northern California coast. The object closed to 6 miles and flew parallel to the AW&C aircraft, then accelerated away. The investigator flagged this as the first confirmed radar skinpaint of a UAP — 'significant' and 'unprecedented.'",
-      "official": "Investigator concluded: 'This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.' No conventional explanation offered.",
-      "gap": "The seven-object packet includes the AIIR, routing memoranda, control roster, scope-operator log, handwritten operator statement, and route plot, but not raw radar film, calibration records, or independent sensor corroboration.",
+      "summary": "A seven-object Air Intelligence Information Report packet documents an airborne radar operator’s report of intermittent skinpaint off the Northern California coast on 3 August 1957. The mapped scope log and operator statement report contact over roughly 3.5 hours, closure to about 5–6 miles, parallel flight, and later acceleration or turn away. No raw radar film, visual confirmation, or independent sensor record is preserved.",
+      "official": "The investigator wrote that this was “the first time such a detection has been made as an actual skinpaint,” distinguished it from prior IFF paints, and noted that a suggested technical explanation was given in enclosure #2. The mapped packet does not provide a final identity for the target.",
+      "gap": "The complete mapped packet includes the AIIR, routing memoranda, control roster, scope-operator log, handwritten operator statement and route plot. Still absent are raw radar film, calibration and performance records, visual confirmation, independent sensor corroboration, and a final investigative disposition.",
       "sources": [
         "AIIRS-1957, NAID 311001910, raw objects 058-064"
       ],
@@ -23367,14 +23368,14 @@
         "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-063.png",
         "assets/evidence/AIIRS-1957-SKINPAINT/AIIRS1957_skinpaint_raw-object-064.png"
       ],
-      "keyFact": "First confirmed radar skinpaint of a UAP — the object was detected by raw radar return, closed to 6 miles flying parallel, then accelerated away over 3.5 hours of intermittent contact.",
-      "whyItMatters": "Pure sensor case with no visual component. The parallel-flight behavior demonstrates what looks like intelligent tracking. The investigator's own words — 'significant' and 'unprecedented' — carry weight. Adds a radar-only case to balance the visual-heavy Atlas.",
+      "keyFact": "A complete primary AIIR packet preserves operator-reported airborne radar skinpaint, a scope log, handwritten statement and route plot for an unresolved radar-only event.",
+      "whyItMatters": "The case is valuable as a primary-source radar-only report with unusually complete page context, but reported target behavior does not by itself establish intelligent control or object identity.",
       "keyQuote": "This report is considered significant since it is the first time such a detection has been made as an actual skinpaint.",
       "quoteSource": "AIIRS-1957, Northern California report, raw object 058 (NARA NAID 311001910)",
       "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "A radar operator tracked a UAP by raw skinpaint for 3.5 hours — the object closed to 6 miles, flew parallel, then accelerated away.",
-      "significance": "High significance — first radar skinpaint",
-      "sourceQuality": "Primary source — complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
+      "heroFact": "A complete AIIR packet preserves operator-reported radar skinpaint, scope chronology, a first-person statement and route plot—without raw radar film or independent corroboration.",
+      "significance": "High significance · primary radar report",
+      "sourceQuality": "Primary source: complete page-mapped Air Intelligence Information Report packet, NARA NAID 311001910, canonical raw objects 058–064; later duplicate objects 258–264 are excluded from the mapping.",
       "sourceLabel": "AIIRs 1957 / NARA",
       "sourceLocator": "AIIRS-1957, NAID 311001910, raw objects 058-064",
       "relatedCaseIds": [
@@ -23419,36 +23420,31 @@
           "type": "Point",
           "coordinates": [
             -124.5,
-            39
+            35.5
           ]
         },
         "role": "event-location",
         "precision": "approximate",
         "uncertaintyKm": 200,
-        "basis": "Offshore Northern California coast, approximate radar contact area"
+        "basis": "Primary AIIR area field: 35°30′N, 124°30′W; raw object 064 contains the plotted route and target annotations."
       },
       "sourceRecords": [
         {
           "citation": "AIIRS-1957 · Northern California radar-skinpaint report",
           "sourceType": "air-intelligence-information-report",
           "provenance": "552nd Airborne Early Warning and Control Wing / McClellan AFB; routed by Western Air Defense Force",
-          "locator": "AIIRs 1957 compilation, raw objects 058–064 of 301; AIIR 058, routing 059–060, control roster 061, scope log 062, operator statement 063, route plot 064",
+          "locator": "NARA NAID 311001910, raw objects 058–064: AIIR 058, routing 059–060, control roster 061, scope log 062, operator statement 063 and route plot 064",
           "supports": [
-            "3.5-hours-radar-contact",
-            "raw-skinpaint",
-            "closed-to-6-miles",
-            "flew-parallel",
-            "accelerated-away",
-            "scope-operator-log",
-            "operator-statement",
-            "route-plot",
-            "investigator-flagged-significant"
+            "Operator-reported intermittent radar contact over roughly 3.5 hours",
+            "Packet distinguishes reported actual skinpaint from prior IFF-type returns",
+            "Scope log and operator statement report closure to about 5–6 miles, parallel flight and later acceleration or turn away",
+            "Route plot and routing pages preserve event and custody context"
           ],
           "limitations": [
-            "no-visual-contact",
-            "no-raw-radar-film",
-            "no-calibration-records",
-            "no-independent-sensor-corroboration"
+            "No visual contact",
+            "No raw radar film or calibration records",
+            "No independent sensor corroboration",
+            "Suggested technical explanation is not a final object identification"
           ],
           "url": "https://catalog.archives.gov/id/311001910"
         }
@@ -23498,16 +23494,16 @@
       "publicSources": [
         {
           "access": "Public",
-          "label": "NARA Catalog — AIIRs 1957 compilation (Northern California report, raw object 258)",
-          "note": "Exact 301-object NARA file unit, NAID 311001910. Object 258 is the case report and object 260 documents routing; a duplicate routing scan is omitted. Government custody confirms the record, not the radar target’s identity.",
+          "label": "NARA Catalog — AIIRs 1957 compilation, Northern California packet",
+          "note": "Exact 301-object NARA file unit, NAID 311001910. Canonical packet is raw objects 058–064: report 058, routing 059–060, control roster 061, scope log 062, operator statement 063 and route plot 064. Later duplicate objects 258–264 are not selected. Government custody confirms the record, not the radar target’s identity.",
           "publisher": "National Archives and Records Administration",
-          "scope": "official-catalog-record",
+          "scope": "official-complete-public-file-grouping",
           "url": "https://catalog.archives.gov/id/311001910"
         }
       ],
       "mapGeometry": null,
-      "x": 19.48,
-      "y": 18.67,
+      "x": 19.05,
+      "y": 19.75,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },

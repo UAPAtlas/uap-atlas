@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 144,
   "sourceIndexTerms": 217,
-  "sourceIndexFiles": 1006,
+  "sourceIndexFiles": 1007,
   "casesWithMappedLinks": 146,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 146,
@@ -64,21 +64,21 @@
   "quotesWithLocators": 146,
   "sourceRecordCount": 248,
   "sourceDepthWeakCaseCount": 62,
-  "sourceDepthEnrichmentCandidateCount": 108,
+  "sourceDepthEnrichmentCandidateCount": 107,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 35,
+    "qualityUpgrades": 31,
     "acquisitionTargets": 13,
-    "complete": 98
+    "complete": 102
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 28,
+    "complete-primary-packet": 29,
     "secondary-only": 9,
     "multi-source-independent": 13,
     "thin-summary": 53,
     "mixed-provenance": 2,
-    "single-primary-record": 41
+    "single-primary-record": 40
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -695,12 +695,12 @@
       ]
     },
     "BF-1976-TH-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:declassified us government record mirrored by nsa"
+        "other:declassified u.s. government record mirrored by nsa and preserved locally as a four-page pdf rendering of a three-page message"
       ]
     },
     "BF-1977-CL-01": {
@@ -1035,8 +1035,8 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:dvids official media record, pentagon-confirmed/public uss omaha video-frame trail, wikimedia/public mirror, and local atlas source-index assets",
-        "other:local atlas audit derived from the current source inventory"
+        "other:local atlas audit derived from the current source inventory",
+        "other:susan gough email confirmation as quoted by the debrief; uss omaha/date attribution from jeremy corbell; public clip/frame distributed by mystery wire and mirrored on wikimedia"
       ]
     },
     "BF-2020-AG-00": {

@@ -9,9 +9,9 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 35,
+    "qualityUpgrades": 31,
     "acquisitionTargets": 13,
-    "complete": 98
+    "complete": 102
   },
   "cases": [
     {
@@ -362,25 +362,6 @@
       "quoteConfidence": "confirmed primary-source quotation"
     },
     {
-      "id": "BF-1957-NC-01",
-      "title": "Northern California Coast Radar Skinpaint",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 8,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 8,
-      "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
       "id": "BF-1985-PNG-01",
       "title": "Papua New Guinea \u2014 High-Altitude Overflights",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -690,25 +671,6 @@
       "quoteConfidence": "Medium-high \u2014 source phrase is confirmed in released narrative material, but full underlying raw data and case files are not public."
     },
     {
-      "id": "BF-1976-TH-01",
-      "title": "Tehran F-4 Intercept Case",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 37,
-      "legacyWeaknessScore": 17,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified against declassified report image"
-    },
-    {
       "id": "BF-1944-FF-01",
       "title": "Foo Fighters, European Theater",
       "domain": "MILITARY / SENSOR",
@@ -798,25 +760,6 @@
       "evidenceAssets": 2,
       "sourceQuality": "Primary record",
       "quoteConfidence": "verbatim-Portuguese-document-quote"
-    },
-    {
-      "id": "BF-2019-OM-01",
-      "title": "USS Omaha Sphere & Swarm Events",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 32,
-      "legacyWeaknessScore": 12,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "Pentagon-confirmed/DVIDS/public-media video-frame trail with local source-index imagery; official media custody exists, but deck-log/raw-sensor packet remains incomplete.",
-      "quoteConfidence": "High for public/video-release existence; medium for broader swarm/deck-log claims without full packet custody."
     },
     {
       "id": "BF-2025-YS-01",
@@ -921,6 +864,23 @@
       "evidenceAssets": 3,
       "sourceQuality": "CIA information report OO-B-93674 with all three released pages in Atlas custody; the report explicitly marks its naturalized-citizen/relative-letter content as UNEVALUATED INFORMATION.",
       "quoteConfidence": "High \u2014 verbatim translated-letter quotation visually verified on p. 2 of the declassified CIA report."
+    },
+    {
+      "id": "BF-1957-NC-01",
+      "title": "Northern California Coast Radar Skinpaint",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 30,
+      "legacyWeaknessScore": 30,
+      "reasons": [],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 8,
+      "sourceQuality": "Primary source: complete page-mapped Air Intelligence Information Report packet, NARA NAID 311001910, canonical raw objects 058\u2013064; later duplicate objects 258\u2013264 are excluded from the mapping.",
+      "quoteConfidence": "confirmed primary-source quotation"
     },
     {
       "id": "BF-1973-SL-01",
@@ -1420,25 +1380,6 @@
       "quoteConfidence": "High \u2014 exact official assessment on raw object 018; government custody authenticates the report, not the object\u2019s identity."
     },
     {
-      "id": "BF-1957-RB-01",
-      "title": "RB-47 ELINT Pursuit Case",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 20,
-      "legacyWeaknessScore": 0,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
-      "indexedLinks": 10,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "confirmed-primary-source-quotation"
-    },
-    {
       "id": "BF-1967-MA-01",
       "title": "Malmstrom AFB Missile Shutdown Incident",
       "domain": "NUCLEAR / SENSITIVE SITE",
@@ -1494,6 +1435,23 @@
       "evidenceAssets": 2,
       "sourceQuality": "Primary release record",
       "quoteConfidence": "verified"
+    },
+    {
+      "id": "BF-2019-OM-01",
+      "title": "USS Omaha Sphere & Swarm Events",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 20,
+      "legacyWeaknessScore": 20,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 1,
+      "indexedLinks": 6,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "Named Pentagon spokesperson confirmation reported by The Debrief, plus a public leaked-video/frame trail; USS Omaha attribution remains secondary, and no exact official media master or event packet is mapped.",
+      "quoteConfidence": "Confirmed direct quotation in named reporting; establishes Navy origin and UAPTF review only, not ship identity, reported date or water entry."
     },
     {
       "id": "BF-2023-LG-01",
@@ -2316,6 +2274,23 @@
       "quoteConfidence": "High \u2014 NARA/Fold3 case-file trail and scan-specific Atlas mapping exist; physical mechanism remains disputed."
     },
     {
+      "id": "BF-1957-RB-01",
+      "title": "RB-47 ELINT Pursuit Case",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 10,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary official record: four-page 55th Strategic Reconnaissance Wing Joint Message Form, NARA NAID 28970538, scans 0396\u20130399; later published technical analysis is a separate dependent source family.",
+      "quoteConfidence": "confirmed-primary-source-quotation"
+    },
+    {
       "id": "BF-1958-TR-01",
       "title": "Trindade Island Navy Photographs",
       "domain": "MILITARY / SENSOR",
@@ -2416,6 +2391,23 @@
       "evidenceAssets": 4,
       "sourceQuality": "Official summary plus archival catalog",
       "quoteConfidence": "verified"
+    },
+    {
+      "id": "BF-1976-TH-01",
+      "title": "Tehran F-4 Intercept Case",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary official reporting record: USDAO Tehran/JCS three-page message relaying Iranian accounts, mirrored by NSA and locally mapped; a single official message chain, not independent raw sensor or maintenance custody.",
+      "quoteConfidence": "Verified against the mapped declassified report scan; the quotation records a reported radar lock, not preserved raw radar data."
     },
     {
       "id": "BF-2004-NM-01",

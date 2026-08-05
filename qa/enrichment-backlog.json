@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "policy": "sole-enrichment-backlog",
   "source": "qa/atlas_operational_triage.json",
-  "caseCount": 35,
+  "caseCount": 31,
   "categoryCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 35
+    "qualityUpgrades": 31
   },
   "exclusions": {
     "acquisitionTargets": "tracked-separately-no-request-authorized",
@@ -76,25 +76,6 @@
       "id": "BF-1957-HT-01",
       "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
       "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 8,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 8,
-      "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-NC-01",
-      "title": "Northern California Coast Radar Skinpaint",
-      "domain": "MILITARY / SENSOR",
       "category": "quality_upgrade",
       "priorityScore": 50,
       "legacyWeaknessScore": 30,
@@ -420,25 +401,6 @@
       "quoteConfidence": "Medium-high \u2014 source phrase is confirmed in released narrative material, but full underlying raw data and case files are not public."
     },
     {
-      "id": "BF-1976-TH-01",
-      "title": "Tehran F-4 Intercept Case",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 37,
-      "legacyWeaknessScore": 17,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verified against declassified report image"
-    },
-    {
       "id": "BF-1944-FF-01",
       "title": "Foo Fighters, European Theater",
       "domain": "MILITARY / SENSOR",
@@ -496,25 +458,6 @@
       "quoteConfidence": "verbatim-Portuguese-document-quote"
     },
     {
-      "id": "BF-2019-OM-01",
-      "title": "USS Omaha Sphere & Swarm Events",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 32,
-      "legacyWeaknessScore": 12,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "Pentagon-confirmed/DVIDS/public-media video-frame trail with local source-index imagery; official media custody exists, but deck-log/raw-sensor packet remains incomplete.",
-      "quoteConfidence": "High for public/video-release existence; medium for broader swarm/deck-log claims without full packet custody."
-    },
-    {
       "id": "BF-2025-YS-01",
       "title": "Yellow Sea IR Area of Contrast",
       "domain": "MILITARY / SENSOR",
@@ -570,25 +513,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source \u2014 complete three-page Robins AFB Air Intelligence Information Report, raw objects 016\u2013018, in NARA NAID 311001910.",
       "quoteConfidence": "High \u2014 exact official assessment on raw object 018; government custody authenticates the report, not the object\u2019s identity."
-    },
-    {
-      "id": "BF-1957-RB-01",
-      "title": "RB-47 ELINT Pursuit Case",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 20,
-      "legacyWeaknessScore": 0,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
-      "indexedLinks": 10,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "confirmed-primary-source-quotation"
     },
     {
       "id": "BF-1967-MA-01",

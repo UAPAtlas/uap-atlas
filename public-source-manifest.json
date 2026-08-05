@@ -982,5 +982,23 @@
       "url": "https://archive.org/details/area-51-the-alien-interview-1997",
       "note": "Complete public-release artifact; not original alleged tape custody."
     }
+  ],
+  "BF-2019-OM-01": [
+    {
+      "label": "The Debrief — Pentagon spokesperson confirms Navy origin and UAPTF review",
+      "url": "https://thedebrief.org/pentagon-confirms-leaked-video-showing-transmedium-ufo-is-authentic/",
+      "publisher": "The Debrief",
+      "access": "Public",
+      "scope": "named-official-confirmation-reported-by-press",
+      "note": "Reports Susan Gough’s direct email confirmation that the video was taken by Navy personnel and included in UAPTF examinations. The statement does not independently confirm USS Omaha, the reported date, water entry or object identity."
+    },
+    {
+      "label": "Wikimedia Commons — public frame mirror",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/USS_Omaha_UFO_video_-_July_2019.png",
+      "publisher": "Wikimedia Commons",
+      "access": "Public",
+      "scope": "public-mirror",
+      "note": "Public mirror of a frame attributed to the Omaha clip; mirror custody does not independently authenticate event claims."
+    }
   ]
 }
