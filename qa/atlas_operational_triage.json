@@ -9,9 +9,9 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 25,
+    "qualityUpgrades": 19,
     "acquisitionTargets": 13,
-    "complete": 108
+    "complete": 114
   },
   "cases": [
     {
@@ -284,120 +284,6 @@
       "evidenceAssets": 3,
       "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account. It authenticates his published description and wording, not the missing 1948 Estimate document or its administrative trail.",
       "quoteConfidence": "High for Ruppelt\u2019s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered."
-    },
-    {
-      "id": "BF-1956-DF-01",
-      "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-B47-01",
-      "title": "B-47 Supersonic Acceleration Encounter",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-CG-01",
-      "title": "Three Cigar Objects in 'Y' Formation",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-HT-01",
-      "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 8,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 8,
-      "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1985-PNG-01",
-      "title": "Papua New Guinea \u2014 High-Altitude Overflights",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 declassified State Department cable",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1994-KZ-01",
-      "title": "Kazakhstan Commercial Aviation Encounter",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 declassified State Department cable",
-      "quoteConfidence": "confirmed primary-source quotation"
     },
     {
       "id": "BF-SF-08",
@@ -1497,6 +1383,23 @@
       "quoteConfidence": "verified against rendered primary-source page"
     },
     {
+      "id": "BF-1957-HT-01",
+      "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 8,
+      "sourceQuality": "Complete page-mapped 781st Aircraft Control and Warning Squadron packet in NARA NAID 311001910, raw objects 048\u2013054: official report 048\u2013050, transmittal 051, and complete witness statement 052\u2013054. It preserves four civilian witnesses and the report's possible aircraft/refueling explanation; no radar or photographic corroboration is included.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact smaller-object language on raw object 049, corroborated by the mapped witness statement; interpretation remains unresolved."
+    },
+    {
       "id": "BF-1968-HIM-01",
       "title": "Himalayan UAP Reports \u2014 Series Index",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -1650,6 +1553,23 @@
       "quoteConfidence": "High \u2014 primary CNES/GEPAN technical-note record is locally mapped and publicly hosted by GEIPAN."
     },
     {
+      "id": "BF-1985-PNG-01",
+      "title": "Papua New Guinea \u2014 High-Altitude Overflights",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Released-in-full Embassy Port Moresby cable 00199, dated 28 Jan 1985, reporting secondhand accounts from 24 Jan 1985. It preserves an Air Niugini pilot's reported radar pickup and visual contrail reports, but not raw radar data, underlying witness statements, or the requested military response.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact pilot-radar sentence on released cable page 2; the cable relays the pilot's report and does not include the underlying radar record."
+    },
+    {
       "id": "BF-1986-JAL-01",
       "title": "Japan Airlines 1628 Alaska Encounter",
       "domain": "HISTORICAL / AERIAL",
@@ -1665,6 +1585,23 @@
       "evidenceAssets": 11,
       "sourceQuality": "FAA Alaskan Region case packet in NARA Catalog record 40587205, with local chronology, certified ATC transcript, and releases 87-08/87-09; page-level primary-record custody.",
       "quoteConfidence": "High \u2014 verbatim chronology quotation visually verified in the FAA packet image at packet p. 4."
+    },
+    {
+      "id": "BF-1994-KZ-01",
+      "title": "Kazakhstan Commercial Aviation Encounter",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Released-in-full Embassy Dushanbe cable 00259, dated 31 Jan 1994, reporting the crew's 27 Jan 1994 encounter. It preserves a detailed three-pilot account and clearly labels the extraordinary conclusion as crew opinion; the embassy stated it had no opinion, and the reported photographs are not in the released file.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact 'bow wave' language on released cable page 2; maneuver, altitude, and origin claims remain crew estimates/opinion."
     },
     {
       "id": "BF-2020-AG-D3",
@@ -2177,6 +2114,23 @@
       "quoteConfidence": "confirmed primary-source quotation; OCR and scan visually verified"
     },
     {
+      "id": "BF-1956-DF-01",
+      "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Complete three-page HQ Air Proving Ground Command AIIR TR-1-57, dated 3 Jan 1957 and preserved in NARA NAID 311001910, reporting two ground observers and the preparing officer's probable-helicopter assessment. It preserves eyewitness estimates, not measured range, speed, or object identity.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact preparing-officer assessment on raw object 003; the velocity language summarizes a visual distance/speed estimate."
+    },
+    {
       "id": "BF-1956-LB-01",
       "title": "Lakenheath-Bentwaters Radar-Visual Case",
       "domain": "MILITARY / SENSOR",
@@ -2192,6 +2146,40 @@
       "evidenceAssets": 2,
       "sourceQuality": "Complete exact NARA case-file custody plus exact RAF operational-record targets; raw radar and communications records remain missing.",
       "quoteConfidence": "High \u2014 visually verified against the NARA scan. The statement supports normal-looking radar returns and equipment checks, not the identity of the targets."
+    },
+    {
+      "id": "BF-1957-B47-01",
+      "title": "B-47 Supersonic Acceleration Encounter",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Complete three-page HQ Air Proving Ground Command AIIR IR-2-57, dated 22 Apr 1957 and preserved in NARA NAID 311001910. It records two ground-based Philco technical representatives and a 15-second visual observation; the Mach 2\u20133 figure is an eyewitness estimate without measured range, radar, or instrument data.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact speed-estimate language on raw object 020; Mach 2\u20133 was a visual estimate, not an instrument measurement."
+    },
+    {
+      "id": "BF-1957-CG-01",
+      "title": "Three Cigar Objects in 'Y' Formation",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Single-page 661st Aircraft Control and Warning Squadron Air Intelligence Information Report, dated 21 Aug 1957 and preserved as raw object 015 in NARA NAID 311001910. It records one civilian witness's 9 Aug account; no corroborating witness, instrument record, photograph, or follow-up packet is mapped.",
+      "quoteConfidence": "High page-verification confidence \u2014 exact configuration language on raw object 015; the account remains a single-witness report."
     },
     {
       "id": "BF-1957-LV-01",

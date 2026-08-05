@@ -44,6 +44,7 @@ jobs:
           node scripts/test-orbital-evidence-architecture.mjs
           python3 scripts/test-atlas-runtime-data-sync.py
           python3 scripts/test-audit-operational-triage.py
+          python3 scripts/test-selective-primary-record-quality.py
   deploy:
     needs: validate
     environment:

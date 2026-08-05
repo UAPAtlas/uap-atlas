@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "policy": "sole-enrichment-backlog",
   "source": "qa/atlas_operational_triage.json",
-  "caseCount": 25,
+  "caseCount": 19,
   "categoryCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 25
+    "qualityUpgrades": 19
   },
   "exclusions": {
     "acquisitionTargets": "tracked-separately-no-request-authorized",
@@ -15,120 +15,6 @@
     "outreach": "not-authorized"
   },
   "cases": [
-    {
-      "id": "BF-1956-DF-01",
-      "title": "DeFuniak Springs \u2014 Instantaneous 400-Yard Movement",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 4,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-B47-01",
-      "title": "B-47 Supersonic Acceleration Encounter",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-CG-01",
-      "title": "Three Cigar Objects in 'Y' Formation",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 Air Intelligence Information Report",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1957-HT-01",
-      "title": "Hastings MI \u2014 Arrowhead Formation from Separating Object",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 8,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 8,
-      "sourceQuality": "Primary source \u2014 complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1985-PNG-01",
-      "title": "Papua New Guinea \u2014 High-Altitude Overflights",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary source \u2014 declassified State Department cable",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
-    {
-      "id": "BF-1994-KZ-01",
-      "title": "Kazakhstan Commercial Aviation Encounter",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 50,
-      "legacyWeaknessScore": 30,
-      "reasons": [
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "thin-summary",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source \u2014 declassified State Department cable",
-      "quoteConfidence": "confirmed primary-source quotation"
-    },
     {
       "id": "BF-SF-08",
       "title": "Special File: COMETA Report",

@@ -22486,7 +22486,7 @@
     {
       "id": "BF-1994-KZ-01",
       "title": "Kazakhstan Commercial Aviation Encounter",
-      "date": "JAN 1994",
+      "date": "27 JAN 1994",
       "year": 1994,
       "location": "Kazakhstan airspace (Lat 45N, Long 55E)",
       "mode": "approximate",
@@ -22500,22 +22500,22 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "Three commercial airline pilots flying a Boeing 747SP at 41,000 feet over Kazakhstan observed a bright light of enormous intensity for 40 minutes as it performed 90-degree turns, corkscrews, and high-G maneuvers. The object left contrails at approximately 100,000 feet — double the service ceiling of any operational aircraft.",
-      "official": "State Department cable records the incident and routes it through the diplomatic chain. No official identification was made.",
+      "summary": "Three Tajik Air pilots aboard a Boeing 747SP at 41,000 feet reported observing an intense light over Kazakhstan for about 40 minutes on 27 January. The cable relays circles, corkscrews, rapid 90-degree turns, and contrails the chief pilot estimated near 100,000 feet. The crew rejected a meteor explanation and expressed an extraterrestrial interpretation; Embassy Dushanbe explicitly stated that it had no opinion.",
+      "official": "Embassy Dushanbe wrote: 'WE HAVE NO OPINION AND REPORT THE ABOVE FOR WHAT IT MAY BE WORTH.' The extraterrestrial/intelligent-control interpretation in the cable is the crew's opinion, not an embassy finding.",
       "gap": "The State Dept cable (3 pages) is the only known record. No radar data, no air traffic control correlation, no follow-up investigation, and the photographs taken by Captain Rhodes with an Olympus camera are not in the released file.",
       "sources": [
-        "DOS-UAP-D2 · State Dept Cable, DUSHANBE 00259, January 27, 1994 (declassified 2026, 3pp)"
+        "DOS-UAP-D2 · State Department cable DUSHANBE 00259, 31 January 1994, reporting the 27 January 1994 encounter (released in full 2026, 3 pages)"
       ],
-      "keyFact": "40-minute observation by three commercial pilots with contrails at 100,000 feet and 90-degree turns at high G's — one of the longest and most detailed commercial aviation UAP encounters in the declassified record.",
-      "whyItMatters": "It fills a massive Central Asia geographic gap, provides commercial aviation observer testimony with physical evidence (contrails at impossible altitude), and joins the cross-source pattern of high-G maneuvers (Iran 1976, East China Sea 2024, USPER 2025).",
+      "keyFact": "Embassy Dushanbe cable 00259 preserves three pilots' 40-minute report, including high-G maneuver and high-altitude contrail estimates, while separating the crew's interpretation from the embassy's neutral position.",
+      "whyItMatters": "The cable is a detailed official record of a commercial-aircrew report in Central Asian airspace. Its strongest evidence is the contemporaneous diplomatic record and named crew account; the reported photographs, radar/ATC data, and follow-up are absent.",
       "keyQuote": "The light had a bow wave resembling a high-speed photo of a bullet in flight.",
       "quoteSource": "RG59-DUSHANBE-00259, State Dept Cable",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "Three airline pilots watched a UAP for 40 minutes over Kazakhstan, performing 90-degree turns and leaving contrails at 100,000 feet.",
+      "quoteConfidence": "High page-verification confidence — exact 'bow wave' language on released cable page 2; maneuver, altitude, and origin claims remain crew estimates/opinion.",
+      "heroFact": "Three pilots reported a 40-minute high-altitude encounter; the cable records their interpretation while the embassy stated it had no opinion.",
       "significance": "High significance",
-      "sourceQuality": "Primary source — declassified State Department cable",
+      "sourceQuality": "Released-in-full Embassy Dushanbe cable 00259, dated 31 Jan 1994, reporting the crew's 27 Jan 1994 encounter. It preserves a detailed three-pilot account and clearly labels the extraordinary conclusion as crew opinion; the embassy stated it had no opinion, and the reported photographs are not in the released file.",
       "sourceLabel": "State Dept Cable",
-      "sourceLocator": "DOS-UAP-D2, DUSHANBE 00259",
+      "sourceLocator": "DOS-UAP-D2, DUSHANBE 00259; cable 31 Jan 1994 reporting 27 Jan encounter",
       "relatedCaseIds": [
         "BF-1976-TH-01",
         "BF-1986-JAL-01",
@@ -22542,7 +22542,7 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "JAN 1994",
+        "dateLabel": "27 JAN 1994",
         "year": 1994,
         "startDateTime": null,
         "endDateTime": null,
@@ -22550,9 +22550,9 @@
         "durationSeconds": 2400,
         "durationRangeSeconds": [
           2400,
-          2700
+          2400
         ],
-        "precision": "month",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -22572,20 +22572,22 @@
         {
           "citation": "RG59-DUSHANBE-00259 · State Dept Cable",
           "sourceType": "diplomatic-cable",
-          "provenance": "U.S. State Department, Embassy Dushanbe",
-          "locator": "January 27, 1994; declassified 2026",
+          "provenance": "Official U.S. Department of State cable; Embassy Dushanbe",
+          "locator": "Cable 31 Jan 1994 reporting encounter of 27 Jan 1994; released in full 2026",
           "supports": [
             "three-pilot-witnesses",
             "40-minute-duration",
-            "90-degree-turns",
-            "contrails-at-100000-feet",
-            "photographs-taken",
-            "not-a-meteor"
+            "crew-reported-circles-corkscrews-and-90-degree-turns",
+            "crew-estimated-contrails-near-100000-feet",
+            "photographs-reported-taken",
+            "crew-rejected-meteor-explanation"
           ],
           "limitations": [
             "photographs-not-in-released-file",
-            "no-radar-correlation",
-            "no-follow-up-investigation"
+            "no-radar-or-atc-correlation",
+            "no-follow-up-investigation-located",
+            "extraterrestrial-intelligent-control-was-crew-opinion",
+            "embassy-stated-no-opinion"
           ]
         }
       ],
@@ -23160,7 +23162,7 @@
     {
       "id": "BF-1957-B47-01",
       "title": "B-47 Supersonic Acceleration Encounter",
-      "date": "APR 1957",
+      "date": "15 APR 1957",
       "year": 1957,
       "location": "Eglin AFB, Florida",
       "mode": "exact",
@@ -23174,9 +23176,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "A B-47 crew observed an object at the same azimuth and elevation as their aircraft. Initially appearing stationary like a weather balloon, the object then accelerated with a maneuver 'resembling a pull up of a supersonic aircraft' and reached a speed estimated at over Mach 2 or 3. The investigator noted the 'possibility that the object was not of a conventional nature.'",
-      "official": "Investigator noted the possibility that the object was not conventional, and that if it were an advanced missile or rocket, the sighting might give some intelligence value. No conventional explanation offered.",
-      "gap": "The recovered three-page report identifies the sighting as 15 April 1957 near Eglin AFB, but the B-47 aircraft/unit identity and any follow-up investigation remain absent.",
+      "summary": "Two ground-based Philco technical representatives attached to Eglin's 3201st Communications Squadron saw a B-47 on approach and a separate, more distant object at the same azimuth and elevation. They first considered a drag parachute and then a weather balloon before reporting that the stationary object accelerated out of view, with a visually estimated speed over Mach 2 or 3 during a maneuver lasting about three seconds.",
+      "official": "The preparing officer wrote that he could not offer an explanation for the sighting; because it lasted only 15 seconds, he believed the unidentified object was 'not of any particular significance.'",
+      "gap": "The complete three-page report preserves the two observers' account and weather context, but no radar, photographic, range, or speed measurement and no follow-up investigation are mapped.",
       "sources": [
         "AIIRS-1957, NAID 311001910, IR-2-57 raw objects 019-021"
       ],
@@ -23186,14 +23188,14 @@
         "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-020.png",
         "assets/evidence/AIIRS-1957-B47/AIIRS1957_b47_raw-object-021.png"
       ],
-      "keyFact": "A B-47 crew watched a stationary object accelerate to Mach 2-3 in seconds — the investigator explicitly noted the 'possibility that the object was not of a conventional nature.'",
-      "whyItMatters": "The stationary-to-supersonic acceleration profile is one of the sharpest in the record. The investigator's own conclusion — 'not conventional' — is unusually candid for Blue Book. Military aircraft encounter with extreme performance envelope.",
+      "keyFact": "IR-2-57 records two ground observers using an approaching B-47 as a distance reference before visually estimating that a separate object accelerated above Mach 2 or 3.",
+      "whyItMatters": "The report documents a sharp stationary-to-acceleration claim from two base-associated technical observers. The speed is a visual estimate made with uncertain object range, and the preparing officer judged the brief sighting not particularly significant.",
       "keyQuote": "Object appeared to reach a speed of over Mach 2 or 3.",
       "quoteSource": "AIIRS-1957, IR-2-57, raw object 020 (NARA NAID 311001910)",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "A B-47 crew watched a stationary object accelerate to Mach 2-3 — the investigator called it 'not of a conventional nature.'",
+      "quoteConfidence": "High page-verification confidence — exact speed-estimate language on raw object 020; Mach 2–3 was a visual estimate, not an instrument measurement.",
+      "heroFact": "Two Eglin technical representatives reported a separate object accelerating away from an approaching B-47, visually estimating a speed above Mach 2 or 3.",
       "significance": "High significance",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "sourceQuality": "Complete three-page HQ Air Proving Ground Command AIIR IR-2-57, dated 22 Apr 1957 and preserved in NARA NAID 311001910. It records two ground-based Philco technical representatives and a 15-second visual observation; the Mach 2–3 figure is an eyewitness estimate without measured range, radar, or instrument data.",
       "sourceLabel": "AIIRs 1957 / NARA",
       "sourceLocator": "AIIRS-1957, NAID 311001910, IR-2-57, raw objects 019–021",
       "relatedCaseIds": [
@@ -23251,18 +23253,23 @@
         {
           "citation": "AIIRS-1957 · IR-2-57, Eglin AFB",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
+          "provenance": "Official U.S. Air Force record; HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
           "locator": "AIIRs 1957 compilation, raw objects 019–021 of 301; Mach 2/3 language on object 020",
           "supports": [
-            "B-47-crew-observation",
+            "two-ground-observers",
+            "philco-technical-representatives",
+            "b-47-distance-reference",
             "stationary-then-acceleration",
-            "Mach-2-3-estimated-speed",
-            "investigator-noted-not-conventional",
-            "intelligence-value-noted"
+            "mach-2-3-visual-estimate",
+            "fifteen-second-duration",
+            "investigator-could-offer-no-explanation"
           ],
           "limitations": [
-            "B-47-unit-identity-not-extracted",
-            "follow-up-investigation-not-located"
+            "object-range-not-established",
+            "speed-estimate-visual-no-instrument-corroboration",
+            "no-radar-or-photographic-corroboration",
+            "no-follow-up-investigation-located",
+            "preparing-officer-judged-event-not-significant"
           ]
         }
       ],
@@ -23282,9 +23289,10 @@
         "effects": []
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 2,
         "witnessRoles": [
-          "B-47 crew"
+          "Philco technical representative, 3201st Communications Squadron",
+          "Philco technical representative, 3201st Communications Squadron"
         ],
         "sensors": [
           "unaided-visual"
@@ -24132,7 +24140,7 @@
     {
       "id": "BF-1956-DF-01",
       "title": "DeFuniak Springs — Instantaneous 400-Yard Movement",
-      "date": "DEC 1956",
+      "date": "26 DEC 1956",
       "year": 1956,
       "location": "DeFuniak Springs, Florida",
       "mode": "exact",
@@ -24147,9 +24155,9 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "An egg-shaped object the size of a grapefruit was observed stationary for 10 minutes at 500-1,000 feet. It then 'moved due east for about 400 yards, changing positions instantaneously. The rate of speed appeared so great that it could not be measured.' The investigator concluded 'probably a helicopter' but explicitly admitted 'this would only leave the initial high velocity unexplained.'",
-      "official": "Investigator concluded 'probably a helicopter' but explicitly noted the helicopter explanation left the high-velocity movement unexplained.",
-      "gap": "Full follow-up investigation and any additional witness reports not located in the extracted AIIRs pages.",
+      "summary": "Two ground observers reported an egg-shaped light, estimated at grapefruit size, stationary for about ten minutes before it appeared to move roughly 400 yards instantaneously. The report records that the visually estimated speed could not be measured. Its preparing officer assessed the object as probably a helicopter but wrote that this would leave the reported initial high velocity unexplained.",
+      "official": "The preparing officer assessed the object as 'probably a helicopter' but wrote: 'This would only leave the initial high velocity unexplained.'",
+      "gap": "The complete three-page report preserves eyewitness description, weather, and the preparing officer's assessment, but no instrument measurement, photograph, or subsequent investigative packet is mapped.",
       "sources": [
         "AIIRS-1957, NAID 311001910, TR-1-57 raw objects 001-003"
       ],
@@ -24160,14 +24168,14 @@
         "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-002.png",
         "assets/evidence/DEFUNIAK-1956/DEFUNIAK-1956_aiirs1957_raw-object-003.png"
       ],
-      "keyFact": "An object moved 400 yards 'instantaneously' with speed that 'could not be measured' — the investigator's own helicopter conclusion left this explicitly unexplained.",
-      "whyItMatters": "The investigator's own conclusion is internally contradictory — 'probably a helicopter' but 'this would only leave the initial high velocity unexplained.' This is a case where the official explanation was a forced fit that the investigator knew didn't work.",
+      "keyFact": "TR-1-57 records two observers' report of an apparently instantaneous 400-yard movement; the preparing officer favored a helicopter while explicitly leaving the reported initial high velocity unexplained.",
+      "whyItMatters": "The primary report preserves both the reported rapid movement and a competing conventional assessment. It does not establish measured speed or anomalous identity.",
       "keyQuote": "This would only leave the initial high velocity unexplained.",
       "quoteSource": "AIIRS-1957, TR-1-57, raw object 003 (NARA NAID 311001910)",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "An object moved 400 yards instantaneously — the investigator called it 'probably a helicopter' but admitted the speed was unexplained.",
+      "quoteConfidence": "High page-verification confidence — exact preparing-officer assessment on raw object 003; the velocity language summarizes a visual distance/speed estimate.",
+      "heroFact": "Two ground observers reported an instantaneous 400-yard movement; the preparing officer favored a helicopter but left the initial velocity unexplained.",
       "significance": "High significance — forced explanation admitted by investigator",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "sourceQuality": "Complete three-page HQ Air Proving Ground Command AIIR TR-1-57, dated 3 Jan 1957 and preserved in NARA NAID 311001910, reporting two ground observers and the preparing officer's probable-helicopter assessment. It preserves eyewitness estimates, not measured range, speed, or object identity.",
       "sourceLabel": "AIIRs 1957 / NARA",
       "sourceLocator": "AIIRS-1957, NAID 311001910, TR-1-57",
       "relatedCaseIds": [
@@ -24195,17 +24203,17 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "DEC 1956",
+        "dateLabel": "26 DEC 1956",
         "year": 1956,
-        "startDateTime": null,
+        "startDateTime": "1956-12-26T23:20:00Z",
         "endDateTime": null,
-        "timezone": null,
+        "timezone": "UTC",
         "durationSeconds": 1200,
         "durationRangeSeconds": [
           900,
           1500
         ],
-        "precision": "month",
+        "precision": "minute-as-reported",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -24225,19 +24233,22 @@
         {
           "citation": "AIIRS-1957 · TR-1-57, Eglin AFB",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
+          "provenance": "Official U.S. Air Force record; HQ Air Proving Ground Command, Eglin AFB; prepared by 1st Lt Richard H. Lane",
           "locator": "AIIRs 1957 compilation, raw objects 001–003 of 301; quoted assessment on object 003",
           "supports": [
+            "two-ground-observers",
             "egg-shaped-grapefruit-size",
-            "stationary-10-minutes",
-            "400-yards-instantaneous",
-            "speed-could-not-be-measured",
-            "investigator-admitted-velocity-unexplained",
+            "stationary-approximately-10-minutes",
+            "reported-400-yard-instantaneous-movement",
+            "speed-could-not-be-measured-visually",
+            "investigator-left-initial-velocity-unexplained",
             "red-light-blinking-irregularly"
           ],
           "limitations": [
-            "single-witness",
-            "investigator-forced-helicopter-explanation"
+            "no-instrument-or-photographic-corroboration",
+            "range-and-speed-estimates-visual-only",
+            "investigator-assessed-probably-helicopter",
+            "no-follow-up-packet-mapped"
           ]
         }
       ],
@@ -24257,9 +24268,10 @@
         ]
       },
       "observation": {
-        "witnessCount": 1,
+        "witnessCount": 2,
         "witnessRoles": [
-          "USAF Reserve military personnel on leave, Kelly AFB, age 26"
+          "ground observer",
+          "USAF Security Service member on military leave"
         ],
         "sensors": [
           "unaided-visual"
@@ -24836,7 +24848,7 @@
     {
       "id": "BF-1957-HT-01",
       "title": "Hastings MI — Arrowhead Formation from Separating Object",
-      "date": "JUL 1957",
+      "date": "16 JUL 1957",
       "year": 1957,
       "location": "Hastings, Michigan",
       "mode": "exact",
@@ -24851,8 +24863,8 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Four civilians (restaurant owner, newspaper reporter, movie projectionist, newspaper owner) observed an oval object with a shaft-like brighter white center. The object disappeared and reappeared, then 'separated and rejoined to leave only three smaller objects' forming an 'arrowhead type formation.' All objects moved NE at low altitude with no sound. The investigator concluded 'air-to-air refueling' but the separating/rejoining and formation behavior is inconsistent with refueling operations.",
-      "official": "Investigator concluded objects were likely 'air-to-air refueling of Everglades mission aircraft' — speculative, as no air-to-air refueling entries appeared in the 781st AC&W logs.",
+      "summary": "Four civilians—a movie projectionist and Navy veteran, a restaurant owner, a 16-year-old nephew, and a newspaper reporter—reported a 35-minute observation near Hastings, Michigan. They described a larger oval light and three to four smaller lights that separated, rejoined, and formed an arrowhead configuration. The Air Force report compared the sighting with aircraft from the SAC 'Everglades' mission and possible aerial refueling, while stating that no exact or definite refueling information was on squadron record.",
+      "official": "The report considered it highly possible that at least part of the sighting involved SAC 'Everglades' aircraft and aerial refueling, but stated that 'no exact or definite information is on record at this squadron' confirming refueling in the area that night.",
       "gap": "No radar confirmation, photography, or additional independent investigative follow-up is included in the recovered seven-object packet.",
       "sources": [
         "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054"
@@ -24868,14 +24880,14 @@
         "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-053.png",
         "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-054.png"
       ],
-      "keyFact": "Four witnesses watched an object separate into three smaller objects forming an 'arrowhead formation' — the investigator's 'refueling' explanation doesn't match the separating/rejoining behavior.",
-      "whyItMatters": "Multi-witness case with detailed narrative. The separating/rejoining and formation behavior matches the cross-source pattern (AIIRs 1957, USPER 2025, FBI D009). The investigator's refueling conclusion was speculative and didn't fit.",
+      "keyFact": "The complete seven-object packet preserves four witnesses' 35-minute account and the Air Force's possible aircraft/refueling explanation, including the report's statement that exact refueling information was not on record.",
+      "whyItMatters": "The packet preserves both detailed multi-witness testimony and the contemporary conventional hypothesis. It does not resolve whether the smaller-light behavior described by witnesses corresponded to aircraft or refueling activity.",
       "keyQuote": "Separating and rejoining again to leave only three smaller objects.",
       "quoteSource": "AIIRS-1957, Report 1-57, raw object 049 (NARA NAID 311001910)",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "Four witnesses watched an object split into three forming an arrowhead — the investigator called it 'refueling' but the logs showed none.",
+      "quoteConfidence": "High page-verification confidence — exact smaller-object language on raw object 049, corroborated by the mapped witness statement; interpretation remains unresolved.",
+      "heroFact": "Four witnesses reported a 35-minute sequence involving a larger light and smaller lights; the Air Force proposed aircraft/refueling while noting exact refueling information was not on record.",
       "significance": "High significance — formation behavior, forced explanation",
-      "sourceQuality": "Primary source — complete page-mapped Air Intelligence Information Report packet from NARA NAID 311001910.",
+      "sourceQuality": "Complete page-mapped 781st Aircraft Control and Warning Squadron packet in NARA NAID 311001910, raw objects 048–054: official report 048–050, transmittal 051, and complete witness statement 052–054. It preserves four civilian witnesses and the report's possible aircraft/refueling explanation; no radar or photographic corroboration is included.",
       "sourceLabel": "AIIRs 1957 / NARA",
       "sourceLocator": "AIIRS-1957, NAID 311001910, Report 1-57 raw objects 048-054",
       "relatedCaseIds": [
@@ -24903,14 +24915,17 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "JUL 1957",
+        "dateLabel": "16 JUL 1957",
         "year": 1957,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
-        "durationSeconds": 1200,
-        "durationRangeSeconds": null,
-        "precision": "month",
+        "durationSeconds": 2100,
+        "durationRangeSeconds": [
+          2100,
+          2100
+        ],
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -24930,19 +24945,21 @@
         {
           "citation": "AIIRS-1957 · Report 1-57, 781st AC&W Squadron",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "781st Aircraft Control and Warning Squadron, Custer AFS, Battle Creek, Michigan",
+          "provenance": "Official U.S. Air Force record; 781st Aircraft Control and Warning Squadron, Custer AFS, Battle Creek, Michigan",
           "locator": "AIIRs 1957 compilation, raw objects 048–054 of 301; official report 048–050, transmittal 051, witness statement 052–054; quoted language on object 049",
           "supports": [
             "four-civilian-witnesses",
-            "oval-object",
-            "separated-into-three-smaller-objects",
-            "arrowhead-formation",
-            "no-sound",
-            "investigator-refueling-explanation-disputed"
+            "35-minute-observation",
+            "oval-larger-object",
+            "three-to-four-smaller-objects",
+            "separation-and-rejoining-described",
+            "arrowhead-formation-described",
+            "report-considered-everglades-aircraft-and-refueling"
           ],
           "limitations": [
             "no-radar-confirmation",
             "no-photographic-evidence",
+            "no-exact-refueling-information-in-squadron-record",
             "no-independent-follow-up-in-packet"
           ],
           "url": "https://catalog.archives.gov/id/311001910"
@@ -24967,15 +24984,15 @@
       "observation": {
         "witnessCount": 4,
         "witnessRoles": [
+          "movie projectionist and World War II Navy veteran",
           "restaurant owner",
-          "newspaper reporter",
-          "movie projectionist (WWII Navy)",
-          "newspaper owner"
+          "16-year-old nephew",
+          "newspaper reporter"
         ],
         "sensors": [
           "unaided-visual"
         ],
-        "durationSeconds": 1200,
+        "durationSeconds": 2100,
         "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
@@ -25021,9 +25038,9 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "Three cigar-shaped objects connected to form a 'Y' shape were observed at approximately 20,000 feet. The objects were silver and black, observed for 35-40 seconds, with a faint whistling sound. The Y-formation is a unique geometric arrangement in the UAP record. Classified under the Espionage Act.",
+      "summary": "A single civilian witness reported three cigar-shaped objects connected in a Y configuration over St. Martins Bay off Sand Point, Michigan. The one-page Air Intelligence Information Report records silver-and-black coloring, an estimated altitude of 20,000 feet, a faint whistling sound, and 35–40 seconds of visibility.",
       "official": "No official conclusion located in the available AIIRs pages.",
-      "gap": "The recovered report identifies the date and location, but the witness identity remains redacted and no follow-up investigation has been located.",
+      "gap": "The exact date and location are preserved, but the public page does not establish corroborating witnesses, instrument data, photographs, or a follow-up investigation.",
       "sources": [
         "AIIRS-1957, NAID 311001910, raw object 015"
       ],
@@ -25032,14 +25049,14 @@
         "assets/editorial-reconstructions/BF-1957-CG-01.png",
         "assets/evidence/CIGAR-Y-1957/CIGAR-Y-1957_aiirs1957_page-015.png"
       ],
-      "keyFact": "Three cigar-shaped objects in a 'Y' formation at 20,000 feet — a unique geometric arrangement in the declassified record.",
-      "whyItMatters": "Unique formation phenomenology. The Y-formation is not consistent with any known aircraft formation, balloon cluster, or natural phenomenon. The cigar shape connects to the FBI Serial-3 bronze cigar (2023) and historical cigar-shaped UAP reports. Silver-and-black coloring is unusual.",
+      "keyFact": "A 661st Aircraft Control and Warning Squadron report preserves one civilian witness's account of three cigar-shaped objects connected in a Y configuration for 35–40 seconds.",
+      "whyItMatters": "The contemporaneous USAF report preserves an unusual configuration claim. Its evidentiary boundary is narrow: one civilian witness, one report page, and no mapped corroboration.",
       "keyQuote": "Three cigar-shaped objects connected to form a Y shape.",
       "quoteSource": "AIIRS-1957, raw object 015 (NARA NAID 311001910)",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "Three cigar-shaped objects flew in a Y formation at 20,000 feet — a unique geometric arrangement in the declassified record.",
+      "quoteConfidence": "High page-verification confidence — exact configuration language on raw object 015; the account remains a single-witness report.",
+      "heroFact": "One civilian witness reported three cigar-shaped objects connected in a Y configuration over St. Martins Bay.",
       "significance": "Medium-high significance — unique formation",
-      "sourceQuality": "Primary source — Air Intelligence Information Report",
+      "sourceQuality": "Single-page 661st Aircraft Control and Warning Squadron Air Intelligence Information Report, dated 21 Aug 1957 and preserved as raw object 015 in NARA NAID 311001910. It records one civilian witness's 9 Aug account; no corroborating witness, instrument record, photograph, or follow-up packet is mapped.",
       "sourceLabel": "AIIRs 1957 / NARA",
       "sourceLocator": "AIIRS-1957, NAID 311001910, p. 15",
       "relatedCaseIds": [
@@ -25095,21 +25112,21 @@
         {
           "citation": "AIIRS-1957 · cigar-Y report",
           "sourceType": "air-intelligence-information-report",
-          "provenance": "4602D AISS compilation; report received 19 August 1957",
-          "locator": "AIIRs 1957 compilation, raw object 015 of 301; sighting 9 August 1957 at St. Martins Bay off Sand Point, Michigan",
+          "provenance": "Official U.S. Air Force record; 661st Aircraft Control and Warning Squadron, Selfridge AFB; prepared by Capt James Chapman",
+          "locator": "AIIRs 1957 compilation, raw object 015 of 301; report dated 21 Aug 1957 for a 9 Aug sighting at St. Martins Bay off Sand Point, Michigan",
           "supports": [
+            "single-civilian-witness",
             "three-cigar-objects",
-            "y-formation",
+            "y-configuration",
             "silver-and-black",
-            "20000-feet",
+            "estimated-20000-feet",
             "35-40-seconds",
-            "faint-whistling",
-            "espionage-act-classified"
+            "faint-whistling"
           ],
           "limitations": [
-            "exact-location-not-extracted",
-            "witness-identity-not-extracted",
-            "no-follow-up-located"
+            "single-witness",
+            "no-instrument-or-photographic-corroboration",
+            "no-follow-up-investigation-located"
           ]
         }
       ],
@@ -25128,9 +25145,9 @@
         ]
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 1,
         "witnessRoles": [
-          "intelligence community personnel"
+          "single civilian witness, age 34, identified as a housewife in the report"
         ],
         "sensors": [
           "unaided-visual"
@@ -25336,7 +25353,7 @@
     {
       "id": "BF-1985-PNG-01",
       "title": "Papua New Guinea — High-Altitude Overflights",
-      "date": "JAN 1985",
+      "date": "24 JAN 1985",
       "year": 1985,
       "location": "Wewak, Papua New Guinea (and surrounding areas)",
       "mode": "approximate",
@@ -25350,27 +25367,27 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
-      "summary": "The Papua New Guinea National Intelligence Organization reported sightings of high-altitude, high-speed aircraft over PNG. Local residents in Wewak were frightened by the overflights. The State Department cable was routed to USCINCPAC, 43rd SW (Andersen AFB), and SECSTATE — treating the sightings as a legitimate intelligence matter.",
-      "official": "An allied nation's intelligence service reported UFO overflights through official diplomatic and military channels. No identification of the objects was made.",
-      "gap": "The State Dept cable is the only known record. No follow-up investigation, radar data, or USCINCPAC response has been located.",
+      "summary": "Embassy Port Moresby cable 00199 relayed a Papua New Guinea National Intelligence Organization inquiry about reported high-altitude, high-speed overflights on 24 January. It records an Air Niugini pilot's reported radar pickup near Angoram plus visual reports of contrails and multiple aircraft. The embassy said it knew of no B-52 or other U.S. aircraft in PNG airspace and requested confirmation from USCINCPAC and the 43rd Strategic Wing.",
+      "official": "Embassy Port Moresby told PNG NIO that it knew of no B-52 overflights or other U.S. aircraft in PNG airspace on 24 January and asked USCINCPAC and the 43rd Strategic Wing for confirmation and further information.",
+      "gap": "The cable relays the reports but includes no raw radar plot, recording, witness statement, or USCINCPAC/43rd Strategic Wing response; the reported flight directions were described as uncertain.",
       "sources": [
-        "DOS-UAP-D1 · State Dept Cable, PORT MORESBY 00199, January 24, 1985 (declassified 2026)"
+        "DOS-UAP-D1 · State Department cable PORT MORESBY 00199, 28 January 1985, reporting 24 January 1985 events (released in full 2026, 2 substantive pages)"
       ],
       "image": "assets/evidence/PNG-1985/png-cable-1.png",
       "images": [
         "assets/evidence/PNG-1985/png-cable-1.png",
         "assets/evidence/PNG-1985/png-cable-2.png"
       ],
-      "keyFact": "An allied nation's intelligence service reported UFO overflights that frightened civilians — routed through the full U.S. military/intelligence chain.",
-      "whyItMatters": "Fills an Oceania geographic gap. Shows UFOs treated as a legitimate intelligence topic by an allied government, not just by the U.S. The routing to USCINCPAC and Andersen AFB (43rd SW) suggests the U.S. military took it seriously enough to involve strategic command.",
-      "keyQuote": "High-altitude, high-speed aircraft over PNG frightened civilians.",
-      "quoteSource": "DOS-UAP-D1, State Dept Cable PORT MORESBY 00199",
-      "quoteConfidence": "confirmed primary-source quotation",
-      "heroFact": "PNG's intelligence service reported UFO overflights that frightened civilians — routed to USCINCPAC and SECSTATE.",
+      "keyFact": "The released cable records both a pilot-reported radar pickup and separate visual contrail reports, while the embassy stated it knew of no U.S. aircraft in PNG airspace that night.",
+      "whyItMatters": "The cable documents an official PNG intelligence inquiry and a U.S. diplomatic request for military confirmation. It proves the reports entered official channels, not the identity or origin of the reported aircraft.",
+      "keyQuote": "PILOT SAID HIS RADAR PICKED UP AIRCRAFT FLYING SOUTH TO NORTH AT HIGH ALTITUDE AND HIGH SPEED",
+      "quoteSource": "DOS-UAP-D1, PORT MORESBY 00199, page 2",
+      "quoteConfidence": "High page-verification confidence — exact pilot-radar sentence on released cable page 2; the cable relays the pilot's report and does not include the underlying radar record.",
+      "heroFact": "A State Department cable relayed a pilot-reported radar pickup and visual contrail reports over PNG, with no known U.S. aircraft identified by the embassy.",
       "significance": "Medium-high significance — allied intelligence service, institutional routing",
-      "sourceQuality": "Primary source — declassified State Department cable",
+      "sourceQuality": "Released-in-full Embassy Port Moresby cable 00199, dated 28 Jan 1985, reporting secondhand accounts from 24 Jan 1985. It preserves an Air Niugini pilot's reported radar pickup and visual contrail reports, but not raw radar data, underlying witness statements, or the requested military response.",
       "sourceLabel": "State Dept Cable",
-      "sourceLocator": "DOS-UAP-D1, PORT MORESBY 00199",
+      "sourceLocator": "DOS-UAP-D1, PORT MORESBY 00199; cable 28 Jan 1985 reporting 24 Jan events",
       "relatedCaseIds": [
         "BF-1994-KZ-01",
         "BF-1976-TH-01"
@@ -25395,14 +25412,14 @@
         "provenance": "primary-source"
       },
       "temporal": {
-        "dateLabel": "JAN 1985",
+        "dateLabel": "24 JAN 1985",
         "year": 1985,
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
         "durationSeconds": null,
         "durationRangeSeconds": null,
-        "precision": "month",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -25422,20 +25439,22 @@
         {
           "citation": "DOS-UAP-D1 · State Dept Cable PORT MORESBY 00199",
           "sourceType": "diplomatic-cable",
-          "provenance": "U.S. State Department, Embassy Port Moresby",
-          "locator": "January 24, 1985; declassified 2026",
+          "provenance": "Official U.S. Department of State cable; Embassy Port Moresby",
+          "locator": "Cable 28 Jan 1985 reporting events of 24 Jan 1985; released in full 2026",
           "supports": [
             "png-nio-reported-overflights",
-            "high-altitude-high-speed",
+            "air-niugini-pilot-radar-detection",
+            "high-altitude-high-speed-report",
+            "visual-contrail-reports",
             "civilians-frightened-in-wewak",
-            "routed-to-uscincpac",
-            "routed-to-43rd-sw-andersen-afb",
-            "routed-to-secstate"
+            "embassy-knew-of-no-us-aircraft",
+            "routed-to-uscincpac-and-43rd-strategic-wing"
           ],
           "limitations": [
-            "no-radar-data",
-            "no-follow-up-investigation",
-            "no-uscincpac-response-located"
+            "no-raw-radar-plot-or-recording",
+            "underlying-witness-statements-not-in-file",
+            "reported-directions-described-as-uncertain",
+            "no-uscincpac-or-43rd-wing-response-located"
           ]
         }
       ],
@@ -25454,10 +25473,11 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "PNG National Intelligence Organization",
-          "Wewak civilians"
+          "Air Niugini pilot relayed by PNG NIO",
+          "civilian visual witnesses relayed by PNG NIO"
         ],
         "sensors": [
+          "airborne-radar",
           "unaided-visual"
         ],
         "durationSeconds": null,
@@ -26308,20 +26328,20 @@
     {
       "id": "TL-1956-DF",
       "year": 1956,
-      "date": "DEC 1956",
+      "date": "26 DEC 1956",
       "type": "case",
       "caseId": "BF-1956-DF-01",
       "title": "DeFuniak Springs instantaneous movement",
-      "desc": "An object moved 400 yards instantaneously — the investigator's 'helicopter' conclusion left the speed explicitly unexplained."
+      "desc": "Two ground observers reported an apparently instantaneous 400-yard movement; the preparing officer favored a helicopter but left the reported initial velocity unexplained."
     },
     {
       "id": "TL-1957-B47",
       "year": 1957,
-      "date": "1957",
+      "date": "15 APR 1957",
       "type": "case",
       "caseId": "BF-1957-B47-01",
       "title": "B-47 supersonic acceleration encounter",
-      "desc": "A B-47 crew watched a stationary object accelerate to Mach 2-3. The investigator noted the possibility that the object was not of a conventional nature."
+      "desc": "Two ground-based Philco technical representatives reported a separate object accelerating away from an approaching B-47; Mach 2–3 was their visual estimate without measured range or instrument data."
     },
     {
       "id": "TL-1957-RA",
@@ -26335,11 +26355,11 @@
     {
       "id": "TL-1957-CG",
       "year": 1957,
-      "date": "AUG 1957",
+      "date": "09 AUG 1957",
       "type": "case",
       "caseId": "BF-1957-CG-01",
       "title": "Three cigar objects in Y formation",
-      "desc": "Three cigar-shaped objects in a Y formation at 20,000 feet — a unique geometric arrangement in the declassified record."
+      "desc": "One civilian witness reported three cigar-shaped objects connected in a Y configuration over St. Martins Bay; no corroborating record is mapped."
     },
     {
       "id": "TL-1957-NC",
@@ -26362,11 +26382,11 @@
     {
       "id": "TL-1957-HT",
       "year": 1957,
-      "date": "JUL 1957",
+      "date": "16 JUL 1957",
       "type": "case",
       "caseId": "BF-1957-HT-01",
       "title": "Hastings MI arrowhead formation",
-      "desc": "Four witnesses watched an object separate into three forming an arrowhead — the investigator's 'refueling' explanation didn't match the behavior."
+      "desc": "Four civilians reported a 35-minute sequence involving a larger light and smaller lights; the Air Force proposed aircraft/refueling while noting exact refueling information was not on squadron record."
     },
     {
       "id": "TL-1957B",
@@ -26893,11 +26913,11 @@
     {
       "id": "TL-1985-PNG",
       "year": 1985,
-      "date": "JAN 1985",
+      "date": "24 JAN 1985",
       "type": "case",
       "caseId": "BF-1985-PNG-01",
       "title": "Papua New Guinea overflights",
-      "desc": "PNG's intelligence service reported high-altitude, high-speed aircraft frightening civilians — routed to USCINCPAC and SECSTATE."
+      "desc": "A State Department cable relayed a pilot-reported radar pickup and visual contrail reports over PNG; the embassy identified no known U.S. aircraft in the area."
     },
     {
       "id": "EV-1986-JAL-01",
@@ -26947,11 +26967,11 @@
     {
       "id": "TL-1994-KZ",
       "year": 1994,
-      "date": "JAN 1994",
+      "date": "27 JAN 1994",
       "type": "case",
       "caseId": "BF-1994-KZ-01",
       "title": "Kazakhstan 40-minute commercial aviation encounter",
-      "desc": "Three airline pilots flying a Boeing 747SP at 41,000 feet over Kazakhstan observed a UAP for 40 minutes performing 90-degree turns at high G's, leaving contrails at approximately 100,000 feet."
+      "desc": "Three Tajik Air pilots reported a 40-minute encounter and extreme maneuvers; the cable records their interpretation while Embassy Dushanbe stated it had no opinion."
     },
     {
       "id": "TL-1994A",

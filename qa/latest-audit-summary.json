@@ -63,22 +63,22 @@
   "quotesSelected": 146,
   "quotesWithLocators": 146,
   "sourceRecordCount": 256,
-  "sourceDepthWeakCaseCount": 58,
-  "sourceDepthEnrichmentCandidateCount": 106,
+  "sourceDepthWeakCaseCount": 52,
+  "sourceDepthEnrichmentCandidateCount": 103,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 25,
+    "qualityUpgrades": 19,
     "acquisitionTargets": 13,
-    "complete": 108
+    "complete": 114
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 32,
+    "complete-primary-packet": 35,
     "secondary-only": 9,
     "multi-source-independent": 14,
-    "thin-summary": 49,
+    "thin-summary": 43,
     "mixed-provenance": 2,
-    "single-primary-record": 40
+    "single-primary-record": 43
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -1289,8 +1289,8 @@
       ]
     },
     "BF-1994-KZ-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1325,12 +1325,12 @@
       ]
     },
     "BF-1957-B47-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
+        "usaf-blue-book"
       ]
     },
     "BF-1949-KD-01": {
@@ -1379,12 +1379,12 @@
       ]
     },
     "BF-1956-DF-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:hq air proving ground command, eglin afb; prepared by 1st lt richard h. lane"
+        "usaf-blue-book"
       ]
     },
     "BF-1954-KL-01": {
@@ -1415,17 +1415,17 @@
       ]
     },
     "BF-1957-HT-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:781st aircraft control and warning squadron, custer afs, battle creek, michigan"
+        "usaf-blue-book"
       ]
     },
     "BF-1957-CG-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -1442,8 +1442,8 @@
       ]
     },
     "BF-1985-PNG-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
+      "label": "single-primary-record",
+      "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
