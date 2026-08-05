@@ -44,6 +44,7 @@ def main() -> None:
         "not a unique prediction",
     )
     assert len(lazar.get("sourceRecords", [])) == 3
+    assert lazar.get("confidenceModel", {}).get("anomaly") == "not-established"
     ltypes = {r["sourceType"] for r in lazar["sourceRecords"]}
     assert ltypes == {"broadcast-claim-record", "official-site-history", "official-scientific-reference"}
     lurls = blob(lazar.get("publicSources", []))
@@ -64,6 +65,7 @@ def main() -> None:
         "corona wind effects were misinterpreted",
     )
     assert len(brown.get("sourceRecords", [])) == 4
+    assert brown.get("confidenceModel", {}).get("anomaly") == "not-established"
     btypes = {r["sourceType"] for r in brown["sourceRecords"]}
     assert btypes == {
         "inventor-patent",
