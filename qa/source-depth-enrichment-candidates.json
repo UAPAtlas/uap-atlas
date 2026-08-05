@@ -364,6 +364,30 @@
     ]
   },
   {
+    "id": "BF-1973-PG-01",
+    "title": "Pascagoula River Abduction Report",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "sourceQuality": "Witness report to local authorities plus a public trail concerning a reported covert sheriff-room recording; no authenticated complete sheriff packet, original audio, or complete transcript is mapped.",
+    "quoteConfidence": "Low-to-medium \u2014 wording is publicly circulated, but original audio custody and a complete authenticated transcript are not mapped.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "academic",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
     "id": "BF-1973-SL-01",
     "title": "Skylab \u2014 'One or Two Objects Up There With Us'",
     "score": 30,
@@ -380,6 +404,32 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-1978-VL-01",
+    "title": "Valentich Disappearance, Bass Strait",
+    "score": 30,
+    "sourceRecords": 4,
+    "indexedLinks": 4,
+    "publicSourceUrls": 3,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact NAA catalog and ATSB report locators plus an inspected public transcript mirror; the complete primary packet is not locally held, and the record does not establish UFO causation.",
+    "quoteConfidence": "High for wording in the inspected public transcript mirror; direct official transcript/audio custody and the complete investigation packet are not locally held.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 4,
+      "sourceFamilies": [
+        "other:australian transport safety bureau",
+        "other:local atlas audit derived from the current source inventory",
+        "other:national archives of australia recordsearch",
+        "other:ufo research (nsw) public copy attributed to the department of transport transcript"
       ]
     },
     "reasons": [
@@ -1086,70 +1136,23 @@
     ]
   },
   {
-    "id": "BF-1973-PG-01",
-    "title": "Pascagoula River Abduction Report",
-    "score": 25,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 2,
-    "evidenceAssets": 1,
-    "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
-    "quoteConfidence": "Medium \u2014 covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial.",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "press"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only"
-    ]
-  },
-  {
-    "id": "BF-1978-VL-01",
-    "title": "Valentich Disappearance, Bass Strait",
-    "score": 25,
-    "sourceRecords": 2,
-    "indexedLinks": 4,
-    "publicSourceUrls": 3,
-    "evidenceAssets": 2,
-    "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
-    "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications.",
-    "sourceProfile": {
-      "label": "secondary-only",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
-      ]
-    },
-    "reasons": [
-      "source profile=secondary-only"
-    ]
-  },
-  {
     "id": "BF-1997-PH-01",
     "title": "Phoenix Lights Mass Sighting",
     "score": 25,
-    "sourceRecords": 1,
+    "sourceRecords": 2,
     "indexedLinks": 3,
-    "publicSourceUrls": 2,
+    "publicSourceUrls": 3,
     "evidenceAssets": 1,
-    "sourceQuality": "Primary record",
+    "sourceQuality": "Firsthand retrospective commentary plus contemporaneous press reporting; no official case file, sortie log, radar record, or original video custody is mapped.",
     "quoteConfidence": "verbatim-firsthand-commentary",
     "sourceProfile": {
       "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "secondaryRecords": 2,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:cnn, november 9, 2007"
+        "other:cnn, november 9, 2007",
+        "press"
       ]
     },
     "reasons": [

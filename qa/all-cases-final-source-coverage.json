@@ -1107,7 +1107,7 @@
       "VALENTICH-1978"
     ],
     "indexedLinks": 4,
-    "structuredSourceRecords": 2,
+    "structuredSourceRecords": 4,
     "publicSourceUrls": 3,
     "evidenceAssets": 2,
     "links": 7,
@@ -1403,12 +1403,12 @@
       "PHOENIX-LIGHTS-1997"
     ],
     "indexedLinks": 3,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 2,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 3,
     "evidenceAssets": 1,
-    "links": 4,
+    "links": 5,
     "local": 2,
-    "urls": 2,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },

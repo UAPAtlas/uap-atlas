@@ -10654,10 +10654,10 @@
     },
     {
       "keyQuote": "They better wake up and start believin'.",
-      "quoteSource": "Charles Hickson, covert sheriff's-office recording, October 11, 1973",
-      "quoteConfidence": "Medium — covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial.",
+      "quoteSource": "Publicly circulated sheriff-room recording/transcription trail attributed to Charles Hickson, October 11, 1973",
+      "quoteConfidence": "Low-to-medium — wording is publicly circulated, but original audio custody and a complete authenticated transcript are not mapped.",
       "significance": "High significance",
-      "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
+      "sourceQuality": "Witness report to local authorities plus a public trail concerning a reported covert sheriff-room recording; no authenticated complete sheriff packet, original audio, or complete transcript is mapped.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1973-PG-01",
@@ -10690,22 +10690,22 @@
       "domain": "CLAIM / CONTROVERSIAL",
       "status": "CLAIM · UNVERIFIED",
       "confidence": "ALLEGATION · UNVERIFIED",
-      "summary": "Charles Hickson and Calvin Parker reported being taken aboard a craft by robotic entities while fishing on the Pascagoula River. Left alone in a sheriff's interview room with a hidden recorder, the two continued discussing the event in evident distress — the case's unique covert-credibility artifact. Parker stayed largely silent about it until 2018.",
-      "keyFact": "The only abduction narrative tested by a covert recording: deputies secretly taped the witnesses alone, and the tape captured continued private distress, not rehearsal.",
-      "official": "No agency investigated; Project Blue Book had closed in 1969. Skeptical readings propose a hypnagogic episode; the secret tape remains the disputed centerpiece.",
-      "gap": "The full original sheriff's tape and complete interview logs have never been archived publicly in one authenticated set. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "Pascagoula supplies what every testimony case lacks — a moment when the witnesses did not know they were being evaluated.",
+      "summary": "Charles Hickson and Calvin Parker reported to local authorities that they had been taken aboard an object while fishing on the Pascagoula River. Public local-history sources preserve a trail concerning a reported covert recording made while they were left alone, but the Atlas does not hold the original audio, a complete authenticated transcript, or the sheriff case packet. The report is historically documented; the object and abduction claims remain testimonial.",
+      "keyFact": "The public trail describes deputies covertly recording Hickson and Parker while they were alone; that unusual behavioral context documents the report but does not authenticate an abduction or identify an object.",
+      "official": "Local authorities received the report and reportedly recorded the witnesses. The mapped public trail is not a complete law-enforcement file, and no official record in Atlas custody establishes the alleged object, entities, or abduction.",
+      "gap": "No authenticated complete sheriff case packet, original/coherent audio custody chain, complete transcript with issuer/date/timecode, physical evidence chain, or independent sensor record is mapped.",
+      "whyItMatters": "Pascagoula adds an unusual reported behavioral-context layer to a two-witness claim while remaining testimony rather than objective event proof.",
       "sources": [
         "PASCAGOULA-1973 · sheriff's covert recording / witness record trail"
       ],
-      "sourceLabel": "Sheriff's office record",
+      "sourceLabel": "Public sheriff-room recording trail; original custody not mapped",
       "sourceLocator": "PASCAGOULA-1973",
       "relatedCaseIds": [
         "BF-1975-TW-01",
         "BF-1961-BH-01",
         "BF-1973-CY-01"
       ],
-      "heroFact": "The only abduction narrative tested by a covert recording: deputies secretly taped the witnesses alone, and the tape captured continued private distress, not rehearsal.",
+      "heroFact": "A public trail describes a reported covert sheriff-room recording of the two witnesses alone; original audio custody and a complete transcript remain unmapped.",
       "image": "assets/source_previews/BF-1973-PG-01_source_image.jpg",
       "caseTypes": [
         "witness-report",
@@ -10721,7 +10721,7 @@
       "confidenceModel": {
         "record": "unverified",
         "anomaly": "not-assessed",
-        "provenance": "public-record-trail"
+        "provenance": "public-local-history-and-recording-trail"
       },
       "temporal": {
         "dateLabel": "OCT 1973",
@@ -10748,20 +10748,22 @@
       },
       "sourceRecords": [
         {
-          "citation": "PASCAGOULA-1973 · sheriff's covert recording / witness record trail",
-          "sourceType": "witness-report-and-covert-recording-public-trail",
-          "provenance": "Hickson/Parker witness report, sheriff/covert-recording public trail, and local press/history coverage",
+          "citation": "PASCAGOULA-1973 · public authority-report and sheriff-room recording trail",
+          "sourceType": "witness-report-and-public-local-history-trail",
+          "provenance": "Hickson/Parker report to local authorities and Hinds Community College public recording page",
           "locator": "PASCAGOULA-1973",
           "supports": [
-            "Documents a contemporaneous two-witness abduction report made to local authorities in Pascagoula",
-            "Preserves the sheriff/covert-recording context often cited as evidence of witness distress when alone",
-            "Supports the case as a historically documented public incident, not merely a later retelling"
+            "Documents that Hickson and Parker's account entered a local-authority and public-history trail",
+            "Documents a public trail concerning a reported covert sheriff-room recording",
+            "Supports the historical existence of the report, not the alleged event's reality"
           ],
           "limitations": [
-            "Covert recording does not prove abduction, object identity, or non-human origin",
-            "No complete sheriff case packet, physical evidence chain, or independent sensor record is mapped",
-            "Later interviews and media retellings must be separated from the earliest law-enforcement context"
-          ]
+            "No authenticated complete sheriff case packet is mapped",
+            "Original audio custody and a complete timecoded transcript are not mapped",
+            "The recording trail does not prove abduction, object identity, entities, or non-human origin",
+            "Later interviews and retellings must be separated from the earliest authority report"
+          ],
+          "sourceUrl": "https://libguides.hindscc.edu/paranormalms/pascagoula_abduction/1973_recording"
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -10792,7 +10794,7 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "law enforcement officer"
+          "civilian fishermen"
         ],
         "sensors": [
           "unaided-visual"
@@ -10812,8 +10814,8 @@
         "mediaType": "image",
         "visualType": "later-witness-photo",
         "caption": "Later publicity photograph connected to the Pascagoula witnesses and narrative.",
-        "provenance": "Sheriff's office record",
-        "evidenceStatus": "Later witness/publicity context containing a display figure; not event imagery or an authenticated depiction of the alleged beings.",
+        "provenance": "Later publicity context; not a sheriff record",
+        "evidenceStatus": "Later witness/publicity context; not event imagery, a sheriff record, or an authenticated depiction of the alleged beings.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -10838,6 +10840,11 @@
       ],
       "images": [
         "assets/source_previews/BF-1973-PG-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Authenticated complete Jackson County sheriff case packet",
+        "Original sheriff-room audio with custody history and complete timecoded transcript",
+        "Contemporaneous interview logs and earliest authority report"
       ],
       "mapGeometry": null,
       "x": 27.56,
@@ -12392,10 +12399,10 @@
     },
     {
       "keyQuote": "It's hovering and it's not an aircraft.",
-      "quoteSource": "Frederick Valentich radio transmission, Melbourne Flight Service transcript, Oct 21, 1978",
-      "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications.",
+      "quoteSource": "Public mirror of a final-communications transcript attributed to the Australian Department of Transport, October 21, 1978",
+      "quoteConfidence": "High for wording in the inspected public transcript mirror; direct official transcript/audio custody and the complete investigation packet are not locally held.",
       "significance": "High significance",
-      "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
+      "sourceQuality": "Exact NAA catalog and ATSB report locators plus an inspected public transcript mirror; the complete primary packet is not locally held, and the record does not establish UFO causation.",
       "coordinateBasis": "Last reported position area over Bass Strait south of Cape Otway",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-VL-01",
@@ -12411,21 +12418,21 @@
       "domain": "MARITIME / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Pilot Frederick Valentich, 20, reported an unidentified object with green lights pacing his Cessna over Bass Strait; the transmission ended in unexplained metallic sounds. Neither pilot nor aircraft was recovered. The Department of Transport transcript is public and the file was released in 2012.",
-      "keyFact": "An official ATC transcript records a pilot describing an unidentified pacing object in his final transmission before vanishing.",
-      "official": "The DoT investigation could not determine the cause of the disappearance; disorientation, staged disappearance, and suicide hypotheses all remain unproven.",
-      "gap": "No radar corroboration of the reported object was ever published; partial engine cowl debris found in 1983 was consistent with, but not proven to be, the aircraft. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "It is the only aviation-fatality-adjacent case whose primary evidence is the government's own transcript of the encounter as it happened.",
+      "summary": "Pilot Frederick Valentich disappeared over Bass Strait after radioing Melbourne Flight Service that an unidentified object was near his aircraft and that his engine was running roughly. An inspected public transcript mirror preserves those reported communications; exact NAA and ATSB official locators identify the disappearance/investigation trail. Neither the transcript nor the locators establish what caused the disappearance or that the reported object caused it.",
+      "keyFact": "A public copy of the final-communications transcript records Valentich reporting an unidentified object before contact was lost; it documents his report, not the object's identity or the cause of the disappearance.",
+      "official": "NAA and ATSB publish exact locators for the official disappearance/investigation record. The complete packet and direct official transcript/audio custody are not mapped locally, so causal conclusions are not upgraded here.",
+      "gap": "The complete NAA/Department of Transport investigation packet, direct official transcript/audio custody, full search documentation, and any complete radar/sensor chain remain unmapped; the public transcript mirror alone cannot establish causation.",
+      "whyItMatters": "Valentich is an aviation disappearance with contemporaneous reported communications, but the evidentiary boundary is strict: disappearance and transcript trail are documented; UFO causation is not.",
       "sources": [
         "VALENTICH-1978 · DoT transcript / National Archives of Australia file"
       ],
-      "sourceLabel": "DoT transcript",
+      "sourceLabel": "Official locators / public transcript mirror",
       "sourceLocator": "VALENTICH-1978",
       "relatedCaseIds": [
         "BF-1986-JAL-01",
         "BF-1967-SH-01"
       ],
-      "heroFact": "An official ATC transcript records a pilot describing an unidentified pacing object in his final transmission before vanishing.",
+      "heroFact": "A public transcript copy records Valentich's reported unidentified object before contact was lost; it does not establish the disappearance's cause.",
       "image": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
       "images": [
         "assets/source_previews/BF-1978-VL-01_source_image.jpg",
@@ -12445,7 +12452,7 @@
       "confidenceModel": {
         "record": "confirmed",
         "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "provenance": "official-locators-and-public-transcript-mirror"
       },
       "temporal": {
         "dateLabel": "OCT 1978",
@@ -12486,20 +12493,49 @@
       },
       "sourceRecords": [
         {
-          "citation": "VALENTICH-1978 · DoT transcript / National Archives of Australia file",
-          "sourceType": "national-archive-accident-file-and-transcript-trail",
-          "provenance": "National Archives of Australia B1497 V116/783/1047, ATSB accident summary, and public final-communications transcript trail",
-          "locator": "VALENTICH-1978",
+          "citation": "National Archives of Australia · B1497 V116/783/1047",
+          "sourceType": "catalog-locator-only",
+          "provenance": "National Archives of Australia RecordSearch",
+          "locator": "Barcode 10491375; item B1497 V116/783/1047",
           "supports": [
-            "Documents the official disappearance file and accident-investigation context for Frederick Valentich over Bass Strait",
-            "Preserves the final communications/transcript trail that anchors the UFO-related narrative to contemporaneous radio communication",
-            "Supports the case as a primary-record aviation disappearance with unusual reported observations before loss of contact"
+            "Identifies the exact official archival file for the disappearance/investigation trail"
           ],
           "limitations": [
-            "The transcript and accident file do not prove what caused the disappearance or identify the reported object",
-            "No wreckage, recovered aircraft, complete radar/sensor chain, or definitive causal finding is mapped",
-            "Public retellings must be separated from the official accident/transcript record and unresolved-status finding"
-          ]
+            "Catalog locator only in current Atlas custody",
+            "File contents were not recovered or inspected in this tranche",
+            "Does not establish UFO causation"
+          ],
+          "sourceUrl": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=10491375&isAv=N"
+        },
+        {
+          "citation": "ATSB · Aircraft Accident Investigation Summary Report 197802563",
+          "sourceType": "report-locator-only",
+          "provenance": "Australian Transport Safety Bureau",
+          "locator": "Investigation report 197802563",
+          "supports": [
+            "Identifies the official accident-investigation summary endpoint for the disappearance"
+          ],
+          "limitations": [
+            "Endpoint payload was unavailable to direct inspection in this tranche",
+            "Locator alone does not verify specific conclusions or UFO causation"
+          ],
+          "sourceUrl": "https://www.atsb.gov.au/sites/default/files/investigation-reports/197802563.pdf"
+        },
+        {
+          "citation": "Valentich final communications · inspected UFOr public copy",
+          "sourceType": "public-transcript-mirror",
+          "provenance": "UFO Research (NSW) public copy attributed to the Department of Transport transcript",
+          "locator": "PDF pp. 1–2; 09:06:14–09:12:49 GMT",
+          "supports": [
+            "Records Valentich reporting an unidentified object, green light, metallic appearance, and rough engine running",
+            "Records loss of communications after a final open-microphone interval"
+          ],
+          "limitations": [
+            "Private/public mirror rather than direct NAA or Department of Transport custody",
+            "Bracketed audio interpretations are editorial annotations in the mirror",
+            "The communications do not establish object identity or causal connection to the disappearance"
+          ],
+          "sourceUrl": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -12513,7 +12549,7 @@
           ],
           "limitations": [
             "not an independent source",
-            "does not corroborate the event narrative",
+            "does not corroborate UFO causation",
             "cannot substitute for missing primary records"
           ]
         }
@@ -12530,8 +12566,7 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "pilot",
-          "civilian witnesses"
+          "pilot"
         ],
         "sensors": [
           "communications/radio"
@@ -12551,7 +12586,7 @@
         "mediaType": "image",
         "visualType": "investigative-summary",
         "caption": "Source summary card for the Valentich disappearance and official transport record.",
-        "provenance": "DoT transcript",
+        "provenance": "Atlas editorial summary; official locators and public transcript mirror",
         "evidenceStatus": "Editorial source summary containing context imagery; not a photograph of the disappearance or reported object.",
         "isEventEvidence": false
       },
@@ -12580,6 +12615,11 @@
           "scope": "official-transcript-copy",
           "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
         }
+      ],
+      "acquisitionTargets": [
+        "Complete NAA/Department of Transport investigation packet B1497 V116/783/1047",
+        "Direct official final-communications transcript and original audio custody record",
+        "Complete official search documentation and radar/sensor records"
       ],
       "mapGeometry": {
         "type": "LineString",
@@ -15962,9 +16002,9 @@
       "domain": "HISTORICAL / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Large numbers of witnesses across Arizona reported formations and/or a large dark object; later flare explanations addressed part of the event but not all witness descriptions cleanly.",
-      "official": "The Air Force identified later stationary lights as illumination flares. Symington stated his earlier moving delta-shaped observation was separate; the Atlas therefore treats the night as potentially multiple events.",
-      "gap": "A time-synchronized witness database, original full-resolution videos, aircraft tracks and records separating the moving formation from the later flare event are needed.",
+      "summary": "The March 13 record contains at least two analytically distinct windows: earlier moving-formation and large-dark-object reports across Arizona, and later stationary lights near Phoenix associated in contemporaneous press reporting with Maryland Air National Guard illumination flares. The flare account addresses the later light event, not automatically every earlier report.",
+      "official": "A contemporaneous press report quoted Arizona and Maryland Air National Guard spokespeople describing an A-10 illumination-flare exercise south of Phoenix and jettisoned flares before return to Tucson. Symington's 2007 firsthand retrospective described a separate moving delta-shaped observation; no official case file or synchronized master chronology is mapped.",
+      "gap": "A time-synchronized witness corpus, original full-resolution videos with custody, Maryland ANG sortie/flare-expenditure records, range logs, and contemporaneous FAA/radar records are needed to test each event window separately.",
       "sources": [
         "PHOENIX-LIGHTS-1997 · source manifest / public-record trail"
       ],
@@ -15982,11 +16022,11 @@
       "keyQuote": "I witnessed a massive delta-shaped craft silently navigate over Squaw Peak, a mountain range in Phoenix, Arizona.",
       "quoteSource": "Fife Symington firsthand CNN commentary, November 9, 2007",
       "quoteConfidence": "verbatim-firsthand-commentary",
-      "heroFact": "The case turns on separating the earlier large-object witness timeline from later flare footage; one explanation may not cover both.",
+      "heroFact": "The earlier moving-formation reports and the later stationary-light/flare event are distinct evidence questions; one explanation cannot be applied to both without a synchronized record.",
       "significance": "Case significance",
-      "sourceQuality": "Primary record",
-      "sourceLabel": "CIA archive",
-      "sourceLocator": "CNN commentary, November 9, 2007; no page",
+      "sourceQuality": "Firsthand retrospective commentary plus contemporaneous press reporting; no official case file, sortie log, radar record, or original video custody is mapped.",
+      "sourceLabel": "CNN firsthand commentary / contemporaneous press trail",
+      "sourceLocator": "CNN commentary, November 9, 2007; Las Vegas Sun, July 25, 1997",
       "relatedCaseIds": [
         "BF-2004-NM-01",
         "BF-1989-BW-01",
@@ -16006,7 +16046,7 @@
       "confidenceModel": {
         "record": "confirmed",
         "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "provenance": "firsthand-retrospective-and-secondary-press"
       },
       "temporal": {
         "dateLabel": "MAR 1997",
@@ -16016,7 +16056,7 @@
         "timezone": null,
         "durationSeconds": null,
         "precision": "month",
-        "eventForm": "single-event"
+        "eventForm": "multi-phase-event"
       },
       "geospatial": {
         "geometry": {
@@ -16036,9 +16076,9 @@
             ]
           ]
         },
-        "role": "event-location",
-        "precision": "city",
-        "uncertaintyKm": 5,
+        "role": "regional-report-corridor",
+        "precision": "regional-corridor",
+        "uncertaintyKm": 200,
         "basis": "Phoenix public coordinate; lower-48 calibrated to embedded Atlas USA geometry",
         "geometryLabel": "Arizona report corridor",
         "geometryBasis": "Approximate Paulden/Prescott–Phoenix–Tucson report corridor; not one object's established route.",
@@ -16047,21 +16087,36 @@
       },
       "sourceRecords": [
         {
-          "citation": "Fife Symington CNN commentary",
+          "citation": "Fife Symington CNN firsthand retrospective",
           "sourceType": "firsthand-retrospective-commentary",
           "provenance": "CNN, November 9, 2007",
-          "locator": "no page",
+          "locator": "web commentary; no page",
           "supports": [
-            "Symington-personal-observation",
-            "delta-shape",
-            "silence",
-            "distinction-from-flares"
+            "Symington's personal-observation claim",
+            "reported delta shape and silence",
+            "his distinction between his observation and flares"
           ],
           "limitations": [
-            "published-ten-years-later",
-            "not-an-official-investigation",
-            "wave-combines-multiple-times"
-          ]
+            "Published ten years later",
+            "Not an official investigation",
+            "Does not establish a common cause for the statewide reports"
+          ],
+          "sourceUrl": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html"
+        },
+        {
+          "citation": "Las Vegas Sun · Maryland Air National Guard flare report, July 25, 1997",
+          "sourceType": "contemporaneous-press-attribution",
+          "provenance": "Las Vegas Sun report quoting Arizona ANG Capt. Eileen Bienz and Maryland ANG Capt. Drew Sullins",
+          "locator": "July 25, 1997 article; no page",
+          "supports": [
+            "Documents the official-attributed A-10 illumination-flare account for later lights south of Phoenix",
+            "Reports that the explanation did not appear to cover all earlier/northern sightings"
+          ],
+          "limitations": [
+            "Press report rather than the underlying sortie, range, or flare-expenditure records",
+            "Does not identify every reported light or resolve earlier moving-formation/large-object reports"
+          ],
+          "sourceUrl": "https://lasvegassun.com/news/1997/jul/25/military-now-says-flares-may-be-cause-of-mysteriou/"
         }
       ],
       "phenomena": {
@@ -16100,11 +16155,11 @@
       "heroVisual": {
         "src": "assets/source_previews/BF-1997-PH-01_source_image.jpg",
         "mediaType": "image",
-        "visualType": "event-era-video-frame",
-        "caption": "Nighttime lights frame used to represent the Phoenix Lights record.",
+        "visualType": "public-context-frame",
+        "caption": "Nighttime-light context image used to represent the Phoenix Lights public record.",
         "provenance": "Atlas source preview tied to the public-record trail",
-        "evidenceStatus": "Event-era visual context; distinct sightings and later flare footage must not be collapsed into one event.",
-        "isEventEvidence": true,
+        "evidenceStatus": "Atlas preview without original video custody; it cannot establish which event window is depicted and is not proof that the earlier reports and later flare event shared one cause.",
+        "isEventEvidence": false,
         "sourceUrl": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html"
       },
       "publicSources": [
@@ -16125,10 +16180,23 @@
           "publisher": "CNN",
           "scope": "firsthand-retrospective-commentary",
           "url": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html"
+        },
+        {
+          "access": "Public",
+          "label": "Las Vegas Sun — Maryland Air National Guard flare report",
+          "note": "Contemporaneous press report quoting Guard spokespeople; supports the later flare-event account, not every earlier moving-object report.",
+          "publisher": "Las Vegas Sun",
+          "scope": "contemporaneous-press-official-attribution",
+          "url": "https://lasvegassun.com/news/1997/jul/25/military-now-says-flares-may-be-cause-of-mysteriou/"
         }
       ],
       "images": [
         "assets/source_previews/BF-1997-PH-01_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        "Maryland Air National Guard sortie and flare-expenditure records for March 13, 1997",
+        "Barry M. Goldwater Range logs and contemporaneous FAA/radar records",
+        "Original full-resolution videos with custody and a time-synchronized witness corpus"
       ],
       "mapGeometry": {
         "type": "LineString",
@@ -27595,7 +27663,7 @@
       "type": "incident",
       "caseId": "BF-1973-PG-01",
       "title": "Pascagoula abduction report",
-      "desc": "A hidden sheriff's recorder captures the witnesses' private distress — the case's covert credibility test."
+      "desc": "A report to local authorities enters the public record; a public trail describes a reported covert recording, but original audio custody and the alleged event remain unverified."
     },
     {
       "id": "TL-1975B",
@@ -27649,7 +27717,7 @@
       "type": "incident",
       "caseId": "BF-1978-VL-01",
       "title": "Valentich vanishes over Bass Strait",
-      "desc": "A pilot's final transmissions describe a pacing object — 'it's not an aircraft' — before contact is lost."
+      "desc": "Valentich's reported unidentified object appears in a public final-communications transcript copy before contact is lost; the record does not establish the cause of his disappearance."
     },
     {
       "id": "TL-1980C",
@@ -27838,7 +27906,7 @@
       "year": 1997,
       "type": "case",
       "title": "Phoenix Lights Mass Sighting",
-      "desc": "Large numbers of witnesses across Arizona reported formations and/or a large dark object; later flare explanations addre"
+      "desc": "Earlier moving-formation and large-object reports remain analytically separate from later stationary lights attributed in contemporaneous press reporting to Maryland ANG flares."
     },
     {
       "id": "TL-1999A",

@@ -481,12 +481,30 @@
   ],
   "BF-1997-PH-01": [
     {
+      "label": "'Phoenix Lights' mass UAP sighting witness searching for answers",
+      "url": "https://www.youtube.com/watch?v=oZS-XGpq6vA",
+      "publisher": "Ross Coulthart / Reality Check (NewsNation)",
+      "access": "Public",
+      "scope": "firsthand-interview",
+      "role": "witness-interview",
+      "mediaKind": "video",
+      "note": "Ross Coulthart interviews witness Dr. Lynne Kitei. Her testimony is evidence of her account, not independent proof that all March 13 observations shared one cause."
+    },
+    {
       "access": "Public/access may vary",
       "label": "CNN — former Arizona governor Fife Symington’s firsthand retrospective",
       "note": "Published ten years later; not an official investigation and distinct from later flare footage.",
       "publisher": "CNN",
       "scope": "firsthand-retrospective-commentary",
       "url": "https://www.cnn.com/2007/TECH/science/11/09/simington.ufocommentary/index.html"
+    },
+    {
+      "access": "Public",
+      "label": "Las Vegas Sun — Maryland Air National Guard flare report",
+      "note": "Contemporaneous press report quoting Guard spokespeople; supports the later flare-event account, not every earlier moving-object report.",
+      "publisher": "Las Vegas Sun",
+      "scope": "contemporaneous-press-official-attribution",
+      "url": "https://lasvegassun.com/news/1997/jul/25/military-now-says-flares-may-be-cause-of-mysteriou/"
     }
   ],
   "BF-2006-OH-01": [
@@ -1091,6 +1109,26 @@
       "access": "Public PDF",
       "scope": "independent-technical-test",
       "note": "Independent experiment found no linear thrust within its accuracy and concluded corona-wind effects had been misinterpreted as gravitational coupling."
+    }
+  ],
+  "BF-1973-PG-01": [
+    {
+      "label": "The Pascagoula UFO Incident — When Nightmares Come True",
+      "url": "https://www.youtube.com/watch?v=IAEsS4IOrBk",
+      "publisher": "The Why Files",
+      "access": "Public",
+      "scope": "case-specific-analysis",
+      "role": "contextual-analysis",
+      "mediaKind": "video",
+      "note": "Case narrative with counterarguments; secondary analysis."
+    },
+    {
+      "label": "Hinds Community College LibGuide — Pascagoula 1973 recording",
+      "url": "https://libguides.hindscc.edu/paranormalms/pascagoula_abduction/1973_recording",
+      "publisher": "Hinds Community College Library",
+      "access": "Public",
+      "scope": "local-history-public-record",
+      "note": "Public educational page preserving/listing the 1973 Hickson/Parker recording context; useful local-history source, not full sheriff file."
     }
   ]
 }

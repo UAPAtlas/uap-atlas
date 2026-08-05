@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "quality_upgrade",
-  "caseCount": 13,
+  "caseCount": 10,
   "cases": [
     {
       "id": "BF-SF-08",
@@ -40,66 +40,6 @@
       "evidenceAssets": 2,
       "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
       "quoteConfidence": "Low-medium \u2014 corpus is public and prolific, but authentication claims are contested and original custody is unresolved."
-    },
-    {
-      "id": "BF-1973-PG-01",
-      "title": "Pascagoula River Abduction Report",
-      "domain": "CLAIM / CONTROVERSIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
-      "quoteConfidence": "Medium \u2014 covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial."
-    },
-    {
-      "id": "BF-1978-VL-01",
-      "title": "Valentich Disappearance, Bass Strait",
-      "domain": "MARITIME / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
-      "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications."
-    },
-    {
-      "id": "BF-1997-PH-01",
-      "title": "Phoenix Lights Mass Sighting",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verbatim-firsthand-commentary"
     },
     {
       "id": "BF-1978-KK-01",

@@ -9,8 +9,8 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 13,
-    "acquisitionTargets": 15,
+    "qualityUpgrades": 10,
+    "acquisitionTargets": 18,
     "complete": 118
   },
   "cases": [
@@ -163,6 +163,48 @@
       "quoteConfidence": "High for the preserved press/archive artifacts; unresolved for official-file claims because no complete RAAF, police, or school packet is mapped."
     },
     {
+      "id": "BF-1973-PG-01",
+      "title": "Pascagoula River Abduction Report",
+      "domain": "CLAIM / CONTROVERSIAL",
+      "category": "acquisition_target",
+      "priorityScore": 90,
+      "legacyWeaknessScore": 30,
+      "reasons": [
+        "declared acquisition target: Authenticated complete Jackson County sheriff case packet",
+        "declared acquisition target: Original sheriff-room audio with custody history and complete timecoded transcript",
+        "declared acquisition target: Contemporaneous interview logs and earliest authority report"
+      ],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 2,
+      "mainSourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Witness report to local authorities plus a public trail concerning a reported covert sheriff-room recording; no authenticated complete sheriff packet, original audio, or complete transcript is mapped.",
+      "quoteConfidence": "Low-to-medium \u2014 wording is publicly circulated, but original audio custody and a complete authenticated transcript are not mapped."
+    },
+    {
+      "id": "BF-1978-VL-01",
+      "title": "Valentich Disappearance, Bass Strait",
+      "domain": "MARITIME / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 90,
+      "legacyWeaknessScore": 30,
+      "reasons": [
+        "declared acquisition target: Complete NAA/Department of Transport investigation packet B1497 V116/783/1047",
+        "declared acquisition target: Direct official final-communications transcript and original audio custody record",
+        "declared acquisition target: Complete official search documentation and radar/sensor records"
+      ],
+      "sourceProfile": "thin-summary",
+      "sourceRecords": 4,
+      "mainSourceRecords": 3,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 2,
+      "sourceQuality": "Exact NAA catalog and ATSB report locators plus an inspected public transcript mirror; the complete primary packet is not locally held, and the record does not establish UFO causation.",
+      "quoteConfidence": "High for wording in the inspected public transcript mirror; direct official transcript/audio custody and the complete investigation packet are not locally held."
+    },
+    {
       "id": "BF-2014-CH-01",
       "title": "Chilean Navy IR Video (CEFAA)",
       "domain": "MILITARY / SENSOR",
@@ -223,6 +265,27 @@
       "evidenceAssets": 1,
       "sourceQuality": "Verified federal-court record for the NASA FOIA dispute plus public witness/press trail; underlying incident, recovery, and transport packet remains unrecovered.",
       "quoteConfidence": "Mixed \u2014 federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records."
+    },
+    {
+      "id": "BF-1997-PH-01",
+      "title": "Phoenix Lights Mass Sighting",
+      "domain": "HISTORICAL / AERIAL",
+      "category": "acquisition_target",
+      "priorityScore": 85,
+      "legacyWeaknessScore": 25,
+      "reasons": [
+        "declared acquisition target: Maryland Air National Guard sortie and flare-expenditure records for March 13, 1997",
+        "declared acquisition target: Barry M. Goldwater Range logs and contemporaneous FAA/radar records",
+        "declared acquisition target: Original full-resolution videos with custody and a time-synchronized witness corpus"
+      ],
+      "sourceProfile": "secondary-only",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "Firsthand retrospective commentary plus contemporaneous press reporting; no official case file, sortie log, radar record, or original video custody is mapped.",
+      "quoteConfidence": "verbatim-firsthand-commentary"
     },
     {
       "id": "BF-1990-CV-01",
@@ -363,66 +426,6 @@
       "evidenceAssets": 2,
       "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
       "quoteConfidence": "Low-medium \u2014 corpus is public and prolific, but authentication claims are contested and original custody is unresolved."
-    },
-    {
-      "id": "BF-1973-PG-01",
-      "title": "Pascagoula River Abduction Report",
-      "domain": "CLAIM / CONTROVERSIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Witness report plus sheriff/covert-recording public trail; stronger contemporaneous behavior context than most abduction claims, but no objective physical proof.",
-      "quoteConfidence": "Medium \u2014 covert-recording/public local-history trail is specific, but object/abduction claims remain testimonial."
-    },
-    {
-      "id": "BF-1978-VL-01",
-      "title": "Valentich Disappearance, Bass Strait",
-      "domain": "MARITIME / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 2,
-      "sourceQuality": "National Archives of Australia / ATSB / transcript public-record trail; primary disappearance record is strong, but UFO-causation remains unresolved.",
-      "quoteConfidence": "High for transcript/disappearance record; lower for any causal interpretation beyond the recorded communications."
-    },
-    {
-      "id": "BF-1997-PH-01",
-      "title": "Phoenix Lights Mass Sighting",
-      "domain": "HISTORICAL / AERIAL",
-      "category": "quality_upgrade",
-      "priorityScore": 45,
-      "legacyWeaknessScore": 25,
-      "reasons": [
-        "secondary-only source profile",
-        "generic sourceQuality needs provenance detail"
-      ],
-      "sourceProfile": "secondary-only",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 1,
-      "sourceQuality": "Primary record",
-      "quoteConfidence": "verbatim-firsthand-commentary"
     },
     {
       "id": "BF-1978-KK-01",

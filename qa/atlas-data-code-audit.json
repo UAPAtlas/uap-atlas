@@ -62,21 +62,21 @@
   ],
   "quotesSelected": 146,
   "quotesWithLocators": 146,
-  "sourceRecordCount": 262,
+  "sourceRecordCount": 265,
   "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 101,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 13,
-    "acquisitionTargets": 15,
+    "qualityUpgrades": 10,
+    "acquisitionTargets": 18,
     "complete": 118
   },
   "sourceProfileCounts": {
     "complete-primary-packet": 37,
-    "secondary-only": 9,
+    "secondary-only": 7,
     "multi-source-independent": 14,
-    "thin-summary": 40,
+    "thin-summary": 42,
     "mixed-provenance": 2,
     "single-primary-record": 44
   },
@@ -634,13 +634,13 @@
       ]
     },
     "BF-1973-PG-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
+      "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "press"
+        "academic",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1973-SS-01": {
@@ -728,13 +728,15 @@
       ]
     },
     "BF-1978-VL-01": {
-      "label": "secondary-only",
+      "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 4,
       "sourceFamilies": [
+        "other:australian transport safety bureau",
         "other:local atlas audit derived from the current source inventory",
-        "other:national archives of australia b1497 v116/783/1047, atsb accident summary, and public final-communications transcript trail"
+        "other:national archives of australia recordsearch",
+        "other:ufo research (nsw) public copy attributed to the department of transport transcript"
       ]
     },
     "BF-1980-CLD-01": {
@@ -909,10 +911,11 @@
     "BF-1997-PH-01": {
       "label": "secondary-only",
       "primaryRecords": 0,
-      "secondaryRecords": 1,
-      "independentSourceFamilies": 1,
+      "secondaryRecords": 2,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:cnn, november 9, 2007"
+        "other:cnn, november 9, 2007",
+        "press"
       ]
     },
     "BF-SF-06": {
