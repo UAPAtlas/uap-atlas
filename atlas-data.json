@@ -4900,7 +4900,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D015/NASA-UAP-D015_Astronaut-Scientific-Debriefings_1962-1963__page_002.png",
         "assets/source_previews/BF-NASA-D015_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "scientific-debriefing-compilation",
+        "interpretationStatus": "mission-context-only",
+        "officialRecord": "NASA-UAP-D015 · Astronaut Scientific Debriefings, 1962–1963 · selected released pages",
+        "supports": [
+          "Verifies a released NASA mission-era scientific debriefing compilation in the official corpus.",
+          "The mapped pages preserve documentary context for Mercury-era astronaut reporting and debriefing practices."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not document a specific anomalous object or unresolved UAP event."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "keyQuote": "A police officer described as sober, dependable, mature and not known to engage in flights of fantasy reported seeing an unidentified flying object rise from the earth with a roar, emitting bluish and orange flames and disappear over a distant mountain.",
@@ -5468,7 +5486,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D016/NASA-UAP-D016_Preliminary-Gemini-4-Crew-Debriefing_Part1_1965__page_001.png",
         "assets/source_previews/BF-NASA-D016_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "preliminary-crew-debriefing",
+        "interpretationStatus": "mission-context-only",
+        "officialRecord": "NASA-UAP-D016 · Preliminary Gemini 4 Crew Debriefing, Part I, 1965 · selected released pages",
+        "supports": [
+          "Verifies a preliminary Gemini 4 flight-crew debriefing made from voice-tape recordings after recovery aboard USS Wasp.",
+          "The mapped preface establishes the document’s operational purpose and mission provenance."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not establish a UAP sighting or anomalous observation."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D017",
@@ -5605,7 +5641,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D017/NASA-UAP-D017_Preliminary-Gemini-4-Crew-Debriefing_Part2_1965__page_001.png",
         "assets/source_previews/BF-NASA-D017_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "mission-context-only",
+        "officialRecord": "NASA-UAP-D017 · Gemini 4 Technical Crew Debriefing, Part II, 1965 · selected released pages",
+        "supports": [
+          "Verifies the released Part II Gemini 4 technical debriefing record and its mission-document context.",
+          "The mapped material anchors the corpus item to a named official debriefing rather than an unsourced summary."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not establish object identity, anomalous technology, or an unresolved UAP event."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D019",
@@ -5742,7 +5796,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D019/NASA-UAP-D019_Gemini-5-Technical-Debriefing_Part1_1965__page_003.png",
         "assets/source_previews/BF-NASA-D019_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "mission-context-only",
+        "officialRecord": "NASA-UAP-D019 · Gemini 5 Technical Crew Debriefing, 1965 · selected released pages",
+        "supports": [
+          "Verifies the released Gemini 5 technical debriefing record and selected mission-context pages.",
+          "The record provides official documentary context for how crew observations were collected after flight."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not establish a specific unresolved aerial or orbital anomaly."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D020",
@@ -5879,7 +5951,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D020/NASA-UAP-D020_Gemini-5-Technical-Debriefing_Part2_1965__page_001.png",
         "assets/source_previews/BF-NASA-D020_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "crew-debriefing-part-ii",
+        "interpretationStatus": "mission-context-only",
+        "officialRecord": "NASA-UAP-D020 · Gemini 6A Crew Debriefing, Part II, 1965 · selected released pages",
+        "supports": [
+          "Verifies the released Gemini 6A Part II crew-debriefing record and selected cover/preface context.",
+          "The mapped material anchors the item to an official mission debriefing."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not establish object origin, anomalous technology, or a specific unresolved event."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D021",
@@ -6016,7 +6106,27 @@
       "images": [
         "assets/evidence/NASA-UAP-D021/NASA-UAP-D021_Gemini-7-Technical-Debriefing_1965__page_001.png",
         "assets/source_previews/BF-NASA-D021_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "debriefing-custody-only",
+        "officialRecord": "NASA-UAP-D021 · Preliminary Gemini 7 Technical Crew Debriefing, 1965 · mapped preface page",
+        "supports": [
+          "Verifies a preliminary Gemini 7 debriefing transcript made from crew voice recordings after recovery.",
+          "Establishes official debriefing custody and mission context for the related curated Gemini 7 event dossier."
+        ],
+        "doesNotEstablish": [
+          "The mapped page is a preface and does not contain “bogey,” “ten o’clock high,” or the “third and unidentified object” passage."
+        ],
+        "limitations": [
+          "The exact event-bearing NASA transcript pages are not mapped in the current Atlas corpus.",
+          "The mapped debriefing preface cannot verify the event quotation or resolve object identity."
+        ],
+        "relatedCaseId": "BF-1965-G7-01",
+        "relationship": "corpus-source-for-event"
+      }
     },
     {
       "id": "BF-1966-CC-00",
@@ -6502,7 +6612,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D022/NASA-UAP-D022_Gemini-9-Debriefing_1966__page_001.png",
         "assets/source_previews/BF-NASA-D022_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "crew-debriefing-release",
+        "interpretationStatus": "routing-record-only",
+        "officialRecord": "NASA-UAP-D022 · Gemini 9 Crew Debriefing, 1966 · mapped routing/page images",
+        "supports": [
+          "Verifies an official released Gemini 9 debriefing item and a readable NASA routing slip.",
+          "Preserves custody of the corpus item even though the substantive mapped pages are not legible in current extraction."
+        ],
+        "doesNotEstablish": [
+          "The inspected material does not establish a Gemini 9 UAP report or anomalous observation."
+        ],
+        "limitations": [
+          "Only the routing slip produced substantive readable text in the inspected local extraction.",
+          "Complete substantive debriefing content and any visual-sighting passages remain unverified."
+        ]
+      }
     },
     {
       "id": "BF-1967-MA-01",
@@ -7014,7 +7142,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D018/NASA-UAP-D018_Gemini-4_Experiment-Debriefing_1967__page_003.png",
         "assets/source_previews/BF-NASA-D018_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "mission-operations-record",
+        "interpretationStatus": "operational-context-only",
+        "officialRecord": "NASA-UAP-D018 · Gemini 4 debriefing/mission-operations release, 1965–1967 · selected routing and activity pages",
+        "supports": [
+          "Verifies a routing slip and Mission Operation Report material covering EVA, propulsion, and rendezvous activity with the booster stage.",
+          "The mapped pages document planned and operational Gemini 4 activity relevant to interpreting visual observations."
+        ],
+        "doesNotEstablish": [
+          "The inspected material is operational planning/context, not a report of an anomalous object."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-1968-HIM-01",
@@ -8470,7 +8616,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D1/NASA-UAP-D1-Apollo-12-Transcript-1969__page_003.png",
         "assets/source_previews/BF-NASA-D001_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "mission-transcript-extract",
+        "interpretationStatus": "documentary-context-only",
+        "officialRecord": "NASA-UAP-D001 · Apollo 12 mission transcript release, 1969 · selected mapped pages",
+        "supports": [
+          "Verifies a released Apollo 12 transcript artifact and selected mission-communication context.",
+          "Anchors the corpus record to a named official release rather than a later quotation collection."
+        ],
+        "doesNotEstablish": [
+          "The inspected pages do not establish an anomalous object or non-human origin."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D004",
@@ -8607,7 +8771,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D4/NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969__page_003.png",
         "assets/source_previews/BF-NASA-D004_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "reported-observation-unresolved",
+        "officialRecord": "NASA-UAP-D004 · Apollo 11 Technical Crew Debriefing, 1969 · selected mapped pages",
+        "supports": [
+          "Preserves a released Apollo 11 debriefing passage in which the crew discussed a sizable object near the Moon and attempted visual inspection.",
+          "Supports that an observation was discussed in the official post-mission debriefing record."
+        ],
+        "doesNotEstablish": [
+          "The passage does not establish the object’s identity, distance, trajectory, or anomalous origin."
+        ],
+        "limitations": [
+          "Only selected debriefing pages are mapped.",
+          "No corresponding image sequence, sensor record, or final interpretation is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM1",
@@ -8639,7 +8821,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM1",
       "relatedCaseIds": [
@@ -8743,9 +8925,9 @@
         "src": "assets/evidence/NASA-UAP-VM1/NASA-UAP-VM1-Apollo-12-1969.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 12 visual-material image 1.",
+        "caption": "Released annotated Apollo 12 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -8761,7 +8943,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM1/NASA-UAP-VM1-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM1_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM1 · official released Apollo 12 annotated visual-material panel 1",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents a lunar image with enlarged/callout regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM2",
@@ -8793,7 +8993,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM2",
       "relatedCaseIds": [
@@ -8897,9 +9097,9 @@
         "src": "assets/evidence/NASA-UAP-VM2/NASA-UAP-VM2-Apollo-12-1969.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 12 visual-material image 2.",
+        "caption": "Released annotated Apollo 12 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -8915,7 +9115,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM2/NASA-UAP-VM2-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM2_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM2 · official released Apollo 12 annotated visual-material panel 2",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents a lunar image with enlarged/callout regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM3",
@@ -8947,7 +9165,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM3",
       "relatedCaseIds": [
@@ -9051,9 +9269,9 @@
         "src": "assets/evidence/NASA-UAP-VM3/NASA-UAP-VM3-Apollo-12-1969.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 12 visual-material image 3.",
+        "caption": "Released annotated Apollo 12 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -9069,7 +9287,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM3/NASA-UAP-VM3-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM3_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM3 · official released Apollo 12 annotated visual-material panel 3",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents a lunar image with enlarged/callout regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM4",
@@ -9101,7 +9337,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM4",
       "relatedCaseIds": [
@@ -9205,9 +9441,9 @@
         "src": "assets/evidence/NASA-UAP-VM4/NASA-UAP-VM4-Apollo-12-1969.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 12 visual-material image 4.",
+        "caption": "Released annotated Apollo 12 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -9223,7 +9459,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM4/NASA-UAP-VM4-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM4_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM4 · official released Apollo 12 annotated visual-material panel 4",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents a lunar image with enlarged/callout regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM5",
@@ -9255,7 +9509,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 12 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM5",
       "relatedCaseIds": [
@@ -9342,9 +9596,9 @@
         "src": "assets/evidence/NASA-UAP-VM5/NASA-UAP-VM5-Apollo-12-1969.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 12 visual-material image 5.",
+        "caption": "Released annotated Apollo 12 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -9360,7 +9614,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM5/NASA-UAP-VM5-Apollo-12-1969.jpg",
         "assets/source_previews/BF-NASA-VM5_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM5 · official released Apollo 12 annotated visual-material panel 5",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents a lunar image with enlarged/callout regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D026",
@@ -9497,7 +9769,25 @@
           "access": "Public",
           "scope": "official-record"
         }
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "official-media-catalog-record",
+        "interpretationStatus": "media-content-not-fully-reviewed",
+        "officialRecord": "NASA-UAP-D026 / DOD_111830063 · DVIDS Apollo 14 debriefing video record, 1971",
+        "supports": [
+          "Verifies an official DVIDS catalog/media record for the Apollo 14 debriefing and a mapped representative frame.",
+          "Establishes release custody and mission context for the video object."
+        ],
+        "doesNotEstablish": [
+          "The catalog record and preview frame do not establish anomalous content or object identity."
+        ],
+        "limitations": [
+          "The complete video was not reviewed in this tranche.",
+          "No complete transcript, sensor packet, camera geometry, or interpretation record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D002",
@@ -9635,7 +9925,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D2/NASA-UAP-D2-Apollo-17-Transcript-1972__page_002.png",
         "assets/source_previews/BF-NASA-D002_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "mission-transcript-extract",
+        "interpretationStatus": "described-fragments-unresolved",
+        "officialRecord": "NASA-UAP-D002 · Apollo 17 mission transcript release, 1972 · selected mapped pages",
+        "supports": [
+          "Preserves a released transcript passage describing multiple bright/tumbling fragments outside the spacecraft.",
+          "Supports that the crew discussed the visual material in the official mission record."
+        ],
+        "doesNotEstablish": [
+          "The passage does not establish that the fragments were anomalous, controlled, or of non-human origin."
+        ],
+        "limitations": [
+          "Only selected transcript pages are mapped.",
+          "No image sequence, trajectory reconstruction, or final identification is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-VM6",
@@ -9667,7 +9975,7 @@
       "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
       "heroFact": "Apollo 17 visual material released in the NASA/UAP corpus; visual anomaly claims require frame provenance and context.",
       "significance": "Corpus coverage",
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved.",
+      "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 17; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
       "sourceLabel": "NASA corpus",
       "sourceLocator": "NASA-UAP-VM6",
       "relatedCaseIds": [
@@ -9754,9 +10062,9 @@
         "src": "assets/evidence/NASA-UAP-VM6/NASA-UAP-VM6-Apollo-17-1972.jpg",
         "mediaType": "image",
         "visualType": "space-lunar-image",
-        "caption": "Released Apollo 17 visual-material image 1.",
+        "caption": "Released annotated Apollo 17 visual-material panel.",
         "provenance": "NASA visual-material release mapped in the local source corpus",
-        "evidenceStatus": "Confirmed release record; anomaly interpretation requires original frame, mission timestamp, and mission context.",
+        "evidenceStatus": "Confirmed released artifact; not a clean native-frame identification and not anomaly-confirming imagery.",
         "isEventEvidence": true
       },
       "publicSources": [
@@ -9772,7 +10080,25 @@
       "images": [
         "assets/evidence/NASA-UAP-VM6/NASA-UAP-VM6-Apollo-17-1972.jpg",
         "assets/source_previews/BF-NASA-VM6_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-annotated-visual",
+        "interpretationStatus": "released-composite-unresolved",
+        "officialRecord": "NASA-UAP-VM6 · official released Apollo 17 annotated visual-material panel",
+        "supports": [
+          "Verifies custody of the exact released annotated panel and its item-level official endpoint.",
+          "The panel visibly presents lunar imagery with marked/enlarged regions for review."
+        ],
+        "doesNotEstablish": [
+          "The panel does not establish that a highlighted mark is a discrete object or anomalous craft."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "keyQuote": "we were at 3500, climbing to 3800, past 3500, and the collective is still down",
@@ -10429,7 +10755,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D5/NASA-UAP-D5-Apollo-17-Crew-Debriefing-for-Science-1973__page_002.png",
         "assets/source_previews/BF-NASA-D005_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "scientific-crew-debriefing",
+        "interpretationStatus": "scientific-context-only",
+        "officialRecord": "NASA-UAP-D005 · Apollo 17 Crew Debriefing for Science, 1973 · selected mapped pages",
+        "supports": [
+          "Preserves released scientific-debriefing discussion of Coma-cluster observations, ionized-hydrogen hypotheses, and Lyman-alpha limits.",
+          "Supports the scientific/observational context of the mission record."
+        ],
+        "doesNotEstablish": [
+          "The inspected passage is astrophysical discussion and does not report a discrete UAP event."
+        ],
+        "limitations": [
+          "The Atlas maps selected pages rather than a fully reviewed mission packet.",
+          "No independent sensor chain, trajectory reconstruction, or final anomaly-resolution record is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D006",
@@ -10566,7 +10910,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D6/NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973__page_002.png",
         "assets/source_previews/BF-NASA-D006_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "operational-visual-context",
+        "officialRecord": "NASA-UAP-D006 · Apollo 17 Technical Crew Debriefing, 1973 · selected mapped pages",
+        "supports": [
+          "Preserves released crew discussion of bright visual effects, fireball/tunnel-like appearance, and operational viewing conditions.",
+          "Supports that unusual visual phenomena were discussed in the technical debriefing."
+        ],
+        "doesNotEstablish": [
+          "The inspected passage does not establish a separate external craft or anomalous technology."
+        ],
+        "limitations": [
+          "The described effects occur within reentry/spaceflight visual context.",
+          "No independent sensor or final anomaly-resolution packet is mapped."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D007",
@@ -10702,7 +11064,27 @@
       "images": [
         "assets/evidence/NASA-UAP-D7/NASA-UAP-D7-Skylab-Technical-Crew-Debriefing-1973__page_003.png",
         "assets/source_previews/BF-NASA-D007_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "technical-crew-debriefing",
+        "interpretationStatus": "physiological-light-flash-context",
+        "officialRecord": "NASA-UAP-D007 · Skylab Technical Crew Debriefing, 1973 · mapped pages 23-20 and 23-21",
+        "supports": [
+          "The mapped pages directly preserve crew discussion of closed-eye and open-eye light flashes and their visual/physiological characteristics.",
+          "Supports official debriefing custody for a recognized class of spaceflight visual phenomena."
+        ],
+        "doesNotEstablish": [
+          "The mapped pages do not contain “one or two objects up there with us” or “bright reddish object.”"
+        ],
+        "limitations": [
+          "The selected pages address light flashes and possible particles/physiological effects.",
+          "They cannot verify the separate curated Skylab object-observation quotation."
+        ],
+        "relatedCaseId": "BF-1973-SL-01",
+        "relationship": "corpus-source-for-event"
+      }
     },
     {
       "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
@@ -14544,7 +14926,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D030/NASA-UAP-D030_STS-80-Unidentified-Object-Image1_1996.jpg",
         "assets/source_previews/BF-NASA-D030_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-orbital-photograph",
+        "interpretationStatus": "released-image-context-unresolved",
+        "officialRecord": "NASA-UAP-D030 · official released STS-80 unidentified-object image 1, 1996",
+        "supports": [
+          "Verifies custody of the exact released photograph and item-level official endpoint.",
+          "The photograph visibly contains cabin/window context and a small bright mark against the view outside."
+        ],
+        "doesNotEstablish": [
+          "A single photograph does not establish the bright mark’s identity, motion, distance, or anomalous origin."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D031",
@@ -14681,7 +15081,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D031/NASA-UAP-D031_STS-80-Unidentified-Object-Image2_1996.jpg",
         "assets/source_previews/BF-NASA-D031_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-orbital-photograph",
+        "interpretationStatus": "released-image-context-unresolved",
+        "officialRecord": "NASA-UAP-D031 · official released STS-80 unidentified-object image 2, 1996",
+        "supports": [
+          "Verifies custody of the exact released photograph and item-level official endpoint.",
+          "The photograph visibly contains cabin/window context and a small bright mark against the view outside."
+        ],
+        "doesNotEstablish": [
+          "A single photograph does not establish the bright mark’s identity, motion, distance, or anomalous origin."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-NASA-D032",
@@ -14818,7 +15236,25 @@
       "images": [
         "assets/evidence/NASA-UAP-D032/NASA-UAP-D032_STS-80-Unidentified-Object-Image3_1996.jpg",
         "assets/source_previews/BF-NASA-D032_source_image.jpg"
-      ]
+      ],
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "corpus-record",
+        "recordType": "released-orbital-photograph",
+        "interpretationStatus": "context-frame-no-distinct-object",
+        "officialRecord": "NASA-UAP-D032 · official released STS-80 unidentified-object image 3, 1996",
+        "supports": [
+          "Verifies custody of the exact released photograph and item-level official endpoint.",
+          "The photograph supplies related cabin/window and Earth-limb context for the STS-80 visual set."
+        ],
+        "doesNotEstablish": [
+          "No distinct anomalous object can be established from the inspected pixels of this frame alone."
+        ],
+        "limitations": [
+          "No native mission sequence, timestamp chain, camera geometry, or calibration packet is mapped.",
+          "The released artifact cannot establish distance, scale, trajectory, or origin from pixels alone."
+        ]
+      }
     },
     {
       "id": "BF-1997-PH-01",
@@ -22981,7 +23417,7 @@
       "coordinatePrecision": "orbital",
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
-      "status": "DOCUMENTED · UNRESOLVED",
+      "status": "CURATED EVENT · PRIMARY PASSAGE NOT LOCALLY MAPPED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "Gemini 7 Commander Frank Borman reported a 'bogey at ten o'clock high' during the mission. Houston asked if it was the booster or a 'natural sighting.' Borman and Lovell observed hundreds of particles, the booster, and a third unidentified object. NASA PAO later confirmed 'the reference to the third and unidentified object... was a bogey' — distinct from both the booster and the particles.",
       "official": "NASA PAO confirmed the third object was an unidentified 'bogey.' No further official explanation located.",
@@ -22993,10 +23429,10 @@
       "whyItMatters": "Astronaut-reported UAP during an operational NASA mission. The PAO confirmation that it was 'unidentified' (not the booster, not particles) distinguishes this from the routine debris observations common in orbital missions.",
       "keyQuote": "The reference to the third and unidentified object... was a bogey.",
       "quoteSource": "NASA PAO, Gemini 7 mission transcript (T-00763)",
-      "quoteConfidence": "High for confirmed primary-source quotation; interpretation remains limited without full sensor/trajectory context.",
+      "quoteConfidence": "Medium — wording is preserved in existing Atlas research extraction citing NASA tape T-00763, but the exact event-bearing primary pages are not mapped in the current corpus.",
       "heroFact": "Gemini 7 Commander Frank Borman reported a 'bogey at ten o'clock high' — NASA PAO confirmed it was an unidentified third object.",
       "significance": "High significance — astronaut-reported UAP",
-      "sourceQuality": "Primary NASA Gemini 7 mission transcript/debriefing custody with source-token alias to NASA-UAP-D021 assets; reported “bogey” language remains context-limited.",
+      "sourceQuality": "Curated event dossier linked to official Gemini 7 debriefing custody; current mapped pages verify the debriefing record but do not contain the quoted bogey exchange.",
       "sourceLabel": "NASA transcript",
       "sourceLocator": "NASA T-00763(Rlb)",
       "relatedCaseIds": [
@@ -23110,6 +23546,26 @@
         "provenance": "NASA transcript and technical debriefing; no authenticated image of the reported third object.",
         "evidenceStatus": "Editorial reconstruction; not event imagery and not evidence of object identity or origin.",
         "isEventEvidence": false
+      },
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "event-dossier",
+        "recordType": "reported-orbital-observation",
+        "interpretationStatus": "primary-passage-unmapped",
+        "officialRecord": "Curated Gemini 7 event dossier citing NASA tape T-00763; related mapped corpus record BF-NASA-D021",
+        "supports": [
+          "Existing Atlas research extraction attributes Borman’s “bogey at ten o’clock high” report and the PAO “third and unidentified object” wording to NASA tape T-00763.",
+          "The account distinguishes the reported object from the visible booster and surrounding particles in the cited mission exchange."
+        ],
+        "doesNotEstablish": [
+          "The currently mapped Gemini 7 debriefing page does not contain the event passage and cannot locally confirm the quotation."
+        ],
+        "limitations": [
+          "Exact event-bearing primary transcript pages must be mapped before the quote is treated as locally page-verified.",
+          "No independent sensor, trajectory, distance, or final-resolution record is mapped."
+        ],
+        "relatedCaseId": "BF-NASA-D021",
+        "relationship": "curated-event-from-corpus"
       }
     },
     {
@@ -23989,7 +24445,7 @@
       "coordinatePrecision": "orbital",
       "agency": "NASA",
       "domain": "ORBITAL / NASA",
-      "status": "DOCUMENTED · UNRESOLVED",
+      "status": "CURATED EVENT · PRIMARY PASSAGE NOT LOCALLY MAPPED",
       "confidence": "CONFIRMED RECORD · UNRESOLVED IDENTITY",
       "summary": "The Skylab crew reported 'unusual or unexpected visual phenomena' including a 'bright reddish object' that was 'always brighter than any other star' and was tracked for some time. A crew member stated 'one or two objects up there with us' and called it 'one of the most unusual things we saw.' This is distinct from the expected light flashes (cosmic ray retinal flashes) also reported.",
       "official": "The Skylab Technical Crew Debriefing (NASA-UAP-D7) records the crew's observations. No official identification of the 'bright reddish object' was made.",
@@ -24001,10 +24457,10 @@
       "whyItMatters": "Astronaut-reported observation from an operational NASA space station mission. The crew distinguished this from expected cosmic-ray light flashes. The 'always brighter than any other star' description suggests a sustained, self-luminous object, not a transient flash. Distinct from the booster/particle observations common in orbital missions.",
       "keyQuote": "One or two objects up there with us — one of the most unusual things we saw.",
       "quoteSource": "NASA-UAP-D7, Skylab Technical Crew Debriefing, 1973",
-      "quoteConfidence": "confirmed primary-source quotation",
+      "quoteConfidence": "Medium — wording is preserved in existing Atlas research extraction, but the exact event-bearing primary debrief pages are not mapped in the current corpus.",
       "heroFact": "Skylab astronauts reported a 'bright reddish object' that was 'always brighter than any other star' — 'one of the most unusual things we saw.'",
       "significance": "High significance — astronaut-reported, sustained observation",
-      "sourceQuality": "Primary source — NASA crew debriefing",
+      "sourceQuality": "Curated event dossier linked to official Skylab debriefing custody; current mapped pages verify light-flash discussion but do not contain the quoted bright-reddish-object passage.",
       "sourceLabel": "NASA debriefing",
       "sourceLocator": "NASA-UAP-D7",
       "relatedCaseIds": [
@@ -24118,6 +24574,26 @@
         "provenance": "NASA, declassified crew debriefing",
         "evidenceStatus": "Source-document page; establishes the record of the astronaut report, not object identity.",
         "isEventEvidence": false
+      },
+      "orbitalEvidence": {
+        "schemaVersion": 1,
+        "architectureRole": "event-dossier",
+        "recordType": "reported-orbital-observation",
+        "interpretationStatus": "primary-passage-unmapped",
+        "officialRecord": "Curated Skylab event dossier related to NASA-UAP-D007; exact event-bearing debrief pages not currently mapped",
+        "supports": [
+          "Existing Atlas research extraction attributes a sustained “bright reddish object” and “one or two objects up there with us” discussion to the Skylab technical debriefing.",
+          "The event is analytically distinct from the physiological light-flash discussion visible in the currently mapped D007 pages."
+        ],
+        "doesNotEstablish": [
+          "The currently mapped Skylab pages do not contain the event quotation and cannot locally confirm it."
+        ],
+        "limitations": [
+          "Exact event-bearing primary debrief pages must be mapped before the quote is treated as locally page-verified.",
+          "No independent imagery, sensor data, trajectory record, or final-resolution document is mapped."
+        ],
+        "relatedCaseId": "BF-NASA-D007",
+        "relationship": "curated-event-from-corpus"
       }
     },
     {

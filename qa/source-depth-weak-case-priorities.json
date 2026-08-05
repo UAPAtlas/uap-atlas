@@ -51,154 +51,6 @@
     ]
   },
   {
-    "id": "BF-NASA-VM1",
-    "title": "Apollo 12 Visual Material 1",
-    "score": 38,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "nasa",
-        "other:local atlas audit derived from the current source inventory"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
-    "id": "BF-NASA-VM2",
-    "title": "Apollo 12 Visual Material 2",
-    "score": 38,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "nasa",
-        "other:local atlas audit derived from the current source inventory"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
-    "id": "BF-NASA-VM3",
-    "title": "Apollo 12 Visual Material 3",
-    "score": 38,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "nasa",
-        "other:local atlas audit derived from the current source inventory"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
-    "id": "BF-NASA-VM4",
-    "title": "Apollo 12 Visual Material 4",
-    "score": 38,
-    "sourceRecords": 2,
-    "indexedLinks": 3,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "nasa",
-        "other:local atlas audit derived from the current source inventory"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
-    "id": "BF-NASA-VM5",
-    "title": "Apollo 12 Visual Material 5",
-    "score": 38,
-    "sourceRecords": 1,
-    "indexedLinks": 5,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
-    "id": "BF-NASA-VM6",
-    "title": "Apollo 17 Visual Material",
-    "score": 38,
-    "sourceRecords": 1,
-    "indexedLinks": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 2,
-    "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved.",
-    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-    "sourceProfile": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "reasons": [
-      "source profile=thin-summary",
-      "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved."
-    ]
-  },
-  {
     "id": "BF-1933-MG-01",
     "title": "Magenta 1933 / Gabinetto RS/33 Claim",
     "score": 35,
@@ -586,8 +438,8 @@
     "indexedLinks": 6,
     "publicSourceUrls": 1,
     "evidenceAssets": 3,
-    "sourceQuality": "Primary source \u2014 NASA crew debriefing",
-    "quoteConfidence": "confirmed primary-source quotation",
+    "sourceQuality": "Curated event dossier linked to official Skylab debriefing custody; current mapped pages verify light-flash discussion but do not contain the quoted bright-reddish-object passage.",
+    "quoteConfidence": "Medium \u2014 wording is preserved in existing Atlas research extraction, but the exact event-bearing primary debrief pages are not mapped in the current corpus.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
@@ -1119,6 +971,148 @@
     "evidenceAssets": 2,
     "sourceQuality": "Official War.gov/PURSUE STS-80 released image record with local full-frame/ROI assets; primary visual custody, interpretation unresolved.",
     "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full motion/context data.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM1",
+    "title": "Apollo 12 Visual Material 1",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "nasa",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM2",
+    "title": "Apollo 12 Visual Material 2",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "nasa",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM3",
+    "title": "Apollo 12 Visual Material 3",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "nasa",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM4",
+    "title": "Apollo 12 Visual Material 4",
+    "score": 30,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "nasa",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM5",
+    "title": "Apollo 12 Visual Material 5",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 12; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
+    "sourceProfile": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
+      ]
+    },
+    "reasons": [
+      "source profile=thin-summary"
+    ]
+  },
+  {
+    "id": "BF-NASA-VM6",
+    "title": "Apollo 17 Visual Material",
+    "score": 30,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "Exact official released annotated visual-material artifact for Apollo 17; release custody verified, underlying native mission-frame identity and interpretation unresolved.",
+    "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,

@@ -36,7 +36,7 @@
   },
   "uniqueDisplayTaxonomy": {
     "domains": 9,
-    "statuses": 10,
+    "statuses": 11,
     "confidenceLabels": 10,
     "agencies": 88
   },
@@ -64,7 +64,7 @@
   "quotesWithLocators": 146,
   "sourceRecordCount": 248,
   "sourceDepthWeakCaseCount": 62,
-  "sourceDepthEnrichmentCandidateCount": 109,
+  "sourceDepthEnrichmentCandidateCount": 108,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
@@ -73,12 +73,12 @@
     "complete": 98
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 27,
+    "complete-primary-packet": 28,
     "secondary-only": 9,
     "multi-source-independent": 13,
     "thin-summary": 53,
     "mixed-provenance": 2,
-    "single-primary-record": 42
+    "single-primary-record": 41
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -1343,7 +1343,7 @@
       ]
     },
     "BF-1965-G7-01": {
-      "label": "single-primary-record",
+      "label": "complete-primary-packet",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
@@ -1523,154 +1523,6 @@
       ]
     },
     {
-      "id": "BF-NASA-VM1",
-      "title": "Apollo 12 Visual Material 1",
-      "score": 38,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
-      "id": "BF-NASA-VM2",
-      "title": "Apollo 12 Visual Material 2",
-      "score": 38,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
-      "id": "BF-NASA-VM3",
-      "title": "Apollo 12 Visual Material 3",
-      "score": 38,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
-      "id": "BF-NASA-VM4",
-      "title": "Apollo 12 Visual Material 4",
-      "score": 38,
-      "sourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 2,
-        "sourceFamilies": [
-          "nasa",
-          "other:local atlas audit derived from the current source inventory"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
-      "id": "BF-NASA-VM5",
-      "title": "Apollo 12 Visual Material 5",
-      "score": 38,
-      "sourceRecords": 1,
-      "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 12; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
-      "id": "BF-NASA-VM6",
-      "title": "Apollo 17 Visual Material",
-      "score": 38,
-      "sourceRecords": 1,
-      "indexedLinks": 2,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved.",
-      "quoteConfidence": "Medium-high for released image custody; low for object-identity conclusions without full mission sequence, calibration, scale, or trajectory context.",
-      "sourceProfile": {
-        "label": "thin-summary",
-        "primaryRecords": 0,
-        "secondaryRecords": 0,
-        "independentSourceFamilies": 1,
-        "sourceFamilies": [
-          "nasa"
-        ]
-      },
-      "reasons": [
-        "source profile=thin-summary",
-        "sourceQuality=Official War.gov/NASA released visual-material record for Apollo 17; primary image custody with local asset/preview mapping, interpretation unresolved."
-      ]
-    },
-    {
       "id": "BF-1933-MG-01",
       "title": "Magenta 1933 / Gabinetto RS/33 Claim",
       "score": 35,
@@ -1719,6 +1571,150 @@
       "reasons": [
         "source profile=thin-summary",
         "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1973-SS-01",
+      "title": "Sary Shagan Green Circular Phenomenon",
+      "score": 35,
+      "sourceRecords": 1,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary CIA/War.gov Sary Shagan report custody with local page-image/PDF assets; strong intelligence-record provenance, limited to reported observation context.",
+      "quoteConfidence": "High \u2014 primary-source quotation confirmed in mapped CIA-UAP-011 report.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "cia"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary",
+        "flagship/contradiction case"
+      ]
+    },
+    {
+      "id": "BF-1975-TW-01",
+      "title": "Travis Walton Abduction Report",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 4,
+      "publicSourceUrls": 3,
+      "evidenceAssets": 1,
+      "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
+      "quoteConfidence": "Medium \u2014 the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 1,
+        "independentSourceFamilies": 3,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "other:navajo county missing-person/search context, crew testimony, and polygraph controversy public sources",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1996-VG-01",
+      "title": "Varginha Creature Narrative",
+      "score": 35,
+      "sourceRecords": 3,
+      "indexedLinks": 9,
+      "publicSourceUrls": 5,
+      "evidenceAssets": 5,
+      "sourceQuality": "Complete contemporaneous Isto\u00c9 press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
+      "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread.",
+      "sourceProfile": {
+        "label": "secondary-only",
+        "primaryRecords": 0,
+        "secondaryRecords": 2,
+        "independentSourceFamilies": 2,
+        "sourceFamilies": [
+          "other:local atlas audit derived from the current source inventory",
+          "press"
+        ]
+      },
+      "reasons": [
+        "source profile=secondary-only",
+        "quote confidence needs verification upgrade"
+      ]
+    },
+    {
+      "id": "BF-1949-HF-01",
+      "title": "Hickam Field \u2014 Oscillating Object, No Sound",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 90\u201393.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:u.s. army counter intelligence corps, file 342-hs1"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1949-KD-01",
+      "title": "Kodiak Naval Base 1,500 MPH Object",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary Army Counter Intelligence Corps 342-HS1 file pages with local page images; strong report custody, thin follow-up/context.",
+      "quoteConfidence": "High \u2014 OCR-derived quotation tied to mapped 342-HS1 pages 51\u201352.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "other:u.s. army counter intelligence corps, file 342-hs1"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
+      ]
+    },
+    {
+      "id": "BF-1949-SA-01",
+      "title": "San Andres Islands \u2014 Three Color-Changing Spheres",
+      "score": 30,
+      "sourceRecords": 1,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "Primary restricted USAF 6th Weather Squadron report dated February 17, 1949, preserved in Army CIC file 342-HS1 at pages 75 and 77; includes named ship report, measured bearings, wind analysis, radiosonde assessment, alternative hypothesis, and command routing.",
+      "quoteConfidence": "High \u2014 selected sentence and event details are visually confirmed on mapped 342-HS1 pages 75 and 77; object identity and final disposition remain unresolved.",
+      "sourceProfile": {
+        "label": "thin-summary",
+        "primaryRecords": 0,
+        "secondaryRecords": 0,
+        "independentSourceFamilies": 1,
+        "sourceFamilies": [
+          "usaf-blue-book"
+        ]
+      },
+      "reasons": [
+        "source profile=thin-summary"
       ]
     }
   ]

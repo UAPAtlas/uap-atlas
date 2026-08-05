@@ -29,6 +29,7 @@ jobs:
           node scripts/test-atlas-single-entry.mjs
           node scripts/test-source-availability-contract.mjs
           node scripts/test-evidence-lens.mjs
+          node scripts/test-orbital-evidence-architecture.mjs
           python3 scripts/test-atlas-runtime-data-sync.py
           python3 scripts/test-audit-operational-triage.py
   deploy:
