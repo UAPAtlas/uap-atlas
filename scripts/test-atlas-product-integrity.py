@@ -34,6 +34,7 @@ require('role="button" tabindex="0" aria-label="Open ${count} Orbital' in app, '
 require("state.filters.precision==='orbital'" in app and "state.stackMode='orbital'" in app, 'Orbital filter routing missing')
 require('data-landscape-exit' in html and "setMobilePage('cases')" in app, 'landscape map escape missing')
 require("setMobilePage('dossier')" in blackfile, 'Blackfile mobile dossier handoff bypasses mobile controller')
+require("history.pushState({atlasReturn:'blackfile-evidence'}" in blackfile and "addEventListener('popstate'" in blackfile, 'Blackfile mobile dossier handoff does not preserve browser-Back history')
 for label in ('Questions', 'Evidence', 'Brief'):
     require(f'data-blackfile="{label}"' in html, f'Blackfile mobile label missing: {label}')
 if workflow:

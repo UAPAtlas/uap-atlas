@@ -155,6 +155,9 @@
     const c = caseById(id);
     if (!c) return;
     if (isMobileAtlas()) {
+      /* Preserve the Blackfile Evidence state as the browser-Back destination. */
+      try { history.pushState({atlasReturn:'blackfile-evidence'}, '', location.pathname + location.search + location.hash); }
+      catch (_) {}
       setAtlasMode('atlas', {write:false});
       selectCase(id, true);
       setMobilePage('dossier');
@@ -228,6 +231,7 @@
     syncModeChrome();
     if (modeIsBlackfile()) renderBlackfile();
   }
+  window.addEventListener('popstate', () => syncFromLocation(false));
   window.addEventListener('hashchange', () => syncFromLocation(false), true);
 
   syncFromLocation(true);
