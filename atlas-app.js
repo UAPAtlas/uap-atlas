@@ -31,6 +31,11 @@ const toggleInstitutional = document.getElementById('toggleInstitutional');
 const colorByMode = { exact:'marker-exact', unresolved:'marker-unresolved', redacted:'marker-redacted', orbital:'marker-orbital', institutional:'marker-institutional' };
 const statusPill = { exact:'cyan', unresolved:'amber', redacted:'violet', orbital:'white', institutional:'silver' };
 const MIN_AGENCY_FILTER_CASES=2;
+const AGENCY_FILTER_LABELS=Object.freeze({
+  usaf:'U.S. Air Force', nasa:'NASA', civilian:'Civilian Sources', aaro:'AARO', dow:'Department of War',
+  cia:'CIA', usn:'U.S. Navy', army:'U.S. Army', fbi:'FBI', dia:'DIA', raf:'Royal Air Force',
+  afosi:'AFOSI', doe:'DOE', faa:'FAA', police:'Local Police', odni:'ODNI', state:'U.S. State Department'
+});
 function clamp(v,min,max){return Math.max(min,Math.min(max,v));}
 function currentZoom(){return 100 / state.view.w;}
 function markerScale(){return clamp(1/state.zoom,0.22,1);}
@@ -108,20 +113,45 @@ function resetStackFilters(){
   const cs=document.getElementById('caseSearch'); if(cs) cs.value='';
   if(typeof buildEraRail==='function') buildEraRail();
 }
+function canonicalAgencyKey(segment){
+  const s=String(segment||'').trim();
+  const direct=Object.entries(AGENCY_FILTER_LABELS).find(([key,label])=>key.toLowerCase()===s.toLowerCase()||label.toLowerCase()===s.toLowerCase());
+  if(direct) return direct[0];
+  if(/^NASA$/i.test(s)) return 'nasa';
+  if(/^(?:USAF|U\.S\. AIR FORCE)(?:\b|\s)/i.test(s)) return 'usaf';
+  if(/^(?:USN|U\.S\. Navy)(?:\b|\s)/i.test(s)) return 'usn';
+  if(/^US Army Air Forces$/i.test(s)) return null;
+  if(/^(?:U\.S\. Army|US Army|Army CIC)(?:\b|\s)/i.test(s)) return 'army';
+  if(/^CIA(?:\b|\s)/i.test(s)) return 'cia';
+  if(/^DOW(?:\b|\s)/i.test(s)) return 'dow';
+  if(/^Civilian(?:\b|\s)/i.test(s)) return 'civilian';
+  if(/^AARO(?:\b|\s)/i.test(s)) return 'aaro';
+  if(/^FBI(?:\b|\s)/i.test(s)) return 'fbi';
+  if(/^DIA$/i.test(s)) return 'dia';
+  if(/^RAF$/i.test(s)) return 'raf';
+  if(/^AFOSI$/i.test(s)) return 'afosi';
+  if(/^DOE(?:\b|\s)/i.test(s)) return 'doe';
+  if(/^FAA(?:\b|\s)/i.test(s)) return 'faa';
+  if(/^Local PD(?:\b|\s)/i.test(s)) return 'police';
+  if(/^ODNI(?:\b|\s)/i.test(s)) return 'odni';
+  if(/^U\.S\. State Department(?:\b|\s)/i.test(s)) return 'state';
+  return null;
+}
+function caseAgencyKeys(c){return [...new Set(String(c.agency||'').split(' / ').map(canonicalAgencyKey).filter(Boolean))];}
 function syncStackModeToFilters(){
-  if(state.filters.agency==='NASA'||state.filters.precision==='orbital'){
+  if(state.filters.agency==='nasa'||state.filters.precision==='orbital'){
     state.stackMode='orbital';
     return;
   }
   if(state.filters.agency!=='all'||state.filters.precision!=='all') state.stackMode='main';
 }
-function matchesFilters(c){if(state.filters.agency!=='all' && c.agency!==state.filters.agency) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
+function matchesFilters(c){if(state.filters.agency!=='all' && !caseAgencyKeys(c).includes(state.filters.agency)) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
 function buildFilters(){
-  const agencyCounts=cases.reduce((counts,c)=>counts.set(c.agency,(counts.get(c.agency)||0)+1),new Map());
-  const agencies=['all',...[...agencyCounts.entries()].filter(([,count])=>count>=MIN_AGENCY_FILTER_CASES).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([agency])=>agency)];
+  const agencyCounts=cases.reduce((counts,c)=>{caseAgencyKeys(c).forEach(key=>counts.set(key,(counts.get(key)||0)+1));return counts;},new Map());
+  const agencies=['all',...[...agencyCounts.entries()].filter(([,count])=>count>=MIN_AGENCY_FILTER_CASES).sort((a,b)=>b[1]-a[1]||AGENCY_FILTER_LABELS[a[0]].localeCompare(AGENCY_FILTER_LABELS[b[0]])).map(([agency])=>agency)];
   const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))];
   const precisions=['all','exact','unresolved','redacted','orbital','institutional'];
-  agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join('');
+  agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':AGENCY_FILTER_LABELS[v]}</option>`).join('');
   domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join('');
   precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');
 }
@@ -580,8 +610,11 @@ function parseUrlState(){
   if(!h) return;
   if(h.startsWith('case/')){urlCaseId=decodeURIComponent(h.slice(5)); const linked=cases.find(c=>c.id===urlCaseId); if(linked) state.stackMode=stackModeForCase(linked); return;} // legacy format
   const p=new URLSearchParams(h);
-  const pick=(el,v)=>{if(v&&[...el.options].some(o=>o.value===v)) el.value=v;};
-  pick(agencyFilter,p.get('agency')); pick(domainFilter,p.get('domain')); pick(precisionFilter,p.get('precision'));
+  const pick=(select,key)=>{const v=p.get(key); if(v&&[...select.options].some(o=>o.value===v)) select.value=v;};
+  const rawAgency=p.get('agency');
+  const canonicalAgency=canonicalAgencyKey(rawAgency);
+  if(canonicalAgency&&[...agencyFilter.options].some(o=>o.value===canonicalAgency)) agencyFilter.value=canonicalAgency;
+  pick(domainFilter,'domain'); pick(precisionFilter,'precision');
   state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value;
   if(p.get('q')){state.filters.q=p.get('q').trim().toLowerCase(); const cs=document.getElementById('caseSearch'); if(cs) cs.value=p.get('q');}
   if(p.get('era')&&/^\d{4}$/.test(p.get('era'))) state.filters.era=Number(p.get('era'));

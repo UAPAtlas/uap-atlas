@@ -71,15 +71,15 @@ requireMatch(
   'mobile Orbital / NASA aggregate must reveal its populated Case Stack'
 );
 requireMatch(
-  /function syncStackModeToFilters\(\)\{[\s\S]*?state\.filters\.agency==='NASA'[\s\S]*?state\.filters\.precision==='orbital'[\s\S]*?state\.stackMode='orbital'[\s\S]*?state\.filters\.agency!=='all'[\s\S]*?state\.stackMode='main'[\s\S]*?\}/.test(mobile)
+  /function syncStackModeToFilters\(\)\{[\s\S]*?state\.filters\.agency==='nasa'[\s\S]*?state\.filters\.precision==='orbital'[\s\S]*?state\.stackMode='orbital'[\s\S]*?state\.filters\.agency!=='all'[\s\S]*?state\.stackMode='main'[\s\S]*?\}/.test(mobile)
     && /function applyFilters\(\)\{[\s\S]*?syncStackModeToFilters\(\);[\s\S]*?renderAll\(\)/.test(mobile)
-    && /function parseUrlState\(\)\{[\s\S]*?syncStackModeToFilters\(\);[\s\S]*?if\(p\.get\('view'\)==='orbital'\) state\.stackMode='orbital'/.test(mobile),
+    && /function parseUrlState\(\)\{[\s\S]*?canonicalAgencyKey\(rawAgency\)[\s\S]*?syncStackModeToFilters\(\);[\s\S]*?if\(p\.get\('view'\)==='orbital'\) state\.stackMode='orbital'/.test(mobile),
   'NASA agency filtering and deep links must enter the orbital stack instead of producing 0 / 120'
 );
 requireMatch(
   /const MIN_AGENCY_FILTER_CASES=2;/.test(mobile)
-    && /function buildFilters\(\)\{[\s\S]*?const agencyCounts=cases\.reduce\([\s\S]*?\.filter\(\(\[,count\]\)=>count>=MIN_AGENCY_FILTER_CASES\)[\s\S]*?agencyFilter\.innerHTML/.test(mobile),
-  'Agency dropdown must omit one-off provenance labels while retaining reusable agency filters'
+    && /function buildFilters\(\)\{[\s\S]*?const agencyCounts=cases\.reduce\([\s\S]*?caseAgencyKeys\(c\)[\s\S]*?\.filter\(\(\[,count\]\)=>count>=MIN_AGENCY_FILTER_CASES\)[\s\S]*?agencyFilter\.innerHTML/.test(mobile),
+  'Agency dropdown must omit one-off provenance labels while retaining reusable canonical agency filters'
 );
 
 if (failures.length) {
