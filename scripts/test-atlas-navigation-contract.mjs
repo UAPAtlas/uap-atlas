@@ -70,6 +70,12 @@ requireMatch(
   /const originalSelectOrbitalAggregate=selectOrbitalAggregate;[\s\S]*?selectOrbitalAggregate=function\(id\)\{[\s\S]*?originalSelectOrbitalAggregate\(id\);[\s\S]*?if\(isMobileAtlas\(\)\) setMobilePage\('cases'\);[\s\S]*?\};/.test(mobile),
   'mobile Orbital / NASA aggregate must reveal its populated Case Stack'
 );
+requireMatch(
+  /function syncStackModeToFilters\(\)\{[\s\S]*?state\.filters\.agency==='NASA'[\s\S]*?state\.filters\.precision==='orbital'[\s\S]*?state\.stackMode='orbital'[\s\S]*?state\.filters\.agency!=='all'[\s\S]*?state\.stackMode='main'[\s\S]*?\}/.test(mobile)
+    && /function applyFilters\(\)\{[\s\S]*?syncStackModeToFilters\(\);[\s\S]*?renderAll\(\)/.test(mobile)
+    && /function parseUrlState\(\)\{[\s\S]*?syncStackModeToFilters\(\);[\s\S]*?if\(p\.get\('view'\)==='orbital'\) state\.stackMode='orbital'/.test(mobile),
+  'NASA agency filtering and deep links must enter the orbital stack instead of producing 0 / 120'
+);
 
 if (failures.length) {
   console.error(`Atlas navigation contract FAILED (${failures.length})`);

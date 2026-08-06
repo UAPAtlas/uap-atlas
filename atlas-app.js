@@ -107,6 +107,13 @@ function resetStackFilters(){
   const cs=document.getElementById('caseSearch'); if(cs) cs.value='';
   if(typeof buildEraRail==='function') buildEraRail();
 }
+function syncStackModeToFilters(){
+  if(state.filters.agency==='NASA'||state.filters.precision==='orbital'){
+    state.stackMode='orbital';
+    return;
+  }
+  if(state.filters.agency!=='all'||state.filters.precision!=='all') state.stackMode='main';
+}
 function matchesFilters(c){if(state.filters.agency!=='all' && c.agency!==state.filters.agency) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
 function buildFilters(){const agencies=['all',...new Set(cases.map(c=>c.agency))]; const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))]; const precisions=['all','exact','unresolved','redacted','orbital','institutional']; agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join(''); domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join(''); precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');}
 function renderLabels(){labelsG.innerHTML = labels.map(l=>`<text class="label" x="${l.x}" y="${l.y}">${l.name}</text>`).join('');}
@@ -569,6 +576,7 @@ function parseUrlState(){
   state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value;
   if(p.get('q')){state.filters.q=p.get('q').trim().toLowerCase(); const cs=document.getElementById('caseSearch'); if(cs) cs.value=p.get('q');}
   if(p.get('era')&&/^\d{4}$/.test(p.get('era'))) state.filters.era=Number(p.get('era'));
+  syncStackModeToFilters();
   if(p.get('view')==='orbital') state.stackMode='orbital';
   if(p.get('inst')==='off'){state.institutional=false; toggleInstitutional.textContent='Institutional: OFF';}
   urlCaseId=p.get('case');
@@ -619,7 +627,7 @@ function resetAtlasHome(){
 }
 window.resetAtlasHome=resetAtlasHome;
 document.getElementById('atlasHome').addEventListener('click',resetAtlasHome);
-function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; if(state.filters.precision==='orbital') state.stackMode='orbital'; else if(state.filters.precision!=='all') state.stackMode='main'; renderAll(); updateUrl();}
+function applyFilters(){state.filters.agency=agencyFilter.value; state.filters.domain=domainFilter.value; state.filters.precision=precisionFilter.value; syncStackModeToFilters(); renderAll(); updateUrl();}
 agencyFilter.addEventListener('change',applyFilters); domainFilter.addEventListener('change',applyFilters); precisionFilter.addEventListener('change',applyFilters); if(stackReturn) stackReturn.addEventListener('click',()=>{resetStackFilters(); setStackMode('main');}); toggleInstitutional.addEventListener('click',()=>{state.institutional=!state.institutional; toggleInstitutional.textContent = `Institutional: ${state.institutional?'ON':'OFF'}`; toggleInstitutional.classList.toggle('active', state.institutional); renderSignal(); updateUrl();});
 svg.addEventListener('wheel',e=>{e.preventDefault(); cancelViewAnim(); const pt = svg.createSVGPoint(); pt.x=e.clientX; pt.y=e.clientY; const ctm=svg.getScreenCTM().inverse(); const p=pt.matrixTransform(ctm); const factor = e.deltaY>0 ? 1.12 : 0.89; const nw = clamp(state.view.w*factor, 8, 100); const nh = nw*0.62; const mx = (p.x-state.view.x)/state.view.w, my = (p.y-state.view.y)/state.view.h; const x = clamp(p.x - mx*nw, 0, 100-nw); const y = clamp(p.y - my*nh, 0, 62-nh); setView(x,y,nw);},{passive:false});
 svg.addEventListener('mousedown',e=>{cancelViewAnim(); hideMapTip(); state.dragging=true; state.dragStart={x:e.clientX,y:e.clientY,view:{...state.view}};}); window.addEventListener('mousemove',e=>{if(!state.dragging) return; const dx=(e.clientX-state.dragStart.x)/svg.clientWidth*state.dragStart.view.w; const dy=(e.clientY-state.dragStart.y)/svg.clientHeight*state.dragStart.view.h; setView(clamp(state.dragStart.view.x-dx,0,100-state.dragStart.view.w), clamp(state.dragStart.view.y-dy,0,62-state.dragStart.view.h), state.dragStart.view.w);}); window.addEventListener('mouseup',()=>state.dragging=false);
