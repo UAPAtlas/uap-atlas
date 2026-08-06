@@ -30,6 +30,7 @@ const precisionFilter = document.getElementById('precisionFilter');
 const toggleInstitutional = document.getElementById('toggleInstitutional');
 const colorByMode = { exact:'marker-exact', unresolved:'marker-unresolved', redacted:'marker-redacted', orbital:'marker-orbital', institutional:'marker-institutional' };
 const statusPill = { exact:'cyan', unresolved:'amber', redacted:'violet', orbital:'white', institutional:'silver' };
+const MIN_AGENCY_FILTER_CASES=2;
 function clamp(v,min,max){return Math.max(min,Math.min(max,v));}
 function currentZoom(){return 100 / state.view.w;}
 function markerScale(){return clamp(1/state.zoom,0.22,1);}
@@ -115,7 +116,15 @@ function syncStackModeToFilters(){
   if(state.filters.agency!=='all'||state.filters.precision!=='all') state.stackMode='main';
 }
 function matchesFilters(c){if(state.filters.agency!=='all' && c.agency!==state.filters.agency) return false; if(state.filters.domain!=='all' && !c.domain.includes(state.filters.domain)) return false; if(state.filters.precision!=='all' && markerStatus(c)!==state.filters.precision) return false; if(state.filters.q){const hay=`${c.id} ${c.title} ${c.location} ${c.agency} ${c.date} ${c.domain}`.toLowerCase(); if(!state.filters.q.split(/\s+/).every(t=>hay.includes(t))) return false;} if(state.filters.era!=='all' && Math.floor(c.year/10)*10!==state.filters.era) return false; return true;}
-function buildFilters(){const agencies=['all',...new Set(cases.map(c=>c.agency))]; const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))]; const precisions=['all','exact','unresolved','redacted','orbital','institutional']; agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join(''); domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join(''); precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');}
+function buildFilters(){
+  const agencyCounts=cases.reduce((counts,c)=>counts.set(c.agency,(counts.get(c.agency)||0)+1),new Map());
+  const agencies=['all',...[...agencyCounts.entries()].filter(([,count])=>count>=MIN_AGENCY_FILTER_CASES).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).map(([agency])=>agency)];
+  const domains=['all',...new Set(cases.map(c=>c.domain.split(' / ')[0]))];
+  const precisions=['all','exact','unresolved','redacted','orbital','institutional'];
+  agencyFilter.innerHTML=agencies.map(v=>`<option value="${v}">Agency: ${v==='all'?'All':v}</option>`).join('');
+  domainFilter.innerHTML=domains.map(v=>`<option value="${v}">Domain: ${v==='all'?'All':v}</option>`).join('');
+  precisionFilter.innerHTML=precisions.map(v=>`<option value="${v}">Precision: ${v==='all'?'All':v}</option>`).join('');
+}
 function renderLabels(){labelsG.innerHTML = labels.map(l=>`<text class="label" x="${l.x}" y="${l.y}">${l.name}</text>`).join('');}
 function caseCard(c){const active = c.id===state.selectedCaseId ? 'active' : ''; const status=markerStatus(c); return `<div class="case-row ${active}" data-id="${c.id}" role="button" tabindex="0" aria-label="Select ${esc(c.title)}, ${esc(c.date)}"><div class="file-id"><div class="id">${c.id}</div><small>${c.date}</small></div><div class="file-main"><div class="t">${c.title}</div><div class="m">${c.location} · ${c.agency}</div></div><div class="row-actions"><div class="pill ${statusPill[status]}">${c.mode}</div></div></div>`;}
 function renderCaseList(){const base=stackBaseCases(); const filtered = base.filter(matchesFilters); syncStackHeader(); caseCount.textContent = `${filtered.length} / ${base.length}`; const empty=state.stackMode==='orbital'?'No orbital / lunar evidence matches the current filters.':'No main-stack cases match the current filters.'; caseList.innerHTML = filtered.map(caseCard).join('') || `<div class="empty">${empty}</div>`; caseList.querySelectorAll('.case-row').forEach(el=>{const choose=()=>selectCase(el.dataset.id,true);el.addEventListener('click',choose);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();choose();}});});}
