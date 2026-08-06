@@ -387,10 +387,10 @@ inst['summary'] = "The modern institutional arc now includes ODNI’s 2021 asses
 inst['official'] = 'The official record authenticates testimony, complaint/intake channels and agency responses. It does not authenticate the alleged programs, BAE involvement, Project Rubik’s Cube, or an ICIG conclusion that NHI control disclosure or government.'
 inst['gap'] = 'The underlying ICIG complaint/intake records, program names, documentary exhibits, BAE answer in an authorized classified setting, and authenticated Rubik’s Cube record remain non-public.'
 inst['whyItMatters'] = 'It separates four often-conflated layers: what witnesses allege, what they told oversight channels, what agencies publicly conclude, and what the underlying classified records independently establish.'
-for path in [
+append_unique(
+    inst.setdefault('images', []),
     'assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png',
-    'assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf',
-]: append_unique(inst.setdefault('images', []), path)
+)
 add_source_record(inst, {
     'citation': 'Dylan Borland, written testimony, House Task Force on the Declassification of Federal Secrets, 9 September 2025',
     'sourceType': 'sworn-congressional-witness-statement',

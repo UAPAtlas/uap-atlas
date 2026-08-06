@@ -45,6 +45,9 @@ require(any('not completed' in x.lower() or 'not establish' in x.lower() for x i
 
 institutional = by_id['BF-SF-10']
 require(any('Borland' in json.dumps(record) and 'BAE Systems' in json.dumps(record) for record in institutional['sourceRecords']), 'Borland/BAE congressional record missing')
+borland_pdf = 'assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf'
+require(borland_pdf not in institutional.get('images', []), 'Borland PDF must not be rendered as carousel imagery')
+require(any(record.get('sourceFilePath') == borland_pdf for record in institutional['sourceRecords']), 'Borland PDF custody mapping must remain in source records')
 require(any(lead.get('name') == "Project Rubik's Cube" and lead.get('status') == 'unsubstantiated-public-lead' for lead in institutional.get('openLeads', [])), 'Rubik’s Cube must remain an unsubstantiated lead')
 require('American Alchemy' in json.dumps(institutional) and 'extremely hinted' in json.dumps(institutional) and 'cannot confirm or deny' in json.dumps(institutional), 'timestamped Borland interview boundaries missing')
 require(any('running the show' in x.lower() or 'control the government' in x.lower() for x in institutional['evidenceBoundary']['notEstablished']), 'ICIG/NHI-control boundary missing')
