@@ -66,6 +66,10 @@ requireMatch(
   /data-landscape-exit/.test(mobile) && /querySelector\('\[data-landscape-exit\]'\)\?\.addEventListener\('click',\(\)=>setMobilePage\('cases'\)\)/.test(mobile),
   'phone-landscape map must retain an explicit route to Cases'
 );
+requireMatch(
+  /const originalSelectOrbitalAggregate=selectOrbitalAggregate;[\s\S]*?selectOrbitalAggregate=function\(id\)\{[\s\S]*?originalSelectOrbitalAggregate\(id\);[\s\S]*?if\(isMobileAtlas\(\)\) setMobilePage\('cases'\);[\s\S]*?\};/.test(mobile),
+  'mobile Orbital / NASA aggregate must reveal its populated Case Stack'
+);
 
 if (failures.length) {
   console.error(`Atlas navigation contract FAILED (${failures.length})`);

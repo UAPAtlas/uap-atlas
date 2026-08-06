@@ -247,6 +247,11 @@ function setMobilePage(page,{write=true}={}){
   syncMobileNav(); renderMobilePeek();
   if(write) updateUrl();
 }
+const originalSelectOrbitalAggregate=selectOrbitalAggregate;
+selectOrbitalAggregate=function(id){
+  originalSelectOrbitalAggregate(id);
+  if(isMobileAtlas()) setMobilePage('cases');
+};
 document.querySelectorAll('.mobile-nav [data-page]').forEach(btn=>btn.addEventListener('click',()=>setMobilePage(btn.dataset.page)));
 document.getElementById('peekOpen')?.addEventListener('click',()=>setMobilePage('dossier'));
 document.querySelector('[data-landscape-exit]')?.addEventListener('click',()=>setMobilePage('cases'));

@@ -71,6 +71,7 @@ jobs:
             --exclude='*.mp4' \
             --exclude='*.webm' \
             --exclude='*.txt' \
+            --exclude='assets/evidence/DC-FLAP-1952/DC-1952-NARA-S3-download-manifest.json' \
             --exclude='.git' \
             --exclude='node_modules' \
             --exclude='workbench' \

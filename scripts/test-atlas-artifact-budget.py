@@ -23,6 +23,17 @@ entries = manifest.get('entries', {})
 if not entries:
     raise SystemExit('ARTIFACT BUDGET FAILED: empty derivative manifest')
 errors = []
+text_extensions = {'.css', '.csv', '.html', '.js', '.json', '.md', '.svg', '.txt', '.xml'}
+private_markers = (b'/Users/', b'/Volumes/', b'/private/tmp/', b'file://', b'BEGIN PRIVATE KEY', b'BEGIN RSA PRIVATE KEY', b'BEGIN EC PRIVATE KEY', b'BEGIN OPENSSH PRIVATE KEY')
+for path in root.rglob('*'):
+    if not path.is_file() or path.suffix.lower() not in text_extensions:
+        continue
+    data = path.read_bytes()
+    for marker in private_markers:
+        if marker in data:
+            errors.append(f'private artifact content {marker.decode()}: {path.relative_to(root)}')
+            break
+
 derivative_total = 0
 for original, record in entries.items():
     for variant, limit in (('display', args.max_display_mib), ('thumb', args.max_thumb_mib)):
