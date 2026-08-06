@@ -7,10 +7,10 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 863,
-    "publicLocal": 356,
-    "externalPublic": 370,
-    "custodyOnly": 137,
+    "indexedPaths": 885,
+    "publicLocal": 357,
+    "externalPublic": 390,
+    "custodyOnly": 138,
     "unavailable": 0
   },
   "entries": {
@@ -215,6 +215,16 @@
       "label": "Archival original served from the Atlas Git repository",
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_103.jpg"
+    },
+    "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png"
+    },
+    "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf": {
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
     },
     "assets/evidence/CALVINE/TNA-DEFE-24-1940-selected.provenance.json": {
       "status": "public-local",
@@ -1657,6 +1667,70 @@
     "assets/evidence/GULF2020-D7/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020__page_006.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
+    },
+    "assets/evidence/HARTFORD-1960/HARTFORD-1960-NARA-NAID-28989015-download-manifest.json": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg"
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg"
     },
     "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-048.png": {
       "status": "external-public",
@@ -3405,7 +3479,17 @@
       "label": "External public source",
       "host": "ufoevidence.org"
     },
+    "https://apps.dtic.mil/sti/pdfs/ADA227121.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "apps.dtic.mil"
+    },
     "https://apps.dtic.mil/sti/tr/pdf/AD0680975.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "apps.dtic.mil"
+    },
+    "https://apps.dtic.mil/sti/tr/pdf/ADA416740.pdf": {
       "status": "external-public",
       "label": "External public source",
       "host": "apps.dtic.mil"
@@ -3455,6 +3539,11 @@
       "label": "External public source",
       "host": "catalog.archives.gov"
     },
+    "https://catalog.archives.gov/id/28989015": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "catalog.archives.gov"
+    },
     "https://catalog.archives.gov/id/28994660": {
       "status": "external-public",
       "label": "External public source",
@@ -3481,6 +3570,11 @@
       "host": "catalog.archives.gov"
     },
     "https://catalog.archives.gov/id/461457646": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "catalog.archives.gov"
+    },
+    "https://catalog.archives.gov/id/499915937": {
       "status": "external-public",
       "label": "External public source",
       "host": "catalog.archives.gov"
@@ -3559,6 +3653,26 @@
       "status": "external-public",
       "label": "External public source",
       "host": "imagem.sian.an.gov.br"
+    },
+    "https://oversight.house.gov/hearing/restoring-public-trust-through-uap-transparency-and-whistleblower-protection/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "oversight.house.gov"
+    },
+    "https://oversight.house.gov/wp-content/uploads/2025/09/Borland-Written-Testimony.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "oversight.house.gov"
+    },
+    "https://oversight.house.gov/wp-content/uploads/2025/09/George-Knapp-Written-Testimony.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "oversight.house.gov"
+    },
+    "https://podcasts.apple.com/us/podcast/president-trump-was-briefed-on-ufos-government/id1539482596?i=1000721022643": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "podcasts.apple.com"
     },
     "https://recherche-research.bac-lac.gc.ca/eng/public/list/43130": {
       "status": "external-public",
@@ -3881,6 +3995,11 @@
       "host": "www.war.gov"
     },
     "https://www.youtube.com/watch?v=-0g3lLGxNfc": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.youtube.com"
+    },
+    "https://www.youtube.com/watch?v=MXhZrskutYA": {
       "status": "external-public",
       "label": "External public source",
       "host": "www.youtube.com"

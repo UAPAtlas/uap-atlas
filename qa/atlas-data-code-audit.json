@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "caseCount": 146,
-  "countedCaseCount": 142,
+  "caseCount": 147,
+  "countedCaseCount": 143,
   "aggregateCaseIds": [
     "BF-1968-HIM-01",
     "BF-2015-NAV-01",
@@ -10,17 +10,17 @@
   ],
   "seriesParentCount": 4,
   "seriesChildCount": 16,
-  "timelineEventCount": 144,
-  "sourceIndexTerms": 223,
-  "sourceIndexFiles": 1034,
-  "casesWithMappedLinks": 146,
+  "timelineEventCount": 145,
+  "sourceIndexTerms": 225,
+  "sourceIndexFiles": 1072,
+  "casesWithMappedLinks": 147,
   "casesWithoutMappedLinks": [],
-  "casesWithIndexedSourceLinks": 146,
+  "casesWithIndexedSourceLinks": 147,
   "casesWithoutIndexedSourceLinks": [],
-  "casesWithStructuredSourceRecords": 146,
-  "casesWithPublicSourceUrls": 146,
-  "casesWithEvidenceAssets": 146,
-  "casesWithEvidenceOrPreview": 146,
+  "casesWithStructuredSourceRecords": 147,
+  "casesWithPublicSourceUrls": 147,
+  "casesWithEvidenceAssets": 147,
+  "casesWithEvidenceOrPreview": 147,
   "missingLocalAssets": [],
   "normalizedFieldMissing": {
     "caseTypes": [],
@@ -35,20 +35,20 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 9,
-    "statuses": 17,
-    "confidenceLabels": 17,
-    "agencies": 88
+    "domains": 10,
+    "statuses": 18,
+    "confidenceLabels": 18,
+    "agencies": 89
   },
   "normalizedTaxonomy": {
-    "caseTypes": 94,
-    "evidenceModes": 69,
+    "caseTypes": 96,
+    "evidenceModes": 74,
     "environments": 49,
     "outcomes": 28
   },
   "geometryTypes": {
     "LineString": 4,
-    "Point": 114,
+    "Point": 115,
     "none": 26,
     "Polygon": 2
   },
@@ -60,25 +60,25 @@
     "BF-1997-PH-01",
     "BF-2004-NM-01"
   ],
-  "quotesSelected": 146,
-  "quotesWithLocators": 146,
-  "sourceRecordCount": 265,
+  "quotesSelected": 147,
+  "quotesWithLocators": 147,
+  "sourceRecordCount": 276,
   "sourceDepthWeakCaseCount": 49,
-  "sourceDepthEnrichmentCandidateCount": 101,
+  "sourceDepthEnrichmentCandidateCount": 100,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 10,
     "acquisitionTargets": 18,
-    "complete": 118
+    "complete": 119
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 37,
+    "complete-primary-packet": 39,
     "secondary-only": 7,
     "multi-source-independent": 14,
     "thin-summary": 42,
     "mixed-provenance": 2,
-    "single-primary-record": 44
+    "single-primary-record": 43
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -249,13 +249,14 @@
     },
     "BF-SF-03": {
       "label": "complete-primary-packet",
-      "primaryRecords": 1,
+      "primaryRecords": 4,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 4,
+      "independentSourceFamilies": 5,
       "sourceFamilies": [
         "academic",
         "other:arc seibersdorf research paper, publicly hosted by tu dresden",
         "other:public rexresearch transcription attributed to onr pasadena; first-party onr or nara scan is not atlas-mapped",
+        "other:u.s. army research laboratory / defense technical information center",
         "usaf-blue-book"
       ]
     },
@@ -969,13 +970,15 @@
     },
     "BF-SF-09": {
       "label": "multi-source-independent",
-      "primaryRecords": 2,
+      "primaryRecords": 4,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 3,
+      "independentSourceFamilies": 5,
       "sourceFamilies": [
         "other:aaro/department of defense declassified public report",
         "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
-        "other:local atlas audit derived from the current source inventory"
+        "other:local atlas audit derived from the current source inventory",
+        "other:nara record group 615; archival copy of aaro\u2019s march 2024 historical report",
+        "other:official house oversight witness pdf and public hearing record"
       ]
     },
     "BF-2013-AG-01": {
@@ -1222,12 +1225,15 @@
       ]
     },
     "BF-SF-10": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "complete-primary-packet",
+      "primaryRecords": 3,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 4,
       "sourceFamilies": [
-        "other:govinfo house hearing transcript serial 118-53, house oversight hearing page, odni 2021 assessment, and aaro 2024 historical record report vol. 1 local assets"
+        "other:govinfo house hearing transcript serial 118-53, house oversight hearing page, odni 2021 assessment, and aaro 2024 historical record report vol. 1 local assets",
+        "other:official house hearing page/video; accessibility transcript separately hosted by rev",
+        "other:official house oversight witness pdf; exact atlas holding and first-page derivative",
+        "other:original american alchemy podcast feed and episode audio; locally generated large-v3-turbo timestamp transcript used for discovery"
       ]
     },
     "BF-2023-GR-33": {
@@ -1481,6 +1487,16 @@
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "other:headquarters, signal corps center and fort monmouth",
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1960-HF-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 3,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:exact nara scan within naid 28989015",
         "usaf-blue-book"
       ]
     }

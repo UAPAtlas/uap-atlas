@@ -36,6 +36,7 @@ jobs:
           python3 scripts/test-atlas-health-contract.py
           python3 scripts/test-atlas-payload-contract.py
           python3 scripts/test-blackfile-mode.py
+          python3 scripts/test-2026-08-topic-deep-dive.py
           python3 scripts/test-atlas-product-integrity.py
           node scripts/test-atlas-single-entry.mjs
           node scripts/test-atlas-navigation-contract.mjs index.html index.html

@@ -39,7 +39,7 @@ if (missing.length || extra.length) throw new Error(`Acquisition mismatch; missi
 const expected = {
   'BF-1961-BH-01': ['Official + supporting records', 'Mapped custody', 'High'],
   'BF-1987-GB-01': ['Media / image record', 'Acquisition required', 'Medium'],
-  'BF-SF-09': ['Multiple official records', 'Mapped custody', 'High'],
+  'BF-SF-09': ['Official + supporting records', 'Mapped custody', 'High'],
   'BF-1949-SA-01': ['Primary / official record', 'Mapped custody', 'High'],
   'BF-1994-AR-01': ['Witness / investigator trail', 'Acquisition required', 'High'],
   'BF-1986-JAL-01': ['Primary / official record', 'Mapped custody', 'High'],

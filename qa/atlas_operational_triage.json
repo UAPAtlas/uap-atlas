@@ -11,7 +11,7 @@
     "trueGaps": 0,
     "qualityUpgrades": 10,
     "acquisitionTargets": 18,
-    "complete": 118
+    "complete": 119
   },
   "cases": [
     {
@@ -1821,23 +1821,6 @@
       "quoteConfidence": "High \u2014 source phrase is confirmed in locally mapped declassified Project 1794/Avrocar records."
     },
     {
-      "id": "BF-SF-10",
-      "title": "Special File: Grusch Testimony & ODNI\u2013AARO Record",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "category": "complete",
-      "priorityScore": 12,
-      "legacyWeaknessScore": 12,
-      "reasons": [],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 7,
-      "publicSourceUrls": 5,
-      "evidenceAssets": 1,
-      "sourceQuality": "Official House hearing transcript/GovInfo record plus ODNI 2021 and AARO 2024 public records; strong congressional/public-record custody for testimony, not public proof of alleged programs.",
-      "quoteConfidence": "High for hearing-transcript/source phrases; limited for classified claims not independently public in the record."
-    },
-    {
       "id": "BF-SF-05",
       "title": "Special File: Majestic 12 Documents",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -2176,6 +2159,23 @@
       "evidenceAssets": 5,
       "sourceQuality": "Official file with mixed embedded sources",
       "quoteConfidence": "verified quotation in government-file reproduction"
+    },
+    {
+      "id": "BF-1960-HF-01",
+      "title": "Hartford Material-Fall Investigation",
+      "domain": "HISTORICAL / PHYSICAL TRACE",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 12,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 1,
+      "sourceQuality": "Exact 73-object Project Blue Book file unit acquired from NARA with SHA-256 custody manifest. Page-adjudicated records include the Blue Book card, an AFCRL witness/material report, Wright-Patterson spectroscopy, Air Force collection traffic, and Brown/Whitehall-Rand correspondence. Government custody authenticates the investigation and laboratory work, not Brown\u2019s gravity interpretation or a non-human origin.",
+      "quoteConfidence": "High \u2014 visually verified in the exact NARA scan. It records the witness chronology; it does not determine the origin of every collected sample."
     },
     {
       "id": "BF-1961-BH-01",
@@ -2560,30 +2560,47 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 4,
-      "mainSourceRecords": 4,
-      "indexedLinks": 2,
-      "publicSourceUrls": 6,
-      "evidenceAssets": 2,
-      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation.",
+      "sourceRecords": 7,
+      "mainSourceRecords": 7,
+      "indexedLinks": 8,
+      "publicSourceUrls": 9,
+      "evidenceAssets": 5,
+      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation. NARA NAID 28989015 adds exact federal custody for Brown\u2019s Hartford/Woodbridge correspondence, while DTIC ARL-TR-3005 confirms force on asymmetric capacitors in air and explicitly leaves vacuum testing unresolved.",
       "quoteConfidence": "High for exact patent text; patent wording and issuance do not validate electrogravitic or antigravity performance."
     },
     {
       "id": "BF-SF-09",
-      "title": "Special File: AAWSAP / AATIP & Skinwalker",
+      "title": "Special File: AAWSAP / AATIP, KONA BLUE & Skinwalker",
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "category": "complete",
       "priorityScore": 0,
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "multi-source-independent",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 9,
-      "publicSourceUrls": 6,
+      "sourceRecords": 5,
+      "mainSourceRecords": 4,
+      "indexedLinks": 12,
+      "publicSourceUrls": 9,
       "evidenceAssets": 1,
       "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO\u2019s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims.",
       "quoteConfidence": "High \u2014 selected sentence is tied to AARO\u2019s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records."
+    },
+    {
+      "id": "BF-SF-10",
+      "title": "Special File: Grusch, Borland & the ODNI\u2013AARO Record",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 4,
+      "mainSourceRecords": 4,
+      "indexedLinks": 12,
+      "publicSourceUrls": 9,
+      "evidenceAssets": 3,
+      "sourceQuality": "Official House hearing transcript/GovInfo record plus ODNI 2021 and AARO 2024 public records; strong congressional/public-record custody for testimony, not public proof of alleged programs.",
+      "quoteConfidence": "High for hearing-transcript/source phrases; limited for classified claims not independently public in the record."
     }
   ]
 }

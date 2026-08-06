@@ -11,7 +11,10 @@
     "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
     "https://documents2.theblackvault.com/documents/dia/AAWSAP/Contract_Status_Briefing.pdf",
     "https://documents2.theblackvault.com/documents/dia/AAWSAP/09117-Final_Packet_Presented_to_DepSecDef.pdf",
-    "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf"
+    "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf",
+    "https://catalog.archives.gov/id/499915937",
+    "https://oversight.house.gov/wp-content/uploads/2025/09/George-Knapp-Written-Testimony.pdf",
+    "https://oversight.house.gov/hearing/restoring-public-trust-through-uap-transparency-and-whistleblower-protection/"
   ],
   "AGUADILLA-2013": [
     "assets/source_previews/BF-2013-AG-01_DOD_110692805-1920x1080-9000k_frame.jpg",
@@ -447,7 +450,12 @@
     "assets/evidence/GRUSCH-2023/AARO-2024-Historical-Record-Report-Vol1_page_001.png",
     "assets/evidence/GRUSCH-2023/GRUSCH-2023-House-Hearing-Transcript-118-53.pdf",
     "assets/evidence/GRUSCH-2023/ODNI-2021-Preliminary-Assessment-UAP.pdf",
-    "assets/evidence/GRUSCH-2023/AARO-2024-Historical-Record-Report-Vol1.pdf"
+    "assets/evidence/GRUSCH-2023/AARO-2024-Historical-Record-Report-Vol1.pdf",
+    "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf",
+    "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png",
+    "https://oversight.house.gov/wp-content/uploads/2025/09/Borland-Written-Testimony.pdf",
+    "https://www.youtube.com/watch?v=MXhZrskutYA",
+    "https://podcasts.apple.com/us/podcast/president-trump-was-briefed-on-ufos-government/id1539482596?i=1000721022643"
   ],
   "GULFBREEZE-1987": [
     "assets/evidence/GULF-BREEZE/model.jpg",
@@ -888,7 +896,13 @@
   ],
   "WINTERHAVEN-1952": [
     "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
-    "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-patent.pdf"
+    "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-patent.pdf",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg",
+    "https://catalog.archives.gov/id/28989015",
+    "https://apps.dtic.mil/sti/tr/pdf/ADA416740.pdf",
+    "https://apps.dtic.mil/sti/pdfs/ADA227121.pdf"
   ],
   "DOD-NAVY-VIDEOS-2020": [
     "https://www.defense.gov/News/Releases/Release/Article/2165713/statement-by-the-department-of-defense-on-the-release-of-historical-navy-videos/"
@@ -1478,5 +1492,33 @@
   "WINTERHAVEN-1952-PATENT": [
     "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
     "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-patent.pdf"
+  ],
+  "HARTFORD-1960": [
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg",
+    "assets/evidence/HARTFORD-1960/HARTFORD-1960-NARA-NAID-28989015-download-manifest.json",
+    "https://catalog.archives.gov/id/28989015"
+  ],
+  "NARA NAID 28989015 · Hartford, Connecticut, September 1960": [
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg",
+    "assets/evidence/HARTFORD-1960/HARTFORD-1960-NARA-NAID-28989015-download-manifest.json",
+    "https://catalog.archives.gov/id/28989015"
   ]
 }

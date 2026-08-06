@@ -58,7 +58,7 @@ if(labelsSource && canonicalSource && keysSource){
   }
   const visible=[...counts.entries()].filter(([,count])=>count>=2).map(([key])=>key);
   requireCheck(visible.filter(key=>key==='usaf').length===1,'dropdown must contain one canonical USAF option');
-  requireCheck(counts.get('usaf')===29,`canonical USAF count must aggregate 29 records (got ${counts.get('usaf')})`);
+  requireCheck(counts.get('usaf')===30,`canonical USAF count must aggregate 30 records (got ${counts.get('usaf')})`);
   requireCheck(counts.get('nasa')===26,`canonical NASA count must remain 26 (got ${counts.get('nasa')})`);
   requireCheck(!visible.includes('4602d-aiss') && !visible.includes('blue-book'),'components and projects must not become agency options');
 }

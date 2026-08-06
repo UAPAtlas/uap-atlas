@@ -94,7 +94,7 @@ assert counts == {
     "trueGaps": 0,
     "acquisitionTargets": 18,
     "qualityUpgrades": 10,
-    "complete": 118,
+    "complete": 119,
 }, counts
 
 print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: 3 cases; three provenance targets reclassified")

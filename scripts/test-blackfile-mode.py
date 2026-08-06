@@ -84,8 +84,8 @@ required_html = (
 )
 for needle in required_html:
     require(needle in html, f"HTML missing Blackfile contract: {needle}")
-require("145 documented UAP cases" not in html, "stale 145-case metadata remains")
-require("146 documented UAP cases" in html, "146-case metadata missing")
+require("146 documented UAP cases" not in html, "stale 146-case metadata remains")
+require("147 documented UAP cases" in html, "147-case metadata missing")
 require("hidden>" in html[html.find('id="blackfileShell"') : html.find('id="blackfileShell"') + 160], "Blackfile shell must be hidden before JS initializes")
 
 for needle in (

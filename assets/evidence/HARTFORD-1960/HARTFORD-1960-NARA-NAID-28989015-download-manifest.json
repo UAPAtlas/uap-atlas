@@ -1,0 +1,615 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-06T11:51:14+00:00",
+  "source": {
+    "publisher": "National Archives and Records Administration",
+    "catalogUrl": "https://catalog.archives.gov/id/28989015",
+    "naId": 28989015,
+    "title": "Hartford, Connecticut, September 1960",
+    "recordGroup": "Record Group 341, Records of Headquarters U.S. Air Force (Air Staff)",
+    "series": "Project Blue Book case files"
+  },
+  "acquisition": {
+    "objectCountExpected": 73,
+    "objectCountVerified": 73,
+    "selectedObjectsPublished": [
+      "0305.jpg",
+      "0306.jpg",
+      "0310.jpg",
+      "0311.jpg",
+      "0316.jpg",
+      "0324.jpg",
+      "0327.jpg",
+      "0329.jpg",
+      "0331.jpg",
+      "0332.jpg"
+    ],
+    "note": "All 73 NARA digital objects were acquired and SHA-256 verified. Only page-adjudicated objects needed for the public evidence stack are included in the Atlas repository. No host-local paths are recorded."
+  },
+  "objects": [
+    {
+      "objectFilename": "0305.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0305.jpg",
+      "sha256": "3954a4c1bbe906665d04701ba9e41e95f0d2a9d8d4f1e9fe59214c5bf0c08107",
+      "bytes": 3967782,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg"
+    },
+    {
+      "objectFilename": "0306.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0306.jpg",
+      "sha256": "a0661ce8047eced5baefe1821b0851b9dc0eb3888724e5233b2c66c1ea2e6ea0",
+      "bytes": 3790585,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg"
+    },
+    {
+      "objectFilename": "0307.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0307.jpg",
+      "sha256": "6094056079324efbaa8c26cf6b7b1d6089c56a47ad238576b76555b426cdcc63",
+      "bytes": 4114367,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0308.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0308.jpg",
+      "sha256": "dc0deb59f29b73b0081872e927102e9c94d865eeb7499ed7a73f0ced5630d08f",
+      "bytes": 4206656,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0309.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0309.jpg",
+      "sha256": "bf5f640d14b216b899d4a4fff7d033e0dea7a1a8cbcf6072451ae1e21189441a",
+      "bytes": 3922277,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0310.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0310.jpg",
+      "sha256": "27873d92976a5d7acffca0217135dc3153e6e5eed286e1c38507c33e1f7d080a",
+      "bytes": 3808544,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg"
+    },
+    {
+      "objectFilename": "0311.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0311.jpg",
+      "sha256": "c4026a17d7b89fe78fa69d8d2121bcdf9ab39ca0e2c3899cceda5aa7b92fe7f9",
+      "bytes": 3924921,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg"
+    },
+    {
+      "objectFilename": "0312.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0312.jpg",
+      "sha256": "1dbb3ae03c7dcad858b3567a5f6398dfa1ef0d66551c3bb89323e80358a1c2c1",
+      "bytes": 3899801,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0313.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0313.jpg",
+      "sha256": "af43a74c91bca2642d765dc5d627b86a1999c98a9c270e2e47c500307477983d",
+      "bytes": 3911573,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0314.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0314.jpg",
+      "sha256": "f798d5d33d6dbaa3affd2e41c76eca5bfac77eded9a82785f0940574b7c4cf9b",
+      "bytes": 3872042,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0315.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0315.jpg",
+      "sha256": "483092c900aaa4f12f563d7b725ef4f5bb9073d94c77fd62c9e2415e2b1d0719",
+      "bytes": 4295979,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0316.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0316.jpg",
+      "sha256": "b47b89d07a6accace2cf371c35ca74148f3b743fdb97dd81e9e812e1143440b3",
+      "bytes": 3929907,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg"
+    },
+    {
+      "objectFilename": "0317.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0317.jpg",
+      "sha256": "7c6118731b3c33da777bb3666044b95eb0331b3acbd05f04d0289602792b2fe5",
+      "bytes": 3722866,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0318.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0318.jpg",
+      "sha256": "67deb943b5cb37d48eb49a5d2ae070441c41840e4f47400a00abeba27ceba479",
+      "bytes": 4282084,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0319.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0319.jpg",
+      "sha256": "78669232ff470b24a0d60bc367ffed476a40ffb0ce5ca8c9051aa6481919e4aa",
+      "bytes": 4019480,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0320.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0320.jpg",
+      "sha256": "e64d9f267aa2d5168981f9b1e869353a92418f605288e3cddfc99359ecdd9a97",
+      "bytes": 4361620,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0321.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0321.jpg",
+      "sha256": "b303d8fd5b9b4a7dcc31eb842f853469674e2d38a50f2679806b05f9c9902672",
+      "bytes": 4005211,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0322.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0322.jpg",
+      "sha256": "ec1f615a14d87f840b5e3101e83271bb8f24bb9280abbe1e7b4c99703d14701c",
+      "bytes": 3895380,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0323.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0323.jpg",
+      "sha256": "9683958e58c46a8c02387372aabade0400dc3663569726293520df346523cde5",
+      "bytes": 4074202,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0324.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0324.jpg",
+      "sha256": "7ff96211dcf6ad76b5b8922f5a975da604e36da2cc53c108092a29277c7d908e",
+      "bytes": 3736079,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg"
+    },
+    {
+      "objectFilename": "0325.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0325.jpg",
+      "sha256": "80cf8bf1ddd64f9fbb3bdb63f01c4f72b2f51ba50a32478099f49e57b6a432ff",
+      "bytes": 3758690,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0326.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0326.jpg",
+      "sha256": "dab7192acfbdd77b9fecfea06605f73ca8853054e9e1ec323085fd08ddec2d47",
+      "bytes": 4144857,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0327.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0327.jpg",
+      "sha256": "d219d254f5c921d9486f2e1da8f848cdba7095bffb7f9ae0235f800197c339d5",
+      "bytes": 3958270,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg"
+    },
+    {
+      "objectFilename": "0328.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0328.jpg",
+      "sha256": "81297c1263678f2b1bd77865b78c46fe283273b841f7af7cb4964d27728f5650",
+      "bytes": 4235548,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0329.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0329.jpg",
+      "sha256": "001bef778c77ba9635272484a8528423109f3f37d98931c55347c2dd28be1c83",
+      "bytes": 3851881,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg"
+    },
+    {
+      "objectFilename": "0330.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0330.jpg",
+      "sha256": "efa6592f25c4025dfcc4ff51ba32468ae0921f6f096c4a68dfbcf778aaa83c3e",
+      "bytes": 3700938,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0331.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0331.jpg",
+      "sha256": "898a052d124f0062f4011dfb2026e7ab8ae6ca3e39f8a9c49ebc5c50e925b1e8",
+      "bytes": 3819843,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg"
+    },
+    {
+      "objectFilename": "0332.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0332.jpg",
+      "sha256": "bb0b664c315b786d953837764b9f14cd01a45a24443220a7869ce921b718a309",
+      "bytes": 3887478,
+      "includedInAtlas": true,
+      "atlasPath": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg"
+    },
+    {
+      "objectFilename": "0333.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0333.jpg",
+      "sha256": "374b62eb9d9c516060e0a602c7fdd1b60105ff3474a856721fc5f4f37b4e912a",
+      "bytes": 3945668,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0334.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0334.jpg",
+      "sha256": "45ab970d660a3baa99ab7780ee4d5bbc8a312fdfb63f24bddf45201a9de3a94d",
+      "bytes": 3800205,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0335.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0335.jpg",
+      "sha256": "52e0bc755d0d335cdde1082122cf52ac0727c0de7e3af29ffb1118a2fbbea455",
+      "bytes": 4313608,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0336.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0336.jpg",
+      "sha256": "7bab4f04d923683f9750d316166fff1f43f893c5c44ef1b5cdf02145e8bb919d",
+      "bytes": 3961528,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0337.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0337.jpg",
+      "sha256": "299af09271709c1c2dece24fda2d723a62c59e5c1cacfcd4fcbefff7b6ceab9b",
+      "bytes": 4084867,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0338.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0338.jpg",
+      "sha256": "4923c679e32fcada09ecba77e8b22660b3bd99b8498145f89b6501f6afe4a771",
+      "bytes": 4298904,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0339.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0339.jpg",
+      "sha256": "d68f3fca482d17e732b230100fc6e187f3772c9096b6c6a91c7022679cfc024c",
+      "bytes": 4147616,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0340.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0340.jpg",
+      "sha256": "f6301b52dc4554bcc2b882f219eead2a70d34b9f5f7244b6f77bd4687763c708",
+      "bytes": 4363433,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0341.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0341.jpg",
+      "sha256": "71803d18632e2a04829b90fe393b3af992602800d0eae846fda31fe8766de234",
+      "bytes": 4244899,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0342.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0342.jpg",
+      "sha256": "23e63bc86fa78a030c4769fd97e1194fc42eb3a3370732ec6b0946db80eb274c",
+      "bytes": 4323342,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0343.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0343.jpg",
+      "sha256": "93e755042486c4ed410892503f658b03a37a821d4df550713564edd24141ca7e",
+      "bytes": 4319263,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0344.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0344.jpg",
+      "sha256": "1b0023e957fa25bd8e34bf05a65e902a5cf63bc32478cf120bb7fe61ca43404f",
+      "bytes": 3941826,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0345.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0345.jpg",
+      "sha256": "87e8fb8a1460e259a605c3460899287f90e10f84257126396725849836f8ccb2",
+      "bytes": 4170812,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0346.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0346.jpg",
+      "sha256": "1d9e2a761e46d095d7538f67253981e00d3f5ea4ce5c9765ffa52431f72578b7",
+      "bytes": 4329068,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0347.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0347.jpg",
+      "sha256": "03d79d15be439c97f374e8dbfc8889421ec9e11b6f9a3a962c074ee9c79d60de",
+      "bytes": 4343229,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0348.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0348.jpg",
+      "sha256": "d9ccf43664c97f97121757b7cdd8a2151e80cc3cf4759abb4c5b10d3253171a5",
+      "bytes": 4230229,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0349.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0349.jpg",
+      "sha256": "2182b4bc97bde833e265b0d9b53aa99f4af6ba01d423cdc63f71ff0253a71e24",
+      "bytes": 4240811,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0350.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0350.jpg",
+      "sha256": "40728dd97a0be3e08360e81411686a8418dc24d5074c34305108bfb1a747b2c4",
+      "bytes": 4203655,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0351.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0351.jpg",
+      "sha256": "ad46ab20c2bea9afa9c8e665f511d632f12872fa6aaf5bd6d1a95c3503f5f97f",
+      "bytes": 4276221,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0352.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0352.jpg",
+      "sha256": "1e4590b2a96b52cdbaf3b203bc6f5e161515e74814a77e737eefdccfb90faa29",
+      "bytes": 4227650,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0353.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0353.jpg",
+      "sha256": "deeefcb4ed4ee374d01be27d23922e56f0be1a23f9311db6c612fcc1fef859ce",
+      "bytes": 4218828,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0354.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0354.jpg",
+      "sha256": "247cc23d1003a6f8c7811637e645c4530082881b48b0e657e3f318d3e8b61210",
+      "bytes": 4287742,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0355.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0355.jpg",
+      "sha256": "cad72fb6e6a1fd3729928906f80b0f2817d9313a2c6f0de3f61c485912793f1e",
+      "bytes": 4361048,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0356.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0356.jpg",
+      "sha256": "25e50dd0a8b789da805b31d52ccc2cec4d69d59cfd19db994e04241e4b5a799d",
+      "bytes": 4258080,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0357.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0357.jpg",
+      "sha256": "2c46c34dc3740346fb56df3c2f9a0d1d04b0998cafac789d3f64075f96ef8701",
+      "bytes": 4287337,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0358.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0358.jpg",
+      "sha256": "a4ccfb7a00807cb4c0f8f4b26ffebf18ffac307597089abb590bd15e892448ac",
+      "bytes": 4312791,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0359.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0359.jpg",
+      "sha256": "7839bcd4cbad1cdd0677bf65d8342dfb8a5790f6f8893cc6bfb21a9d028e984a",
+      "bytes": 4331384,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0360.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0360.jpg",
+      "sha256": "d4e7ef0ead4595e02b45134ef0ebe9f9a19da8d4877651e96bb1d83f7a936032",
+      "bytes": 4282602,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0361.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0361.jpg",
+      "sha256": "7135b90fba0152e5ea79f79bf7e148af58e8f3ebfd6393fd5f8bb29abba05cc3",
+      "bytes": 4304993,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0362.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0362.jpg",
+      "sha256": "2347aa8b41e49cc7d5c97ea0974f40cbc89a48e3c4c1204b4dab81d295937bf1",
+      "bytes": 4311546,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0363.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0363.jpg",
+      "sha256": "90c6405ea48da284e67320052f8cdfd6a799b8bdcd084e263a890999159fa926",
+      "bytes": 3878540,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0364.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0364.jpg",
+      "sha256": "54cb0d21192932091b2b2a858c77a525efbd7d68b0016aa0359abb7c2f9436de",
+      "bytes": 4287618,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0365.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0365.jpg",
+      "sha256": "c48ae4dfa48feb9cd6e42d8130f53f629785aab90fa4af8481dfed2179cf7bac",
+      "bytes": 3920046,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0366.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0366.jpg",
+      "sha256": "740d4a81c30a24b4ff0d8c12a0942c1c107755fb08af7622efb0ba5ea4ac63ce",
+      "bytes": 4275837,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0367.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0367.jpg",
+      "sha256": "a87c98e6aaadfca47d7bddd59f2ac913b02cf921704bbdbe8168062b05ada1fe",
+      "bytes": 4324699,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0368.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0368.jpg",
+      "sha256": "ed31bd9cf780dcd87611c4203acdf67ddd33c318ccd372fd84239747e935c9a1",
+      "bytes": 4293717,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0369.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0369.jpg",
+      "sha256": "724760d7390ecccd3d73ae308aff6a20f45199ffe4e42424485447627741e5db",
+      "bytes": 4355064,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0370.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0370.jpg",
+      "sha256": "807b8bbf22654c01b3959b1586b1408cb3fbb14f9d34e9600c1ecac6cad10618",
+      "bytes": 3969044,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0371.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0371.jpg",
+      "sha256": "4bc4e652686937391e817a8ec9b0cbbff25d24aa3ced7a4abad9a7afdbe8574e",
+      "bytes": 4277319,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0372.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0372.jpg",
+      "sha256": "ccc2c3523db32cd909b2cc9fe63cccb92126e96cfbe452db134b330f7f1a87ac",
+      "bytes": 4252570,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0373.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0373.jpg",
+      "sha256": "ba69b511bae88f63ac6f64ab1259adf679d348d0a26ecee91f55eb62561790a8",
+      "bytes": 4307324,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0374.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0374.jpg",
+      "sha256": "fd8e6372004575cdedc2fe21f227d6cdd46233ea4ac6ba5d448d606eb6a5f259",
+      "bytes": 4212613,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0375.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0375.jpg",
+      "sha256": "0b0ce60069caba41dafa531ec0abab5731196196e352732956977d032791795a",
+      "bytes": 4293764,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0376.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0376.jpg",
+      "sha256": "38573342dfbd0bb786d3811dc7a5f294c0c8193d67dc58af5d3567f106eeeaec",
+      "bytes": 4174947,
+      "includedInAtlas": false,
+      "atlasPath": null
+    },
+    {
+      "objectFilename": "0377.jpg",
+      "objectUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0377.jpg",
+      "sha256": "40f63b8bbfc0adc8c9a2c31f32c4e9569f249b189fa77af4d4e6bc1daf44e306",
+      "bytes": 3685004,
+      "includedInAtlas": false,
+      "atlasPath": null
+    }
+  ]
+}

@@ -54,6 +54,25 @@
     return items.map(item => `<li>${bfEsc(item)}</li>`).join('');
   }
 
+  function supplementalMarkup(q) {
+    const briefs = Array.isArray(q.supplementalAnalysis) ? q.supplementalAnalysis : [];
+    if (!briefs.length) return '';
+    return briefs.map(item => {
+      const findings = listMarkup(item.findings || []);
+      const boundaries = listMarkup(item.boundaries || []);
+      const sources = (item.sources || []).map(source => `<li><a href="${bfEsc(source.url)}" target="_blank" rel="noopener noreferrer">${bfEsc(source.label)}</a><small>${bfEsc(source.role)}</small></li>`).join('');
+      return `<section class="bf-brief-section bf-supplemental-analysis">
+        <div class="bf-brief-context"><span class="bf-number">Supplemental Blackfile · Analysis only</span><span class="bf-confidence">${bfEsc(item.classification)}</span></div>
+        <h3>${bfEsc(item.title)}</h3>
+        <span class="bf-status" data-tone="weak">${bfEsc(item.status)}</span>
+        <p>${bfEsc(item.summary)}</p>
+        <h4>What the source record establishes</h4><ul>${findings}</ul>
+        <h4>Interpretive boundaries</h4><ul>${boundaries}</ul>
+        <h4>Source ledger</h4><ul class="bf-supplemental-sources">${sources}</ul>
+      </section>`;
+    }).join('');
+  }
+
   function briefMarkup(q) {
     const tensions = q.tensions.map(t => `<div class="bf-tension"><b>${bfEsc(t.label)}</b><p>${bfEsc(t.summary)}</p></div>`).join('');
     return `
@@ -61,6 +80,7 @@
       <h2 class="bf-brief-title">${bfEsc(q.title)}</h2>
       <span class="bf-status" data-tone="${bfEsc(q.tone)}">${bfEsc(q.status)}</span>
       <div class="bf-answer"><b>Current answer</b><p>${bfEsc(q.answer)}</p></div>
+      ${supplementalMarkup(q)}
       <section class="bf-brief-section"><h3>What the evidence supports</h3><ul>${listMarkup(q.findings)}</ul></section>
       <section class="bf-brief-section counter"><h3>Competing evidence & calibration</h3><ul>${listMarkup(q.counterEvidence)}</ul></section>
       <section class="bf-brief-section"><h3>D10 contradiction boundaries</h3>${tensions}</section>

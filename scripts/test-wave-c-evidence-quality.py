@@ -26,7 +26,7 @@ def require(text: str, *phrases: str) -> None:
 
 def main() -> None:
     atlas = load(ATLAS)
-    assert len(atlas["cases"]) == 146
+    assert len(atlas["cases"]) == 147
     cases = {c["id"]: c for c in atlas["cases"]}
     index = load(INDEX)
     backlog = load(BACKLOG)
@@ -64,7 +64,7 @@ def main() -> None:
         "no linear thrust was observed",
         "corona wind effects were misinterpreted",
     )
-    assert len(brown.get("sourceRecords", [])) == 4
+    assert len(brown.get("sourceRecords", [])) == 7
     assert brown.get("confidenceModel", {}).get("anomaly") == "not-established"
     btypes = {r["sourceType"] for r in brown["sourceRecords"]}
     assert btypes == {
@@ -72,9 +72,12 @@ def main() -> None:
         "proposal-and-archive-custody",
         "official-evaluation-mirror-transcription",
         "independent-technical-test",
+        "primary-participant-correspondence-in-federal-custody",
+        "official-dod-technical-report",
+        "official-air-force-contractor-advanced-concepts-review",
     }
     burls = blob(brown.get("publicSources", []))
-    require(burls, "patents.google.com/patent/us1974483a", "archives.lib.umd.edu", "winterhaven.pdf", "biefeld-brown-effect-aiaa")
+    require(burls, "patents.google.com/patent/us1974483a", "archives.lib.umd.edu", "winterhaven.pdf", "biefeld-brown-effect-aiaa", "catalog.archives.gov/id/28989015", "ada416740", "ada227121")
 
     assert "LAZAR-1989" in index
     assert "WINTERHAVEN-1952" in index
@@ -82,7 +85,8 @@ def main() -> None:
         "assets/evidence/LAZAR/groom_papoose.jpg",
         "assets/evidence/LAZAR/area51_gate.jpg",
     ]
-    assert index["WINTERHAVEN-1952-PATENT"] == index["WINTERHAVEN-1952"]
+    assert set(index["WINTERHAVEN-1952-PATENT"]) < set(index["WINTERHAVEN-1952"])
+    require(blob(index["WINTERHAVEN-1952"]), "28989015", "ada416740", "ada227121")
 
     backlog_ids = {x["id"] for x in backlog.get("cases", [])}
     assert "BF-SF-01" not in backlog_ids

@@ -274,13 +274,13 @@
     "tokens": [
       "WINTERHAVEN-1952"
     ],
-    "indexedLinks": 2,
-    "structuredSourceRecords": 4,
-    "publicSourceUrls": 6,
-    "evidenceAssets": 2,
-    "links": 9,
-    "local": 3,
-    "urls": 6,
+    "indexedLinks": 8,
+    "structuredSourceRecords": 7,
+    "publicSourceUrls": 9,
+    "evidenceAssets": 5,
+    "links": 15,
+    "local": 6,
+    "urls": 9,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1496,17 +1496,17 @@
   },
   {
     "id": "BF-SF-09",
-    "title": "Special File: AAWSAP / AATIP & Skinwalker",
+    "title": "Special File: AAWSAP / AATIP, KONA BLUE & Skinwalker",
     "tokens": [
       "AAWSAP-2008"
     ],
-    "indexedLinks": 9,
-    "structuredSourceRecords": 3,
-    "publicSourceUrls": 6,
+    "indexedLinks": 12,
+    "structuredSourceRecords": 5,
+    "publicSourceUrls": 9,
     "evidenceAssets": 1,
-    "links": 9,
+    "links": 12,
     "local": 3,
-    "urls": 6,
+    "urls": 9,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1938,17 +1938,17 @@
   },
   {
     "id": "BF-SF-10",
-    "title": "Special File: Grusch Testimony & ODNI\u2013AARO Record",
+    "title": "Special File: Grusch, Borland & the ODNI\u2013AARO Record",
     "tokens": [
       "GRUSCH-2023"
     ],
-    "indexedLinks": 7,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 5,
-    "evidenceAssets": 1,
-    "links": 12,
-    "local": 7,
-    "urls": 5,
+    "indexedLinks": 12,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 9,
+    "evidenceAssets": 3,
+    "links": 18,
+    "local": 9,
+    "urls": 9,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2412,6 +2412,23 @@
     "evidenceAssets": 5,
     "links": 8,
     "local": 6,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1960-HF-01",
+    "title": "Hartford Material-Fall Investigation",
+    "tokens": [
+      "NARA NAID 28989015 \u00b7 Hartford, Connecticut, September 1960",
+      "HARTFORD-1960"
+    ],
+    "indexedLinks": 12,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 1,
+    "links": 13,
+    "local": 11,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true

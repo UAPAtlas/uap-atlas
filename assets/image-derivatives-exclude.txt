@@ -53,6 +53,7 @@
 /assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_101.jpg
 /assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_102.jpg
 /assets/evidence/BETHESDA-1952/BETHESDA-1952_dc-case-file_page_103.jpg
+/assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png
 /assets/evidence/CALVINE/mod_note.jpg
 /assets/evidence/CALVINE/vufoil.jpg
 /assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg
@@ -145,6 +146,16 @@
 /assets/evidence/GREATFALLS-1950/GREATFALLS-1950-BlueBook-record-card.png
 /assets/evidence/GREATFALLS-1950/GREATFALLS-1950-NARA-NAID-28938188-page-0972.jpg
 /assets/evidence/GREECE2023-D35/DOW-UAP-D35-Mission-Report-Greece-October-2023__page_001.png
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg
+/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg
 /assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-048.png
 /assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-049.png
 /assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-050.png

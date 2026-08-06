@@ -914,6 +914,26 @@
   ],
   "BF-SF-10": [
     {
+      "label": "If You Still Think UFOs Are Fake, Watch This — David Grusch Interview",
+      "url": "https://www.youtube.com/watch?v=kRO5jOa06Qw",
+      "publisher": "Jesse Michels / American Alchemy",
+      "access": "Public",
+      "scope": "firsthand-interview",
+      "role": "witness-interview",
+      "mediaKind": "video",
+      "note": "Long-form interview with David Grusch; testimony and allegation are not treated as proof without corroborating records."
+    },
+    {
+      "label": "Confessions of a UFO Insider — The David Grusch Revelations",
+      "url": "https://www.youtube.com/watch?v=dc6V0O_OPJ0",
+      "publisher": "WEAPONIZED with Jeremy Corbell & George Knapp",
+      "access": "Public",
+      "scope": "case-specific-analysis",
+      "role": "contextual-analysis",
+      "mediaKind": "video",
+      "note": "Reporting and analysis of Grusch's allegations; the congressional record remains separately linked."
+    },
+    {
       "access": "Public",
       "label": "House Oversight — 2023 UAP hearing",
       "publisher": "U.S. House Committee on Oversight and Accountability",
@@ -926,6 +946,37 @@
       "publisher": "U.S. Government Publishing Office",
       "scope": "official-transcript",
       "url": "https://www.govinfo.gov/app/details/CHRG-118hhrg53022"
+    },
+    {
+      "label": "Public source — oversight.house.gov",
+      "url": "https://oversight.house.gov/hearing/unidentified-anomalous-phenomena-implications-on-national-security-public-safety-and-government-transparency",
+      "publisher": "oversight.house.gov",
+      "access": "Public/access unverified",
+      "scope": "public-source"
+    },
+    {
+      "label": "Dylan Borland — written testimony, 2025 House UAP hearing",
+      "url": "https://oversight.house.gov/wp-content/uploads/2025/09/Borland-Written-Testimony.pdf",
+      "publisher": "U.S. House Committee on Oversight and Accountability",
+      "access": "Public official PDF",
+      "scope": "sworn-witness-statement",
+      "note": "Confirms the content of Borland’s public sworn account, including BAE employment and ICIG intake; not proof of the alleged programs."
+    },
+    {
+      "label": "Oregon UFO Fest panel — Corbell asks Borland about “Project Rubik’s Cube”",
+      "url": "https://www.youtube.com/watch?v=MXhZrskutYA",
+      "publisher": "Public panel recording",
+      "access": "Public video",
+      "scope": "first-generation-public-media-lead",
+      "note": "The phrase is introduced in a question and Borland does not confirm it. No documentary authentication has been found."
+    },
+    {
+      "label": "American Alchemy — Dylan Borland long-form interview, 5 August 2026",
+      "url": "https://podcasts.apple.com/us/podcast/president-trump-was-briefed-on-ufos-government/id1539482596?i=1000721022643",
+      "publisher": "American Alchemy / original podcast feed",
+      "access": "Public episode audio",
+      "scope": "first-person-witness-interview",
+      "note": "Borland says ICIG interviewers “extremely hinted” humans were not in charge, but withholds their exact words and identities. He cannot confirm or deny the relayed Rubik’s Cube name."
     }
   ],
   "BF-SF-11": [
@@ -1109,6 +1160,30 @@
       "access": "Public PDF",
       "scope": "independent-technical-test",
       "note": "Independent experiment found no linear thrust within its accuracy and concluded corona-wind effects had been misinterpreted as gravitational coupling."
+    },
+    {
+      "label": "NARA Catalog — Hartford, Connecticut, September 1960 (NAID 28989015)",
+      "url": "https://catalog.archives.gov/id/28989015",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public catalog and media",
+      "scope": "primary-brown-correspondence-in-federal-file",
+      "note": "Contains exact Brown/Whitehall-Rand correspondence and Air Force laboratory records. It authenticates participation and claims, not anomalous physics."
+    },
+    {
+      "label": "DTIC — ARL-TR-3005, Force on an Asymmetric Capacitor",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA416740.pdf",
+      "publisher": "U.S. Army Research Laboratory / DTIC",
+      "access": "Public official PDF",
+      "scope": "official-technical-test",
+      "note": "Confirms force in air and identifies vacuum testing as unresolved; does not establish electrogravity."
+    },
+    {
+      "label": "DTIC — AL-TR-89-040, Electric Propulsion Study",
+      "url": "https://apps.dtic.mil/sti/pdfs/ADA227121.pdf",
+      "publisher": "Air Force Astronautics Laboratory / DTIC",
+      "access": "Public official PDF",
+      "scope": "advanced-concepts-review",
+      "note": "Documents official awareness/review, not validation or adoption."
     }
   ],
   "BF-1973-PG-01": [
@@ -1129,6 +1204,90 @@
       "access": "Public",
       "scope": "local-history-public-record",
       "note": "Public educational page preserving/listing the 1973 Hickson/Parker recording context; useful local-history source, not full sheriff file."
+    }
+  ],
+  "BF-SF-09": [
+    {
+      "label": "DIA FOIA — Advanced Aerospace Weapon System Applications Contract Status",
+      "url": "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/237625/",
+      "publisher": "Defense Intelligence Agency",
+      "access": "Public official reading-room record",
+      "scope": "primary-contract-status",
+      "note": "Official contract-status briefing; identifies BAASS as contract awardee and the September 2008 commencement."
+    },
+    {
+      "label": "DIA FOIA — AAWSAP final/program review packet",
+      "url": "https://www.dia.mil/FOIA/FOIA-Electronic-Reading-Room/FileId/170015/",
+      "publisher": "Defense Intelligence Agency",
+      "access": "Public official reading-room record",
+      "scope": "primary-program-review",
+      "note": "Official released review packet describing the contract, technical-report deliverables, and DIA review."
+    },
+    {
+      "label": "AARO — History and Origin of KONA BLUE",
+      "url": "https://www.aaro.mil/Portals/136/PDFs/UAP_RECORDS_RESEARCH/History_and_Origin_of_KONA_BLUE_FINAL_508.pdf",
+      "publisher": "All-domain Anomaly Resolution Office / Department of Defense",
+      "access": "Public official PDF",
+      "scope": "official-retrospective",
+      "note": "Official retrospective connecting KONA BLUE to AAWSAP/AATIP and stating the program period, funding route, contractor, reported deliverables, and DIA disposition."
+    },
+    {
+      "label": "Public mirror — DIA AAWSAP Contract Status Briefing",
+      "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP/Contract_Status_Briefing.pdf",
+      "publisher": "The Black Vault mirror of DIA FOIA release",
+      "access": "Public PDF mirror",
+      "scope": "official-release-mirror",
+      "note": "Access mirror for the DIA contract-status release; official DIA reading-room URL remains separately mapped."
+    },
+    {
+      "label": "Public mirror — DIA AAWSAP final/program packet",
+      "url": "https://documents2.theblackvault.com/documents/dia/AAWSAP/09117-Final_Packet_Presented_to_DepSecDef.pdf",
+      "publisher": "The Black Vault mirror of DIA FOIA release",
+      "access": "Public PDF mirror",
+      "scope": "official-release-mirror",
+      "note": "Access mirror for the released DIA program packet; official DIA provenance remains separately mapped."
+    },
+    {
+      "label": "Public mirror — AARO History and Origin of KONA BLUE",
+      "url": "https://documents2.theblackvault.com/documents/osd/konablue-release1.pdf",
+      "publisher": "The Black Vault mirror of DoD/AARO release",
+      "access": "Public PDF mirror",
+      "scope": "official-release-mirror",
+      "note": "Byte-accessible public mirror of the AARO report; official AARO URL remains separately mapped."
+    },
+    {
+      "label": "NARA Catalog — AARO Historical Record Report Volume 1 (NAID 499915937)",
+      "url": "https://catalog.archives.gov/id/499915937",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public catalog / digital record",
+      "scope": "official-report-archival-custody",
+      "note": "Authenticates federal archival custody of AARO’s report; not independent corroboration of its conclusions."
+    },
+    {
+      "label": "George Knapp — written testimony, 2025 House UAP hearing",
+      "url": "https://oversight.house.gov/wp-content/uploads/2025/09/George-Knapp-Written-Testimony.pdf",
+      "publisher": "U.S. House Committee on Oversight and Accountability",
+      "access": "Public official PDF",
+      "scope": "named-congressional-testimony",
+      "note": "Knapp reports an attempted Lockheed-to-BAASS material agreement and says it was not completed. Testimony is not a transfer document."
+    },
+    {
+      "label": "House Oversight — Restoring Public Trust Through UAP Transparency and Whistleblower Protection",
+      "url": "https://oversight.house.gov/hearing/restoring-public-trust-through-uap-transparency-and-whistleblower-protection/",
+      "publisher": "U.S. House Committee on Oversight and Accountability",
+      "access": "Public hearing page and video",
+      "scope": "official-hearing-record",
+      "note": "Official hearing container for Knapp and Borland testimony."
+    }
+  ],
+  "BF-1960-HF-01": [
+    {
+      "label": "NARA Catalog — Hartford, Connecticut, September 1960 (NAID 28989015)",
+      "url": "https://catalog.archives.gov/id/28989015",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public catalog and 73 media objects",
+      "scope": "exact-primary-file-unit",
+      "note": "Complete Project Blue Book file unit. Custody authenticates the investigation, not an extraordinary origin."
     }
   ]
 }

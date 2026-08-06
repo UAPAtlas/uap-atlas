@@ -3255,12 +3255,12 @@
       "quoteSource": "US Patent 1,974,483, Electrostatic Motor, specification p. 1 / local PDF p. 3, issued 25 September 1934",
       "quoteConfidence": "High for exact patent text; patent wording and issuance do not validate electrogravitic or antigravity performance.",
       "significance": "High history-of-technology significance; extraordinary propulsion performance not established.",
-      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation.",
+      "sourceQuality": "Four separated source families: a held patent proves Brown's disclosure and claims; the public Winterhaven scan plus UMD catalog proves proposal existence and archival custody; an ONR-attributed transcription provides mirror-qualified historical evaluation but lacks first-party scan custody; and an independently inspected technical paper reports no linear thrust beyond experimental limits. None establishes an operational antigravity craft or classified successful continuation. NARA NAID 28989015 adds exact federal custody for Brown’s Hartford/Woodbridge correspondence, while DTIC ARL-TR-3005 confirms force on asymmetric capacitors in air and explicitly leaves vacuum testing unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-03",
       "title": "T. Townsend Brown / Project Winterhaven",
-      "date": "1929–1958",
+      "date": "1929–1961",
       "year": 1952,
       "location": "Bahnson Laboratories, Winston-Salem, North Carolina",
       "mode": "exact",
@@ -3273,10 +3273,10 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED PROPOSAL / ANOMALOUS PERFORMANCE NOT ESTABLISHED",
       "confidence": "PRIMARY RECORDS / CONVENTIONAL EXPLANATION STRONG",
-      "summary": "US Patent 1,974,483, filed in 1930 and issued in 1934, documents Thomas Townsend Brown's electrostatic-motor claims and apparatus; the patent records Brown's claims and apparatus, not independent validation. Project Winterhaven is a 66-page proposal for a Joint Services research and development contract. Proposal p. 1 calls for experiments to confirm or deny an electrodynamic-gravitational relationship, pp. 17 and 20 propose controlled vacuum or reduced-pressure tests, pp. 21–22 frame uses under 'if experiments prove to be positive,' and p. 27 says no responsibility can be assumed to guarantee results. University of Maryland archival custody identifies a 1953 proposal copy but does not establish Department of Defense acceptance, funding, completion, or operational use. An independent technical experiment reported that no linear thrust was observed within its accuracy and concluded that corona wind effects were misinterpreted as gravitational coupling.",
+      "summary": "US Patent 1,974,483, filed in 1930 and issued in 1934, documents Thomas Townsend Brown's electrostatic-motor claims and apparatus; the patent records Brown's claims and apparatus, not independent validation. Project Winterhaven is a 66-page proposal for a Joint Services research and development contract. Proposal p. 1 calls for experiments to confirm or deny an electrodynamic-gravitational relationship, pp. 17 and 20 propose controlled vacuum or reduced-pressure tests, pp. 21–22 frame uses under 'if experiments prove to be positive,' and p. 27 says no responsibility can be assumed to guarantee results. University of Maryland archival custody identifies a 1953 proposal copy but does not establish Department of Defense acceptance, funding, completion, or operational use. An independent technical experiment reported that no linear thrust was observed within its accuracy and concluded that corona wind effects were misinterpreted as gravitational coupling. NARA NAID 28989015 now adds a complete 1960–1961 federal packet documenting Brown’s Whitehall-Rand participation in the Hartford/Woodbridge material investigation. The packet authenticates his correspondence and testing claims but does not validate variable mass, radiation-induced weight change, gravity neutralization or non-human material.",
       "keyFact": "Brown's patent, Winterhaven proposal and defense-interest trail are real; they document claimed apparatus and proposed research, while conditional proposal language and independent null-result testing stop the record short of operational antigravity.",
       "official": "A public transcription attributed to ONR File 24-185 reports an analytical review, no experimental-program allotment, and an electric-wind explanation; first-party ONR custody is not mapped. Tajmar's independent technical test found no linear thrust within experimental accuracy and constrained any anomalous force far below corona-wind effects.",
-      "gap": "Still needed are first-party government custody for Project Winterhaven and ONR File 24-185; any contract-award, funding, completion or service-adoption record; first-generation Bahnson film and calibrated notebooks; and neutral vacuum replication records capable of separating electrohydrodynamic thrust from extraordinary electrogravitic claims.",
+      "gap": "Still needed are first-party government custody for Project Winterhaven and ONR File 24-185; any contract-award, funding, completion or service-adoption record; first-generation Bahnson notebooks and calibrated vacuum data; and independent replication of Brown’s changing-mass claims. The NARA Hartford/Woodbridge packet preserves the claims but does not validate their mechanism.",
       "whyItMatters": "Brown's file is a clean demonstration of how real patents, proposals, military attention and filmed rigs can seed antigravity lore without establishing an operational antigravity technology.",
       "sources": [
         "WINTERHAVEN-1952 · US Patent 1,974,483 local holding",
@@ -3288,7 +3288,8 @@
       "sourceLocator": "WINTERHAVEN-1952",
       "relatedCaseIds": [
         "BF-SF-04",
-        "BF-SF-02"
+        "BF-SF-02",
+        "BF-1960-HF-01"
       ],
       "heroFact": "The documented root of 'antigravity' lore: real experiments, a real Pentagon proposal, filmed demonstrations — and a conventional electrohydrodynamic explanation.",
       "image": "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
@@ -3390,6 +3391,51 @@
           "limitations": [
             "One experimental configuration does not test every Brown apparatus, but it directly constrains the claimed non-corona mechanism and practical propulsion interpretation."
           ]
+        },
+        {
+          "citation": "T. Townsend Brown / Whitehall-Rand correspondence in NARA Project Blue Book file unit NAID 28989015, October 1960–May 1961",
+          "sourceType": "primary-participant-correspondence-in-federal-custody",
+          "provenance": "Exact NARA scans in Record Group 341, file unit “Hartford, Connecticut, September 1960”",
+          "locator": "Objects 0327 and 0331–0332; related correspondence objects within the 73-object file",
+          "url": "https://catalog.archives.gov/id/28989015",
+          "supports": [
+            "Authenticates Brown’s direct involvement with ATIC, Major Robert Friend and the Hartford/Woodbridge material investigation",
+            "Documents that Brown/Whitehall-Rand reported changing sample weight, surface accretion, radiation and induced-weight effects",
+            "Documents Brown’s request for confidentiality and expectation that classification might occur"
+          ],
+          "limitations": [
+            "The changing-mass, radiation, barium/strontium and induced-weight statements are Brown’s participant claims, not Air Force findings",
+            "The correspondence does not provide a complete calibrated protocol, independent replication or surviving sample chain",
+            "The Woodbridge material was explicitly separate from the Hartford fall in time and place"
+          ]
+        },
+        {
+          "citation": "Thomas B. Bahder and Chris Fazi, “Force on an Asymmetric Capacitor,” ARL-TR-3005, June 2003, DTIC ADA416740",
+          "sourceType": "official-dod-technical-report",
+          "provenance": "U.S. Army Research Laboratory / Defense Technical Information Center",
+          "locator": "ARL-TR-3005, abstract and conclusions",
+          "url": "https://apps.dtic.mil/sti/tr/pdf/ADA416740.pdf",
+          "supports": [
+            "ARL experimentally verified net force on asymmetric capacitors in air",
+            "The report records the Brown/Bahnson patent lineage and identifies vacuum testing as a necessary next step"
+          ],
+          "limitations": [
+            "Force in air does not establish gravity coupling or useful vacuum thrust",
+            "The report says the physical basis was not understood at that stage and does not validate an operational electrogravitic craft"
+          ]
+        },
+        {
+          "citation": "Dennis J. Cravens, “Electric Propulsion Study,” AL-TR-89-040, August 1990, DTIC ADA227121",
+          "sourceType": "official-air-force-contractor-advanced-concepts-review",
+          "provenance": "Air Force Astronautics Laboratory / SAIC report in DTIC custody",
+          "locator": "AL-TR-89-040, preface and Brown/asymmetric-capacitor discussion",
+          "url": "https://apps.dtic.mil/sti/pdfs/ADA227121.pdf",
+          "supports": [
+            "Documents Air Force-contractor review of Brown-type propulsion claims as a speculative advanced concept"
+          ],
+          "limitations": [
+            "A review of a stigmatized or speculative concept is not experimental validation, program adoption or UAP evidence"
+          ]
         }
       ],
       "phenomena": {
@@ -3475,11 +3521,38 @@
           "access": "Public PDF",
           "scope": "independent-technical-test",
           "note": "Independent experiment found no linear thrust within its accuracy and concluded corona-wind effects had been misinterpreted as gravitational coupling."
+        },
+        {
+          "label": "NARA Catalog — Hartford, Connecticut, September 1960 (NAID 28989015)",
+          "url": "https://catalog.archives.gov/id/28989015",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public catalog and media",
+          "scope": "primary-brown-correspondence-in-federal-file",
+          "note": "Contains exact Brown/Whitehall-Rand correspondence and Air Force laboratory records. It authenticates participation and claims, not anomalous physics."
+        },
+        {
+          "label": "DTIC — ARL-TR-3005, Force on an Asymmetric Capacitor",
+          "url": "https://apps.dtic.mil/sti/tr/pdf/ADA416740.pdf",
+          "publisher": "U.S. Army Research Laboratory / DTIC",
+          "access": "Public official PDF",
+          "scope": "official-technical-test",
+          "note": "Confirms force in air and identifies vacuum testing as unresolved; does not establish electrogravity."
+        },
+        {
+          "label": "DTIC — AL-TR-89-040, Electric Propulsion Study",
+          "url": "https://apps.dtic.mil/sti/pdfs/ADA227121.pdf",
+          "publisher": "Air Force Astronautics Laboratory / DTIC",
+          "access": "Public official PDF",
+          "scope": "advanced-concepts-review",
+          "note": "Documents official awareness/review, not validation or adoption."
         }
       ],
       "images": [
         "assets/evidence/WINTERHAVEN-1952/WINTERHAVEN-1952-Brown-US1974483-sheet1.png",
-        "assets/source_previews/BF-SF-03_source_image.jpg"
+        "assets/source_previews/BF-SF-03_source_image.jpg",
+        "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+        "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+        "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg"
       ],
       "evidenceBoundary": {
         "established": [
@@ -3487,14 +3560,18 @@
           "Project Winterhaven existed as a proposal for Joint Services research and development.",
           "The proposal called for experiments to confirm or deny the claimed relationship and made applications conditional on positive results.",
           "A public transcription attributed to ONR File 24-185 reports defense analytical attention and an electric-wind explanation.",
-          "An independent technical experiment observed no linear non-corona thrust within its measurement accuracy."
+          "An independent technical experiment observed no linear non-corona thrust within its measurement accuracy.",
+          "NARA NAID 28989015 authenticates Brown/Whitehall-Rand correspondence and reported testing in the Hartford/Woodbridge material investigation.",
+          "ARL-TR-3005 documents force on asymmetric capacitors in air while explicitly leaving vacuum performance unresolved."
         ],
         "notEstablished": [
           "Department of Defense contract award, funding, implementation or operational adoption.",
           "Reproducible gravity control or useful vacuum thrust.",
           "Operational disc aircraft, classified successful continuation or non-human technology.",
           "First-party ONR custody for the currently reviewed File 24-185 transcription.",
-          "Calibrated performance from public Bahnson film copies."
+          "Calibrated performance from public Bahnson film copies.",
+          "Independent replication of Brown’s claimed changing mass, induced weight change or gravity-neutralization mechanism.",
+          "That the Hartford or Woodbridge samples were non-human technology or evidence of an electrogravitic craft."
         ],
         "competingExplanations": [
           "Ionization and electrohydrodynamic corona wind account for the visible thrust.",
@@ -16765,8 +16842,8 @@
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-09",
-      "title": "Special File: AAWSAP / AATIP & Skinwalker",
-      "date": "2007–2012",
+      "title": "Special File: AAWSAP / AATIP, KONA BLUE & Skinwalker",
+      "date": "2007–2025",
       "year": 2008,
       "location": "Skinwalker Ranch, Uintah Basin, Utah",
       "mode": "exact",
@@ -16779,11 +16856,11 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "The DIA's Advanced Aerospace Weapon System Applications Program (AAWSAP, ~$22M, 2008–2012) contracted Robert Bigelow's BAASS, whose portfolio included studies at Skinwalker Ranch. The AATIP effort continued informally under Luis Elizondo until his 2017 resignation — the chain that produced the New York Times story and public release context for the Navy videos already in this atlas.",
-      "keyFact": "The funding paper trail is real and public: a DIA program, a Senate patron, a contractor, and a ranch — the documented plumbing behind the 2017 disclosure era.",
-      "official": "DoD confirmed AATIP existed while disputing its scope and Elizondo's role; AAWSAP contract documents and DIRD technical papers have been released via FOIA.",
-      "gap": "The full set of BAASS field reports from the ranch and the complete AAWSAP deliverables list remain unreleased. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
-      "whyItMatters": "It connects this atlas's modern sensor cases to their institutional origin: Nimitz-era footage reached the public through this exact program lineage.",
+      "summary": "DIA’s AAWSAP contracted Bigelow Aerospace Advanced Space Studies and produced technical reports before ending in 2012. AARO’s KONA BLUE history documents a proposed DHS successor special-access program that was never approved, funded or supplied with material. George Knapp later testified that Bigelow and an AAWSAP colleague negotiated with Lockheed Martin for unusual material held in California, but said the agreement was not completed. The released record supports the proposed pathway and testimony—not an authenticated transfer or recovered craft.",
+      "keyFact": "Program existence, contractor lineage and the failed KONA BLUE proposal are official record; the alleged Lockheed-to-BAASS material deal is named congressional testimony without a released agreement or completed custody chain.",
+      "official": "AARO states KONA BLUE was never approved or formally established and received no funding, data or material. That institutional finding does not resolve what Lockheed may have held or discussed outside KONA BLUE, but no public transfer record has been authenticated.",
+      "gap": "Still absent are a named Lockheed executive statement, meeting memorandum, contract modification, material inventory, transfer authorization, sample custody record, or independent physical analysis connecting Lockheed to BAASS/KONA BLUE.",
+      "whyItMatters": "This is the strongest documented bridge between the AAWSAP institutional lineage and the modern material-transfer allegation, while also showing exactly where testimony ends and custody evidence would need to begin.",
       "sources": [
         "AAWSAP-2008 · DIA contract records / DIRD papers FOIA trail"
       ],
@@ -16801,6 +16878,9 @@
         "program-record"
       ],
       "evidenceModes": [
+        "congressional-testimony",
+        "contract-record",
+        "official-retrospective",
         "video"
       ],
       "environment": [
@@ -16889,6 +16969,36 @@
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "National Archives, AARO Historical Record Report Volume 1, NAID 499915937",
+          "sourceType": "official-report-in-federal-archival-custody",
+          "provenance": "NARA Record Group 615; archival copy of AARO’s March 2024 historical report",
+          "locator": "NAID 499915937; KONA BLUE / legacy-program discussion",
+          "url": "https://catalog.archives.gov/id/499915937",
+          "supports": [
+            "Establishes NARA custody for AARO’s official historical report and its KONA BLUE/legacy-program discussion"
+          ],
+          "limitations": [
+            "Archival custody authenticates the report as an official record; it does not independently validate AARO’s conclusions or the underlying interview claims"
+          ]
+        },
+        {
+          "citation": "George Knapp, written testimony, House Task Force on the Declassification of Federal Secrets, 9 September 2025",
+          "sourceType": "named-congressional-witness-statement",
+          "provenance": "Official House Oversight witness PDF and public hearing record",
+          "locator": "Written testimony, Lockheed/Bigelow material-negotiation passage; hearing video approximately 31:00–32:10",
+          "url": "https://oversight.house.gov/wp-content/uploads/2025/09/George-Knapp-Written-Testimony.pdf",
+          "supports": [
+            "Knapp testified that Bigelow and a colleague negotiated with a senior Lockheed executive for unusual material held at a California facility",
+            "Knapp attributed confirmation to an unnamed source who was in the room",
+            "Knapp stated the agreement was not completed"
+          ],
+          "limitations": [
+            "Knapp is reporting a source account and does not provide the source’s identity, meeting record or transfer paperwork",
+            "No released record proves the material was a craft, non-human technology, sold, transferred or independently tested",
+            "AARO states no data or material reached DHS under KONA BLUE"
+          ]
         }
       ],
       "phenomena": {
@@ -16975,11 +17085,54 @@
           "access": "Public PDF mirror",
           "scope": "official-release-mirror",
           "note": "Byte-accessible public mirror of the AARO report; official AARO URL remains separately mapped."
+        },
+        {
+          "label": "NARA Catalog — AARO Historical Record Report Volume 1 (NAID 499915937)",
+          "url": "https://catalog.archives.gov/id/499915937",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public catalog / digital record",
+          "scope": "official-report-archival-custody",
+          "note": "Authenticates federal archival custody of AARO’s report; not independent corroboration of its conclusions."
+        },
+        {
+          "label": "George Knapp — written testimony, 2025 House UAP hearing",
+          "url": "https://oversight.house.gov/wp-content/uploads/2025/09/George-Knapp-Written-Testimony.pdf",
+          "publisher": "U.S. House Committee on Oversight and Accountability",
+          "access": "Public official PDF",
+          "scope": "named-congressional-testimony",
+          "note": "Knapp reports an attempted Lockheed-to-BAASS material agreement and says it was not completed. Testimony is not a transfer document."
+        },
+        {
+          "label": "House Oversight — Restoring Public Trust Through UAP Transparency and Whistleblower Protection",
+          "url": "https://oversight.house.gov/hearing/restoring-public-trust-through-uap-transparency-and-whistleblower-protection/",
+          "publisher": "U.S. House Committee on Oversight and Accountability",
+          "access": "Public hearing page and video",
+          "scope": "official-hearing-record",
+          "note": "Official hearing container for Knapp and Borland testimony."
         }
       ],
       "images": [
         "assets/evidence/AAWSAP-2008/AAWSAP-2008-Skinwalker-Ranch-gate.jpg"
-      ]
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "AAWSAP was a funded DIA program and BAASS was its contractor.",
+          "KONA BLUE was proposed as a DHS special-access successor but was never approved, funded or formally established.",
+          "AARO states no data or material was transferred to or collected by DHS under KONA BLUE.",
+          "George Knapp gave named congressional testimony alleging Lockheed/Bigelow negotiations and stated that the agreement was not completed."
+        ],
+        "notEstablished": [
+          "That Lockheed held a recovered non-human craft or material.",
+          "The alleged Lockheed-to-Bigelow/BAASS sale or transfer was not completed.",
+          "A released agreement, material inventory, custody receipt, Lockheed confirmation or independent sample analysis.",
+          "That KONA BLUE ever possessed material, operated as an approved SAP or became an active recovery program."
+        ],
+        "competingExplanations": [
+          "Participants may have discussed material believed to be anomalous without authenticating its origin.",
+          "A proposed transfer pathway can be historically real even if the underlying material claim was mistaken or never consummated.",
+          "AARO’s later institutional review and participant testimony preserve conflicting interpretations without releasing the decisive custody records."
+        ]
+      }
     },
     {
       "id": "BF-2013-AG-01",
@@ -21399,8 +21552,8 @@
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-10",
-      "title": "Special File: Grusch Testimony & ODNI–AARO Record",
-      "date": "2021–2024",
+      "title": "Special File: Grusch, Borland & the ODNI–AARO Record",
+      "date": "2021–2026",
       "year": 2023,
       "location": "Washington, D.C.",
       "mode": "exact",
@@ -21413,11 +21566,11 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "The modern institutional arc in one file: the 2021 ODNI preliminary assessment (144 military reports, one explained), David Grusch's 2023 sworn testimony alleging recovery programs and 'non-human biologics,' and AARO's 2024 historical review finding no verifiable evidence of reverse-engineering programs. Sworn claims and official negation now coexist on the congressional record.",
+      "summary": "The modern institutional arc now includes ODNI’s 2021 assessment, Grusch’s 2023 sworn recovery-program allegations, AARO’s 2024 written denial, Dylan Borland’s 2025 sworn statement, and his August 2026 long-form interview. Borland describes firsthand UAP observation, BAE Systems employment and an August 2023 ICIG intake; in the interview he says ICIG personnel ‘extremely hinted’ humans were not in charge, while withholding their exact words and identities. His open-hearing refusal to answer a BAE reverse-engineering question without a SCIF is not confirmation. No authenticated ICIG record establishes NHI control, and ‘Project Rubik’s Cube’ remains a relayed but unauthenticated program-name allegation.",
       "keyFact": "For the first time since 1952, the legislature took sworn recovery-program testimony — and the executive's own review office formally contradicted it in writing.",
-      "official": "AARO (2024): no empirical evidence for claims of reverse-engineering programs or recovered craft; Grusch's underlying interviews remain classified with the Inspector General.",
-      "gap": "The ICIG complaint substance and the named-program evidence Grusch says he provided remain sealed — the exact gap the file tracks.",
-      "whyItMatters": "This is the atlas's living case: the same government producing both the claim channel and the denial channel, in public, simultaneously.",
+      "official": "The official record authenticates testimony, complaint/intake channels and agency responses. It does not authenticate the alleged programs, BAE involvement, Project Rubik’s Cube, or an ICIG conclusion that NHI control disclosure or government.",
+      "gap": "The underlying ICIG complaint/intake records, program names, documentary exhibits, BAE answer in an authorized classified setting, and authenticated Rubik’s Cube record remain non-public.",
+      "whyItMatters": "It separates four often-conflated layers: what witnesses allege, what they told oversight channels, what agencies publicly conclude, and what the underlying classified records independently establish.",
       "sources": [
         "GRUSCH-2023 · House hearing transcript (govinfo, Serial 118-53) / ODNI 2021 assessment / AARO 2024 Historical Record Report Vol. 1"
       ],
@@ -21431,7 +21584,9 @@
       "heroFact": "For the first time since 1952, the legislature took sworn recovery-program testimony — and the executive's own review office formally contradicted it in writing.",
       "image": "assets/source_previews/BF-SF-10_source_image.png",
       "images": [
-        "assets/source_previews/BF-SF-10_source_image.png"
+        "assets/source_previews/BF-SF-10_source_image.png",
+        "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png",
+        "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf"
       ],
       "caseTypes": [
         "special-file"
@@ -21486,6 +21641,57 @@
             "Sworn/public testimony does not itself prove the alleged crash-retrieval or non-human technology programs",
             "Many central claims depend on classified briefings, secondhand reports, or non-public inspector-general/context records",
             "AARO/ODNI records provide official context and contradiction points, not a complete evidentiary resolution of the claims"
+          ]
+        },
+        {
+          "citation": "Dylan Borland, written testimony, House Task Force on the Declassification of Federal Secrets, 9 September 2025",
+          "sourceType": "sworn-congressional-witness-statement",
+          "provenance": "Official House Oversight witness PDF; exact Atlas holding and first-page derivative",
+          "locator": "Written testimony pp. 1–6; employment and August 2023 ICIG-intake passages",
+          "sourceFilePath": "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony.pdf",
+          "sourceUrl": "https://oversight.house.gov/wp-content/uploads/2025/09/Borland-Written-Testimony.pdf",
+          "supports": [
+            "Borland states he worked for BAE Systems and Intrepid Solutions as a senior analyst",
+            "Borland states he completed an under-oath, video-recorded ICIG intake interview in August 2023",
+            "Authenticates Borland’s allegations and oversight-channel account as sworn public testimony"
+          ],
+          "limitations": [
+            "A witness statement authenticates what Borland told Congress, not the alleged program or NHI claims",
+            "ICIG receipt, intake or investigation is not an ICIG factual finding or endorsement",
+            "The written statement does not authenticate Project Rubik’s Cube or establish that BAE reverse-engineered NHI technology"
+          ]
+        },
+        {
+          "citation": "House Oversight hearing, “Restoring Public Trust Through UAP Transparency and Whistleblower Protection,” 9 September 2025",
+          "sourceType": "official-congressional-hearing-record",
+          "provenance": "Official House hearing page/video; accessibility transcript separately hosted by Rev",
+          "locator": "Borland/BAE exchange approximately 01:30:29–01:31:00 in the hearing video",
+          "url": "https://oversight.house.gov/hearing/restoring-public-trust-through-uap-transparency-and-whistleblower-protection/",
+          "supports": [
+            "Rep. Eric Burlison asked whether BAE Systems was involved in reverse engineering NHI craft; Borland said the answer required a SCIF/legal-authority discussion"
+          ],
+          "limitations": [
+            "Borland’s SCIF response is a non-answer in open session and cannot be treated as confirmation of BAE involvement"
+          ]
+        },
+        {
+          "citation": "Dylan Borland, American Alchemy long-form interview, 5 August 2026",
+          "sourceType": "first-person-long-form-interview",
+          "provenance": "Original American Alchemy podcast feed and episode audio; locally generated large-v3-turbo timestamp transcript used for discovery",
+          "locator": "Rubik’s Cube exchange approximately 00:05:43–00:06:46; BAE/program discussion approximately 00:57:12–01:01:10; ICIG/NHI-control discussion approximately 02:30:46–02:34:10",
+          "url": "https://podcasts.apple.com/us/podcast/president-trump-was-briefed-on-ufos-government/id1539482596?i=1000721022643",
+          "supports": [
+            "Borland says an ICIG interaction “extremely hinted” that humans were not in charge",
+            "Borland describes a hypothetical question sequence in which an interviewer asks “who do you think is running the show?”",
+            "The Rubik’s Cube exchange preserves the allegation chain as an alleged ODNI source relayed through Jeremy Corbell and George Knapp; Borland says he cannot confirm or deny it",
+            "Borland reiterates BAE Systems employment, claims work involving special-access programs, and says colleagues thought he was read into a specific program"
+          ],
+          "limitations": [
+            "Borland withholds the ICIG interviewers’ exact words and identities and characterizes the conclusion as an inference from their questions",
+            "His account is a first-person allegation, not an authenticated ICIG transcript, finding or institutional position",
+            "The Rubik’s Cube name remains hearsay in this interview and is not independently authenticated",
+            "Borland states he has not been through DOPSR for these interview claims; public airing does not equal government validation",
+            "Machine-generated timestamps and wording were derived from the original audio and remain approximate locators rather than an official transcript"
           ]
         }
       ],
@@ -21566,8 +21772,63 @@
           "publisher": "oversight.house.gov",
           "access": "Public/access unverified",
           "scope": "public-source"
+        },
+        {
+          "label": "Dylan Borland — written testimony, 2025 House UAP hearing",
+          "url": "https://oversight.house.gov/wp-content/uploads/2025/09/Borland-Written-Testimony.pdf",
+          "publisher": "U.S. House Committee on Oversight and Accountability",
+          "access": "Public official PDF",
+          "scope": "sworn-witness-statement",
+          "note": "Confirms the content of Borland’s public sworn account, including BAE employment and ICIG intake; not proof of the alleged programs."
+        },
+        {
+          "label": "Oregon UFO Fest panel — Corbell asks Borland about “Project Rubik’s Cube”",
+          "url": "https://www.youtube.com/watch?v=MXhZrskutYA",
+          "publisher": "Public panel recording",
+          "access": "Public video",
+          "scope": "first-generation-public-media-lead",
+          "note": "The phrase is introduced in a question and Borland does not confirm it. No documentary authentication has been found."
+        },
+        {
+          "label": "American Alchemy — Dylan Borland long-form interview, 5 August 2026",
+          "url": "https://podcasts.apple.com/us/podcast/president-trump-was-briefed-on-ufos-government/id1539482596?i=1000721022643",
+          "publisher": "American Alchemy / original podcast feed",
+          "access": "Public episode audio",
+          "scope": "first-person-witness-interview",
+          "note": "Borland says ICIG interviewers “extremely hinted” humans were not in charge, but withholds their exact words and identities. He cannot confirm or deny the relayed Rubik’s Cube name."
         }
-      ]
+      ],
+      "openLeads": [
+        {
+          "name": "Project Rubik's Cube",
+          "status": "unsubstantiated-public-lead",
+          "origin": "Jeremy Corbell question to Dylan Borland during the Oregon UFO Fest / McMenamins panel, May 2026",
+          "primaryMediaUrl": "https://www.youtube.com/watch?v=MXhZrskutYA",
+          "currentAssessment": "In the August 2026 American Alchemy interview, Michels attributes the name to an alleged ODNI source relayed through Corbell and Knapp. Borland answers that he cannot confirm or deny it. No released ICIG, ODNI, AARO or program record using the name has been authenticated.",
+          "promotionThreshold": "A released government record, named sworn corroboration, exact authorized testimony, or independently authenticated program artifact."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Grusch and Borland submitted allegations through official congressional or inspector-general channels and later described them publicly under oath.",
+          "Borland’s official written testimony states that he worked for BAE Systems and completed an under-oath ICIG intake interview in August 2023.",
+          "Borland declined to answer the BAE reverse-engineering question in open session without a SCIF/legal-authority determination.",
+          "AARO publicly reports that it found no verifiable evidence of reverse-engineering programs or recovered extraterrestrial craft.",
+          "In his August 2026 American Alchemy interview, Borland said ICIG personnel “extremely hinted” that humans were not in charge; this establishes his allegation and interpretation, not the ICIG’s words or conclusion."
+        ],
+        "notEstablished": [
+          "That ICIG receipt, intake or investigation validated any recovery-program or NHI allegation.",
+          "Any authenticated ICIG statement that NHI control the government, cover-up or “run the show.”",
+          "That BAE Systems participated in reverse engineering non-human craft.",
+          "That “Project Rubik’s Cube” is an authenticated government program name.",
+          "The exact words, identities and institutional authority of the ICIG personnel Borland says hinted at that interpretation."
+        ],
+        "competingExplanations": [
+          "Classified restrictions can explain a SCIF response without proving the premise of the question.",
+          "Oversight intake can evaluate credibility, retaliation or jurisdiction without making a factual finding on underlying NHI claims.",
+          "Program-name allegations can gain apparent weight through repetition after a public non-answer."
+        ]
+      }
     },
     {
       "id": "BF-2023-GR-33",
@@ -26252,6 +26513,307 @@
         "durationSeconds": 120,
         "independentWitnessGroups": 2
       }
+    },
+    {
+      "keyQuote": "At 2015 E.D.T. on the night of 4 September 1960, a lady standing near the back door of her first floor apartment at [redacted], Hartford, Connecticut, was startled by a “swishing noise” followed by a thud.",
+      "quoteSource": "Air Force Cambridge Research Laboratories, “Preliminary Analysis and Certain Historical Details Relating to Objects which Fell at Hartford, Connecticut,” NARA NAID 28989015, object 0324",
+      "quoteConfidence": "High — visually verified in the exact NARA scan. It records the witness chronology; it does not determine the origin of every collected sample.",
+      "significance": "High archival and physical-trace significance; extraordinary origin not established.",
+      "sourceQuality": "Exact 73-object Project Blue Book file unit acquired from NARA with SHA-256 custody manifest. Page-adjudicated records include the Blue Book card, an AFCRL witness/material report, Wright-Patterson spectroscopy, Air Force collection traffic, and Brown/Whitehall-Rand correspondence. Government custody authenticates the investigation and laboratory work, not Brown’s gravity interpretation or a non-human origin.",
+      "coordinateBasis": "Hartford city centroid; the street address is redacted in the federal record",
+      "coordinatePrecision": "city",
+      "id": "BF-1960-HF-01",
+      "title": "Hartford Material-Fall Investigation",
+      "date": "4 SEP 1960",
+      "year": 1960,
+      "location": "Hartford, Connecticut",
+      "mode": "approximate",
+      "lon": -72.6734,
+      "lat": 41.7658,
+      "expectedCountry": "United States of America",
+      "expectedAdmin1": "Connecticut",
+      "geometryExpectation": "admin1",
+      "agency": "USAF / AFCRL / ATIC",
+      "domain": "HISTORICAL / PHYSICAL TRACE",
+      "status": "DOCUMENTED REPORT · CONVENTIONAL DISPOSITION / MATERIAL QUESTIONS RETAINED",
+      "confidence": "PRIMARY FEDERAL RECORD · EXTRAORDINARY ORIGIN NOT ESTABLISHED",
+      "summary": "At 20:15 EDT on 4 September 1960, Hartford witnesses reported a swishing sound, a green pendant or cone-like light, impact, smoke and a smoldering shed. Police, Smithsonian-linked personnel and the Air Force collected material. Project Blue Book’s summary card closed the case as furnace slag, but the underlying AFCRL analysis was more granular: slag appeared local, stones were not analyzed, carbonaceous material was inconclusive, and only aluminum samples seemed clearly associated with the observed fall. Later Wright-Patterson spectroscopy found ordinary elements and made no extraordinary conclusion.",
+      "keyFact": "The file is stronger and more complicated than its one-line “furnace slag” disposition: the federal record documents a witnessed fall and sample investigation while leaving the aluminum-fall relationship unresolved and offering no evidence of exotic composition.",
+      "official": "Project Blue Book classified the event as “Other — Furnace slag.” The underlying AFCRL report said the slag was locally derived but identified aluminum fragments as the samples most clearly associated with the observed fall. A 1961 Wright-Patterson evaluation found ordinary elemental constituents and recorded “Conclusions: None.”",
+      "gap": "The complete contemporaneous sample custody chain, surviving specimens, calibrated raw spectra, and independent replication are not public. The file does not establish where the aluminum originated, and it does not tie the separate Woodbridge fall to the Hartford event.",
+      "whyItMatters": "It shows why archival depth matters: a summary-card identification can coexist with a more qualified laboratory record underneath it, while later gravity claims can outrun both.",
+      "sources": [
+        "HARTFORD-1960 · NARA NAID 28989015 · complete 73-object Project Blue Book file unit",
+        "HARTFORD-1960 · AFCRL historical/material report and Wright-Patterson evaluation"
+      ],
+      "sourceLabel": "NARA Project Blue Book file and Air Force laboratory reports",
+      "sourceLocator": "NARA NAID 28989015 · Hartford, Connecticut, September 1960",
+      "relatedCaseIds": [
+        "BF-SF-03"
+      ],
+      "heroFact": "A witnessed green fall, recovered material and Air Force laboratory work are documented; the official “furnace slag” card compresses a more qualified record underneath.",
+      "image": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+      "images": [
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0305.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0305",
+          "sourceType": "federal-archive-scan",
+          "caption": "Project 10073 record card dated 4 September 1960. It records a ground-visual report, a physical specimen, a falling object, and the summary disposition “Other — Furnace slag.”",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0306.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0306",
+          "sourceType": "federal-archive-scan",
+          "caption": "Wright-Patterson Aeronautical Systems Division evaluation report dated 8 May 1961. Emission spectroscopy found ordinary terrestrial elements and recorded no conclusion or recommendation beyond the submitted data.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0310.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0310",
+          "sourceType": "federal-archive-scan",
+          "caption": "Scientific-analysis page separating eleven sample segments into carbonaceous, aluminum, stone, and slag groups. It says the slag appears local and only the aluminum samples seem clearly associated with the observed fall.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0311.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0311",
+          "sourceType": "federal-archive-scan",
+          "caption": "Continuation of the sample analysis documenting elemental comparisons and uncertainty in individual assignments.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0316.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0316",
+          "sourceType": "federal-archive-scan",
+          "caption": "Air Force message documenting coordination with Hartford police, Professor Robert Brown, and Smithsonian Astrophysical Observatory personnel regarding collection of incident material.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0324.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0324",
+          "sourceType": "federal-archive-scan",
+          "caption": "Air Force Cambridge Research Laboratories report, “Preliminary Analysis and Certain Historical Details Relating to Objects which Fell at Hartford, Connecticut,” recording the 20:15 EDT event chronology.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0327.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0327",
+          "sourceType": "federal-archive-scan",
+          "caption": "T. Townsend Brown letter to Major Robert Friend, 12 October 1960, describing Brown’s interest in the Hartford fall and promising coordinated reports. It records Brown’s involvement, not validation of his gravity claims.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0329.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0329",
+          "sourceType": "federal-archive-scan",
+          "caption": "Professor Robert L. Brown letter distinguishing the later Woodbridge particle from the Hartford fall in space and time.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0331.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0331",
+          "sourceType": "federal-archive-scan",
+          "caption": "T. Townsend Brown letter describing changing-weight, barium/strontium, radiation and induced-weight observations during Whitehall-Rand testing. These are participant claims, not Air Force findings.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        },
+        {
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg",
+          "kind": "primary-document",
+          "source": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0332.jpg",
+          "sourceName": "NARA NAID 28989015, digital object 0332",
+          "sourceType": "federal-archive-scan",
+          "caption": "Continuation of Brown’s 26 October 1960 letter, explicitly noting the Woodbridge material was not directly related to the Hartford fall and advancing speculative decay and weight-change interpretations.",
+          "rights": "U.S. federal record in NARA custody; exact NARA scan preserved without recompression."
+        }
+      ],
+      "caseTypes": [
+        "physical-trace",
+        "archival-event"
+      ],
+      "evidenceModes": [
+        "testimony",
+        "physical-sample",
+        "laboratory-analysis",
+        "official-record"
+      ],
+      "environment": [
+        "terrestrial"
+      ],
+      "outcome": "documented",
+      "confidenceModel": {
+        "record": "confirmed-primary-federal-file",
+        "anomaly": "reported-fall-origin-unresolved",
+        "provenance": "exact-nara-file-unit",
+        "material": "ordinary-elements-with-association-question"
+      },
+      "temporal": {
+        "dateLabel": "4 SEP 1960",
+        "year": 1960,
+        "startDateTime": "1960-09-04T20:15:00-04:00",
+        "endDateTime": null,
+        "timezone": "America/New_York",
+        "durationSeconds": null,
+        "precision": "minute",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.6734,
+            41.7658
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "city",
+        "uncertaintyKm": 8,
+        "basis": "Hartford city centroid; exact street address is redacted in the federal report"
+      },
+      "sourceRecords": [
+        {
+          "citation": "National Archives, Project Blue Book file unit “Hartford, Connecticut, September 1960,” NAID 28989015",
+          "sourceType": "primary-federal-archival-file-unit",
+          "provenance": "NARA Record Group 341, Project Blue Book case-file series; exact file unit NAID 28989015; 73 of 73 media objects acquired and SHA-256 manifested",
+          "locator": "Objects 0305–0377; selected objects 0305, 0306, 0310, 0311, 0316, 0324, 0327, 0329, 0331 and 0332",
+          "url": "https://catalog.archives.gov/id/28989015",
+          "supports": [
+            "Authenticates Project Blue Book custody for the Hartford September 1960 investigation",
+            "Documents witness reports, material collection, agency correspondence and laboratory analysis",
+            "Preserves the summary-card furnace-slag disposition and the more qualified underlying material analysis"
+          ],
+          "limitations": [
+            "Federal custody authenticates the records, not an extraordinary origin for the event or samples",
+            "The packet includes later correspondence and a distinct Woodbridge fall that must not be merged into the Hartford chronology",
+            "Not every analytical page identifies complete custody, calibration or surviving sample disposition"
+          ]
+        },
+        {
+          "citation": "Air Force Cambridge Research Laboratories, “Preliminary Analysis and Certain Historical Details Relating to Objects which Fell at Hartford, Connecticut,” September 1960",
+          "sourceType": "primary-official-witness-and-material-analysis",
+          "provenance": "Exact NARA scans within NAID 28989015",
+          "locator": "Objects 0324 onward for witness chronology; objects 0310–0315 for sample-group analysis",
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg",
+          "supports": [
+            "Records the 20:15 EDT swish, thud, green-fire report, smoke and smoldering shed",
+            "Separates sample groups and states that local slag was distinct from aluminum material associated with the observed fall"
+          ],
+          "limitations": [
+            "Association with a fall does not establish aerial origin, manufacture, trajectory or non-human provenance",
+            "Some stones were not analyzed and carbonaceous material remained inconclusive"
+          ]
+        },
+        {
+          "citation": "Aeronautical Systems Division, Wright-Patterson AFB, Evaluation Report ASD P 61-11, “Analysis of Foreign Material,” 8 May 1961",
+          "sourceType": "primary-official-laboratory-evaluation",
+          "provenance": "Exact NARA scan within NAID 28989015",
+          "locator": "Object 0306",
+          "url": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg",
+          "supports": [
+            "Documents emission spectroscopy and ordinary constituent elements including calcium, silicon, magnesium, iron, manganese, aluminum, titanium and chromium"
+          ],
+          "limitations": [
+            "The report records “Conclusions: None” and “Recommendations: None, data merely submitted”; it does not identify a source object or extraordinary mechanism"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "pendant-shaped light",
+          "cone of green fire"
+        ],
+        "objectCount": 1,
+        "luminosity": "green with orange/red; brief glowing material after impact",
+        "motion": [
+          "descending",
+          "impact reported"
+        ],
+        "effects": [
+          "smoke",
+          "smoldering shed",
+          "recovered material"
+        ]
+      },
+      "observation": {
+        "witnessCount": 3,
+        "witnessRoles": [
+          "civilian witnesses",
+          "property superintendent",
+          "Hartford police"
+        ],
+        "sensors": [
+          "unaided-visual",
+          "physical-sample",
+          "laboratory-spectroscopy"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 3
+      },
+      "evidenceDepthStatus": "complete-primary-packet-acquired-page-adjudicated",
+      "taxonomyOriginal": {
+        "domain": "PROJECT BLUE BOOK / PHYSICAL MATERIAL",
+        "status": "CONVENTIONAL DISPOSITION WITH QUALIFIED UNDERLYING ANALYSIS",
+        "confidence": "CONFIRMED FILE / ORIGIN UNRESOLVED"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+        "mediaType": "image",
+        "visualType": "official-record-card",
+        "caption": "Project 10073 record card for Hartford, Connecticut, 4 September 1960.",
+        "provenance": "NARA NAID 28989015, digital object 0305",
+        "evidenceStatus": "Authentic federal record; documents the report and disposition, not the origin of the falling material.",
+        "isEventEvidence": true,
+        "sourceUrl": "https://catalog.archives.gov/medialive/15/9890/28989015/content/TB0106/T1206-ProjectBlueBook/T1206_0040/images/0305.jpg"
+      },
+      "publicSources": [
+        {
+          "label": "NARA Catalog — Hartford, Connecticut, September 1960 (NAID 28989015)",
+          "url": "https://catalog.archives.gov/id/28989015",
+          "publisher": "National Archives and Records Administration",
+          "access": "Public catalog and 73 media objects",
+          "scope": "exact-primary-file-unit",
+          "note": "Complete Project Blue Book file unit. Custody authenticates the investigation, not an extraordinary origin."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Witnesses reported a swish, a green descending light or cone, impact effects, smoke and a smoldering shed in Hartford at approximately 20:15 EDT on 4 September 1960.",
+          "Police, Smithsonian-linked personnel and Air Force organizations collected or analyzed material under Project Blue Book custody.",
+          "The Project Blue Book record card carried the disposition “Other — Furnace slag.”",
+          "The underlying analysis said slag appeared to be of Hartford origin while only the aluminum samples seemed clearly due to the observed fall.",
+          "Later Wright-Patterson spectroscopy found ordinary constituent elements and recorded no extraordinary conclusion."
+        ],
+        "notEstablished": [
+          "A craft, manufactured aerial object, meteorite, weapon, non-human material or electrogravitic mechanism.",
+          "That every collected fragment came from the same source or from the observed fall.",
+          "That the distinct Woodbridge fall and Hartford event shared a source, orbit or mechanism.",
+          "T. Townsend Brown’s changing-mass, radiation, barium/strontium or gravity-neutralization interpretations."
+        ],
+        "competingExplanations": [
+          "Local industrial furnace slag and background coal/stone contamination account for part of the recovered material.",
+          "An ordinary falling or burning aluminum object could account for the event-associated metallic fragments without exotic composition.",
+          "Later Brown/Whitehall-Rand correspondence amplified a qualified material investigation into speculative gravity claims."
+        ]
+      }
     }
   ],
   "timeline": [
@@ -26615,6 +27177,15 @@
       "caseId": "BF-SF-02",
       "title": "Avrocar first free flight",
       "desc": "The USAF/Army disc aircraft flies — capped at roughly 3 feet altitude and 35 mph before 1961 cancellation."
+    },
+    {
+      "id": "TL-1960-HF",
+      "year": 1960,
+      "date": "4 SEP 1960",
+      "type": "incident",
+      "caseId": "BF-1960-HF-01",
+      "title": "Hartford green fall and material analysis",
+      "desc": "Witnesses reported a green descending light, impact and smoke; Blue Book called the material furnace slag while the underlying Air Force analysis retained a narrower aluminum-association question."
     },
     {
       "id": "TL-1961A",

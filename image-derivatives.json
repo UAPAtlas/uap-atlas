@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "policy": "heavy-image-bounded-derivatives",
-  "sourceFingerprint": "00e238e381d198b045339dcee7c6aff9b56b62da738ffa1e61e9946e50c92fee",
+  "sourceFingerprint": "148730e540c9b42b9856de27c562893cfb546e4f8f8a813c4233b6a21322d65b",
   "thresholdBytes": 350000,
   "displayMaxDimension": 1600,
   "thumbMaxDimension": 360,
   "displayQuality": 84,
   "thumbQuality": 76,
   "summary": {
-    "imageCount": 306,
-    "originalBytes": 825660264,
-    "displayBytes": 47551404,
-    "thumbBytes": 3389746
+    "imageCount": 317,
+    "originalBytes": 864757697,
+    "displayBytes": 48699122,
+    "thumbBytes": 3474966
   },
   "entries": {
     "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg": {
@@ -1167,6 +1167,27 @@
         "width": 283,
         "height": 360,
         "sha256": "1247900f34d4d2946158401da89df346f4a395bdcaa9fa7b7eeb9fd6ea4f2435"
+      }
+    },
+    "assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png": {
+      "originalBytes": 422143,
+      "originalWidth": 1275,
+      "originalHeight": 1650,
+      "originalSha256": "0c6a02f6be7ef269a2fa5887a3f3632afaca42524ea72a94bd71c9aef6b41f18",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png.webp",
+        "bytes": 239714,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "e738817a659d3c1e7207f8fc7e54af88ddf57d845d34824a5e09778cb2aa6387"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/BORLAND-2025/BORLAND-2025-House-Written-Testimony-page-001.png.webp",
+        "bytes": 17776,
+        "width": 278,
+        "height": 360,
+        "sha256": "b5e2f4a4d26bb5b98c2a53d3acecda0d92ee46fbe49c6ded376478490f812ab6"
       }
     },
     "assets/evidence/CALVINE/mod_note.jpg": {
@@ -3099,6 +3120,216 @@
         "width": 278,
         "height": 360,
         "sha256": "7161982805f8f2ac9801cc049db145f119a916e6be24f5198d107c76bebb92f2"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg": {
+      "originalBytes": 3967782,
+      "originalWidth": 2856,
+      "originalHeight": 4242,
+      "originalSha256": "3954a4c1bbe906665d04701ba9e41e95f0d2a9d8d4f1e9fe59214c5bf0c08107",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg.webp",
+        "bytes": 61410,
+        "width": 1077,
+        "height": 1600,
+        "sha256": "9892222132e0cd014c75081da2718e3b272286c8afe92421c6dd3afef0da5b16"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0305.jpg.webp",
+        "bytes": 4566,
+        "width": 242,
+        "height": 360,
+        "sha256": "ffb9c57b229f13b6ae163464ed5cfdcdc91c178835c72907768c093369ad6575"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg": {
+      "originalBytes": 3790585,
+      "originalWidth": 2828,
+      "originalHeight": 4179,
+      "originalSha256": "a0661ce8047eced5baefe1821b0851b9dc0eb3888724e5233b2c66c1ea2e6ea0",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg.webp",
+        "bytes": 83746,
+        "width": 1083,
+        "height": 1600,
+        "sha256": "b0a506e78158c0c7911ebb1fa37734ea87da8e5686f760c1ab7796bcc0316850"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0306.jpg.webp",
+        "bytes": 6386,
+        "width": 244,
+        "height": 360,
+        "sha256": "fb2f7f3fff14b7ae6bad886f28fe29dad9398138195af7e4a6ffb7c022c80273"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg": {
+      "originalBytes": 3808544,
+      "originalWidth": 2832,
+      "originalHeight": 4187,
+      "originalSha256": "27873d92976a5d7acffca0217135dc3153e6e5eed286e1c38507c33e1f7d080a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg.webp",
+        "bytes": 83636,
+        "width": 1082,
+        "height": 1600,
+        "sha256": "d40d6fe05d16d725bd7f92cca9e1859d2d2135dbd07c5acd2929f44ea09175b5"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0310.jpg.webp",
+        "bytes": 6330,
+        "width": 243,
+        "height": 360,
+        "sha256": "8702486c9aee9a1811c4bd2482d201c917c07f91c0a1b15679635ed210341d93"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg": {
+      "originalBytes": 3924921,
+      "originalWidth": 2840,
+      "originalHeight": 4179,
+      "originalSha256": "c4026a17d7b89fe78fa69d8d2121bcdf9ab39ca0e2c3899cceda5aa7b92fe7f9",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg.webp",
+        "bytes": 52766,
+        "width": 1087,
+        "height": 1600,
+        "sha256": "5fc2f9c305506acda4ac82002f9513c62f187c82bd123c01fd63bec85f4aa5a9"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0311.jpg.webp",
+        "bytes": 4236,
+        "width": 245,
+        "height": 360,
+        "sha256": "14c2ee9e3fcc278f08e9712deec75414bf54b3d421bed2c09066718719fcd697"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg": {
+      "originalBytes": 3929907,
+      "originalWidth": 2904,
+      "originalHeight": 4179,
+      "originalSha256": "b47b89d07a6accace2cf371c35ca74148f3b743fdb97dd81e9e812e1143440b3",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg.webp",
+        "bytes": 80288,
+        "width": 1112,
+        "height": 1600,
+        "sha256": "d812ab86b3b273335044575cbd2afd58ca99b8692828708fd8b94c83ceb81e56"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0316.jpg.webp",
+        "bytes": 4338,
+        "width": 250,
+        "height": 360,
+        "sha256": "776af8a05dd7f9b90ade09aff2933512faadb174d6f4d68d4ce3235cb24675ac"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg": {
+      "originalBytes": 3736079,
+      "originalWidth": 2828,
+      "originalHeight": 4182,
+      "originalSha256": "7ff96211dcf6ad76b5b8922f5a975da604e36da2cc53c108092a29277c7d908e",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg.webp",
+        "bytes": 129312,
+        "width": 1082,
+        "height": 1600,
+        "sha256": "940b617aaceb914f3ceb57275f2c667797945e39068db813db11d5484bf30720"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0324.jpg.webp",
+        "bytes": 9336,
+        "width": 243,
+        "height": 360,
+        "sha256": "af397c644530e64ceaf415c8efacf6d55733ca4b8e64449aabcd92e1b5059185"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg": {
+      "originalBytes": 3958270,
+      "originalWidth": 2864,
+      "originalHeight": 4216,
+      "originalSha256": "d219d254f5c921d9486f2e1da8f848cdba7095bffb7f9ae0235f800197c339d5",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg.webp",
+        "bytes": 64212,
+        "width": 1087,
+        "height": 1600,
+        "sha256": "337c38cd0377c9efef9f79935e163870186a3a12b8b4870b890548f3864826fb"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0327.jpg.webp",
+        "bytes": 5022,
+        "width": 245,
+        "height": 360,
+        "sha256": "2209134e242481427fa9e49429bbdb178a8d3fa54bfa2b9d639faa5b09cfa66b"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg": {
+      "originalBytes": 3851881,
+      "originalWidth": 2892,
+      "originalHeight": 4233,
+      "originalSha256": "001bef778c77ba9635272484a8528423109f3f37d98931c55347c2dd28be1c83",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg.webp",
+        "bytes": 125740,
+        "width": 1093,
+        "height": 1600,
+        "sha256": "cbde857f4c12c5ed8489d58b2d05dff380061e165a0094e94c0d7dae86454256"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0329.jpg.webp",
+        "bytes": 10474,
+        "width": 246,
+        "height": 360,
+        "sha256": "2c335aa4430e03f0bd76df1a5cc66e82e608289e008f3c95d75282cf1234bfd1"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg": {
+      "originalBytes": 3819843,
+      "originalWidth": 2900,
+      "originalHeight": 4164,
+      "originalSha256": "898a052d124f0062f4011dfb2026e7ab8ae6ca3e39f8a9c49ebc5c50e925b1e8",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg.webp",
+        "bytes": 112906,
+        "width": 1114,
+        "height": 1600,
+        "sha256": "47f87f4607181e1ca0644227016361806531b017b9a5f1b790e665b95072a4d7"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0331.jpg.webp",
+        "bytes": 8566,
+        "width": 251,
+        "height": 360,
+        "sha256": "935da7ad08e6bc610ba04aab10206f18c5608579ab30c516304f29d4398b6ee5"
+      }
+    },
+    "assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg": {
+      "originalBytes": 3887478,
+      "originalWidth": 2924,
+      "originalHeight": 4239,
+      "originalSha256": "bb0b664c315b786d953837764b9f14cd01a45a24443220a7869ce921b718a309",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg",
+      "display": {
+        "path": "assets/derivatives/display/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg.webp",
+        "bytes": 113988,
+        "width": 1104,
+        "height": 1600,
+        "sha256": "3b443867ea290075ca1fd24bf41b03bd101dc7a773f56984e9e5fa127f0a5d7d"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/evidence/HARTFORD-1960/NARA-NAID-28989015-object-0332.jpg.webp",
+        "bytes": 8190,
+        "width": 248,
+        "height": 360,
+        "sha256": "c33b7d42f832e610e4e9b66318c743abe31985631d4d2a4b471c68f5ba334e1d"
       }
     },
     "assets/evidence/HASTINGS-1957/HASTINGS-1957_aiirs1957_raw-object-048.png": {

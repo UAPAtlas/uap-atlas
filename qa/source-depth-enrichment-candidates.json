@@ -2286,29 +2286,6 @@
     ]
   },
   {
-    "id": "BF-SF-10",
-    "title": "Special File: Grusch Testimony & ODNI\u2013AARO Record",
-    "score": 12,
-    "sourceRecords": 1,
-    "indexedLinks": 7,
-    "publicSourceUrls": 5,
-    "evidenceAssets": 1,
-    "sourceQuality": "Official House hearing transcript/GovInfo record plus ODNI 2021 and AARO 2024 public records; strong congressional/public-record custody for testimony, not public proof of alleged programs.",
-    "quoteConfidence": "High for hearing-transcript/source phrases; limited for classified claims not independently public in the record.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:govinfo house hearing transcript serial 118-53, house oversight hearing page, odni 2021 assessment, and aaro 2024 historical record report vol. 1 local assets"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
     "id": "BF-1989-BW-01",
     "title": "Belgian Wave / F-16 Radar Case",
     "score": 10,
