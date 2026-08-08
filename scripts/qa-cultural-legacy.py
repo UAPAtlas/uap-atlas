@@ -75,7 +75,7 @@ def main() -> None:
                     url = BASE_URL + f"#case={case_id}&page=dossier"
                     page.goto(url, wait_until="load")
                     page.wait_for_timeout(500)
-                    assert page.evaluate("() => atlasData.cases.length") == 150
+                    assert page.evaluate("() => atlasData.cases.length") == 155
                     assert page.locator(".case-drawer").is_visible(), (viewport, case_id, "drawer")
                     card = page.locator(".cultural-legacy")
                     assert card.count() == 1 and card.is_visible(), (viewport, case_id, "card")

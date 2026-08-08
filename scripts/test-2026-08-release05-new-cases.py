@@ -27,8 +27,8 @@ def case_record(case, locator):
 atlas = json.loads((ROOT / 'atlas-data.json').read_text())
 sync_script = (ROOT / 'scripts/sync_atlas_runtime_data.py').read_text()
 by_id = {c['id']: c for c in atlas['cases']}
-require(len(atlas['cases']) == 150, 'new-case tranche must migrate corpus to 150 cases')
-require(len(atlas['timeline']) == 148, 'new-case tranche must migrate timeline to 148 entries')
+require(len(atlas['cases']) >= 150, 'Release 05 tranche baseline must retain at least 150 cases')
+require(len(atlas['timeline']) >= 148, 'Release 05 tranche baseline must retain at least 148 entries')
 require('DERIVED_CASE_FIELDS = (' in sync_script, 'runtime synchronizer must use deterministic ordered derived-field iteration')
 require(NEW_IDS <= set(by_id), f'missing new cases: {sorted(NEW_IDS - set(by_id))}')
 require({t.get('caseId') for t in atlas['timeline']} >= NEW_IDS, 'each new case must have a timeline entry')

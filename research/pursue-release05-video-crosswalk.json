@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "release": "PURSUE Release 05",
+  "resolvedDate": "2026-08-08",
+  "officialIndex": "https://www.dvidshub.net/search?q=AARO080726",
+  "method": "Exact DVIDS PR identifier, DVIDS video ID and Filename field matched to the hash-verified local Release 05 MP4 filename.",
+  "counts": {
+    "total": 16,
+    "gulfOfOmanD101": 6,
+    "fbiD032": 1,
+    "otherOfficiallyMappedCorpusRecords": 9,
+    "unmapped": 0
+  },
+  "boundary": "Official association authenticates the public record relationship. It does not establish object identity, extraordinary performance, native-sensor fidelity or byte identity with any original attachment package.",
+  "records": [
+    {
+      "filename": "DOD_111887376.mp4",
+      "bytes": 33427558,
+      "sha256": "7839c97afcfa195447734a9b9a7e1f44cacf98f4ec7b7c52037461ad54143eae",
+      "officialId": "DOW-UAP-PR125",
+      "dvidsVideoId": 1017788,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017788/dow-uap-pr125-unresolved-uap-report-pacific-ocean-2019",
+      "title": "Pacific Ocean, 2019",
+      "eventGroup": "pacific-2019",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to the contemporaneous Pacific 2019 PR123–PR127 set. Public metadata is too generalized for automatic merger with an existing Atlas case."
+    },
+    {
+      "filename": "DOD_111887380.mp4",
+      "bytes": 89410590,
+      "sha256": "e811290294e0454ea46e9949a41c7b852d40a5358e1c95d2c104ea26f9c1569c",
+      "officialId": "DOW-UAP-PR126",
+      "dvidsVideoId": 1017790,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017790/dow-uap-pr126-unresolved-uap-report-pacific-ocean-2019",
+      "title": "Pacific Ocean, 2019",
+      "eventGroup": "pacific-2019",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to the contemporaneous Pacific 2019 PR123–PR127 set. Public metadata is too generalized for automatic merger with an existing Atlas case."
+    },
+    {
+      "filename": "DOD_111887384.mp4",
+      "bytes": 84195488,
+      "sha256": "e067e118b1028e91404030df0370353ae2d8b04556d32a661bc2a91062839ca7",
+      "officialId": "DOW-UAP-PR127",
+      "dvidsVideoId": 1017791,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017791/dow-uap-pr127-unresolved-uap-report-pacific-ocean-2019",
+      "title": "Pacific Ocean, 2019",
+      "eventGroup": "pacific-2019",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to the contemporaneous Pacific 2019 PR123–PR127 set. Public metadata is too generalized for automatic merger with an existing Atlas case."
+    },
+    {
+      "filename": "DOD_111887390.mp4",
+      "bytes": 52517114,
+      "sha256": "df74c4259c07ed16d07ca52b5e74336f59073ad86f935a76ac68b6acbe6728da",
+      "officialId": "DOW-UAP-PR134",
+      "dvidsVideoId": 1017792,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017792/dow-uap-pr134-unresolved-uap-report-middle-east-2025",
+      "title": "Middle East, 2025",
+      "eventGroup": "middle-east-2025",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to a CENTCOM Middle East 2025 DVIDS record. Public date/location metadata is too generalized for automatic Atlas admission or merger."
+    },
+    {
+      "filename": "DOD_111887401.mp4",
+      "bytes": 20916447,
+      "sha256": "2182e7f3baa527cab0f11e70bce2d8cca78fa352e4136977ba2c26196bf35b2e",
+      "officialId": "DOW-UAP-PR117",
+      "dvidsVideoId": 1017793,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887407.mp4",
+      "bytes": 24280625,
+      "sha256": "2e092911f97f11ee3f59ff20d1a6085e8cad60aaabeefe916cf39be22e16d608",
+      "officialId": "DOW-UAP-PR118",
+      "dvidsVideoId": 1017795,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017795/dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887413.mp4",
+      "bytes": 12249790,
+      "sha256": "44cbcd0a5f922771b02391306377e9aec97e3091b780781e47ced8074aa66d8f",
+      "officialId": "DOW-UAP-PR136",
+      "dvidsVideoId": 1017796,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017796/dow-uap-pr136-unresolved-uap-report-middle-east-2023",
+      "title": "Middle East, 2023",
+      "eventGroup": "middle-east-2023",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to a CENTCOM Middle East 2023 DVIDS record. Public date/location metadata is too generalized for automatic Atlas admission or merger."
+    },
+    {
+      "filename": "DOD_111887419.mp4",
+      "bytes": 11176881,
+      "sha256": "fa2df73e27efdd8fed2807856b03659b67574ea156ef8f538cea831db8faec0e",
+      "officialId": "DOW-UAP-PR142",
+      "dvidsVideoId": 1017797,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017797/dow-uap-pr142-unresolved-uap-report-middle-east-2025",
+      "title": "Middle East, 2025",
+      "eventGroup": "middle-east-2025",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to a CENTCOM Middle East 2025 DVIDS record. Public date/location metadata is too generalized for automatic Atlas admission or merger."
+    },
+    {
+      "filename": "DOD_111887421.mp4",
+      "bytes": 2132163,
+      "sha256": "e8a0e2cefafbb1c4b343e778962a4ee09814fc5cb79da2724186e2ab85ab08d6",
+      "officialId": "DOW-UAP-PR119",
+      "dvidsVideoId": 1017798,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887426.mp4",
+      "bytes": 55170181,
+      "sha256": "c4258089bf48feb62c718ea19d37bf457538dfcf643f8307f5287d99c38c7d92",
+      "officialId": "DOW-UAP-PR149",
+      "dvidsVideoId": 1017799,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017799/dow-uap-pr149-unresolved-uap-report-middle-east-2023",
+      "title": "Middle East, 2023",
+      "eventGroup": "middle-east-2023",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to a CENTCOM Middle East 2023 DVIDS record. Public date/location metadata is too generalized for automatic Atlas admission or merger."
+    },
+    {
+      "filename": "DOD_111887427.mp4",
+      "bytes": 10304701,
+      "sha256": "a55d92ef1536f51398bfab7a7a64272d3a06cd71ca4766e1ea7ecca016686542",
+      "officialId": "DOW-UAP-PR120",
+      "dvidsVideoId": 1017800,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017800/dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887430.mp4",
+      "bytes": 1230965,
+      "sha256": "56f0a2691dc2f2c9a23139b7aab119dc4f9f213db9c2f6d05f7cda727b904d54",
+      "officialId": "FBI-UAP-PR007",
+      "dvidsVideoId": 1017801,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017801/fbi-uap-pr007-slow-moving-objects-2026",
+      "title": "Slow-Moving Objects, 2026",
+      "eventGroup": "fbi-d032-2026",
+      "atlasDisposition": "mapped-event-media",
+      "atlasMappings": [
+        "BF-2026-SMO-01"
+      ],
+      "boundary": "Officially mapped to D032 through DVIDS FBI-UAP-PR007. Released event footage, but range, scale, speed, identity and raw sensor metadata remain unavailable."
+    },
+    {
+      "filename": "DOD_111887439.mp4",
+      "bytes": 23882996,
+      "sha256": "2f857e92329ac23ec7e2c2ef68fc5a79c949ca708c0713c2cbf6ec76fdcb798a",
+      "officialId": "DOW-UAP-PR121",
+      "dvidsVideoId": 1017802,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017802/dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887446.mp4",
+      "bytes": 16649610,
+      "sha256": "1ee2092f1a6bc3a2331d2277eb2f5f0ed8b9630d3081d756bc7ab72ba0d806cf",
+      "officialId": "DOW-UAP-PR122",
+      "dvidsVideoId": 1017803,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017803/dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021",
+      "title": "Gulf of Oman, 2021",
+      "eventGroup": "gulf-of-oman-d101",
+      "atlasDisposition": "mapped-supporting-media",
+      "atlasMappings": [
+        "BF-2021-GOM-01"
+      ],
+      "boundary": "Officially mapped to D101 through DVIDS PR117–PR122. Secondary screen recording, not native sensor data; identity and performance remain unresolved."
+    },
+    {
+      "filename": "DOD_111887456.mp4",
+      "bytes": 44368966,
+      "sha256": "b52dae7c82282743a278b225eae0cb18de94a2bdb5d6f6b3f6da971d3d893176",
+      "officialId": "DOW-UAP-PR123",
+      "dvidsVideoId": 1017805,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017805/dow-uap-pr123-unresolved-uap-report-pacific-ocean-2019",
+      "title": "Pacific Ocean, 2019",
+      "eventGroup": "pacific-2019",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to the contemporaneous Pacific 2019 PR123–PR127 set. Public metadata is too generalized for automatic merger with an existing Atlas case."
+    },
+    {
+      "filename": "DOD_111887460.mp4",
+      "bytes": 64214893,
+      "sha256": "fdfa90936a8b9c15b58937babd3ac5c1136e4839f6a67f9dda8ee645d8db9fd3",
+      "officialId": "DOW-UAP-PR124",
+      "dvidsVideoId": 1017806,
+      "dvidsUrl": "https://www.dvidshub.net/video/1017806/dow-uap-pr124-unresolved-uap-report-pacific-ocean-2019",
+      "title": "Pacific Ocean, 2019",
+      "eventGroup": "pacific-2019",
+      "atlasDisposition": "corpus-only-officially-crosswalked",
+      "atlasMappings": [],
+      "boundary": "Officially mapped to the contemporaneous Pacific 2019 PR123–PR127 set. Public metadata is too generalized for automatic merger with an existing Atlas case."
+    }
+  ]
+}

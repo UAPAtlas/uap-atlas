@@ -29,7 +29,7 @@ def find_url(sources, url):
 
 atlas = json.loads((ROOT / 'atlas-data.json').read_text())
 by_id = {case['id']: case for case in atlas['cases']}
-require(len(atlas['cases']) == 150, 'Batch 01 evidence must remain valid inside the current 150-case corpus')
+require(len(atlas['cases']) >= 150, 'Batch 01 evidence must remain valid after later additive tranches')
 require(CHANGED <= set(by_id), 'Batch 01 changed-case set is incomplete')
 
 expected_pages = {

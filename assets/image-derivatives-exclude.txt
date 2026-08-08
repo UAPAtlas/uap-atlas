@@ -313,6 +313,10 @@
 /assets/sources/ARIEL-1994/afrinews-12-p07.jpg
 /assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png
 /assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg
+/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg
+/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg
+/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg
+/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg
 /assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png
 /assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png
 /assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png
@@ -326,6 +330,16 @@
 /assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png
 /assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png
 /assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg
+/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png

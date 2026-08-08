@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "caseCount": 150,
-  "countedCaseCount": 146,
+  "caseCount": 155,
+  "countedCaseCount": 151,
   "aggregateCaseIds": [
     "BF-1968-HIM-01",
     "BF-2015-NAV-01",
@@ -10,17 +10,17 @@
   ],
   "seriesParentCount": 4,
   "seriesChildCount": 16,
-  "timelineEventCount": 148,
-  "sourceIndexTerms": 246,
-  "sourceIndexFiles": 1137,
-  "casesWithMappedLinks": 150,
+  "timelineEventCount": 153,
+  "sourceIndexTerms": 265,
+  "sourceIndexFiles": 1191,
+  "casesWithMappedLinks": 155,
   "casesWithoutMappedLinks": [],
-  "casesWithIndexedSourceLinks": 150,
+  "casesWithIndexedSourceLinks": 155,
   "casesWithoutIndexedSourceLinks": [],
-  "casesWithStructuredSourceRecords": 150,
-  "casesWithPublicSourceUrls": 150,
-  "casesWithEvidenceAssets": 150,
-  "casesWithEvidenceOrPreview": 150,
+  "casesWithStructuredSourceRecords": 155,
+  "casesWithPublicSourceUrls": 155,
+  "casesWithEvidenceAssets": 155,
+  "casesWithEvidenceOrPreview": 155,
   "missingLocalAssets": [],
   "normalizedFieldMissing": {
     "caseTypes": [],
@@ -35,20 +35,20 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 10,
-    "statuses": 18,
-    "confidenceLabels": 21,
+    "domains": 11,
+    "statuses": 19,
+    "confidenceLabels": 23,
     "agencies": 91
   },
   "normalizedTaxonomy": {
     "caseTypes": 96,
-    "evidenceModes": 75,
-    "environments": 49,
+    "evidenceModes": 79,
+    "environments": 52,
     "outcomes": 28
   },
   "geometryTypes": {
     "LineString": 4,
-    "Point": 118,
+    "Point": 123,
     "none": 26,
     "Polygon": 2
   },
@@ -60,25 +60,25 @@
     "BF-1997-PH-01",
     "BF-2004-NM-01"
   ],
-  "quotesSelected": 150,
-  "quotesWithLocators": 150,
-  "sourceRecordCount": 290,
+  "quotesSelected": 155,
+  "quotesWithLocators": 155,
+  "sourceRecordCount": 302,
   "sourceDepthWeakCaseCount": 49,
-  "sourceDepthEnrichmentCandidateCount": 102,
+  "sourceDepthEnrichmentCandidateCount": 105,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 9,
     "acquisitionTargets": 18,
-    "complete": 123
+    "complete": 128
   },
   "sourceProfileCounts": {
     "complete-primary-packet": 40,
     "secondary-only": 7,
-    "multi-source-independent": 13,
+    "multi-source-independent": 15,
     "thin-summary": 42,
     "mixed-provenance": 2,
-    "single-primary-record": 46
+    "single-primary-record": 49
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -1506,26 +1506,73 @@
       ]
     },
     "BF-1964-PR-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
+      "label": "multi-source-independent",
+      "primaryRecords": 3,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "cia"
+        "cia",
+        "other:complete unrestricted november 1964 deck log digitized by nara; target-day page images use nara digital-object ids 212794531\u2013212794532 and 212794551\u2013212794552"
       ]
     },
     "BF-2021-GOM-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
+      "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:exact pdf published by the u.s. department of war in pursue release 05; full local copy hash-verified against the original download"
+        "other:exact pdf published by the u.s. department of war in pursue release 05; full local copy hash-verified against the original download",
+        "other:individual dvids records published by aaro/dow on 7 august 2026 map pr117\u2013pr122 to exact release 05 dod filenames"
       ]
     },
     "BF-2026-RL-01": {
       "label": "single-primary-record",
       "primaryRecords": 6,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2026-SMO-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2002-BG-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2023-CST-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2011-DT-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2023-CSR-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [

@@ -1209,6 +1209,30 @@
     ]
   },
   {
+    "id": "BF-2002-BG-01",
+    "title": "Bagram Silent Triangle Report",
+    "score": 22,
+    "sourceRecords": 2,
+    "indexedLinks": 3,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "sourceQuality": "One retrospective official witness-interview record plus one released reconstruction; no independently released contemporaneous or sensor evidence.",
+    "quoteConfidence": "High transcription confidence for the recorded interview wording; independent event verification is unavailable because the account was recorded roughly 22 years later.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-2019-OM-01",
     "title": "USS Omaha Sphere & Swarm Events",
     "score": 20,
@@ -1491,29 +1515,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "usaf-blue-book"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
-    "id": "BF-1964-PR-01",
-    "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
-    "score": 12,
-    "sourceRecords": 2,
-    "indexedLinks": 6,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 5,
-    "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
-    "quoteConfidence": "High \u2014 exact wording in the released briefing note; it establishes the reported radar-film chain, not the object\u2019s identity.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "cia"
       ]
     },
     "reasons": [
@@ -1869,6 +1870,29 @@
     ]
   },
   {
+    "id": "BF-2011-DT-01",
+    "title": "Large Dark Triangle with Lights Report",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "One official retrospective multi-witness interview record plus one reconstruction; no contemporaneous or sensor evidence.",
+    "quoteConfidence": "High for the recorded witness wording; dimensions, altitude and event interpretation remain unverified.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
     "id": "BF-2020-AG-D3",
     "title": "Four Objects in Sequence",
     "score": 12,
@@ -2007,29 +2031,6 @@
     ]
   },
   {
-    "id": "BF-2021-GOM-01",
-    "title": "Gulf of Oman AC-130 EO/IR Event",
-    "score": 12,
-    "sourceRecords": 1,
-    "indexedLinks": 9,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
-    "quoteConfidence": "High \u2014 exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence.",
-    "sourceProfile": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:exact pdf published by the u.s. department of war in pursue release 05; full local copy hash-verified against the original download"
-      ]
-    },
-    "reasons": [
-      "source profile=single-primary-record"
-    ]
-  },
-  {
     "id": "BF-2022-IQ-02",
     "title": "Iraq ISR Object \u2014 No Positive Identification",
     "score": 12,
@@ -2065,6 +2066,52 @@
     "sourceProfile": {
       "label": "single-primary-record",
       "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-CSR-01",
+    "title": "Colorado Springs Red-Light Triangle Report",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 4,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "One official retrospective witness interview plus one reconstruction; no independent witness, native media, sensor or technical corroboration.",
+    "quoteConfidence": "High for the recorded witness wording; the estimate was not independently measured or technically verified.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2023-CST-01",
+    "title": "Colorado Springs Translucent Triangle Report",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "sourceQuality": "One official household-witness interview record and one reconstruction; retrospective, short-duration, and without independent sensor corroboration.",
+    "quoteConfidence": "High for the recorded witness wording; event interpretation remains uncorroborated.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
@@ -2295,6 +2342,29 @@
     "sourceProfile": {
       "label": "single-primary-record",
       "primaryRecords": 6,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2026-SMO-01",
+    "title": "Slow-Moving Thermal Objects",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 5,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "sourceQuality": "Exact official FD-302 plus an officially associated released event clip; severe redaction, a short public excerpt and absent measurement/raw-data layers prevent performance or identity claims.",
+    "quoteConfidence": "High \u2014 exact witness-account language in the released FD-302; the record does not establish measured speed, altitude or identity.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [

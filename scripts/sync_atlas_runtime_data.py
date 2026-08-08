@@ -95,7 +95,7 @@ def main() -> None:
     atlas = json.loads((ROOT / "atlas-data.json").read_text())
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
     source_availability = json.loads((ROOT / "source-availability.json").read_text())
-    if len(atlas.get("cases", [])) != 150:
+    if len(atlas.get("cases", [])) != 155:
         raise RuntimeError(f"Refusing to sync unexpected case count: {len(atlas.get('cases', []))}")
 
     html_text = html_path.read_text()
@@ -119,8 +119,8 @@ def main() -> None:
         and isinstance(case.get("x"), (int, float)) and not isinstance(case.get("x"), bool)
         and isinstance(case.get("y"), (int, float)) and not isinstance(case.get("y"), bool)
     ]
-    if len(projected) != 124:
-        raise RuntimeError(f"Refusing to sync runtime without 124 projected cases: {len(projected)}")
+    if len(projected) != 129:
+        raise RuntimeError(f"Refusing to sync runtime without 129 projected cases: {len(projected)}")
     runtime_text = replace_constant(runtime_text, "atlasData", atlas)
     runtime_text = replace_constant(runtime_text, "sourceFileIndex", source_index)
     if has_constant(runtime_text, "sourceAvailabilityIndex"):

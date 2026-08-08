@@ -11,7 +11,7 @@
     "trueGaps": 0,
     "qualityUpgrades": 9,
     "acquisitionTargets": 18,
-    "complete": 123
+    "complete": 128
   },
   "cases": [
     {
@@ -1137,6 +1137,23 @@
       "quoteConfidence": "scan-sensitive-document-transcription"
     },
     {
+      "id": "BF-2002-BG-01",
+      "title": "Bagram Silent Triangle Report",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 22,
+      "legacyWeaknessScore": 22,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 3,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 2,
+      "sourceQuality": "One retrospective official witness-interview record plus one released reconstruction; no independently released contemporaneous or sensor evidence.",
+      "quoteConfidence": "High transcription confidence for the recorded interview wording; independent event verification is unavailable because the account was recorded roughly 22 years later."
+    },
+    {
       "id": "BF-2019-OM-01",
       "title": "USS Omaha Sphere & Swarm Events",
       "domain": "MILITARY / SENSOR",
@@ -1307,23 +1324,6 @@
       "evidenceAssets": 8,
       "sourceQuality": "Complete page-mapped 781st Aircraft Control and Warning Squadron packet in NARA NAID 311001910, raw objects 048\u2013054: official report 048\u2013050, transmittal 051, and complete witness statement 052\u2013054. It preserves four civilian witnesses and the report's possible aircraft/refueling explanation; no radar or photographic corroboration is included.",
       "quoteConfidence": "High page-verification confidence \u2014 exact smaller-object language on raw object 049, corroborated by the mapped witness statement; interpretation remains unresolved."
-    },
-    {
-      "id": "BF-1964-PR-01",
-      "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
-      "domain": "MILITARY / SENSOR",
-      "category": "complete",
-      "priorityScore": 12,
-      "legacyWeaknessScore": 12,
-      "reasons": [],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
-      "indexedLinks": 6,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 5,
-      "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
-      "quoteConfidence": "High \u2014 exact wording in the released briefing note; it establishes the reported radar-film chain, not the object\u2019s identity."
     },
     {
       "id": "BF-1968-HIM-01",
@@ -1530,6 +1530,23 @@
       "quoteConfidence": "High page-verification confidence \u2014 exact 'bow wave' language on released cable page 2; maneuver, altitude, and origin claims remain crew estimates/opinion."
     },
     {
+      "id": "BF-2011-DT-01",
+      "title": "Large Dark Triangle with Lights Report",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "One official retrospective multi-witness interview record plus one reconstruction; no contemporaneous or sensor evidence.",
+      "quoteConfidence": "High for the recorded witness wording; dimensions, altitude and event interpretation remain unverified."
+    },
+    {
       "id": "BF-2020-AG-D3",
       "title": "Four Objects in Sequence",
       "domain": "MILITARY / SENSOR",
@@ -1632,23 +1649,6 @@
       "quoteConfidence": "verified against released source page"
     },
     {
-      "id": "BF-2021-GOM-01",
-      "title": "Gulf of Oman AC-130 EO/IR Event",
-      "domain": "MILITARY / SENSOR",
-      "category": "complete",
-      "priorityScore": 12,
-      "legacyWeaknessScore": 12,
-      "reasons": [],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 9,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
-      "quoteConfidence": "High \u2014 exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence."
-    },
-    {
       "id": "BF-2022-IQ-02",
       "title": "Iraq ISR Object \u2014 No Positive Identification",
       "domain": "MILITARY / SENSOR",
@@ -1681,6 +1681,40 @@
       "evidenceAssets": 3,
       "sourceQuality": "Primary source",
       "quoteConfidence": "confirmed primary-source quotation"
+    },
+    {
+      "id": "BF-2023-CSR-01",
+      "title": "Colorado Springs Red-Light Triangle Report",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 4,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "One official retrospective witness interview plus one reconstruction; no independent witness, native media, sensor or technical corroboration.",
+      "quoteConfidence": "High for the recorded witness wording; the estimate was not independently measured or technically verified."
+    },
+    {
+      "id": "BF-2023-CST-01",
+      "title": "Colorado Springs Translucent Triangle Report",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 4,
+      "sourceQuality": "One official household-witness interview record and one reconstruction; retrospective, short-duration, and without independent sensor corroboration.",
+      "quoteConfidence": "High for the recorded witness wording; event interpretation remains uncorroborated."
     },
     {
       "id": "BF-2023-GR-00",
@@ -1834,6 +1868,23 @@
       "evidenceAssets": 10,
       "sourceQuality": "Two official companion witness-interview records plus four released reconstruction files; exact context, native sensor data and independent analytical findings are absent.",
       "quoteConfidence": "High \u2014 exact witness-account language in the released FD-302; no independent examination of the watch is included."
+    },
+    {
+      "id": "BF-2026-SMO-01",
+      "title": "Slow-Moving Thermal Objects",
+      "domain": "GOVERNMENT / SENSOR",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 5,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "Exact official FD-302 plus an officially associated released event clip; severe redaction, a short public excerpt and absent measurement/raw-data layers prevent performance or identity claims.",
+      "quoteConfidence": "High \u2014 exact witness-account language in the released FD-302; the record does not establish measured speed, altitude or identity."
     },
     {
       "id": "BF-SF-02",
@@ -2244,6 +2295,23 @@
       "quoteConfidence": "High \u2014 exact wording is visually verified on USAF Air Intelligence Information Report 100-1-61. The NARA file separately authenticates Blue Book custody and disposition; later abduction and hypnosis narratives remain outside the quote\u2019s scope."
     },
     {
+      "id": "BF-1964-PR-01",
+      "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "multi-source-independent",
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 11,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 9,
+      "sourceQuality": "Two exact official CIA/Navy records plus the complete digitized USS Gyatt November 1964 deck log. The log confirms operating context on 19 and 24 November but contains no anomalous-contact entry; the referenced radar film, prints, message traffic and final analysis remain missing.",
+      "quoteConfidence": "High \u2014 exact wording in the released briefing note; it establishes the reported radar-film chain, not the object\u2019s identity."
+    },
+    {
       "id": "BF-1964-SC-01",
       "title": "Socorro Landing / Lonnie Zamora",
       "domain": "HISTORICAL / AERIAL",
@@ -2480,6 +2548,23 @@
       "evidenceAssets": 11,
       "sourceQuality": "Primary released record",
       "quoteConfidence": "verified against released source page"
+    },
+    {
+      "id": "BF-2021-GOM-01",
+      "title": "Gulf of Oman AC-130 EO/IR Event",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "multi-source-independent",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 11,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 4,
+      "sourceQuality": "Exact official IIR plus six officially associated DVIDS secondary videos with exact filenames; the report is not finally evaluated and native telemetry, full DVR data and independent correlation remain missing.",
+      "quoteConfidence": "High \u2014 exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence."
     },
     {
       "id": "BF-2022-CS-01",

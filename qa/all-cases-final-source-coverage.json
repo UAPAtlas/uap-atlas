@@ -2452,15 +2452,17 @@
       "CIA-UAP-D022",
       "CIA-UAP-D022 \u00b7 PDF pp. 3\u20134 and 6",
       "CIA-UAP-D023",
-      "CIA-UAP-D023 \u00b7 PDF pp. 1\u20132"
+      "CIA-UAP-D023 \u00b7 PDF pp. 1\u20132",
+      "NARA 212794455",
+      "NARA 212794455 \u00b7 19 and 24 November 1964"
     ],
-    "indexedLinks": 6,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 5,
-    "links": 6,
-    "local": 5,
-    "urls": 1,
+    "indexedLinks": 11,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 9,
+    "links": 11,
+    "local": 9,
+    "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2470,15 +2472,16 @@
     "tokens": [
       "DOW-UAP-D101",
       "DOW-UAP-D10",
-      "DOW-UAP-D101 \u00b7 PDF pp. 1, 5\u20136"
+      "DOW-UAP-D101 \u00b7 PDF pp. 1, 5\u20136",
+      "DOW-UAP-PR117\u2013PR122"
     ],
-    "indexedLinks": 9,
-    "structuredSourceRecords": 1,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "links": 9,
-    "local": 8,
-    "urls": 1,
+    "indexedLinks": 11,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 4,
+    "links": 11,
+    "local": 9,
+    "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2501,6 +2504,97 @@
     "evidenceAssets": 10,
     "links": 11,
     "local": 10,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2026-SMO-01",
+    "title": "Slow-Moving Thermal Objects",
+    "tokens": [
+      "FBI-UAP-D032",
+      "FBI-UAP-D032 \u00b7 PDF pp. 1\u20132",
+      "FBI-UAP-PR007",
+      "FBI-UAP-PR007 \u00b7 DOD_111887430"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 3,
+    "links": 5,
+    "local": 3,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2002-BG-01",
+    "title": "Bagram Silent Triangle Report",
+    "tokens": [
+      "FBI-UAP-D024",
+      "FBI-UAP-D024 \u00b7 PDF p. 3",
+      "FBI-UAP-D025"
+    ],
+    "indexedLinks": 3,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 2,
+    "links": 3,
+    "local": 2,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-CST-01",
+    "title": "Colorado Springs Translucent Triangle Report",
+    "tokens": [
+      "FBI-UAP-D026",
+      "FBI-UAP-D026 \u00b7 PDF pp. 1\u20133",
+      "FBI-UAP-D027"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 4,
+    "links": 5,
+    "local": 4,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2011-DT-01",
+    "title": "Large Dark Triangle with Lights Report",
+    "tokens": [
+      "FBI-UAP-D028",
+      "FBI-UAP-D028 \u00b7 PDF pp. 1\u20132",
+      "FBI-UAP-D029"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-CSR-01",
+    "title": "Colorado Springs Red-Light Triangle Report",
+    "tokens": [
+      "FBI-UAP-D030",
+      "FBI-UAP-D030 \u00b7 PDF pp. 1\u20132",
+      "FBI-UAP-D031"
+    ],
+    "indexedLinks": 4,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 4,
+    "local": 3,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true

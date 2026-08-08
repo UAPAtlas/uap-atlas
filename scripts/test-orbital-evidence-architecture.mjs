@@ -5,7 +5,7 @@ const data = JSON.parse(fs.readFileSync('atlas-data.json', 'utf8'));
 const app = fs.readFileSync('atlas-app.js', 'utf8');
 const orbital = data.cases.filter(c => c.mode === 'orbital');
 
-assert.equal(data.cases.length, 150, 'canonical case count must remain 150');
+assert.equal(data.cases.length, 155, 'canonical case count must remain 155');
 assert.equal(orbital.length, 26, 'Orbital/Lunar layer must contain exactly 26 records');
 
 const roles = new Map();

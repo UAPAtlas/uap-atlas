@@ -26,7 +26,7 @@ def require(text: str, *phrases: str) -> None:
 
 def main() -> None:
     atlas = load(ATLAS)
-    assert len(atlas["cases"]) == 150
+    assert len(atlas["cases"]) >= 150
     cases = {c["id"]: c for c in atlas["cases"]}
     index = load(INDEX)
     backlog = load(BACKLOG)

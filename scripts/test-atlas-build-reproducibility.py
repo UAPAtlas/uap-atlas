@@ -78,6 +78,7 @@ def main() -> None:
             "--app",
             str(app_target),
             "--combined",
+            "--legacy-full-artifact",
         )
         mobile_paths = [target] + ([app_target] if app_target.exists() else [])
         mobile_first = digest(mobile_paths)
@@ -91,6 +92,7 @@ def main() -> None:
             "--app",
             str(app_target),
             "--combined",
+            "--legacy-full-artifact",
         )
         mobile_second = digest(mobile_paths)
         if mobile_first != mobile_second:

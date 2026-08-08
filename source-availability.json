@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 910,
-    "publicLocal": 362,
-    "externalPublic": 410,
+    "indexedPaths": 933,
+    "publicLocal": 368,
+    "externalPublic": 427,
     "custodyOnly": 138,
     "unavailable": 0
   },
@@ -3450,6 +3450,30 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg"
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg"
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg"
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg"
+    },
     "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
@@ -3518,6 +3542,10 @@
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png"
     },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-PR117-PR122-video-contact.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png": {
       "status": "external-public",
       "label": "Archival original served from the Atlas Git repository",
@@ -3535,6 +3563,86 @@
       "label": "Archival original served from the Atlas Git repository",
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-003.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D027-witness-reconstruction.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D029-witness-reconstruction.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-PR007-video-contact.jpg": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-002.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
     },
     "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png": {
       "status": "external-public",
@@ -3652,6 +3760,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "arxiv.org"
+    },
+    "https://catalog.archives.gov/id/212794455": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "catalog.archives.gov"
     },
     "https://catalog.archives.gov/id/28939862": {
       "status": "external-public",
@@ -3999,6 +4112,16 @@
       "host": "www.dvidshub.net"
     },
     "https://www.dvidshub.net/video/1014107/nasa-uap-d026-apollo-14-debriefing-1971": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.dvidshub.net"
+    },
+    "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.dvidshub.net"
+    },
+    "https://www.dvidshub.net/video/1017801/fbi-uap-pr007-slow-moving-objects-2026": {
       "status": "external-public",
       "label": "External public source",
       "host": "www.dvidshub.net"

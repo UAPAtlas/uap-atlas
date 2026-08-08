@@ -27715,14 +27715,18 @@
       "quoteConfidence": "High — exact wording in the released briefing note; it establishes the reported radar-film chain, not the object’s identity.",
       "heroFact": "Navy traffic reportedly delivered the original radar film and prints to CIA, but Release 05 contains the memoranda—not the radar media itself.",
       "significance": "High significance",
-      "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
+      "sourceQuality": "Two exact official CIA/Navy records plus the complete digitized USS Gyatt November 1964 deck log. The log confirms operating context on 19 and 24 November but contains no anomalous-contact entry; the referenced radar film, prints, message traffic and final analysis remain missing.",
       "image": "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
       "images": [
         "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
         "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png",
         "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png",
         "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png",
-        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-002.png"
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-002.png",
+        "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg",
+        "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg",
+        "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg",
+        "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg"
       ],
       "caseTypes": [
         "military-encounter"
@@ -27809,6 +27813,29 @@
             "A briefing note summarizes underlying reports that are not included in full",
             "Pilot estimates and radar summaries cannot be independently reconstructed without the original media and logs"
           ]
+        },
+        {
+          "citation": "USS Gyatt (DD-712) deck log, November 1964, NARA catalog ID 212794455, Record Group 24",
+          "sourceType": "primary-official-ship-deck-log",
+          "provenance": "Complete unrestricted November 1964 deck log digitized by NARA; target-day page images use NARA digital-object IDs 212794531–212794532 and 212794551–212794552",
+          "locator": "NARA 212794455 · 19 and 24 November 1964",
+          "url": "https://catalog.archives.gov/id/212794455",
+          "sourcePageImages": [
+            "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg",
+            "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg",
+            "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg",
+            "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg"
+          ],
+          "supports": [
+            "Confirms USS Gyatt was steaming off the northwest coast of Puerto Rico on 19 November 1964",
+            "Records ASW exercises, Hedgehog calibration and routine project operations on 19 November",
+            "Records departure from San Juan toward Culebra on 24 November"
+          ],
+          "limitations": [
+            "The target-day deck-log sheets contain no entry describing the reported unidentified target, F-8C intercept, radar track or radar-scope photography",
+            "Silence in the permanent deck log does not refute a separate tactical, intelligence or classified reporting chain",
+            "The log does not recover the radar film, prints, pilot statement, weapons-range data or final OSI/OEL analysis"
+          ]
         }
       ],
       "phenomena": {
@@ -27860,18 +27887,28 @@
           "access": "Public official release landing page",
           "scope": "official-release-custody",
           "note": "Official custody page for CIA-UAP-D022 and D023. The records authenticate the intelligence and radar-film handling chain, not an extraordinary object origin."
+        },
+        {
+          "label": "NARA — USS Gyatt November 1964 deck log",
+          "url": "https://catalog.archives.gov/id/212794455",
+          "publisher": "U.S. National Archives",
+          "access": "Complete unrestricted digitized deck log",
+          "scope": "official-operational-context",
+          "note": "Confirms ship location and routine operations on the strongest incident dates; no anomalous-contact entry appears in the target-day sheets."
         }
       ],
       "evidenceBoundary": {
         "established": [
           "Official CIA/Navy records document pilot, shipboard-radar and weapons-range reporting on 16, 17, 18, 19 and 24 November 1964.",
           "The Navy provided original radar film and prints to CIA for analysis.",
-          "CIA rejected the proposed YF-12A identification and considered conventional high-performance aircraft possibilities."
+          "CIA rejected the proposed YF-12A identification and considered conventional high-performance aircraft possibilities.",
+          "The NARA deck log confirms Gyatt's operating context off Puerto Rico on 19 November and movement from San Juan toward Culebra on 24 November."
         ],
         "notEstablished": [
           "The original radar film, prints, complete pilot statement and final technical analysis are absent from Release 05.",
           "The exact object identity, trajectory, speed and origin.",
-          "That the reports described one object or an extraordinary vehicle."
+          "That the reports described one object or an extraordinary vehicle.",
+          "The target-day deck-log sheets do not preserve the reported radar anomaly; their silence neither authenticates nor disproves the separate intelligence account."
         ],
         "competingExplanations": [
           "High-performance military aircraft, including a speculative MiG-21 reconnaissance configuration; sensor or range reconstruction error; unidentified conventional aircraft."
@@ -27899,10 +27936,10 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED REPORT · NOT FINALLY EVALUATED",
-      "summary": "A released Intelligence Information Report states that a USSOF AC-130 crew observed approximately 25 UAP instances through EO/IR during live-fire training in the Gulf of Oman on 8 September 2021. Two approximately four-foot cold objects were reported stationary just above the water near a flare before departing as the 105 mm cannon fired; later observations described pairs and trios maneuvering in formation. The report is marked not finally evaluated, and its six-video attachment is absent from the released packet.",
-      "keyFact": "The report provides a direct military-platform and EO/IR sensor chain, GPS-derived location basis and reported speed calculations, but the PowerPoint containing six embedded videos and the corrupted full DVR recording are unavailable.",
+      "summary": "A released Intelligence Information Report states that a USSOF AC-130 crew observed approximately 25 UAP instances through EO/IR during live-fire training in the Gulf of Oman on 8 September 2021. Two approximately four-foot cold objects were reported stationary just above the water near a flare before departing as the 105 mm cannon fired; later observations described pairs and trios maneuvering in formation. DVIDS now officially associates six public secondary recordings, PR117–PR122, with D101; the report remains not finally evaluated intelligence.",
+      "keyFact": "DVIDS resolves all six public Release 05 clips associated with D101 to PR117–PR122 and exact DOD filenames. They are secondary cellphone recordings of an AC-130J infrared display—not native sensor data—and the corrupted full DVR, telemetry and original PowerPoint package remain unavailable.",
       "official": "The document is an Intelligence Information Report explicitly labeled “not finally evaluated intelligence.” It records source reporting and broad dissemination; it is not an AARO, AFSOC or intelligence-community finding about object identity or origin.",
-      "gap": "Missing are the six embedded AC-130 videos, uncorrupted full-sortie DVR data, raw sensor metadata, aircraft telemetry/TACTOOL outputs, independent radar or ship correlation, and a final analytical disposition.",
+      "gap": "Missing are the native full-sortie DVR data, raw EO/IR metadata, aircraft telemetry/TACTOOL outputs, independent radar or ship correlation, the original PowerPoint attachment package, and a final analytical disposition. The public clips do not establish range, scale, speed, identity or response to gunfire.",
       "whyItMatters": "A unusually detailed modern military sensor report combining a named aircraft class, EO/IR observation, live-fire chronology, location methodology and attachment trail while clearly exposing the decisive missing data.",
       "sources": [
         "DOW-UAP-D101 · Gulf of Oman AC-130 Intelligence Information Report, 2021/2022"
@@ -27916,21 +27953,23 @@
       "keyQuote": "Immediately upon pulling the trigger… the CSO observed the pair of UAP rapidly fly away from the flare and out of the sensor feed without changing altitude.",
       "quoteSource": "DOW-UAP-D101, PDF p. 5",
       "quoteConfidence": "High — exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence.",
-      "heroFact": "The report lists a PowerPoint containing six embedded AC-130 videos, but Release 05 does not provide a defensible filename crosswalk to the anonymous MP4s.",
+      "heroFact": "The six Release 05 clips are now officially crosswalked to D101 as PR117–PR122, but DVIDS identifies them as secondary recordings of a sensor display rather than native sensor data.",
       "significance": "High significance",
-      "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
+      "sourceQuality": "Exact official IIR plus six officially associated DVIDS secondary videos with exact filenames; the report is not finally evaluated and native telemetry, full DVR data and independent correlation remain missing.",
       "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
       "images": [
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
-        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-PR117-PR122-video-contact.jpg"
       ],
       "caseTypes": [
         "military-encounter"
       ],
       "evidenceModes": [
         "sensor",
-        "documentary-record"
+        "documentary-record",
+        "released-video"
       ],
       "environment": [
         "maritime",
@@ -27985,8 +28024,37 @@
           ],
           "limitations": [
             "The IIR is explicitly not finally evaluated intelligence",
-            "The six-video PowerPoint, full DVR recording, telemetry and independent sensor correlation are absent",
-            "Release custody authenticates the report, not the object interpretation or reported performance"
+            "DVIDS identifies PR117–PR122 as secondary recordings of an AC-130J infrared display, not native primary sensor data",
+            "The corrupted full DVR, raw metadata, telemetry and independent sensor correlation remain absent",
+            "Release custody authenticates the report and public clips, not the object interpretation or reported performance"
+          ]
+        },
+        {
+          "citation": "DVIDS official video records DOW-UAP-PR117 through DOW-UAP-PR122, associated with DOW-UAP-D101",
+          "sourceType": "primary-official-public-video-crosswalk-set",
+          "provenance": "Individual DVIDS records published by AARO/DoW on 7 August 2026 map PR117–PR122 to exact Release 05 DOD filenames",
+          "locator": "DOW-UAP-PR117–PR122",
+          "url": "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+          "relatedUrls": [
+            "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+            "https://www.dvidshub.net/video/1017795/dow-uap-pr118-unresolved-uap-report-gulf-of-oman-2021",
+            "https://www.dvidshub.net/video/1017798/dow-uap-pr119-unresolved-uap-report-gulf-of-oman-2021",
+            "https://www.dvidshub.net/video/1017800/dow-uap-pr120-unresolved-uap-report-gulf-of-oman-2021",
+            "https://www.dvidshub.net/video/1017802/dow-uap-pr121-unresolved-uap-report-gulf-of-oman-2021",
+            "https://www.dvidshub.net/video/1017803/dow-uap-pr122-unresolved-uap-report-gulf-of-oman-2021"
+          ],
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-PR117-PR122-video-contact.jpg"
+          ],
+          "supports": [
+            "Officially associates six public clips, PR117–PR122, with the Gulf of Oman D101 report",
+            "Maps each PR record to an exact Release 05 DOD filename and public DVIDS video record",
+            "States that the six clips were captured contemporaneously and are secondary recordings of an AC-130J infrared display"
+          ],
+          "limitations": [
+            "The public MP4s are not native primary sensor data and screen-recording artifacts may be present",
+            "DVIDS does not establish byte identity with the original six PowerPoint embeds or recover the corrupted full-sortie DVR",
+            "The clips alone do not establish object identity, range, scale, speed, altitude or extraordinary performance"
           ]
         }
       ],
@@ -28040,21 +28108,30 @@
           "publisher": "U.S. Department of War",
           "access": "Public official release landing page",
           "scope": "official-release-custody",
-          "note": "Official custody page for DOW-UAP-D101. The IIR is marked not finally evaluated and its listed six-video attachment is not defensibly mapped to the anonymous Release 05 MP4s."
+          "note": "Official custody page for DOW-UAP-D101 and the 16 Release 05 MP4s."
+        },
+        {
+          "label": "DVIDS — DOW-UAP-PR117 through PR122",
+          "url": "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+          "publisher": "Defense Visual Information Distribution Service / AARO",
+          "access": "Public official video records",
+          "scope": "official-video-crosswalk",
+          "note": "Six individual DVIDS records map the public filenames to D101 and classify them as secondary recordings of an AC-130J infrared display, not native sensor data."
         }
       ],
       "evidenceBoundary": {
         "established": [
           "An official IIR records direct-source AC-130 EO/IR observations during a dated Gulf of Oman sortie.",
-          "The report lists GPS-derived coordinates, source-derived speed estimates and six embedded videos as an attachment."
+          "The report lists GPS-derived coordinates, source-derived speed estimates and six embedded videos as an attachment.",
+          "DVIDS officially associates PR117–PR122 and six exact DOD filenames with D101 and states that the clips were captured contemporaneously."
         ],
         "notEstablished": [
           "The identity or origin of the reported objects.",
           "Independent verification of the source-calculated speeds, dimensions or response to gunfire.",
-          "A defensible mapping between the six listed videos and any anonymous Release 05 MP4 filename."
+          "That the public secondary recordings are native sensor data or byte-identical exports of the original PowerPoint embeds."
         ],
         "competingExplanations": [
-          "Sensor or range-estimation effects, thermal contrast near a flare/live-fire environment, seabirds, debris, munitions-related objects, aircraft or UAS, and parallax remain unresolved without the missing media and telemetry."
+          "Sensor or range-estimation effects, thermal contrast near a flare/live-fire environment, seabirds, debris, munitions-related objects, aircraft or UAS, and parallax remain unresolved without native data and telemetry."
         ]
       },
       "mapGeometry": null,
@@ -28342,6 +28419,1027 @@
       "mapGeometry": null,
       "x": 25.91,
       "y": 18.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2026-SMO-01",
+      "title": "Slow-Moving Thermal Objects",
+      "date": "[REDACTED] 2026",
+      "year": 2026,
+      "location": "Western United States [REDACTED]",
+      "mode": "redacted",
+      "lon": -111,
+      "lat": 39.5,
+      "expectedCountry": "United States of America",
+      "geometryExpectation": "country",
+      "coordinatePrecision": "regional-redacted-generalized",
+      "coordinateBasis": "Map-only generalized western-U.S. point; exact location and date are redacted in the released FBI record",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / SENSOR",
+      "status": "DOCUMENTED · UNRESOLVED",
+      "confidence": "CONFIRMED RECORD · RELEASED EVENT FOOTAGE",
+      "summary": "A 2026 FBI FD-302 records that a government special agent responded to an RF alert by using a hand-held thermal optical device and observing two black-hot objects moving together slowly above a mountain line for approximately 5–10 minutes. DVIDS officially maps the 10-second Release 05 clip DOD_111887430 to FBI-UAP-PR007 and states that it was captured by the agent during the event. The released clip shows two small black-hot contrast areas but cannot establish identity, range, altitude, size or speed.",
+      "keyFact": "Release 05 originally exposed the interview without a filename mapping; the DVIDS record now identifies DOD_111887430 as FBI-UAP-PR007, a 10-second excerpt captured through the hand-held thermal device during the D032 event.",
+      "official": "The FD-302 documents what the interviewed agent reported and explicitly contains no FBI recommendation or conclusion. DVIDS authenticates the public clip's association with the report, not the identity or anomalous nature of the imaged contrast areas.",
+      "gap": "Exact date/location, RF system and bearing context, raw thermal metadata, range/altitude/scale, the complete reported photo/video set, other sensor records, independent witnesses and a final analytical disposition remain unavailable. D033 is not merged because its event linkage is not established.",
+      "whyItMatters": "A rare modern case with an official interview record, RF-alert chronology, thermal-optical observation and a publicly released event clip that can be inspected while its severe measurement limitations remain explicit.",
+      "sources": [
+        "FBI-UAP-D032 · FD-302 slow-moving objects record",
+        "FBI-UAP-PR007 · officially associated 10-second thermal-optics video"
+      ],
+      "sourceLabel": "FBI FD-302 / DVIDS event footage",
+      "sourceLocator": "FBI-UAP-D032",
+      "relatedCaseIds": [
+        "BF-2026-RL-01"
+      ],
+      "keyQuote": "The objects were moving together at the same speed. Both were black hot.",
+      "quoteSource": "FBI-UAP-D032, FD-302, PDF p. 1",
+      "quoteConfidence": "High — exact witness-account language in the released FD-302; the record does not establish measured speed, altitude or identity.",
+      "heroFact": "The official 10-second clip preserves two black-hot contrast areas, but it has no public ranging, scale, telemetry or raw sensor metadata.",
+      "significance": "Moderate significance",
+      "sourceQuality": "Exact official FD-302 plus an officially associated released event clip; severe redaction, a short public excerpt and absent measurement/raw-data layers prevent performance or identity claims.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-PR007-video-contact.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-PR007-video-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-002.png"
+      ],
+      "caseTypes": [
+        "military-encounter"
+      ],
+      "evidenceModes": [
+        "testimony",
+        "thermal-optical-observation",
+        "released-video"
+      ],
+      "environment": [
+        "terrestrial",
+        "military-airspace"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "[REDACTED] 2026",
+        "year": 2026,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "year-redacted",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -111,
+            39.5
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "regional-redacted-generalized",
+        "uncertaintyKm": 1500,
+        "basis": "Map-only generalized western-U.S. point; exact location and date are redacted in the released FBI record"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview concerning slow-moving black-hot objects observed after an RF alert, FBI-UAP-D032",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D032 · PDF pp. 1–2",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "04684f8e8e0d9292e273b8e3152be6a22e195ce25f9c4a92b21c25b1813bd1e1",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-002.png"
+          ],
+          "supports": [
+            "Records an RF alert followed within minutes by a thermal-optical observation near the requested bearing",
+            "Records two black-hot objects moving together slowly for approximately 5–10 minutes above a mountain line",
+            "Records that photographs and videos were taken and provided to another FBI special agent"
+          ],
+          "limitations": [
+            "Exact date, location, participants, RF system parameters and operational context are heavily redacted",
+            "The observer could not estimate altitude or speed and reported no aviation expertise",
+            "An FD-302 records interview content; it is not an FBI factual or analytical conclusion"
+          ]
+        },
+        {
+          "citation": "DVIDS official video record FBI-UAP-PR007, Slow-Moving Objects, 2026",
+          "sourceType": "primary-official-released-event-video",
+          "provenance": "DVIDS/AARO record maps FBI-UAP-PR007 to Release 05 filename DOD_111887430 and states that a government special agent captured the footage through a hand-held thermal optical device",
+          "locator": "FBI-UAP-PR007 · DOD_111887430",
+          "url": "https://www.dvidshub.net/video/1017801/fbi-uap-pr007-slow-moving-objects-2026",
+          "sha256": "56f0a2691dc2f2c9a23139b7aab119dc4f9f213db9c2f6d05f7cda727b904d54",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-PR007-video-contact.jpg"
+          ],
+          "supports": [
+            "Officially associates the 10-second public MP4 with the D032 slow-moving-object report",
+            "Shows two black-hot areas of contrast within the thermal field of view",
+            "Confirms the public file is event footage rather than a witness reconstruction"
+          ],
+          "limitations": [
+            "The 10-second public excerpt is shorter than the reported 5–10-minute observation",
+            "No raw thermal metadata, range, scale, altitude, calibrated angular motion or platform geometry is public",
+            "The clip does not identify the areas of contrast or establish unusual performance"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "unresolved-contrast-area"
+        ],
+        "objectCount": 2,
+        "luminosity": "black-hot thermal contrast",
+        "motion": [
+          "slow",
+          "together",
+          "southeast-reported"
+        ],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": 1,
+        "witnessRoles": [
+          "government special agent"
+        ],
+        "sensors": [
+          "RF alert system (redacted)",
+          "hand-held thermal optical device"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "GOVERNMENT / SENSOR",
+        "status": "UNRESOLVED",
+        "confidence": "CONFIRMED RECORD AND RELEASED FOOTAGE"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-PR007-video-contact.jpg",
+        "mediaType": "image",
+        "visualType": "official-event-video-contact-sheet",
+        "caption": "Ten-frame contact sheet from FBI-UAP-PR007 / DOD_111887430, officially associated with D032.",
+        "provenance": "Official DVIDS/AARO public video record; contact sheet generated from the hash-verified Release 05 MP4",
+        "evidenceStatus": "Released event footage; identity, range, scale, altitude and speed are not established.",
+        "isEventEvidence": true
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D032 and the Release 05 MP4 corpus."
+        },
+        {
+          "label": "DVIDS — FBI-UAP-PR007",
+          "url": "https://www.dvidshub.net/video/1017801/fbi-uap-pr007-slow-moving-objects-2026",
+          "publisher": "Defense Visual Information Distribution Service / AARO",
+          "access": "Public official video record",
+          "scope": "official-event-video-crosswalk",
+          "note": "Maps DOD_111887430 to the D032 event and describes two black-hot areas of contrast; no analytical judgment is implied."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official FD-302 records a special agent's thermal-optical observation of two black-hot objects after an RF alert.",
+          "DVIDS officially maps a 10-second public clip, FBI-UAP-PR007 / DOD_111887430, to the event.",
+          "The public clip contains two black-hot contrast areas and is event footage rather than a reconstruction."
+        ],
+        "notEstablished": [
+          "The identity, physical size, range, altitude, calibrated speed or origin of the contrast areas.",
+          "That the RF alert was caused by the observed objects.",
+          "That the public excerpt is the complete photo/video set described in D032.",
+          "The contents of absent identifiers D034–D036 are unknown, and neither they nor D033 are established as documenting the same event.",
+          "An FBI analytical conclusion validating anomalous performance."
+        ],
+        "competingExplanations": [
+          "Distant aircraft or UAS, birds, balloons, atmospheric or thermal-contrast effects, sensor artifacts and range/geometry misperception remain unresolved without raw data and context."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 22.83,
+      "y": 18.52,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2002-BG-01",
+      "title": "Bagram Silent Triangle Report",
+      "date": "JUN 2002",
+      "year": 2002,
+      "location": "Bagram Air Base, Afghanistan",
+      "mode": "approximate",
+      "lon": 69.2649,
+      "lat": 34.9461,
+      "expectedCountry": "Afghanistan",
+      "geometryExpectation": "country",
+      "coordinatePrecision": "facility-centroid-approximate",
+      "coordinateBasis": "Bagram Air Base representative point; the released interview identifies Bagram but provides no exact observer position",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED TESTIMONY · UNRESOLVED",
+      "confidence": "OFFICIAL INTERVIEW RECORD · LOWER-CONFIDENCE TESTIMONY",
+      "summary": "An FBI FD-302 entered in 2024 records a reservist pilot's recollection of a June 2002 pre-dawn observation at Bagram. The witness said stars were obscured as a very large, silent triangular form moved west to east; a second pilot reportedly saw the passage and reacted immediately. The account was recorded roughly 22 years later, and the released packet contains no contemporaneous report, native imagery, measurement data, or separately released interview of the second pilot.",
+      "keyFact": "The source establishes that the FBI documented the pilot's retrospective account—not that the FBI confirmed a 500-foot object moving at 150 knots.",
+      "official": "The FD-302 explicitly contains neither recommendations nor conclusions of the FBI. D025 is a witness reconstruction and not event imagery.",
+      "gap": "Missing are a contemporaneous report, independently released second-pilot statement, operational logs, radar or sensor records, precise observer geometry, native imagery, and analytical disposition.",
+      "whyItMatters": "It preserves a reported two-observer military-aviator encounter at Bagram while illustrating the severe evidentiary limits of a decades-later official interview record.",
+      "sources": [
+        "FBI-UAP-D024 · retrospective FD-302 account",
+        "FBI-UAP-D025 · witness reconstruction"
+      ],
+      "sourceLabel": "FBI FD-302 / witness reconstruction",
+      "sourceLocator": "FBI-UAP-D024",
+      "relatedCaseIds": [
+        "BF-2026-RL-01"
+      ],
+      "keyQuote": "It appeared as if something huge went overhead, from west to east, and was an equilateral triangle shape.",
+      "quoteSource": "FBI-UAP-D024, FD-302 continuation, PDF p. 3",
+      "quoteConfidence": "High transcription confidence for the recorded interview wording; independent event verification is unavailable because the account was recorded roughly 22 years later.",
+      "heroFact": "The released visual is a reconstruction of the witness account—not a photograph of the reported object.",
+      "significance": "Lower-confidence testimony",
+      "sourceQuality": "One retrospective official witness-interview record plus one released reconstruction; no independently released contemporaneous or sensor evidence.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png"
+      ],
+      "caseTypes": [
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "retrospective-testimony",
+        "witness-reconstruction"
+      ],
+      "environment": [
+        "terrestrial",
+        "military-airfield"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "JUN 2002",
+        "year": 2002,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": "Afghanistan local time",
+        "timeOfDay": "approximately 04:30 local",
+        "durationSeconds": null,
+        "precision": "month/time-of-night",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            69.2649,
+            34.9461
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "facility-centroid-approximate",
+        "uncertaintyKm": 8,
+        "basis": "Bagram Air Base representative point; exact observer position is not public"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview record concerning the Bagram 2002 triangle report, FBI-UAP-D024",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the retained download",
+          "locator": "FBI-UAP-D024 · PDF p. 3",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "949c9dc80fb247c6ea12d6750cebe629f00c37930f9572a9d0ef43365d5d4489",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png"
+          ],
+          "supports": [
+            "Records the primary witness's description of a silent west-to-east passage that obscured stars",
+            "Records that a second pilot reportedly observed the same passage and reacted immediately"
+          ],
+          "limitations": [
+            "Interviewed roughly 22 years after the event",
+            "Estimated size and speed were subjective; the witness said the full shape could not be seen",
+            "The second pilot is not independently interviewed in the released packet",
+            "An FD-302 records interview content; it is not an FBI factual finding"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D025 · FBI-released witness reconstruction accompanying the Bagram 2002 triangle report",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact reconstruction published by the U.S. Department of War in PURSUE Release 05; original local file hash-verified against the retained download",
+          "locator": "FBI-UAP-D025",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "52c2fd0e4306488e6d7e1c682d0c5ee97ba1b9294774bea8617fc8fc7113e6b6",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg"
+          ],
+          "supports": [
+            "Preserves a released visual reconstruction of the witness description"
+          ],
+          "limitations": [
+            "Witness reconstruction only; not event photography, sensor data, independent corroboration, or an FBI factual conclusion"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "triangle"
+        ],
+        "objectCount": 1,
+        "luminosity": "none reported",
+        "motion": [
+          "west-to-east",
+          "steady",
+          "silent"
+        ],
+        "effects": [
+          "reported-star-obscuration"
+        ]
+      },
+      "observation": {
+        "witnessCount": 2,
+        "witnessRoles": [
+          "reservist pilot interviewed retrospectively",
+          "second pilot reported through primary witness"
+        ],
+        "sensors": [
+          "unaided visual"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "WITNESS NARRATIVE",
+        "status": "UNRESOLVED",
+        "confidence": "LOWER-CONFIDENCE TESTIMONY"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg",
+        "mediaType": "image",
+        "visualType": "official-witness-reconstruction",
+        "caption": "FBI-released digital rendering accompanying the Bagram witness account.",
+        "provenance": "FBI-UAP-D025, released through PURSUE Release 05",
+        "evidenceStatus": "Witness reconstruction only; not event imagery or independent corroboration.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D024 and D025. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official FD-302 records a pilot's retrospective account of a June 2002 Bagram observation.",
+          "The account says a second pilot also observed the passage.",
+          "A released digital rendering illustrates the primary witness's description."
+        ],
+        "notEstablished": [
+          "That a 500-foot object traveled at 150 knots; both figures were subjective estimates.",
+          "The identity, altitude, physical dimensions, origin, or extraordinary performance of the reported form.",
+          "Independent confirmation by the second pilot, sensors, contemporaneous records, or the FBI.",
+          "A relationship to the other testimony cases or a common triangle phenomenon.",
+          "That D025 is a photograph or sensor product."
+        ],
+        "competingExplanations": [
+          "Aircraft or formation misperception, cloud or atmospheric obscuration, dark-adaptation and geometry errors, memory reconstruction over two decades, and an unresolved physical object remain possible."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 67.09,
+      "y": 19.92,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2023-CST-01",
+      "title": "Colorado Springs Translucent Triangle Report",
+      "date": "OCT 2023",
+      "year": 2023,
+      "location": "Colorado Springs, Colorado",
+      "mode": "approximate",
+      "lon": -104.8214,
+      "lat": 38.8339,
+      "expectedCountry": "United States of America",
+      "expectedAdmin1": "Colorado",
+      "geometryExpectation": "admin1",
+      "coordinatePrecision": "city-centroid-redacted-address",
+      "coordinateBasis": "Colorado Springs city centroid; the residence address and exact October date are redacted",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED TESTIMONY · UNRESOLVED",
+      "confidence": "OFFICIAL INTERVIEW RECORD · LOWER-CONFIDENCE TESTIMONY",
+      "summary": "A 2026 FBI FD-302 records two witnesses' October 2023 report of a silent triangular form passing over their Colorado Springs residence for about four seconds. The primary witness described an almost translucent silhouette, surrounding haze or distortion, a silver-blue trailing band, and a rapid bank toward vertical without an apparent course change. Estimated altitude and size were subjective; the packet contains no native image, sensor data, or independent technical corroboration.",
+      "keyFact": "The witnesses reportedly separated before comparing recollections, but both accounts remain part of one retrospective household witness group rather than independent sensor confirmation.",
+      "official": "The FBI documented the interview. It did not confirm the reported object's properties, and D027 is a witness reconstruction only.",
+      "gap": "Missing are exact event date/address, native imagery, aviation or weather correlation, measured geometry, contemporaneous reports, independent sensor data, and FBI analytical disposition.",
+      "whyItMatters": "The record preserves a short-duration two-witness account with a released reconstruction while remaining distinct from the 2022 Cheyenne Mountain case and the separate 2023 red-light report.",
+      "sources": [
+        "FBI-UAP-D026 · FD-302",
+        "FBI-UAP-D027 · witness reconstruction"
+      ],
+      "sourceLabel": "FBI FD-302 / witness reconstruction",
+      "sourceLocator": "FBI-UAP-D026",
+      "relatedCaseIds": [
+        "BF-2022-CS-01",
+        "BF-2023-CSR-01"
+      ],
+      "keyQuote": "When first spotted the UAP he thought it appeared almost see-through, and it had what appeared to be a haze or distortion around it.",
+      "quoteSource": "FBI-UAP-D026, FD-302 continuation, PDF p. 2",
+      "quoteConfidence": "High for the recorded witness wording; event interpretation remains uncorroborated.",
+      "heroFact": "The four-second event has two reported witnesses; D027 is a witness reconstruction, not event imagery, and no native sensor record is released.",
+      "significance": "Lower-confidence testimony",
+      "sourceQuality": "One official household-witness interview record and one reconstruction; retrospective, short-duration, and without independent sensor corroboration.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D027-witness-reconstruction.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D027-witness-reconstruction.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-003.png"
+      ],
+      "caseTypes": [
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "retrospective-testimony",
+        "witness-reconstruction"
+      ],
+      "environment": [
+        "terrestrial",
+        "residential"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "OCT 2023",
+        "year": 2023,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": "MDT",
+        "timeOfDay": "approximately 22:50",
+        "durationSeconds": 4,
+        "precision": "redacted-day/minute-reported",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.8214,
+            38.8339
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "city-centroid-redacted-address",
+        "uncertaintyKm": 25,
+        "basis": "Colorado Springs city centroid; exact residence is redacted"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview record concerning the Colorado Springs translucent-triangle report, FBI-UAP-D026",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the retained download",
+          "locator": "FBI-UAP-D026 · PDF pp. 1–3",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "a6eb053699dcf7c2fdfe2d37bd4be8ef980c58e3f5595c7bee41ab1f7450bfe0",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-003.png"
+          ],
+          "supports": [
+            "Records a roughly four-second two-witness observation over a Colorado Springs residence",
+            "Preserves descriptions of silence, apparent translucency or distortion, a trailing silver-blue band and unusual banking"
+          ],
+          "limitations": [
+            "Interview occurred in 2026, more than two years after the event",
+            "Altitude, size and appearance are subjective estimates",
+            "No native image, sensor data, technical verification, or independent analytical conclusion is included",
+            "An FD-302 records interview content; it is not an FBI factual finding"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D027 · FBI-released witness reconstruction accompanying the Colorado Springs translucent-triangle report",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact reconstruction published by the U.S. Department of War in PURSUE Release 05; original local file hash-verified against the retained download",
+          "locator": "FBI-UAP-D027",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "207f31090a4f187a365c552d45b1e0f3eb2aa47541dd9a8b0d1f7b5769c5d0ab",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D027-witness-reconstruction.jpg"
+          ],
+          "supports": [
+            "Preserves a released visual reconstruction of the witness description"
+          ],
+          "limitations": [
+            "Witness reconstruction only; not event photography, sensor data, independent corroboration, or an FBI factual conclusion"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "triangle"
+        ],
+        "objectCount": 1,
+        "luminosity": "silver-blue trailing band reported",
+        "motion": [
+          "northeast-to-southwest",
+          "fast",
+          "banked-near-vertical"
+        ],
+        "effects": [
+          "reported-haze-or-distortion"
+        ]
+      },
+      "observation": {
+        "witnessCount": 2,
+        "witnessRoles": [
+          "primary residential witness",
+          "spouse witness"
+        ],
+        "sensors": [
+          "unaided visual"
+        ],
+        "durationSeconds": 4,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "WITNESS NARRATIVE",
+        "status": "UNRESOLVED",
+        "confidence": "LOWER-CONFIDENCE TESTIMONY"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D027-witness-reconstruction.jpg",
+        "mediaType": "image",
+        "visualType": "official-witness-reconstruction",
+        "caption": "FBI-released digital rendering accompanying the translucent-triangle account.",
+        "provenance": "FBI-UAP-D027, released through PURSUE Release 05",
+        "evidenceStatus": "Witness reconstruction only; not event imagery or independent corroboration.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D026 and D027. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official FD-302 records two household witnesses' retrospective account of an October 2023 observation.",
+          "The primary account reports a four-second silent triangular passage with distortion-like appearance.",
+          "A released visual illustrates the witness description."
+        ],
+        "notEstablished": [
+          "Measured altitude, dimensions, speed, bank angle, translucency, propulsion, or extraordinary performance.",
+          "Independent confirmation outside the household witness group or by sensors.",
+          "A relationship to BF-2022-CS-01, BF-2023-CSR-01, or a common triangle phenomenon.",
+          "That D027 is event imagery or an FBI-confirmed depiction."
+        ],
+        "competingExplanations": [
+          "Aircraft or UAS viewed under poor geometry, atmospheric haze, visual persistence or contrast effects, memory reconstruction, and an unresolved physical object remain possible."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 24.27,
+      "y": 18.73,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2011-DT-01",
+      "title": "Large Dark Triangle with Lights Report",
+      "date": "JUN–JUL 2011",
+      "year": 2011,
+      "location": "United States [REDACTED]",
+      "mode": "redacted",
+      "lon": -98.5,
+      "lat": 39.8,
+      "expectedCountry": "United States of America",
+      "geometryExpectation": "country",
+      "coordinatePrecision": "country-redacted-generalized",
+      "coordinateBasis": "Map-only generalized continental U.S. centroid; the released interview redacts the event location",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED TESTIMONY · UNRESOLVED",
+      "confidence": "OFFICIAL INTERVIEW RECORD · LOWER-CONFIDENCE TESTIMONY",
+      "summary": "A 2025 FBI FD-302 records two interviewees' recollection of a June or July 2011 nighttime event at a redacted U.S. location. They described a large, low, dark triangular form with three recessed diffuse white corner lights moving north for 10–15 seconds with a low pulsing hum. A third person was reportedly present, but the released record contains no native video, contemporaneous report, exact location, or independent sensor corroboration.",
+      "keyFact": "Reported dimensions of roughly 200 by 100 feet and altitude near 800 feet were witness estimates made years later, not measured values.",
+      "official": "The FBI documented retrospective interviews; the form contains no FBI recommendation or conclusion. D029 is a reconstruction rather than event imagery.",
+      "gap": "Missing are exact location/date, contemporaneous reports, native media, a released third-witness statement, measured geometry, environmental and aviation correlation, sensor records, and analytical disposition.",
+      "whyItMatters": "The record preserves a multi-person account with unusual size and sound descriptions while remaining a lower-confidence retrospective testimony case.",
+      "sources": [
+        "FBI-UAP-D028 · FD-302",
+        "FBI-UAP-D029 · witness reconstruction"
+      ],
+      "sourceLabel": "FBI FD-302 / witness reconstruction",
+      "sourceLocator": "FBI-UAP-D028",
+      "relatedCaseIds": [
+        "BF-2026-RL-01"
+      ],
+      "keyQuote": "The object had a car-sized white light in each of its three corners that emitted a diffuse glow and were recessed back a bit from the corners.",
+      "quoteSource": "FBI-UAP-D028, FD-302 continuation, PDF p. 2",
+      "quoteConfidence": "High for the recorded witness wording; dimensions, altitude and event interpretation remain unverified.",
+      "heroFact": "D029 is a witness reconstruction, not event imagery; two witnesses were interviewed, the location is redacted, and no native video was captured.",
+      "significance": "Lower-confidence testimony",
+      "sourceQuality": "One official retrospective multi-witness interview record plus one reconstruction; no contemporaneous or sensor evidence.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D029-witness-reconstruction.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D029-witness-reconstruction.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png"
+      ],
+      "caseTypes": [
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "retrospective-testimony",
+        "witness-reconstruction"
+      ],
+      "environment": [
+        "terrestrial",
+        "residential"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "JUN–JUL 2011",
+        "year": 2011,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "timeOfDay": "about 20:00–21:00",
+        "durationSeconds": null,
+        "durationRangeSeconds": [
+          10,
+          15
+        ],
+        "precision": "month-range/time-range",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -98.5,
+            39.8
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "country-redacted-generalized",
+        "uncertaintyKm": 2000,
+        "basis": "Map-only generalized continental U.S. centroid; exact event location is redacted"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview record concerning the 2011 large dark triangle report, FBI-UAP-D028",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the retained download",
+          "locator": "FBI-UAP-D028 · PDF pp. 1–2",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "6a1c229de51ed47cff5de843b0cc4592e1ff691f1ed20254ada15d267e0942bb",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png"
+          ],
+          "supports": [
+            "Records two interviewees' descriptions of a large dark triangular form with three diffuse corner lights",
+            "Records a 10–15-second northbound passage and a low pulsing hum"
+          ],
+          "limitations": [
+            "Interviews occurred in 2025, approximately 14 years after the event",
+            "Exact location and date are redacted or uncertain",
+            "Size and altitude are subjective estimates",
+            "No native video, contemporaneous report, released third-witness interview, or independent sensor evidence is included",
+            "An FD-302 records interview content; it is not an FBI factual finding"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D029 · FBI-released witness reconstruction accompanying the 2011 large dark triangle report",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact reconstruction published by the U.S. Department of War in PURSUE Release 05; original local file hash-verified against the retained download",
+          "locator": "FBI-UAP-D029",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "465e4e3ff6d3e49a2b6891326e5d537f4ce7d3c406b8c8cf3271d9bde04e36db",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D029-witness-reconstruction.jpg"
+          ],
+          "supports": [
+            "Preserves a released visual reconstruction of the witness description"
+          ],
+          "limitations": [
+            "Witness reconstruction only; not event photography, sensor data, independent corroboration, or an FBI factual conclusion"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "triangle"
+        ],
+        "objectCount": 1,
+        "luminosity": "three diffuse white corner lights",
+        "motion": [
+          "northbound",
+          "slow",
+          "steady"
+        ],
+        "effects": [
+          "reported-low-pulsing-hum"
+        ]
+      },
+      "observation": {
+        "witnessCount": 3,
+        "witnessRoles": [
+          "two witnesses interviewed in one FD-302",
+          "third person reported present"
+        ],
+        "sensors": [
+          "unaided visual",
+          "auditory"
+        ],
+        "durationSeconds": null,
+        "durationRangeSeconds": [
+          10,
+          15
+        ],
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "WITNESS NARRATIVE",
+        "status": "UNRESOLVED",
+        "confidence": "LOWER-CONFIDENCE TESTIMONY"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D029-witness-reconstruction.jpg",
+        "mediaType": "image",
+        "visualType": "official-witness-reconstruction",
+        "caption": "FBI-released digital rendering accompanying the 2011 witness account.",
+        "provenance": "FBI-UAP-D029, released through PURSUE Release 05",
+        "evidenceStatus": "Witness reconstruction only; not event imagery or independent corroboration.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D028 and D029. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official FD-302 records two interviewees' retrospective account of a 2011 event.",
+          "The account reports a dark triangular form, three lights, and a pulsing hum.",
+          "A released visual illustrates the witness description."
+        ],
+        "notEstablished": [
+          "Measured dimensions, altitude, speed, identity, origin, or extraordinary performance.",
+          "Independent confirmation by the reported third person, contemporaneous records, sensors, or the FBI.",
+          "A relationship to other triangle reports or a common phenomenon.",
+          "That D029 is event imagery."
+        ],
+        "competingExplanations": [
+          "Aircraft or formation lights, UAS, low-frequency environmental sound, geometry and size misperception, memory reconstruction over 14 years, and an unresolved physical object remain possible."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 25.91,
+      "y": 18.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2023-CSR-01",
+      "title": "Colorado Springs Red-Light Triangle Report",
+      "date": "OCT 2023",
+      "year": 2023,
+      "location": "Colorado Springs, Colorado",
+      "mode": "approximate",
+      "lon": -104.8214,
+      "lat": 38.8339,
+      "expectedCountry": "United States of America",
+      "expectedAdmin1": "Colorado",
+      "geometryExpectation": "admin1",
+      "coordinatePrecision": "city-centroid-redacted-worksite",
+      "coordinateBasis": "Colorado Springs city centroid; exact worksite and October date are redacted",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED TESTIMONY · UNRESOLVED",
+      "confidence": "OFFICIAL INTERVIEW RECORD · LOWER-CONFIDENCE TESTIMONY",
+      "summary": "A 2025 FBI FD-302 records a single witness's October 2023 report of a large dark equilateral triangle emerging from an apparently distorted cloud over Colorado Springs, with diffuse red lights at its corners. The witness estimated rapid acceleration, unusual banking, and later phone-call distortion. Those size, altitude, speed and interference claims are subjective and technically unverified; the released packet contains no native event media or independent sensor corroboration.",
+      "keyFact": "The reported Mach 1–2 speed, 3,000–5,000-foot altitude, parking-lot scale and phone interference are witness estimates or recollections—not measurements established by the FBI record.",
+      "official": "The FBI documented one retrospective interview and released a reconstruction. Neither constitutes factual confirmation or calibrated performance evidence.",
+      "gap": "Missing are exact date/worksite, native imagery, independent witnesses, phone records or RF analysis, measured geometry, aviation/weather correlation, sensor data, and FBI analytical disposition.",
+      "whyItMatters": "The case preserves a detailed modern report and reconstruction while demonstrating why spectacular performance claims require measurement and independent corroboration.",
+      "sources": [
+        "FBI-UAP-D030 · FD-302",
+        "FBI-UAP-D031 · witness reconstruction"
+      ],
+      "sourceLabel": "FBI FD-302 / witness reconstruction",
+      "sourceLocator": "FBI-UAP-D030",
+      "relatedCaseIds": [
+        "BF-2022-CS-01",
+        "BF-2023-CST-01"
+      ],
+      "keyQuote": "It then almost instantaneously accelerated to possibly Mach 1 or 2.",
+      "quoteSource": "FBI-UAP-D030, FD-302 continuation, PDF p. 2",
+      "quoteConfidence": "High for the recorded witness wording; the estimate was not independently measured or technically verified.",
+      "heroFact": "D031 is a witness reconstruction, not event imagery; no event photograph or technical phone-interference record is released.",
+      "significance": "Lower-confidence testimony",
+      "sourceQuality": "One official retrospective witness interview plus one reconstruction; no independent witness, native media, sensor or technical corroboration.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png"
+      ],
+      "caseTypes": [
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "retrospective-testimony",
+        "witness-reconstruction"
+      ],
+      "environment": [
+        "terrestrial",
+        "urban"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "OCT 2023",
+        "year": 2023,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": "MDT",
+        "timeOfDay": "between 20:00 and 21:30",
+        "durationSeconds": null,
+        "precision": "redacted-day/time-range",
+        "eventForm": "single-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -104.8214,
+            38.8339
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "city-centroid-redacted-worksite",
+        "uncertaintyKm": 25,
+        "basis": "Colorado Springs city centroid; exact worksite is redacted"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview record concerning the Colorado Springs red-light triangle report, FBI-UAP-D030",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the retained download",
+          "locator": "FBI-UAP-D030 · PDF pp. 1–2",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "1ac0068c5a4f77c1bb2029971fc5e768d84ea921e3ac3122701746e548b12f06",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png"
+          ],
+          "supports": [
+            "Records a single witness's description of a large dark triangle with three diffuse red corner lights",
+            "Records reported acceleration, unconventional banking and later apparent phone-call distortion"
+          ],
+          "limitations": [
+            "Single retrospective witness interviewed in 2025",
+            "Size, altitude, speed and bank angle are subjective estimates",
+            "No native event media, independent witness, phone/RF record, or sensor data is included",
+            "An FD-302 records interview content; it is not an FBI factual finding"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D031 · FBI-released witness reconstruction accompanying the Colorado Springs red-light triangle report",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact reconstruction published by the U.S. Department of War in PURSUE Release 05; original local file hash-verified against the retained download",
+          "locator": "FBI-UAP-D031",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "33f6602ddc5c73a5b2e7ee1898ef5b51dc895e31ab27e0d2f15eab17c10461bc",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg"
+          ],
+          "supports": [
+            "Preserves a released visual reconstruction of the witness description"
+          ],
+          "limitations": [
+            "Witness reconstruction only; not event photography, sensor data, independent corroboration, or an FBI factual conclusion"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "triangle"
+        ],
+        "objectCount": 1,
+        "luminosity": "three diffuse red corner lights",
+        "motion": [
+          "southbound",
+          "reported-rapid-acceleration",
+          "reported-opposite-bank"
+        ],
+        "effects": [
+          "reported-phone-call-distortion",
+          "reported-visual-distortion"
+        ]
+      },
+      "observation": {
+        "witnessCount": 1,
+        "witnessRoles": [
+          "civilian witness"
+        ],
+        "sensors": [
+          "unaided visual"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "WITNESS NARRATIVE",
+        "status": "UNRESOLVED",
+        "confidence": "LOWER-CONFIDENCE TESTIMONY"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg",
+        "mediaType": "image",
+        "visualType": "official-witness-reconstruction",
+        "caption": "FBI-released digital rendering accompanying the red-light triangle account.",
+        "provenance": "FBI-UAP-D031, released through PURSUE Release 05",
+        "evidenceStatus": "Witness reconstruction only; not event imagery or independent corroboration.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D030 and D031. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official FD-302 records one witness's retrospective account of an October 2023 event.",
+          "The account reports a large triangular form, three red lights, unusual motion and later call distortion.",
+          "A released visual illustrates the witness description."
+        ],
+        "notEstablished": [
+          "Mach-level speed, altitude, dimensions, bank angle, phone interference, identity, origin, or extraordinary performance.",
+          "Independent confirmation by another witness, technical records, sensors, or the FBI.",
+          "A relationship to BF-2022-CS-01, BF-2023-CST-01, or a common triangle phenomenon.",
+          "That D031 is event imagery."
+        ],
+        "competingExplanations": [
+          "Aircraft or UAS, atmospheric cloud and contrast effects, geometry and speed misperception, ordinary call degradation, memory reconstruction, and an unresolved physical object remain possible."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 24.27,
+      "y": 18.73,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     }
@@ -29700,6 +30798,51 @@
       "caseId": "BF-2026-RL-01",
       "title": "Red-light / NOD field encounter",
       "desc": "Two FBI interview records preserve companion accounts of a multi-phase NOD observation and reported mechanical-watch discrepancy at a redacted U.S. location."
+    },
+    {
+      "id": "TL-2026-SMO-THERMAL",
+      "year": 2026,
+      "date": "[REDACTED] 2026",
+      "type": "incident",
+      "caseId": "BF-2026-SMO-01",
+      "title": "Slow-moving thermal objects",
+      "desc": "An FBI interview and officially associated 10-second thermal clip document two unresolved black-hot contrast areas after a redacted RF alert."
+    },
+    {
+      "id": "TL-2002-BG-TRIANGLE",
+      "year": 2002,
+      "date": "JUN 2002",
+      "type": "incident",
+      "caseId": "BF-2002-BG-01",
+      "title": "Bagram silent triangle report",
+      "desc": "A later FBI interview records a reservist pilot's report of a large silent triangular form passing over Bagram, with a second pilot reportedly present."
+    },
+    {
+      "id": "TL-2011-DT-LIGHTS",
+      "year": 2011,
+      "date": "JUN–JUL 2011",
+      "type": "incident",
+      "caseId": "BF-2011-DT-01",
+      "title": "Large dark triangle with lights report",
+      "desc": "A 2025 FBI interview records a multi-person retrospective account of a low dark triangle with three lights and a pulsing hum at a redacted U.S. location."
+    },
+    {
+      "id": "TL-2023-CST",
+      "year": 2023,
+      "date": "OCT 2023",
+      "type": "incident",
+      "caseId": "BF-2023-CST-01",
+      "title": "Colorado Springs translucent triangle report",
+      "desc": "A 2026 FBI interview records two household witnesses' four-second report of a silent distortion-shrouded triangular form."
+    },
+    {
+      "id": "TL-2023-CSR",
+      "year": 2023,
+      "date": "OCT 2023",
+      "type": "incident",
+      "caseId": "BF-2023-CSR-01",
+      "title": "Colorado Springs red-light triangle report",
+      "desc": "A 2025 FBI interview records one witness's report of a large triangular form with three red lights and subjectively estimated rapid acceleration."
     }
   ],
   "schemaVersion": 2,

@@ -383,9 +383,34 @@ parser.add_argument("--source", default=str(SOURCE), help="Desktop/base Atlas HT
 parser.add_argument("--target", default=str(TARGET), help="Responsive output HTML")
 parser.add_argument("--app", default="atlas-app.js", help="External application payload when the HTML uses split scripts")
 parser.add_argument("--combined", action="store_true", help="Preserve the shared desktop/mobile page title")
+parser.add_argument("--legacy-full-artifact", action="store_true", help="Explicitly build the retired standalone mobile artifact")
 args = parser.parse_args()
-source = project_path(args.source)
 target = project_path(args.target)
+if not args.legacy_full_artifact:
+    redirect = '''<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>UAP Atlas</title>
+  <link rel="canonical" href="https://uapatlas.github.io/uap-atlas/">
+  <meta http-equiv="refresh" content="0; url=./">
+  <script>
+    const target = new URL('./', location.href);
+    target.search = location.search;
+    target.hash = location.hash;
+    location.replace(target.href);
+  </script>
+</head>
+<body>
+  <p><a href="./">Open UAP Atlas</a></p>
+</body>
+</html>
+'''
+    target.write_text(redirect, encoding="utf-8")
+    print(f"Built compatibility redirect {target} ({target.stat().st_size:,} bytes)")
+    raise SystemExit(0)
+source = project_path(args.source)
 app_path = project_path(args.app)
 
 html = strip_mobile_layer(source.read_text(encoding="utf-8"))

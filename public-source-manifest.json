@@ -1414,6 +1414,14 @@
       "access": "Public official release landing page",
       "scope": "official-release-custody",
       "note": "Official custody page for CIA-UAP-D022 and D023. The records authenticate the intelligence and radar-film handling chain, not an extraordinary object origin."
+    },
+    {
+      "label": "NARA — USS Gyatt November 1964 deck log",
+      "url": "https://catalog.archives.gov/id/212794455",
+      "publisher": "U.S. National Archives",
+      "access": "Complete unrestricted digitized deck log",
+      "scope": "official-operational-context",
+      "note": "Confirms ship location and routine operations on the strongest incident dates; no anomalous-contact entry appears in the target-day sheets."
     }
   ],
   "BF-2021-GOM-01": [
@@ -1423,7 +1431,15 @@
       "publisher": "U.S. Department of War",
       "access": "Public official release landing page",
       "scope": "official-release-custody",
-      "note": "Official custody page for DOW-UAP-D101. The IIR is marked not finally evaluated and its listed six-video attachment is not defensibly mapped to the anonymous Release 05 MP4s."
+      "note": "Official custody page for DOW-UAP-D101 and the 16 Release 05 MP4s."
+    },
+    {
+      "label": "DVIDS — DOW-UAP-PR117 through PR122",
+      "url": "https://www.dvidshub.net/video/1017793/dow-uap-pr117-unresolved-uap-report-gulf-of-oman-2021",
+      "publisher": "Defense Visual Information Distribution Service / AARO",
+      "access": "Public official video records",
+      "scope": "official-video-crosswalk",
+      "note": "Six individual DVIDS records map the public filenames to D101 and classify them as secondary recordings of an AC-130J infrared display, not native sensor data."
     }
   ],
   "BF-2026-RL-01": [
@@ -1434,6 +1450,64 @@
       "access": "Public official release landing page",
       "scope": "official-release-custody",
       "note": "Official custody page for FBI-UAP-D037–D042. The FD-302s document companion witness accounts; the renderings are illustrative and the records contain no FBI conclusion."
+    }
+  ],
+  "BF-2026-SMO-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D032 and the Release 05 MP4 corpus."
+    },
+    {
+      "label": "DVIDS — FBI-UAP-PR007",
+      "url": "https://www.dvidshub.net/video/1017801/fbi-uap-pr007-slow-moving-objects-2026",
+      "publisher": "Defense Visual Information Distribution Service / AARO",
+      "access": "Public official video record",
+      "scope": "official-event-video-crosswalk",
+      "note": "Maps DOD_111887430 to the D032 event and describes two black-hot areas of contrast; no analytical judgment is implied."
+    }
+  ],
+  "BF-2002-BG-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D024 and D025. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+    }
+  ],
+  "BF-2023-CST-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D026 and D027. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+    }
+  ],
+  "BF-2011-DT-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D028 and D029. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+    }
+  ],
+  "BF-2023-CSR-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D030 and D031. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
     }
   ]
 }

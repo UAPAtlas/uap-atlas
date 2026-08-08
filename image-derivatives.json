@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "policy": "heavy-image-bounded-derivatives",
-  "sourceFingerprint": "380d6c325ee764064eae0f3bd028685b8b611414757066107f13cddec4cd5027",
+  "sourceFingerprint": "8579600b9762d99a5beb42d2f8143242688f26fdebd81446aef2417bffd314be",
   "thresholdBytes": 350000,
   "displayMaxDimension": 1600,
   "thumbMaxDimension": 360,
   "displayQuality": 84,
   "thumbQuality": 76,
   "summary": {
-    "imageCount": 336,
-    "originalBytes": 887615788,
-    "displayBytes": 51867678,
-    "thumbBytes": 3708258
+    "imageCount": 350,
+    "originalBytes": 897720947,
+    "displayBytes": 53959730,
+    "thumbBytes": 3862230
   },
   "entries": {
     "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg": {
@@ -6629,6 +6629,90 @@
         "sha256": "ee962d69689580293697d1d919327abc833f9c86856f108c9036420b3820b458"
       }
     },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg": {
+      "originalBytes": 846623,
+      "originalWidth": 3004,
+      "originalHeight": 4533,
+      "originalSha256": "88d0dda948cee6993d82ddf1cd967c9b333725a4f20788fc7dc16c1871dc988a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg.webp",
+        "bytes": 153268,
+        "width": 1060,
+        "height": 1600,
+        "sha256": "19253d51f293ba8f58659427f7d4fde2f566abf20477581787710a0d52e261c0"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-A.jpg.webp",
+        "bytes": 11566,
+        "width": 239,
+        "height": 360,
+        "sha256": "3de16b350dad27a3c6cf02f746f954adf7499f0acb37fae9cd53f5123628a350"
+      }
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg": {
+      "originalBytes": 942391,
+      "originalWidth": 3000,
+      "originalHeight": 4517,
+      "originalSha256": "092c3117941f25f213104fb354367bc54ba0d417145302998e63e06f22467353",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg.webp",
+        "bytes": 131696,
+        "width": 1063,
+        "height": 1600,
+        "sha256": "72c210b1e7f2e5eea8ec154fefa97bb5a31b6ca29d2ec72de6424bf6a8042af5"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/NARA-GYATT-1964/USS-GYATT-1964-11-19-page-B.jpg.webp",
+        "bytes": 7280,
+        "width": 239,
+        "height": 360,
+        "sha256": "1b52e41898f339a9e5f474e8f303b37589b8f59f37a6043c767952a6f08cfab3"
+      }
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg": {
+      "originalBytes": 923822,
+      "originalWidth": 3004,
+      "originalHeight": 4538,
+      "originalSha256": "46e841b57489d43e559fdfc6b3e1593b55baaa12cf3d500eb08aa12847c65dc7",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg.webp",
+        "bytes": 178332,
+        "width": 1059,
+        "height": 1600,
+        "sha256": "ef872f520fc618a979beca783133b76dd9bb1676807a74f78240c46126f24c51"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-A.jpg.webp",
+        "bytes": 12456,
+        "width": 238,
+        "height": 360,
+        "sha256": "c2db58a340e3250c4c49bb1acb9983a988ab2108f9a2564e1d400eb01b19c45f"
+      }
+    },
+    "assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg": {
+      "originalBytes": 995781,
+      "originalWidth": 3000,
+      "originalHeight": 4517,
+      "originalSha256": "b79367dc5808970912f231501b13661e4697ef74012394992bd9ef10a8c87990",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg.webp",
+        "bytes": 160416,
+        "width": 1063,
+        "height": 1600,
+        "sha256": "5579eb3d40470998e125443ecb7a6d30c5c8dd6501f5819a5f296e1e96592cc7"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg.webp",
+        "bytes": 9688,
+        "width": 239,
+        "height": 360,
+        "sha256": "0fc51fa1f4d458441439672d543a7f72474e85f1302765f7eb0ce6df1e1b8e8f"
+      }
+    },
     "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png": {
       "originalBytes": 372108,
       "originalWidth": 1530,
@@ -6900,6 +6984,216 @@
         "width": 360,
         "height": 278,
         "sha256": "8aa3037aa429a102881167f932b967496bf11dd7b1208641e87e6a457d0b5704"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png": {
+      "originalBytes": 485539,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "cbe55c5eff954d769218934a5ca133284ddc42051cc34764f5ecf9391158cd8a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png.webp",
+        "bytes": 98306,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "8894721cd6528b321eb65f8e1e5f198362c810b64f682f8c38bc5a965f18124a"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D024-pdf-page-003.png.webp",
+        "bytes": 8962,
+        "width": 278,
+        "height": 360,
+        "sha256": "0e0d0bb92084bc47ba93c3ccb8ec99de8de32ae34a8643d97f1e352b5d8ba96b"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg": {
+      "originalBytes": 439369,
+      "originalWidth": 1800,
+      "originalHeight": 1129,
+      "originalSha256": "69454755a634fd4256beae611ef8de7f94cbb91a587934b2ce4e2c2d562ef51f",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg.webp",
+        "bytes": 188248,
+        "width": 1600,
+        "height": 1004,
+        "sha256": "f735d6edc3b4c95cc3b36c1afdd2fdecdec93a1abf7d4dd405a72a06907aed31"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D025-witness-reconstruction.jpg.webp",
+        "bytes": 5896,
+        "width": 360,
+        "height": 226,
+        "sha256": "b8f76998021a35b2bb7fca61e13b3181c947869528ca9df4aed8f18e4a79ab95"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png": {
+      "originalBytes": 431500,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "6569eed24723483e248774ed8dd83932e4b1b46556c4b57f61d6a9b00490eb78",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png.webp",
+        "bytes": 84400,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "ba7101ed7df6268066d3a883d5b8f6275bacfec3ce7868200829865f8437940c"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-001.png.webp",
+        "bytes": 9184,
+        "width": 278,
+        "height": 360,
+        "sha256": "c68b35b2815b3d37b42c55f14cd68ee06bd75efd88c1776bbf9a848bee5c8e0a"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png": {
+      "originalBytes": 1053339,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "b8799e72d89591c6abfa857333da0ee7ac01e25362a1acf52d31e7627cc99747",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png.webp",
+        "bytes": 218454,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "db4ee37ef69b1020db2721effbc9ec262e894a749ae7a81f57441bdde1f2bab6"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D026-pdf-page-002.png.webp",
+        "bytes": 19308,
+        "width": 278,
+        "height": 360,
+        "sha256": "cb3b3835dca7340dff801c1eceb0cb8b31f13441db7f3dd599d7867c82b3e4f6"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png": {
+      "originalBytes": 530211,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "d77303ce98d53b02c07dad4d5effae59eba2e707fde26345716bee0abb3d9123",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png.webp",
+        "bytes": 97738,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "49d7efc1e6b428a6f83ef94ac25fcebf562437bcc0bfbca0c78bcd2dc845f05e"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-001.png.webp",
+        "bytes": 10446,
+        "width": 278,
+        "height": 360,
+        "sha256": "665959ce506fef5fc352cdc1b81e2a69980ee7818ad58bb307590bd244c5ef53"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png": {
+      "originalBytes": 801705,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "4584713e82dd2f32fb45962e91712ea29abb5a20f59c374e9bd5dc2ca99b6b7e",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png.webp",
+        "bytes": 165612,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "da47a040155c6c8ba2efd08a4d174076020df6282f8ef6a4318e137143810276"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D028-pdf-page-002.png.webp",
+        "bytes": 14992,
+        "width": 278,
+        "height": 360,
+        "sha256": "2e13a2959758ff82ac8557ae6158170ad69fdafab8087f248fa8789a912b8c54"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png": {
+      "originalBytes": 495850,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "d0f87277f9bad2a4e7127eac276f136c9d036701d281c1710d6f8325f443a2dd",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png.webp",
+        "bytes": 96654,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "2594f3799bdea7c97e38e295bacfdd916f28f65cbe3d62cec8e011a8ae351ae2"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-001.png.webp",
+        "bytes": 10406,
+        "width": 278,
+        "height": 360,
+        "sha256": "b30a920283adddf45c91424a684fc79a91bf6d1f3abf4623ccb009718c2b42d4"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png": {
+      "originalBytes": 896179,
+      "originalWidth": 1224,
+      "originalHeight": 1584,
+      "originalSha256": "e8bbcabe61c736127761c92a01aed3a1eb433c97152faa84a5b4b6dc8f723cca",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png.webp",
+        "bytes": 184780,
+        "width": 1224,
+        "height": 1584,
+        "sha256": "71c2ca4b1871e6dc6b82862cc70936a980857ee67f1eff2ed9a6e08cb39b7d5e"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D030-pdf-page-002.png.webp",
+        "bytes": 16966,
+        "width": 278,
+        "height": 360,
+        "sha256": "cec4aea82b409b8f5103cb85a814ebb7e86ed77358123e625142f2bfe8f54b44"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg": {
+      "originalBytes": 504141,
+      "originalWidth": 1800,
+      "originalHeight": 1129,
+      "originalSha256": "1d406514bb27408c486ac544fe86d395ba2590f42da80e5a21eca57317b5b595",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg.webp",
+        "bytes": 194866,
+        "width": 1600,
+        "height": 1004,
+        "sha256": "f045bf09d7da7b6e69394f2fe4f2952381e90888dd534d20b0005dd3af5f680c"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D031-witness-reconstruction.jpg.webp",
+        "bytes": 5034,
+        "width": 360,
+        "height": 226,
+        "sha256": "1a62293299941fbfbd40dd2649f5bfda91356b9bca27e77c031ce340e341defe"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png": {
+      "originalBytes": 758709,
+      "originalWidth": 1275,
+      "originalHeight": 1650,
+      "originalSha256": "1c6a88fd7934c6cc0834d90f8f63af92899af09a0773ebe7bf8b04240db4df93",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png.webp",
+        "bytes": 139282,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "f3e63d0ebc0110712947627db751e56feec80ae6e0e0e7f11b0d99847ae8e21b"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D032-pdf-page-001.png.webp",
+        "bytes": 11788,
+        "width": 278,
+        "height": 360,
+        "sha256": "4c81c9a20df66f06a5d9a7ad002c994bda57826400e26723733d6cf0dcac741d"
       }
     },
     "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png": {
