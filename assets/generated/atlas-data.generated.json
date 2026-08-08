@@ -663,11 +663,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "During the summer and autumn of 1946, numerous reports of cigar-shaped luminous objects were reported over Sweden and Norway, with over 1500 observations logged by Swedish military.",
-      "quoteSource": "Swedish Defense Staff reports, 1946 (summary)",
-      "quoteConfidence": "web article quote — summary of historical record",
+      "keyQuote": "The best evidence, at present, is that there have been only 2 or 3 real incidents, perhaps as many as 5 or 10, of low-flying missiles of the V-1 type.",
+      "quoteSource": "War Department Intelligence Division, “Ghost Rockets Over Scandinavia,” 20 January 1947, DOW-UAP-D099, PDF p. 6 / report p. 20",
+      "quoteConfidence": "High — visually verified in the exact War.gov Release 05 PDF. This is the U.S. War Department review’s analytical conclusion, not proof that any reported object was a Soviet missile.",
       "significance": "Case significance",
-      "sourceQuality": "Official Riksarkivet topic/NAD custody family plus strict 12-scan public derivative map; exact item shelfmarks and corpus completeness remain unresolved.",
+      "sourceQuality": "Official Swedish archival custody family plus exact U.S. records released in PURSUE Release 05: a January 1947 War Department Intelligence Division review (DOW-UAP-D099) and a January 1948 Project SIGN request for the complete “Swedish Incidents” file within DOW-UAP-D100. The review records nearly 1,000 Swedish reports by late July 1946, states that U.S. personnel had not seen fragments or impact evidence, and narrows its missile hypothesis to a small residue. Project SIGN interest establishes institutional linkage, not new event evidence. Exact Swedish item shelfmarks and the underlying diplomatic source packet remain unresolved.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1946-GR-01",
@@ -685,13 +685,15 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "Sweden logged roughly two thousand reports of fast rocket-like objects in 1946, many over lakes; a military dive search at Lake Kölmjärv that July found nothing. Swedish, British, and American intelligence all investigated — Soviet tests were suspected and never confirmed; a substantial fraction of reports resisted the meteor explanation.",
-      "keyFact": "Sweden’s National Archives publicly identifies the Rymdprojektilkommittén record family as documents concerning space projectiles and the 1946 ‘ghost rockets’ investigation. An exact internal order citation, Fst/L 12/6 1946 NR 7:49, is recovered, but the item-level shelfmark and corresponding U.S. diplomatic file remain unresolved.",
-      "official": "Swedish defense concluded most reports were misidentifications while explicitly leaving a residue unexplained; files have since been released.",
-      "gap": "Still needed: an item-level Riksarkivet/Krigsarkivet shelfmark, first-generation scan provenance, and any exact RG 59 diplomatic reporting. A large Internet Archive scan corpus is preserved as a lead only until its internal markings can be mapped to official custody.",
+      "keyFact": "A January 1947 War Department review records nearly 1,000 Swedish reports by late July 1946 but says no U.S. military or naval personnel had seen fragments, impact points or other direct missile evidence. Its own conclusion reduced the potentially real low-flying missile residue to 2–3 incidents, perhaps 5–10. One year later, Project SIGN formally requested the complete “Swedish Incidents” file for its flying-disc investigation.",
+      "official": "Swedish communiqués shifted over time. A separate U.S. War Department review judged many reports celestial or explainable, hypothesized only a small low-flying missile residue, and did not establish Soviet origin.",
+      "gap": "Still needed: item-level Riksarkivet/Krigsarkivet shelfmarks, first-generation Swedish scans, the source diplomatic and attaché reporting behind DOW-UAP-D099, and physical evidence for any specific incident. Release custody authenticates the review, not its Soviet/V-1 hypothesis.",
       "whyItMatters": "Ghost rockets show a modern state running the full investigative playbook — search, intelligence liaison, partial explanation — before the UFO era's vocabulary existed.",
       "sources": [
         "GHOSTROCKETS-1946 · Swedish defense files / Kölmjärv search record",
-        "GHOSTROCKETS-RIKSARKIVET-1946 · Rymdprojektilkommittén archival catalog lead"
+        "GHOSTROCKETS-RIKSARKIVET-1946 · Rymdprojektilkommittén archival catalog lead",
+        "DOW-UAP-D099 · War Department Intelligence Division review, 20 January 1947",
+        "DOW-UAP-D100 · Project SIGN request for the Swedish Incidents file, 23 January 1948"
       ],
       "sourceLabel": "Swedish defense file",
       "sourceLocator": "GHOSTROCKETS-1946",
@@ -790,6 +792,49 @@
             "not an independent source",
             "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
+          ]
+        },
+        {
+          "citation": "War Department Intelligence Division, “Ghost Rockets Over Scandinavia,” 20 January 1947, DOW-UAP-D099",
+          "sourceType": "primary-official-intelligence-review",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D099 · PDF pp. 5–6",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "59bdcb1406b50d7dab7f13dbce940eb247a0724c744100d34f9a53ea3209e2f4",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png"
+          ],
+          "supports": [
+            "Documents the U.S. War Department’s January 1947 assessment of the 1946 Scandinavian reporting wave",
+            "Records nearly 1,000 reports received by Swedish authorities by late July 1946",
+            "States that no U.S. military or naval personnel in Sweden had seen fragments, impact points or other direct guided-missile evidence",
+            "Preserves the review’s limited conclusion that 2–3, perhaps 5–10, low-flying missile incidents might have been real"
+          ],
+          "limitations": [
+            "The review synthesizes intelligence reporting and does not provide the complete underlying Swedish case files or attaché traffic",
+            "Its V-1/Soviet hypothesis is an analytical judgment, not an authenticated launch record or recovered object",
+            "The review says the evidence was conflicting and attributes many reports to meteors, fireworks or other explainable causes"
+          ]
+        },
+        {
+          "citation": "Air Materiel Command, Project SIGN request for the complete “Swedish Incidents” file, 23 January 1948, DOW-UAP-D100",
+          "sourceType": "primary-official-institutional-linkage-record",
+          "provenance": "Exact page within the 245-page DOW-UAP-D100 PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D100 · PDF p. 152",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png"
+          ],
+          "supports": [
+            "Documents Project SIGN’s formal request for the complete Swedish Incidents file on 23 January 1948",
+            "Establishes a direct institutional link between the 1946 Swedish reports and the early U.S. Air Force flying-disc investigation"
+          ],
+          "limitations": [
+            "A file-transfer request proves institutional interest, not the identity or reality of any reported object",
+            "The page does not contain the Swedish case files, physical evidence or a Project SIGN analytical conclusion about the incidents",
+            "It is institutional context rather than independent event corroboration"
           ]
         }
       ],
@@ -891,11 +936,38 @@
           "access": "Public PDF",
           "scope": "mapped-public-derivative-scan",
           "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; strict OCR/reference match; item-level Riksarkivet shelfmark unresolved."
+        },
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for DOW-UAP-D099 and DOW-UAP-D100. The records authenticate a 1947 intelligence assessment and Project SIGN’s 1948 file request—not the Soviet-missile hypothesis or every underlying report."
         }
       ],
       "images": [
-        "assets/source_previews/BF-1946-GR-01_source_image.jpg"
+        "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png"
       ],
+      "evidenceBoundary": {
+        "established": [
+          "Swedish authorities received a large wave of reports in 1946 and opened an official investigation.",
+          "The January 1947 War Department review records nearly 1,000 reports by late July and no direct fragments or impact evidence seen by U.S. personnel.",
+          "A 23 January 1948 Air Materiel Command letter shows Project SIGN requested the complete Swedish Incidents file for review.",
+          "The review treated only a small residue as potentially real low-flying missile incidents."
+        ],
+        "notEstablished": [
+          "That 1,500 or 2,000 reports were independently verified anomalous objects.",
+          "That the reported objects were Soviet weapons, extraterrestrial craft or one uniform phenomenon.",
+          "That any recovered fragment in the reviewed record came from an unidentified vehicle."
+        ],
+        "competingExplanations": [
+          "Meteors, fireworks, aircraft, V-1-type missiles, public-reporting amplification and observer error all remain part of the historical record."
+        ]
+      },
       "mapGeometry": null,
       "x": 54.5,
       "y": 10.84,
@@ -2249,7 +2321,7 @@
       "quoteSource": "Edward J. Ruppelt, The Report on Unidentified Flying Objects (1956), public-domain PDF p. 35",
       "quoteConfidence": "High for Ruppelt’s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered.",
       "significance": "High significance",
-      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt’s 1956 insider account. It authenticates his published description and wording, not the missing 1948 Estimate document or its administrative trail.",
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt’s 1956 insider account, plus a contemporaneous 1948 Project SIGN/USAF correspondence packet released as DOW-UAP-D100. DOW-UAP-D100 verifies institutional context and actual November 1948 analytical language; it does not contain or authenticate the missing Estimate of the Situation.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-07",
@@ -2270,10 +2342,11 @@
       "summary": "In August 1948, Project Sign staff at Wright-Patterson reportedly produced a top-secret 'Estimate of the Situation' concluding that flying saucers were interplanetary. Gen. Hoyt Vandenberg rejected it for lack of proof and ordered copies destroyed. No copy has ever surfaced; the document is known through Edward Ruppelt's 1956 account and corroborating insider recollections.",
       "keyFact": "The founding ghost of the archive: an official document whose existence is well-attested and whose destruction was itself the official act.",
       "official": "The Air Force has never acknowledged the document; Ruppelt, Sign's successor-project chief, described it in print without contradiction from the service.",
-      "gap": "No copy, index entry, or destruction certificate has ever been located — the case is a search target more than a file. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
+      "gap": "No copy, index entry or destruction certificate for the Estimate has been located. DOW-UAP-D100 adds contemporaneous Project SIGN context but not the Estimate itself: the packet reports approximately 180 studied incidents, unresolved cases and no tangible evidence supporting an interplanetary conclusion.",
       "whyItMatters": "Every 'the government once concluded X' claim descends from this episode; it defines what a credible destroyed-document account looks like when told by an insider.",
       "sources": [
-        "ESTIMATE-1948 · Ruppelt account (1956) / Project Sign record trail"
+        "ESTIMATE-1948 · Ruppelt account (1956) / Project Sign record trail",
+        "DOW-UAP-D100 · Air Materiel Command / Project SIGN correspondence, 1947–1948"
       ],
       "sourceLabel": "Ruppelt account",
       "sourceLocator": "ESTIMATE-1948",
@@ -2368,6 +2441,29 @@
             "Ruppelt’s book is a later insider account, not the 1948 Estimate document",
             "Does not independently establish the Estimate’s complete text, authorship, routing, approval, or destruction"
           ]
+        },
+        {
+          "citation": "Air Materiel Command / Headquarters USAF, Project SIGN correspondence and flying-object assessment, 1947–1948, DOW-UAP-D100",
+          "sourceType": "primary-official-institutional-record-packet",
+          "provenance": "Exact 245-page PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D100 · PDF pp. 7–8",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png"
+          ],
+          "supports": [
+            "Documents a November 1948 Air Materiel Command study of approximately 180 incidents",
+            "Records that some reports lacked a reasonable everyday explanation while no physical evidence had been obtained",
+            "Records that the interplanetary possibility was considered but tangible support was completely lacking",
+            "Provides contemporaneous Project SIGN institutional context for Ruppelt’s later Estimate account"
+          ],
+          "limitations": [
+            "The packet does not contain the alleged Estimate of the Situation",
+            "It does not authenticate the Estimate’s wording, authorship, routing, approval or destruction",
+            "A later institutional packet cannot convert Ruppelt’s retrospective account into a recovered primary document"
+          ]
         }
       ],
       "phenomena": {
@@ -2435,17 +2531,41 @@
           "mediaKind": "image",
           "locator": "PDF p. 35",
           "note": "Verifies Ruppelt’s wording, not the missing 1948 document."
+        },
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for DOW-UAP-D100. It provides contemporaneous Project SIGN context but does not recover or authenticate the missing Estimate."
         }
       ],
       "images": [
         "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
         "assets/source_previews/BF-SF-07_source_image.jpg",
-        "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png"
+        "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png"
       ],
       "acquisitionTargets": [
         "Original 1948 Estimate of the Situation or an authenticated surviving copy",
         "ATIC/Air Force control-register, routing, withdrawal, destruction, or transfer records establishing the document’s administrative trail"
       ],
+      "evidenceBoundary": {
+        "established": [
+          "Ruppelt published a detailed insider account of an Estimate that concluded the objects were interplanetary.",
+          "DOW-UAP-D100 independently establishes active Project SIGN analysis in 1948 and preserves the contemporaneous unresolved/no-physical-evidence boundary."
+        ],
+        "notEstablished": [
+          "That DOW-UAP-D100 is the Estimate or contains the Estimate’s text.",
+          "The exact authorship, approval path, final wording or destruction record of the alleged Estimate.",
+          "That Project SIGN possessed physical evidence or reached an institutionally approved extraterrestrial conclusion."
+        ],
+        "competingExplanations": [
+          "The missing-document account may preserve a real rejected draft, a later reconstruction of internal debate, or a document whose title and administrative status shifted in recollection."
+        ]
+      },
       "mapGeometry": null,
       "x": 29.43,
       "y": 18.43,
@@ -2734,7 +2854,7 @@
       "quoteSource": "Project Blue Book Great Falls case file, NARA NAID 28938188, digital image 0972 / local compiled PDF page 72.",
       "quoteConfidence": "High — visually verified against the complete 113-page case-file copy; the passage reports custody loss as attributed in the file.",
       "significance": "Case significance",
-      "sourceQuality": "Exact NARA case-file and motion-picture-item custody; no camera original or complete generation ledger identified.",
+      "sourceQuality": "Exact NARA case-file and motion-picture-item custody, plus the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. The Navy report adds a contemporaneous laboratory layer but expressly disclaims official-policy status and records material resource and corroboration limits. No camera original or complete generation ledger is identified.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1950-GF-01",
@@ -2759,7 +2879,8 @@
       "whyItMatters": "Great Falls ties directly to this atlas's Robertson Panel record: it is half of the physical evidence that panel reviewed before recommending debunking.",
       "sources": [
         "GREATFALLS-1950 · Mariana film / USAF analysis record",
-        "GREATFALLS-1950-FILM · NARA motion-picture item NAID 61935"
+        "GREATFALLS-1950-FILM · NARA motion-picture item NAID 61935",
+        "DOW-UAP-D098 · Naval Photographic Interpretation Center film analysis, 4 May 1953"
       ],
       "sourceLabel": "USAF film analysis",
       "sourceLocator": "GREATFALLS-1950",
@@ -2839,6 +2960,29 @@
             "Digital reels are later transfer derivatives",
             "No record recovered that resolves the alleged missing first 35 frames"
           ]
+        },
+        {
+          "citation": "U.S. Naval Photographic Interpretation Center, “Interpretation of Movies of Unidentified Objects,” 4 May 1953, DOW-UAP-D098",
+          "sourceType": "primary-official-photographic-analysis",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D098 · PDF pp. 6 and 9",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
+          ],
+          "supports": [
+            "Documents a 1953 Naval Photographic Interpretation Center analysis of the 1952 Utah and 1950 Montana films",
+            "Preserves the analysts’ majority view that the Utah images were light sources not identified as natural phenomena or commonly known man-made objects",
+            "Records film-generation and measurement limitations, including that the Utah analysis film was a duplicate of a copy"
+          ],
+          "limitations": [
+            "The report explicitly says its analysis did not necessarily represent the official position of the Navy or the Center",
+            "The analysts said the investigation lacked proper equipment, money and personnel and that no attempt was made to corroborate the opinions presented",
+            "Distance and trajectory assumptions materially affected computed sizes, velocities and accelerations",
+            "The document is an analytical layer, not a recovered camera original or a final identification of either film"
+          ]
         }
       ],
       "phenomena": {
@@ -2886,11 +3030,20 @@
           "publisher": "National Archives and Records Administration",
           "access": "Public",
           "scope": "official-record"
+        },
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for DOW-UAP-D098. The report documents one 1953 analytical position and its limitations; it is not a final object-origin finding."
         }
       ],
       "images": [
         "assets/evidence/hero-visuals/GREATFALLS-1950-Mariana-film-frame-260s.jpg",
-        "assets/source_previews/BF-1950-GF-01_source_image.jpg"
+        "assets/source_previews/BF-1950-GF-01_source_image.jpg",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
       ],
       "evidenceDepthStatus": "primary-complete",
       "mapGeometry": null,
@@ -3172,7 +3325,7 @@
       "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
       "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence; camera original and full laboratory ledger remain unlocated.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -3190,13 +3343,14 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah. Navy photo analysts spent over a thousand hours on the film and reportedly judged the objects self-luminous and not birds; the Robertson Panel overrode that with a seagull explanation Newhouse rejected, noting he had seen the objects closely before filming.",
-      "keyFact": "The exact 97-image Blue Book file is NARA NAID 28943418 and the motion-picture item is NAID 61937. NARA lists 42-foot 16 mm reference and preservation elements, while the digital transfer slate identifies its source as ‘16mm RSK (P Copy).’ The Navy analysis records that brittle film was duplicated and warns that the analysis film was ‘a duplicate of a copy.’",
-      "official": "Robertson Panel: seagulls in sunlight. Navy Photographic Interpretation Center's contrary internal assessment survives only in summaries.",
+      "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah, on 2 July 1952. The exact 4 May 1953 Naval Photographic Interpretation Center report records a majority view that the images were light sources not identifiable as natural phenomena or commonly known man-made objects. The Robertson Panel and a later Air Force memorandum favored a seagull explanation, while the Navy report itself records copy-generation, geometry, resource and corroboration limits.",
+      "keyFact": "Release 05 recovers the exact 1953 Navy analysis rather than only later summaries. NARA separately lists 42-foot 16 mm reference and preservation elements, but the digital transfer slate identifies a positive copy and the Navy report states that its analysis used “a duplicate of a copy.”",
+      "official": "The exact 4 May 1953 Naval Photographic Interpretation Center report records the analysts’ majority light-source/unidentified assessment, while stating that it did not necessarily represent the official Navy or Center position and that no corroboration attempt was made. The Robertson Panel and a 1956 Air Force memorandum favored sunlit seagulls. The official record therefore preserves conflicting analyses rather than a final identification.",
       "gap": "Primary gap: the first-generation 16 mm camera film and complete laboratory chain-of-custody/measurement worksheets needed to determine which analysis used which film generation.",
       "whyItMatters": "Tremonton is the other half of the Robertson Panel's evidence base, and its analyst-versus-panel split prefigures every modern sensor-interpretation fight.",
       "sources": [
-        "TREMONTON-1952 · Newhouse film / Robertson Panel record"
+        "TREMONTON-1952 · Newhouse film / Robertson Panel record",
+        "DOW-UAP-D098 · Naval Photographic Interpretation Center film analysis, 4 May 1953"
       ],
       "sourceLabel": "Robertson Panel record",
       "sourceLocator": "TREMONTON-1952",
@@ -3276,6 +3430,29 @@
             "The historical Navy report says the analysis film was a duplicate of a copy",
             "Complete laboratory custody ledger is not established"
           ]
+        },
+        {
+          "citation": "U.S. Naval Photographic Interpretation Center, “Interpretation of Movies of Unidentified Objects,” 4 May 1953, DOW-UAP-D098",
+          "sourceType": "primary-official-photographic-analysis",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D098 · PDF pp. 6 and 9",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
+          ],
+          "supports": [
+            "Documents a 1953 Naval Photographic Interpretation Center analysis of the 1952 Utah and 1950 Montana films",
+            "Preserves the analysts’ majority view that the Utah images were light sources not identified as natural phenomena or commonly known man-made objects",
+            "Records film-generation and measurement limitations, including that the Utah analysis film was a duplicate of a copy"
+          ],
+          "limitations": [
+            "The report explicitly says its analysis did not necessarily represent the official position of the Navy or the Center",
+            "The analysts said the investigation lacked proper equipment, money and personnel and that no attempt was made to corroborate the opinions presented",
+            "Distance and trajectory assumptions materially affected computed sizes, velocities and accelerations",
+            "The document is an analytical layer, not a recovered camera original or a final identification of either film"
+          ]
         }
       ],
       "phenomena": {
@@ -3322,11 +3499,21 @@
           "publisher": "National Archives and Records Administration",
           "access": "Public",
           "scope": "official-record"
+        },
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for DOW-UAP-D098. The report documents one 1953 analytical position and its limitations; it is not a final object-origin finding."
         }
       ],
       "images": [
         "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
-        "assets/source_previews/BF-1952-TM-01_source_image.jpg"
+        "assets/source_previews/BF-1952-TM-01_source_image.jpg",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
       ],
       "evidenceDepthStatus": "primary-complete",
       "mapGeometry": null,
@@ -27490,6 +27677,673 @@
       "y": 17.83,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-1964-PR-01",
+      "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
+      "date": "16–24 NOV 1964",
+      "year": 1964,
+      "location": "North of Puerto Rico / Atlantic Fleet Weapons Range",
+      "mode": "approximate",
+      "lon": -65.5,
+      "lat": 20.5,
+      "expectedCountry": "Puerto Rico",
+      "geometryExpectation": "offshore",
+      "coordinatePrecision": "offshore-region",
+      "coordinateBasis": "Generalized offshore point north/east of Puerto Rico within the reported Atlantic Fleet Weapons Range vicinity; exact track geometry is absent",
+      "agency": "USN / CIA",
+      "domain": "MILITARY / SENSOR",
+      "status": "DOCUMENTED · UNRESOLVED",
+      "confidence": "CONFIRMED RECORD · UNRESOLVED AIRCRAFT IDENTITY",
+      "summary": "CIA and Navy records describe several high-speed targets near the Atlantic Fleet Weapons Range on 16, 17, 18, 19 and 24 November 1964. On 19 November an F-8C pilot reported a delta-shaped object in full moonlight while USS Gyatt recorded a radar track; on 24 November another high-altitude target reportedly pulled away from a Crusader at Mach 0.99 and 45,000 feet. CIA rejected a YF-12A identification and considered—but did not substantiate—a MiG-21 reconnaissance explanation.",
+      "keyFact": "The released memoranda preserve a pilot-visual, shipboard-radar and intelligence-handling chain, including Navy transfer of the original radar film and prints to CIA for analysis; those radar materials are not included in Release 05.",
+      "official": "CIA treated the 19 November object as probably a high-performance delta-wing aircraft and left other observations as unidentified aircraft. Internal correspondence says ONI was convinced it was not a YF-12A or similar Lockheed aircraft. The records do not establish extraordinary origin.",
+      "gap": "The original USS Gyatt radar film and prints, complete Navy message traffic, Atlantic Fleet Weapons Range sensor records, pilot statement, and any final OSI/OEL technical analysis are absent.",
+      "whyItMatters": "A rare historical case in which released intelligence records connect a military pilot observation, shipboard radar-scope photography, weapons-range reporting and explicit competing aircraft analysis.",
+      "sources": [
+        "CIA-UAP-D022 · CIA memoranda and radar-film custody, 1965",
+        "CIA-UAP-D023 · Navy briefing notes on November 1964 incidents"
+      ],
+      "sourceLabel": "CIA / U.S. Navy records",
+      "sourceLocator": "CIA-UAP-D022",
+      "relatedCaseIds": [
+        "BF-2013-AG-01",
+        "BF-1957-RB-01"
+      ],
+      "keyQuote": "The U.S.S. Gyatt confirmed the tracking with motion pictures of radar scope presentation.",
+      "quoteSource": "CIA-UAP-D023, Briefing Notes for Mr. Walter Elder, PDF p. 2",
+      "quoteConfidence": "High — exact wording in the released briefing note; it establishes the reported radar-film chain, not the object’s identity.",
+      "heroFact": "Navy traffic reportedly delivered the original radar film and prints to CIA, but Release 05 contains the memoranda—not the radar media itself.",
+      "significance": "High significance",
+      "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
+      "image": "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png",
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-002.png"
+      ],
+      "caseTypes": [
+        "military-encounter"
+      ],
+      "evidenceModes": [
+        "testimony",
+        "radar",
+        "documentary-record"
+      ],
+      "environment": [
+        "military-airspace",
+        "maritime"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-record"
+      },
+      "temporal": {
+        "dateLabel": "16–24 NOV 1964",
+        "year": 1964,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "date-range",
+        "eventForm": "multi-event"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -65.5,
+            20.5
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "offshore-region",
+        "uncertaintyKm": 350,
+        "basis": "Generalized offshore point north/east of Puerto Rico within the reported Atlantic Fleet Weapons Range vicinity; exact track geometry is absent"
+      },
+      "sourceRecords": [
+        {
+          "citation": "CIA memoranda concerning unidentified flying-object reports near Puerto Rico, 1 and 11 February 1965, CIA-UAP-D022",
+          "sourceType": "primary-official-intelligence-analysis-and-custody-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "CIA-UAP-D022 · PDF pp. 3–4 and 6",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
+            "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png",
+            "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png"
+          ],
+          "supports": [
+            "Documents CIA analysis of reports from 16–24 November 1964 near the Atlantic Fleet Weapons Range",
+            "Records competing YF-12A and possible MiG-21 aircraft interpretations",
+            "Records Navy transfer of the original radar film and accompanying prints to CIA"
+          ],
+          "limitations": [
+            "The original radar film, prints and complete message traffic are absent from Release 05",
+            "The MiG-21 discussion explicitly states that no evidence supported such reconnaissance activity from Cuba",
+            "CIA analysis of a likely aircraft does not identify the aircraft or independently verify every reported observation"
+          ]
+        },
+        {
+          "citation": "Navy briefing notes for Walter Elder on the November 1964 Puerto Rico incidents, CIA-UAP-D023",
+          "sourceType": "primary-official-briefing-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "CIA-UAP-D023 · PDF pp. 1–2",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "aba51f51191bbcd37dc1f591171b6edc78c9bfb9632cfed8fae6a8bf1d61ca40",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-002.png"
+          ],
+          "supports": [
+            "Records the F-8C pilot’s full-moon visual description of a delta-shaped object",
+            "Records USS Gyatt confirmation with motion pictures of the radar-scope presentation",
+            "Records a separate 24 November high-altitude target that pulled away from a Crusader at Mach 0.99 and 45,000 feet"
+          ],
+          "limitations": [
+            "A briefing note summarizes underlying reports that are not included in full",
+            "Pilot estimates and radar summaries cannot be independently reconstructed without the original media and logs"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "delta",
+          "aircraft-like"
+        ],
+        "objectCount": null,
+        "luminosity": null,
+        "motion": [
+          "high-speed"
+        ],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": null,
+        "witnessRoles": [
+          "U.S. Navy F-8C pilot",
+          "USS Gyatt radar personnel"
+        ],
+        "sensors": [
+          "unaided-visual",
+          "shipboard-radar",
+          "radar-scope-photography"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 2
+      },
+      "taxonomyOriginal": {
+        "domain": "MILITARY / SENSOR",
+        "status": "UNRESOLVED AIRCRAFT REPORT",
+        "confidence": "CONFIRMED RECORD"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "CIA analysis page addressing the November 1964 Puerto Rico reports and competing aircraft hypotheses.",
+        "provenance": "CIA record released through PURSUE Release 05",
+        "evidenceStatus": "Official documentary evidence; not event imagery or the referenced radar film.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for CIA-UAP-D022 and D023. The records authenticate the intelligence and radar-film handling chain, not an extraordinary object origin."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Official CIA/Navy records document pilot, shipboard-radar and weapons-range reporting on 16, 17, 18, 19 and 24 November 1964.",
+          "The Navy provided original radar film and prints to CIA for analysis.",
+          "CIA rejected the proposed YF-12A identification and considered conventional high-performance aircraft possibilities."
+        ],
+        "notEstablished": [
+          "The original radar film, prints, complete pilot statement and final technical analysis are absent from Release 05.",
+          "The exact object identity, trajectory, speed and origin.",
+          "That the reports described one object or an extraordinary vehicle."
+        ],
+        "competingExplanations": [
+          "High-performance military aircraft, including a speculative MiG-21 reconnaissance configuration; sensor or range reconstruction error; unidentified conventional aircraft."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 32.96,
+      "y": 24.35,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2021-GOM-01",
+      "title": "Gulf of Oman AC-130 EO/IR Event",
+      "date": "8 SEP 2021",
+      "year": 2021,
+      "location": "Gulf of Oman [PARTIALLY REDACTED]",
+      "mode": "approximate",
+      "lon": 58,
+      "lat": 24.5,
+      "geometryExpectation": "offshore",
+      "coordinatePrecision": "redacted-offshore-region",
+      "coordinateBasis": "Generalized Gulf of Oman point; released MGRS begins 40REN6 but is partially redacted and cannot support exact plotting",
+      "agency": "USSOF / AFSOC",
+      "domain": "MILITARY / SENSOR",
+      "status": "DOCUMENTED · UNRESOLVED",
+      "confidence": "CONFIRMED REPORT · NOT FINALLY EVALUATED",
+      "summary": "A released Intelligence Information Report states that a USSOF AC-130 crew observed approximately 25 UAP instances through EO/IR during live-fire training in the Gulf of Oman on 8 September 2021. Two approximately four-foot cold objects were reported stationary just above the water near a flare before departing as the 105 mm cannon fired; later observations described pairs and trios maneuvering in formation. The report is marked not finally evaluated, and its six-video attachment is absent from the released packet.",
+      "keyFact": "The report provides a direct military-platform and EO/IR sensor chain, GPS-derived location basis and reported speed calculations, but the PowerPoint containing six embedded videos and the corrupted full DVR recording are unavailable.",
+      "official": "The document is an Intelligence Information Report explicitly labeled “not finally evaluated intelligence.” It records source reporting and broad dissemination; it is not an AARO, AFSOC or intelligence-community finding about object identity or origin.",
+      "gap": "Missing are the six embedded AC-130 videos, uncorrupted full-sortie DVR data, raw sensor metadata, aircraft telemetry/TACTOOL outputs, independent radar or ship correlation, and a final analytical disposition.",
+      "whyItMatters": "A unusually detailed modern military sensor report combining a named aircraft class, EO/IR observation, live-fire chronology, location methodology and attachment trail while clearly exposing the decisive missing data.",
+      "sources": [
+        "DOW-UAP-D101 · Gulf of Oman AC-130 Intelligence Information Report, 2021/2022"
+      ],
+      "sourceLabel": "USSOF / AFSOC Intelligence Information Report",
+      "sourceLocator": "DOW-UAP-D101",
+      "relatedCaseIds": [
+        "BF-2020-AG-00",
+        "BF-2019-OM-01"
+      ],
+      "keyQuote": "Immediately upon pulling the trigger… the CSO observed the pair of UAP rapidly fly away from the flare and out of the sensor feed without changing altitude.",
+      "quoteSource": "DOW-UAP-D101, PDF p. 5",
+      "quoteConfidence": "High — exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence.",
+      "heroFact": "The report lists a PowerPoint containing six embedded AC-130 videos, but Release 05 does not provide a defensible filename crosswalk to the anonymous MP4s.",
+      "significance": "High significance",
+      "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
+      "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
+      ],
+      "caseTypes": [
+        "military-encounter"
+      ],
+      "evidenceModes": [
+        "sensor",
+        "documentary-record"
+      ],
+      "environment": [
+        "maritime",
+        "military-airspace"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "not-assessed",
+        "provenance": "primary-record"
+      },
+      "temporal": {
+        "dateLabel": "8 SEP 2021",
+        "year": 2021,
+        "startDateTime": "2021-09-08",
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "day",
+        "eventForm": "single-sortie-multi-observation"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            58,
+            24.5
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "redacted-offshore-region",
+        "uncertaintyKm": 300,
+        "basis": "Generalized Gulf of Oman point; released MGRS begins 40REN6 but is partially redacted and cannot support exact plotting"
+      },
+      "sourceRecords": [
+        {
+          "citation": "Intelligence Information Report, “Multiple Unidentified Aerial Phenomenon Observed… Over Gulf of Oman During AC-130 Gunship Live Fire Training on 8 September 2021,” DOW-UAP-D101",
+          "sourceType": "primary-official-intelligence-information-report",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "DOW-UAP-D101 · PDF pp. 1, 5–6",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "926f4cf9a852d77bca34e8e7370c4a9da386610a6ba799e060de71c2339b0e92",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
+          ],
+          "supports": [
+            "Documents a USSOF AC-130 EO/IR observation during 8 September 2021 live-fire training",
+            "Records approximately 25 reported UAP instances, formation behavior and source-calculated speed claims",
+            "Records GPS-derived geographic coordinates and a PowerPoint attachment containing six embedded videos"
+          ],
+          "limitations": [
+            "The IIR is explicitly not finally evaluated intelligence",
+            "The six-video PowerPoint, full DVR recording, telemetry and independent sensor correlation are absent",
+            "Release custody authenticates the report, not the object interpretation or reported performance"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "sphere",
+          "formation"
+        ],
+        "objectCount": null,
+        "luminosity": "cold in EO/IR",
+        "motion": [
+          "formation",
+          "erratic",
+          "rapid-departure"
+        ],
+        "effects": []
+      },
+      "observation": {
+        "witnessCount": null,
+        "witnessRoles": [
+          "USSOF AC-130 aircrew",
+          "Combat Systems Officer"
+        ],
+        "sensors": [
+          "EO/IR",
+          "AC-130 sensor-feed GPS",
+          "TACTOOL-derived estimates"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "MILITARY / SENSOR",
+        "status": "UNRESOLVED IIR",
+        "confidence": "NOT FINALLY EVALUATED INTELLIGENCE"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "Event-text page from the Gulf of Oman AC-130 Intelligence Information Report.",
+        "provenance": "USSOF/AFSOC intelligence record released through PURSUE Release 05",
+        "evidenceStatus": "Official documentary evidence; not a frame from the missing six-video attachment.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for DOW-UAP-D101. The IIR is marked not finally evaluated and its listed six-video attachment is not defensibly mapped to the anonymous Release 05 MP4s."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "An official IIR records direct-source AC-130 EO/IR observations during a dated Gulf of Oman sortie.",
+          "The report lists GPS-derived coordinates, source-derived speed estimates and six embedded videos as an attachment."
+        ],
+        "notEstablished": [
+          "The identity or origin of the reported objects.",
+          "Independent verification of the source-calculated speeds, dimensions or response to gunfire.",
+          "A defensible mapping between the six listed videos and any anonymous Release 05 MP4 filename."
+        ],
+        "competingExplanations": [
+          "Sensor or range-estimation effects, thermal contrast near a flare/live-fire environment, seabirds, debris, munitions-related objects, aircraft or UAS, and parallax remain unresolved without the missing media and telemetry."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 64.76,
+      "y": 23.12,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2026-RL-01",
+      "title": "Red-Light / NOD Field Encounter",
+      "date": "[REDACTED] 2026",
+      "year": 2026,
+      "location": "United States [REDACTED]",
+      "mode": "redacted",
+      "lon": -98.5,
+      "lat": 39.8,
+      "expectedCountry": "United States of America",
+      "geometryExpectation": "country",
+      "coordinatePrecision": "country-redacted-generalized",
+      "coordinateBasis": "Map-only generalized continental U.S. centroid; the released records redact the event location",
+      "agency": "FBI",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "status": "DOCUMENTED · UNRESOLVED",
+      "confidence": "CONFIRMED RECORDS · UNRESOLVED INTERPRETATION",
+      "summary": "Two FBI interview records preserve companion accounts of a redacted 2026 field outing in rainy mountainous terrain. The witnesses described red lights through naked-eye and Night Optical Devices, later low-level lights and a moving glow near a dry wash, and a mechanical watch becoming approximately 25 minutes fast while digital clocks agreed. The released records document the accounts but provide no native event imagery, sensor logs, exact location or FBI analytical conclusion.",
+      "keyFact": "D037 and D040 share the same distinctive multi-phase chronology and 25-minute mechanical-watch discrepancy, supporting one multi-witness event rather than two cases; D038/D039/D041/D042 are reconstructions only.",
+      "official": "The FD-302s document what two witnesses reported to FBI agents. The forms explicitly contain neither recommendations nor conclusions of the FBI; release custody does not convert the witness accounts into an FBI finding.",
+      "gap": "Missing are exact date/location/identities, native NOD or thermal imagery, independent clock examination, environmental and aviation correlation, agent analytical work product and closure disposition.",
+      "whyItMatters": "Two companion official interviews preserve a distinctive same-event chronology across unaided and NOD observation, including unusual low-level behavior and a mutually observed timing discrepancy, while leaving decisive physical and location data unavailable.",
+      "sources": [
+        "FBI-UAP-D037 and D040 · companion FD-302 witness records",
+        "FBI-UAP-D038/D039/D041/D042 · illustrative digital reconstructions"
+      ],
+      "sourceLabel": "FBI FD-302 records",
+      "sourceLocator": "FBI-UAP-D037",
+      "relatedCaseIds": [
+        "BF-2023-WUS-03",
+        "BF-2024-NE-02"
+      ],
+      "keyQuote": "The time on his watch was 25 minutes ahead of the time on his phone and the vehicle’s digital clock.",
+      "quoteSource": "FBI-UAP-D037, FD-302 continuation, PDF p. 2",
+      "quoteConfidence": "High — exact witness-account language in the released FD-302; no independent examination of the watch is included.",
+      "heroFact": "Two interviews describe the same field chronology, but the associated visual files are witness reconstructions—not photographs of the event.",
+      "significance": "High significance",
+      "sourceQuality": "Two official companion witness-interview records plus four released reconstruction files; exact context, native sensor data and independent analytical findings are absent.",
+      "image": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-D042-reconstructions-contact.jpg",
+      "images": [
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-D042-reconstructions-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D038-reconstruction-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D039-reconstruction-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D042-reconstruction-contact.jpg",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png"
+      ],
+      "caseTypes": [
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "testimony",
+        "night-optical-observation"
+      ],
+      "environment": [
+        "terrestrial"
+      ],
+      "outcome": "unresolved",
+      "confidenceModel": {
+        "record": "confirmed",
+        "anomaly": "undetermined",
+        "provenance": "primary-source"
+      },
+      "temporal": {
+        "dateLabel": "[REDACTED] 2026",
+        "year": 2026,
+        "startDateTime": null,
+        "endDateTime": null,
+        "timezone": null,
+        "durationSeconds": null,
+        "precision": "year-redacted",
+        "eventForm": "single-event-multi-phase"
+      },
+      "geospatial": {
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -98.5,
+            39.8
+          ]
+        },
+        "role": "representative-centroid",
+        "precision": "country-redacted-generalized",
+        "uncertaintyKm": 2000,
+        "basis": "Map-only generalized continental U.S. centroid; the released records redact the event location"
+      },
+      "sourceRecords": [
+        {
+          "citation": "FBI FD-302 interview recording the 2026 multiple-red-light/NOD field observation, FBI-UAP-D037",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D037 · PDF pp. 1–3",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "df8741ec7bee9778646142e3c2c55c050e3c58d067fa1049683ccd1126f0110a",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png"
+          ],
+          "supports": [
+            "Preserves one firsthand witness’s multi-phase chronology using naked-eye and Night Optical Devices",
+            "Records low-elevation lights, a moving glow in a dry wash and a reported 25-minute mechanical-watch discrepancy",
+            "Records no sound, exhaust, physiological effects or successful thermal acquisition"
+          ],
+          "limitations": [
+            "Exact date, location, identity and operational role are redacted",
+            "An FD-302 records what a witness told the FBI; it is not an FBI factual finding",
+            "No native event imagery, sensor logs or watch examination record is included"
+          ]
+        },
+        {
+          "citation": "FBI FD-302 companion-witness interview concerning the 2026 multiple-red-light/NOD field observation, FBI-UAP-D040",
+          "sourceType": "primary-official-witness-interview-record",
+          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D040 · PDF pp. 1–2",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "978ac7226c7ec06f4561c3986732183e3bf2aa4f07c03430daa9111a20eec77e",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png"
+          ],
+          "supports": [
+            "Preserves a companion account of 6 to 10 red lights synchronizing and moving east/southeast",
+            "Records closer NOD observations resolving points into three-light triangular or diamond clusters",
+            "Corroborates the low-level phase and reported 25-minute watch discrepancy"
+          ],
+          "limitations": [
+            "Exact date, location, identity and operational role are redacted",
+            "OCR omitted load-bearing continuation text; PDF p. 2 was visually adjudicated from the released page",
+            "No native event imagery or independent clock/sensor record is included"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D038 · FBI digital rendering accompanying the 2026 multiple-red-light witness packet",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact rendering PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D038",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "53e69e5d6dbe46fc435574c3f0246fcdfbbd537928a8a6c46c3f35752f68133e",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D038-reconstruction-contact.jpg"
+          ],
+          "supports": [
+            "Preserves an FBI-released visual reconstruction (1 source page(s)) of a witness description"
+          ],
+          "limitations": [
+            "Illustrative reconstruction only; not native event imagery, sensor data or independent corroboration"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D039 · FBI digital rendering accompanying the 2026 multiple-red-light witness packet",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact rendering PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D039",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "491d158803934b9c4e5de46ee51388cd9eff8a8aba2cf17dfcc9d957a8952ebd",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D039-reconstruction-contact.jpg"
+          ],
+          "supports": [
+            "Preserves an FBI-released visual reconstruction (3 source page(s)) of a witness description"
+          ],
+          "limitations": [
+            "Illustrative reconstruction only; not native event imagery, sensor data or independent corroboration"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D041 · FBI digital rendering accompanying the 2026 multiple-red-light witness packet",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact rendering PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D041",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "7416fff9cc1cb0e19e5d1f5b6efc2b031ea986403a049e3d6fa38d7965fa79e9",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg"
+          ],
+          "supports": [
+            "Preserves an FBI-released visual reconstruction (6 source page(s)) of a witness description"
+          ],
+          "limitations": [
+            "Illustrative reconstruction only; not native event imagery, sensor data or independent corroboration"
+          ]
+        },
+        {
+          "citation": "FBI-UAP-D042 · FBI digital rendering accompanying the 2026 multiple-red-light witness packet",
+          "sourceType": "official-digital-rendering-reconstruction",
+          "provenance": "Exact rendering PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
+          "locator": "FBI-UAP-D042",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "8ccb25fd8f47cdec75cc384bcf7db137c842931428472664fecfd04db69f6a2f",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D042-reconstruction-contact.jpg"
+          ],
+          "supports": [
+            "Preserves an FBI-released visual reconstruction (1 source page(s)) of a witness description"
+          ],
+          "limitations": [
+            "Illustrative reconstruction only; not native event imagery, sensor data or independent corroboration"
+          ]
+        }
+      ],
+      "phenomena": {
+        "shapes": [
+          "light",
+          "orb",
+          "triangle"
+        ],
+        "objectCount": null,
+        "luminosity": "dull red",
+        "motion": [
+          "formation",
+          "direction-change",
+          "low-elevation"
+        ],
+        "effects": [
+          "reported-mechanical-watch-discrepancy"
+        ]
+      },
+      "observation": {
+        "witnessCount": 2,
+        "witnessRoles": [
+          "operational witnesses, roles redacted"
+        ],
+        "sensors": [
+          "unaided-visual",
+          "Night Optical Devices",
+          "attempted thermal optics"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "taxonomyOriginal": {
+        "domain": "WITNESS NARRATIVE",
+        "status": "UNRESOLVED",
+        "confidence": "CONFIRMED TESTIMONY"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-D042-reconstructions-contact.jpg",
+        "mediaType": "image",
+        "visualType": "official-digital-rendering-reconstruction-contact",
+        "caption": "Contact sheet of FBI-released witness-description reconstructions accompanying D037 and D040.",
+        "provenance": "FBI digital renderings released through PURSUE Release 05",
+        "evidenceStatus": "Illustrative reconstructions only; not native event imagery, sensor data or independent corroboration.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "War.gov — PURSUE Release 05",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "publisher": "U.S. Department of War",
+          "access": "Public official release landing page",
+          "scope": "official-release-custody",
+          "note": "Official custody page for FBI-UAP-D037–D042. The FD-302s document companion witness accounts; the renderings are illustrative and the records contain no FBI conclusion."
+        }
+      ],
+      "evidenceBoundary": {
+        "established": [
+          "Two official FD-302s preserve companion witness accounts with matching event chronology.",
+          "The accounts include unaided and NOD observations, low-level phases and the same reported 25-minute mechanical-watch discrepancy.",
+          "Four released visual files illustrate witness descriptions."
+        ],
+        "notEstablished": [
+          "The identity, origin, precise location or physical performance of the reported lights.",
+          "That the reported watch discrepancy was caused by the observed phenomenon.",
+          "That the digital renderings are event photographs or sensor products.",
+          "An FBI analytical finding validating the event account."
+        ],
+        "competingExplanations": [
+          "Aircraft or UAS, distant lights with range/terrain misperception, atmospheric and NOD blooming effects, satellites or astronomical sources for higher phases, and an unrelated mechanical-watch timing error."
+        ]
+      },
+      "mapGeometry": null,
+      "x": 25.91,
+      "y": 18.43,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     }
   ],
   "timeline": [
@@ -28819,6 +29673,33 @@
       "type": "ODNI / TESTIMONY",
       "title": "Senior USIC Test-Range Orb Encounters",
       "desc": "A released narrative attributed to a senior U.S. intelligence officer describes more than an hour of helicopter encounters with orange orb-like objects, including claimed radar cueing, FLIR and NVG observations, ground teams, pilots, and nearby fighters."
+    },
+    {
+      "id": "TL-1964-PR-GYATT",
+      "year": 1964,
+      "date": "16–24 NOV 1964",
+      "type": "incident",
+      "caseId": "BF-1964-PR-01",
+      "title": "Puerto Rico / USS Gyatt radar-visual incidents",
+      "desc": "Navy pilot and radar reporting near the Atlantic Fleet Weapons Range entered CIA analysis; the referenced original radar film and prints remain absent."
+    },
+    {
+      "id": "TL-2021-GOM-AC130",
+      "year": 2021,
+      "date": "8 SEP 2021",
+      "type": "incident",
+      "caseId": "BF-2021-GOM-01",
+      "title": "Gulf of Oman AC-130 EO/IR event",
+      "desc": "A released IIR records approximately 25 EO/IR observations during live-fire training while remaining explicitly not finally evaluated intelligence."
+    },
+    {
+      "id": "TL-2026-RL-NOD",
+      "year": 2026,
+      "date": "[REDACTED] 2026",
+      "type": "incident",
+      "caseId": "BF-2026-RL-01",
+      "title": "Red-light / NOD field encounter",
+      "desc": "Two FBI interview records preserve companion accounts of a multi-phase NOD observation and reported mechanical-watch discrepancy at a redacted U.S. location."
     }
   ],
   "schemaVersion": 2,

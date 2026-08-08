@@ -9,9 +9,9 @@
   ],
   "counts": {
     "trueGaps": 0,
-    "qualityUpgrades": 10,
+    "qualityUpgrades": 9,
     "acquisitionTargets": 18,
-    "complete": 119
+    "complete": 123
   },
   "cases": [
     {
@@ -380,13 +380,13 @@
         "declared acquisition target: Original 1948 Estimate of the Situation or an authenticated surviving copy",
         "declared acquisition target: ATIC/Air Force control-register, routing, withdrawal, destruction, or transfer records establishing the document\u2019s administrative trail"
       ],
-      "sourceProfile": "multi-source-independent",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 7,
-      "publicSourceUrls": 3,
-      "evidenceAssets": 3,
-      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account. It authenticates his published description and wording, not the missing 1948 Estimate document or its administrative trail.",
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 4,
+      "mainSourceRecords": 3,
+      "indexedLinks": 16,
+      "publicSourceUrls": 4,
+      "evidenceAssets": 5,
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account, plus a contemporaneous 1948 Project SIGN/USAF correspondence packet released as DOW-UAP-D100. DOW-UAP-D100 verifies institutional context and actual November 1948 analytical language; it does not contain or authenticate the missing Estimate of the Situation.",
       "quoteConfidence": "High for Ruppelt\u2019s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered."
     },
     {
@@ -483,25 +483,6 @@
       "evidenceAssets": 2,
       "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
       "quoteConfidence": "Medium \u2014 the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured."
-    },
-    {
-      "id": "BF-1946-GR-01",
-      "title": "Scandinavian Ghost Rockets",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 35,
-      "legacyWeaknessScore": 15,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 19,
-      "publicSourceUrls": 8,
-      "evidenceAssets": 1,
-      "sourceQuality": "Official Riksarkivet topic/NAD custody family plus strict 12-scan public derivative map; exact item shelfmarks and corpus completeness remain unresolved.",
-      "quoteConfidence": "web article quote \u2014 summary of historical record"
     },
     {
       "id": "BF-1947-KA-01",
@@ -1328,6 +1309,23 @@
       "quoteConfidence": "High page-verification confidence \u2014 exact smaller-object language on raw object 049, corroborated by the mapped witness statement; interpretation remains unresolved."
     },
     {
+      "id": "BF-1964-PR-01",
+      "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 6,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 5,
+      "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
+      "quoteConfidence": "High \u2014 exact wording in the released briefing note; it establishes the reported radar-film chain, not the object\u2019s identity."
+    },
+    {
       "id": "BF-1968-HIM-01",
       "title": "Himalayan UAP Reports \u2014 Series Index",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -1634,6 +1632,23 @@
       "quoteConfidence": "verified against released source page"
     },
     {
+      "id": "BF-2021-GOM-01",
+      "title": "Gulf of Oman AC-130 EO/IR Event",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 9,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
+      "quoteConfidence": "High \u2014 exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence."
+    },
+    {
       "id": "BF-2022-IQ-02",
       "title": "Iraq ISR Object \u2014 No Positive Identification",
       "domain": "MILITARY / SENSOR",
@@ -1804,6 +1819,23 @@
       "quoteConfidence": "confirmed primary-source-file quotation"
     },
     {
+      "id": "BF-2026-RL-01",
+      "title": "Red-Light / NOD Field Encounter",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "complete",
+      "priorityScore": 12,
+      "legacyWeaknessScore": 12,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 6,
+      "mainSourceRecords": 6,
+      "indexedLinks": 10,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 10,
+      "sourceQuality": "Two official companion witness-interview records plus four released reconstruction files; exact context, native sensor data and independent analytical findings are absent.",
+      "quoteConfidence": "High \u2014 exact witness-account language in the released FD-302; no independent examination of the watch is included."
+    },
+    {
       "id": "BF-SF-02",
       "title": "Special File: VZ-9AV Avrocar",
       "domain": "GOVERNMENT / INSTITUTIONAL",
@@ -1853,6 +1885,23 @@
       "evidenceAssets": 2,
       "sourceQuality": "Official AFOSI FOIA file for contact and handling; later public Doty admission as testimony; unauthenticated Aquarius artifact as a separate disputed-document family.",
       "quoteConfidence": "verified-official-record-transcription"
+    },
+    {
+      "id": "BF-1946-GR-01",
+      "title": "Scandinavian Ghost Rockets",
+      "domain": "MILITARY / SENSOR",
+      "category": "complete",
+      "priorityScore": 0,
+      "legacyWeaknessScore": 0,
+      "reasons": [],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 5,
+      "mainSourceRecords": 4,
+      "indexedLinks": 30,
+      "publicSourceUrls": 9,
+      "evidenceAssets": 4,
+      "sourceQuality": "Official Swedish archival custody family plus exact U.S. records released in PURSUE Release 05: a January 1947 War Department Intelligence Division review (DOW-UAP-D099) and a January 1948 Project SIGN request for the complete \u201cSwedish Incidents\u201d file within DOW-UAP-D100. The review records nearly 1,000 Swedish reports by late July 1946, states that U.S. personnel had not seen fragments or impact evidence, and narrows its missile hypothesis to a small residue. Project SIGN interest establishes institutional linkage, not new event evidence. Exact Swedish item shelfmarks and the underlying diplomatic source packet remain unresolved.",
+      "quoteConfidence": "High \u2014 visually verified in the exact War.gov Release 05 PDF. This is the U.S. War Department review\u2019s analytical conclusion, not proof that any reported object was a Soviet missile."
     },
     {
       "id": "BF-1948-AZ-01",
@@ -1948,12 +1997,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
-      "indexedLinks": 9,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Exact NARA case-file and motion-picture-item custody; no camera original or complete generation ledger identified.",
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 12,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 3,
+      "sourceQuality": "Exact NARA case-file and motion-picture-item custody, plus the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. The Navy report adds a contemporaneous laboratory layer but expressly disclaims official-policy status and records material resource and corroboration limits. No camera original or complete generation ledger is identified.",
       "quoteConfidence": "High \u2014 visually verified against the complete 113-page case-file copy; the passage reports custody loss as attributed in the file."
     },
     {
@@ -1999,12 +2048,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
-      "indexedLinks": 14,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 2,
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence; camera original and full laboratory ledger remain unlocated.",
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
+      "indexedLinks": 17,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 4,
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated.",
       "quoteConfidence": "High \u2014 visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory."
     },
     {
@@ -2598,7 +2647,7 @@
       "mainSourceRecords": 4,
       "indexedLinks": 12,
       "publicSourceUrls": 9,
-      "evidenceAssets": 3,
+      "evidenceAssets": 2,
       "sourceQuality": "Official House hearing transcript/GovInfo record plus ODNI 2021 and AARO 2024 public records; strong congressional/public-record custody for testimony, not public proof of alleged programs.",
       "quoteConfidence": "High for hearing-transcript/source phrases; limited for classified claims not independently public in the record."
     }

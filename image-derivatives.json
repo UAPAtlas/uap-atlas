@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "policy": "heavy-image-bounded-derivatives",
-  "sourceFingerprint": "148730e540c9b42b9856de27c562893cfb546e4f8f8a813c4233b6a21322d65b",
+  "sourceFingerprint": "380d6c325ee764064eae0f3bd028685b8b611414757066107f13cddec4cd5027",
   "thresholdBytes": 350000,
   "displayMaxDimension": 1600,
   "thumbMaxDimension": 360,
   "displayQuality": 84,
   "thumbQuality": 76,
   "summary": {
-    "imageCount": 317,
-    "originalBytes": 864757697,
-    "displayBytes": 48699122,
-    "thumbBytes": 3474966
+    "imageCount": 336,
+    "originalBytes": 887615788,
+    "displayBytes": 51867678,
+    "thumbBytes": 3708258
   },
   "entries": {
     "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg": {
@@ -6627,6 +6627,405 @@
         "width": 254,
         "height": 360,
         "sha256": "ee962d69689580293697d1d919327abc833f9c86856f108c9036420b3820b458"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png": {
+      "originalBytes": 372108,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "170912773cd6994a9c71ccc1977a7ead6f0c9ed2d174deb158cb0dd63f762d94",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png.webp",
+        "bytes": 147894,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "e2271635b1241753c750865fb9df416e462e0c6a3bf9567c0cb5ee1e9fd24e86"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-004.png.webp",
+        "bytes": 13022,
+        "width": 278,
+        "height": 360,
+        "sha256": "0fcafb19d308c5805bc58d69e72ab81a0a881d7cf39db624d2948f7ad12ac82e"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png": {
+      "originalBytes": 390340,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "a6f1d571d83fe1adbbf612d0c233bb8587f6a75d493d19f38efa755a7a00e1d7",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png.webp",
+        "bytes": 145528,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "29315364d9a7fd6b65312b283d177b07a8bb82f8e83b05e8cdb2e6729e2e22f8"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-006.png.webp",
+        "bytes": 11964,
+        "width": 278,
+        "height": 360,
+        "sha256": "b667f46677add0ffe0f53f0bee40516dda978dc044d8eb4da716d4cf8c73e368"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png": {
+      "originalBytes": 387743,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "e4f9c1370ee61651b7bf7fdb14d5bec69f2411ac0408b7931e52dba67ab5c367",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png.webp",
+        "bytes": 132916,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "67e3e5d4f2645408d72d056f007b7f7440a0cbaf4c4d90635f99990d0cd6d511"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-001.png.webp",
+        "bytes": 11648,
+        "width": 278,
+        "height": 360,
+        "sha256": "8bed073732074c0d90571bf4e1217ccffca3ebe867e4ab02ddffab45c0dfe9d7"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png": {
+      "originalBytes": 2088799,
+      "originalWidth": 1248,
+      "originalHeight": 1564,
+      "originalSha256": "3340605792fd86fcafad6bd3a92335270432d9981433623a8c263ba1f05936e6",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png.webp",
+        "bytes": 270776,
+        "width": 1248,
+        "height": 1564,
+        "sha256": "6c77539af703401775d08520c2d10698f306956634374da84a09cad9ba7d7e25"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png.webp",
+        "bytes": 17950,
+        "width": 287,
+        "height": 360,
+        "sha256": "ada97d5e257d800f60bfb46bcfa6cd644a05ebd6d55d322e6a9178627da797b7"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png": {
+      "originalBytes": 2093083,
+      "originalWidth": 1246,
+      "originalHeight": 1563,
+      "originalSha256": "2aaaa65ea5656a0963fc9557a9b792144dbe33383d911b2a4256e031cd4ff48a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png.webp",
+        "bytes": 234678,
+        "width": 1246,
+        "height": 1563,
+        "sha256": "652ff00604ff8f3d464fddd03770c64c4e1b49686c4d7e5662478e8173fd3d7c"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png.webp",
+        "bytes": 15908,
+        "width": 287,
+        "height": 360,
+        "sha256": "dbd39b50e5b9970072a31830093cc6e798ba5da8320c20516b799316a2989291"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png": {
+      "originalBytes": 1366389,
+      "originalWidth": 1108,
+      "originalHeight": 1575,
+      "originalSha256": "ac4d2580abfc0092cf11c7c9f5a4b2945a6046787ff3279096e9919753212299",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png.webp",
+        "bytes": 160348,
+        "width": 1108,
+        "height": 1575,
+        "sha256": "18087275ac25c886e410530d21b1dfe41dafc0872bd3f7b145d92fc670ed4a8a"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png.webp",
+        "bytes": 10992,
+        "width": 253,
+        "height": 360,
+        "sha256": "5625325e9a05f05e823f514b18f6f433d52a36ae4870008b23163a575b3dd6f2"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png": {
+      "originalBytes": 1355872,
+      "originalWidth": 1121,
+      "originalHeight": 1574,
+      "originalSha256": "879ec58e3f09af7ad3724f7bebdb6d88bf5108c7b4ac2a35cc4510efca137b17",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png.webp",
+        "bytes": 157966,
+        "width": 1121,
+        "height": 1574,
+        "sha256": "b22520fe7d92bf172c4225ba790434ce6925a9977e715da5ede0a9f72856f6fc"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png.webp",
+        "bytes": 10658,
+        "width": 256,
+        "height": 360,
+        "sha256": "b534c2d313694d7b5c05ac13669a454db816414e6834a739a93dc9ad2867b844"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png": {
+      "originalBytes": 2134090,
+      "originalWidth": 1209,
+      "originalHeight": 1624,
+      "originalSha256": "225dd88c490754ee8ac8111071e9efba3d067bb0f42aed61cb6e1b13e68e538b",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png.webp",
+        "bytes": 225036,
+        "width": 1191,
+        "height": 1600,
+        "sha256": "e3e8ad7f9ebfafcf6fdba1419b4e9e7e2f236eded5313c90861aa80af0866509"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png.webp",
+        "bytes": 17756,
+        "width": 268,
+        "height": 360,
+        "sha256": "f9b978ad30d5916757f710d7e50fd54e5dc44106f118c998fb7328484145747c"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png": {
+      "originalBytes": 2235769,
+      "originalWidth": 1210,
+      "originalHeight": 1624,
+      "originalSha256": "82a055cba0d1c17ccc980020a24195c4d791e499187c49fbe252e29e9b1b6841",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png.webp",
+        "bytes": 244536,
+        "width": 1192,
+        "height": 1600,
+        "sha256": "a3ce30b993625656054645056eae219c298d29aafe89323d47ab4be7baffdbe5"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png.webp",
+        "bytes": 17786,
+        "width": 268,
+        "height": 360,
+        "sha256": "a23817ab5045540714e9cf2d2a41a90c60c0595f1f67d8f506152b927c64c863"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png": {
+      "originalBytes": 2029693,
+      "originalWidth": 1252,
+      "originalHeight": 1570,
+      "originalSha256": "d011084d86af8beeb8b3a7d33e8684094a4aa6c828579484a37732cbbbedd5c4",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png.webp",
+        "bytes": 260018,
+        "width": 1252,
+        "height": 1570,
+        "sha256": "9ac8c9a33e3d4c32d242349805ed9b122782d3c99eaf89a45cb159d438533722"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png.webp",
+        "bytes": 14270,
+        "width": 287,
+        "height": 360,
+        "sha256": "937bd1db82bda71609a0fca0edbfc98ab021952b9c2b6c273718eaa20f825897"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png": {
+      "originalBytes": 743993,
+      "originalWidth": 1981,
+      "originalHeight": 1530,
+      "originalSha256": "47f87b0e167071b524e11250b1ef1c8497169a1c7a543f2b7e4d32c878d9c2a5",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png.webp",
+        "bytes": 76752,
+        "width": 1600,
+        "height": 1236,
+        "sha256": "88638bdbaf29e564f1f0e3a30f0ac04da8b1b2cef78dbb0fb8c1888256175574"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png.webp",
+        "bytes": 7434,
+        "width": 360,
+        "height": 278,
+        "sha256": "502a13597360e35968adfd5cb8aae2b59273e5f257c66404794912b89c8459fc"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png": {
+      "originalBytes": 1311977,
+      "originalWidth": 1981,
+      "originalHeight": 1530,
+      "originalSha256": "1c9f9e4a9d3c9c3129f7c6b9b4e5cb0b86b04ac2ba86a281b04273b90486de8f",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png.webp",
+        "bytes": 154230,
+        "width": 1600,
+        "height": 1236,
+        "sha256": "c76039a6e314a2e2e73328d2769e732282c2f0ff0f9e98ae72c1e6cfdba0d0a6"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png.webp",
+        "bytes": 11284,
+        "width": 360,
+        "height": 278,
+        "sha256": "ecf678e356251bf620dc682bb85292b6029f9911e37e6900b284dfb1264a4c54"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png": {
+      "originalBytes": 820890,
+      "originalWidth": 1980,
+      "originalHeight": 1530,
+      "originalSha256": "d20c23f9734cc40f51d09624d6ab9b04eac7204e8019ca88155be10decd7bd4a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png.webp",
+        "bytes": 86338,
+        "width": 1600,
+        "height": 1236,
+        "sha256": "a6a63419119df189fbac6804086d6b61bf2283f60888bf082b86c2aa7dbbd9f0"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png.webp",
+        "bytes": 7658,
+        "width": 360,
+        "height": 278,
+        "sha256": "8aa3037aa429a102881167f932b967496bf11dd7b1208641e87e6a457d0b5704"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png": {
+      "originalBytes": 1007798,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "238c3921ad382520485ea0625e5e6786d74224cb7f4fb6639367d4cdb23c218a",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png.webp",
+        "bytes": 147476,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "c81c83a2339ced89aae1f875747d49db658495031a05599cd6363cc7af11ef55"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-001.png.webp",
+        "bytes": 11690,
+        "width": 278,
+        "height": 360,
+        "sha256": "45108eda2c11f8a5230cac0da16171e8037c20bf0066e842c8e589a9e6a758e7"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png": {
+      "originalBytes": 1274398,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "7dfa3687c522fea3492b8862541e99b0d9a12c78291148cfd1637aaea6c19a0b",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png.webp",
+        "bytes": 190214,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "b7a1f56c5c0dd4d15de5c670115527c71de7f090897d5351581b5d69d39df81f"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-002.png.webp",
+        "bytes": 13934,
+        "width": 278,
+        "height": 360,
+        "sha256": "fed0f82fef3f75fbf2ac2581f2d2b4ea112922fa8c60d771f7b1d52100b41e45"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png": {
+      "originalBytes": 707625,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "f15e7b87f9abee2bf34d1bbf02c94699b352cde484f0de46105f0c984d32b827",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png.webp",
+        "bytes": 104986,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "28690cb28757d103ce2d887bf7cddc0edb65089332a576073de1d98492bcfc0a"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D037-pdf-page-003.png.webp",
+        "bytes": 7840,
+        "width": 278,
+        "height": 360,
+        "sha256": "9699f7b2c46e3334392dcb1565d495fe72a9b788a7bc59af545f984e23084683"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png": {
+      "originalBytes": 1075780,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "0d55933bb4baa6b7ca3e5aa9ad85512edbf7a8452561179dbf60d9d2fadc478e",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png.webp",
+        "bytes": 151464,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "824e8a0fac10322cb6327985fd85d6405cae8387d8b79ee468f1f383a57f46f6"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png.webp",
+        "bytes": 11490,
+        "width": 278,
+        "height": 360,
+        "sha256": "cef1e27e3b839fc15d6873d67cd55f295b8156fcbdd6d032fc6fb2512f5aef3d"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png": {
+      "originalBytes": 1086197,
+      "originalWidth": 1530,
+      "originalHeight": 1980,
+      "originalSha256": "1fed44884d3fb6c48f2e07270cf703e5a44ac47a8439f54785b2721f51dd8c42",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png.webp",
+        "bytes": 155968,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "48816f549cb8729f8597c2d307c953b8e9e198665f00f31cbeb50df373129a07"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png.webp",
+        "bytes": 12234,
+        "width": 278,
+        "height": 360,
+        "sha256": "0efff28b618b15f822d1f45d420f9873d789d7c42d74c85767b2e1d982aeea95"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg": {
+      "originalBytes": 375547,
+      "originalWidth": 1884,
+      "originalHeight": 1922,
+      "originalSha256": "5c3cf5f6a476de1e43f84c8d730bfcdae0f44aea894e86e4d8b1ae2355c25b90",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg.webp",
+        "bytes": 121432,
+        "width": 1568,
+        "height": 1600,
+        "sha256": "8eb2b0690166c3ebcfe29af0e893196a43fcf2314557873db8d516efce7760bc"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg.webp",
+        "bytes": 7774,
+        "width": 353,
+        "height": 360,
+        "sha256": "195f1bf2caf6e105766343bdb7c42e97a41e5c445f36ab7545cf24ae06c8c7cc"
       }
     },
     "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg": {

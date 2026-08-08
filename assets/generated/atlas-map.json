@@ -15,10 +15,10 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "sourceFingerprint": "6e456631188ded503473d98eeef786c748817ba20c1d70521cdf384fbeeb16e0",
+    "sourceFingerprint": "6071e523d2fec219dc0513afaff94e7a3ccc18d076d4f25f6773a52773f320f3",
     "countryCount": 242,
     "admin1Count": 51,
-    "projectedCaseCount": 121,
+    "projectedCaseCount": 124,
     "orbitalAggregateCount": 26
   },
   "countries": [
@@ -3475,6 +3475,44 @@
       "expectedCountry": "United States of America",
       "expectedAdmin1": "Connecticut",
       "geometryExpectation": "admin1",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-1964-PR-01",
+      "x": 32.96,
+      "y": 24.35,
+      "lon": -65.5,
+      "lat": 20.5,
+      "mode": "approximate",
+      "expectedCountry": "Puerto Rico",
+      "geometryExpectation": "offshore",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2021-GOM-01",
+      "x": 64.76,
+      "y": 23.12,
+      "lon": 58,
+      "lat": 24.5,
+      "mode": "approximate",
+      "geometryExpectation": "offshore",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2026-RL-01",
+      "x": 25.91,
+      "y": 18.43,
+      "lon": -98.5,
+      "lat": 39.8,
+      "mode": "redacted",
+      "expectedCountry": "United States of America",
+      "geometryExpectation": "country",
       "mapGeometry": null,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
       "coordinateGenerated": true

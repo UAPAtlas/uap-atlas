@@ -93,8 +93,8 @@ counts = triage["counts"]
 assert counts == {
     "trueGaps": 0,
     "acquisitionTargets": 18,
-    "qualityUpgrades": 10,
-    "complete": 119,
+    "qualityUpgrades": 9,
+    "complete": 123,
 }, counts
 
 print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: 3 cases; three provenance targets reclassified")

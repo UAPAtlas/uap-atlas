@@ -8,7 +8,7 @@ source_index = json.loads((ROOT / 'source-file-index.json').read_text())
 public_manifest = json.loads((ROOT / 'public-source-manifest.json').read_text())
 cases = {case['id']: case for case in atlas['cases']}
 
-assert len(cases) == 147
+assert len(cases) == 150
 
 rb = cases['BF-1957-RB-01']
 rb_text = json.dumps(rb).lower()

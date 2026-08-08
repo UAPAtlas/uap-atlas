@@ -876,30 +876,40 @@
   ],
   "BF-SF-07": [
     {
-      "access": "Public/borrow restrictions may apply",
+      "access": "Public",
       "label": "Internet Archive — Ruppelt, The Report on Unidentified Flying Objects",
-      "note": "Ruppelt’s account is the principal public description. The Estimate itself has never been recovered.",
-      "publisher": "Internet Archive",
-      "scope": "firsthand-memoir-archive",
+      "note": "Public scan of Ruppelt’s 1956 account; key historical source for the Estimate narrative, not the missing Estimate document itself.",
+      "publisher": "Internet Archive / Edward J. Ruppelt",
+      "scope": "public-book-scan",
       "url": "https://archive.org/details/reportonunidenti00rupp"
     },
     {
-      "access": "Public domain",
       "label": "Project Gutenberg — Ruppelt, The Report on Unidentified Flying Objects",
-      "publisher": "Project Gutenberg / Edward J. Ruppelt",
-      "scope": "official-insider-historical-account",
       "url": "https://www.gutenberg.org/ebooks/17346",
+      "publisher": "Project Gutenberg / Edward J. Ruppelt",
+      "access": "Public domain",
+      "scope": "official-insider-historical-account",
       "locator": "PDF edition p. 35",
-      "note": "Page-verifies Ruppelt’s account; not the missing Estimate."
+      "note": "Page-verifies Ruppelt’s account; the missing Estimate itself remains unrecovered."
     },
     {
-      "access": "Public local page render",
       "label": "Atlas page render — Ruppelt’s Estimate passage",
-      "publisher": "Project Gutenberg edition; Atlas render",
-      "scope": "page-verified-insider-account",
       "url": "https://uapatlas.github.io/uap-atlas/assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+      "publisher": "Project Gutenberg edition; Atlas render",
+      "access": "Public local page render",
+      "scope": "page-verified-insider-account",
+      "role": "page-verified-source-render",
+      "mediaKind": "image",
       "locator": "PDF p. 35",
-      "note": "Verifies Ruppelt’s exact wording."
+      "note": "Verifies Ruppelt’s wording, not the missing 1948 document."
+    },
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for DOW-UAP-D100. It provides contemporaneous Project SIGN context but does not recover or authenticate the missing Estimate."
     }
   ],
   "BF-SF-08": [
@@ -1288,6 +1298,142 @@
       "access": "Public catalog and 73 media objects",
       "scope": "exact-primary-file-unit",
       "note": "Complete Project Blue Book file unit. Custody authenticates the investigation, not an extraordinary origin."
+    }
+  ],
+  "BF-1946-GR-01": [
+    {
+      "label": "Public source — sok.riksarkivet.se",
+      "url": "https://sok.riksarkivet.se/en/amnesomrade/militaria",
+      "publisher": "sok.riksarkivet.se",
+      "access": "Public/access unverified",
+      "scope": "public-source"
+    },
+    {
+      "label": "Public source — sok.riksarkivet.se",
+      "url": "https://sok.riksarkivet.se/en/a-o",
+      "publisher": "sok.riksarkivet.se",
+      "access": "Public/access unverified",
+      "scope": "public-source"
+    },
+    {
+      "label": "Riksarkivet — Spökraketer archive topic",
+      "url": "https://riksarkivet.se/resurser/spokraketer",
+      "publisher": "Riksarkivet (Swedish National Archives)",
+      "access": "Public",
+      "scope": "official-archive-topic",
+      "note": "Official context page for the 1946 ghost-rocket archive story; not an item-level shelfmark."
+    },
+    {
+      "label": "Internet Archive — Swedish Ghost Rockets scan corpus",
+      "url": "https://archive.org/details/SwedishGhostRockets",
+      "publisher": "Internet Archive / private uploader",
+      "access": "Public; Public Domain Mark asserted by uploader",
+      "scope": "public-derivative-scan-corpus-lead",
+      "note": "1,779 listed original PDFs; Atlas strict map promotes only 12 scans with the internal Fst/L 12/6 1946 nr 7:49 reference and downloaded/hash-checked PDFs."
+    },
+    {
+      "label": "Riksarkivet NAD — Rymdprojektilkommittén record family",
+      "url": "https://sok.riksarkivet.se/?postid=Arkis+f9c6788e-df68-414d-8f3e-ea41cb6946a9&s=Balder",
+      "publisher": "Riksarkivet / Krigsarkivet",
+      "access": "Public catalog",
+      "scope": "official-archive-custody-family",
+      "note": "Identifies Försvarsstaben / Flyg- och luftförsvarsavdelningen / Rymdprojektilkommittén custody context."
+    },
+    {
+      "label": "Ghost Rockets mapped scan 000682",
+      "url": "https://archive.org/download/SwedishGhostRockets/000682.pdf",
+      "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+      "access": "Public PDF",
+      "scope": "mapped-public-derivative-scan",
+      "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; visually checked; item-level Riksarkivet shelfmark unresolved."
+    },
+    {
+      "label": "Ghost Rockets mapped scan 000955",
+      "url": "https://archive.org/download/SwedishGhostRockets/000955.pdf",
+      "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+      "access": "Public PDF",
+      "scope": "mapped-public-derivative-scan",
+      "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; visually checked; item-level Riksarkivet shelfmark unresolved."
+    },
+    {
+      "label": "Ghost Rockets mapped scan 000183",
+      "url": "https://archive.org/download/SwedishGhostRockets/000183.pdf",
+      "publisher": "Internet Archive mirror of Swedish Ghost Rockets scan corpus",
+      "access": "Public PDF",
+      "scope": "mapped-public-derivative-scan",
+      "note": "Contains Fst/L 12/6 1946 nr 7:49 reference; strict OCR/reference match; item-level Riksarkivet shelfmark unresolved."
+    },
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for DOW-UAP-D099 and DOW-UAP-D100. The records authenticate a 1947 intelligence assessment and Project SIGN’s 1948 file request—not the Soviet-missile hypothesis or every underlying report."
+    }
+  ],
+  "BF-1950-GF-01": [
+    {
+      "label": "NARA — official archival record",
+      "url": "https://catalog.archives.gov/id/61935",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-record"
+    },
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for DOW-UAP-D098. The report documents one 1953 analytical position and its limitations; it is not a final object-origin finding."
+    }
+  ],
+  "BF-1952-TM-01": [
+    {
+      "label": "NARA — official archival record",
+      "url": "https://catalog.archives.gov/id/61937",
+      "publisher": "National Archives and Records Administration",
+      "access": "Public",
+      "scope": "official-record"
+    },
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for DOW-UAP-D098. The report documents one 1953 analytical position and its limitations; it is not a final object-origin finding."
+    }
+  ],
+  "BF-1964-PR-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for CIA-UAP-D022 and D023. The records authenticate the intelligence and radar-film handling chain, not an extraordinary object origin."
+    }
+  ],
+  "BF-2021-GOM-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for DOW-UAP-D101. The IIR is marked not finally evaluated and its listed six-video attachment is not defensibly mapped to the anonymous Release 05 MP4s."
+    }
+  ],
+  "BF-2026-RL-01": [
+    {
+      "label": "War.gov — PURSUE Release 05",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+      "publisher": "U.S. Department of War",
+      "access": "Public official release landing page",
+      "scope": "official-release-custody",
+      "note": "Official custody page for FBI-UAP-D037–D042. The FD-302s document companion witness accounts; the renderings are illustrative and the records contain no FBI conclusion."
     }
   ]
 }

@@ -7,7 +7,9 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DERIVED_CASE_FIELDS = {"coordinateGenerated", "mapGeometry", "projection", "x", "y"}
+# Ordered for byte-for-byte reproducibility across Python processes. A set here
+# makes json.dumps field order depend on PYTHONHASHSEED.
+DERIVED_CASE_FIELDS = ("coordinateGenerated", "mapGeometry", "projection", "x", "y")
 
 
 def constant_span(text: str, name: str) -> tuple[int, int]:
@@ -93,7 +95,7 @@ def main() -> None:
     atlas = json.loads((ROOT / "atlas-data.json").read_text())
     source_index = json.loads((ROOT / "source-file-index.json").read_text())
     source_availability = json.loads((ROOT / "source-availability.json").read_text())
-    if len(atlas.get("cases", [])) != 147:
+    if len(atlas.get("cases", [])) != 150:
         raise RuntimeError(f"Refusing to sync unexpected case count: {len(atlas.get('cases', []))}")
 
     html_text = html_path.read_text()
@@ -117,8 +119,8 @@ def main() -> None:
         and isinstance(case.get("x"), (int, float)) and not isinstance(case.get("x"), bool)
         and isinstance(case.get("y"), (int, float)) and not isinstance(case.get("y"), bool)
     ]
-    if len(projected) != 121:
-        raise RuntimeError(f"Refusing to sync runtime without 121 projected cases: {len(projected)}")
+    if len(projected) != 124:
+        raise RuntimeError(f"Refusing to sync runtime without 124 projected cases: {len(projected)}")
     runtime_text = replace_constant(runtime_text, "atlasData", atlas)
     runtime_text = replace_constant(runtime_text, "sourceFileIndex", source_index)
     if has_constant(runtime_text, "sourceAvailabilityIndex"):

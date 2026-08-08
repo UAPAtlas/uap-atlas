@@ -1308,32 +1308,6 @@
     ]
   },
   {
-    "id": "BF-1946-GR-01",
-    "title": "Scandinavian Ghost Rockets",
-    "score": 15,
-    "sourceRecords": 3,
-    "indexedLinks": 19,
-    "publicSourceUrls": 8,
-    "evidenceAssets": 1,
-    "sourceQuality": "Official Riksarkivet topic/NAD custody family plus strict 12-scan public derivative map; exact item shelfmarks and corpus completeness remain unresolved.",
-    "quoteConfidence": "web article quote \u2014 summary of historical record",
-    "sourceProfile": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 3,
-      "sourceFamilies": [
-        "other:local atlas audit derived from the current source inventory",
-        "other:official riksarkivet custody context cross-checked against downloaded/hash-checked internet archive pdfs and ocr references",
-        "other:swedish national archives public subject/index pages"
-      ]
-    },
-    "reasons": [
-      "quote confidence needs verification upgrade",
-      "flagship/contradiction case"
-    ]
-  },
-  {
     "id": "BF-1947-RW-01",
     "title": "Roswell Army Air Field Debris Recovery",
     "score": 15,
@@ -1517,6 +1491,29 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "usaf-blue-book"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-1964-PR-01",
+    "title": "Puerto Rico / USS Gyatt Radar-Visual Incidents",
+    "score": 12,
+    "sourceRecords": 2,
+    "indexedLinks": 6,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 5,
+    "sourceQuality": "Two exact official CIA/Navy records with pilot, radar and custody details; the referenced radar film, prints, traffic and final analysis are missing.",
+    "quoteConfidence": "High \u2014 exact wording in the released briefing note; it establishes the reported radar-film chain, not the object\u2019s identity.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
       ]
     },
     "reasons": [
@@ -2010,6 +2007,29 @@
     ]
   },
   {
+    "id": "BF-2021-GOM-01",
+    "title": "Gulf of Oman AC-130 EO/IR Event",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 9,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Exact official IIR with detailed EO/IR chronology and source-access statement; decisive video, telemetry and independent-correlation layers are missing.",
+    "quoteConfidence": "High \u2014 exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:exact pdf published by the u.s. department of war in pursue release 05; full local copy hash-verified against the original download"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
     "id": "BF-2022-IQ-02",
     "title": "Iraq ISR Object \u2014 No Positive Identification",
     "score": 12,
@@ -2256,6 +2276,29 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:primary record"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
+    "id": "BF-2026-RL-01",
+    "title": "Red-Light / NOD Field Encounter",
+    "score": 12,
+    "sourceRecords": 6,
+    "indexedLinks": 10,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 10,
+    "sourceQuality": "Two official companion witness-interview records plus four released reconstruction files; exact context, native sensor data and independent analytical findings are absent.",
+    "quoteConfidence": "High \u2014 exact witness-account language in the released FD-302; no independent examination of the watch is included.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 6,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
       ]
     },
     "reasons": [

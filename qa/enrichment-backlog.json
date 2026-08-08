@@ -2,10 +2,10 @@
   "schemaVersion": 2,
   "policy": "sole-enrichment-backlog",
   "source": "qa/atlas_operational_triage.json",
-  "caseCount": 10,
+  "caseCount": 9,
   "categoryCounts": {
     "trueGaps": 0,
-    "qualityUpgrades": 10
+    "qualityUpgrades": 9
   },
   "exclusions": {
     "acquisitionTargets": "tracked-separately-no-request-authorized",
@@ -109,25 +109,6 @@
       "evidenceAssets": 2,
       "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
       "quoteConfidence": "Medium \u2014 the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured."
-    },
-    {
-      "id": "BF-1946-GR-01",
-      "title": "Scandinavian Ghost Rockets",
-      "domain": "MILITARY / SENSOR",
-      "category": "quality_upgrade",
-      "priorityScore": 35,
-      "legacyWeaknessScore": 15,
-      "reasons": [
-        "quote/source confidence can be upgraded"
-      ],
-      "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 19,
-      "publicSourceUrls": 8,
-      "evidenceAssets": 1,
-      "sourceQuality": "Official Riksarkivet topic/NAD custody family plus strict 12-scan public derivative map; exact item shelfmarks and corpus completeness remain unresolved.",
-      "quoteConfidence": "web article quote \u2014 summary of historical record"
     },
     {
       "id": "BF-1977-CL-01",

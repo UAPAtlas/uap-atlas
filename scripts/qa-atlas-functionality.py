@@ -60,8 +60,8 @@ with sync_playwright() as p:
     page.wait_for_timeout(800)
 
     initial = visible_metrics(page)
-    assert initial["cases"] == 147, initial
-    assert initial["mainRows"] == 121, initial
+    assert initial["cases"] == 150, initial
+    assert initial["mainRows"] == 124, initial
     assert initial["scrollWidth"] == initial["clientWidth"] and not initial["desktopBlocked"], initial
     assert not initial["drawerOpen"], initial
     screenshot(page, "desktop-wide-initial")
@@ -153,7 +153,7 @@ with sync_playwright() as p:
     page.locator("#stackReturn").click()
     page.wait_for_timeout(250)
     assert page.evaluate("state.stackMode") == "main"
-    assert page.locator(".case-row").count() == 121
+    assert page.locator(".case-row").count() == 124
 
     # Zoom controls plus keyboard separation: row Enter focuses; global Enter explicitly opens.
     page.locator("[data-zoom='reset']").click()

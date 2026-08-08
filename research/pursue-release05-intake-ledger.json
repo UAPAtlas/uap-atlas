@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 1,
+  "release": "PURSUE Release 05",
+  "officialReleaseDate": "2026-08-07",
+  "officialLandingUrl": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+  "recordCount": 41,
+  "totalBytes": 676117445,
+  "counts": {
+    "documents": 25,
+    "videos": 16
+  },
+  "hashVerification": {
+    "algorithm": "SHA-256",
+    "allCanonicalFilesMatchedRetainedDownloadCopies": true,
+    "uniqueHashesWithinRelease": true
+  },
+  "integrationSummary": {
+    "existingAtlasCasesEnriched": [
+      "BF-1946-GR-01",
+      "BF-1950-GF-01",
+      "BF-1952-TM-01",
+      "BF-SF-07"
+    ],
+    "newCaseCandidates": [
+      "CANDIDATE-BF-2021-GOM",
+      "CANDIDATE-BF-1964-PR-GYATT",
+      "CANDIDATE-BF-1963-BAHIA",
+      "CANDIDATE-BF-2002-BAGRAM",
+      "CANDIDATE-BF-2023-CS-TRANSLUCENT",
+      "CANDIDATE-BF-2011-TRIANGLE",
+      "CANDIDATE-BF-2023-CS-RED"
+    ],
+    "deferredCrosswalk": [
+      "BF-2023-WUS-03"
+    ],
+    "releaseVideoRule": "Custody group only until exact per-video labels or attachment crosswalk are recovered."
+  },
+  "records": [
+    {
+      "kind": "document",
+      "filename": "CIA-UAP-D022_Unidentified-Flying-Object-Reported-near-Puerto-Rico_1965.pdf",
+      "bytes": 639051,
+      "sha256": "358b0d2e45ff0320f4e4ad689f0c918362d6c5d36be765d386018d279d835b01",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-1964-PR-GYATT"
+      ],
+      "boundary": "Companion CIA/Navy records for a Puerto Rico radar-visual event; actual radar film/prints are referenced but not included."
+    },
+    {
+      "kind": "document",
+      "filename": "CIA-UAP-D023_Briefing-Notes-for-Mr-Walter-Elder.pdf",
+      "bytes": 205058,
+      "sha256": "aba51f51191bbcd37dc1f591171b6edc78c9bfb9632cfed8fae6a8bf1d61ca40",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-1964-PR-GYATT"
+      ],
+      "boundary": "Companion CIA/Navy records for a Puerto Rico radar-visual event; actual radar film/prints are referenced but not included."
+    },
+    {
+      "kind": "document",
+      "filename": "DOS-UAP-D001_Diplomatic-Cable_Brazil_November-14-1963.pdf",
+      "bytes": 848958,
+      "sha256": "1259083d422e420b63cfe864fa75abd6c883193d12d605ac1880d2093d8d7335",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-negative-rumor-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-1963-BAHIA"
+      ],
+      "boundary": "Claim/contradiction set: broadcast crash/body allegation paired with consular follow-up reporting apparent fabrication and no verified local sighting."
+    },
+    {
+      "kind": "document",
+      "filename": "DOS-UAP-D002_Diplomatic-Cable_Brazil_November-20-1963.pdf",
+      "bytes": 1010496,
+      "sha256": "3c9e5cf5f15c62e89826b482af3820ebe9914f9d3442f0d652f2ff1019c8f4c4",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-negative-rumor-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-1963-BAHIA"
+      ],
+      "boundary": "Claim/contradiction set: broadcast crash/body allegation paired with consular follow-up reporting apparent fabrication and no verified local sighting."
+    },
+    {
+      "kind": "document",
+      "filename": "DOW-UAP-D098_Film-Analysis-of-Unidentified-Objects_1953.pdf",
+      "bytes": 65760070,
+      "sha256": "a8f271bb7bae396631eb3e35070fab285eb0d3258041b042b1a5a6b3e0d9c4f1",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "integrated-existing-cases",
+      "atlasMappings": [
+        "BF-1950-GF-01",
+        "BF-1952-TM-01"
+      ],
+      "boundary": "1953 Navy photographic-analysis layer; analytical conclusions and limitations kept together."
+    },
+    {
+      "kind": "document",
+      "filename": "DOW-UAP-D099_Intelligence-Review-of-Ghost-Rocket-Incidents_1947.pdf",
+      "bytes": 1165464,
+      "sha256": "59bdcb1406b50d7dab7f13dbce940eb247a0724c744100d34f9a53ea3209e2f4",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "integrated-existing-case",
+      "atlasMappings": [
+        "BF-1946-GR-01"
+      ],
+      "boundary": "1947 U.S. intelligence review; does not prove Soviet origin or every underlying report."
+    },
+    {
+      "kind": "document",
+      "filename": "DOW-UAP-D100_Air-Materiel-Command-Report-on-UFOs_1947-1948.pdf",
+      "bytes": 40873795,
+      "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "integrated-existing-cases",
+      "atlasMappings": [
+        "BF-1946-GR-01",
+        "BF-SF-07"
+      ],
+      "boundary": "Project SIGN institutional context and Swedish-file request; does not recover the missing Estimate."
+    },
+    {
+      "kind": "document",
+      "filename": "DOW-UAP-D101_IIR_Unresolved-UAP-Report-Gulf-of-Oman_2021.pdf",
+      "bytes": 6207177,
+      "sha256": "926f4cf9a852d77bca34e8e7370c4a9da386610a6ba799e060de71c2339b0e92",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "boundary": "Gulf of Oman AC-130 EO/IR report; references six embedded videos, but no released per-video crosswalk is established."
+    },
+    {
+      "kind": "document",
+      "filename": "EOP-UAP-D001_NASC-Inquiry-into-Bahia-Brazil-Incident_November-13-1963.pdf",
+      "bytes": 126624,
+      "sha256": "63654bcd90c0515f30e31ed511a12a05f170ff4470e3d8a6f40fca12012a1adb",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-negative-rumor-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-1963-BAHIA"
+      ],
+      "boundary": "Claim/contradiction set: broadcast crash/body allegation paired with consular follow-up reporting apparent fabrication and no verified local sighting."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D024_FD-302_Airborne-Lights-and-Triangle_2002_2023-2024.pdf",
+      "bytes": 1608243,
+      "sha256": "949c9dc80fb247c6ea12d6750cebe629f00c37930f9572a9d0ef43365d5d4489",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case-and-corpus",
+      "atlasMappings": [
+        "CANDIDATE-BF-2002-BAGRAM"
+      ],
+      "boundary": "Retrospective Bagram triangle account plus reconstruction; recurring 2023–24 pilot lights remain corpus-only. Rendering is not evidence photography."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D025_Digital-Rendering_Airborne-Triangle_2002.jpg",
+      "bytes": 2168856,
+      "sha256": "52c2fd0e4306488e6d7e1c682d0c5ee97ba1b9294774bea8617fc8fc7113e6b6",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case-and-corpus",
+      "atlasMappings": [
+        "CANDIDATE-BF-2002-BAGRAM"
+      ],
+      "boundary": "Retrospective Bagram triangle account plus reconstruction; recurring 2023–24 pilot lights remain corpus-only. Rendering is not evidence photography.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D026_FD-302_Dark-Translucent-Triangle_2023.pdf",
+      "bytes": 522591,
+      "sha256": "a6eb053699dcf7c2fdfe2d37bd4be8ef980c58e3f5595c7bee41ab1f7450bfe0",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2023-CS-TRANSLUCENT"
+      ],
+      "boundary": "Colorado Springs dark translucent triangle account plus reconstruction; distinct from BF-2022-CS-01."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D027_Digital-Rendering_Dark-Translucent-Triangle_2023.pdf",
+      "bytes": 774734,
+      "sha256": "207f31090a4f187a365c552d45b1e0f3eb2aa47541dd9a8b0d1f7b5769c5d0ab",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2023-CS-TRANSLUCENT"
+      ],
+      "boundary": "Colorado Springs dark translucent triangle account plus reconstruction; distinct from BF-2022-CS-01.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D028_FD-302_Dark-Triangle-with-Lights_2011.pdf",
+      "bytes": 1330526,
+      "sha256": "6a1c229de51ed47cff5de843b0cc4592e1ff691f1ed20254ada15d267e0942bb",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2011-TRIANGLE"
+      ],
+      "boundary": "2011 dark triangle account plus reconstruction; retrospective, location redacted, no native media."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D029_Digital-Rendering_Dark-Triangle-with-Lights_2011.jpg",
+      "bytes": 123327,
+      "sha256": "465e4e3ff6d3e49a2b6891326e5d537f4ce7d3c406b8c8cf3271d9bde04e36db",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2011-TRIANGLE"
+      ],
+      "boundary": "2011 dark triangle account plus reconstruction; retrospective, location redacted, no native media.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D030_FD-302_Large-Triangle-with-Red-Lights_2023.pdf",
+      "bytes": 456735,
+      "sha256": "1ac0068c5a4f77c1bb2029971fc5e768d84ea921e3ac3122701746e548b12f06",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2023-CS-RED"
+      ],
+      "boundary": "Separate Colorado Springs 2023 triangle account plus reconstruction; do not merge with BF-2022-CS-01."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D031_Digital-Rendering_Large-Triangle-with-Red-Lights_2023.jpg",
+      "bytes": 649050,
+      "sha256": "33f6602ddc5c73a5b2e7ee1898ef5b51dc895e31ab27e0d2f15eab17c10461bc",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "candidate-new-case",
+      "atlasMappings": [
+        "CANDIDATE-BF-2023-CS-RED"
+      ],
+      "boundary": "Separate Colorado Springs 2023 triangle account plus reconstruction; do not merge with BF-2022-CS-01.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D032_FD-302_Slow-moving-Objects_2026.pdf",
+      "bytes": 1270489,
+      "sha256": "04684f8e8e0d9292e273b8e3152be6a22e195ce25f9c4a92b21c25b1813bd1e1",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "corpus-only-deferred",
+      "atlasMappings": [],
+      "boundary": "Adjacent RF/thermal operational statements; referenced photos/videos and fuller context are not included."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D033_FD-302_Thermally-Elevated-Aerial-Object_2026.pdf",
+      "bytes": 255185,
+      "sha256": "bea21a52d0bfcf82ca2845628f39aeaaeccb447a924babfd448ab89a57f5eb02",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "corpus-only-deferred",
+      "atlasMappings": [],
+      "boundary": "Adjacent RF/thermal operational statements; referenced photos/videos and fuller context are not included."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D037_FD-302_Multiple-Red-Lights_2026.pdf",
+      "bytes": 583708,
+      "sha256": "df8741ec7bee9778646142e3c2c55c050e3c58d067fa1049683ccd1126f0110a",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D038_Digital-Rendering-1_Multiple-Red-Lights_2026.pdf",
+      "bytes": 119935,
+      "sha256": "53e69e5d6dbe46fc435574c3f0246fcdfbbd537928a8a6c46c3f35752f68133e",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D039_Digital-Rendering-2_Multiple-Red-Lights_2026.pdf",
+      "bytes": 631040,
+      "sha256": "491d158803934b9c4e5de46ee51388cd9eff8a8aba2cf17dfcc9d957a8952ebd",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D040_FD-302_Multiple-Red-Lights_2026.pdf",
+      "bytes": 1870080,
+      "sha256": "978ac7226c7ec06f4561c3986732183e3bf2aa4f07c03430daa9111a20eec77e",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D041_Digital-Rendering-1_Multiple-Red-Lights_2026.pdf",
+      "bytes": 652906,
+      "sha256": "7416fff9cc1cb0e19e5d1f5b6efc2b031ea986403a049e3d6fa38d7965fa79e9",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "document",
+      "filename": "FBI-UAP-D042_Digital-Rendering-2_Multiple-Red-Lights_2026.pdf",
+      "bytes": 134379,
+      "sha256": "8ccb25fd8f47cdec75cc384bcf7db137c842931428472664fecfd04db69f6a2f",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "atlasDisposition": "deferred-crosswalk-candidate",
+      "atlasMappings": [
+        "BF-2023-WUS-03"
+      ],
+      "boundary": "2026 red-light/NOD packet and renderings; merge only if redacted event series can be crosswalked to existing Western U.S. federal-LE records.",
+      "mediaBoundary": "Witness reconstruction/artwork, not a photograph or sensor product."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887376.mp4",
+      "bytes": 33427558,
+      "sha256": "7839c97afcfa195447734a9b9a7e1f44cacf98f4ec7b7c52037461ad54143eae",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 28.633333,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "grayscale-compact-target",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887380.mp4",
+      "bytes": 89410590,
+      "sha256": "e811290294e0454ea46e9949a41c7b852d40a5358e1c95d2c104ea26f9c1569c",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 152.8,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "10/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "green-noisy-night-light",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887384.mp4",
+      "bytes": 84195488,
+      "sha256": "e067e118b1028e91404030df0370353ae2d8b04556d32a661bc2a91062839ca7",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 149.0,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "10/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "green-noisy-night-light",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887390.mp4",
+      "bytes": 52517114,
+      "sha256": "df74c4259c07ed16d07ca52b5e74336f59073ad86f935a76ac68b6acbe6728da",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 99.766667,
+        "width": 1276,
+        "height": 720,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "distinct-singleton",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887401.mp4",
+      "bytes": 20916447,
+      "sha256": "2182e7f3baa527cab0f11e70bce2d8cca78fa352e4136977ba2c26196bf35b2e",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 16.666667,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": true,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887407.mp4",
+      "bytes": 24280625,
+      "sha256": "2e092911f97f11ee3f59ff20d1a6085e8cad60aaabeefe916cf39be22e16d608",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 30.2,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": true,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887413.mp4",
+      "bytes": 12249790,
+      "sha256": "44cbcd0a5f922771b02391306377e9aec97e3091b780781e47ced8074aa66d8f",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 33.166467,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "30000/1001",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "distinct-singleton",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887419.mp4",
+      "bytes": 11176881,
+      "sha256": "fa2df73e27efdd8fed2807856b03659b67574ea156ef8f538cea831db8faec0e",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 11.7,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "distinct-singleton",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887421.mp4",
+      "bytes": 2132163,
+      "sha256": "e8a0e2cefafbb1c4b343e778962a4ee09814fc5cb79da2724186e2ab85ab08d6",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 2.8,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": true,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887426.mp4",
+      "bytes": 55170181,
+      "sha256": "c4258089bf48feb62c718ea19d37bf457538dfcf643f8307f5287d99c38c7d92",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 51.5,
+        "width": 1920,
+        "height": 1028,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "distinct-singleton",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887427.mp4",
+      "bytes": 10304701,
+      "sha256": "a55d92ef1536f51398bfab7a7a64272d3a06cd71ca4766e1ea7ecca016686542",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 13.266667,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887430.mp4",
+      "bytes": 1230965,
+      "sha256": "56f0a2691dc2f2c9a23139b7aab119dc4f9f213db9c2f6d05f7cda727b904d54",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 10.0,
+        "width": 768,
+        "height": 576,
+        "frameRate": "10/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "distinct-singleton",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887439.mp4",
+      "bytes": 23882996,
+      "sha256": "2f857e92329ac23ec7e2c2ef68fc5a79c949ca708c0713c2cbf6ec76fdcb798a",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 34.4,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887446.mp4",
+      "bytes": 16649610,
+      "sha256": "1ee2092f1a6bc3a2331d2277eb2f5f0ed8b9630d3081d756bc7ab72ba0d806cf",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 26.333333,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "tan-reticle-sensor",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887456.mp4",
+      "bytes": 44368966,
+      "sha256": "b52dae7c82282743a278b225eae0cb18de94a2bdb5d6f6b3f6da971d3d893176",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 64.064,
+        "width": 1280,
+        "height": 720,
+        "frameRate": "30000/1001",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "grayscale-compact-target",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    },
+    {
+      "kind": "video",
+      "filename": "DOD_111887460.mp4",
+      "bytes": 64214893,
+      "sha256": "fdfa90936a8b9c15b58937babd3ac5c1136e4839f6a67f9dda8ee645d8db9fd3",
+      "custody": "War.gov PURSUE Release 05 local download; byte-identical to retained download duplicate",
+      "mediaMetadata": {
+        "durationSeconds": 53.666667,
+        "width": 1920,
+        "height": 1080,
+        "frameRate": "30/1",
+        "videoCodec": "h264",
+        "pixelFormat": "yuv420p",
+        "audioCodec": "aac",
+        "audioSampleRate": "48000",
+        "audioChannels": 2
+      },
+      "atlasDisposition": "corpus-only-pending-crosswalk",
+      "atlasMappings": [
+        "CANDIDATE-BF-2021-GOM"
+      ],
+      "visualCluster": "grayscale-compact-target",
+      "nonSilentAudioDetected": false,
+      "reliableSpeechTranscript": false,
+      "boundary": "Official-release custody media. No readable event/date/location overlay or official per-file label was recovered; do not attribute a clip to DOW-UAP-D101 or infer object identity/performance until a source crosswalk is established."
+    }
+  ]
+}
