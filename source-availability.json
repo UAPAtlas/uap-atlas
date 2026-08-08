@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 933,
+    "indexedPaths": 936,
     "publicLocal": 368,
-    "externalPublic": 427,
+    "externalPublic": 430,
     "custodyOnly": 138,
     "unavailable": 0
   },
@@ -3716,6 +3716,11 @@
       "status": "public-local",
       "label": "Public Atlas asset"
     },
+    "http://ufoafrinews.com/pdfs/UFO_AFRINEWS11-150.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "ufoafrinews.com"
+    },
     "http://ufoevidence.org/Cases/case127.htm": {
       "status": "external-public",
       "label": "External public source",
@@ -3965,6 +3970,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "thedebrief.org"
+    },
+    "https://time.com/4376871/alien-autopsy-hoax-history/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "time.com"
     },
     "https://upload.wikimedia.org/wikipedia/commons/4/49/Chicago_Sun_1947-06-26-2_Flying_Saucer_headline-th.jpg": {
       "status": "external-public",
@@ -4235,6 +4245,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.openminds.tv"
+    },
+    "https://www.ufoafrinews.com/pdfs/UFO_AFRINEWS12-150.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.ufoafrinews.com"
     },
     "https://www.war.gov/UFO/?releaseDate=Release+05&release=05": {
       "status": "external-public",

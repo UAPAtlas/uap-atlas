@@ -266,9 +266,9 @@
       "whyItMatters": "Magenta binds the modern testimony era to MJ-12-grade provenance: if the papers are real it is history's first retrieval, and if not, it shows sworn-era claims amplifying uncorroborated paper — either way the chain of custody is the whole case.",
       "keyQuote": "Sullo stradale fra Novara e Magenta, cinque operai che rincasavano in bicicletta durante un temporale sono stati investiti dal fulmine.",
       "quoteSource": "Domenica del Corriere, 9 July 1933, p. 16; reproduced by Alfredo Lissoni",
-      "quoteConfidence": "High transcription confidence for the contemporaneous lightning caption; low confidence for the separate RS/33 recovery claim because its anonymous document cache lacks first-party provenance.",
+      "quoteConfidence": "High for the mapped contemporaneous lightning caption; low for the separate RS/33 recovery claim because the alleged cache is anonymous and no first-party 1930s state custody is mapped.",
       "significance": "High significance",
-      "sourceQuality": "Anonymous RS/33 document-chain claim plus later research trail. A recovered contemporaneous Domenica del Corriere clipping documents a lightning strike near Magenta, not a UFO crash or recovery; no first-party Italian state file or physical custody is recovered.",
+      "sourceQuality": "Anonymous RS/33 document-chain claim plus later public research trail. The mapped Domenica del Corriere reproduction documents a 1933 lightning incident near Magenta/Novara, not a UFO crash, recovery, RS/33 office, or craft. No first-party Italian state archive file or custody chain for the alleged RS/33 materials is recovered.",
       "sourceLabel": "RS/33 document set",
       "sourceLocator": "MAGENTA-1933",
       "relatedCaseIds": [
@@ -364,9 +364,7 @@
         }
       ],
       "phenomena": {
-        "shapes": [
-          "formation"
-        ],
+        "shapes": [],
         "objectCount": null,
         "luminosity": null,
         "motion": [],
@@ -375,11 +373,10 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "scientist/technical personnel"
+          "anonymous document source",
+          "later civilian researchers"
         ],
-        "sensors": [
-          "unaided-visual"
-        ],
+        "sensors": [],
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
@@ -443,8 +440,25 @@
         "assets/sources/MAGENTA-1933/Domenica-del-Corriere-1933-07-09-p16-Lissoni-reproduction.jpg"
       ],
       "acquisitionTargets": [
-        "Original RS/33 documents with verifiable Italian state-archive accession and physical custody",
-        "Contemporaneous Italian government, military, intelligence, or recovery records specific to an alleged 1933 craft"
+        {
+          "targetType": "original-rs33-documents",
+          "description": "Original RS/33 documents with verifiable Italian state-archive accession, provenance, and physical custody",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No first-party Italian state-archive file or accession was recovered"
+        },
+        {
+          "targetType": "contemporaneous-state-records",
+          "description": "Contemporaneous Italian government, military, intelligence, police, or recovery records specific to the alleged 1933 craft event",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Mapped contemporaneous clipping is a lightning report, not a recovery record"
+        },
+        {
+          "targetType": "press-boundary-record",
+          "description": "Domenica del Corriere, 9 July 1933, p. 16 lightning caption",
+          "status": "duplicate-existing",
+          "publicOnlyResult": "Already mapped; constrains rather than corroborates the claim",
+          "locator": "https://archive.org/details/ufo-crash-at-vergiate"
+        }
       ],
       "mapGeometry": null,
       "x": 52,
@@ -455,9 +469,9 @@
     {
       "keyQuote": "“In Rastatt area sighted five or six red and green lights in a ‘T’ shape which followed A/C thru turns and closed to 1000 feet. Lights followed for several miles then went out. Our pilots have named these mysterious [unreadable] which they encounter over Germany at night ‘Foo-Fighters.’”",
       "quoteSource": "CUFON transcription of the SECRET December 1944 War Diary, 415th Night Fighter Squadron, entry for 18 December; transcription says records were reproduced from official wartime documents.",
-      "quoteConfidence": "Medium — the official-record wording is preserved in an archival transcription and exact AFHRA catalog custody is established, but the underlying microfilm images have not yet been secured.",
+      "quoteConfidence": "Medium for the transcribed wartime diary wording and exact AFHRA catalog locators; not high until the cited December 1944 entries are checked against original microfilm scans.",
       "significance": "High significance",
-      "sourceQuality": "Exact AFHRA catalog custody recovered; surviving public diary text remains a transcription pending reel scans.",
+      "sourceQuality": "Exact AFHRA catalog custody plus public transcription custody. The Atlas has AFHRA call numbers/reel-frame locators and a CUFON transcription of wartime diary text, but not the underlying microfilm images or complete original packet.",
       "coordinateBasis": "415th Night Fighter Squadron operating area over the Rhine valley",
       "coordinatePrecision": "theater",
       "id": "BF-1944-FF-01",
@@ -552,7 +566,7 @@
       "sourceRecords": [
         {
           "citation": "AFHRA catalog: 415th Night Fighter Squadron war diary, IRIS 60059, call SQ-FI-415-HI, reel 0000000848, frames 1519–1631, covering 10 Feb 1943–3 Mar 1945; daily operations reports IRIS 60074, call SQ-FI-415-SU-OP-S, reel 848, frames 1763–1867; WWII notes IRIS 1026183, call SQ-FI-415-SU-PE, reel 33170, frame 886 onward.",
-          "sourceType": "primary-archive-catalog",
+          "sourceType": "archive-catalog-locator",
           "provenance": "Air Force Historical Research Agency index",
           "locator": "FOO-1944-AFHRA-60059",
           "supports": [
@@ -654,6 +668,27 @@
           "publisher": "airforcehistoryindex.org",
           "access": "Public/access unverified",
           "scope": "public-source"
+        }
+      ],
+      "acquisitionTargets": [
+        {
+          "targetType": "afhra-war-diary-microfilm",
+          "description": "AFHRA IRIS 60059 / call SQ-FI-415-HI / reel 0000000848 / frames 1519–1631",
+          "status": "locator-only",
+          "publicOnlyResult": "Exact archive locator recovered; scans are not held",
+          "reasonNeeded": "Needed to verify the 415th Night Fighter Squadron diary quotation."
+        },
+        {
+          "targetType": "afhra-operations-microfilm",
+          "description": "AFHRA IRIS 60074 / call SQ-FI-415-SU-OP-S / reel 848 / frames 1763–1867",
+          "status": "locator-only",
+          "publicOnlyResult": "Exact archive locator recovered; scans are not held"
+        },
+        {
+          "targetType": "afhra-wwii-notes-microfilm",
+          "description": "AFHRA IRIS 1026183 / call SQ-FI-415-SU-PE / reel 33170 / frame 886 onward",
+          "status": "locator-only",
+          "publicOnlyResult": "Exact archive locator recovered; scans are not held"
         }
       ],
       "mapGeometry": null,
@@ -4439,11 +4474,11 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "The Chapel Hill conference on gravity physics brought together leading researchers in 1957 to discuss gravitational theory and experimental approaches.",
-      "quoteSource": "Chapel Hill GR1 Proceedings EOS, 1957, 298pp (scanned proceedings — OCR degraded)",
-      "quoteConfidence": "Medium — document title/source trail is mapped locally, but the current quote is not page-verified to a clean OCR primary passage.",
+      "keyQuote": "The Role of Gravitation in Physics — Report from the 1957 Chapel Hill Conference",
+      "quoteSource": "CHAPELHILL-1957 proceedings title page, visually verified in local Atlas custody",
+      "quoteConfidence": "High for the exact title visible on the locally held proceedings title page; the proceedings provide scientific/historical context, not evidence of an operational anti-gravity vehicle or UAP event.",
       "significance": "Case significance",
-      "sourceQuality": "Primary proceedings/source-file custody for the 1957 Chapel Hill gravity conference; supports theoretical-context history, not evidence of operational exotic craft.",
+      "sourceQuality": "Local primary proceedings custody for the 1957 Chapel Hill gravity conference, including the full PDF and visually verified title-page images. The public NARA link is collection-guide context rather than a case-specific proceedings locator; the file establishes conference context, not demonstrated gravity control.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-04",
@@ -4458,7 +4493,7 @@
       "expectedAdmin1": "North Carolina",
       "geometryExpectation": "admin1",
       "agency": "UNC / Bahnson-funded IOFP",
-      "domain": "MARITIME / AERIAL",
+      "domain": "SCIENTIFIC / HISTORICAL CONTEXT",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "The January 1957 Conference on the Role of Gravitation in Physics (now known as GR1), organized by Bryce and Cécile DeWitt at UNC Chapel Hill, was funded through aviation money — Agnew Bahnson's Institute of Field Physics — with proceedings issued as a WADC technical document. A legitimate physics milestone (gravitational waves, quantum gravity) later woven into 'antigravity program' lore.",
@@ -4484,7 +4519,8 @@
         "documentary-record"
       ],
       "environment": [
-        "maritime"
+        "terrestrial",
+        "academic-institution"
       ],
       "outcome": "documented",
       "confidenceModel": {
@@ -4543,12 +4579,11 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "USAF personnel",
-          "intelligence community personnel"
+          "physicists",
+          "conference organizers",
+          "scientific participants"
         ],
-        "sensors": [
-          "infrared/thermal"
-        ],
+        "sensors": [],
         "durationSeconds": null,
         "independentWitnessGroups": null
       },
@@ -6850,9 +6885,9 @@
     {
       "keyQuote": "It is common knowledge that Air Force Intelligence Services almost the world over, prefer people to remain silent on the subject of U.F.O. Nevertheless the 'saucers' remain with us and are becoming an increasing source of interest.",
       "quoteSource": "Westall AFSR editor note, 1966 (Australian Flying Saucer Research Society)",
-      "quoteConfidence": "High for the preserved press/archive artifacts; unresolved for official-file claims because no complete RAAF, police, or school packet is mapped.",
+      "quoteConfidence": "High for preserved Atlas-held AFSR/press artifacts; unresolved for official-file claims because no complete official or contemporaneous administrative packet is mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Contemporaneous press, student sketch material, and institutional archive review; official RAAF/police/school administrative incident file remains unrecovered.",
+      "sourceQuality": "Contemporaneous/public Westall press and student-drawing context plus State Library Victoria archival review; no complete RAAF, police, school-administration, Department of Civil Aviation, or NAA case packet has been publicly recovered or mapped.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1966-WS-01",
@@ -6860,7 +6895,7 @@
       "date": "APR 1966",
       "year": 1966,
       "location": "Clayton South, Melbourne, Australia",
-      "mode": "exact",
+      "mode": "approximate",
       "lon": 145.127,
       "lat": -37.925,
       "expectedCountry": "Australia",
@@ -6963,7 +6998,7 @@
         "witnessCount": null,
         "witnessRoles": [
           "students/schoolchildren",
-          "intelligence community personnel"
+          "school staff"
         ],
         "sensors": [
           "unaided-visual"
@@ -7014,8 +7049,18 @@
         }
       ],
       "acquisitionTargets": [
-        "RAAF, police, school-administration, or Department of Civil Aviation incident records specific to Westall",
-        "Original witness statements, drawings, photographs, film, and investigator files with first-generation custody"
+        {
+          "targetType": "official-case-packet",
+          "description": "RAAF, Department of Civil Aviation, NAA, police, school-administration, or related records specific to Westall, April 1966",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete official incident packet was recovered"
+        },
+        {
+          "targetType": "first-generation-witness-material",
+          "description": "Original statements, drawings, photographs, film, investigator files, or school-origin materials",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete first-generation corpus was recovered"
+        }
       ],
       "mapGeometry": null,
       "x": 85.51,
@@ -10919,9 +10964,9 @@
     {
       "keyQuote": "They better wake up and start believin'.",
       "quoteSource": "Publicly circulated sheriff-room recording/transcription trail attributed to Charles Hickson, October 11, 1973",
-      "quoteConfidence": "Low-to-medium — wording is publicly circulated, but original audio custody and a complete authenticated transcript are not mapped.",
+      "quoteConfidence": "Low-to-medium for publicly circulated recording-trail wording; original audio custody, issuer/date-bearing complete transcript, and sheriff packet are not mapped.",
       "significance": "High significance",
-      "sourceQuality": "Witness report to local authorities plus a public trail concerning a reported covert sheriff-room recording; no authenticated complete sheriff packet, original audio, or complete transcript is mapped.",
+      "sourceQuality": "Historically documented Hickson/Parker report to local authorities plus a public local-history trail concerning a reported sheriff-room recording; no authenticated complete Jackson County sheriff packet, original audio custody chain, or complete timecoded transcript is mapped.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1973-PG-01",
@@ -10944,7 +10989,7 @@
       "date": "OCT 1973",
       "year": 1973,
       "location": "Pascagoula River bank, Pascagoula, Mississippi",
-      "mode": "exact",
+      "mode": "approximate",
       "lon": -88.556,
       "lat": 30.368,
       "expectedCountry": "United States of America",
@@ -11106,9 +11151,30 @@
         "assets/source_previews/BF-1973-PG-01_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Authenticated complete Jackson County sheriff case packet",
-        "Original sheriff-room audio with custody history and complete timecoded transcript",
-        "Contemporaneous interview logs and earliest authority report"
+        {
+          "targetType": "law-enforcement-case-packet",
+          "description": "Authenticated complete Jackson County sheriff case/interview packet",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete packet recovered"
+        },
+        {
+          "targetType": "original-audio",
+          "description": "Original or earliest-generation sheriff-room recording with custody history",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No original/earliest-generation audio custody recovered"
+        },
+        {
+          "targetType": "complete-transcript",
+          "description": "Complete transcript with issuer, date, page/timecode locators, and relation to original audio",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No custody-complete transcript recovered"
+        },
+        {
+          "targetType": "contemporaneous-authority-or-press-records",
+          "description": "Earliest complete authority report, interview logs, follow-up notes, or contemporaneous local press packet",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete earliest packet recovered"
+        }
       ],
       "mapGeometry": null,
       "x": 27.56,
@@ -11752,9 +11818,9 @@
     {
       "keyQuote": "Five witnesses reported that Travis Walton was struck by a beam of light from a hovering craft and disappeared for five days; all passed polygraph examinations.",
       "quoteSource": "Travis Walton MUFON Case File & polygraph reports (summary)",
-      "quoteConfidence": "Medium — the selected narrative remains a case summary; the contemporaneous press locator is verified, but the sheriff report, search logs, interview forms, and complete polygraph records are not page-mapped.",
+      "quoteConfidence": "Medium-low: the selected sentence is a case-summary formulation, not a page-verified primary quotation; sheriff/search and original polygraph records remain unmapped.",
       "significance": "Case significance",
-      "sourceQuality": "No complete Navajo County sheriff/search packet is in public or local Atlas custody. A contemporaneous Arizona Daily Sun clipping dated November 8, 1975 is now precisely located, but it is a paywalled press record rather than the originating law-enforcement file.",
+      "sourceQuality": "No complete Navajo County sheriff/search packet, dispatch logs, interview forms, search records, or original polygraph charts are in public/local custody. An Arizona Daily Sun clipping locator dated November 8, 1975 is identified, but public automated access is blocked, so exact article text is not treated as verified quotation.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "region",
       "id": "BF-1975-TW-01",
@@ -11895,12 +11961,16 @@
       ],
       "phenomena": {
         "shapes": [
-          "cross"
+          "structured-craft",
+          "light"
         ],
-        "objectCount": null,
-        "luminosity": null,
+        "objectCount": 1,
+        "luminosity": "beam of light reported by witnesses",
         "motion": [],
-        "effects": []
+        "effects": [
+          "reported missing-person/search event",
+          "reported physical impact/beam effect"
+        ]
       },
       "observation": {
         "witnessCount": null,
@@ -11961,8 +12031,25 @@
         "assets/source_previews/BF-1975-TW-01_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Navajo County Sheriff missing-person, dispatch, search, interview, and incident records",
-        "Original polygraph charts, examiner worksheets, and authenticated testing custody"
+        {
+          "targetType": "law-enforcement-packet",
+          "description": "Complete Navajo County Sheriff missing-person, dispatch, search, interview, and incident records",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete law-enforcement packet was recovered"
+        },
+        {
+          "targetType": "polygraph-custody",
+          "description": "Original polygraph charts, examiner worksheets/reports, and authenticated testing custody",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Complete original polygraph custody was not recovered"
+        },
+        {
+          "targetType": "contemporaneous-press",
+          "description": "Arizona Daily Sun clipping concerning Travis Walton, November 8, 1975",
+          "status": "locator-only",
+          "publicOnlyResult": "Locator identified; text not publicly recovered due access barrier",
+          "locator": "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/"
+        }
       ],
       "mapGeometry": null,
       "x": 22.34,
@@ -11973,9 +12060,9 @@
     {
       "keyQuote": "Billy Meier's contact corpus includes hundreds of alleged photographs and films of beamships; independent analysis has produced contested results.",
       "quoteSource": "Meier contact corpus (summary)",
-      "quoteConfidence": "Low-medium — corpus is public and prolific, but authentication claims are contested and original custody is unresolved.",
+      "quoteConfidence": "Medium for the existence and cultural influence of the long-running Meier/FIGU claim corpus; low for authentication because original-media/sample custody and neutral technical analysis are not mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Large FIGU/Meier photographic-claim corpus with repeated model/fabrication critiques; volume of material does not substitute for neutral custody.",
+      "sourceQuality": "Secondary/public-claim trail with local representative image custody only. The Atlas holds reproductions and cultural/skeptical context, but no neutral custody for original negatives, films, recordings, or alleged samples.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-13",
@@ -11989,7 +12076,7 @@
       "expectedCountry": "Switzerland",
       "geometryExpectation": "country",
       "agency": "Civilian / FIGU",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "domain": "CIVILIAN / CONTACTEE CORPUS",
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "Eduard 'Billy' Meier has claimed ongoing contact with 'Plejaren' beings since 1975, producing hundreds of daylight photographs, films, sound recordings, and metal samples through his FIGU organization. Investigations repeatedly reproduced his imagery with small models — the 'wedding cake' craft resembles household objects — and most researchers, including sympathetic ones, judge the corpus fabricated. The following remains global and active.",
@@ -12078,8 +12165,9 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "scientist/technical personnel",
-          "intelligence community personnel"
+          "claimant",
+          "FIGU associates/followers",
+          "public commentators"
         ],
         "sensors": [
           "photographic/film"
@@ -12099,8 +12187,8 @@
         "visualType": "claimed-event-photo-reproduction",
         "caption": "Reproduction of a well-known photograph from the Billy Meier claim corpus.",
         "provenance": "FIGU corpus record",
-        "evidenceStatus": "Claimed event-image reproduction; provenance, models, and authenticity are heavily disputed.",
-        "isEventEvidence": true
+        "evidenceStatus": "Claimed event-image reproduction; original-negative custody and authenticity are not established.",
+        "isEventEvidence": false
       },
       "culturalLegacy": [
         {
@@ -12120,14 +12208,6 @@
       ],
       "publicSources": [
         {
-          "label": "NARA — UAP records research portal",
-          "url": "https://www.archives.gov/research/topics/uaps",
-          "publisher": "National Archives and Records Administration",
-          "access": "Public",
-          "scope": "collection",
-          "note": "Official collection guide; search by case name, date, or source locator."
-        },
-        {
           "label": "Public skeptical review — Billy Meier / FIGU model and fabrication critiques",
           "url": "https://www.jrprudence.com/post/the-truth-unveiled-a-debunking-of-the-criminal-fraud-hoax-billy-meier-and-figu",
           "publisher": "JR Prudence",
@@ -12139,6 +12219,27 @@
       "images": [
         "assets/evidence/MEIER-1975/MEIER-1975-Photo66-Fuchsbuel-FAIRUSE.jpg",
         "assets/source_previews/BF-SF-13_source_image.jpg"
+      ],
+      "acquisitionTargets": [
+        {
+          "targetType": "original-media-and-sample-custody",
+          "description": "Documented neutral custody for original Meier negatives, films, recordings, and alleged metal samples",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No neutral original-media or sample custody was recovered",
+          "reasonNeeded": "Required before any authentication-related upgrade."
+        },
+        {
+          "targetType": "first-party-corpus-index",
+          "description": "Stable first-party FIGU corpus index with exact image/date provenance",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No stable first-party provenance index is currently mapped"
+        },
+        {
+          "targetType": "independent-technical-analysis",
+          "description": "Independent technical analyses with media/sample chain-of-custody documentation",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No neutral custody-complete technical packet was recovered"
+        }
       ],
       "mapGeometry": null,
       "x": 51.97,
@@ -12317,9 +12418,9 @@
     {
       "keyQuote": "As pessoas se referiam a ter sido atingidas por uma luz intensa, proveniente de um objeto desconhecido.",
       "quoteSource": "1º COMAR Informação 1802/320/ADE/77, p. 4",
-      "quoteConfidence": "verbatim-Portuguese-document-quote",
+      "quoteConfidence": "High for the quoted Portuguese passage on the locally held Arquivo Nacional PDF pages 4–5; medical-causation and photographic-authentication claims remain limited by missing attachments and original negatives.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Brazilian Arquivo Nacional primary-document custody with local PDF and page-image custody for Informação 1802/320/ADE/77, pp. 4–5. The mapped pages support the quoted medical/witness-report passage and internal skepticism, but not original-negative custody or independent medical-record attachments.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1977-CL-01",
@@ -12457,8 +12558,8 @@
         "visualType": "archival-claim-photo-page",
         "caption": "Secondary archival page reproducing a photograph attributed to Operation Prato.",
         "provenance": "Secondary archival reproduction linked alongside the Brazilian National Archives Operation Prato packet",
-        "evidenceStatus": "Later secondary page reproducing an alleged 1977 photograph; the selected reproduction is not itself the Brazilian Air Force original, and original-negative custody is not established here.",
-        "isEventEvidence": true,
+        "evidenceStatus": "Archival reproduction of an alleged Operation Prato photograph; original-negative custody is not established.",
+        "isEventEvidence": false,
         "sourceUrl": "https://imagem.sian.an.gov.br/acervo/derivadas/br_dfanbsb_v8/mic/gnc/kkk/83003252/br_dfanbsb_v8_mic_gnc_kkk_83003252_d0001de0001.pdf"
       },
       "publicSources": [
@@ -12493,9 +12594,9 @@
     {
       "keyQuote": "The objects remain classified as UFO's until identified.",
       "quoteSource": "NZ Ministry of Foreign Affairs savingram, Wellington, 23 January 1979",
-      "quoteConfidence": "High for official-record summary; unresolved for exact filmed/radar object interpretation.",
+      "quoteConfidence": "High for the recovered official savingram wording; filmed/radar object interpretation remains unresolved because native film, radar, and complete workpaper custody is missing.",
       "significance": "High significance",
-      "sourceQuality": "Archives New Zealand/RNZAF-DSIR official-record trail plus public film-frame media; partial official custody recovered, but first-generation film/radar workpapers remain missing.",
+      "sourceQuality": "Partial official-record custody: an Archives New Zealand/RNZAF-DSIR investigation page is locally held with provenance, alongside public film-frame media. First-generation TV1/Fogarty film, the Crockett copy, native radar logs, complete analytical workpapers, and final disposition remain unmapped.",
       "coordinateBasis": "Over-sea encounter corridor off Kaikoura, between Wellington and Christchurch",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-KK-01",
@@ -12655,6 +12756,26 @@
         "assets/evidence/hero-visuals/KAIKOURA-1978-Archives-New-Zealand-record.jpg",
         "assets/source_previews/BF-1978-KK-01_source_image.jpg"
       ],
+      "acquisitionTargets": [
+        {
+          "targetType": "first-generation-film",
+          "description": "First-generation TV1/Fogarty film and Crockett film copy",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Public frame/media trail exists; native film material was not recovered"
+        },
+        {
+          "targetType": "radar-and-analysis-records",
+          "description": "Native Wellington ATC/radar logs, timing records, and DSIR/RNZAF analytical workpapers",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No native radar/timing/workpaper packet was recovered"
+        },
+        {
+          "targetType": "final-official-disposition",
+          "description": "Final RNZAF/DSIR disposition or closure record",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Current recovered official page is interim/provisional"
+        }
+      ],
       "mapGeometry": null,
       "x": 91.72,
       "y": 43.66,
@@ -12664,9 +12785,9 @@
     {
       "keyQuote": "It's hovering and it's not an aircraft.",
       "quoteSource": "Public mirror of a final-communications transcript attributed to the Australian Department of Transport, October 21, 1978",
-      "quoteConfidence": "High for wording in the inspected public transcript mirror; direct official transcript/audio custody and the complete investigation packet are not locally held.",
+      "quoteConfidence": "High for wording visible in the inspected UFOr transcript mirror; not high for direct official custody because the complete NAA/Department of Transport packet and original audio are not held.",
       "significance": "High significance",
-      "sourceQuality": "Exact NAA catalog and ATSB report locators plus an inspected public transcript mirror; the complete primary packet is not locally held, and the record does not establish UFO causation.",
+      "sourceQuality": "Exact official NAA catalog locator, official ATSB report locator, and inspected UFOr public transcript mirror. Current custody lacks the complete primary packet, direct official transcript/audio, complete search file, and radar/sensor records; none establishes UFO causation.",
       "coordinateBasis": "Last reported position area over Bass Strait south of Cape Otway",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-VL-01",
@@ -12881,9 +13002,24 @@
         }
       ],
       "acquisitionTargets": [
-        "Complete NAA/Department of Transport investigation packet B1497 V116/783/1047",
-        "Direct official final-communications transcript and original audio custody record",
-        "Complete official search documentation and radar/sensor records"
+        {
+          "targetType": "official-investigation-packet",
+          "description": "Complete NAA/Department of Transport packet B1497 V116/783/1047 / Barcode 10491375",
+          "status": "locator-only",
+          "publicOnlyResult": "Exact catalog locator verified; packet not inspected"
+        },
+        {
+          "targetType": "official-transcript-or-audio",
+          "description": "Direct official final-communications transcript and original/earliest-generation ATC audio",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Only a public transcript mirror was inspected"
+        },
+        {
+          "targetType": "search-and-sensor-records",
+          "description": "Complete official search documentation, radar records, air-traffic records, and sensor/communications logs",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete records recovered"
+        }
       ],
       "mapGeometry": {
         "type": "LineString",
@@ -14252,9 +14388,9 @@
     {
       "keyQuote": "Ed Walters produced a series of polaroid photographs of a craft over Gulf Breeze, Florida; the case became one of the most contested photo series in UFO history.",
       "quoteSource": "Gulf Breeze photo series, 1987-1988 (summary)",
-      "quoteConfidence": "Medium — the case summary and controversy framing are supported by public reporting and archive metadata; no exact authenticated-original image statement is available.",
+      "quoteConfidence": "Medium for the public photo-series/controversy record and Rice archival metadata; no authenticated-original image statement or first-generation custody packet is publicly mapped.",
       "significance": "Case significance",
-      "sourceQuality": "Rice University’s Richard F. Haines Ufology Papers provide an exact institutional folder lead—MS 0706, Series VIII, Box 11, Folder 12, “UFO photos: Gulf Breeze, Florida, 1990.” No authenticated original Walters Polaroid, negative, or first-generation custody chain is publicly mapped.",
+      "sourceQuality": "Public custody is limited to an exact Rice University finding-aid locator for Richard F. Haines Ufology papers, MS 0706, Series VIII, Box 11, Folder 12, 'UFO photos: Gulf Breeze, Florida, 1990.' It establishes institutional folder custody, not displayed original Walters media or first-generation chain of custody from the 1987–1988 series.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1987-GB-01",
@@ -14262,7 +14398,7 @@
       "date": "NOV 1987",
       "year": 1987,
       "location": "Gulf Breeze, Florida",
-      "mode": "exact",
+      "mode": "approximate",
       "lon": -87.164,
       "lat": 30.37,
       "expectedCountry": "United States of America",
@@ -14360,9 +14496,9 @@
             "Confirms that the Haines collection includes UFO photographs with notes and photo analysis"
           ],
           "limitations": [
-            "The online finding aid does not display the folder contents or identify them as original Walters Polaroids",
-            "The folder date is 1990 and does not by itself establish first-generation custody from the 1987–1988 photo series",
-            "Institutional custody of photo material does not authenticate the depicted objects or resolve the model/hoax controversy"
+            "Finding aid does not display folder contents or identify original Walters media",
+            "1990 folder title does not establish custody continuity from the 1987–1988 series",
+            "Institutional folder custody does not authenticate depicted objects"
           ]
         }
       ],
@@ -14378,7 +14514,8 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "intelligence community personnel"
+          "civilian photographer",
+          "civilian investigators"
         ],
         "sensors": [
           "photographic/film",
@@ -14421,8 +14558,19 @@
         }
       ],
       "acquisitionTargets": [
-        "Authenticated Walters original negatives, first-generation prints, and complete camera/processing custody",
-        "Publicly released digital objects from Rice MS 0706 Box 11 Folder 12 or another institutional first-generation holding"
+        {
+          "targetType": "original-photographic-material",
+          "description": "Authenticated Walters original Polaroids, negatives if any, first-generation prints, and complete camera/processing custody for the 1987–1988 series",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No authenticated original or first-generation custody packet was recovered"
+        },
+        {
+          "targetType": "institutional-folder-contents",
+          "description": "Public digital objects or item-level inventory from Rice MS 0706, Series VIII, Box 11, Folder 12",
+          "status": "locator-only",
+          "publicOnlyResult": "Finding aid is public; folder contents are not displayed",
+          "locator": "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
+        }
       ],
       "mapGeometry": null,
       "x": 27.91,
@@ -14461,10 +14609,10 @@
       "whyItMatters": "Public military seriousness raises the floor of credibility, but raw radar and witness-geolocation data are still needed for hard assessment.",
       "keyQuote": "The observations, visual and radar, were of such a nature that the take off of two F-16 of the 1 J Wing has been decided, in order to identify these UFOs.",
       "quoteSource": "Belgian Air Force report by Major Lambrechts, section 1(b), p. 1",
-      "quoteConfidence": "verbatim-document-quote",
+      "quoteConfidence": "High for the Belgian Air Force quotation read from the mapped report page image and high for page-verified COBEPS retrospective statements; public-copy custody does not establish raw radar performance or extraordinary origin.",
       "heroFact": "Belgian military handling made the wave operationally serious, but raw radar and correlation records remain the decisive missing layer.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Mixed public-copy custody: a Belgian Air Force report page image for the F-16 scramble/radar narrative plus a COBEPS 2012 retrospective PDF. These support official/public investigation history and wave-scale context, but raw radar tapes, calibrated data, and a complete native official publication chain remain absent.",
       "sourceLabel": "Belgian Air Force",
       "sourceLocator": "Belgian Air Force report section 1(b), p. 1; COBEPS retrospective pp. 1–9",
       "relatedCaseIds": [
@@ -15102,9 +15250,9 @@
     {
       "keyQuote": "Out of the 250 children at the school, more than 60 were now witnesses to an extraordinary event.",
       "quoteSource": "UFO AFRINEWS No. 11, Case No. 96, PDF p. 13 / printed p. 20 (derivative local scan)",
-      "quoteConfidence": "High transcription confidence — page-verified quotation from a derivative scan; the publication is not the original interview archive.",
+      "quoteConfidence": "High transcription confidence for the page-verified AFRINEWS quotation; the publication layer does not substitute for original 1994 field-archive or official custody.",
       "significance": "High significance",
-      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11–12 derivative PDF scans plus a public witness-drawing/interview trail. Strong near-contemporaneous investigative reporting, but not original field-archive custody.",
+      "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11–12 reporting is held locally as derivative scans/renders, and direct public publisher-site PDFs are accessible for both issues. This strengthens the near-contemporaneous publication layer, not original interview footage, field notes, drawings custody, official packets, or soil-lab records.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1994-AR-01",
@@ -15201,9 +15349,9 @@
       "sourceRecords": [
         {
           "citation": "UFO AFRINEWS No. 11, Case No. 96, 'The Children of Ariel School', PDF pp. 12–13 (printed pp. 19–21)",
-          "sourceType": "near-contemporaneous-investigator-report-derivative-scan",
-          "provenance": "Cynthia Hind / UFO AFRINEWS No. 11; local derivative PDF scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
-          "locator": "ARIEL-1994 · UFO-AFRINEWS-No-11.pdf#page=12-13",
+          "sourceType": "near-contemporaneous-investigator-report-public-pdf",
+          "provenance": "Cynthia Hind / UFO AFRINEWS No. 11; direct public publisher-site PDF accessible; Atlas also holds local derivative renders.",
+          "locator": "UFO_AFRINEWS11-150.pdf#page=12-13",
           "supports": [
             "Published opening account of the September 16, 1994 Ariel School report",
             "Adult/schoolyard context and first reporting to Mrs Alyson Kirkman",
@@ -15214,13 +15362,14 @@
             "Derivative scan, not first-party publisher archive or original 1994 material",
             "Investigator reporting and testimony/drawings do not establish object identity or origin",
             "Does not provide complete unedited interview footage or an official investigative packet"
-          ]
+          ],
+          "sourceUrl": "http://ufoafrinews.com/pdfs/UFO_AFRINEWS11-150.pdf"
         },
         {
           "citation": "UFO AFRINEWS No. 12, 'ARIEL SCHOOL REPORT (CONT.) case N°96', PDF pp. 6–7 (printed pp. 7–9)",
-          "sourceType": "follow-up-investigator-report-derivative-scan",
-          "provenance": "Cynthia Hind / UFO AFRINEWS No. 12; local derivative PDF scan with 2008 creation and 2021 modification metadata; not original 1994 publisher custody",
-          "locator": "ARIEL-1994 · UFO-AFRINEWS-No-12.pdf#page=6-7",
+          "sourceType": "follow-up-investigator-report-public-pdf",
+          "provenance": "Cynthia Hind / UFO AFRINEWS No. 12; direct public publisher-site PDF accessible; Atlas also holds local derivative renders.",
+          "locator": "UFO_AFRINEWS12-150.pdf#page=6-7",
           "supports": [
             "Reports that Dr. John Mack spent two days speaking with children",
             "Documents a reported prior-day object account and mixed-corroboration handling",
@@ -15230,7 +15379,8 @@
             "Does not supply Mack's complete unedited footage, transcripts, or field notes",
             "Does not supply raw soil-laboratory measurements or sampling chain-of-custody records",
             "Derivative publication scan, not a substitute for original-material acquisition"
-          ]
+          ],
+          "sourceUrl": "https://www.ufoafrinews.com/pdfs/UFO_AFRINEWS12-150.pdf"
         },
         {
           "citation": "ARIEL-1994 · witness interview and drawing public trail",
@@ -15257,16 +15407,19 @@
         "effects": []
       },
       "observation": {
-        "witnessCount": null,
+        "witnessCount": 62,
         "witnessRoles": [
-          "students/schoolchildren"
+          "students/schoolchildren",
+          "civilian investigators",
+          "journalists"
         ],
         "sensors": [
           "recorded-interviews",
-          "witness-drawings"
+          "witness-drawings",
+          "unaided-visual"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": 1
       },
       "taxonomyOriginal": {
         "domain": "MASS SIGHTING / SCHOOL WITNESSES",
@@ -15334,10 +15487,30 @@
         "assets/sources/ARIEL-1994/afrinews-12-p07.jpg"
       ],
       "acquisitionTargets": [
-        "Complete unedited 1994 interview footage and original Mack/Hind field materials",
-        "First-party UFO AFRINEWS publisher custody",
-        "Official Zimbabwean, Ariel School, or police investigative packet",
-        "Soil-sampling raw laboratory data and chain-of-custody records"
+        {
+          "targetType": "original-field-archive",
+          "description": "Complete unedited 1994 interview footage/audio/transcripts, witness drawings, and Mack/Hind field notes",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Direct AFRINEWS PDFs were recovered; original field materials were not"
+        },
+        {
+          "targetType": "publisher-custody",
+          "description": "First-party UFO AFRINEWS publisher custody or production files for Nos. 11–12",
+          "status": "partially-recovered",
+          "publicOnlyResult": "Direct public PDFs are accessible; original publisher archive remains unverified"
+        },
+        {
+          "targetType": "official-investigation",
+          "description": "Official Zimbabwean government, Ariel School, or police investigative packet",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No official packet was recovered"
+        },
+        {
+          "targetType": "soil-sampling-records",
+          "description": "Raw laboratory data, sampling notes, and custody records for reported soil follow-up",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "AFRINEWS reports follow-up but supplies no raw lab/custody records"
+        }
       ],
       "mapGeometry": null,
       "x": 58.01,
@@ -15348,9 +15521,9 @@
     {
       "keyQuote": "[Exact 2006 interview wording is not verified in the current mapped Atlas corpus.]",
       "quoteSource": "Atlas custody audit, 18 July 2026",
-      "quoteConfidence": "Unverified in current custody — the exact 2006 interview recording or transcript is not held.",
+      "quoteConfidence": "Unverified for exact Santilli/Humphreys wording; medium only for TIME's attributed secondary summary. Do not present TIME paraphrase as exact Santilli speech.",
       "significance": "Case significance",
-      "sourceQuality": "Secondary contextual custody only: a local preview image, generated manifest, and Atlas audit note are held; the exact 1995 broadcast, exact 2006 interview, original film master, and production records are not held.",
+      "sourceQuality": "Secondary public context includes TIME's 2016 retrospective summarizing the 1995 broadcast controversy, the exact 2006 Eamonn Investigates admission source that remains missing, and John Humphreys production claims. The exact broadcast/interview, production documentation, and claimed original film master are not held.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-12",
@@ -15364,9 +15537,9 @@
       "expectedCountry": "United Kingdom",
       "geometryExpectation": "country",
       "agency": "Civilian / Ray Santilli",
-      "domain": "GOVERNMENT / INSTITUTIONAL",
-      "status": "DOCUMENTED · DISPUTED",
-      "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
+      "domain": "MEDIA / PROVENANCE",
+      "status": "DOCUMENTED MEDIA HOAX · PRIMARY INTERVIEW/BROADCAST CUSTODY MISSING",
+      "confidence": "CONFIRMED PUBLIC MEDIA CONTROVERSY · EXACT ADMISSION WORDING UNVERIFIED",
       "summary": "Ray Santilli distributed film in 1995 that was presented as a Roswell-era alien autopsy. Later public accounts describe Santilli calling the aired material a staged ‘restoration’ and identify sculptor John Humphreys with the production, but the current Atlas corpus does not hold the exact interview, broadcast master, production record, or original film needed to quote or independently verify those admissions.",
       "keyFact": "The mapped Atlas corpus documents a severe provenance gap; it does not independently authenticate either the footage or the reported later admissions about how it was made.",
       "official": "No mapped agency-originating record authenticates the film as Roswell, extraterrestrial, or government material. The current local holdings also do not contain the exact 2006 interview needed to treat the reported ‘restoration’ wording as a verified quotation.",
@@ -15453,6 +15626,21 @@
             "Does not corroborate the event narrative",
             "Cannot substitute for missing primary records"
           ]
+        },
+        {
+          "citation": "Nathalie Lagerfeld, 'How an Alien Autopsy Hoax Captured the World's Imagination for a Decade,' TIME, 21 June 2016",
+          "sourceType": "secondary-media-history",
+          "provenance": "Public TIME retrospective of the film controversy and reported admission narrative",
+          "locator": "https://time.com/4376871/alien-autopsy-hoax-history/",
+          "sourceUrl": "https://time.com/4376871/alien-autopsy-hoax-history/",
+          "supports": [
+            "Documents the public media-hoax/provenance controversy",
+            "Summarizes the reported Santilli/Shoefield restoration narrative and Humphreys production claim"
+          ],
+          "limitations": [
+            "Not the exact 2006 interview or transcript",
+            "Not a broadcast master, production packet, or original film custody record"
+          ]
         }
       ],
       "phenomena": {
@@ -15497,16 +15685,53 @@
           "access": "Public",
           "scope": "collection",
           "note": "Official collection guide; search by case name, date, or source locator."
+        },
+        {
+          "label": "TIME — How an Alien Autopsy Hoax Captured the World's Imagination for a Decade",
+          "url": "https://time.com/4376871/alien-autopsy-hoax-history/",
+          "publisher": "TIME",
+          "access": "Public",
+          "scope": "secondary-media-history",
+          "role": "contextual-analysis",
+          "mediaKind": "article",
+          "note": "Secondary retrospective; not the exact 2006 interview, broadcast master, or production packet."
         }
       ],
       "images": [
         "assets/source_previews/BF-SF-12_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Exact 2006 Eamonn Investigates interview recording or transcript containing Santilli’s restoration characterization",
-        "First-generation 1995 broadcast/distribution record and production documentation",
-        "Any claimed original film master, camera negative, or frames with an independently reviewable chain of custody",
-        "Exact John Humphreys interview/admission record and supporting production documentation"
+        {
+          "targetType": "exact-2006-interview",
+          "description": "Exact Eamonn Investigates recording or transcript containing Santilli's characterization",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Secondary summaries and metadata found; exact recording/transcript not recovered"
+        },
+        {
+          "targetType": "broadcast-distribution-record",
+          "description": "First-generation 1995 broadcast/distribution record and production documentation",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No first-generation broadcast master or production packet recovered"
+        },
+        {
+          "targetType": "claimed-original-film-material",
+          "description": "Claimed original film master, camera negative, frames, or physical material with reviewable custody",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No claimed original material with reviewable custody recovered"
+        },
+        {
+          "targetType": "humphreys-admission-record",
+          "description": "Exact John Humphreys interview/admission recording or transcript and production documentation",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "TIME secondary summary recovered; exact source not recovered"
+        },
+        {
+          "targetType": "secondary-public-context",
+          "description": "TIME 2016 retrospective",
+          "status": "recovered-new",
+          "publicOnlyResult": "Accessible secondary source recovered; attribution boundary required",
+          "locator": "https://time.com/4376871/alien-autopsy-hoax-history/"
+        }
       ],
       "mapGeometry": null,
       "x": 49.86,
@@ -15517,9 +15742,9 @@
     {
       "keyQuote": "O extraordinário relato de um contato alienígena mobiliza ufólogos e envolve o Exército numa acusação de sequestro.",
       "quoteSource": "IstoÉ, 22 May 1996, p. 29; scan in Arquivo Nacional/SIAN custody",
-      "quoteConfidence": "High transcription confidence for the page-verified 1996 article; low confidence for the extraordinary event claims, which remain press/witness allegations and are explicitly denied by the Army in the same spread.",
+      "quoteConfidence": "High for the page-verified 1996 IstoÉ article quotation; low event-corroboration confidence because archival custody authenticates the article, not the alleged creature/capture narrative.",
       "significance": "Case significance",
-      "sourceQuality": "Complete contemporaneous IstoÉ press spread in Brazilian National Archives/SIAN custody, combining named witness reporting, ufologist allegations, and explicit Army denials; no military, medical, capture, or physical-custody packet is recovered.",
+      "sourceQuality": "Complete contemporaneous IstoÉ spread, 'O Caso do ET de Varginha,' 22 May 1996, pp. 29–32, is publicly accessible through Arquivo Nacional/SIAN and rendered in Atlas custody. It establishes archival custody of a magazine article containing witness claims and Army denials, not a military, police, medical, capture, transport, or physical-custody packet.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1996-VG-01",
@@ -15669,12 +15894,13 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "Army personnel",
-          "law enforcement officer",
-          "intelligence community personnel"
+          "civilian witnesses",
+          "ufologists",
+          "Brazilian Army personnel as alleged/denying parties"
         ],
         "sensors": [
-          "unaided-visual"
+          "unaided-visual",
+          "press reporting"
         ],
         "durationSeconds": null,
         "independentWitnessGroups": null
@@ -15753,8 +15979,25 @@
         "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-32.jpg"
       ],
       "acquisitionTargets": [
-        "Brazilian military, police, fire-service, and hospital records specific to the January 1996 allegations",
-        "Authenticated capture, transport, medical, pathology, or physical-custody records"
+        {
+          "targetType": "official-incident-records",
+          "description": "Brazilian military, police, fire-service, and hospital records specific to the January 1996 allegations",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No official incident packet was recovered; SIAN recovery is press only"
+        },
+        {
+          "targetType": "medical-physical-custody",
+          "description": "Authenticated capture, transport, medical, pathology, or physical-custody records",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No such custody record was recovered"
+        },
+        {
+          "targetType": "contemporaneous-press-archive",
+          "description": "IstoÉ, 22 May 1996, pp. 29–32, SIAN BR_DFANBSB_ARX_0_0_0443",
+          "status": "duplicate-existing",
+          "publicOnlyResult": "Already mapped and publicly accessible; supports press/reporting layer only",
+          "locator": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf"
+        }
       ],
       "mapGeometry": null,
       "x": 38.17,
@@ -16476,9 +16719,9 @@
     {
       "keyQuote": "The 'Alien Interview' video, allegedly smuggled out of Area 51 by a witness known as 'Victor,' shows a creature being interviewed; provenance and authenticity remain unverified.",
       "quoteSource": "Victor tape public release, 1997 (summary)",
-      "quoteConfidence": "High for the documented 1997 public-release artifact; low for the alleged Area 51 provenance and authenticity, which remain unsupported by an original tape or verifiable transfer chain.",
+      "quoteConfidence": "High for the documented public-release artifact and Internet Archive program mirror; low for Area 51/S-4 provenance, Victor identity, original tape custody, and authenticity.",
       "significance": "Case significance",
-      "sourceQuality": "Rocket Pictures / Victor public-release trail plus a verified full-program Internet Archive copy; the anonymous source, original alleged tape, production master, and agency custody remain unverified.",
+      "sourceQuality": "Rocket Pictures/Victor public-release trail plus Internet Archive full-program mirror; current custody documents a public media artifact, not the alleged original tape, agency custody, Victor identity/access, production master, or authenticated transfer chain.",
       "coordinateBasis": "Production/distribution provenance: Rocket Pictures, Los Angeles",
       "coordinatePrecision": "city",
       "id": "BF-SF-06",
@@ -16586,7 +16829,7 @@
         {
           "citation": "Area 51: The Alien Interview (1997), full-program public mirror",
           "sourceType": "public-release-program-mirror",
-          "provenance": "Internet Archive H.264 copy of the full 1997 program; exact 149,946,368-byte file retained with SHA-256",
+          "provenance": "Internet Archive public full-program mirror and metadata endpoint; public-mirror custody only.",
           "locator": "Internet Archive item area-51-the-alien-interview-1997; full program 64:30",
           "supports": [
             "Documents the complete public-release artifact and its presentation of the Victor claim",
@@ -16596,7 +16839,8 @@
             "Internet Archive custody is not Rocket Pictures production-master or alleged agency-tape custody",
             "Victor’s identity and access remain unverified",
             "The program does not establish authenticity or non-human origin"
-          ]
+          ],
+          "sourceUrl": "https://archive.org/details/area-51-the-alien-interview-1997"
         }
       ],
       "phenomena": {
@@ -16611,8 +16855,8 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "scientist/technical personnel",
-          "intelligence community personnel"
+          "anonymous claimant",
+          "media-production/distribution personnel"
         ],
         "sensors": [
           "photographic/film"
@@ -16676,8 +16920,18 @@
         "assets/source_previews/BF-SF-06_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Original alleged Victor tape or production master with authenticated transfer and duplication history",
-        "Verifiable Victor identity/access evidence and Rocket Pictures production/forensic records"
+        {
+          "targetType": "original-or-production-master",
+          "description": "Original alleged Victor tape or Rocket Pictures production master with authenticated duplication/transfer custody",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No original or production master recovered"
+        },
+        {
+          "targetType": "identity-and-access-records",
+          "description": "Verifiable Victor identity/access evidence and production/forensic records",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No verified identity/access packet recovered"
+        }
       ],
       "mapGeometry": null,
       "x": 20.44,
@@ -16688,9 +16942,9 @@
     {
       "keyQuote": "UFOs and Defense: What Should We Prepare For?",
       "quoteSource": "COMETA report title, 1999",
-      "quoteConfidence": "High for report text/source phrase in the mapped English translation; medium for institutional-weight claims beyond authorship/context.",
+      "quoteConfidence": "High for the report title and English-translation text visible in the mapped PDF; institutional authorship does not make the report an official French state finding.",
       "significance": "High significance",
-      "sourceQuality": "Public COMETA report/translation custody; significant institutional-style argument by French defense/scientific figures, but not an official French government finding.",
+      "sourceQuality": "Public report-copy custody for the English COMETA translation, with local PDF/page-image custody and an Internet Archive public mirror. The mapped source verifies the report title, COMETA authorship/translation context, and published argument, but not official French government endorsement or the unpublished underlying case dossiers.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-08",
@@ -16738,7 +16992,7 @@
       "confidenceModel": {
         "record": "confirmed",
         "anomaly": "not-assessed",
-        "provenance": "primary-record"
+        "provenance": "public-report-copy"
       },
       "temporal": {
         "dateLabel": "JUL 1999",
@@ -16766,9 +17020,9 @@
       "sourceRecords": [
         {
           "citation": "COMETA-1999 · report text (English translation, archive.org mirror) / IHEDN-associated authorship record",
-          "sourceType": "public-report-and-translation-record",
+          "sourceType": "public-report-copy",
           "provenance": "COMETA report text, English translation, archive.org mirror, and IHEDN-associated authorship/context trail",
-          "locator": "COMETA-1999",
+          "locator": "COMETA-1999; local English translation PDF p. 1",
           "supports": [
             "Documents the COMETA report as a serious public defense-oriented UFO assessment authored by French military/scientific figures",
             "Source index includes the English report PDF and page image/preview assets",
@@ -17966,9 +18220,9 @@
     {
       "keyQuote": "The Chilean Navy CEFAA investigated an infrared video showing an object with hot gas emission that was later identified as a commercial aircraft at a distance.",
       "quoteSource": "CEFAA investigation file, 2014-2015 (summary)",
-      "quoteConfidence": "Medium — public release and reporting trail are specific; object identity remains disputed by flight-track/plume analysis.",
+      "quoteConfidence": "Medium for the public CEFAA/Chilean Navy release-reporting trail and inspected mirror frame; low for exact agency-file wording, native metadata, or final analytic conclusion.",
       "significance": "Case significance",
-      "sourceQuality": "Public CEFAA/Chilean Navy IR-video release trail with extracted public-mirror frame; native agency media master and metadata remain unavailable.",
+      "sourceQuality": "Public CEFAA/Chilean Navy release-reporting trail, accessible HuffPost report, public-video mirror derivatives, and Atlas-held frame/provenance. Native Navy media, embedded WESCAM telemetry, full metadata, agency workpapers, and custody remain unavailable.",
       "coordinateBasis": "Naval helicopter patrol track off the central Chilean coast",
       "coordinatePrecision": "offshore-area",
       "id": "BF-2014-CH-01",
@@ -18087,10 +18341,8 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "Navy personnel",
-          "civilian witnesses",
-          "scientist/technical personnel",
-          "intelligence community personnel"
+          "Chilean Navy aircrew",
+          "CEFAA/technical analysts"
         ],
         "sensors": [
           "infrared/thermal",
@@ -18140,8 +18392,18 @@
         "assets/evidence/CEFAA-2014/CEFAA-2014-Chilean-Navy-Cougar-platform.jpg"
       ],
       "acquisitionTargets": [
-        "Native 2014 Chilean Navy WESCAM/FLIR master with embedded telemetry and complete metadata",
-        "Complete CEFAA/SEFAA analyst case file, aircraft position/orientation data, and sensor chain of custody"
+        {
+          "targetType": "native-sensor-media",
+          "description": "Native 2014 Chilean Navy WESCAM/FLIR master with telemetry, file metadata, and custody record",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No native sensor master/metadata packet recovered"
+        },
+        {
+          "targetType": "agency-case-file",
+          "description": "Complete CEFAA/SEFAA analyst file, flight-track workpapers, aircraft data, meteorology, and disposition",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete agency analytical file recovered"
+        }
       ],
       "mapGeometry": null,
       "x": 31.83,
@@ -19382,10 +19644,10 @@
       "whyItMatters": "The reported altitude, slow movement, cold IR signature, and directional changes make the full track and platform geometry decisive.",
       "keyQuote": "abrupt directional changes",
       "quoteSource": "DOW-UAP-D44 · Range Fouler Arabian Sea October 2020",
-      "quoteConfidence": "High for released source phrase; medium for broader interpretation without raw sensor/debrief metadata.",
+      "quoteConfidence": "High for 'a few abrupt directional changes' and other wording visible on the locally held DOW-UAP-D44 report page; low for performance or object interpretation beyond the released form.",
       "heroFact": "A cold round IR object was tracked at 19,073 feet, moving slowly with abrupt directional changes during roughly one minute of contact.",
       "significance": "High significance",
-      "sourceQuality": "War.gov/DoW-AARO-style range-fouler release record with D44/D56 preview assets; primary-source release for event/debrief narrative, incomplete raw sensor packet.",
+      "sourceQuality": "Official War.gov range-fouler report/debrief trail with local DOW-UAP-D44 and D56 page-image custody. D44 visibly supports the reported tracking details and phrase 'a few abrupt directional changes'; the Atlas does not hold the native sensor packet, platform metadata, radar data, or analytical workpapers.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D44",
       "relatedCaseIds": [
@@ -19499,6 +19761,20 @@
         "assets/editorial-reconstructions/BF-2020-AS-01.png",
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020_page_001.png",
         "assets/source_previews/BF-2020-AS-01_DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020_page_001.png"
+      ],
+      "acquisitionTargets": [
+        {
+          "targetType": "complete-official-release",
+          "description": "Complete public DOW-UAP-D44/D56 record packet with release metadata",
+          "status": "partially-recovered",
+          "publicOnlyResult": "D44/D56 page-image custody is held; complete release packet and text layer remain incomplete"
+        },
+        {
+          "targetType": "native-sensor-packet",
+          "description": "Native sensor media, platform metadata, radar data, and analytical workpapers",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No native sensor/metadata/analysis packet was recovered"
+        }
       ],
       "mapGeometry": null,
       "coordinateGenerated": true,
@@ -23555,7 +23831,7 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "U.S. Indo-Pacific Command submitted 18 seconds of infrared video from a U.S. military platform to AARO. The public clip shows the sensor panning for roughly 14 seconds to keep an area of contrast resembling a six-pointed star near screen center; the release supplies no analytical attribution.",
+      "summary": "USINDOPACOM submitted an infrared-video UAP report to AARO for the Yellow Sea. DVIDS describes the submission as 18 seconds of footage while public video metadata lists 00:00:15; the visible description says the sensor pans from 00:01–00:15 to track an area of contrast resembling a six-pointed star. The release supplies no analytical attribution.",
       "official": "The official DVIDS description explicitly says it is informational only and must not be read as an analytical judgment, investigative conclusion or factual determination about the event's validity, nature or significance. The linked release provides no object-origin conclusion.",
       "gap": "Needed for independent assessment are the native 18-second file, platform and sensor type, range and slant-range data, azimuth/elevation, field of view, tracking mode, calibration, atmospheric and cloud conditions, stabilization metadata, surrounding frames and AARO's analytical work product.",
       "sources": [
@@ -23572,10 +23848,10 @@
       "whyItMatters": "The released description confirms an unresolved IR contrast record, but without platform and atmospheric context it cannot carry an origin claim.",
       "keyQuote": "The sensor pans to track an area of contrast resembling a six-pointed star, keeping it generally centered within the center of the screen.",
       "quoteSource": "DVIDS Video 1014101 · DOW-UAP-PR104 official video description",
-      "quoteConfidence": "verified official web-record quotation",
+      "quoteConfidence": "High for the DVIDS title, metadata, and informational description; the source expressly disclaims analytical judgment, investigative conclusion, or factual determination about the area's nature or significance.",
       "heroFact": "Release 04 identifies an unresolved IR area of contrast over the Yellow Sea.",
       "significance": "High significance",
-      "sourceQuality": "Primary record",
+      "sourceQuality": "Official DVIDS/AARO public-release record with local frame custody for DOW-UAP-PR104 / DOD_111830027. The source supports release metadata and an informational video description, but supplies no platform identification, range data, sensor metadata, or analytical conclusion.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-PR104",
       "relatedCaseIds": [
@@ -23605,7 +23881,7 @@
         "startDateTime": null,
         "endDateTime": null,
         "timezone": null,
-        "durationSeconds": null,
+        "durationSeconds": 15,
         "precision": "year",
         "eventForm": "single-event"
       },
@@ -23657,7 +23933,7 @@
         "sensors": [
           "infrared/thermal"
         ],
-        "durationSeconds": null,
+        "durationSeconds": 15,
         "independentWitnessGroups": null
       },
       "taxonomyOriginal": {

@@ -192,34 +192,22 @@ def source_triage(case, coverage_row, weakness_row):
         true_gap_reasons.append("missing mapped local asset")
 
     # Acquisition signals must come from case-level custody findings. Generic
-    # boundary language such as "no complete independent sensor chain" is a
-    # limitation, not automatically a request target.
-    source_text = " ".join([
-        str(case.get("sourceQuality", "")),
-        str(case.get("quoteConfidence", "")),
-    ]).lower()
-    acquisition_signals = {
-        "unrecovered record or packet": ("unrecovered", "not publicly recovered", "not recovered"),
-        "incomplete official packet": (
-            "no complete sheriff", "no complete official", "not complete faa",
-            "no official investigative packet", "complete packet unavailable",
-            "complete file unavailable", "sheriff/search packet",
-        ),
-        "missing first-party custody": ("no first-party", "first-party file unavailable", "first-party archive"),
-        "missing authenticated original": ("no authenticated original", "original negative", "original tape custody"),
-        "native agency material unavailable": ("native agency", "native media master", "native operational packet"),
-        "primary pages not fully mapped": ("primary-page", "primary pages not fully mapped", "primary law-enforcement pages"),
-    }
-    acquisition_reasons = [
-        label for label, phrases in acquisition_signals.items()
-        if any(phrase in source_text for phrase in phrases)
-    ]
+    # Active acquisition work is declared structurally. Evidence limitations in
+    # prose are not requests: phrases such as "original negatives are absent"
+    # may be durable boundaries rather than an authorized recovery target.
+    acquisition_reasons = []
     declared_targets = case.get("acquisitionTargets") or []
-    acquisition_reasons.extend(
-        f"declared acquisition target: {target}"
-        for target in declared_targets
-        if isinstance(target, str) and target.strip()
-    )
+    for target in declared_targets:
+        if isinstance(target, str) and target.strip():
+            acquisition_reasons.append(f"declared acquisition target: {target}")
+            continue
+        if not isinstance(target, dict):
+            continue
+        status = str(target.get("status", "")).strip().lower()
+        if status in {"recovered", "recovered-new", "duplicate-existing", "complete", "closed"}:
+            continue
+        label = target.get("targetType") or target.get("target") or target.get("description") or "structured target"
+        acquisition_reasons.append(f"declared acquisition target: {label}")
 
     quality_reasons = []
     profile = weakness_row["sourceProfile"]["label"]
@@ -228,8 +216,13 @@ def source_triage(case, coverage_row, weakness_row):
     orbital_complete = case.get("domain") == "ORBITAL / NASA" and bool(main_records)
     if profile == "secondary-only" and not orbital_complete:
         quality_reasons.append("secondary-only source profile")
-    quote_confidence = str(case.get("quoteConfidence", "")).lower()
-    if not orbital_complete and any(term in quote_confidence for term in ("low", "medium", "summary", "web article", "not verified", "unclear")):
+    quote_confidence = str(case.get("quoteConfidence", "")).strip().lower()
+    # Confidence prose often separates a high-confidence quotation from a
+    # lower-confidence interpretation. Only the declared leading tier is the
+    # quote-quality signal; matching "medium" anywhere in the sentence turns
+    # accurate boundary language into a false-positive upgrade.
+    weak_quote_prefixes = ("low", "medium", "summary", "web article", "not verified", "unclear")
+    if not orbital_complete and quote_confidence.startswith(weak_quote_prefixes):
         quality_reasons.append("quote/source confidence can be upgraded")
     source_quality = str(case.get("sourceQuality", "")).strip().lower()
     if not orbital_complete and source_quality in {"primary record", "primary source —", "primary source -"}:

@@ -467,6 +467,24 @@
       "scope": "contemporaneous-investigator-report-mirror",
       "url": "http://ufoevidence.org/Cases/case127.htm",
       "note": "Public mirror preserving text/drawing context; mirror custody, not original publisher custody."
+    },
+    {
+      "access": "Public direct PDF",
+      "label": "UFO AFRINEWS No. 11 — publisher-site PDF",
+      "publisher": "UFO AFRINEWS / Cynthia Hind",
+      "scope": "near-contemporaneous-investigator-publication",
+      "url": "http://ufoafrinews.com/pdfs/UFO_AFRINEWS11-150.pdf",
+      "locator": "Ariel School Case No. 96, printed pp. 19–21",
+      "note": "Direct publication-layer PDF; not original interview footage, Mack/Hind field archive, official packet, or soil-laboratory custody."
+    },
+    {
+      "access": "Public direct PDF",
+      "label": "UFO AFRINEWS No. 12 — publisher-site PDF",
+      "publisher": "UFO AFRINEWS / Cynthia Hind",
+      "scope": "follow-up-investigator-publication",
+      "url": "https://www.ufoafrinews.com/pdfs/UFO_AFRINEWS12-150.pdf",
+      "locator": "Ariel School report continuation, printed pp. 7–9",
+      "note": "Direct publication-layer PDF; not original interview footage, Mack/Hind field archive, official packet, or soil-laboratory custody."
     }
   ],
   "BF-1994-KZ-01": [
@@ -1508,6 +1526,16 @@
       "access": "Public official release landing page",
       "scope": "official-release-custody",
       "note": "Official custody page for FBI-UAP-D030 and D031. The FD-302 documents interview content and the paired visual is a witness reconstruction; neither constitutes FBI confirmation of the event."
+    }
+  ],
+  "BF-SF-12": [
+    {
+      "label": "TIME — How an Alien Autopsy Hoax Captured the World's Imagination for a Decade",
+      "url": "https://time.com/4376871/alien-autopsy-hoax-history/",
+      "publisher": "TIME",
+      "access": "Public",
+      "scope": "secondary-retrospective",
+      "note": "Secondary context for the 1995 broadcast controversy. It does not supply the exact 2006 Eamonn Investigates recording or transcript, production documentation, or claimed original film master."
     }
   ]
 }

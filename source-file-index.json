@@ -39,7 +39,9 @@
     "assets/sources/ARIEL-1994/afrinews-12-p06.jpg",
     "assets/sources/ARIEL-1994/afrinews-12-p07.jpg",
     "assets/sources/ARIEL-1994/afrinews-selected.provenance.json",
-    "http://ufoevidence.org/Cases/case127.htm"
+    "http://ufoevidence.org/Cases/case127.htm",
+    "http://ufoafrinews.com/pdfs/UFO_AFRINEWS11-150.pdf",
+    "https://www.ufoafrinews.com/pdfs/UFO_AFRINEWS12-150.pdf"
   ],
   "ARNOLD-1947": [
     "assets/evidence/hero-visuals/ARNOLD-1947-Chicago-Sun-June-26-public-domain.jpg",
@@ -806,7 +808,8 @@
   "SANTILLI-1995": [
     "assets/source_previews/BF-SF-12_source_image.jpg",
     "assets/source_previews/BF-SF-12_source_manifest.svg",
-    "source-files/evidence-depth/SANTILLI-1995-evidence-depth.md"
+    "source-files/evidence-depth/SANTILLI-1995-evidence-depth.md",
+    "https://time.com/4376871/alien-autopsy-hoax-history/"
   ],
   "SHAG-HARBOUR-1967": [
     "assets/evidence/SHAG-HARBOUR-1967/Shag_Harbour_Nova_Scotia_map.gif",

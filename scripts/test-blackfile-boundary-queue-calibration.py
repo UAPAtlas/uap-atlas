@@ -92,9 +92,9 @@ require("does not prove", q4["answer"], "Blackfile q4 answer")
 counts = triage["counts"]
 assert counts == {
     "trueGaps": 0,
-    "acquisitionTargets": 18,
-    "qualityUpgrades": 9,
-    "complete": 128,
+    "acquisitionTargets": 22,
+    "qualityUpgrades": 0,
+    "complete": 133,
 }, counts
 
-print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: 3 cases; three provenance targets reclassified")
+print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: exact-20 queue contract 0/0/22/133")
