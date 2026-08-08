@@ -12,7 +12,7 @@
   "seriesChildCount": 16,
   "timelineEventCount": 153,
   "sourceIndexTerms": 265,
-  "sourceIndexFiles": 1191,
+  "sourceIndexFiles": 1202,
   "casesWithMappedLinks": 155,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 155,
@@ -62,7 +62,7 @@
   ],
   "quotesSelected": 155,
   "quotesWithLocators": 155,
-  "sourceRecordCount": 303,
+  "sourceRecordCount": 306,
   "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 104,
   "sourceDepthWeakThreshold": 25,
@@ -749,11 +749,12 @@
       "label": "single-primary-record",
       "primaryRecords": 1,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 3,
+      "independentSourceFamilies": 4,
       "sourceFamilies": [
         "other:local atlas audit derived from the current source inventory",
         "other:public mirror hosted by archives for the unexplained of quest publications item 101; sha-256 c871d8f6eb68496a3fc92a8d1475a681fcabe6c9b67898f5f2ece3f21459a346. it reproduces federal pleadings and declarations but is not court-origin hosting.",
-        "private-archive"
+        "private-archive",
+        "usaf-blue-book"
       ]
     },
     "BF-1980-PE-01": {
@@ -1587,7 +1588,7 @@
       "title": "Special File: Santilli 'Alien Autopsy' Film",
       "score": 43,
       "sourceRecords": 3,
-      "indexedLinks": 3,
+      "indexedLinks": 4,
       "publicSourceUrls": 2,
       "evidenceAssets": 1,
       "sourceQuality": "Secondary public context includes TIME's 2016 retrospective summarizing the 1995 broadcast controversy, the exact 2006 Eamonn Investigates admission source that remains missing, and John Humphreys production claims. The exact broadcast/interview, production documentation, and claimed original film master are not held.",
@@ -1614,7 +1615,7 @@
       "title": "Ariel School Encounter, Ruwa",
       "score": 40,
       "sourceRecords": 3,
-      "indexedLinks": 10,
+      "indexedLinks": 12,
       "publicSourceUrls": 6,
       "evidenceAssets": 9,
       "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 reporting is held locally as derivative scans/renders, and direct public publisher-site PDFs are accessible for both issues. This strengthens the near-contemporaneous publication layer, not original interview footage, field notes, drawings custody, official packets, or soil-lab records.",

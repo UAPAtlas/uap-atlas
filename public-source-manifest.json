@@ -262,6 +262,32 @@
       "url": "https://catalog.archives.gov/id/302532129"
     }
   ],
+  "BF-1965-KB-01": [
+    {
+      "access": "Public",
+      "label": "Kean v. NASA — 2007 federal court opinion",
+      "note": "Primary legal record for the adequacy-of-search dispute; not a finding that an anomalous object was recovered.",
+      "publisher": "CourtListener / U.S. District Court opinion",
+      "scope": "primary-legal-record",
+      "url": "https://www.courtlistener.com/opinion/2487204/kean-v-national-aeronautics-and-space-admin/"
+    },
+    {
+      "access": "Public",
+      "label": "Leslie Kean — conclusion of the NASA Kecksburg lawsuit (2009 public mirror)",
+      "note": "Contemporaneous mirror of the author's post-litigation conclusion report; not NASA-origin custody, a complete production, or proof of recovery.",
+      "publisher": "Leslie Kean; public mirror by The UFO Chronicles",
+      "scope": "first-party-author-conclusion-report-public-mirror",
+      "url": "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html"
+    },
+    {
+      "access": "Public",
+      "label": "NBC News / Space.com — 2009 NASA-search outcome coverage",
+      "note": "Secondary contemporaneous coverage reporting that the court-monitored search concluded in August 2009 without a smoking-gun incident record.",
+      "publisher": "NBC News / Space.com",
+      "scope": "contemporaneous-secondary-context",
+      "url": "https://www.nbcnews.com/id/wbna34135497"
+    }
+  ],
   "BF-1966-WS-01": [
     {
       "access": "Public",
@@ -331,6 +357,30 @@
       "publisher": "Computer UFO Network",
       "scope": "public-document-copy",
       "url": "https://www.cufon.org/cufon/cashlanL.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON — Cash/Landrum claims-for-damages document packet",
+      "note": "Partial public mirror of documents CUFON states were released by the Air Force; not a complete official claims, court, medical, or operations packet.",
+      "publisher": "Computer UFO Network",
+      "scope": "public-claims-record-mirror",
+      "url": "https://www.cufon.org/cufon/cashlanC.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON — Bergstrom AFB interview transcript, part 1",
+      "note": "Transcript attributed to a recording supplied by Betty Cash; not original audio or Air Force-origin transcript custody.",
+      "publisher": "Computer UFO Network",
+      "scope": "public-transcript-mirror",
+      "url": "https://www.cufon.org/cufon/cashlani.htm"
+    },
+    {
+      "access": "Public",
+      "label": "CUFON — Bergstrom AFB interview transcript, part 2",
+      "note": "Continuation of the public transcript mirror; witness claims are not official findings.",
+      "publisher": "Computer UFO Network",
+      "scope": "public-transcript-mirror",
+      "url": "https://www.cufon.org/cufon/cashlani2.htm"
     }
   ],
   "BF-1980-PE-01": [
@@ -533,6 +583,14 @@
       "publisher": "NARCAP",
       "scope": "independent-technical-report",
       "url": "https://www.narcap.org/s/NARCAP_TR-10.pdf"
+    },
+    {
+      "access": "Public",
+      "label": "GovernmentAttic — FAA FY2007 FOIA logs",
+      "note": "Durable public locator for the already-mapped FAA FOIA-log family; not the native O’Hare tower audio, NTAP files, or complete FAA production.",
+      "publisher": "GovernmentAttic mirror of FAA logs",
+      "scope": "public-official-log-mirror",
+      "url": "https://www.governmentattic.org/docs/FOIA_Logs_FAA_FY2007.pdf"
     }
   ],
   "BF-2008-SV-01": [

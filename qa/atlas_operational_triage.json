@@ -30,7 +30,7 @@
       "sourceProfile": "thin-summary",
       "sourceRecords": 3,
       "mainSourceRecords": 3,
-      "indexedLinks": 10,
+      "indexedLinks": 12,
       "publicSourceUrls": 6,
       "evidenceAssets": 9,
       "sourceQuality": "Page-verified Cynthia Hind/UFO AFRINEWS Nos. 11\u201312 reporting is held locally as derivative scans/renders, and direct public publisher-site PDFs are accessible for both issues. This strengthens the near-contemporaneous publication layer, not original interview footage, field notes, drawings custody, official packets, or soil-lab records.",
@@ -52,7 +52,7 @@
       "sourceProfile": "secondary-only",
       "sourceRecords": 3,
       "mainSourceRecords": 2,
-      "indexedLinks": 3,
+      "indexedLinks": 4,
       "publicSourceUrls": 2,
       "evidenceAssets": 1,
       "sourceQuality": "Secondary public context includes TIME's 2016 retrospective summarizing the 1995 broadcast controversy, the exact 2006 Eamonn Investigates admission source that remains missing, and John Humphreys production claims. The exact broadcast/interview, production documentation, and claimed original film master are not held.",
@@ -251,17 +251,17 @@
       "priorityScore": 85,
       "legacyWeaknessScore": 25,
       "reasons": [
-        "declared acquisition target: Underlying NASA, Army, USAF, or recovery/transport records specific to Kecksburg",
-        "declared acquisition target: Complete Kean v. NASA litigation and agency search/destruction record packet"
+        "declared acquisition target: agency-incident-and-recovery-records",
+        "declared acquisition target: foia-litigation-and-search-record"
       ],
       "sourceProfile": "secondary-only",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 3,
-      "publicSourceUrls": 2,
+      "sourceRecords": 4,
+      "mainSourceRecords": 3,
+      "indexedLinks": 6,
+      "publicSourceUrls": 3,
       "evidenceAssets": 1,
-      "sourceQuality": "Verified federal-court record for the NASA FOIA dispute plus public witness/press trail; underlying incident, recovery, and transport packet remains unrecovered.",
-      "quoteConfidence": "Mixed \u2014 federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records."
+      "sourceQuality": "Verified federal-court custody for the NASA FOIA dispute, supplemented by a contemporaneous public mirror of Leslie Kean's 2009 post-litigation conclusion report. The court-monitored search outcome is documented, but the underlying contemporaneous incident, recovery, transport, and complete NASA production remain unrecovered.",
+      "quoteConfidence": "High for the federal-court opinion; medium for the 2009 conclusion report because the accessible copy is a contemporaneous public mirror rather than the defunct original host. Neither layer authenticates the recovery narrative."
     },
     {
       "id": "BF-1996-VG-01",
@@ -291,9 +291,9 @@
       "priorityScore": 85,
       "legacyWeaknessScore": 25,
       "reasons": [
-        "declared acquisition target: Maryland Air National Guard sortie and flare-expenditure records for March 13, 1997",
-        "declared acquisition target: Barry M. Goldwater Range logs and contemporaneous FAA/radar records",
-        "declared acquisition target: Original full-resolution videos with custody and a time-synchronized witness corpus"
+        "declared acquisition target: guard-sortie-and-flare-records",
+        "declared acquisition target: range-faa-and-radar-records",
+        "declared acquisition target: original-video-and-witness-corpus"
       ],
       "sourceProfile": "secondary-only",
       "sourceRecords": 2,
@@ -333,8 +333,8 @@
       "priorityScore": 75,
       "legacyWeaknessScore": 15,
       "reasons": [
-        "declared acquisition target: Original Calvine negatives and remaining reported photographic frames with first-generation custody",
-        "declared acquisition target: Full-resolution MoD photographic-analysis attachments, routing records, and unwatermarked complete record pages if publicly released"
+        "declared acquisition target: original-photographic-material",
+        "declared acquisition target: complete-mod-analysis-record"
       ],
       "sourceProfile": "complete-primary-packet",
       "sourceRecords": 2,
@@ -374,16 +374,16 @@
       "priorityScore": 72,
       "legacyWeaknessScore": 12,
       "reasons": [
-        "declared acquisition target: Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
-        "declared acquisition target: DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
+        "declared acquisition target: court-origin-complete-file",
+        "declared acquisition target: military-and-aviation-operations-records"
       ],
       "sourceProfile": "single-primary-record",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
+      "sourceRecords": 5,
+      "mainSourceRecords": 4,
+      "indexedLinks": 7,
+      "publicSourceUrls": 6,
       "evidenceAssets": 2,
-      "sourceQuality": "Public document trail plus an AFU mirror of the Quest Publications legal-file compilation for Civil Action H-84-348. The packet contains the docket sheet, dismissal order, party briefs, and NASA/USAF/Navy/Army declarations, but it is not a complete court file or authenticated hospital/military operations packet.",
+      "sourceQuality": "Public document trail with three bounded mirror layers: the AFU/Quest partial federal legal-file compilation, CUFON's claims-for-damages packet, and CUFON's two-part transcript attributed to the August 17, 1981 Bergstrom AFB interview. These improve public legal/administrative record depth but are not a complete court-origin docket, authenticated hospital packet, native interview audio, or military-operations file.",
       "quoteConfidence": "High confidence from the legible filed-order scan; the held copy is a public archival mirror, not a court-origin electronic docket export."
     },
     {
@@ -394,14 +394,14 @@
       "priorityScore": 72,
       "legacyWeaknessScore": 12,
       "reasons": [
-        "declared acquisition target: Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
-        "declared acquisition target: Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
+        "declared acquisition target: native-faa-foia-production",
+        "declared acquisition target: complete-aviation-reconstruction"
       ],
       "sourceProfile": "single-primary-record",
       "sourceRecords": 1,
       "mainSourceRecords": 1,
-      "indexedLinks": 6,
-      "publicSourceUrls": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 2,
       "evidenceAssets": 3,
       "sourceQuality": "NARCAP aviation-safety technical report incorporating FAA tower-transcript material, FOIA correspondence, certified facility records, and published analysis of 13 FAA NTAP radar data files. Strong public technical custody, but not the complete native FAA/United Airlines production.",
       "quoteConfidence": "High for NARCAP/FAA transcript excerpts; medium for broader witness synthesis where original witness identities/files are not all public."

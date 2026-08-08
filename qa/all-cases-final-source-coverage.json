@@ -451,13 +451,13 @@
     "tokens": [
       "KECKSBURG-1965"
     ],
-    "indexedLinks": 3,
-    "structuredSourceRecords": 3,
-    "publicSourceUrls": 2,
+    "indexedLinks": 6,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 3,
     "evidenceAssets": 1,
-    "links": 5,
+    "links": 7,
     "local": 3,
-    "urls": 2,
+    "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1134,13 +1134,13 @@
     "tokens": [
       "CASH-LANDRUM-1980"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 3,
-    "publicSourceUrls": 3,
+    "indexedLinks": 7,
+    "structuredSourceRecords": 5,
+    "publicSourceUrls": 6,
     "evidenceAssets": 2,
-    "links": 7,
+    "links": 10,
     "local": 4,
-    "urls": 3,
+    "urls": 6,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1317,7 +1317,7 @@
       "ARIEL-1994 \u00b7 interview footage corpus / follow-up study trail",
       "ARIEL-1994 \u00b7 UFO AFRINEWS No. 11\u201312 selected-page derivative scans"
     ],
-    "indexedLinks": 10,
+    "indexedLinks": 12,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 6,
     "evidenceAssets": 9,
@@ -1333,7 +1333,7 @@
     "tokens": [
       "SANTILLI-1995"
     ],
-    "indexedLinks": 3,
+    "indexedLinks": 4,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 2,
     "evidenceAssets": 1,
@@ -1478,13 +1478,13 @@
     "tokens": [
       "OHARE-2006"
     ],
-    "indexedLinks": 6,
+    "indexedLinks": 8,
     "structuredSourceRecords": 1,
-    "publicSourceUrls": 1,
+    "publicSourceUrls": 2,
     "evidenceAssets": 3,
-    "links": 9,
+    "links": 10,
     "local": 8,
-    "urls": 1,
+    "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
   },

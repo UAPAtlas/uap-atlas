@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 936,
+    "indexedPaths": 944,
     "publicLocal": 368,
-    "externalPublic": 430,
+    "externalPublic": 438,
     "custodyOnly": 138,
     "unavailable": 0
   },
@@ -4086,6 +4086,26 @@
       "label": "External public source",
       "host": "www.congress.gov"
     },
+    "https://www.courtlistener.com/opinion/2487204/kean-v-national-aeronautics-and-space-admin/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.courtlistener.com"
+    },
+    "https://www.cufon.org/cufon/cashlanC.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.cufon.org"
+    },
+    "https://www.cufon.org/cufon/cashlani.htm": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.cufon.org"
+    },
+    "https://www.cufon.org/cufon/cashlani2.htm": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.cufon.org"
+    },
     "https://www.defense.gov/News/News-Stories/Article/Article/4170133/dod-better-now-at-defending-domestically-against-unmanned-systems": {
       "status": "external-public",
       "label": "External public source",
@@ -4191,6 +4211,11 @@
       "label": "External public source",
       "host": "www.fold3.com"
     },
+    "https://www.governmentattic.org/docs/FOIA_Logs_FAA_FY2007.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.governmentattic.org"
+    },
     "https://www.gutenberg.org/ebooks/17346": {
       "status": "external-public",
       "label": "External public source",
@@ -4205,6 +4230,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.huffpost.com"
+    },
+    "https://www.narcap.org/s/NARCAP_TR-10.pdf": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.narcap.org"
     },
     "https://www.nasa.gov/history/gemini": {
       "status": "external-public",
@@ -4226,6 +4256,11 @@
       "label": "External public source",
       "host": "www.nationalarchives.gov.uk"
     },
+    "https://www.nbcnews.com/id/wbna34135497": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.nbcnews.com"
+    },
     "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/": {
       "status": "external-public",
       "label": "External public source",
@@ -4245,6 +4280,11 @@
       "status": "external-public",
       "label": "External public source",
       "host": "www.openminds.tv"
+    },
+    "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.theufochronicles.com"
     },
     "https://www.ufoafrinews.com/pdfs/UFO_AFRINEWS12-150.pdf": {
       "status": "external-public",

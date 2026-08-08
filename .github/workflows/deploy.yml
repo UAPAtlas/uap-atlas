@@ -42,6 +42,7 @@ jobs:
           python3 scripts/test-2026-08-release05-closure-sprint.py
           python3 scripts/test-2026-08-release05-testimony-tranche.py
           python3 scripts/test-2026-08-exact20-quality-acquisition.py
+          python3 scripts/test-2026-08-exact20-acquisition-audit.py
           python3 scripts/test-atlas-product-integrity.py
           node scripts/test-atlas-single-entry.mjs
           node scripts/test-atlas-navigation-contract.mjs index.html index.html

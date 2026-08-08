@@ -432,20 +432,26 @@
           "targetType": "original-rs33-documents",
           "description": "Original RS/33 documents with verifiable Italian state-archive accession, provenance, and physical custody",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No first-party Italian state-archive file or accession was recovered"
+          "publicOnlyResult": "No first-party Italian state-archive file or accession was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "contemporaneous-state-records",
           "description": "Contemporaneous Italian government, military, intelligence, police, or recovery records specific to the alleged 1933 craft event",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Mapped contemporaneous clipping is a lightning report, not a recovery record"
+          "publicOnlyResult": "Mapped contemporaneous clipping is a lightning report, not a recovery record",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "press-boundary-record",
           "description": "Domenica del Corriere, 9 July 1933, p. 16 lightning caption",
           "status": "duplicate-existing",
           "publicOnlyResult": "Already mapped; constrains rather than corroborates the claim",
-          "locator": "https://archive.org/details/ufo-crash-at-vergiate"
+          "locator": "https://archive.org/details/ufo-crash-at-vergiate",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -659,19 +665,25 @@
           "description": "AFHRA IRIS 60059 / call SQ-FI-415-HI / reel 0000000848 / frames 1519–1631",
           "status": "locator-only",
           "publicOnlyResult": "Exact archive locator recovered; scans are not held",
-          "reasonNeeded": "Needed to verify the 415th Night Fighter Squadron diary quotation."
+          "reasonNeeded": "Needed to verify the 415th Night Fighter Squadron diary quotation.",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "afhra-operations-microfilm",
           "description": "AFHRA IRIS 60074 / call SQ-FI-415-SU-OP-S / reel 848 / frames 1763–1867",
           "status": "locator-only",
-          "publicOnlyResult": "Exact archive locator recovered; scans are not held"
+          "publicOnlyResult": "Exact archive locator recovered; scans are not held",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "afhra-wwii-notes-microfilm",
           "description": "AFHRA IRIS 1026183 / call SQ-FI-415-SU-PE / reel 33170 / frame 886 onward",
           "status": "locator-only",
-          "publicOnlyResult": "Exact archive locator recovered; scans are not held"
+          "publicOnlyResult": "Exact archive locator recovered; scans are not held",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -5564,9 +5576,9 @@
     {
       "keyQuote": "Witnesses reported a fiery object that crashed near Kecksburg, Pennsylvania; the military responded and reportedly removed a large object, though officials denied any recovery.",
       "quoteSource": "The Black Vault Case Files: Kecksburg UFO Incident (summary)",
-      "quoteConfidence": "Mixed — federal-court/NASA FOIA litigation language is primary-record verified; the underlying recovery narrative remains secondary/witness-context pending primary incident records.",
+      "quoteConfidence": "High for the federal-court opinion; medium for the 2009 conclusion report because the accessible copy is a contemporaneous public mirror rather than the defunct original host. Neither layer authenticates the recovery narrative.",
       "significance": "Case significance",
-      "sourceQuality": "Verified federal-court record for the NASA FOIA dispute plus public witness/press trail; underlying incident, recovery, and transport packet remains unrecovered.",
+      "sourceQuality": "Verified federal-court custody for the NASA FOIA dispute, supplemented by a contemporaneous public mirror of Leslie Kean's 2009 post-litigation conclusion report. The court-monitored search outcome is documented, but the underlying contemporaneous incident, recovery, transport, and complete NASA production remain unrecovered.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1965-KB-01",
@@ -5603,7 +5615,7 @@
       "summary": "A brilliant fireball crossed six states before something came down in woods near Kecksburg. Residents described an acorn-shaped object with strange markings and a military cordon; the military reported nothing found. A 2007 FOIA lawsuit forced NASA to search records it then said were lost.",
       "keyFact": "NASA stated in 2005 that examined fragments were from a Soviet satellite, then told a federal court the relevant records had been lost — the record gap is itself on the record.",
       "official": "Contemporary astronomers attributed the fireball to a meteor; the Army stated its search found nothing.",
-      "gap": "Still needed: original Army/local-response logs, NASA technical records tied to the event, and any recovery/transport chain. The 2007 court opinion confirms a records-search dispute but does not validate the recovery narrative.",
+      "gap": "The 2009 conclusion layer closes the basic litigation-outcome gap but not the evidence gap: original Army/local-response logs, NASA technical records tied to the event, complete disclosure/loss records, and any recovery or transport chain remain publicly unrecovered.",
       "whyItMatters": "It is the canonical domestic 'crash retrieval' narrative where the official paper trail visibly fails — a provenance hole a federal judge acknowledged.",
       "sources": [
         "KECKSBURG-1965 · press/witness record / NASA FOIA litigation trail"
@@ -5703,6 +5715,23 @@
             "It does not supply Army recovery logs or a physical chain of custody",
             "Later search results must be evaluated separately"
           ]
+        },
+        {
+          "citation": "Leslie Kean, 'The Conclusion of the NASA Lawsuit: Concerning the Kecksburg, PA UFO case of 1965' (November 2009 public mirror)",
+          "sourceType": "first-party-author-conclusion-report-public-mirror",
+          "provenance": "Contemporaneous public mirror of Leslie Kean's post-litigation conclusion report; not NASA-origin hosting or a complete court/NASA production",
+          "locator": "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html",
+          "supports": [
+            "Records the author's account that the court-monitored post-settlement NASA search concluded in August 2009",
+            "Provides a public conclusion layer for the FOIA litigation and search outcome",
+            "Documents that the reported search did not produce a smoking-gun incident or recovery record"
+          ],
+          "limitations": [
+            "Public mirror rather than the defunct original Coalition for Freedom of Information host",
+            "Author report rather than NASA-origin production or a complete court docket",
+            "Does not authenticate an anomalous object, recovery, transport, or non-human origin"
+          ],
+          "sourceUrl": "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html"
         }
       ],
       "phenomena": {
@@ -5765,14 +5794,37 @@
           "access": "Public",
           "scope": "primary-legal-record",
           "note": "Documents the Kecksburg FOIA litigation and adequacy-of-search dispute; does not prove a recovery."
+        },
+        {
+          "label": "Leslie Kean — conclusion of the NASA Kecksburg lawsuit (2009 public mirror)",
+          "url": "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html",
+          "publisher": "Leslie Kean; public mirror by The UFO Chronicles",
+          "access": "Public",
+          "scope": "first-party-author-conclusion-report-public-mirror",
+          "note": "Preserves the author's post-litigation conclusion report; not NASA-origin custody, a complete litigation file, or proof of recovery."
         }
       ],
       "images": [
         "assets/source_previews/BF-1965-KB-01_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Underlying NASA, Army, USAF, or recovery/transport records specific to Kecksburg",
-        "Complete Kean v. NASA litigation and agency search/destruction record packet"
+        {
+          "targetType": "agency-incident-and-recovery-records",
+          "description": "Underlying NASA, Army, USAF, local-response, recovery, or transport records specific to Kecksburg",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No contemporaneous agency incident/recovery/transport packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        },
+        {
+          "targetType": "foia-litigation-and-search-record",
+          "description": "Complete Kean v. NASA litigation, post-settlement search, disclosure, and loss/destruction record packet",
+          "status": "partially-recovered",
+          "publicOnlyResult": "Federal court opinion and a contemporaneous mirror of Leslie Kean's 2009 conclusion report are public; the complete NASA production and court docket are not mapped",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "locator": "https://www.theufochronicles.com/2009/11/conclusion-of-nasa-lawsuit-concerning_10.html"
+        }
       ]
     },
     {
@@ -6901,13 +6953,17 @@
           "targetType": "official-case-packet",
           "description": "RAAF, Department of Civil Aviation, NAA, police, school-administration, or related records specific to Westall, April 1966",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete official incident packet was recovered"
+          "publicOnlyResult": "No complete official incident packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "first-generation-witness-material",
           "description": "Original statements, drawings, photographs, film, investigator files, or school-origin materials",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete first-generation corpus was recovered"
+          "publicOnlyResult": "No complete first-generation corpus was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -10909,25 +10965,33 @@
           "targetType": "law-enforcement-case-packet",
           "description": "Authenticated complete Jackson County sheriff case/interview packet",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete packet recovered"
+          "publicOnlyResult": "No complete packet recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "original-audio",
           "description": "Original or earliest-generation sheriff-room recording with custody history",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No original/earliest-generation audio custody recovered"
+          "publicOnlyResult": "No original/earliest-generation audio custody recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "complete-transcript",
           "description": "Complete transcript with issuer, date, page/timecode locators, and relation to original audio",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No custody-complete transcript recovered"
+          "publicOnlyResult": "No custody-complete transcript recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "contemporaneous-authority-or-press-records",
           "description": "Earliest complete authority report, interview logs, follow-up notes, or contemporaneous local press packet",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete earliest packet recovered"
+          "publicOnlyResult": "No complete earliest packet recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -11770,20 +11834,26 @@
           "targetType": "law-enforcement-packet",
           "description": "Complete Navajo County Sheriff missing-person, dispatch, search, interview, and incident records",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete law-enforcement packet was recovered"
+          "publicOnlyResult": "No complete law-enforcement packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "polygraph-custody",
           "description": "Original polygraph charts, examiner worksheets/reports, and authenticated testing custody",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Complete original polygraph custody was not recovered"
+          "publicOnlyResult": "Complete original polygraph custody was not recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "contemporaneous-press",
           "description": "Arizona Daily Sun clipping concerning Travis Walton, November 8, 1975",
           "status": "locator-only",
           "publicOnlyResult": "Locator identified; text not publicly recovered due access barrier",
-          "locator": "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/"
+          "locator": "https://www.newspapers.com/article/arizona-daily-sun-travis-walton-nov-8-19/82602751/",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -11956,19 +12026,25 @@
           "description": "Documented neutral custody for original Meier negatives, films, recordings, and alleged metal samples",
           "status": "publicly-unavailable",
           "publicOnlyResult": "No neutral original-media or sample custody was recovered",
-          "reasonNeeded": "Required before any authentication-related upgrade."
+          "reasonNeeded": "Required before any authentication-related upgrade.",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "first-party-corpus-index",
           "description": "Stable first-party FIGU corpus index with exact image/date provenance",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No stable first-party provenance index is currently mapped"
+          "publicOnlyResult": "No stable first-party provenance index is currently mapped",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "independent-technical-analysis",
           "description": "Independent technical analyses with media/sample chain-of-custody documentation",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No neutral custody-complete technical packet was recovered"
+          "publicOnlyResult": "No neutral custody-complete technical packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -12478,19 +12554,25 @@
           "targetType": "first-generation-film",
           "description": "First-generation TV1/Fogarty film and Crockett film copy",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Public frame/media trail exists; native film material was not recovered"
+          "publicOnlyResult": "Public frame/media trail exists; native film material was not recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "radar-and-analysis-records",
           "description": "Native Wellington ATC/radar logs, timing records, and DSIR/RNZAF analytical workpapers",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No native radar/timing/workpaper packet was recovered"
+          "publicOnlyResult": "No native radar/timing/workpaper packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "final-official-disposition",
           "description": "Final RNZAF/DSIR disposition or closure record",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Current recovered official page is interim/provisional"
+          "publicOnlyResult": "Current recovered official page is interim/provisional",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -12718,19 +12800,25 @@
           "targetType": "official-investigation-packet",
           "description": "Complete NAA/Department of Transport packet B1497 V116/783/1047 / Barcode 10491375",
           "status": "locator-only",
-          "publicOnlyResult": "Exact catalog locator verified; packet not inspected"
+          "publicOnlyResult": "Exact catalog locator verified; packet not inspected",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "official-transcript-or-audio",
           "description": "Direct official final-communications transcript and original/earliest-generation ATC audio",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Only a public transcript mirror was inspected"
+          "publicOnlyResult": "Only a public transcript mirror was inspected",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "search-and-sensor-records",
           "description": "Complete official search documentation, radar records, air-traffic records, and sensor/communications logs",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete records recovered"
+          "publicOnlyResult": "No complete records recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -12739,7 +12827,7 @@
       "quoteSource": "Order of Dismissal, Cash et al. v. United States, Civil Action No. H-84-348, filed 21 August 1986; reproduced in the AFU/Quest public legal-file mirror",
       "quoteConfidence": "High confidence from the legible filed-order scan; the held copy is a public archival mirror, not a court-origin electronic docket export.",
       "significance": "High significance",
-      "sourceQuality": "Public document trail plus an AFU mirror of the Quest Publications legal-file compilation for Civil Action H-84-348. The packet contains the docket sheet, dismissal order, party briefs, and NASA/USAF/Navy/Army declarations, but it is not a complete court file or authenticated hospital/military operations packet.",
+      "sourceQuality": "Public document trail with three bounded mirror layers: the AFU/Quest partial federal legal-file compilation, CUFON's claims-for-damages packet, and CUFON's two-part transcript attributed to the August 17, 1981 Bergstrom AFB interview. These improve public legal/administrative record depth but are not a complete court-origin docket, authenticated hospital packet, native interview audio, or military-operations file.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1980-CLD-01",
@@ -12867,6 +12955,39 @@
             "Pleadings and declarations contain party positions and agency assertions; they are not judicial findings of fact about the event, medical causation, or object identity",
             "Does not recover CH-47 unit logs, Fort Hood/III Corps records, or FAA/radar/airspace records"
           ]
+        },
+        {
+          "citation": "CUFON — Cash/Landrum claims-for-damages document packet (public PDF mirror)",
+          "sourceType": "public-mirror-partial-usaf-claims-records",
+          "provenance": "CUFON PDF created in 2002 from documents it states were released by the U.S. Air Force in July 1993; public mirror, not Air Force-origin hosting or a complete claims/court file",
+          "locator": "https://www.cufon.org/cufon/cashlanC.pdf",
+          "supports": [
+            "Preserves documents associated with claims filed through the Bergstrom AFB Staff Judge Advocate trail",
+            "Provides an additional public record-copy layer distinct from the later federal litigation compilation"
+          ],
+          "limitations": [
+            "Third-party public mirror with CUFON-supplied compilation context",
+            "Not a complete Air Force claims file, court docket, hospital packet, or military-operations record",
+            "Does not establish medical causation, object identity, or military responsibility"
+          ],
+          "sourceUrl": "https://www.cufon.org/cufon/cashlanC.pdf"
+        },
+        {
+          "citation": "CUFON — transcript of Bergstrom AFB interview of Betty Cash, Vickie Landrum, and Colby Landrum, 17 August 1981, parts 1–2",
+          "sourceType": "public-transcript-mirror-of-reported-recording",
+          "provenance": "CUFON transcription of a recording it states was provided by Betty Cash; public transcript mirror, not original audio or Air Force-origin transcript custody",
+          "locator": "https://www.cufon.org/cufon/cashlani.htm",
+          "supports": [
+            "Preserves a detailed transcript attributed to the August 17, 1981 Bergstrom AFB Law Library interview",
+            "Names the reported participants and records the witnesses' claims in an early post-event administrative setting"
+          ],
+          "limitations": [
+            "Original or earliest-generation audio is not mapped",
+            "CUFON states that the beginning of the recording is absent and makes no broader guarantee of transcript accuracy",
+            "Witness statements and interviewer questions are not findings of medical causation, object identity, or military responsibility"
+          ],
+          "sourceUrl": "https://www.cufon.org/cufon/cashlani.htm",
+          "continuationUrl": "https://www.cufon.org/cufon/cashlani2.htm"
         }
       ],
       "phenomena": {
@@ -12929,11 +13050,49 @@
           "publisher": "Archives for the Unexplained / Quest Publications",
           "scope": "public-legal-file-mirror",
           "url": "https://files.afu.se/Downloads/Books/Other/Quest_Publications/Quest_Publications_101-Cash_Landrum_File-Civil_Action.pdf"
+        },
+        {
+          "access": "Public",
+          "label": "CUFON — Cash/Landrum claims-for-damages document packet",
+          "publisher": "Computer UFO Network",
+          "scope": "public-claims-record-mirror",
+          "url": "https://www.cufon.org/cufon/cashlanC.pdf",
+          "note": "Partial public mirror of documents CUFON states were released by the Air Force; not a complete official claims, court, medical, or operations packet."
+        },
+        {
+          "access": "Public",
+          "label": "CUFON — Bergstrom AFB interview transcript, part 1",
+          "publisher": "Computer UFO Network",
+          "scope": "public-transcript-mirror",
+          "url": "https://www.cufon.org/cufon/cashlani.htm",
+          "note": "Transcript attributed to a recording supplied by Betty Cash; not original audio or Air Force-origin transcript custody."
+        },
+        {
+          "access": "Public",
+          "label": "CUFON — Bergstrom AFB interview transcript, part 2",
+          "publisher": "Computer UFO Network",
+          "scope": "public-transcript-mirror",
+          "url": "https://www.cufon.org/cufon/cashlani2.htm",
+          "note": "Continuation of the public transcript mirror; witness claims are not official findings."
         }
       ],
       "acquisitionTargets": [
-        "Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
-        "DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation"
+        {
+          "targetType": "court-origin-complete-file",
+          "description": "Complete federal court file and authenticated medical/legal exhibits for Cash v. United States",
+          "status": "partially-recovered",
+          "publicOnlyResult": "The AFU/Quest mirror preserves a partial legal-file compilation and dismissal order; no complete court-origin docket or authenticated medical exhibits were recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        },
+        {
+          "targetType": "military-and-aviation-operations-records",
+          "description": "DoD, JAG, Army, Fort Hood, FAA, and unit flight-log records capable of testing the alleged CH-47 operation",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No event-specific official flight, unit, radar, or operations packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        }
       ]
     },
     {
@@ -14224,14 +14383,18 @@
           "targetType": "original-photographic-material",
           "description": "Authenticated Walters original Polaroids, negatives if any, first-generation prints, and complete camera/processing custody for the 1987–1988 series",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No authenticated original or first-generation custody packet was recovered"
+          "publicOnlyResult": "No authenticated original or first-generation custody packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "institutional-folder-contents",
           "description": "Public digital objects or item-level inventory from Rice MS 0706, Series VIII, Box 11, Folder 12",
           "status": "locator-only",
           "publicOnlyResult": "Finding aid is public; folder contents are not displayed",
-          "locator": "https://archives.library.rice.edu/repositories/2/archival_objects/330044"
+          "locator": "https://archives.library.rice.edu/repositories/2/archival_objects/330044",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -14880,8 +15043,23 @@
         }
       ],
       "acquisitionTargets": [
-        "Original Calvine negatives and remaining reported photographic frames with first-generation custody",
-        "Full-resolution MoD photographic-analysis attachments, routing records, and unwatermarked complete record pages if publicly released"
+        {
+          "targetType": "original-photographic-material",
+          "description": "Original Calvine negatives and remaining reported photographic frames with first-generation custody",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "The surviving public print and official handling record are mapped; original negatives and remaining frames were not recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        },
+        {
+          "targetType": "complete-mod-analysis-record",
+          "description": "Full-resolution MoD photographic-analysis attachments, routing records, and unwatermarked complete record pages",
+          "status": "partially-recovered",
+          "publicOnlyResult": "TNA public-viewer pages 112-114 and the Sheffield Hallam analysis are mapped; full-resolution attachments and unwatermarked complete pages remain unavailable",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "locator": "https://discovery.nationalarchives.gov.uk/details/r/C10130124"
+        }
       ]
     },
     {
@@ -15128,25 +15306,33 @@
           "targetType": "original-field-archive",
           "description": "Complete unedited 1994 interview footage/audio/transcripts, witness drawings, and Mack/Hind field notes",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Direct AFRINEWS PDFs were recovered; original field materials were not"
+          "publicOnlyResult": "Direct AFRINEWS PDFs were recovered; original field materials were not",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "publisher-custody",
           "description": "First-party UFO AFRINEWS publisher custody or production files for Nos. 11–12",
           "status": "partially-recovered",
-          "publicOnlyResult": "Direct public PDFs are accessible; original publisher archive remains unverified"
+          "publicOnlyResult": "Direct public PDFs are accessible; original publisher archive remains unverified",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "official-investigation",
           "description": "Official Zimbabwean government, Ariel School, or police investigative packet",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No official packet was recovered"
+          "publicOnlyResult": "No official packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "soil-sampling-records",
           "description": "Raw laboratory data, sampling notes, and custody records for reported soil follow-up",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "AFRINEWS reports follow-up but supplies no raw lab/custody records"
+          "publicOnlyResult": "AFRINEWS reports follow-up but supplies no raw lab/custody records",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -15337,32 +15523,42 @@
           "targetType": "exact-2006-interview",
           "description": "Exact Eamonn Investigates recording or transcript containing Santilli's characterization",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "Secondary summaries and metadata found; exact recording/transcript not recovered"
+          "publicOnlyResult": "Secondary summaries and metadata found; exact recording/transcript not recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "broadcast-distribution-record",
           "description": "First-generation 1995 broadcast/distribution record and production documentation",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No first-generation broadcast master or production packet recovered"
+          "publicOnlyResult": "No first-generation broadcast master or production packet recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "claimed-original-film-material",
           "description": "Claimed original film master, camera negative, frames, or physical material with reviewable custody",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No claimed original material with reviewable custody recovered"
+          "publicOnlyResult": "No claimed original material with reviewable custody recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "humphreys-admission-record",
           "description": "Exact John Humphreys interview/admission recording or transcript and production documentation",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "TIME secondary summary recovered; exact source not recovered"
+          "publicOnlyResult": "TIME secondary summary recovered; exact source not recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "secondary-public-context",
           "description": "TIME 2016 retrospective",
           "status": "recovered-new",
           "publicOnlyResult": "Accessible secondary source recovered; attribution boundary required",
-          "locator": "https://time.com/4376871/alien-autopsy-hoax-history/"
+          "locator": "https://time.com/4376871/alien-autopsy-hoax-history/",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -15610,20 +15806,26 @@
           "targetType": "official-incident-records",
           "description": "Brazilian military, police, fire-service, and hospital records specific to the January 1996 allegations",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No official incident packet was recovered; SIAN recovery is press only"
+          "publicOnlyResult": "No official incident packet was recovered; SIAN recovery is press only",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "medical-physical-custody",
           "description": "Authenticated capture, transport, medical, pathology, or physical-custody records",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No such custody record was recovered"
+          "publicOnlyResult": "No such custody record was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "contemporaneous-press-archive",
           "description": "IstoÉ, 22 May 1996, pp. 29–32, SIAN BR_DFANBSB_ARX_0_0_0443",
           "status": "duplicate-existing",
           "publicOnlyResult": "Already mapped and publicly accessible; supports press/reporting layer only",
-          "locator": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf"
+          "locator": "https://imagem.sian.an.gov.br/acervo/derivadas/BR_DFANBSB_ARX/0/0/0443/BR_DFANBSB_ARX_0_0_0443_d0001de0001.pdf",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -16314,9 +16516,30 @@
         "assets/source_previews/BF-1997-PH-01_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Maryland Air National Guard sortie and flare-expenditure records for March 13, 1997",
-        "Barry M. Goldwater Range logs and contemporaneous FAA/radar records",
-        "Original full-resolution videos with custody and a time-synchronized witness corpus"
+        {
+          "targetType": "guard-sortie-and-flare-records",
+          "description": "Maryland Air National Guard sortie and flare-expenditure records for March 13, 1997",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Official-site and public-web searches did not recover sortie, range, or flare-expenditure records",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        },
+        {
+          "targetType": "range-faa-and-radar-records",
+          "description": "Barry M. Goldwater Range logs and contemporaneous FAA/radar records",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No event-specific official range, FAA, or radar packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        },
+        {
+          "targetType": "original-video-and-witness-corpus",
+          "description": "Original full-resolution videos with custody and a time-synchronized witness corpus",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Public witness and media layers remain available, but no custody-complete synchronized corpus was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        }
       ]
     },
     {
@@ -16527,13 +16750,17 @@
           "targetType": "original-or-production-master",
           "description": "Original alleged Victor tape or Rocket Pictures production master with authenticated duplication/transfer custody",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No original or production master recovered"
+          "publicOnlyResult": "No original or production master recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "identity-and-access-records",
           "description": "Verifiable Victor identity/access evidence and production/forensic records",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No verified identity/access packet recovered"
+          "publicOnlyResult": "No verified identity/access packet recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -17061,6 +17288,14 @@
           "publisher": "NARCAP",
           "scope": "independent-technical-report",
           "url": "https://www.narcap.org/s/NARCAP_TR-10.pdf"
+        },
+        {
+          "access": "Public",
+          "label": "GovernmentAttic — FAA FY2007 FOIA logs",
+          "publisher": "GovernmentAttic mirror of FAA logs",
+          "scope": "public-official-log-mirror",
+          "url": "https://www.governmentattic.org/docs/FOIA_Logs_FAA_FY2007.pdf",
+          "note": "Durable public locator for the already-mapped FAA FOIA-log family; not the native O'Hare tower audio, NTAP files, or complete FAA production."
         }
       ],
       "images": [
@@ -17069,8 +17304,23 @@
         "assets/source_previews/BF-2006-OH-01_source_image.jpg"
       ],
       "acquisitionTargets": [
-        "Complete FAA investigative and FOIA-production custody, including native tower recordings and employee statements",
-        "Radar, weather, operations, and United Airlines records sufficient for a full aviation-event reconstruction"
+        {
+          "targetType": "native-faa-foia-production",
+          "description": "Complete FAA investigative and FOIA-production custody, including native tower recordings, NTAP radar files, and employee statements",
+          "status": "partially-recovered",
+          "publicOnlyResult": "NARCAP TR-10 reproduces FAA facility records, transcripts, FOIA correspondence, and analyses of 13 NTAP files; the native audio/data production is not mapped",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "locator": "https://www.narcap.org/s/NARCAP_TR-10.pdf"
+        },
+        {
+          "targetType": "complete-aviation-reconstruction",
+          "description": "Native weather, airport-operations, United Airlines, and time-synchronized witness records sufficient for a full aviation-event reconstruction",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No complete native United/airport operations and witness-custody packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
+        }
       ]
     },
     {
@@ -17961,13 +18211,17 @@
           "targetType": "native-sensor-media",
           "description": "Native 2014 Chilean Navy WESCAM/FLIR master with telemetry, file metadata, and custody record",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No native sensor master/metadata packet recovered"
+          "publicOnlyResult": "No native sensor master/metadata packet recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "agency-case-file",
           "description": "Complete CEFAA/SEFAA analyst file, flight-track workpapers, aircraft data, meteorology, and disposition",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete agency analytical file recovered"
+          "publicOnlyResult": "No complete agency analytical file recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
@@ -19305,13 +19559,17 @@
           "targetType": "complete-official-release",
           "description": "Complete public DOW-UAP-D44/D56 record packet with release metadata",
           "status": "partially-recovered",
-          "publicOnlyResult": "D44/D56 page-image custody is held; complete release packet and text layer remain incomplete"
+          "publicOnlyResult": "D44/D56 page-image custody is held; complete release packet and text layer remain incomplete",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         },
         {
           "targetType": "native-sensor-packet",
           "description": "Native sensor media, platform metadata, radar data, and analytical workpapers",
           "status": "publicly-unavailable",
-          "publicOnlyResult": "No native sensor/metadata/analysis packet was recovered"
+          "publicOnlyResult": "No native sensor/metadata/analysis packet was recovered",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only"
         }
       ]
     },
