@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 944,
+    "indexedPaths": 945,
     "publicLocal": 368,
-    "externalPublic": 438,
+    "externalPublic": 439,
     "custodyOnly": 138,
     "unavailable": 0
   },
@@ -3499,6 +3499,12 @@
     "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D023-pdf-page-002.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png"
     },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png": {
       "status": "external-public",

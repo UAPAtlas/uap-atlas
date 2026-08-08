@@ -3326,7 +3326,7 @@
         "BF-1950-GF-01"
       ],
       "heroFact": "The Navy's own photographic laboratory and the CIA's panel reached opposite conclusions about the same frames — the clearest documented analyst split of the era.",
-      "image": "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
+      "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png",
       "caseTypes": [
         "institutional-record"
       ],
@@ -3450,14 +3450,13 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
+        "src": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png",
         "mediaType": "image",
-        "visualType": "historical-film-frame-reproduction",
-        "caption": "Film-frame reproduction embedded in the Project Blue Book/Newhouse case sheet.",
-        "provenance": "Project Blue Book case-sheet reproduction",
-        "evidenceStatus": "Source-derived reproduction, not an original film scan; alleged objects remain unresolved in this record.",
-        "isEventEvidence": true,
-        "mediaUrl": "assets/evidence/TREMONTON-1952/TREMONTON-1952-BlueBook-file-1377-1415.pdf"
+        "visualType": "official-document-routing-sheet",
+        "caption": "Bureau of Aeronautics routing sheet for the 1953 Navy film-analysis report covering the Tremonton and Great Falls films.",
+        "provenance": "U.S. Navy / Naval Photographic Interpretation Center, DOW-UAP-D098, PDF p. 1",
+        "evidenceStatus": "Official administrative routing sheet for the analysis; documentary evidence of the report, not an image of the reported objects.",
+        "isEventEvidence": false
       },
       "publicSources": [
         {
@@ -3477,7 +3476,15 @@
         }
       ],
       "images": [
-        "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png",
+        {
+          "src": "assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg",
+          "rank": 5,
+          "caption": "Film-frame reproduction embedded in the Project Blue Book/Newhouse case sheet.",
+          "visualType": "historical-film-frame-reproduction",
+          "provenance": "Project Blue Book case-sheet reproduction",
+          "evidenceStatus": "Source-derived reproduction, not an original film scan; alleged objects remain unresolved in this record."
+        },
         "assets/source_previews/BF-1952-TM-01_source_image.jpg",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"

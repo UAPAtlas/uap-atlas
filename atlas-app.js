@@ -449,8 +449,15 @@ function evidenceTypeLabel(item){
 }
 function heroActionLabel(h){const u=String(h.mediaUrl||h.sourceUrl||h.src||''); if(/\.(mp4|mov|webm)($|\?)/i.test(u)||/(?:youtube\.com|youtu\.be|dvidshub\.net\/video)/i.test(u)) return 'Watch footage'; if(/\.pdf($|\?)/i.test(u)) return 'Open source file'; if(h.sourceUrl) return 'View source'; return 'Open image';}
 function evidenceItems(c){
-  const items=[]; const seen=new Set();
-  const add=(src,label,kind='image',href=null,rank=50,meta={})=>{if(!src||seen.has(src)) return; seen.add(src); const derived=kind==='image'?imageDerivative(src):null; items.push({src:derived?.display?.path||src,thumbSrc:derived?.thumb?.path||derived?.display?.path||src,originalSrc:src,label:label||fileName(src),kind,href:derived?.originalUrl||href||src,rank,...meta});};
+  const items=[]; const bySrc=new Map();
+  const add=(src,label,kind='image',href=null,rank=50,meta={})=>{
+    if(!src) return;
+    const existing=bySrc.get(src);
+    if(existing){if(rank<existing.rank) Object.assign(existing,{label:label||fileName(src),kind,href:href||src,rank,...meta}); return;}
+    const derived=kind==='image'?imageDerivative(src):null;
+    const item={src:derived?.display?.path||src,thumbSrc:derived?.thumb?.path||derived?.display?.path||src,originalSrc:src,label:label||fileName(src),kind,href:derived?.originalUrl||href||src,rank,...meta};
+    items.push(item); bySrc.set(src,item);
+  };
   const h=c.heroVisual;
   if(h?.src) add(h.src,h.caption||'Case lead visual',h.mediaType||'image',h.mediaUrl||h.sourceUrl||h.src,0,{role:'lead',visualType:h.visualType,provenance:h.provenance||'',evidenceStatus:h.evidenceStatus||'',actionLabel:heroActionLabel(h)});
   (c.sources||[]).forEach(src=>filesForSource(src).forEach(f=>{if(f.kind==='image') add(fileUrl(f.path),`${f.token} · ${fileName(f.path)}`,'image',fileUrl(f.path), /__roi_/i.test(f.path)?30:10,{role:'evidence'});}));
@@ -459,7 +466,8 @@ function evidenceItems(c){
     const src=structured?(item.url||item.src):item;
     const label=structured?(item.caption||item.title||`Evidence image ${i+1}`):`Evidence image ${i+1}`;
     const href=structured?(item.sourceUrl||item.source||src):src;
-    add(src,label,'image',href,20,{
+    const rank=structured&&Number.isFinite(Number(item.rank))?Number(item.rank):20;
+    add(src,label,'image',href,rank,{
       role:'evidence',
       visualType:structured?(item.visualType||item.kind||'evidence-image'):'evidence-image',
       provenance:structured?(item.sourceName||item.provenance||''):'',

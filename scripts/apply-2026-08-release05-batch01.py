@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / 'atlas-data.json'
 PUBLIC = ROOT / 'public-source-manifest.json'
 INDEX = ROOT / 'source-file-index.json'
+HERO_MANIFEST = ROOT / 'atlas-hero-visual-manifest.json'
 LANDING = 'https://www.war.gov/UFO/?releaseDate=Release+05&release=05'
 BASE = 'assets/sources/PURSUE-RELEASE-05'
 
@@ -57,6 +58,7 @@ def add_public(case, note):
 atlas = load(ATLAS)
 by_id = {case['id']: case for case in atlas['cases']}
 
+d098_cover = f'{BASE}/DOW-UAP-D098-pdf-page-001.png'
 d098_pages = [f'{BASE}/DOW-UAP-D098-pdf-page-006.png', f'{BASE}/DOW-UAP-D098-pdf-page-009.png']
 d099_pages = [f'{BASE}/DOW-UAP-D099-pdf-page-005.png', f'{BASE}/DOW-UAP-D099-pdf-page-006.png']
 d100_pages = [f'{BASE}/DOW-UAP-D100-pdf-page-007.png', f'{BASE}/DOW-UAP-D100-pdf-page-008.png']
@@ -163,6 +165,30 @@ tremonton = by_id['BF-1952-TM-01']
 tremonton['sourceQuality'] = 'Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated.'
 for image in d098_pages:
     append_unique(tremonton.setdefault('images', []), image)
+old_film_hero = 'assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg'
+old_film_visual = {
+    'src': old_film_hero,
+    'rank': 5,
+    'caption': 'Film-frame reproduction embedded in the Project Blue Book/Newhouse case sheet.',
+    'visualType': 'historical-film-frame-reproduction',
+    'provenance': 'Project Blue Book case-sheet reproduction',
+    'evidenceStatus': 'Source-derived reproduction, not an original film scan; alleged objects remain unresolved in this record.',
+}
+tremonton_hero = {
+    'src': d098_cover,
+    'mediaType': 'image',
+    'visualType': 'official-document-routing-sheet',
+    'caption': 'Bureau of Aeronautics routing sheet for the 1953 Navy film-analysis report covering the Tremonton and Great Falls films.',
+    'provenance': 'U.S. Navy / Naval Photographic Interpretation Center, DOW-UAP-D098, PDF p. 1',
+    'evidenceStatus': 'Official administrative routing sheet for the analysis; documentary evidence of the report, not an image of the reported objects.',
+    'isEventEvidence': False,
+}
+tremonton['image'] = d098_cover
+tremonton['heroVisual'] = tremonton_hero
+tremonton['images'] = [d098_cover, old_film_visual] + [
+    image for image in tremonton.get('images', [])
+    if (image.get('src') or image.get('url') if isinstance(image, dict) else image) not in {d098_cover, old_film_hero}
+]
 
 estimate = by_id['BF-SF-07']
 estimate['sourceQuality'] = 'Exact page-verified public-domain edition of Ruppelt’s 1956 insider account, plus a contemporaneous 1948 Project SIGN/USAF correspondence packet released as DOW-UAP-D100. DOW-UAP-D100 verifies institutional context and actual November 1948 analytical language; it does not contain or authenticate the missing Estimate of the Situation.'
@@ -211,9 +237,17 @@ for cid in ['BF-1946-GR-01', 'BF-1950-GF-01', 'BF-1952-TM-01', 'BF-SF-07']:
     public[cid] = by_id[cid]['publicSources']
 save(PUBLIC, public)
 
+if HERO_MANIFEST.is_file():
+    hero_manifest = load(HERO_MANIFEST)
+    hero_manifest['BF-1952-TM-01'] = tremonton_hero
+    save(HERO_MANIFEST, hero_manifest)
+
 index = load(INDEX)
-index['DOW-UAP-D098'] = d098_pages + [LANDING]
+index['DOW-UAP-D098'] = [d098_cover] + d098_pages + [LANDING]
 index['DOW-UAP-D098 · PDF pp. 6 and 9'] = d098_pages + [LANDING]
+index['TREMONTON-1952'] = [d098_cover, old_film_hero] + [
+    item for item in index.get('TREMONTON-1952', []) if item not in {d098_cover, old_film_hero}
+]
 index['DOW-UAP-D099'] = d099_pages + [LANDING]
 index['DOW-UAP-D099 · PDF pp. 5–6'] = d099_pages + [LANDING]
 index['DOW-UAP-D100'] = d100_pages + [d100_ghost_page, LANDING]

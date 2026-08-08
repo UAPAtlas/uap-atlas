@@ -29,11 +29,13 @@ def find_url(sources, url):
 
 atlas = json.loads((ROOT / 'atlas-data.json').read_text())
 by_id = {case['id']: case for case in atlas['cases']}
+hero_manifest_path = ROOT / 'atlas-hero-visual-manifest.json'
+hero_manifest = json.loads(hero_manifest_path.read_text()) if hero_manifest_path.is_file() else None
 require(len(atlas['cases']) >= 150, 'Batch 01 evidence must remain valid after later additive tranches')
 require(CHANGED <= set(by_id), 'Batch 01 changed-case set is incomplete')
 
 expected_pages = {
-    'DOW-UAP-D098': ['assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png'],
+    'DOW-UAP-D098': ['assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png'],
     'DOW-UAP-D099': ['assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png'],
     'DOW-UAP-D100': ['assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png', 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png'],
 }
@@ -63,6 +65,21 @@ for cid in ['BF-1950-GF-01', 'BF-1952-TM-01']:
     for needle in ['did not necessarily represent the official position', 'lacked proper equipment', 'Distance and trajectory assumptions']:
         require(needle in joined, f'{cid} D098 limitation missing: {needle}')
 require('duplicate of a copy' in by_id['BF-1952-TM-01']['sourceQuality'], 'Tremonton film-generation limitation missing')
+
+# Tremonton hero: use the official Navy routing sheet while preserving the film frame next.
+tremonton = by_id['BF-1952-TM-01']
+tremonton_hero = 'assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png'
+old_film_hero = 'assets/evidence/hero-visuals/TREMONTON-1952-case-sheet-film-inset.jpg'
+require(tremonton['image'] == tremonton_hero, 'Tremonton image must use the D098 routing sheet')
+require(tremonton['heroVisual']['src'] == tremonton_hero, 'Tremonton heroVisual must use the D098 routing sheet')
+require(tremonton['heroVisual']['visualType'] == 'official-document-routing-sheet', 'Tremonton hero type must identify the routing sheet')
+require(tremonton['heroVisual']['isEventEvidence'] is False, 'D098 routing sheet must not be labeled event evidence')
+second_visual = tremonton['images'][1]
+require(tremonton['images'][0] == tremonton_hero, 'Tremonton images must begin with the routing sheet')
+require(isinstance(second_visual, dict) and second_visual.get('src') == old_film_hero, 'Tremonton carousel must keep the film frame immediately after the routing sheet')
+require(second_visual.get('rank') == 5, 'Tremonton film frame must outrank mapped report pages in the runtime carousel')
+if hero_manifest is not None:
+    require(hero_manifest['BF-1952-TM-01'] == tremonton['heroVisual'], 'Tremonton hero manifest must match canonical case data')
 
 # Estimate: D100 adds institutional context, never the missing document itself.
 estimate = by_id['BF-SF-07']

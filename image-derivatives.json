@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "policy": "heavy-image-bounded-derivatives",
-  "sourceFingerprint": "8579600b9762d99a5beb42d2f8143242688f26fdebd81446aef2417bffd314be",
+  "sourceFingerprint": "66e9a1362a5aa3fb4277756678cf6435ea37cee11c63a894a4b655b17efec67b",
   "thresholdBytes": 350000,
   "displayMaxDimension": 1600,
   "thumbMaxDimension": 360,
   "displayQuality": 84,
   "thumbQuality": 76,
   "summary": {
-    "imageCount": 350,
-    "originalBytes": 897720947,
-    "displayBytes": 53959730,
-    "thumbBytes": 3862230
+    "imageCount": 351,
+    "originalBytes": 900069712,
+    "displayBytes": 54198394,
+    "thumbBytes": 3877226
   },
   "entries": {
     "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg": {
@@ -6774,6 +6774,27 @@
         "width": 278,
         "height": 360,
         "sha256": "8bed073732074c0d90571bf4e1217ccffca3ebe867e4ab02ddffab45c0dfe9d7"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png": {
+      "originalBytes": 2348765,
+      "originalWidth": 1248,
+      "originalHeight": 1582,
+      "originalSha256": "aa76bdfeda7bb8b3aa7616cb6ce97bedb687171b9ea67c9a195501b4bb4a335b",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png.webp",
+        "bytes": 238664,
+        "width": 1248,
+        "height": 1582,
+        "sha256": "1ae8dfe95109b3cc3e96c870cd3ab80b700a0550c16bc7bca6f0844b8f6142b8"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png.webp",
+        "bytes": 14996,
+        "width": 284,
+        "height": 360,
+        "sha256": "e7bf4441033d2a866420b5f054c9b0435b50fc69c5c46336591e6113720d9a62"
       }
     },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png": {
