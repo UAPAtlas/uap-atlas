@@ -38,6 +38,7 @@ jobs:
           python3 scripts/test-blackfile-mode.py
           python3 scripts/test-2026-08-topic-deep-dive.py
           python3 scripts/test-2026-08-release05-batch01.py
+          python3 scripts/test-2026-08-release05-source-depth-completion.py
           python3 scripts/test-2026-08-release05-new-cases.py
           python3 scripts/test-2026-08-release05-closure-sprint.py
           python3 scripts/test-2026-08-release05-testimony-tranche.py

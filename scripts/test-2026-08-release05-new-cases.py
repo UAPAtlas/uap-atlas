@@ -57,7 +57,7 @@ blob = json.dumps(gom)
 for needle in ['AC-130', 'EO/IR', 'approximately 25', 'not finally evaluated', 'six embedded videos']:
     require(needle.lower() in blob.lower(), f'Gulf of Oman boundary missing: {needle}')
 require(not any('DOD_111887' in str(x) for x in gom.get('images', [])), 'anonymous videos must not be attributed to Gulf of Oman')
-rec = case_record(gom, 'DOW-UAP-D101 · PDF pp. 1, 5–6')
+rec = case_record(gom, 'DOW-UAP-D101 · PDF pp. 1–2, 5–6')
 require(rec and rec['sha256'] == DOC_HASHES['DOW-UAP-D101'], 'D101 source record/hash missing')
 
 # 2026 field event: one case, two corroborating interviews, reconstructions clearly non-evidentiary.

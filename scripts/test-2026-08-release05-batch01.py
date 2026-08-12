@@ -81,13 +81,18 @@ require(second_visual.get('rank') == 5, 'Tremonton film frame must outrank mappe
 if hero_manifest is not None:
     require(hero_manifest['BF-1952-TM-01'] == tremonton['heroVisual'], 'Tremonton hero manifest must match canonical case data')
 
-# Estimate: D100 adds institutional context, never the missing document itself.
+# Estimate: D100 adds three institutional layers, never the missing document itself.
 estimate = by_id['BF-SF-07']
-d100 = find_record(estimate['sourceRecords'], 'DOW-UAP-D100 · PDF pp. 7–8')
-require(d100['sha256'] == '4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90', 'D100 custody hash mismatch')
-require(any('does not contain the alleged Estimate' in x for x in d100['limitations']), 'D100/Estimate identity boundary missing')
-require(any('DOW-UAP-D100 is the Estimate' in x for x in estimate['evidenceBoundary']['notEstablished']), 'Estimate non-identity boundary missing')
-require('no tangible evidence' in estimate['gap'], 'Project SIGN physical-evidence boundary missing')
+for locator in [
+    'DOW-UAP-D100 · PDF pp. 1–3 and 7–9',
+    'DOW-UAP-D100 · PDF pp. 31–34',
+    'DOW-UAP-D100 · PDF pp. 232–244',
+]:
+    d100 = find_record(estimate['sourceRecords'], locator)
+    require(d100['sha256'] == '4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90', f'D100 custody hash mismatch: {locator}')
+require(any('Estimate' in x for record in estimate['sourceRecords'] if str(record.get('locator', '')).startswith('DOW-UAP-D100') for x in record.get('limitations', [])), 'D100/Estimate identity boundary missing')
+require(any('DOW-UAP-D100 is the missing Estimate' in x for x in estimate['evidenceBoundary']['notEstablished']), 'Estimate non-identity boundary missing')
+require('no physical evidence' in estimate['gap'], 'Project SIGN physical-evidence boundary missing')
 
 for cid in CHANGED:
     source = find_url(by_id[cid]['publicSources'], LANDING)
@@ -96,7 +101,7 @@ for cid in CHANGED:
 
 index = json.loads((ROOT / 'source-file-index.json').read_text())
 for doc_id, paths in expected_pages.items():
-    require(index.get(doc_id) == paths + [LANDING], f'{doc_id} source-index mapping mismatch')
+    require(all(path in index.get(doc_id, []) for path in paths + [LANDING]), f'{doc_id} source-index mapping lost a required Batch 01 path')
 
 for name in ['atlas-data.json', 'public-source-manifest.json', 'source-file-index.json']:
     text = (ROOT / name).read_text()

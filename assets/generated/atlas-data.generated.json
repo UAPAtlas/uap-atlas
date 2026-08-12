@@ -749,7 +749,7 @@
         "BF-1947-KA-01"
       ],
       "heroFact": "A full year of state-investigated 'ghost rocket' reports — with lake searches, allied intelligence traffic, and no recovered object — one year before Roswell.",
-      "image": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+      "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-001.png",
       "caseTypes": [
         "military-encounter"
       ],
@@ -913,12 +913,12 @@
       },
       "taxonomyVersion": "atlas-controlled-v1",
       "heroVisual": {
-        "src": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+        "src": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-001.png",
         "mediaType": "image",
-        "visualType": "archival-context-photo",
-        "caption": "Archival context photograph associated with Scandinavian ghost-rocket investigations.",
-        "provenance": "Swedish defense file",
-        "evidenceStatus": "Historical context image; not a photograph of a reported ghost rocket.",
+        "visualType": "official-intelligence-review-cover",
+        "caption": "Cover of the War Department Intelligence Division’s January 1947 SECRET Intelligence Review containing “Ghost Rockets Over Scandinavia.”",
+        "provenance": "War Department Intelligence Division, DOW-UAP-D099, PDF p. 1",
+        "evidenceStatus": "Official publication cover and documentary evidence of the review; not an image of a reported ghost rocket.",
         "isEventEvidence": false
       },
       "publicSources": [
@@ -994,7 +994,15 @@
         }
       ],
       "images": [
-        "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-001.png",
+        {
+          "src": "assets/source_previews/BF-1946-GR-01_source_image.jpg",
+          "rank": 5,
+          "caption": "Archival context photograph associated with Scandinavian ghost-rocket investigations.",
+          "visualType": "archival-context-photo",
+          "provenance": "Swedish defense file",
+          "evidenceStatus": "Historical context image; not a photograph of a reported ghost rocket."
+        },
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png"
@@ -2368,7 +2376,7 @@
       "quoteSource": "Edward J. Ruppelt, The Report on Unidentified Flying Objects (1956), public-domain PDF p. 35",
       "quoteConfidence": "High for Ruppelt’s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered.",
       "significance": "High significance",
-      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt’s 1956 insider account, plus a contemporaneous 1948 Project SIGN/USAF correspondence packet released as DOW-UAP-D100. DOW-UAP-D100 verifies institutional context and actual November 1948 analytical language; it does not contain or authenticate the missing Estimate of the Situation.",
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt’s 1956 insider account, plus three contemporaneous DOW-UAP-D100 primary-record layers: the November 1948 USAF/AMC acknowledgment and residual-unexplained assessment, AMC’s RAND study request, and the December 1947 Project SIGN assignment/analysis packet. DOW-UAP-D100 is not the missing Estimate and does not authenticate its wording, approval or destruction.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-07",
@@ -2387,9 +2395,9 @@
       "status": "HISTORICAL RECORD · INCOMPLETE",
       "confidence": "DOCUMENTED CLAIM · LIMITED CORROBORATION",
       "summary": "In August 1948, Project Sign staff at Wright-Patterson reportedly produced a top-secret 'Estimate of the Situation' concluding that flying saucers were interplanetary. Gen. Hoyt Vandenberg rejected it for lack of proof and ordered copies destroyed. No copy has ever surfaced; the document is known through Edward Ruppelt's 1956 account and corroborating insider recollections.",
-      "keyFact": "The founding ghost of the archive: an official document whose existence is well-attested and whose destruction was itself the official act.",
+      "keyFact": "DOW-UAP-D100 records that Headquarters USAF considered it “inescapable” that some type of flying object had been observed, while AMC retained unexplained reports, sought a RAND study of experimental “spaceships” or test vehicles, and reported no physical evidence or tangible support for an interplanetary conclusion.",
       "official": "The Air Force has never acknowledged the document; Ruppelt, Sign's successor-project chief, described it in print without contradiction from the service.",
-      "gap": "No copy, index entry or destruction certificate for the Estimate has been located. DOW-UAP-D100 adds contemporaneous Project SIGN context but not the Estimate itself: the packet reports approximately 180 studied incidents, unresolved cases and no tangible evidence supporting an interplanetary conclusion.",
+      "gap": "The original Estimate or authenticated copy, its control-register/routing trail, and any destruction or transfer record remain missing. DOW-UAP-D100 independently documents Project SIGN’s institutional architecture, unresolved residue and hypothesis testing, but it is not the missing Estimate and reports no physical evidence or tangible support for an interplanetary conclusion.",
       "whyItMatters": "Every 'the government once concluded X' claim descends from this episode; it defines what a credible destroyed-document account looks like when told by an insider.",
       "sources": [
         "ESTIMATE-1948 · Ruppelt account (1956) / Project Sign record trail",
@@ -2490,26 +2498,66 @@
           ]
         },
         {
-          "citation": "Air Materiel Command / Headquarters USAF, Project SIGN correspondence and flying-object assessment, 1947–1948, DOW-UAP-D100",
-          "sourceType": "primary-official-institutional-record-packet",
-          "provenance": "Exact 245-page PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
-          "locator": "DOW-UAP-D100 · PDF pp. 7–8",
+          "citation": "Headquarters USAF / Air Materiel Command, flying-object assessment and Project SIGN correspondence, November 1948, DOW-UAP-D100",
+          "sourceType": "primary-official-institutional-assessment",
+          "provenance": "Exact pages within the 245-page DOW-UAP-D100 PDF published through PURSUE Release 05; full local PDF hash verified",
+          "locator": "DOW-UAP-D100 · PDF pp. 1–3 and 7–9",
           "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
           "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
           "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-001.png",
             "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png",
             "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png"
           ],
           "supports": [
-            "Documents a November 1948 Air Materiel Command study of approximately 180 incidents",
-            "Records that some reports lacked a reasonable everyday explanation while no physical evidence had been obtained",
-            "Records that the interplanetary possibility was considered but tangible support was completely lacking",
-            "Provides contemporaneous Project SIGN institutional context for Ruppelt’s later Estimate account"
+            "Records Headquarters USAF language that it appeared “inescapable” that some type of flying object had been observed while identity and origin remained undetermined",
+            "Documents an Air Materiel Command review of approximately 180 incidents and a residual set without reasonable everyday explanation",
+            "Records that no physical evidence had been obtained and tangible support for an interplanetary explanation was lacking"
           ],
           "limitations": [
-            "The packet does not contain the alleged Estimate of the Situation",
-            "It does not authenticate the Estimate’s wording, authorship, routing, approval or destruction",
-            "A later institutional packet cannot convert Ruppelt’s retrospective account into a recovered primary document"
+            "The packet is not the missing Estimate of the Situation and does not authenticate its text, authorship, approval or destruction",
+            "Institutional acknowledgment of observed and unresolved reports does not identify one phenomenon or establish extraordinary origin"
+          ]
+        },
+        {
+          "citation": "Air Materiel Command, Project SIGN special-study requirements proposed for RAND, 1948, DOW-UAP-D100",
+          "sourceType": "primary-official-study-request",
+          "provenance": "Exact pages within the 245-page DOW-UAP-D100 PDF published through PURSUE Release 05; full local PDF hash verified",
+          "locator": "DOW-UAP-D100 · PDF pp. 31–34",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-034.png"
+          ],
+          "supports": [
+            "Documents AMC’s request for RAND to examine whether some reported objects could be experimental “spaceships” or test vehicles",
+            "Records proposed technical questions for distinguishing such craft from conventional aircraft, missiles or foreign systems"
+          ],
+          "limitations": [
+            "This is a study request, not a finding that spaceships existed or explained any report",
+            "The released packet does not include a completed RAND answer to these requirements"
+          ]
+        },
+        {
+          "citation": "Headquarters USAF / Air Materiel Command, assignment and analysis of flying-disc intelligence, December 1947, DOW-UAP-D100",
+          "sourceType": "primary-official-program-architecture-and-analysis",
+          "provenance": "Exact pages within the 245-page DOW-UAP-D100 PDF published through PURSUE Release 05; full local PDF hash verified",
+          "locator": "DOW-UAP-D100 · PDF pp. 232–244",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "4052303ee0d521c15656b65fed3075734c83332ec5db319c744f0dbe53b8ec90",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-232.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-240.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-244.png"
+          ],
+          "supports": [
+            "Documents the formal assignment of flying-disc intelligence collection, collation, evaluation and production to Air Materiel Command",
+            "Preserves recurring reported characteristics, selected radar cases, foreign-technology evaluation and recommendations for continued collection and analysis",
+            "Establishes a structured Project SIGN institutional architecture before later Project Blue Book public framing"
+          ],
+          "limitations": [
+            "The analysis records unresolved reports and hypotheses but does not establish recovered technology, non-human origin or one common cause",
+            "The packet is institutional context and analytical history, not the missing Estimate of the Situation"
           ]
         }
       ],
@@ -2592,8 +2640,13 @@
         "assets/evidence/ESTIMATE-1948/ESTIMATE-1948-Ruppelt-Report-half-title.png",
         "assets/source_previews/BF-SF-07_source_image.jpg",
         "assets/sources/ESTIMATE-1948/Ruppelt-Report-Estimate-PDF-page-35.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-001.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png",
-        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png"
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-034.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-232.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-240.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-244.png"
       ],
       "acquisitionTargets": [
         "Original 1948 Estimate of the Situation or an authenticated surviving copy",
@@ -2602,16 +2655,26 @@
       "evidenceBoundary": {
         "established": [
           "Ruppelt published a detailed insider account of an Estimate that concluded the objects were interplanetary.",
-          "DOW-UAP-D100 independently establishes active Project SIGN analysis in 1948 and preserves the contemporaneous unresolved/no-physical-evidence boundary."
+          "DOW-UAP-D100 independently records Headquarters USAF acknowledgment that some type of flying object had been observed while identity and origin remained undetermined.",
+          "DOW-UAP-D100 documents a residual unexplained set, a RAND “spaceships”/test-vehicle study request, and formal Project SIGN collection and analysis architecture."
         ],
         "notEstablished": [
-          "That DOW-UAP-D100 is the Estimate or contains the Estimate’s text.",
+          "That DOW-UAP-D100 is the missing Estimate or contains the Estimate’s text.",
           "The exact authorship, approval path, final wording or destruction record of the alleged Estimate.",
-          "That Project SIGN possessed physical evidence or reached an institutionally approved extraterrestrial conclusion."
+          "That the RAND study request was a finding, or that Project SIGN possessed physical evidence or reached an approved extraterrestrial conclusion."
         ],
         "competingExplanations": [
           "The missing-document account may preserve a real rejected draft, a later reconstruction of internal debate, or a document whose title and administrative status shifted in recollection."
         ]
+      },
+      "primaryRecordUpdate": {
+        "title": "Project SIGN primary record",
+        "points": [
+          "USAF called it “inescapable” that some type of flying object had been observed; identity and origin remained undetermined.",
+          "AMC retained an unexplained residue and requested a RAND study of experimental “spaceships” or test vehicles—a study request, not a finding.",
+          "The December 1947 packet documents formal collection and analytical responsibility while reporting no physical evidence."
+        ],
+        "boundary": "DOW-UAP-D100 is not the missing Estimate of the Situation and does not authenticate its wording, approval, or destruction."
       },
       "mapGeometry": null,
       "x": 29.43,
@@ -28478,9 +28541,9 @@
       "status": "DOCUMENTED · UNRESOLVED",
       "confidence": "CONFIRMED REPORT · NOT FINALLY EVALUATED",
       "summary": "A released Intelligence Information Report states that a USSOF AC-130 crew observed approximately 25 UAP instances through EO/IR during live-fire training in the Gulf of Oman on 8 September 2021. Two approximately four-foot cold objects were reported stationary just above the water near a flare before departing as the 105 mm cannon fired; later observations described pairs and trios maneuvering in formation. DVIDS now officially associates six public secondary recordings, PR117–PR122, with D101; the report remains not finally evaluated intelligence.",
-      "keyFact": "DVIDS resolves all six public Release 05 clips associated with D101 to PR117–PR122 and exact DOD filenames. They are secondary cellphone recordings of an AC-130J infrared display—not native sensor data—and the corrupted full DVR, telemetry and original PowerPoint package remain unavailable.",
+      "keyFact": "The report describes approximately 25 observations, including two cold objects 0–20 feet above the water for about 15 seconds, and TACTOOL-derived 250–1,300 mph estimates. Its strongest test remains unavailable: the full DVR was corrupted, and the public PR117–PR122 clips are secondary display recordings rather than native sensor data.",
       "official": "The document is an Intelligence Information Report explicitly labeled “not finally evaluated intelligence.” It records source reporting and broad dissemination; it is not an AARO, AFSOC or intelligence-community finding about object identity or origin.",
-      "gap": "Missing are the native full-sortie DVR data, raw EO/IR metadata, aircraft telemetry/TACTOOL outputs, independent radar or ship correlation, the original PowerPoint attachment package, and a final analytical disposition. The public clips do not establish range, scale, speed, identity or response to gunfire.",
+      "gap": "Missing are the corrupted full-sortie DVR, native EO/IR metadata, aircraft telemetry and TACTOOL outputs, independent radar or ship correlation, and the original one-video/PowerPoint attachment package. Without those layers, the reported range, scale, speed, response to gunfire, identity and origin cannot be independently validated.",
       "whyItMatters": "A unusually detailed modern military sensor report combining a named aircraft class, EO/IR observation, live-fire chronology, location methodology and attachment trail while clearly exposing the decisive missing data.",
       "sources": [
         "DOW-UAP-D101 · Gulf of Oman AC-130 Intelligence Information Report, 2021/2022"
@@ -28496,12 +28559,13 @@
       "quoteConfidence": "High — exact event text in the released IIR; the document is source reporting marked not finally evaluated intelligence.",
       "heroFact": "The six Release 05 clips are now officially crosswalked to D101 as PR117–PR122, but DVIDS identifies them as secondary recordings of a sensor display rather than native sensor data.",
       "significance": "High significance",
-      "sourceQuality": "Exact official IIR plus six officially associated DVIDS secondary videos with exact filenames; the report is not finally evaluated and native telemetry, full DVR data and independent correlation remain missing.",
+      "sourceQuality": "Exact official IIR plus six officially associated DVIDS secondary videos. The IIR records direct-duty source access, AC-130 sensor-GPS coordinate derivation, broad dissemination, and an attachment list of one video plus a PowerPoint containing six embedded videos. It remains not finally evaluated intelligence; the corrupted full DVR, native telemetry and independent correlation remain missing.",
       "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
       "images": [
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
-        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-002.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-PR117-PR122-video-contact.jpg"
       ],
       "caseTypes": [
@@ -28547,30 +28611,6 @@
       },
       "sourceRecords": [
         {
-          "citation": "Intelligence Information Report, “Multiple Unidentified Aerial Phenomenon Observed… Over Gulf of Oman During AC-130 Gunship Live Fire Training on 8 September 2021,” DOW-UAP-D101",
-          "sourceType": "primary-official-intelligence-information-report",
-          "provenance": "Exact PDF published by the U.S. Department of War in PURSUE Release 05; full local copy hash-verified against the original download",
-          "locator": "DOW-UAP-D101 · PDF pp. 1, 5–6",
-          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
-          "sha256": "926f4cf9a852d77bca34e8e7370c4a9da386610a6ba799e060de71c2339b0e92",
-          "sourcePageImages": [
-            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
-            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
-            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
-          ],
-          "supports": [
-            "Documents a USSOF AC-130 EO/IR observation during 8 September 2021 live-fire training",
-            "Records approximately 25 reported UAP instances, formation behavior and source-calculated speed claims",
-            "Records GPS-derived geographic coordinates and a PowerPoint attachment containing six embedded videos"
-          ],
-          "limitations": [
-            "The IIR is explicitly not finally evaluated intelligence",
-            "DVIDS identifies PR117–PR122 as secondary recordings of an AC-130J infrared display, not native primary sensor data",
-            "The corrupted full DVR, raw metadata, telemetry and independent sensor correlation remain absent",
-            "Release custody authenticates the report and public clips, not the object interpretation or reported performance"
-          ]
-        },
-        {
           "citation": "DVIDS official video records DOW-UAP-PR117 through DOW-UAP-PR122, associated with DOW-UAP-D101",
           "sourceType": "primary-official-public-video-crosswalk-set",
           "provenance": "Individual DVIDS records published by AARO/DoW on 7 August 2026 map PR117–PR122 to exact Release 05 DOD filenames",
@@ -28596,6 +28636,31 @@
             "The public MP4s are not native primary sensor data and screen-recording artifacts may be present",
             "DVIDS does not establish byte identity with the original six PowerPoint embeds or recover the corrupted full-sortie DVR",
             "The clips alone do not establish object identity, range, scale, speed, altitude or extraordinary performance"
+          ]
+        },
+        {
+          "citation": "Intelligence Information Report, “Multiple Unidentified Aerial Phenomenon Observed… Over Gulf of Oman During AC-130 Gunship Live Fire Training on 8 September 2021,” DOW-UAP-D101",
+          "sourceType": "primary-official-intelligence-information-report",
+          "provenance": "Exact seven-page PDF published through PURSUE Release 05; full local PDF hash verified",
+          "locator": "DOW-UAP-D101 · PDF pp. 1–2, 5–6",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+05&release=05",
+          "sha256": "926f4cf9a852d77bca34e8e7370c4a9da386610a6ba799e060de71c2339b0e92",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-002.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
+            "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png"
+          ],
+          "supports": [
+            "Records a source with direct access via official duties reporting approximately 25 AC-130 EO/IR observations during a dated live-fire sortie",
+            "Describes two approximately four-foot cold objects 0–20 feet above the water, stationary near a flare for approximately 15 seconds before rapidly departing immediately after trigger pull and before cannon recoil",
+            "Records coordinated “dolphins” motion, groups of three, TACTOOL-derived estimates of 250–1,300 mph and coordinates derived from AC-130 sensor GPS",
+            "Documents broad military/intelligence dissemination and an attachment list containing one video plus a PowerPoint containing six embedded videos"
+          ],
+          "limitations": [
+            "The IIR is explicitly not finally evaluated intelligence",
+            "The full DVR was reported corrupted; native EO/IR data, metadata, telemetry, TACTOOL outputs and independent sensor correlation remain absent",
+            "Public PR117–PR122 clips are secondary recordings of an infrared display and do not independently validate range, dimensions, speed, response to gunfire, identity or origin"
           ]
         }
       ],
@@ -28662,18 +28727,27 @@
       ],
       "evidenceBoundary": {
         "established": [
-          "An official IIR records direct-source AC-130 EO/IR observations during a dated Gulf of Oman sortie.",
-          "The report lists GPS-derived coordinates, source-derived speed estimates and six embedded videos as an attachment.",
+          "An official IIR records a source with direct access via official duties reporting AC-130 EO/IR observations during a dated Gulf of Oman sortie.",
+          "The report records sensor-GPS coordinate derivation, TACTOOL-derived estimates, broad dissemination, and one video plus a PowerPoint containing six embedded videos.",
           "DVIDS officially associates PR117–PR122 and six exact DOD filenames with D101 and states that the clips were captured contemporaneously."
         ],
         "notEstablished": [
           "The identity or origin of the reported objects.",
-          "Independent verification of the source-calculated speeds, dimensions or response to gunfire.",
+          "Independent verification of the reported dimensions, 0–20-foot altitude, 250–1,300 mph estimates, or response to gunfire.",
           "That the public secondary recordings are native sensor data or byte-identical exports of the original PowerPoint embeds."
         ],
         "competingExplanations": [
           "Sensor or range-estimation effects, thermal contrast near a flare/live-fire environment, seabirds, debris, munitions-related objects, aircraft or UAS, and parallax remain unresolved without native data and telemetry."
         ]
+      },
+      "primaryRecordUpdate": {
+        "title": "D101 source-access and attachment trail",
+        "points": [
+          "A direct-duty source reported two cold objects approximately 0–20 feet above the water near a flare for about 15 seconds.",
+          "The IIR records approximately 25 observations and TACTOOL-derived estimates of 250–1,300 mph; coordinates came from AC-130 sensor GPS.",
+          "The attachment list names one video plus a PowerPoint with six embedded videos, while the full DVR was reported corrupted."
+        ],
+        "boundary": "The IIR is not finally evaluated intelligence; public PR117–PR122 display recordings do not independently validate range, speed, response to gunfire, identity, or origin."
       },
       "mapGeometry": null,
       "x": 64.76,

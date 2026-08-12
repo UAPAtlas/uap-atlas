@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "title": "Blackfile — State of Evidence",
-  "updated": "2026-08-06",
+  "updated": "2026-08-10",
   "analysisSource": "Blackfile Seven Questions — State of Evidence (2026-08-05)",
   "boundarySource": "D10 Contradiction & Interpretive-Boundary Ledger",
   "scope": "Analysis layer built from the existing UAP Atlas evidence registry",
@@ -345,6 +345,13 @@
           "label": "Partial release versus institutional intent",
           "summary": "The measurable finding is the evidentiary gap. Withholding, destruction, classification, non-collection, ordinary partial release, and strategic disclosure must be distinguished before intent is assigned.",
           "caseIds": []
+        },
+        {
+          "label": "Internal uncertainty versus public messaging",
+          "summary": "Project SIGN internally retained unexplained reports, considered domestic, foreign and interplanetary possibilities, and sought RAND analysis while recommending narrower public disclosure centered on balloons, astronomical objects and continuing investigation. This documents information management, not proof of a hidden non-human program.",
+          "caseIds": [
+            "BF-SF-07"
+          ]
         }
       ]
     },
@@ -388,6 +395,13 @@
             "BF-SF-14",
             "BF-1953-RP-00",
             "BF-SF-09"
+          ]
+        },
+        {
+          "label": "Internal uncertainty versus public messaging",
+          "summary": "Project SIGN internally retained unexplained reports, considered domestic, foreign and interplanetary possibilities, and sought RAND analysis while recommending narrower public disclosure centered on balloons, astronomical objects and continuing investigation. This documents information management, not proof of a hidden non-human program.",
+          "caseIds": [
+            "BF-SF-07"
           ]
         }
       ]

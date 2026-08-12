@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 945,
+    "indexedPaths": 952,
     "publicLocal": 368,
-    "externalPublic": 439,
+    "externalPublic": 446,
     "custodyOnly": 138,
     "unavailable": 0
   },
@@ -3518,6 +3518,12 @@
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
     },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-001.png"
+    },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-005.png": {
       "status": "external-public",
       "label": "Archival original served from the Atlas Git repository",
@@ -3529,6 +3535,12 @@
       "label": "Archival original served from the Atlas Git repository",
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D099-pdf-page-006.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-001.png"
     },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-007.png": {
       "status": "external-public",
@@ -3542,11 +3554,35 @@
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-008.png"
     },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-034.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-034.png"
+    },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png": {
       "status": "external-public",
       "label": "Archival original served from the Atlas Git repository",
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-152.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-232.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-232.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-240.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-240.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-244.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D100-pdf-page-244.png"
     },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-PR117-PR122-video-contact.jpg": {
       "status": "public-local",
@@ -3557,6 +3593,12 @@
       "label": "Archival original served from the Atlas Git repository",
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-002.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-002.png"
     },
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png": {
       "status": "external-public",

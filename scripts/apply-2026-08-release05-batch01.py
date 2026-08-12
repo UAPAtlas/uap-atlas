@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from runpy import run_path
 
 ROOT = Path(__file__).resolve().parents[1]
 ATLAS = ROOT / 'atlas-data.json'
@@ -254,5 +255,9 @@ index['DOW-UAP-D100'] = d100_pages + [d100_ghost_page, LANDING]
 index['DOW-UAP-D100 · PDF pp. 7–8'] = d100_pages + [LANDING]
 index['DOW-UAP-D100 · PDF p. 152'] = [d100_ghost_page, LANDING]
 save(INDEX, index)
+
+# Keep this historical tranche replay-safe by applying the current authoritative
+# Release 05 completion layer after its original mutations.
+run_path(str(ROOT / 'scripts/apply-2026-08-release05-source-depth-completion.py'), run_name='__main__')
 
 print('Applied PURSUE Release 05 enrichment to Atlas Batch 01: BF-1946-GR-01, BF-1950-GF-01, BF-1952-TM-01, BF-SF-07')
