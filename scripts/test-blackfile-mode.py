@@ -86,7 +86,11 @@ for needle in required_html:
     require(needle in html, f"HTML missing Blackfile contract: {needle}")
 require("146 documented UAP cases" not in html, "stale 146-case metadata remains")
 require("147 documented UAP cases" not in html, "stale 147-case metadata remains")
-require("150 documented UAP cases" in html, "150-case metadata missing")
+_stale_count_tokens = ("150 documented UAP cases", "151 documented UAP cases")
+for _stale in _stale_count_tokens:
+    require(_stale not in html, f"stale {_stale.split()[0]}-case metadata remains")
+_current_count = len(atlas.get("cases", []))
+require(f"{_current_count} documented UAP cases" in html, f"{_current_count}-case metadata missing")
 require("hidden>" in html[html.find('id="blackfileShell"') : html.find('id="blackfileShell"') + 160], "Blackfile shell must be hidden before JS initializes")
 
 for needle in (

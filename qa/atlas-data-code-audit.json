@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 153,
-  "sourceIndexTerms": 265,
-  "sourceIndexFiles": 1202,
+  "sourceIndexTerms": 268,
+  "sourceIndexFiles": 1221,
   "casesWithMappedLinks": 155,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 155,
@@ -62,7 +62,7 @@
   ],
   "quotesSelected": 155,
   "quotesWithLocators": 155,
-  "sourceRecordCount": 306,
+  "sourceRecordCount": 308,
   "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 104,
   "sourceDepthWeakThreshold": 25,
@@ -73,12 +73,12 @@
     "complete": 133
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 41,
+    "complete-primary-packet": 42,
     "secondary-only": 8,
     "single-primary-record": 49,
     "thin-summary": 41,
     "mixed-provenance": 2,
-    "multi-source-independent": 14
+    "multi-source-independent": 13
   },
   "sourceProfiles": {
     "BF-1957-RB-01": {
@@ -197,11 +197,12 @@
     },
     "BF-SF-07": {
       "label": "complete-primary-packet",
-      "primaryRecords": 3,
+      "primaryRecords": 5,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 4,
+      "independentSourceFamilies": 5,
       "sourceFamilies": [
         "other:edward j. ruppelt 1956 public account, project sign historical trail, and later ufo-history citations",
+        "other:exact pages within the 245-page dow-uap-d100 pdf published through pursue release 05; full local pdf hash verified",
         "other:local atlas audit derived from the current source inventory",
         "other:project gutenberg public-domain text edition; exact pdf, text, and page render retained with hashes",
         "usaf-blue-book"
@@ -1518,12 +1519,12 @@
       ]
     },
     "BF-2021-GOM-01": {
-      "label": "multi-source-independent",
+      "label": "complete-primary-packet",
       "primaryRecords": 2,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
-        "other:exact pdf published by the u.s. department of war in pursue release 05; full local copy hash-verified against the original download",
+        "other:exact seven-page pdf published through pursue release 05; full local pdf hash verified",
         "other:individual dvids records published by aaro/dow on 7 august 2026 map pr117\u2013pr122 to exact release 05 dod filenames"
       ]
     },

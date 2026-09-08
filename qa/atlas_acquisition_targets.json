@@ -448,12 +448,12 @@
         "declared acquisition target: ATIC/Air Force control-register, routing, withdrawal, destruction, or transfer records establishing the document\u2019s administrative trail"
       ],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 4,
-      "mainSourceRecords": 3,
-      "indexedLinks": 16,
+      "sourceRecords": 6,
+      "mainSourceRecords": 5,
+      "indexedLinks": 21,
       "publicSourceUrls": 4,
-      "evidenceAssets": 5,
-      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account, plus a contemporaneous 1948 Project SIGN/USAF correspondence packet released as DOW-UAP-D100. DOW-UAP-D100 verifies institutional context and actual November 1948 analytical language; it does not contain or authenticate the missing Estimate of the Situation.",
+      "evidenceAssets": 10,
+      "sourceQuality": "Exact page-verified public-domain edition of Ruppelt\u2019s 1956 insider account, plus three contemporaneous DOW-UAP-D100 primary-record layers: the November 1948 USAF/AMC acknowledgment and residual-unexplained assessment, AMC\u2019s RAND study request, and the December 1947 Project SIGN assignment/analysis packet. DOW-UAP-D100 is not the missing Estimate and does not authenticate its wording, approval or destruction.",
       "quoteConfidence": "High for Ruppelt\u2019s exact published wording on PDF page 35; unresolved for the Estimate itself because no original or authenticated copy is publicly recovered."
     }
   ]

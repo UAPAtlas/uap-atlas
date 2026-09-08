@@ -61,12 +61,12 @@
       "DOW-UAP-D100",
       "DOW-UAP-D100 \u00b7 PDF p. 152"
     ],
-    "indexedLinks": 30,
+    "indexedLinks": 36,
     "structuredSourceRecords": 5,
     "publicSourceUrls": 9,
     "evidenceAssets": 4,
-    "links": 36,
-    "local": 27,
+    "links": 42,
+    "local": 33,
     "urls": 9,
     "missingLocal": [],
     "hasEvidence": true
@@ -190,14 +190,16 @@
       "ESTIMATE-1948",
       "DOW-UAP-D10",
       "DOW-UAP-D100",
-      "DOW-UAP-D100 \u00b7 PDF pp. 7\u20138"
+      "DOW-UAP-D100 \u00b7 PDF pp. 1\u20133 and 7\u20139",
+      "DOW-UAP-D100 \u00b7 PDF pp. 31\u201334",
+      "DOW-UAP-D100 \u00b7 PDF pp. 232\u2013244"
     ],
-    "indexedLinks": 16,
-    "structuredSourceRecords": 4,
+    "indexedLinks": 21,
+    "structuredSourceRecords": 6,
     "publicSourceUrls": 4,
-    "evidenceAssets": 5,
-    "links": 18,
-    "local": 14,
+    "evidenceAssets": 10,
+    "links": 23,
+    "local": 19,
     "urls": 4,
     "missingLocal": [],
     "hasEvidence": true
@@ -236,12 +238,12 @@
       "DOW-UAP-D098",
       "DOW-UAP-D098 \u00b7 PDF pp. 6 and 9"
     ],
-    "indexedLinks": 12,
+    "indexedLinks": 13,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 2,
     "evidenceAssets": 3,
-    "links": 13,
-    "local": 11,
+    "links": 14,
+    "local": 12,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -270,12 +272,12 @@
       "DOW-UAP-D098",
       "DOW-UAP-D098 \u00b7 PDF pp. 6 and 9"
     ],
-    "indexedLinks": 17,
+    "indexedLinks": 18,
     "structuredSourceRecords": 3,
     "publicSourceUrls": 2,
     "evidenceAssets": 4,
-    "links": 18,
-    "local": 16,
+    "links": 19,
+    "local": 17,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -2472,15 +2474,15 @@
     "tokens": [
       "DOW-UAP-D101",
       "DOW-UAP-D10",
-      "DOW-UAP-D101 \u00b7 PDF pp. 1, 5\u20136",
-      "DOW-UAP-PR117\u2013PR122"
+      "DOW-UAP-PR117\u2013PR122",
+      "DOW-UAP-D101 \u00b7 PDF pp. 1\u20132, 5\u20136"
     ],
-    "indexedLinks": 11,
+    "indexedLinks": 12,
     "structuredSourceRecords": 2,
     "publicSourceUrls": 2,
-    "evidenceAssets": 4,
-    "links": 11,
-    "local": 9,
+    "evidenceAssets": 5,
+    "links": 12,
+    "local": 10,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
