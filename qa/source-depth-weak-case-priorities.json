@@ -364,22 +364,22 @@
     "id": "BF-1978-VL-01",
     "title": "Valentich Disappearance, Bass Strait",
     "score": 30,
-    "sourceRecords": 4,
-    "indexedLinks": 4,
-    "publicSourceUrls": 3,
+    "sourceRecords": 7,
+    "indexedLinks": 6,
+    "publicSourceUrls": 5,
     "evidenceAssets": 2,
-    "sourceQuality": "Exact official NAA catalog locator, official ATSB report locator, and inspected UFOr public transcript mirror. Current custody lacks the complete primary packet, direct official transcript/audio, complete search file, and radar/sensor records; none establishes UFO causation.",
-    "quoteConfidence": "High for wording visible in the inspected UFOr transcript mirror; not high for direct official custody because the complete NAA/Department of Transport packet and original audio are not held.",
+    "sourceQuality": "Released Department of Transport investigation and search records held as Black Vault public-mirror PDFs, with identifying and consequential pages inspected. Direct NAA payload completeness, original flight-service audio, and raw radar provenance remain unresolved. Official-record custody does not establish the reported object's identity or disappearance causation.",
+    "quoteConfidence": "High for the recovered report quotation; lower for any causal interpretation beyond the recorded communications.",
     "sourceProfile": {
       "label": "thin-summary",
       "primaryRecords": 0,
       "secondaryRecords": 0,
       "independentSourceFamilies": 4,
       "sourceFamilies": [
-        "other:australian transport safety bureau",
-        "other:local atlas audit derived from the current source inventory",
-        "other:national archives of australia recordsearch",
-        "other:ufo research (nsw) public copy attributed to the department of transport transcript"
+        "other:black vault public mirror of national archives of australia a4703 1978/1205, naa barcode 11485989",
+        "other:black vault public mirror of national archives of australia b1497 v116/783/1047",
+        "other:black vault public mirror of national archives of australia b1497 v116/783/1047, naa barcode 10491375",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "reasons": [

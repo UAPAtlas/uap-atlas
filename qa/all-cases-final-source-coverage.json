@@ -1118,15 +1118,17 @@
     "id": "BF-1978-VL-01",
     "title": "Valentich Disappearance, Bass Strait",
     "tokens": [
-      "VALENTICH-1978"
+      "VALENTICH-B1497-1978",
+      "VALENTICH-1978",
+      "VALENTICH-A4703-SAR"
     ],
-    "indexedLinks": 4,
-    "structuredSourceRecords": 4,
-    "publicSourceUrls": 3,
+    "indexedLinks": 6,
+    "structuredSourceRecords": 7,
+    "publicSourceUrls": 5,
     "evidenceAssets": 2,
-    "links": 7,
-    "local": 4,
-    "urls": 3,
+    "links": 11,
+    "local": 6,
+    "urls": 5,
     "missingLocal": [],
     "hasEvidence": true
   },

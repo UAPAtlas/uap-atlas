@@ -12935,16 +12935,16 @@
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     },
     {
-      "keyQuote": "It's hovering and it's not an aircraft.",
-      "quoteSource": "Public mirror of a final-communications transcript attributed to the Australian Department of Transport, October 21, 1978",
-      "quoteConfidence": "High for wording visible in the inspected UFOr transcript mirror; not high for direct official custody because the complete NAA/Department of Transport packet and original audio are not held.",
+      "keyQuote": "it is hovering and it's not an aircraft",
+      "quoteSource": "Aircraft Accident Investigation Summary Report transcript, 1912:09 EST, 21 Oct 1978; B1497 PDF p.8",
+      "quoteConfidence": "High for the recovered report quotation; lower for any causal interpretation beyond the recorded communications.",
       "significance": "High significance",
-      "sourceQuality": "Exact official NAA catalog locator, official ATSB report locator, and inspected UFOr public transcript mirror. Current custody lacks the complete primary packet, direct official transcript/audio, complete search file, and radar/sensor records; none establishes UFO causation.",
+      "sourceQuality": "Released Department of Transport investigation and search records held as Black Vault public-mirror PDFs, with identifying and consequential pages inspected. Direct NAA payload completeness, original flight-service audio, and raw radar provenance remain unresolved. Official-record custody does not establish the reported object's identity or disappearance causation.",
       "coordinateBasis": "Last reported position area over Bass Strait south of Cape Otway",
       "coordinatePrecision": "offshore-area",
       "id": "BF-1978-VL-01",
       "title": "Valentich Disappearance, Bass Strait",
-      "date": "OCT 1978",
+      "date": "21 OCT 1978",
       "year": 1978,
       "location": "Bass Strait, off Cape Otway, Australia",
       "mode": "approximate",
@@ -12955,21 +12955,23 @@
       "domain": "MARITIME / AERIAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Pilot Frederick Valentich disappeared over Bass Strait after radioing Melbourne Flight Service that an unidentified object was near his aircraft and that his engine was running roughly. An inspected public transcript mirror preserves those reported communications; exact NAA and ATSB official locators identify the disappearance/investigation trail. Neither the transcript nor the locators establish what caused the disappearance or that the reported object caused it.",
-      "keyFact": "A public copy of the final-communications transcript records Valentich reporting an unidentified object before contact was lost; it documents his report, not the object's identity or the cause of the disappearance.",
-      "official": "NAA and ATSB publish exact locators for the official disappearance/investigation record. The complete packet and direct official transcript/audio custody are not mapped locally, so causal conclusions are not upgraded here.",
-      "gap": "The complete NAA/Department of Transport investigation packet, direct official transcript/audio custody, full search documentation, and any complete radar/sensor chain remain unmapped; the public transcript mirror alone cannot establish causation.",
+      "summary": "Pilot Frederick Valentich, 20, reported an unidentified object with green lights pacing his Cessna over Bass Strait on 21 October 1978; the released investigation report preserves the final communications, including “it is hovering and it's not an aircraft,” before contact ended. Neither pilot nor aircraft was recovered, and the official cause finding remained unresolved.",
+      "keyFact": "The recovered Department of Transport report preserves Valentich's final communication and states the disappearance cause was not determined.",
+      "official": "The Aircraft Accident Investigation Summary Report, approved 27 April 1982, states: “The reason for the disappearance of the aircraft has not been determined.” The released file preserves the reported communications and supporting investigative material.",
+      "gap": "Released investigation and SAR mirror PDFs are now held locally, but direct NAA payload completeness, original flight-service audio, raw radar/sensor provenance, and later 1985–1992 folios represented by a historical 2012 access mask remain open. The 1983 cowl flap was compatible with the missing aircraft's serial-number range but was not identified as VH-DSJ debris; the radar-analysis memo is not a raw object track.",
       "whyItMatters": "Valentich is an aviation disappearance with contemporaneous reported communications, but the evidentiary boundary is strict: disappearance and transcript trail are documented; UFO causation is not.",
       "sources": [
+        "VALENTICH-B1497-1978 · Black Vault mirror of NAA B1497 V116/783/1047",
+        "VALENTICH-A4703-SAR · Black Vault mirror of NAA A4703 1978/1205",
         "VALENTICH-1978 · DoT transcript / National Archives of Australia file"
       ],
-      "sourceLabel": "Official locators / public transcript mirror",
-      "sourceLocator": "VALENTICH-1978",
+      "sourceLabel": "DoT investigation and SAR public mirrors",
+      "sourceLocator": "VALENTICH-B1497-1978",
       "relatedCaseIds": [
         "BF-1986-JAL-01",
         "BF-1967-SH-01"
       ],
-      "heroFact": "A public transcript copy records Valentich's reported unidentified object before contact was lost; it does not establish the disappearance's cause.",
+      "heroFact": "The recovered Department of Transport report preserves Valentich's final communication and states the disappearance cause was not determined.",
       "image": "assets/source_previews/BF-1978-VL-01_source_image.jpg",
       "images": [
         "assets/source_previews/BF-1978-VL-01_source_image.jpg",
@@ -12992,13 +12994,13 @@
         "provenance": "official-locators-and-public-transcript-mirror"
       },
       "temporal": {
-        "dateLabel": "OCT 1978",
+        "dateLabel": "21 OCT 1978",
         "year": 1978,
-        "startDateTime": null,
+        "startDateTime": "1978-10-21T18:19:00+10:00",
         "endDateTime": null,
-        "timezone": null,
+        "timezone": "Australia/EST as source-labeled; GMT also appears in search reporting",
         "durationSeconds": null,
-        "precision": "month",
+        "precision": "day",
         "eventForm": "single-event"
       },
       "geospatial": {
@@ -13030,49 +13032,122 @@
       },
       "sourceRecords": [
         {
-          "citation": "National Archives of Australia · B1497 V116/783/1047",
-          "sourceType": "catalog-locator-only",
-          "provenance": "National Archives of Australia RecordSearch",
-          "locator": "Barcode 10491375; item B1497 V116/783/1047",
+          "citation": "Aircraft Accident Investigation Summary Report, approved 27 Apr 1982 · B1497 PDF pp.6–8",
+          "sourceType": "released-department-of-transport-investigation-report-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia B1497 V116/783/1047, NAA barcode 10491375",
+          "locator": "VALENTICH-B1497-1978",
+          "pages": [
+            6,
+            7,
+            8
+          ],
           "supports": [
-            "Identifies the exact official archival file for the disappearance/investigation trail"
+            "Identifies Frederick Valentich, Cessna 182L VH-DSJ, and the event date as 21 October 1978",
+            "Preserves the final communications including 1912:09: “it is hovering and it's not an aircraft”",
+            "Records the official approved finding: “The reason for the disappearance of the aircraft has not been determined.”"
           ],
           "limitations": [
-            "Catalog locator only in current Atlas custody",
-            "File contents were not recovered or inspected in this tranche",
-            "Does not establish UFO causation"
-          ],
-          "sourceUrl": "https://recordsearch.naa.gov.au/SearchNRetrieve/Interface/DetailsReports/ItemDetail.aspx?Barcode=10491375&isAv=N"
+            "Does not identify the reported object or establish UFO causation",
+            "Does not provide original flight-service audio custody",
+            "Does not close raw radar or sensor provenance targets"
+          ]
         },
         {
-          "citation": "ATSB · Aircraft Accident Investigation Summary Report 197802563",
-          "sourceType": "report-locator-only",
-          "provenance": "Australian Transport Safety Bureau",
-          "locator": "Investigation report 197802563",
+          "citation": "NAA access mask · B1497 PDF p.12, mask date 6 Mar 2012",
+          "sourceType": "historical-access-mask-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia B1497 V116/783/1047",
+          "locator": "VALENTICH-B1497-1978",
+          "pages": [
+            12
+          ],
           "supports": [
-            "Identifies the official accident-investigation summary endpoint for the disappearance"
+            "Documents a historical 2012 mask for approximately 0.5 cm of 1985–1992 material marked “Not in the open period”",
+            "Shows the downloaded 316-page mirror should not be described as the complete archival file"
           ],
           "limitations": [
-            "Endpoint payload was unavailable to direct inspection in this tranche",
-            "Locator alone does not verify specific conclusions or UFO causation"
-          ],
-          "sourceUrl": "https://www.atsb.gov.au/sites/default/files/investigation-reports/197802563.pdf"
+            "Does not establish that those later folios remain restricted today",
+            "Does not enumerate the omitted folio page numbers",
+            "Does not describe a national-security exemption finding"
+          ]
         },
         {
-          "citation": "Valentich final communications · inspected UFOr public copy",
-          "sourceType": "public-transcript-mirror",
-          "provenance": "UFO Research (NSW) public copy attributed to the Department of Transport transcript",
-          "locator": "PDF pp. 1–2; 09:06:14–09:12:49 GMT",
+          "citation": "RAN Research Laboratory cowl-flap correspondence, map, and photographs · B1497 PDF pp.13, 15–17",
+          "sourceType": "released-investigation-correspondence-physical-debris-lead-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia B1497 V116/783/1047",
+          "locator": "VALENTICH-B1497-1978",
+          "pages": [
+            13,
+            15,
+            16,
+            17
+          ],
           "supports": [
-            "Records Valentich reporting an unidentified object, green light, metallic appearance, and rough engine running",
-            "Records loss of communications after a final open-microphone interval"
+            "Records a Cessna 182 engine cowl flap found at Parry's Bay, Flinders Island, on 15 May 1983",
+            "States the compatible serial-number range includes the missing aircraft",
+            "Holds the related location map and two photographic views in the investigation mirror"
           ],
           "limitations": [
-            "Private/public mirror rather than direct NAA or Department of Transport custody",
-            "Bracketed audio interpretations are editorial annotations in the mirror",
-            "The communications do not establish object identity or causal connection to the disappearance"
+            "Does not uniquely identify the part as VH-DSJ debris",
+            "The 14 October 1983 RAN transport explanation is a possible storm/current mechanism, not a confirmed drift track",
+            "Cowl flaps can separate in flight and the finding does not determine the disappearance cause"
+          ]
+        },
+        {
+          "citation": "Materials Research Laboratories oil-sample result · B1497 PDF p.103",
+          "sourceType": "released-laboratory-correspondence-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia B1497 V116/783/1047",
+          "locator": "VALENTICH-B1497-1978",
+          "pages": [
+            103
           ],
-          "sourceUrl": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
+          "supports": [
+            "Reports solvent extraction, gas chromatography, and mass spectrometry on oil samples",
+            "Finds hydrocarbons more consistent with bunkering fuel oil than gasoline or lubricating oil"
+          ],
+          "limitations": [
+            "Does not identify an aircraft-derived slick",
+            "Sampling limitations remain part of the record"
+          ]
+        },
+        {
+          "citation": "M.J. Harwood radar-analysis minute · B1497 PDF p.104, duplicate p.110",
+          "sourceType": "released-radar-analysis-minute-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia B1497 V116/783/1047",
+          "locator": "VALENTICH-B1497-1978",
+          "pages": [
+            104,
+            110
+          ],
+          "supports": [
+            "Documents radar-related discussion of anomalous propagation and second-time-round returns",
+            "Provides a conventional interpretation of controller notes"
+          ],
+          "limitations": [
+            "Is a radar-analysis memo, not a raw radar track",
+            "Does not verify a track of the object reported by Valentich",
+            "Does not close the raw-sensor provenance target"
+          ]
+        },
+        {
+          "citation": "MARSAR/SAR SITREP narrative · A4703 PDF pp.4–5, 22",
+          "sourceType": "released-search-and-rescue-file-public-mirror",
+          "provenance": "Black Vault public mirror of National Archives of Australia A4703 1978/1205, NAA barcode 11485989",
+          "locator": "VALENTICH-A4703-SAR",
+          "pages": [
+            4,
+            5,
+            22
+          ],
+          "supports": [
+            "Documents contemporaneous search operations after the disappearance",
+            "Records seven civil aircraft searching 5,000 square nautical miles on 24 October 1978",
+            "Records 62 hours 35 minutes of search flying to the 25 October SITREP reporting time, with further searching still planned before active operations were to cease at 1900 EST"
+          ],
+          "limitations": [
+            "Search metrics are time-bounded, not final all-source search totals",
+            "Search datums and projected splash points are planning estimates, not measured aircraft positions or UFO tracks",
+            "SAR p.106 concerns different aircraft in the Tennant Creek–Darwin/Tindal area and is excluded from the Valentich case"
+          ]
         },
         {
           "citation": "Atlas evidence-depth audit · 2026-07-18",
@@ -13086,7 +13161,7 @@
           ],
           "limitations": [
             "not an independent source",
-            "does not corroborate UFO causation",
+            "does not corroborate the event narrative",
             "cannot substitute for missing primary records"
           ]
         }
@@ -13151,34 +13226,108 @@
           "publisher": "UFO Research (NSW) / public copy",
           "scope": "official-transcript-copy",
           "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
+        },
+        {
+          "access": "Public mirror; local PDF held as custody-only research corpus",
+          "label": "Black Vault mirror — NAA B1497 V116/783/1047 Valentich investigation file (316 pages)",
+          "note": "Public mirror of released Department of Transport investigation material. Atlas cites inspected PDF pages 6–8, 12–17, 103–104; mirror custody does not prove direct NAA payload completeness or original audio/raw sensor custody.",
+          "publisher": "The Black Vault / National Archives of Australia release mirror",
+          "scope": "public-mirror-investigation-file-custody-only",
+          "url": "https://documents.theblackvault.com/documents/ufos/australia/B1497_V116-783-1047_10491375.pdf"
+        },
+        {
+          "access": "Public mirror; local PDF held as custody-only research corpus",
+          "label": "Black Vault mirror — NAA A4703 1978/1205 search-and-rescue file (218 pages)",
+          "note": "Public mirror of released SAR material. Atlas cites pp.4–5 and p.22 for the MARSAR narrative and time-bounded search metrics; p.106 is an unrelated aircraft report and is excluded from this case.",
+          "publisher": "The Black Vault / National Archives of Australia release mirror",
+          "scope": "public-mirror-search-file-custody-only",
+          "url": "https://documents.theblackvault.com/documents/ufos/australia/A4703_1978-1205_11485989.pdf"
         }
       ],
       "acquisitionTargets": [
         {
-          "targetType": "official-investigation-packet",
-          "description": "Complete NAA/Department of Transport packet B1497 V116/783/1047 / Barcode 10491375",
-          "status": "locator-only",
-          "publicOnlyResult": "Exact catalog locator verified; packet not inspected",
+          "id": "valentich-b1497-public-mirror",
+          "label": "B1497 V116/783/1047 public mirror PDF",
+          "status": "recovered-new",
+          "locator": "source-files/public-mirrors/VALENTICH-1978/valentich_blackvault_fullpacket.pdf",
+          "publicMirrorUrl": "https://documents.theblackvault.com/documents/ufos/australia/B1497_V116-783-1047_10491375.pdf",
           "lastPublicAudit": "2026-08-08",
-          "auditScope": "public-only"
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "recovered-new"
         },
         {
-          "targetType": "official-transcript-or-audio",
-          "description": "Direct official final-communications transcript and original/earliest-generation ATC audio",
-          "status": "publicly-unavailable",
-          "publicOnlyResult": "Only a public transcript mirror was inspected",
+          "id": "valentich-a4703-public-mirror",
+          "label": "A4703 1978/1205 SAR public mirror PDF",
+          "status": "recovered-new",
+          "locator": "source-files/public-mirrors/VALENTICH-1978/valentich_a4703_1978-1205_11485989.pdf",
+          "publicMirrorUrl": "https://documents.theblackvault.com/documents/ufos/australia/A4703_1978-1205_11485989.pdf",
           "lastPublicAudit": "2026-08-08",
-          "auditScope": "public-only"
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "recovered-new"
         },
         {
-          "targetType": "search-and-sensor-records",
-          "description": "Complete official search documentation, radar records, air-traffic records, and sensor/communications logs",
-          "status": "publicly-unavailable",
-          "publicOnlyResult": "No complete records recovered",
+          "id": "valentich-direct-naa-payload-completeness",
+          "label": "Direct NAA payload completeness/version check",
+          "status": "open",
           "lastPublicAudit": "2026-08-08",
-          "auditScope": "public-only"
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "open"
+        },
+        {
+          "id": "valentich-1985-1992-masked-folios",
+          "label": "Later 1985–1992 folios represented by the 6 Mar 2012 access mask",
+          "status": "open",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "open"
+        },
+        {
+          "id": "valentich-original-flight-service-audio",
+          "label": "Original flight-service audio custody",
+          "status": "open",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "open"
+        },
+        {
+          "id": "valentich-raw-radar-sensor-provenance",
+          "label": "Complete raw radar/sensor provenance",
+          "status": "open",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "open"
+        },
+        {
+          "id": "valentich-later-folios-and-attachments",
+          "label": "Any later folios, attachments, and original-material classes beyond the released mirrors",
+          "status": "open",
+          "lastPublicAudit": "2026-08-08",
+          "auditScope": "public-only",
+          "targetType": "public-source-custody",
+          "publicOnlyResult": "open"
         }
       ],
+      "sourceUpdateCard": {
+        "title": "2026 public-mirror source update",
+        "status": "Default-visible boundary card",
+        "findings": [
+          "Released investigation and SAR PDFs are now held locally as custody-only public mirrors, with exact inspected pages mapped.",
+          "The official report states: “The reason for the disappearance of the aircraft has not been determined.”",
+          "The 1983 cowl flap is compatible with the missing aircraft's serial-number range, not identified as VH-DSJ debris.",
+          "The sampled hydrocarbons were more consistent with bunkering fuel oil than gasoline or lubricating oil; the radar item is an analysis memo, not a raw object track."
+        ],
+        "limitations": [
+          "Original flight-service audio, raw radar/sensor provenance, later masked 1985–1992 folios, and direct-origin completeness remain open acquisition targets.",
+          "The 2012 access mask is a historical access condition, not proof of a current restriction.",
+          "SAR p.106 is unrelated aircraft material and is excluded."
+        ]
+      },
       "mapGeometry": {
         "type": "LineString",
         "d": "M85.5,42.25L84.98,42.52L84.92,42.83",
@@ -30855,11 +31004,11 @@
     {
       "id": "TL-1978A",
       "year": 1978,
-      "date": "OCT 1978",
+      "date": "21 OCT 1978",
       "type": "incident",
       "caseId": "BF-1978-VL-01",
       "title": "Valentich vanishes over Bass Strait",
-      "desc": "Valentich's reported unidentified object appears in a public final-communications transcript copy before contact is lost; the record does not establish the cause of his disappearance."
+      "desc": "Valentich's final communications are preserved in the held investigation mirror, including “it is hovering and it's not an aircraft”; the official report states the disappearance cause was not determined."
     },
     {
       "id": "TL-1980C",

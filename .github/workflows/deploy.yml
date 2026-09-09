@@ -58,6 +58,7 @@ jobs:
           python3 scripts/test-selective-primary-record-quality.py
           python3 scripts/test-blackfile-boundary-queue-calibration.py
           python3 scripts/test-public-acquisition-integration.py
+          python3 scripts/test-valentich-integration-2026-09-08.py
   deploy:
     needs: validate
     environment:

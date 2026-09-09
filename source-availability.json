@@ -7,10 +7,10 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 952,
+    "indexedPaths": 954,
     "publicLocal": 368,
     "externalPublic": 446,
-    "custodyOnly": 138,
+    "custodyOnly": 140,
     "unavailable": 0
   },
   "entries": {
@@ -4588,6 +4588,14 @@
       "label": "Held in Atlas research corpus—not publicly served"
     },
     "source-files/primary/NARA-MINOT-1968/manifest.json": {
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
+    },
+    "source-files/public-mirrors/VALENTICH-1978/valentich_a4703_1978-1205_11485989.pdf": {
+      "status": "custody-only",
+      "label": "Held in Atlas research corpus—not publicly served"
+    },
+    "source-files/public-mirrors/VALENTICH-1978/valentich_blackvault_fullpacket.pdf": {
       "status": "custody-only",
       "label": "Held in Atlas research corpus—not publicly served"
     }

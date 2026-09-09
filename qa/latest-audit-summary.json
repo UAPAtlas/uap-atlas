@@ -11,8 +11,8 @@
   "seriesParentCount": 4,
   "seriesChildCount": 16,
   "timelineEventCount": 153,
-  "sourceIndexTerms": 268,
-  "sourceIndexFiles": 1221,
+  "sourceIndexTerms": 270,
+  "sourceIndexFiles": 1223,
   "casesWithMappedLinks": 155,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 155,
@@ -62,7 +62,7 @@
   ],
   "quotesSelected": 155,
   "quotesWithLocators": 155,
-  "sourceRecordCount": 308,
+  "sourceRecordCount": 311,
   "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 104,
   "sourceDepthWeakThreshold": 25,
@@ -740,10 +740,10 @@
       "secondaryRecords": 0,
       "independentSourceFamilies": 4,
       "sourceFamilies": [
-        "other:australian transport safety bureau",
-        "other:local atlas audit derived from the current source inventory",
-        "other:national archives of australia recordsearch",
-        "other:ufo research (nsw) public copy attributed to the department of transport transcript"
+        "other:black vault public mirror of national archives of australia a4703 1978/1205, naa barcode 11485989",
+        "other:black vault public mirror of national archives of australia b1497 v116/783/1047",
+        "other:black vault public mirror of national archives of australia b1497 v116/783/1047, naa barcode 10491375",
+        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-1980-CLD-01": {

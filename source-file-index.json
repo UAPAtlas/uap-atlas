@@ -1755,5 +1755,11 @@
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-005.png",
     "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D101-pdf-page-006.png",
     "https://www.war.gov/UFO/?releaseDate=Release+05&release=05"
+  ],
+  "VALENTICH-B1497-1978": [
+    "source-files/public-mirrors/VALENTICH-1978/valentich_blackvault_fullpacket.pdf"
+  ],
+  "VALENTICH-A4703-SAR": [
+    "source-files/public-mirrors/VALENTICH-1978/valentich_a4703_1978-1205_11485989.pdf"
   ]
 }

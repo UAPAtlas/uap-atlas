@@ -339,6 +339,22 @@
       "publisher": "UFO Research (NSW) / public copy",
       "scope": "official-transcript-copy",
       "url": "https://www.ufor.asn.au/wp-content/uploads/2015/04/FrederickValentichFinalCommunication.pdf"
+    },
+    {
+      "access": "Public mirror; local PDF held as custody-only research corpus",
+      "label": "Black Vault mirror — NAA B1497 V116/783/1047 Valentich investigation file (316 pages)",
+      "note": "Public mirror of released Department of Transport investigation material. Atlas cites inspected PDF pages 6–8, 12–17, 103–104; mirror custody does not prove direct NAA payload completeness or original audio/raw sensor custody.",
+      "publisher": "The Black Vault / National Archives of Australia release mirror",
+      "scope": "public-mirror-investigation-file-custody-only",
+      "url": "https://documents.theblackvault.com/documents/ufos/australia/B1497_V116-783-1047_10491375.pdf"
+    },
+    {
+      "access": "Public mirror; local PDF held as custody-only research corpus",
+      "label": "Black Vault mirror — NAA A4703 1978/1205 search-and-rescue file (218 pages)",
+      "note": "Public mirror of released SAR material. Atlas cites pp.4–5 and p.22 for the MARSAR narrative and time-bounded search metrics; p.106 is an unrelated aircraft report and is excluded from this case.",
+      "publisher": "The Black Vault / National Archives of Australia release mirror",
+      "scope": "public-mirror-search-file-custody-only",
+      "url": "https://documents.theblackvault.com/documents/ufos/australia/A4703_1978-1205_11485989.pdf"
     }
   ],
   "BF-1980-CLD-01": [

@@ -150,18 +150,20 @@
       "priorityScore": 90,
       "legacyWeaknessScore": 30,
       "reasons": [
-        "declared acquisition target: official-investigation-packet",
-        "declared acquisition target: official-transcript-or-audio",
-        "declared acquisition target: search-and-sensor-records"
+        "declared acquisition target: public-source-custody",
+        "declared acquisition target: public-source-custody",
+        "declared acquisition target: public-source-custody",
+        "declared acquisition target: public-source-custody",
+        "declared acquisition target: public-source-custody"
       ],
       "sourceProfile": "thin-summary",
-      "sourceRecords": 4,
-      "mainSourceRecords": 3,
-      "indexedLinks": 4,
-      "publicSourceUrls": 3,
+      "sourceRecords": 7,
+      "mainSourceRecords": 6,
+      "indexedLinks": 6,
+      "publicSourceUrls": 5,
       "evidenceAssets": 2,
-      "sourceQuality": "Exact official NAA catalog locator, official ATSB report locator, and inspected UFOr public transcript mirror. Current custody lacks the complete primary packet, direct official transcript/audio, complete search file, and radar/sensor records; none establishes UFO causation.",
-      "quoteConfidence": "High for wording visible in the inspected UFOr transcript mirror; not high for direct official custody because the complete NAA/Department of Transport packet and original audio are not held."
+      "sourceQuality": "Released Department of Transport investigation and search records held as Black Vault public-mirror PDFs, with identifying and consequential pages inspected. Direct NAA payload completeness, original flight-service audio, and raw radar provenance remain unresolved. Official-record custody does not establish the reported object's identity or disappearance causation.",
+      "quoteConfidence": "High for the recovered report quotation; lower for any causal interpretation beyond the recorded communications."
     },
     {
       "id": "BF-1987-GB-01",
