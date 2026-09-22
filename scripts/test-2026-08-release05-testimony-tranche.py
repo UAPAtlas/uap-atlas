@@ -23,8 +23,8 @@ def require(ok, message):
 
 atlas = json.loads((ROOT / "atlas-data.json").read_text())
 by_id = {c["id"]: c for c in atlas["cases"]}
-require(len(atlas["cases"]) == 157, "testimony tranche must produce 157 cases")
-require(len(atlas["timeline"]) == 155, "testimony tranche must produce 155 timeline entries")
+require(len(atlas["cases"]) == 159, "current registry must preserve 159 cases after Release 06 follow-up")
+require(len(atlas["timeline"]) == 157, "current registry must preserve 157 timeline entries after Release 06 follow-up")
 require(IDS <= set(by_id), "one or more testimony cases missing")
 require({t["caseId"] for t in atlas["timeline"] if t["caseId"] in IDS} == IDS, "testimony timeline coverage incomplete")
 

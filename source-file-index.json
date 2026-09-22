@@ -1761,5 +1761,32 @@
   ],
   "VALENTICH-A4703-SAR": [
     "source-files/public-mirrors/VALENTICH-1978/valentich_a4703_1978-1205_11485989.pdf"
+  ],
+  "DOW-UAP-D105-OKINAWA-1950": [
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-252.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png",
+    "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+  ],
+  "LLE-UAP-D001-COLORADO-2023": [
+    "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png",
+    "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+  ],
+  "DOW-UAP-D10-ME-2022": [
+    "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-001.png",
+    "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-006.png",
+    "https://www.war.gov/UFO/"
+  ],
+  "RELEASE06-TREMONTON-MEMO": [
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-037.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-038.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-039.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-113.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-121.png"
+  ],
+  "RELEASE06-MAY2022-REPORTS": [
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-001.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-001.png",
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-006.png"
   ]
 }

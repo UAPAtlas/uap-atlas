@@ -28,9 +28,9 @@ triage_by_id = {case["id"]: case for case in triage["cases"]}
 
 require(len(SCOPE) == 20, "scope is not exactly 20 existing cases")
 require(set(SCOPE) <= set(by_id), "one or more scoped existing cases are absent")
-require(len(data["cases"]) == 157, "case count changed")
-require(len(data["timeline"]) == 155, "timeline count changed")
-require(triage["counts"] == {"trueGaps": 0, "qualityUpgrades": 0, "acquisitionTargets": 22, "complete": 135}, "final triage counts drifted")
+require(len(data["cases"]) == 159, "case count changed")
+require(len(data["timeline"]) == 157, "timeline count changed")
+require(triage["counts"] == {"trueGaps": 0, "qualityUpgrades": 0, "acquisitionTargets": 24, "complete": 135}, "final triage counts drifted")
 
 for cid in COMPLETE:
     require(triage_by_id[cid]["category"] == "complete", f"{cid} did not close its quality repair")
@@ -61,4 +61,4 @@ report_text = report.read_text()
 for cid in SCOPE:
     require(cid in report_text, f"{cid} absent from tranche report")
 
-print(f"PASS: exact-20 tranche ({len(COMPLETE)} complete, {len(ACQUISITION)} acquisition; 157 cases / 155 timeline)")
+print(f"PASS: exact-20 tranche ({len(COMPLETE)} complete, {len(ACQUISITION)} acquisition; 159 cases / 157 timeline)")

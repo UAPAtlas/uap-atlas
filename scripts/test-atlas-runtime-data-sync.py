@@ -35,7 +35,7 @@ def main() -> None:
     embedded_index = embedded(runtime_text, "sourceFileIndex")
     embedded_availability = embedded(runtime_text, "sourceAvailabilityIndex") if has_constant(runtime_text, "sourceAvailabilityIndex") else None
 
-    assert len(atlas.get("cases", [])) == 157
+    assert len(atlas.get("cases", [])) == 159
     normalized = json.loads(json.dumps(embedded_atlas))
     normalized_expected = json.loads(json.dumps(atlas))
     for case in normalized.get("cases", []):
@@ -52,7 +52,7 @@ def main() -> None:
         and isinstance(case.get("y"), (int, float)) and not isinstance(case.get("y"), bool)
         and math.isfinite(case["x"]) and math.isfinite(case["y"])
     ]
-    assert len(projected) == 131, f"{html_path.name} must retain 131 finite projected map coordinates, got {len(projected)}"
+    assert len(projected) == 133, f"{html_path.name} must retain 133 finite projected map coordinates, got {len(projected)}"
     assert all(case.get("projection") for case in projected), f"{html_path.name} projected cases must declare projection"
     assert embedded_index == source_index, f"{html_path.name} sourceFileIndex is stale; run sync_atlas_runtime_data.py"
     if embedded_availability is not None:

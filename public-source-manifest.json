@@ -1611,5 +1611,25 @@
       "scope": "secondary-retrospective",
       "note": "Secondary context for the 1995 broadcast controversy. It does not supply the exact 2006 Eamonn Investigates recording or transcript, production documentation, or claimed original film master."
     }
+  ],
+  "BF-1950-OK-01": [
+    {
+      "label": "PURSUE Release 06 — D105 Okinawa pages",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+      "access": "Public landing page",
+      "scope": "official-release",
+      "note": "Official release landing page; local Atlas carries rendered page derivatives for pp. 252–253."
+    }
+  ],
+  "BF-2023-CO-LE-01": [
+    {
+      "label": "PURSUE Release 06 — LLE-UAP-D001 transcript",
+      "publisher": "U.S. Department of War",
+      "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+      "access": "Public landing page",
+      "scope": "official-release",
+      "note": "Official release landing page; local Atlas carries the rendered transcript page."
+    }
   ]
 }

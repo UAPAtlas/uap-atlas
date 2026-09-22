@@ -10,7 +10,7 @@
   "counts": {
     "trueGaps": 0,
     "qualityUpgrades": 0,
-    "acquisitionTargets": 22,
+    "acquisitionTargets": 24,
     "complete": 135
   },
   "cases": [
@@ -429,6 +429,26 @@
       "quoteConfidence": "High for 'a few abrupt directional changes' and other wording visible on the locally held DOW-UAP-D44 report page; low for performance or object interpretation beyond the released form."
     },
     {
+      "id": "BF-2023-CO-LE-01",
+      "title": "Colorado Law-Enforcement Orb Transcript",
+      "domain": "LOCAL LAW ENFORCEMENT / VIDEO TRANSCRIPT",
+      "category": "acquisition_target",
+      "priorityScore": 72,
+      "legacyWeaknessScore": 12,
+      "reasons": [
+        "declared acquisition target: native-video-audio",
+        "declared acquisition target: dispatch-radar-logs"
+      ],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Official transcript custody; low-to-medium event evidentiary weight because native video/audio and radar logs are absent.",
+      "quoteConfidence": "Medium \u2014 transcript wording is traceable to the released official page, but native video/audio is absent."
+    },
+    {
       "id": "BF-1947-MI-01",
       "title": "Maury Island Affair",
       "domain": "HISTORICAL / AERIAL",
@@ -448,6 +468,26 @@
       "evidenceAssets": 1,
       "sourceQuality": "Official FBI primary part-file plus a public Wayback mirror of a four-page Air Rescue Service mission report. The FBI record preserves the exact non-confession boundary; the ARS report documents a left-engine fire, wreckage response, and classified-document handling. The complete Seattle report, formal AAF accident-investigation board file, and sample-analysis custody record are still not mapped.",
       "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession."
+    },
+    {
+      "id": "BF-1950-OK-01",
+      "title": "Okinawa Object-in-Water Recovery Inquiry",
+      "domain": "AIR-SEA / RECOVERY INQUIRY",
+      "category": "acquisition_target",
+      "priorityScore": 60,
+      "legacyWeaknessScore": 0,
+      "reasons": [
+        "declared acquisition target: original-interview-and-sketch",
+        "declared acquisition target: atic-follow-up-and-recovery-disposition"
+      ],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary official file pages; strong for existence of the inquiry and missing follow-up, weak for the reported object itself.",
+      "quoteConfidence": "Medium \u2014 selected wording is traceable to released official pages, but event interpretation remains witness-report only."
     },
     {
       "id": "BF-SF-07",
@@ -2093,12 +2133,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 4,
-      "mainSourceRecords": 4,
-      "indexedLinks": 23,
+      "sourceRecords": 5,
+      "mainSourceRecords": 5,
+      "indexedLinks": 28,
       "publicSourceUrls": 3,
       "evidenceAssets": 4,
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated. Release 06 adds the Blue Book Tremonton case file (D102), photo file (D103), Newhouse personnel file (D104), and Ruppelt transcript context (D154), deepening primary custody but not resolving the film-generation/original-camera gap.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence: D098 says the analyzed Utah film was a duplicate of a copy; the camera original and full laboratory ledger remain unlocated. Joined by D098 Navy/PIC analysis and Release 06 D102/D103/D104/D154 context. D102 deepens the record by showing public-information strategy, brightness-method objections, proposed gull/balloon tests, Newhouse\u2019s unmeasured statement, and later Air Force bird-reflection language. It supports institutional process and analytical disagreement, not proof of an extraterrestrial coverup.",
       "quoteConfidence": "High \u2014 visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory."
     },
     {
@@ -2603,12 +2643,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 3,
-      "mainSourceRecords": 2,
-      "indexedLinks": 5,
+      "sourceRecords": 4,
+      "mainSourceRecords": 3,
+      "indexedLinks": 9,
       "publicSourceUrls": 2,
       "evidenceAssets": 5,
-      "sourceQuality": "Primary source, expanded by PURSUE Release 06 mission reports D106 and D109; speeds are source-estimated/reported from MTS/FMV context, not independently reproduced Atlas measurements.",
+      "sourceQuality": "Primary mission reports D10, D106 and D109; all performance values are source-reported/estimated from redacted mission context, with native FMV/WSV absent. Legacy unaided-visual/USAF missile-crew fields were removed because D10/D106/D109 do not support them.",
       "quoteConfidence": "confirmed source-phrase quotation"
     },
     {

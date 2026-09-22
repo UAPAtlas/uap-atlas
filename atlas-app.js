@@ -391,7 +391,7 @@ function imageDerivative(path){const key=String(path||'').split('#')[0].split('?
 function displayImageUrl(path){return imageDerivative(path)?.display?.path||linkUrl(path);}
 function thumbImageUrl(path){return imageDerivative(path)?.thumb?.path||displayImageUrl(path);}
 function originalImageUrl(path){return imageDerivative(path)?.originalUrl||linkUrl(path);}
-function sourceTokens(src){const s=String(src||'').toUpperCase(); return Object.keys(sourceFileIndex).filter(tok=>s.includes(String(tok).toUpperCase()));}
+function sourceTokens(src){const s=String(src||'').toUpperCase(); return Object.keys(sourceFileIndex).filter(tok=>{const t=String(tok).toUpperCase();let i=s.indexOf(t);while(i>=0){const before=s[i-1]||'',after=s[i+t.length]||'';if(!/[A-Z0-9]/.test(before)&&!/[A-Z0-9]/.test(after))return true;i=s.indexOf(t,i+1);}return false;});}
 function mediaKind(path){const raw=String(path||''); if(/^https?:\/\//i.test(raw)) return 'url'; const ext=raw.split('?')[0].split('.').pop().toLowerCase(); if(['jpg','jpeg','png','gif','webp'].includes(ext)) return 'image'; if(['mp4','mov','webm'].includes(ext)) return 'video'; if(ext==='pdf') return 'pdf'; return 'file';}
 function fileName(path){return String(path||'').split('/').pop();}
 function sourceActionLabel(kind,path=''){if(kind==='video') return 'Watch source video'; if(kind==='image') return 'View archival image'; if(kind==='pdf') return 'Open source document'; if(kind==='url'&&/(?:youtube\.com|youtu\.be|dvidshub\.net\/video)/i.test(path)) return 'Watch external video'; if(kind==='url') return 'View external source'; return 'Open source file';}
@@ -409,7 +409,7 @@ function filesForSource(src){
   sourceTokens(src).forEach(tok=>(sourceFileIndex[tok]||[]).forEach(path=>{if(!seen.has(path)){seen.add(path); out.push({token:tok,path,kind:mediaKind(path),availability:sourceAvailability(path)});}}));
   return out;
 }
-function filesForCase(c){const out=[]; const seen=new Set(); (c.sources||[]).forEach(src=>filesForSource(src).forEach(f=>{if(!seen.has(f.path)){seen.add(f.path); out.push(f);}})); return out;}
+function filesForCase(c){const out=[]; const seen=new Set(); const refs=[...(c.sources||[]),...(sourceFileIndex[c.sourceLocator]?[c.sourceLocator]:[])]; refs.forEach(src=>filesForSource(src).forEach(f=>{if(!seen.has(f.path)){seen.add(f.path); out.push(f);}})); return out;}
 function titleCase(v){return String(v||'').toLowerCase().replace(/\b[a-z]/g,ch=>ch.toUpperCase()).replace(/\bUap\b/g,'UAP').replace(/\bUfo\b/g,'UFO').replace(/\bCia\b/g,'CIA').replace(/\bNasa\b/g,'NASA').replace(/\bFbi\b/g,'FBI').replace(/\bDoe\b/g,'DOE').replace(/\bUsaf\b/g,'USAF').replace(/\bRaf\b/g,'RAF');}
 function compactConfidence(v){const s=String(v||'').trim(); if(/^CONFIRMED RECORD$/i.test(s)) return 'Confirmed'; if(/^CONFIRMED QUOTATION$/i.test(s)) return 'Confirmed quote'; if(/^CONFIRMED RELEASE RECORD$/i.test(s)) return 'Confirmed release'; if(/^RELEASED RECORD$/i.test(s)) return 'Released'; return titleCase(s);}
 function factMetaLine(c){const parts=[c.significance||'Case significance',c.sourceQuality||'Source record',c.sourceLocator||c.sourceLabel].filter(Boolean); return parts.length?`<div class="fact-meta">${parts.map(esc).join(' · ')}</div>`:'';}

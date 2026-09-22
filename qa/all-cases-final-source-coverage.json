@@ -271,14 +271,15 @@
       "TREMONTON-1952",
       "DOW-UAP-D10",
       "DOW-UAP-D098",
-      "DOW-UAP-D098 \u00b7 PDF pp. 6 and 9"
+      "DOW-UAP-D098 \u00b7 PDF pp. 6 and 9",
+      "RELEASE06-TREMONTON-MEMO"
     ],
-    "indexedLinks": 23,
-    "structuredSourceRecords": 4,
+    "indexedLinks": 28,
+    "structuredSourceRecords": 5,
     "publicSourceUrls": 3,
     "evidenceAssets": 4,
-    "links": 25,
-    "local": 22,
+    "links": 30,
+    "local": 27,
     "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
@@ -1837,14 +1838,15 @@
     "id": "BF-2022-ME-01",
     "title": "Middle East Multi-UAP Observation",
     "tokens": [
-      "DOW-UAP-D10"
+      "DOW-UAP-D10",
+      "RELEASE06-MAY2022-REPORTS"
     ],
-    "indexedLinks": 5,
-    "structuredSourceRecords": 3,
+    "indexedLinks": 9,
+    "structuredSourceRecords": 4,
     "publicSourceUrls": 2,
     "evidenceAssets": 5,
-    "links": 10,
-    "local": 8,
+    "links": 12,
+    "local": 10,
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
@@ -2632,6 +2634,39 @@
     "evidenceAssets": 3,
     "links": 9,
     "local": 8,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-1950-OK-01",
+    "title": "Okinawa Object-in-Water Recovery Inquiry",
+    "tokens": [
+      "DOW-UAP-D105-OKINAWA-1950",
+      "DOW-UAP-D10"
+    ],
+    "indexedLinks": 8,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 8,
+    "local": 7,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2023-CO-LE-01",
+    "title": "Colorado Law-Enforcement Orb Transcript",
+    "tokens": [
+      "LLE-UAP-D001-COLORADO-2023"
+    ],
+    "indexedLinks": 2,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "links": 2,
+    "local": 1,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true

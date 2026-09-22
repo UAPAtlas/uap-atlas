@@ -22,8 +22,8 @@ by_id = {case['id']: case for case in atlas['cases']}
 blackfile = json.loads((ROOT / 'blackfile-analysis.json').read_text())
 index = json.loads((ROOT / 'source-file-index.json').read_text())
 
-require(len(atlas['cases']) == 157, 'Release 05 completion must preserve the 157-case contract')
-require(len(atlas.get('timeline', [])) == 155, 'Release 05 completion must preserve the 155-entry timeline contract')
+require(len(atlas['cases']) == 159, 'current registry must preserve the 159-case contract after Release 06 follow-up')
+require(len(atlas.get('timeline', [])) == 157, 'current registry must preserve the 157-entry timeline contract after Release 06 follow-up')
 
 # D099 cover is documentary hero, never event imagery.
 ghost = by_id['BF-1946-GR-01']

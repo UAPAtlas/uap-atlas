@@ -3355,7 +3355,7 @@
       "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
       "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated. Release 06 adds the Blue Book Tremonton case file (D102), photo file (D103), Newhouse personnel file (D104), and Ruppelt transcript context (D154), deepening primary custody but not resolving the film-generation/original-camera gap.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence: D098 says the analyzed Utah film was a duplicate of a copy; the camera original and full laboratory ledger remain unlocated. Joined by D098 Navy/PIC analysis and Release 06 D102/D103/D104/D154 context. D102 deepens the record by showing public-information strategy, brightness-method objections, proposed gull/balloon tests, Newhouse’s unmeasured statement, and later Air Force bird-reflection language. It supports institutional process and analytical disagreement, not proof of an extraterrestrial coverup.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -3373,14 +3373,15 @@
       "domain": "GOVERNMENT / INSTITUTIONAL",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Navy Chief Photographer Delbert Newhouse filmed a dozen maneuvering white objects near Tremonton, Utah, on 2 July 1952. The exact 4 May 1953 Naval Photographic Interpretation Center report records a majority view that the images were light sources not identifiable as natural phenomena or commonly known man-made objects. The Robertson Panel and a later Air Force memorandum favored a seagull explanation, while the Navy report itself records copy-generation, geometry, resource and corroboration limits.",
-      "keyFact": "Release 05 recovers the exact 1953 Navy analysis rather than only later summaries. NARA separately lists 42-foot 16 mm reference and preservation elements, but the digital transfer slate identifies a positive copy and the Navy report states that its analysis used “a duplicate of a copy.”",
+      "summary": "Navy Chief Photographer Delbert Newhouse filmed about ten to twelve maneuvering white objects near Tremonton, Utah, on 2 July 1952. The Release 06 Blue Book packet preserves both the public-release memo and the technical disagreement: Navy/PIC analysis argued for self-luminous/light-source images under assumptions; Baker remained cautious; and a later Air Force press-room memo favored bird reflections/seagulls. Newhouse’s own statement did not provide measured range, speed, size, altitude or distance.",
+      "keyFact": "Release 06 D102 pp. 37–39 shows officials debating whether to release the movie without comment, avoid questions about the Navy report, or use a gulls/balloons line while additional tests remained possible; the same packet preserves Newhouse’s narrower unmeasured witness statement and later technical disagreement.",
       "official": "The exact 4 May 1953 Naval Photographic Interpretation Center report records the analysts’ majority light-source/unidentified assessment, while stating that it did not necessarily represent the official Navy or Center position and that no corroboration attempt was made. The Robertson Panel and a 1956 Air Force memorandum favored sunlit seagulls. The official record therefore preserves conflicting analyses rather than a final identification.",
-      "gap": "Primary gap: the first-generation 16 mm camera film and complete laboratory chain-of-custody/measurement worksheets needed to determine which analysis used which film generation.",
+      "gap": "Primary gap: the first-generation 16 mm camera film, complete laboratory chain-of-custody/measurement worksheets, and reproducible range/brightness geometry needed to adjudicate Navy/PIC, Baker, and Air Force bird-reflection interpretations.",
       "whyItMatters": "Tremonton is the other half of the Robertson Panel's evidence base, and its analyst-versus-panel split prefigures every modern sensor-interpretation fight.",
       "sources": [
         "TREMONTON-1952 · Newhouse film / Robertson Panel record",
-        "DOW-UAP-D098 · Naval Photographic Interpretation Center film analysis, 4 May 1953"
+        "DOW-UAP-D098 · Naval Photographic Interpretation Center film analysis, 4 May 1953",
+        "RELEASE06-TREMONTON-MEMO"
       ],
       "sourceLabel": "Robertson Panel record",
       "sourceLocator": "TREMONTON-1952",
@@ -3388,7 +3389,7 @@
         "BF-1953-RP-00",
         "BF-1950-GF-01"
       ],
-      "heroFact": "The Navy's own photographic laboratory and the CIA's panel reached opposite conclusions about the same frames — the clearest documented analyst split of the era.",
+      "heroFact": "Release 06 D102 pp. 37–39 shows officials debating whether to release the movie without comment, avoid questions about the Navy report, or use a gulls/balloons line while additional tests remained possible; the same packet preserves Newhouse’s narrower unmeasured witness statement and later technical disagreement.",
       "image": "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-001.png",
       "caseTypes": [
         "institutional-record"
@@ -3430,6 +3431,30 @@
         "basis": "Published public coordinate for the named location"
       },
       "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D102 focused follow-up · Tremonton public-release memo, Newhouse statement, and Air Force seagull memo",
+          "sourceType": "primary-case-file-follow-up",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "D102 PDF pp. 37–39, 113, 121, 126–127",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-037.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-038.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-039.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-113.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-121.png"
+          ],
+          "supports": [
+            "public-release memo language about “hot” material and risk of another flap",
+            "methodological objection to Navy brightness analysis and proposed gull/balloon tests",
+            "Newhouse statement that no range/speed/size/altitude/distance estimate was possible"
+          ],
+          "limitations": [
+            "does not recover native first-generation film",
+            "does not resolve Navy/PIC, Baker, and Air Force interpretive disagreement",
+            "supports public-information management and technical dispute, not an extraterrestrial finding"
+          ]
+        },
         {
           "citation": "DOW-UAP-D102, DOW-UAP-D103, DOW-UAP-D104, and DOW-UAP-D154 · Tremonton/Newhouse Blue Book and Ruppelt records",
           "sourceType": "primary-case-file-and-context-records",
@@ -3580,7 +3605,18 @@
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-006.png",
         "assets/sources/PURSUE-RELEASE-05/DOW-UAP-D098-pdf-page-009.png"
       ],
-      "evidenceDepthStatus": "primary-complete"
+      "evidenceDepthStatus": "primary-complete",
+      "sourceUpdateCard": {
+        "title": "Release 06 source update — public release vs. technical disagreement",
+        "findings": [
+          "D102 pp. 37–39 records Air Force concern that withholding reports could imply “hot” material, discussion of release without comment and avoiding questions about the Navy report, and alternatives including gulls/balloons language plus proposed additional testing."
+        ],
+        "limitations": [
+          "This is evidence of release-management and methodological disagreement. It does not prove that officials knew the objects were non-human or that any later seagull explanation was knowingly false.",
+          "Source pages: D102 pp. 37–39, 113, 121, 126–127"
+        ],
+        "status": "Release 06 focused update"
+      }
     },
     {
       "keyQuote": "This invention relates to a method of producing force or motion by applying and maintaining high potential electro-static charges...",
@@ -21334,11 +21370,12 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "Two newly released USCENTCOM mission reports (5 May 2022) record multiple small UAPs periodically observed by FMV over target areas, with reported 80–180 mph speeds and unresolved altitude. They are related to—but not identical with—the earlier Atlas Middle East multi-UAP record; D106 places one observation at 20:26Z and D109 places a longer 05:24–07:04Z observation period affected by dust storms.",
+      "summary": "Three source-specific May 2022 Middle East records are now separated inside this dossier: legacy D10 reports five UAPs observed over roughly four hours with possible-bird language; D106 reports periodic FMV/MTS observation of 1–2 m UAPs around 20:26Z/21:00Z; D109 reports a distinct 05:24Z–07:04Z affected observation period with similar 1–2 m and 80–180 mph language. Same region and shape family do not establish one continuous event.",
       "official": "Four observations fit closer to possible birds; the first remained materially different in the reviewed summary.",
       "gap": "Full clips, platform data, timestamps, and object-by-object analytic workpapers are needed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
       "sources": [
-        "DOW-UAP-D10 · Middle East UAP mission report May 2022"
+        "DOW-UAP-D10 · Middle East UAP mission report May 2022",
+        "RELEASE06-MAY2022-REPORTS"
       ],
       "image": "assets/editorial-reconstructions/BF-2022-ME-01.png",
       "lon": 43.0,
@@ -21347,14 +21384,14 @@
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Middle East regional centroid; source location approximate",
-      "keyFact": "Release 06 adds two May 2022 USCENTCOM primary mission reports: D106 p. 6 reports periodic FMV observation of 1–2 m UAPs at 80–180 mph around 20:26Z; D109 p. 6 reports a separate 05:24–07:04Z observation period with similar 80–180 mph claims.",
+      "keyFact": "D10, D106, and D109 are related USCENTCOM Middle East mission records, but their object counts, timing and observation contexts differ; Atlas now treats their claims as source-specific observations rather than one merged event field.",
       "whyItMatters": "It shows why object-by-object analysis matters: broad bird explanations may fit some observations while leaving the first object materially different.",
       "keyQuote": "possible [REDACTED] missile",
       "quoteSource": "DOW-UAP-D10 · Middle East UAP mission report May 2022",
       "quoteConfidence": "confirmed source-phrase quotation",
-      "heroFact": "An ISR aircraft observed five objects over roughly four hours, including one possible missile-like profile and four possible birds.",
+      "heroFact": "D10, D106, and D109 are related USCENTCOM Middle East mission records, but their object counts, timing and observation contexts differ; Atlas now treats their claims as source-specific observations rather than one merged event field.",
       "significance": "High significance",
-      "sourceQuality": "Primary source, expanded by PURSUE Release 06 mission reports D106 and D109; speeds are source-estimated/reported from MTS/FMV context, not independently reproduced Atlas measurements.",
+      "sourceQuality": "Primary mission reports D10, D106 and D109; all performance values are source-reported/estimated from redacted mission context, with native FMV/WSV absent. Legacy unaided-visual/USAF missile-crew fields were removed because D10/D106/D109 do not support them.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D10",
       "relatedCaseIds": [
@@ -21380,12 +21417,12 @@
       "temporal": {
         "dateLabel": "MAY 2022",
         "year": 2022,
-        "startDateTime": null,
-        "endDateTime": null,
-        "timezone": null,
-        "durationSeconds": null,
         "precision": "month",
-        "eventForm": "single-event"
+        "eventForm": "related-source-family",
+        "sourceSpecificTimes": {
+          "DOW-UAP-D106": "around 20:26Z / 21:00Z",
+          "DOW-UAP-D109": "05:24Z–07:04Z"
+        }
       },
       "geospatial": {
         "geometry": {
@@ -21401,6 +21438,26 @@
         "basis": "Middle East regional centroid; source location approximate"
       },
       "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D10 source-specific observation · Middle East mission report, May 2022",
+          "sourceType": "primary-military-mission-report",
+          "provenance": "Department of War Release 01",
+          "locator": "D10 PDF pp. 1, 6",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-006.png"
+          ],
+          "supports": [
+            "legacy five-object / roughly four-hour observation language",
+            "official mission-report custody",
+            "possible-bird identification uncertainty retained"
+          ],
+          "limitations": [
+            "native sensor file absent",
+            "redactions prevent independent reconstruction",
+            "does not support inherited USAF missile crew or unaided-visual fields"
+          ]
+        },
         {
           "citation": "DOW-UAP-D106 and DOW-UAP-D109 · USCENTCOM mission reports, Iraq/Middle East, 5 May 2022",
           "sourceType": "primary-military-mission-report",
@@ -21476,13 +21533,35 @@
       "observation": {
         "witnessCount": null,
         "witnessRoles": [
-          "USAF missile crew"
+          "redacted USCENTCOM mission/reporting personnel"
         ],
         "sensors": [
-          "unaided-visual"
+          "FMV/MTS feed or mission-report sensor context"
         ],
         "durationSeconds": null,
-        "independentWitnessGroups": null
+        "independentWitnessGroups": null,
+        "sourceSpecificObservations": [
+          {
+            "source": "DOW-UAP-D10",
+            "objects": "five objects reported",
+            "duration": "roughly four hours reported",
+            "boundary": "possible birds/identification uncertainty retained; native sensor file absent"
+          },
+          {
+            "source": "DOW-UAP-D106",
+            "timeUtc": "around 20:26Z / 21:00Z",
+            "objects": "multiple 1–2 m UAPs",
+            "reportedSpeed": "80–180 mph",
+            "boundary": "altitude undetermined; not merged with D109"
+          },
+          {
+            "source": "DOW-UAP-D109",
+            "timeUtc": "05:24Z–07:04Z affected observation period",
+            "objects": "sporadic 1–2 m UAPs",
+            "reportedSpeed": "80–180 mph",
+            "boundary": "dust/return-to-POI context; not merged with D106"
+          }
+        ]
       },
       "images": [
         "assets/editorial-reconstructions/BF-2022-ME-01.png",
@@ -21516,7 +21595,18 @@
           "scope": "official-record",
           "url": "https://www.war.gov/medialink/ufo/release_1/dow-uap-d10-mission-report-middle-east-may-2022.pdf"
         }
-      ]
+      ],
+      "sourceUpdateCard": {
+        "title": "Release 06 reconciliation — related reports, not one merged track",
+        "findings": [
+          "D106 and D109 share 1–2 m / 80–180 mph language but have distinct times and report contexts; original D10 preserves separate legacy five-object/four-hour/possible-birds language."
+        ],
+        "limitations": [
+          "Atlas keeps the reports in one related-family dossier but separates the source-specific observations. Same region/shape is not treated as proof of a single continuous event.",
+          "Source pages: D10 pp. 1, 6, D106 pp. 1, 6, D109 pp. 1, 5–6"
+        ],
+        "status": "Release 06 focused update"
+      }
     },
     {
       "id": "BF-2023-BC-01",
@@ -29850,6 +29940,329 @@
         "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-001.png"
       ],
       "expectedCountry": "Iraq"
+    },
+    {
+      "id": "BF-1950-OK-01",
+      "title": "Okinawa Object-in-Water Recovery Inquiry",
+      "date": "NOV 1950",
+      "year": 1950,
+      "location": "Okinawa, Japan (Oku/Hedo location unresolved)",
+      "mode": "approximate",
+      "lon": 128.25,
+      "lat": 26.75,
+      "agency": "USAF / ATIC",
+      "domain": "AIR-SEA / RECOVERY INQUIRY",
+      "status": "OFFICIAL INQUIRY · NO RECOVERY DOCUMENTED",
+      "confidence": "CONFIRMED RECORD · WITNESS REPORT UNVERIFIED",
+      "summary": "Release 06 D105 preserves an official inquiry into T/Sgt Emery Guzi’s report that an unidentified object had fallen into the sea near Okinawa in November 1950. The record asked whether the object could be located, recovered or examined, but turned on unresolved geography: shallow water near Oku versus much deeper water near Hedo/Redo Saki. No actual recovery or final disposition appears in the reviewed packet.",
+      "official": true,
+      "gap": "Missing original interview/sketch, hydrographic/aeronautical enclosures, ATIC reinterview response and final disposition.",
+      "sources": [
+        "DOW-UAP-D105 pp. 126, 252–253"
+      ],
+      "image": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png",
+      "keyFact": "D105 pp. 252–253 documents a recovery-feasibility tasking for Guzi’s Okinawa object-in-water report; it does not document recovery.",
+      "heroFact": "Official tasking asked if a reported object in the sea near Okinawa could be located/recovered, but the site was uncertain and no recovery result is present.",
+      "whyItMatters": "It is a rare early official recovery-feasibility inquiry with a named witness and a specific missing follow-up chain.",
+      "sourceQuality": "Primary official file pages; strong for existence of the inquiry and missing follow-up, weak for the reported object itself.",
+      "sourceLabel": "DOW-UAP-D105 pp. 252–253",
+      "sourceLocator": "DOW-UAP-D105-OKINAWA-1950",
+      "quoteConfidence": "Medium — selected wording is traceable to released official pages, but event interpretation remains witness-report only.",
+      "significance": "Adds an early official recovery-feasibility inquiry while preserving missing follow-up boundaries.",
+      "relatedCaseIds": [
+        "BF-1952-TM-01"
+      ],
+      "acquisitionTargets": [
+        {
+          "targetType": "original-interview-and-sketch",
+          "description": "Original Guzi interview, sketch/map/enclosures, or witness statement referenced by the Okinawa inquiry",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Not present in reviewed Release 06 pages",
+          "lastPublicAudit": "2026-09-22",
+          "auditScope": "release06-public-pages"
+        },
+        {
+          "targetType": "atic-follow-up-and-recovery-disposition",
+          "description": "ATIC reinterview response, map attachments, recovery attempt notes, or final disposition",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No follow-up or recovery result located in the released packet",
+          "lastPublicAudit": "2026-09-22",
+          "auditScope": "release06-public-pages"
+        }
+      ],
+      "confidenceModel": {
+        "record": "official-record",
+        "anomaly": "low-witness-report-only",
+        "provenance": "primary-release-page"
+      },
+      "caseTypes": [
+        "case-record",
+        "recovery-inquiry",
+        "witness-report"
+      ],
+      "evidenceModes": [
+        "official-document",
+        "witness-report"
+      ],
+      "environment": [
+        "maritime"
+      ],
+      "outcome": "no-recovery-documented; follow-up-missing",
+      "temporal": {
+        "dateLabel": "NOV 1950",
+        "year": 1950,
+        "precision": "month",
+        "eventForm": "single-report-with-follow-up-tasking"
+      },
+      "geospatial": {
+        "basis": "approximate Okinawa placeholder; released source itself flags Oku vs Hedo/Redo Saki uncertainty",
+        "precision": "regional-island placeholder",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            128.25,
+            26.75
+          ]
+        }
+      },
+      "coordinateBasis": "regional placeholder from source-stated Okinawa/Oku/Hedo uncertainty",
+      "coordinatePrecision": "regional",
+      "geometryExpectation": "region",
+      "sourceUpdateCard": {
+        "title": "Release 06 admission — recovery inquiry, not recovered object",
+        "findings": [
+          "D105 pp. 252–253 asks ATIC to reinterrogate Guzi because recovery feasibility depended on whether the reported sea impact was near shallow Oku lagoon or deeper Hedo/Redo Saki."
+        ],
+        "limitations": [
+          "The packet does not include a recovery, object examination, reinterview answer or final evaluation.",
+          "Source pages: D105 pp. 252–253"
+        ],
+        "status": "Release 06 focused update"
+      },
+      "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D105 · Okinawa object-in-water recovery-feasibility correspondence",
+          "sourceType": "primary-official-correspondence",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "PDF pp. 252–253 (related routing p. 126)",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-252.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png"
+          ],
+          "supports": [
+            "named-witness report by T/Sgt Emery Guzi",
+            "official request to resolve location and recovery feasibility",
+            "geographical uncertainty between Oku lagoon and Hedo/Redo Saki"
+          ],
+          "limitations": [
+            "no original interview/sketch in packet",
+            "no hydrographic/aeronautical enclosures in packet",
+            "no recovery or final disposition documented"
+          ]
+        }
+      ],
+      "observation": {
+        "witnessCount": 1,
+        "witnessRoles": [
+          "T/Sgt Emery Guzi"
+        ],
+        "sensors": [
+          "witness report"
+        ],
+        "durationSeconds": null,
+        "independentWitnessGroups": 1
+      },
+      "phenomena": {
+        "shape": "object reported fallen into sea",
+        "count": 1
+      },
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "D105 p. 253 recovery-feasibility tasking for the Okinawa object-in-water report.",
+        "provenance": "Department of War PURSUE Release 06",
+        "evidenceStatus": "Documentary record page; not event imagery.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "PURSUE Release 06 landing page",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png",
+          "caption": "D105 p. 253 Okinawa recovery-feasibility correspondence.",
+          "kind": "official-document-page",
+          "rank": 1
+        }
+      ],
+      "evidenceDepthStatus": "release06-admitted"
+    },
+    {
+      "id": "BF-2023-CO-LE-01",
+      "title": "Colorado Law-Enforcement Orb Transcript",
+      "date": "OCT 2023",
+      "year": 2023,
+      "location": "Colorado, United States (REDACTED exact location)",
+      "mode": "redacted",
+      "lon": -105.5,
+      "lat": 39.0,
+      "agency": "OUSD(I&S) / local law enforcement",
+      "domain": "LOCAL LAW ENFORCEMENT / VIDEO TRANSCRIPT",
+      "status": "OFFICIAL TRANSCRIPT · NATIVE VIDEO ABSENT",
+      "confidence": "OFFICIAL CUSTODY · WITNESS-ONLY EVENT",
+      "summary": "A one-page OUSD(I&S) edited transcript records a Colorado law-enforcement officer narrating an October 2023 UAP/orb video: an orb about 300 ft up, stationary for about 15 minutes, later moving closer, and “I did check radar, there is no aircraft flying in the area.” The released PDF is transcript custody only; the native video/audio is not embedded, and the radar statement is a no-aircraft check rather than radar tracking of the orb.",
+      "official": true,
+      "gap": "Native source video/audio, complete metadata, unedited transcript and any dispatch/radar logs are missing.",
+      "sources": [
+        "LLE-UAP-D001 p. 1"
+      ],
+      "image": "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png",
+      "keyFact": "LLE-UAP-D001 is a readable official edited transcript of a Colorado law-enforcement UAP/orb video, not the video itself; “radar checked” means no aircraft in area, not radar corroboration of the orb.",
+      "heroFact": "Official custody for an edited transcript; witness-video event remains uncorroborated without native media or radar logs.",
+      "whyItMatters": "It preserves a distinctive modern law-enforcement witness-video transcript while forcing a clean custody/event distinction.",
+      "sourceQuality": "Official transcript custody; low-to-medium event evidentiary weight because native video/audio and radar logs are absent.",
+      "sourceLabel": "LLE-UAP-D001 p. 1",
+      "sourceLocator": "LLE-UAP-D001-COLORADO-2023",
+      "quoteConfidence": "Medium — transcript wording is traceable to the released official page, but native video/audio is absent.",
+      "significance": "Adds a modern official-custody law-enforcement transcript while preserving missing native-media and radar-log boundaries.",
+      "relatedCaseIds": [
+        "BF-2023-WUS-03"
+      ],
+      "acquisitionTargets": [
+        {
+          "targetType": "native-video-audio",
+          "description": "Native unedited law-enforcement video/audio file and metadata for the Colorado orb recording",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "Release provides an edited transcript page only",
+          "lastPublicAudit": "2026-09-22",
+          "auditScope": "release06-public-pages"
+        },
+        {
+          "targetType": "dispatch-radar-logs",
+          "description": "Dispatch/CAD records, radar query logs, or contemporaneous corroborating records for the reported no-aircraft check",
+          "status": "publicly-unavailable",
+          "publicOnlyResult": "No dispatch or radar log included with LLE-UAP-D001",
+          "lastPublicAudit": "2026-09-22",
+          "auditScope": "release06-public-pages"
+        }
+      ],
+      "confidenceModel": {
+        "record": "official-record",
+        "anomaly": "low-witness-report-only",
+        "provenance": "primary-release-page"
+      },
+      "caseTypes": [
+        "case-record",
+        "law-enforcement-witness",
+        "transcript-only"
+      ],
+      "evidenceModes": [
+        "official-transcript",
+        "witness-video-described"
+      ],
+      "environment": [
+        "ground-observer"
+      ],
+      "outcome": "native-video-missing; no-radar-track-documented",
+      "coordinateBasis": "state-level placeholder because identifying location is edited out",
+      "coordinatePrecision": "state",
+      "geometryExpectation": "region",
+      "temporal": {
+        "dateLabel": "OCT 2023",
+        "year": 2023,
+        "precision": "month",
+        "eventForm": "single-witness-video-transcript"
+      },
+      "geospatial": {
+        "basis": "state-level Colorado placeholder; identifying info edited out",
+        "precision": "state",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -105.5,
+            39.0
+          ]
+        }
+      },
+      "sourceUpdateCard": {
+        "title": "Release 06 admission — transcript custody, not radar corroboration",
+        "findings": [
+          "The officer narrates an orb about 300 ft up, stationary for about 15 minutes and later moving closer; the transcript says radar showed no aircraft flying in the area."
+        ],
+        "limitations": [
+          "The PDF contains no native video/audio and does not say radar tracked the orb. Do not link it to anonymous MP4s or PR130/PR131 stills without exact metadata.",
+          "Source pages: LLE-UAP-D001 p. 1"
+        ],
+        "status": "Release 06 focused update"
+      },
+      "sourceRecords": [
+        {
+          "citation": "LLE-UAP-D001 · Transcript of an Unresolved UAP Report, Colorado, October 2023",
+          "sourceType": "official-edited-transcript",
+          "provenance": "Department of War PURSUE Release 06 / OUSD(I&S)",
+          "locator": "PDF p. 1",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png"
+          ],
+          "supports": [
+            "official custody for an edited transcript",
+            "law-enforcement officer narration of orb/video",
+            "statement that radar check showed no aircraft in the area"
+          ],
+          "limitations": [
+            "native video/audio not embedded or released in this PDF",
+            "identifying information edited out",
+            "radar statement is not radar tracking/corroboration of the object"
+          ]
+        }
+      ],
+      "observation": {
+        "witnessCount": 1,
+        "witnessRoles": [
+          "local law-enforcement officer"
+        ],
+        "sensors": [
+          "witness video described in transcript",
+          "radar checked for aircraft only"
+        ],
+        "durationSeconds": 900,
+        "independentWitnessGroups": 1
+      },
+      "phenomena": {
+        "shape": "orb",
+        "count": 1,
+        "reportedAltitude": "about 300 ft (witness statement)"
+      },
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "LLE-UAP-D001 p. 1 edited transcript of the Colorado law-enforcement orb report.",
+        "provenance": "Department of War PURSUE Release 06",
+        "evidenceStatus": "Documentary transcript page; not event imagery.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "PURSUE Release 06 landing page",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+        }
+      ],
+      "images": [
+        {
+          "src": "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png",
+          "caption": "LLE-UAP-D001 p. 1 edited transcript page.",
+          "kind": "official-document-page",
+          "rank": 1
+        }
+      ],
+      "evidenceDepthStatus": "release06-admitted"
     }
   ],
   "timeline": [
@@ -31271,6 +31684,24 @@
       "caseId": "BF-2026-SMO-01",
       "title": "Slow-moving thermal objects",
       "desc": "An FBI interview and officially associated 10-second thermal clip document two unresolved black-hot contrast areas after a redacted RF alert."
+    },
+    {
+      "id": "TL-1950-OK-INQUIRY",
+      "date": "1950-11",
+      "year": 1950,
+      "type": "official inquiry",
+      "title": "Okinawa object-in-water recovery inquiry",
+      "caseId": "BF-1950-OK-01",
+      "desc": "Official correspondence asks whether T/Sgt Emery Guzi’s reported object in the sea near Okinawa could be located or recovered; no recovery is documented."
+    },
+    {
+      "id": "TL-2023-CO-LE-ORB",
+      "date": "2023-10",
+      "year": 2023,
+      "type": "official transcript",
+      "title": "Colorado law-enforcement orb transcript",
+      "caseId": "BF-2023-CO-LE-01",
+      "desc": "OUSD(I&S) releases an edited transcript of a local law-enforcement officer narrating an orb video; native video and radar corroboration are absent."
     }
   ],
   "schemaVersion": 2,

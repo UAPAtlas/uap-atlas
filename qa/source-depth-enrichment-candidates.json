@@ -2101,6 +2101,29 @@
     ]
   },
   {
+    "id": "BF-2023-CO-LE-01",
+    "title": "Colorado Law-Enforcement Orb Transcript",
+    "score": 12,
+    "sourceRecords": 1,
+    "indexedLinks": 2,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 1,
+    "sourceQuality": "Official transcript custody; low-to-medium event evidentiary weight because native video/audio and radar logs are absent.",
+    "quoteConfidence": "Medium \u2014 transcript wording is traceable to the released official page, but native video/audio is absent.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06 / ousd(i&s)"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record"
+    ]
+  },
+  {
     "id": "BF-2023-CSR-01",
     "title": "Colorado Springs Red-Light Triangle Report",
     "score": 12,

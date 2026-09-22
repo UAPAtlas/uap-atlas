@@ -7,9 +7,9 @@
     "image-derivatives.json"
   ],
   "summary": {
-    "indexedPaths": 954,
-    "publicLocal": 368,
-    "externalPublic": 446,
+    "indexedPaths": 970,
+    "publicLocal": 372,
+    "externalPublic": 458,
     "custodyOnly": 140,
     "unavailable": 0
   },
@@ -3474,6 +3474,14 @@
       "host": "raw.githubusercontent.com",
       "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/NARA-GYATT-1964/USS-GYATT-1964-11-24-page-B.jpg"
     },
+    "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-001.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-01/DOW-UAP-D10-pdf-page-006.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
     "assets/sources/PURSUE-RELEASE-05/CIA-UAP-D022-pdf-page-003.png": {
       "status": "public-local",
       "label": "Public Atlas asset"
@@ -3739,6 +3747,74 @@
     "assets/sources/PURSUE-RELEASE-05/FBI-UAP-D042-reconstruction-contact.jpg": {
       "status": "public-local",
       "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-037.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-037.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-038.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-038.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-039.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-039.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-113.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-113.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-121.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D102-pdf-page-121.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-252.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-252.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D105-pdf-page-253.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-001.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-001.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-006.png": {
+      "status": "public-local",
+      "label": "Public Atlas asset"
+    },
+    "assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png": {
+      "status": "external-public",
+      "label": "Archival original served from the Atlas Git repository",
+      "host": "raw.githubusercontent.com",
+      "url": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/LLE-UAP-D001-pdf-page-001.png"
     },
     "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-29.jpg": {
       "status": "public-local",
@@ -4339,7 +4415,17 @@
       "label": "External public source",
       "host": "www.ufoafrinews.com"
     },
+    "https://www.war.gov/UFO/": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.war.gov"
+    },
     "https://www.war.gov/UFO/?releaseDate=Release+05&release=05": {
+      "status": "external-public",
+      "label": "External public source",
+      "host": "www.war.gov"
+    },
+    "https://www.war.gov/UFO/?releaseDate=Release+06&release=06": {
       "status": "external-public",
       "label": "External public source",
       "host": "www.war.gov"

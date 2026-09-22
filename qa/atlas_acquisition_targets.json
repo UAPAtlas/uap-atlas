@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "acquisition_target",
-  "caseCount": 22,
+  "caseCount": 24,
   "cases": [
     {
       "id": "BF-1994-AR-01",
@@ -418,6 +418,26 @@
       "quoteConfidence": "High for 'a few abrupt directional changes' and other wording visible on the locally held DOW-UAP-D44 report page; low for performance or object interpretation beyond the released form."
     },
     {
+      "id": "BF-2023-CO-LE-01",
+      "title": "Colorado Law-Enforcement Orb Transcript",
+      "domain": "LOCAL LAW ENFORCEMENT / VIDEO TRANSCRIPT",
+      "category": "acquisition_target",
+      "priorityScore": 72,
+      "legacyWeaknessScore": 12,
+      "reasons": [
+        "declared acquisition target: native-video-audio",
+        "declared acquisition target: dispatch-radar-logs"
+      ],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 2,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Official transcript custody; low-to-medium event evidentiary weight because native video/audio and radar logs are absent.",
+      "quoteConfidence": "Medium \u2014 transcript wording is traceable to the released official page, but native video/audio is absent."
+    },
+    {
       "id": "BF-1947-MI-01",
       "title": "Maury Island Affair",
       "domain": "HISTORICAL / AERIAL",
@@ -437,6 +457,26 @@
       "evidenceAssets": 1,
       "sourceQuality": "Official FBI primary part-file plus a public Wayback mirror of a four-page Air Rescue Service mission report. The FBI record preserves the exact non-confession boundary; the ARS report documents a left-engine fire, wreckage response, and classified-document handling. The complete Seattle report, formal AAF accident-investigation board file, and sample-analysis custody record are still not mapped.",
       "quoteConfidence": "High for the exact FBI teletype wording; the record documents investigative suspicion, not an authenticated event or a hoax confession."
+    },
+    {
+      "id": "BF-1950-OK-01",
+      "title": "Okinawa Object-in-Water Recovery Inquiry",
+      "domain": "AIR-SEA / RECOVERY INQUIRY",
+      "category": "acquisition_target",
+      "priorityScore": 60,
+      "legacyWeaknessScore": 0,
+      "reasons": [
+        "declared acquisition target: original-interview-and-sketch",
+        "declared acquisition target: atic-follow-up-and-recovery-disposition"
+      ],
+      "sourceProfile": "complete-primary-packet",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 8,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 1,
+      "sourceQuality": "Primary official file pages; strong for existence of the inquiry and missing follow-up, weak for the reported object itself.",
+      "quoteConfidence": "Medium \u2014 selected wording is traceable to released official pages, but event interpretation remains witness-report only."
     },
     {
       "id": "BF-SF-07",

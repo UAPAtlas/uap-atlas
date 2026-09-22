@@ -15,10 +15,10 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "sourceFingerprint": "40978b2a7baa2b66d02fcb0cfeb072f62a462e0a7e5c9db9ee30cb6d9bc48df6",
+    "sourceFingerprint": "695d0d8dd9d20dbb78ef5f03f75c623ec1a687b6de6ec0219b175769ddeb26df",
     "countryCount": 242,
     "admin1Count": 51,
-    "projectedCaseCount": 131,
+    "projectedCaseCount": 133,
     "orbitalAggregateCount": 26
   },
   "countries": [
@@ -3605,6 +3605,30 @@
       "lat": 33,
       "mode": "redacted",
       "expectedCountry": "Iraq",
+      "geometryExpectation": "region",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-1950-OK-01",
+      "x": 82.57,
+      "y": 22.43,
+      "lon": 128.25,
+      "lat": 26.75,
+      "mode": "approximate",
+      "geometryExpectation": "region",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2023-CO-LE-01",
+      "x": 24.12,
+      "y": 18.67,
+      "lon": -105.5,
+      "lat": 39,
+      "mode": "redacted",
       "geometryExpectation": "region",
       "mapGeometry": null,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
