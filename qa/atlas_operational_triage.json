@@ -11,7 +11,7 @@
     "trueGaps": 0,
     "qualityUpgrades": 0,
     "acquisitionTargets": 22,
-    "complete": 133
+    "complete": 135
   },
   "cases": [
     {
@@ -1099,6 +1099,40 @@
       "quoteConfidence": "High transcription confidence for the recorded interview wording; independent event verification is unavailable because the account was recorded roughly 22 years later."
     },
     {
+      "id": "BF-2025-ME-ORBIT-01",
+      "title": "Middle East White Round Object \u2014 500 mph Report",
+      "domain": "AIR / ISR",
+      "category": "complete",
+      "priorityScore": 22,
+      "legacyWeaknessScore": 22,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary mission report; speed and shape are source-reported, redaction-limited, and not independently measured by Atlas.",
+      "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction."
+    },
+    {
+      "id": "BF-2025-ME-SPHERES-01",
+      "title": "Middle East Six Small Spherical Objects",
+      "domain": "AIR / ISR",
+      "category": "complete",
+      "priorityScore": 22,
+      "legacyWeaknessScore": 22,
+      "reasons": [],
+      "sourceProfile": "single-primary-record",
+      "sourceRecords": 1,
+      "mainSourceRecords": 1,
+      "indexedLinks": 5,
+      "publicSourceUrls": 1,
+      "evidenceAssets": 3,
+      "sourceQuality": "Primary mission report; grouped-sphere description and 480 mph/FL220 values are source-estimated and redaction-limited.",
+      "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction."
+    },
+    {
       "id": "BF-2019-OM-01",
       "title": "USS Omaha Sphere & Swarm Events",
       "domain": "MILITARY / SENSOR",
@@ -2059,12 +2093,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 3,
-      "mainSourceRecords": 3,
-      "indexedLinks": 18,
-      "publicSourceUrls": 2,
+      "sourceRecords": 4,
+      "mainSourceRecords": 4,
+      "indexedLinks": 23,
+      "publicSourceUrls": 3,
       "evidenceAssets": 4,
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated. Release 06 adds the Blue Book Tremonton case file (D102), photo file (D103), Newhouse personnel file (D104), and Ruppelt transcript context (D154), deepening primary custody but not resolving the film-generation/original-camera gap.",
       "quoteConfidence": "High \u2014 visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory."
     },
     {
@@ -2569,12 +2603,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 1,
+      "sourceRecords": 3,
+      "mainSourceRecords": 2,
       "indexedLinks": 5,
-      "publicSourceUrls": 1,
-      "evidenceAssets": 3,
-      "sourceQuality": "Primary source",
+      "publicSourceUrls": 2,
+      "evidenceAssets": 5,
+      "sourceQuality": "Primary source, expanded by PURSUE Release 06 mission reports D106 and D109; speeds are source-estimated/reported from MTS/FMV context, not independently reproduced Atlas measurements.",
       "quoteConfidence": "confirmed source-phrase quotation"
     },
     {
@@ -2705,12 +2739,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "multi-source-independent",
-      "sourceRecords": 5,
-      "mainSourceRecords": 4,
+      "sourceRecords": 6,
+      "mainSourceRecords": 5,
       "indexedLinks": 12,
-      "publicSourceUrls": 9,
+      "publicSourceUrls": 10,
       "evidenceAssets": 1,
-      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO\u2019s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims.",
+      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO\u2019s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims. Release 06 adds official AAWSAP solicitation/contract modification files and the DIRD corpus (D110\u2013D153), strengthening the program-documentation layer while remaining non-event technical/program evidence.",
       "quoteConfidence": "High \u2014 selected sentence is tied to AARO\u2019s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records."
     },
     {

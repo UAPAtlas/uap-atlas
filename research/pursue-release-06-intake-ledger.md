@@ -1,0 +1,97 @@
+# PURSUE Release 06 intake and Atlas integration ledger
+
+Generated: 2026-09-22
+
+Inventory: 56 PDFs, 16 MP4s, 2603 PDF pages.
+
+## Integrated selections
+
+- DOW-UAP-D106 and DOW-UAP-D109: enriched BF-2022-ME-01 (May 2022 USCENTCOM FMV/MTS multi-UAP reports).
+- DOW-UAP-D107: added BF-2025-ME-ORBIT-01 (29 Oct 2025 white round/orb-like object, source-reported up to 500 mph).
+- DOW-UAP-D108: added BF-2025-ME-SPHERES-01 (29 Jul 2025 six small spherical objects, source-estimated 480 mph/FL220).
+- DOW-UAP-D110–D153: integrated as program-corpus evidence into BF-SF-09, not as event cases.
+- DOW-UAP-D102–D104 and D154: enriched BF-1952-TM-01 Tremonton/Newhouse custody and Blue Book/Ruppelt context.
+- Videos: inventoried/hashes retained as official corpus custody only; no event identity assigned by resemblance.
+
+## Primary-reviewed findings with page citations
+
+- D106 p. 6: observation at 052026Z May 2022 reports UAPs periodically observed by FMV; MTS-reported 80–180 mph; altitude unable to be determined; size approx. 1–2 m; mission not hindered.
+- D107 pp. 6–8: 29 Oct 2025 UAP incident, initial contact 290141Z; p. 6 says “FAST MOVING SPEEDS UP TO 500MPH”; p. 8 describes a white round/orb-like object on feed from 01:41Z to 01:50Z, lost near redacted location.
+- D108 pp. 6–7: 29 Jul 2025 UAP incident, initial contact 292022:32Z; p. 6 says agile/frequently changing direction; p. 7 says six small spherical objects grouped together, estimated FL220 and 480 mph, no effects on persons/equipment.
+- D109 p. 6: 05:24–07:04Z May 2022 observation reports UAPs periodically observed while scanning POIs; 80–180 mph; altitude undetermined; approx. 1–2 m; reacquired after sensor returned to original POIs; WSV referenced but not included/mapped.
+- D154 pp. 1, 12, 16: Ruppelt transcript contextualizes reorganized Blue Book, proposed synchronized radar/long-focal-length photography, and contemporary claim that about 20% of the reviewed file remained unanswered; it is program context, not event corroboration.
+
+## Full release object disposition
+
+- `DOW-UAP-D102_Project-Blue-Book-File-on-Tremonton-Film-Utah-1952.pdf` — 156 pages; bytes 122031613; sha256 `941f95a0ae621f3dbba1ff63dbaea54ed6396dbcc5f434cd5341e833d15f923a`; disposition: integrated-existing BF-1952-TM-01.
+- `DOW-UAP-D103_Project-Blue-Book-Photo-File-Relating-to-Tremonton-Film-Utah-1952.pdf` — 5 pages; bytes 1582551; sha256 `950cc1f3d5a9b4f74c1342784a846a2cd2d2dae95f825b89839ac229292e6fa1`; disposition: integrated-existing BF-1952-TM-01.
+- `DOW-UAP-D104_Final-Personnel-Record-for-Newhouse-Delbert-C-US-Navy-1957.pdf` — 585 pages; bytes 172869366; sha256 `640912a325f5c611ebecfe8f969a28689c32ea40031ad30bd6b9fd47c2abece7`; disposition: integrated-existing BF-1952-TM-01.
+- `DOW-UAP-D105_US-Air-Force-Flying-Discs-File-September-December-1952.pdf` — 253 pages; bytes 44436933; sha256 `a3523ac3e2dd1b457feeb2309b005e2088dcc4efb8c2738b1e822c54308658ea`; disposition: corpus-only/no Atlas mutation.
+- `DOW-UAP-D106_Mission-Report-Iraq-2022.pdf` — 6 pages; bytes 762536; sha256 `7143a38cc6c53316cd0b9bb5df8c8e17aec24b5c1a78751323cede85bac3abdb`; disposition: integrated-existing BF-2022-ME-01.
+- `DOW-UAP-D107_Mission-Report-Middle-East-2025.pdf` — 8 pages; bytes 176451; sha256 `731d38a850d1293fde776a864270602b2191b0348915800785d131abae96bc4c`; disposition: new-case BF-2025-ME-ORBIT-01.
+- `DOW-UAP-D108_Mission-Report-Middle-East-2025.pdf` — 8 pages; bytes 172004; sha256 `9ffec164725f15d4a1d75c680fceae367b6813119d183f52df33a91c23ee116c`; disposition: new-case BF-2025-ME-SPHERES-01.
+- `DOW-UAP-D109_Mission-Report-Middle-East-2022.pdf` — 6 pages; bytes 148183; sha256 `bcb2dc4da3380db92c5f0a234087f0bda0f29d1d14421c42ef3d29d5461dfa92`; disposition: integrated-existing BF-2022-ME-01.
+- `DOW-UAP-D110_AAWSAP-Statement-of-Objectives-July-18-2008.pdf` — 4 pages; bytes 887936; sha256 `e4f6eff0ec5c6a35e5832d4ae881ddad68c148650df77d447064c7180fafe056`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D111_AAWSAP-Solicitation-and-Original-Order-September-22-2008.pdf` — 59 pages; bytes 15332800; sha256 `1ddd6264f57e0e606d78a8b6717bfe66599e9a729538726d9afdf94c420ac940`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D112_AAWSAP-Contract-Modification-P00001-September-2-2009.pdf` — 4 pages; bytes 542050; sha256 `e855036eff934384ffa6fdb044debcae5ef4758788cb318a238ebf6d2e0fe505`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D113_AAWSAP-Contract-Modification-P00002-February-2-2010.pdf` — 5 pages; bytes 836721; sha256 `cc0858e8869c329a26c690088f1204b36e54b10f162ee2ba36ee99828131df38`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D114_AAWSAP-Contract-Modification-P00003-May-18- 2010.pdf` — 3 pages; bytes 2652681; sha256 `6998e57cacab3b6e53950843c67ac165c9f0cfd49972edf4dafd822eed804eb0`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D115_AAWSAP-Contract-Modification-P00004-May-18-2010.pdf` — 1 pages; bytes 117687; sha256 `26a9191f7438d2600515a5ec02f6841f5aaf8896711b3a97ad4dd399b5e755ed`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D116_AAWSAP-Contract-Modification-P00005-September-28-2010.pdf` — 5 pages; bytes 4374597; sha256 `98ae5282f5f2e44aa0237278099a99495b30108d049718dd68a4e27d0b3d96b6`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D117_AAWSAP-DIRD-Metallic-Glasses-for-Aerospace-Applications-December-14-2009.pdf` — 30 pages; bytes 39346519; sha256 `e773fe838b690aab4ce30feb3e431bbeb84e152f4420e8c75a0685f61a9351a2`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D118_AAWSAP-DIRD-Aerospace-Applications-of-Programmable-Matter-December-14-2009.pdf` — 20 pages; bytes 9863315; sha256 `372ce27196ee34604096282d74c5ce5cbcaec8c63a56fdb6fcc934f3db215eff`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D119_AAWSAP-DIRD-Biomaterials-January-7-2010.pdf` — 32 pages; bytes 40222683; sha256 `535c4e3cb92b7519c109da7d3ba173bae036463e5661ff6040ae37f8c9f8ce31`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D120_AAWSAP-DIRD-Materials-for-Advanced-Aerospace-Platforms-January-12-2010.pdf` — 27 pages; bytes 43197219; sha256 `1a3c2675997f3b701e14c623b33b2741c3d8764f52fd9309e1928a85e11e8ac0`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D121_AAWSAP-DIRD-Pulsed-High-Power-Microwave-Source-Technology-January-28-2010.pdf` — 37 pages; bytes 55616613; sha256 `78f1b9b7fb7fb967f6b3e5f05bb03e26dff864b32b8d4d5ce12e02da12e8378b`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D122_AAWSAP-DIRD-Invisibility-Cloaking-Theory-and-Experiments-March-2-2010.pdf` — 29 pages; bytes 33674009; sha256 `e603ffbc39458140aadf4610b048d44c2162ca4feb4492b1ea9270b1da8508da`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D123_AAWSAP-DIRD-Positron-Aerospace-Propulsion-March-2-2010.pdf` — 35 pages; bytes 39612491; sha256 `96294b90e769ff43e4153438331153aa62fb01bc4345af61647fa06503801b82`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D124_AAWSAP-DIRD-Space Access-Where-Weve-Been-and-Where-We-Could-Go-March-8-2010.pdf` — 56 pages; bytes 76210863; sha256 `861270e395ef20b92991c8dc65d5ad5a05f21b62507d358225b66210e6ac4fff`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D125_AAWSA-DIRD-Inertial-Electrostatic-Confinement-Fusion-March-10-2010.pdf` — 72 pages; bytes 106416864; sha256 `21f1dfda6f9e1e8e605eb44254052d7ae7446becea06347f2350b1a9bf4bc8a3`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D126_AAWSAP-DIRD-Advanced-Nuclear-Propulsion-for-Manned-Deep-Space-Missions-March-11-2010.pdf` — 37 pages; bytes 46636507; sha256 `087bbb392b8396590724d5eb7d39f15cac23924f8fb411723b807b2665ea9241`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D127_AAWSAP-DIRD-An-Introduction-to-the-Statistical-Drake-Equation-March-11-2010.pdf` — 55 pages; bytes 57134045; sha256 `82e20719abce348ceccaac0d313e2fd314d09582e7f1fdb4638b3997190ee0d9`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D128_AAWSAP-DIRD-Anomalous-Acute-and-Subacute-Field-Effects-on-Human-Biological-Tissues-March-11-2010.pdf` — 38 pages; bytes 45830558; sha256 `771e64fee31722953ce9038100499d0d81d199e3249b43d656d3734aebb1a45f`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D129_AAWSAP-DIRD-Metallic-Spintronics-March-23-2010.pdf` — 27 pages; bytes 39422141; sha256 `f4ca1d6db66a984eff37e7cc00de6aeb6e0965d26259d66a86cc1486ff3f80fe`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D130_AAWSAP-DIRD-Technological-Approaches-to-Controlling-External-Devices-March-23-2010.pdf` — 36 pages; bytes 55276564; sha256 `6df90d61b653620ef55ca9ccaefad11a227079a8b20c94b038a1ef819b92bb07`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D131_AAWSAP-DIRD-The-Role-of-Superconductors-in-Gravity-Research-March-23-2010.pdf` — 16 pages; bytes 25389878; sha256 `224275259e7e168019c69abd955f80ee6417649a47c5036e4783e0969e863c43`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D132_AAWSAP-DIRD-Advanced-Space-Propulsion-Based-on-Vacuum-Spacetime Metric-Engineering-March-29-2010.pdf` — 17 pages; bytes 22411001; sha256 `21fa15c3f23e131d4998947f6cdba50e6d014b35a8242abddc6e1869a797c86d`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D133_AAWSAP-DIRD-The-Space-Communication-Implications-of-Quantum-Entanglement-and-Nonlocality-March-30-2010.pdf` — 32 pages; bytes 45406464; sha256 `a659c5a968138e6165f0fb8274dc948dd35cc09d80298f792714207341336aa5`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D134_AAWSAP-DIRD-Maverick-Inventor-Versus-Corporate-Inventor-Where-Will-the-Next-Major-Innovations-Arise-March-30-2010.pdf` — 19 pages; bytes 25627490; sha256 `52e47ca04c0de85d1c6f8ee86103e69803785fddd0ec19daa20b38cb190e0309`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D135_ AAWSAP-DIRD-Antigravity-for-Aerospace-Applications-March-30-2010-V2.pdf` — 44 pages; bytes 58982424; sha256 `a97c6847c520fdf7455bfd0d8829df910ac5aeaf6f0f7fb4186c66935ce45a33`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D136_AAWSAP-DIRD-Biosensors-and-BioMEMS-A-Survey-of-the-Present-Field-March-31-2010.pdf` — 45 pages; bytes 59637229; sha256 `2591290fb5d0d89adc126b967246a9261ac85b627d0c1b348ab8190fba00abf3`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D137_AAWSAP-DIRD-State-of-the-Art-and-Evolution-of-High-Energy-Lasers-March-31-2010.pdf` — 31 pages; bytes 36030969; sha256 `d397fc90f994bc6002c98c9ff8de02fb91007c8357076a51eabce30ee2ac5974`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D138_AAWSAP-DIRD-Warp-Drive-Dark-Energy-and-the-Manipulation-of-Extra-Dimensions-April-2-2010.pdf` — 33 pages; bytes 46585170; sha256 `4f597da9196813b852baa502bb3fdd002f5aeca84db868caba2e8c5aa23dda9c`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D139_AAWSAP-DIRD-Traversable-Wormholes-Stargates-and-Negative-Energy-April-6-2010.pdf` — 42 pages; bytes 55292032; sha256 `e0cb6838bbdc1b8b1ebde201c51ffa5d8681a037661d0d9207d63745f9c71611`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D140_AAWSAP-DIRD-High-Frequency-Gravitational-Wave-Communications-April-6-2010.pdf` — 57 pages; bytes 73548622; sha256 `66b1ad17754bb67875831a87826cfba04ca3633ca740b3c0e232dbb9f052bb81`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D141_AAWSAP-DIRD-Metamaterials-for-Aerospace-Applications-April-6-2010.pdf` — 38 pages; bytes 48726370; sha256 `c92a15a1927db0248dba6b6485d96f21d9fae82bad36c99e9ec2f3fd16737c98`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D142_AAWSAP-DIRD-Concepts-for-Extracting-Energy-from-the-Quantum-Vacuum-April-6-2010.pdf` — 57 pages; bytes 77220078; sha256 `c1829e999532e5239362f9d1a96527157240fddeb7bfb87310e3c522d9a6eb17`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D143_AAWSAP-DIRD-Laser-Lightcraft-Nanosatellites-November-1-2010.pdf` — 77 pages; bytes 87076089; sha256 `2e88690520b8175d657e18b9ba3de5b9e07c9be21b304a044e2e1d48f5cb9193`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D144_AAWSAP-DIRD-Cockpits-in-the-Era-of-Breakthrough-Flight-November-1-2010.pdf` — 57 pages; bytes 71512580; sha256 `909566d201f1613d9ad5fc338aff4668a0331ca740670904f24eeb9175bef7bf`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D145_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-I-November-1-2010.pdf` — 50 pages; bytes 52515579; sha256 `122ea541032e427492ba1bc11e569a3f667cdc8654fdbe08d4f52cc04039842a`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D146_AAWSAP-DIRD-Aneutronic-Fusion-Propulsion-II-November-1-2010.pdf` — 36 pages; bytes 43123572; sha256 `e37ba50e7e0fc9dc8ee7c6ececc3ee39ef3d3a104763e8bd312ad552a94c750d`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D147_AAWSAP-DIRD-Ultracapacitors-as-Energy-and-Power-Storage-Devices-November-1-2010.pdf` — 34 pages; bytes 42227729; sha256 `7871aadc94fd87fa3ee486168d1e9bc4d85cc96a0af5e0dea9483ff487f6b0e7`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D148_AAWSAP-DIRD-Detection-and-High-Resolution-Tracking-of-Vehicles-at-Hypersonic-Velocities-November-20-2010.pdf` — 46 pages; bytes 48470373; sha256 `5586486eaafe104a32a83964ae2f1849432838e01b59308200b5b6f48aeeb490`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D149_AAWSAP-DIRD-MHD-Air-Breathing-Propulsion-and-Power-for-Aerospace-Applications-November-21-2010.pdf` — 32 pages; bytes 42853776; sha256 `a885a20dcb94555eb91adaddb3461313f8a79a6289de3fe1aa9530cc0aaa6aca`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D150_AAWSAP-DIRD-Quantum-Computing-and-Utilizing-Organic-Molecules-in-Automation-Technology-December-10-2010.pdf` — 54 pages; bytes 73640604; sha256 `decf55cd5ddbb9dbd437466c7d3557ffc02a4cde5fafdfabc19fca8ce180bc28`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D151_AAWSAP-DIRD-Cognitive-Limits-on-Simultaneous-Control-of-Multiple-Unmanned-Spacecraft-December-15-2010.pdf` — 31 pages; bytes 40463687; sha256 `7535e88d474d47ec980b7e35a394f532b297aafb1e32170e044bcc1a7b016402`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D152_AAWSAP-DIRD-Negative-Mass-Propulsion-January-3-2011.pdf` — 43 pages; bytes 33432261; sha256 `de517f7ce71816704e5f989936587eeade1400f339bc0cb01a14733180b41172`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D153_AAWSAP-DIRD-Quantum-Tomography-of-Negative-Energy-States-in-the-Vacuum-January-11-2011.pdf` — 51 pages; bytes 67407068; sha256 `bc2dc83edc60634dd69e8cb0dd2acdc3e1e1bfe598a70bcd6feb462a7422183e`; disposition: program-corpus integrated BF-SF-09; not event case.
+- `DOW-UAP-D154_Transcript-of-a-Presentation-by-Captain-Edward-J-Ruppelt-1952.pdf` — 19 pages; bytes 293205; sha256 `0c1c5adfd3ca9cebcc7e5183dbff32538376ce62f075b51756f9b822f8de9e55`; disposition: integrated-existing BF-1952-TM-01.
+- `DOW-UAP-PR130_Unresolved-UAP-Report-Iraq-2022.pdf` — 1 pages; bytes 67687; sha256 `b79812908c2835d7ee838a9713885fda67f610233d4eb030d637ff99f5b7f0e5`; disposition: deferred/corpus-only: encrypted/image-only one-page reports; no new case admission in this tranche.
+- `DOW-UAP-PR131_Unresolved-UAP-Report-Iraq-2022.pdf` — 1 pages; bytes 71752; sha256 `e1eb779d07e32f2ee6e8cc4b17a56f52bd373136a742130d7fae3443adca3853`; disposition: deferred/corpus-only: encrypted/image-only one-page reports; no new case admission in this tranche.
+- `LLE-UAP-D001_Transcript-of-an-Unresolved-UAP-Report-Colorado-October-2023.pdf` — 1 pages; bytes 143812; sha256 `79ac7b9e0a6f7148b99a9b9e889fdac323b5b102eedb0b28ecf1f96f90605b46`; disposition: deferred/corpus-only: encrypted/image-only one-page reports; no new case admission in this tranche.
+- `DOD_111985772.mp4` —  pages; bytes 80052070; sha256 `22bc76841b16cc872fa182f1d050c2f7ab2c19db917be59546b232c6fc523e45`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985782.mp4` —  pages; bytes 22766393; sha256 `ba4bc92e1202ce33b27ecb86e538fd20a6efc39408bb8309b120e710718fac60`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985790.mp4` —  pages; bytes 64049840; sha256 `a8aa9229a647ab152c95d09a20c00925d960efc0acf17c50d2ad198896908779`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985798.mp4` —  pages; bytes 138505272; sha256 `72d345f3cf3975cbee84280d54cb395c5cf8d00037e80ac901b889ffa5895893`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985807.mp4` —  pages; bytes 79818409; sha256 `5654affbd88cf777c4c7b2b73e90d85e312f6e0a4c35fcc8be8a64c75e1b8c33`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985818.mp4` —  pages; bytes 24071535; sha256 `b08ea1a97c3f83e8fb6bd5984c1e95dbcae37d77df6d7508cb8296ed2edf057e`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985820.mp4` —  pages; bytes 31383900; sha256 `68e7d5eb88f8454b820ae4f72407048cc9c2f3f478e7f49549f6e4c70aaf4b33`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985821.mp4` —  pages; bytes 71519688; sha256 `785564c576978f9d9c43eba6e797e8ebbd7f287fb7ae767a77b581ab740ecc49`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985822.mp4` —  pages; bytes 3228077; sha256 `c5312e6f6ab2f5708b052a4195117276ceb504e05629b596427b54d07475ab20`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985823.mp4` —  pages; bytes 802522487; sha256 `ddc0e05e8202cba03b25f7be8d5807fa54aac9adfe01cdcef4918295d5d41415`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985832.mp4` —  pages; bytes 60826819; sha256 `15e38b37ac6325fe9c89de3993973754a7bd54aec68d97d07d35187df4fd1743`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985834.mp4` —  pages; bytes 7383993; sha256 `9ae66a2ff29d08d22c0e440eab1b54118503cc327fa4548cf4fd7b9cbbaa198a`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985835.mp4` —  pages; bytes 20973165; sha256 `a3892ecdac13f7d9633ec6d8bccb0b65dae828583a6da599f34505740b1cecfa`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985844.mp4` —  pages; bytes 81428767; sha256 `1280587960d361950127d8a5a42752ff3a511460cc5cd18b32920facc740b9fb`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985850.mp4` —  pages; bytes 12614687; sha256 `8a6644de762f65d3fe20d628c1b9698e680535d01109acb3164f7a5f04e75f30`; disposition: video corpus-only; no official event crosswalk assigned.
+- `DOD_111985855.mp4` —  pages; bytes 6608849; sha256 `3fa9e9fd33cef54f22d21fd5bcdfbed7601a43566c788e24247d9a7153db1f4e`; disposition: video corpus-only; no official event crosswalk assigned.

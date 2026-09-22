@@ -94,7 +94,7 @@ assert counts == {
     "trueGaps": 0,
     "acquisitionTargets": 22,
     "qualityUpgrades": 0,
-    "complete": 133,
+    "complete": 135,
 }, counts
 
-print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: exact-20 queue contract 0/0/22/133")
+print("BLACKFILE BOUNDARY + QUEUE CALIBRATION PASS: exact-20 queue contract 0/0/22/135")

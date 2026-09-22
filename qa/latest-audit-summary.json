@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "caseCount": 155,
-  "countedCaseCount": 151,
+  "caseCount": 157,
+  "countedCaseCount": 153,
   "aggregateCaseIds": [
     "BF-1968-HIM-01",
     "BF-2015-NAV-01",
@@ -10,17 +10,17 @@
   ],
   "seriesParentCount": 4,
   "seriesChildCount": 16,
-  "timelineEventCount": 153,
+  "timelineEventCount": 155,
   "sourceIndexTerms": 270,
   "sourceIndexFiles": 1223,
-  "casesWithMappedLinks": 155,
+  "casesWithMappedLinks": 157,
   "casesWithoutMappedLinks": [],
-  "casesWithIndexedSourceLinks": 155,
+  "casesWithIndexedSourceLinks": 157,
   "casesWithoutIndexedSourceLinks": [],
-  "casesWithStructuredSourceRecords": 155,
-  "casesWithPublicSourceUrls": 155,
-  "casesWithEvidenceAssets": 155,
-  "casesWithEvidenceOrPreview": 155,
+  "casesWithStructuredSourceRecords": 157,
+  "casesWithPublicSourceUrls": 157,
+  "casesWithEvidenceAssets": 157,
+  "casesWithEvidenceOrPreview": 157,
   "missingLocalAssets": [],
   "normalizedFieldMissing": {
     "caseTypes": [],
@@ -35,20 +35,20 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 14,
-    "statuses": 20,
+    "domains": 15,
+    "statuses": 21,
     "confidenceLabels": 24,
-    "agencies": 91
+    "agencies": 92
   },
   "normalizedTaxonomy": {
-    "caseTypes": 96,
-    "evidenceModes": 79,
-    "environments": 53,
-    "outcomes": 28
+    "caseTypes": 98,
+    "evidenceModes": 80,
+    "environments": 54,
+    "outcomes": 29
   },
   "geometryTypes": {
     "LineString": 4,
-    "Point": 123,
+    "Point": 125,
     "none": 26,
     "Polygon": 2
   },
@@ -60,22 +60,22 @@
     "BF-1997-PH-01",
     "BF-2004-NM-01"
   ],
-  "quotesSelected": 155,
-  "quotesWithLocators": 155,
-  "sourceRecordCount": 311,
+  "quotesSelected": 157,
+  "quotesWithLocators": 157,
+  "sourceRecordCount": 316,
   "sourceDepthWeakCaseCount": 49,
-  "sourceDepthEnrichmentCandidateCount": 104,
+  "sourceDepthEnrichmentCandidateCount": 106,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 0,
     "acquisitionTargets": 22,
-    "complete": 133
+    "complete": 135
   },
   "sourceProfileCounts": {
     "complete-primary-packet": 42,
     "secondary-only": 8,
-    "single-primary-record": 49,
+    "single-primary-record": 51,
     "thin-summary": 41,
     "mixed-provenance": 2,
     "multi-source-independent": 13
@@ -245,7 +245,7 @@
     },
     "BF-1952-TM-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 3,
+      "primaryRecords": 4,
       "secondaryRecords": 0,
       "independentSourceFamilies": 2,
       "sourceFamilies": [
@@ -978,12 +978,13 @@
     },
     "BF-SF-09": {
       "label": "multi-source-independent",
-      "primaryRecords": 4,
+      "primaryRecords": 5,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 5,
+      "independentSourceFamilies": 6,
       "sourceFamilies": [
         "other:aaro/department of defense declassified public report",
         "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
+        "other:department of war pursue release 06",
         "other:local atlas audit derived from the current source inventory",
         "other:nara record group 615; archival copy of aaro\u2019s march 2024 historical report",
         "other:official house oversight witness pdf and public hearing record"
@@ -1167,10 +1168,11 @@
     },
     "BF-2022-ME-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 1,
+      "primaryRecords": 2,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
+        "other:department of war pursue release 06",
         "other:department of war record approved for release to aaro",
         "other:local atlas audit derived from the current source inventory"
       ]
@@ -1580,6 +1582,24 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "fbi"
+      ]
+    },
+    "BF-2025-ME-ORBIT-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06"
+      ]
+    },
+    "BF-2025-ME-SPHERES-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06"
       ]
     }
   },

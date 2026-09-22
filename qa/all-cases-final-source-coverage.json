@@ -269,16 +269,17 @@
     "title": "Tremonton / Newhouse Film",
     "tokens": [
       "TREMONTON-1952",
+      "DOW-UAP-D10",
       "DOW-UAP-D098",
       "DOW-UAP-D098 \u00b7 PDF pp. 6 and 9"
     ],
-    "indexedLinks": 18,
-    "structuredSourceRecords": 3,
-    "publicSourceUrls": 2,
+    "indexedLinks": 23,
+    "structuredSourceRecords": 4,
+    "publicSourceUrls": 3,
     "evidenceAssets": 4,
-    "links": 19,
-    "local": 17,
-    "urls": 2,
+    "links": 25,
+    "local": 22,
+    "urls": 3,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1517,12 +1518,12 @@
       "AAWSAP-2008"
     ],
     "indexedLinks": 12,
-    "structuredSourceRecords": 5,
-    "publicSourceUrls": 9,
+    "structuredSourceRecords": 6,
+    "publicSourceUrls": 10,
     "evidenceAssets": 1,
-    "links": 12,
+    "links": 13,
     "local": 3,
-    "urls": 9,
+    "urls": 10,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1839,12 +1840,12 @@
       "DOW-UAP-D10"
     ],
     "indexedLinks": 5,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 1,
-    "evidenceAssets": 3,
-    "links": 7,
-    "local": 6,
-    "urls": 1,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 5,
+    "links": 10,
+    "local": 8,
+    "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -2599,6 +2600,38 @@
     "evidenceAssets": 3,
     "links": 4,
     "local": 3,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2025-ME-ORBIT-01",
+    "title": "Middle East White Round Object \u2014 500 mph Report",
+    "tokens": [
+      "DOW-UAP-D10"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 9,
+    "local": 8,
+    "urls": 1,
+    "missingLocal": [],
+    "hasEvidence": true
+  },
+  {
+    "id": "BF-2025-ME-SPHERES-01",
+    "title": "Middle East Six Small Spherical Objects",
+    "tokens": [
+      "DOW-UAP-D10"
+    ],
+    "indexedLinks": 5,
+    "structuredSourceRecords": 1,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "links": 9,
+    "local": 8,
     "urls": 1,
     "missingLocal": [],
     "hasEvidence": true

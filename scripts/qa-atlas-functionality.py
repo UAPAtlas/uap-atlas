@@ -60,7 +60,7 @@ with sync_playwright() as p:
     page.wait_for_timeout(800)
 
     initial = visible_metrics(page)
-    assert initial["cases"] == 155, initial
+    assert initial["cases"] == 157, initial
     assert initial["mainRows"] == 129, initial
     assert initial["scrollWidth"] == initial["clientWidth"] and not initial["desktopBlocked"], initial
     assert not initial["drawerOpen"], initial

@@ -3435,7 +3435,7 @@
       "quoteSource": "R. M. L. Baker Jr., Photogrammetric Analysis of “Utah” Film, 16 May 1955, in Project Blue Book Tremonton case file, NARA NAID 28943418, digital image 0053.",
       "quoteConfidence": "High — visually verified against the NARA scan. The same case file also contains a 1 June 1956 Air Force memo asserting the images were seagulls, so the record is internally contradictory.",
       "significance": "Case significance",
-      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated.",
+      "sourceQuality": "Exact NARA case-file and motion-picture custody with copy-generation evidence, now joined by the exact 1953 Naval Photographic Interpretation Center analysis released as DOW-UAP-D098. That report says the analyzed Utah film was a duplicate of a copy, gives a majority unidentified/light-source assessment, and explicitly records resource, corroboration and official-position limitations. The camera original and full laboratory ledger remain unlocated. Release 06 adds the Blue Book Tremonton case file (D102), photo file (D103), Newhouse personnel file (D104), and Ruppelt transcript context (D154), deepening primary custody but not resolving the film-generation/original-camera gap.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-1952-TM-01",
@@ -3510,6 +3510,34 @@
         "basis": "Published public coordinate for the named location"
       },
       "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D102, DOW-UAP-D103, DOW-UAP-D104, and DOW-UAP-D154 · Tremonton/Newhouse Blue Book and Ruppelt records",
+          "sourceType": "primary-case-file-and-context-records",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "D102 full 156-page Blue Book file; D103 full 5-page photo file; D104 Newhouse personnel record; D154 pp. 1, 12, 16",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sha256": [
+            "941f95a0ae621f3dbba1ff63dbaea54ed6396dbcc5f434cd5341e833d15f923a",
+            "950cc1f3d5a9b4f74c1342784a846a2cd2d2dae95f825b89839ac229292e6fa1",
+            "640912a325f5c611ebecfe8f969a28689c32ea40031ad30bd6b9fd47c2abece7",
+            "0c1c5adfd3ca9cebcc7e5183dbff32538376ce62f075b51756f9b822f8de9e55"
+          ],
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D154-pdf-page-001-01.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D154-pdf-page-012.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D154-pdf-page-016.png"
+          ],
+          "supports": [
+            "release custody for the Blue Book Tremonton/Newhouse packet and photo file",
+            "personnel-record custody for Newhouse identity/service context",
+            "Ruppelt-era context for technical methods and unresolved-case framing"
+          ],
+          "limitations": [
+            "large D102/D104 packets were inventoried and targeted, not page-by-page fully read in this tranche",
+            "does not recover the first-generation camera original or full lab custody ledger",
+            "Ruppelt transcript is program context, not independent event corroboration"
+          ]
+        },
         {
           "citation": "Project Blue Book case file, 'Case Files: [Blank]' containing Tremonton/Newhouse material — NARA NAID 28943418 (97 digital objects); Baker analysis image 0053, 1956 seagull memo image 0073, photogrammetric conclusions image 0084.",
           "sourceType": "primary-record",
@@ -18175,7 +18203,7 @@
       "quoteSource": "AARO Historical Record Report Vol 1 & AAWSAP program records (summary)",
       "quoteConfidence": "High — selected sentence is tied to AARO’s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records.",
       "significance": "High significance",
-      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO’s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims.",
+      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO’s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims. Release 06 adds official AAWSAP solicitation/contract modification files and the DIRD corpus (D110–D153), strengthening the program-documentation layer while remaining non-event technical/program evidence.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-09",
@@ -18253,6 +18281,29 @@
         "basis": "Published public coordinate for the named location"
       },
       "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D110–D116 AAWSAP contracting records and DOW-UAP-D117–D153 DIRD technical reports",
+          "sourceType": "official-program-and-technical-report-corpus",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "D110 p. 1; D111 solicitation/order; D117–D153 complete DIRDs",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sha256": [
+            "e4f6eff0ec5c6a35e5832d4ae881ddad68c148650df77d447064c7180fafe056",
+            "1ddd6264f57e0e606d78a8b6717bfe66599e9a729538726d9afdf94c420ac940",
+            "e773fe838b690aab4ce30feb3e431bbeb84e152f4420e8c75a0685f61a9351a2",
+            "bc2dc83edc60634dd69e8cb0dd2acdc3e1e1bfe598a70bcd6feb462a7422183e"
+          ],
+          "supports": [
+            "official custody for AAWSAP statement of objectives/contracting trail",
+            "official custody for 37 DIRD technical studies",
+            "program-documentation link to the existing AAWSAP/AATIP special file"
+          ],
+          "limitations": [
+            "DIRDs are technical studies, not event reports",
+            "contract records do not authenticate Skinwalker or recovered-technology claims",
+            "full investigative database and workpapers remain outside this release"
+          ]
+        },
         {
           "citation": "DIA AAWSAP contract-status and program-review releases",
           "sourceType": "official-contract-and-program-review-records",
@@ -21789,7 +21840,7 @@
       "domain": "MILITARY / SENSOR",
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
-      "summary": "An ISR aircraft observed five objects crossing the field of view over roughly four hours; the first had a possible missile-like profile while four were assessed closer to possible birds.",
+      "summary": "Two newly released USCENTCOM mission reports (5 May 2022) record multiple small UAPs periodically observed by FMV over target areas, with reported 80–180 mph speeds and unresolved altitude. They are related to—but not identical with—the earlier Atlas Middle East multi-UAP record; D106 places one observation at 20:26Z and D109 places a longer 05:24–07:04Z observation period affected by dust storms.",
       "official": "Four observations fit closer to possible birds; the first remained materially different in the reviewed summary.",
       "gap": "Full clips, platform data, timestamps, and object-by-object analytic workpapers are needed. Evidence-depth audit completed; context images/manifests are not treated as primary corroboration.",
       "sources": [
@@ -21802,14 +21853,14 @@
       "coordinatePrecision": "regional",
       "previousProjection": "atlas-svg-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Middle East regional centroid; source location approximate",
-      "keyFact": "An ISR aircraft observed five objects crossing the field of view over roughly four hours; the first had a possible missile-like profile while four were assessed closer to possible birds.",
+      "keyFact": "Release 06 adds two May 2022 USCENTCOM primary mission reports: D106 p. 6 reports periodic FMV observation of 1–2 m UAPs at 80–180 mph around 20:26Z; D109 p. 6 reports a separate 05:24–07:04Z observation period with similar 80–180 mph claims.",
       "whyItMatters": "It shows why object-by-object analysis matters: broad bird explanations may fit some observations while leaving the first object materially different.",
       "keyQuote": "possible [REDACTED] missile",
       "quoteSource": "DOW-UAP-D10 · Middle East UAP mission report May 2022",
       "quoteConfidence": "confirmed source-phrase quotation",
       "heroFact": "An ISR aircraft observed five objects over roughly four hours, including one possible missile-like profile and four possible birds.",
       "significance": "High significance",
-      "sourceQuality": "Primary source",
+      "sourceQuality": "Primary source, expanded by PURSUE Release 06 mission reports D106 and D109; speeds are source-estimated/reported from MTS/FMV context, not independently reproduced Atlas measurements.",
       "sourceLabel": "AARO release",
       "sourceLocator": "DOW-UAP-D10",
       "relatedCaseIds": [
@@ -21856,6 +21907,35 @@
         "basis": "Middle East regional centroid; source location approximate"
       },
       "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D106 and DOW-UAP-D109 · USCENTCOM mission reports, Iraq/Middle East, 5 May 2022",
+          "sourceType": "primary-military-mission-report",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "D106 PDF pp. 1, 6; D109 PDF pp. 1, 6",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sha256": [
+            "7143a38cc6c53316cd0b9bb5df8c8e17aec24b5c1a78751323cede85bac3abdb",
+            "bcb2dc4da3380db92c5f0a234087f0bda0f29d1d14421c42ef3d29d5461dfa92"
+          ],
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-006.png"
+          ],
+          "supports": [
+            "official custody for two May 2022 mission reports",
+            "FMV/MTS observation context",
+            "reported 80–180 mph speed range and 1–2 m size estimate",
+            "mission-impact statement: did not hinder mission"
+          ],
+          "limitations": [
+            "native FMV/WSV attachments are not mapped to released videos",
+            "locations and platform details are redacted",
+            "altitude was not determined",
+            "reported speeds are source estimates, not independently reproduced measurements"
+          ]
+        },
         {
           "citation": "DOW-UAP-D10 · complete released record",
           "sourceType": "primary-record",
@@ -21913,7 +21993,9 @@
       "images": [
         "assets/editorial-reconstructions/BF-2022-ME-01.png",
         "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_001.png",
-        "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png"
+        "assets/evidence/DOW-UAP-D10/DOW-UAP-D10-Mission-Report-Middle-East-May-2022__page_006.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-006.png"
       ],
       "evidenceDepthStatus": "primary-packet-recovered",
       "taxonomyOriginal": {
@@ -30206,6 +30288,295 @@
       "y": 18.73,
       "coordinateGenerated": true,
       "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2025-ME-ORBIT-01",
+      "title": "Middle East White Round Object — 500 mph Report",
+      "date": "29 OCT 2025",
+      "year": 2025,
+      "location": "Middle East [REDACTED]",
+      "mode": "redacted",
+      "agency": "USCENTCOM",
+      "domain": "AIR / ISR",
+      "status": "REDACTED LOCATION · UNRESOLVED RELEASED REPORT",
+      "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
+      "summary": "A declassified USCENTCOM mission report records a 29 Oct 2025 UAP incident observed on feed while on target. The object was described as a white round/orb-like object, tracked from 01:41Z to 01:50Z, and reported moving as fast as 500 mph. Location, platform and observer assessment are heavily redacted.",
+      "official": "The official DVIDS description explicitly says it is informational only and must not be read as an analytical judgment, investigative conclusion or factual determination about the event's validity, nature or significance. The linked release provides no object-origin conclusion.",
+      "gap": "Native FMV/feed and unredacted location/platform details are absent; the speed claim is source-reported only.",
+      "sources": [
+        "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+      ],
+      "image": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-008.png",
+      "lon": 43,
+      "lat": 33,
+      "geometryExpectation": "region",
+      "coordinatePrecision": "regional-redacted",
+      "coordinateBasis": "Regional placeholder: location redacted in D107; not a measured event coordinate.",
+      "keyFact": "D107 pp. 6–8 records a source-reported “FAST MOVING SPEEDS UP TO 500MPH” and a “white round orbit” description; the release does not provide enough data to independently reproduce the speed or identify the object.",
+      "whyItMatters": "It is a recent official mission-report UAP form with explicit speed and physical-state fields, but almost all reconstructive details are redacted.",
+      "keyQuote": "“FAST MOVING SPEEDS UP TO 500MPH” and “looked like a white round orbit.”",
+      "quoteSource": "DOW-UAP-D107, PDF pp. 6 and 8",
+      "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction.",
+      "heroFact": "White round/orb-like object on feed, 01:41Z–01:50Z, reported up to 500 mph.",
+      "significance": "Recent official USCENTCOM UAP mission-report record with structured UAP fields.",
+      "sourceQuality": "Primary mission report; speed and shape are source-reported, redaction-limited, and not independently measured by Atlas.",
+      "sourceLabel": "PURSUE Release 06 · DOW-UAP-D107",
+      "sourceLocator": "DOW-UAP-D107 pp. 1, 6–8",
+      "relatedCaseIds": [
+        "BF-2025-YS-01",
+        "BF-2024-ECS-01",
+        "BF-2022-ME-01"
+      ],
+      "caseTypes": [
+        "military-report",
+        "sensor-report"
+      ],
+      "evidenceModes": [
+        "official-record",
+        "fmv-context"
+      ],
+      "environment": [
+        "Operational ISR mission; exact location redacted"
+      ],
+      "outcome": "unresolved report; no additional information in release",
+      "confidenceModel": {
+        "record": "confirmed official declassified mission report",
+        "anomaly": "undetermined; source-reported motion not independently reconstructed",
+        "provenance": "Department of War PURSUE Release 06 primary record"
+      },
+      "temporal": {
+        "date": "2025-10-29",
+        "timeUtc": "01:41–01:50"
+      },
+      "geospatial": {
+        "basis": "regional placeholder because exact location is redacted in the released report",
+        "region": "Middle East",
+        "precision": "redacted regional placeholder",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43,
+            33
+          ]
+        }
+      },
+      "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D107 · Mission Report Middle East 2025",
+          "sourceType": "primary-military-mission-report",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "PDF pp. 1, 6–8",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sha256": "731d38a850d1293fde776a864270602b2191b0348915800785d131abae96bc4c",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-006.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-008.png"
+          ],
+          "supports": [
+            "official custody for a 29 Oct 2025 USCENTCOM UAP incident report",
+            "white round/orb-like description",
+            "reported speed up to 500 mph",
+            "no reported effects on persons"
+          ],
+          "limitations": [
+            "location/platform/sensor details redacted",
+            "native FMV/feed not released or mapped",
+            "speed is source-reported, not independently reproducible",
+            "number of objects and full track details unclear"
+          ]
+        }
+      ],
+      "phenomena": {
+        "reportedForms": [
+          "white round object",
+          "orb-like object",
+          "reported high speed"
+        ],
+        "classification": "reported UAP; not independently identified"
+      },
+      "observation": {
+        "duration": "approximately 9 minutes reported (01:41Z–01:50Z)",
+        "sensor": "feed/FMV context, exact platform redacted",
+        "reportedSpeed": "up to 500 mph (source-reported)"
+      },
+      "taxonomyOriginal": {
+        "domain": "MILITARY / IR",
+        "status": "UNRESOLVED",
+        "confidence": "CONFIRMED RELEASE"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-008.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "DOW-UAP-D107 p. 8 UAP description page.",
+        "provenance": "Department of War PURSUE Release 06",
+        "evidenceStatus": "Documentary record page; not event imagery.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "PURSUE Release 06 landing page",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+        }
+      ],
+      "images": [
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-008.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D107-pdf-page-001.png"
+      ],
+      "expectedCountry": "Iraq",
+      "mapGeometry": null,
+      "x": 60.64,
+      "y": 20.51,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
+    },
+    {
+      "id": "BF-2025-ME-SPHERES-01",
+      "title": "Middle East Six Small Spherical Objects",
+      "date": "29 JUL 2025",
+      "year": 2025,
+      "location": "Middle East [REDACTED]",
+      "mode": "redacted",
+      "agency": "USCENTCOM",
+      "domain": "AIR / ISR",
+      "status": "REDACTED LOCATION · UNRESOLVED RELEASED REPORT",
+      "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
+      "summary": "A declassified USCENTCOM mission report records a 29 Jul 2025 UAP incident: six small spherical objects grouped together, with quick direction changes, source-estimated 480 mph kinetic velocity, FL220 altitude, and no reported effects on persons or equipment. The report leaves the location and key platform details redacted.",
+      "official": "The official DVIDS description explicitly says it is informational only and must not be read as an analytical judgment, investigative conclusion or factual determination about the event's validity, nature or significance. The linked release provides no object-origin conclusion.",
+      "gap": "Native FMV/feed and exact location/platform details are absent; the velocity and altitude are source-estimated fields.",
+      "sources": [
+        "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+      ],
+      "image": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-007.png",
+      "lon": 43,
+      "lat": 33,
+      "geometryExpectation": "region",
+      "coordinatePrecision": "regional-redacted",
+      "coordinateBasis": "Regional placeholder: location redacted in D107; not a measured event coordinate.",
+      "keyFact": "D108 pp. 6–7 reports six small spherical objects grouped together, estimated kinetic velocity of 480 mph, FL220 altitude and quick direction changes; those values are source-estimated, not Atlas-reproduced measurements.",
+      "whyItMatters": "It is a recent official mission-report UAP form with explicit speed and physical-state fields, but almost all reconstructive details are redacted.",
+      "keyQuote": "“6X SMALL SPHERICAL OBJECTS GROUPED TOGETHER” with estimated “Kinetic Velocity: 48OMPH.”",
+      "quoteSource": "DOW-UAP-D108, PDF p. 7",
+      "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction.",
+      "heroFact": "Six small spherical objects, grouped together, reported agile and source-estimated at 480 mph.",
+      "significance": "Recent official USCENTCOM UAP mission-report record with structured UAP fields.",
+      "sourceQuality": "Primary mission report; grouped-sphere description and 480 mph/FL220 values are source-estimated and redaction-limited.",
+      "sourceLabel": "PURSUE Release 06 · DOW-UAP-D108",
+      "sourceLocator": "DOW-UAP-D108 pp. 1, 6–7",
+      "relatedCaseIds": [
+        "BF-2025-ME-ORBIT-01",
+        "BF-2025-YS-01",
+        "BF-2022-ME-01"
+      ],
+      "caseTypes": [
+        "military-report",
+        "sensor-report"
+      ],
+      "evidenceModes": [
+        "official-record",
+        "fmv-context"
+      ],
+      "environment": [
+        "Operational ISR mission; exact location redacted"
+      ],
+      "outcome": "unresolved report; no additional information in release",
+      "confidenceModel": {
+        "record": "confirmed official declassified mission report",
+        "anomaly": "undetermined; source-reported motion not independently reconstructed",
+        "provenance": "Department of War PURSUE Release 06 primary record"
+      },
+      "temporal": {
+        "date": "2025-07-29",
+        "timeUtc": "20:22:32"
+      },
+      "geospatial": {
+        "basis": "regional placeholder because exact location is redacted in the released report",
+        "region": "Middle East",
+        "precision": "redacted regional placeholder",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            43,
+            33
+          ]
+        }
+      },
+      "sourceRecords": [
+        {
+          "citation": "DOW-UAP-D108 · Mission Report Middle East 2025",
+          "sourceType": "primary-military-mission-report",
+          "provenance": "Department of War PURSUE Release 06",
+          "locator": "PDF pp. 1, 6–7",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06",
+          "sha256": "9ffec164725f15d4a1d75c680fceae367b6813119d183f52df33a91c23ee116c",
+          "sourcePageImages": [
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-001.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-006.png",
+            "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-007.png"
+          ],
+          "supports": [
+            "official custody for a 29 Jul 2025 USCENTCOM UAP incident report",
+            "six small spherical objects grouped together",
+            "reported quick direction changes",
+            "source-estimated FL220 and 480 mph fields"
+          ],
+          "limitations": [
+            "location/platform/sensor details redacted",
+            "native FMV/feed not released or mapped",
+            "velocity and altitude are source-estimated fields",
+            "no independent sensor analysis is provided"
+          ]
+        }
+      ],
+      "phenomena": {
+        "reportedForms": [
+          "six small spherical objects",
+          "grouped objects",
+          "reported agile motion"
+        ],
+        "classification": "reported UAP; not independently identified"
+      },
+      "observation": {
+        "duration": "not fully stated in released text",
+        "sensor": "feed/FMV context, exact platform redacted",
+        "reportedSpeed": "480 mph (source-estimated field)",
+        "reportedAltitude": "FL220 (source-estimated field)"
+      },
+      "taxonomyOriginal": {
+        "domain": "MILITARY / IR",
+        "status": "UNRESOLVED",
+        "confidence": "CONFIRMED RELEASE"
+      },
+      "taxonomyVersion": "atlas-controlled-v1",
+      "heroVisual": {
+        "src": "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-007.png",
+        "mediaType": "image",
+        "visualType": "official-document-page",
+        "caption": "DOW-UAP-D108 p. 7 UAP description page.",
+        "provenance": "Department of War PURSUE Release 06",
+        "evidenceStatus": "Documentary record page; not event imagery.",
+        "isEventEvidence": false
+      },
+      "publicSources": [
+        {
+          "label": "PURSUE Release 06 landing page",
+          "url": "https://www.war.gov/UFO/?releaseDate=Release+06&release=06"
+        }
+      ],
+      "images": [
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-007.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-006.png",
+        "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D108-pdf-page-001.png"
+      ],
+      "expectedCountry": "Iraq",
+      "mapGeometry": null,
+      "x": 60.64,
+      "y": 20.51,
+      "coordinateGenerated": true,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1"
     }
   ],
   "timeline": [
@@ -30237,6 +30608,15 @@
       "desc": "Sweden logs ~2,000 reports and dives Lake Kölmjärv; allied intelligence investigates, residue unexplained."
     },
     {
+      "id": "TL-1947C",
+      "year": 1947,
+      "date": "21 JUN 1947",
+      "type": "contradiction",
+      "caseId": "BF-1947-MI-01",
+      "title": "Maury Island hoax and B-25 crash",
+      "desc": "FBI records document the Maury claim, investigative hoax suspicion, and the later deaths of two AAF officers, but explicitly do not record the confession previously attributed to the witness."
+    },
+    {
       "id": "TL-1947B",
       "year": 1947,
       "date": "JUL 1947",
@@ -30253,15 +30633,6 @@
       "caseId": "BF-1947-KA-01",
       "title": "Arnold sighting names the saucer",
       "desc": "Press coverage of Kenneth Arnold's Mount Rainier report coins 'flying saucer' and opens the modern era."
-    },
-    {
-      "id": "TL-1947C",
-      "year": 1947,
-      "date": "21 JUN 1947",
-      "type": "contradiction",
-      "caseId": "BF-1947-MI-01",
-      "title": "Maury Island hoax and B-25 crash",
-      "desc": "FBI records document the Maury claim, investigative hoax suspicion, and the later deaths of two AAF officers, but explicitly do not record the confession previously attributed to the witness."
     },
     {
       "id": "TL-1948E",
@@ -30462,15 +30833,6 @@
       "desc": "A CIA report documents Soviet UFOs moving at 12,000 km/h — Mach 10, far beyond any operational aircraft of the era."
     },
     {
-      "id": "EV-1956-LB-01",
-      "caseId": "BF-1956-LB-01",
-      "date": "AUG 1956",
-      "year": 1956,
-      "type": "case",
-      "title": "Lakenheath-Bentwaters Radar-Visual Case",
-      "desc": "A radar-visual case involving RAF and USAF radar tracks and pilot response; later singled out in the Condon Report as a "
-    },
-    {
       "id": "TL-1956-DF",
       "year": 1956,
       "date": "26 DEC 1956",
@@ -30480,22 +30842,13 @@
       "desc": "Two ground observers reported an apparently instantaneous 400-yard movement; the preparing officer favored a helicopter but left the reported initial velocity unexplained."
     },
     {
-      "id": "TL-1957-B47",
-      "year": 1957,
-      "date": "15 APR 1957",
+      "id": "EV-1956-LB-01",
+      "caseId": "BF-1956-LB-01",
+      "date": "AUG 1956",
+      "year": 1956,
       "type": "case",
-      "caseId": "BF-1957-B47-01",
-      "title": "B-47 supersonic acceleration encounter",
-      "desc": "Two ground-based Philco technical representatives reported a separate object accelerating away from an approaching B-47; Mach 2–3 was their visual estimate without measured range or instrument data."
-    },
-    {
-      "id": "TL-1957-RA",
-      "year": 1957,
-      "date": "AUG 1957",
-      "type": "case",
-      "caseId": "BF-1957-RA-01",
-      "title": "Warner Robins star-shaped-object report",
-      "desc": "A civilian reported a white star-shaped object for ten minutes. A nearby B-57 pilot saw only two planets; Robins AFB assessed Venus or Jupiter as the probable explanation."
+      "title": "Lakenheath-Bentwaters Radar-Visual Case",
+      "desc": "A radar-visual case involving RAF and USAF radar tracks and pilot response; later singled out in the Condon Report as a "
     },
     {
       "id": "TL-1957-CG",
@@ -30507,22 +30860,13 @@
       "desc": "One civilian witness reported three cigar-shaped objects connected in a Y configuration over St. Martins Bay; no corroborating record is mapped."
     },
     {
-      "id": "TL-1957-NC",
+      "id": "TL-1957-B47",
       "year": 1957,
-      "date": "AUG 1957",
+      "date": "15 APR 1957",
       "type": "case",
-      "caseId": "BF-1957-NC-01",
-      "title": "First radar skinpaint of a UAP",
-      "desc": "An airborne radar operator tracked a UAP by raw skinpaint for 3.5 hours off the Northern California coast. The object closed to 6 miles, flew parallel, then accelerated away. Investigator flagged it as the first such detection."
-    },
-    {
-      "id": "TL-1957A",
-      "year": 1957,
-      "date": "JAN 1957",
-      "type": "investigation",
-      "caseId": "BF-SF-04",
-      "title": "Chapel Hill gravity conference",
-      "desc": "Aviation-funded GR1 conference at UNC becomes a physics milestone later woven into antigravity lore."
+      "caseId": "BF-1957-B47-01",
+      "title": "B-47 supersonic acceleration encounter",
+      "desc": "Two ground-based Philco technical representatives reported a separate object accelerating away from an approaching B-47; Mach 2–3 was their visual estimate without measured range or instrument data."
     },
     {
       "id": "TL-1957-HT",
@@ -30532,6 +30876,33 @@
       "caseId": "BF-1957-HT-01",
       "title": "Hastings MI arrowhead formation",
       "desc": "Four civilians reported a 35-minute sequence involving a larger light and smaller lights; the Air Force proposed aircraft/refueling while noting exact refueling information was not on squadron record."
+    },
+    {
+      "id": "TL-1957-NC",
+      "year": 1957,
+      "date": "AUG 1957",
+      "type": "case",
+      "caseId": "BF-1957-NC-01",
+      "title": "First radar skinpaint of a UAP",
+      "desc": "An airborne radar operator tracked a UAP by raw skinpaint for 3.5 hours off the Northern California coast. The object closed to 6 miles, flew parallel, then accelerated away. Investigator flagged it as the first such detection."
+    },
+    {
+      "id": "TL-1957-RA",
+      "year": 1957,
+      "date": "AUG 1957",
+      "type": "case",
+      "caseId": "BF-1957-RA-01",
+      "title": "Warner Robins star-shaped-object report",
+      "desc": "A civilian reported a white star-shaped object for ten minutes. A nearby B-57 pilot saw only two planets; Robins AFB assessed Venus or Jupiter as the probable explanation."
+    },
+    {
+      "id": "TL-1957A",
+      "year": 1957,
+      "date": "JAN 1957",
+      "type": "investigation",
+      "caseId": "BF-SF-04",
+      "title": "Chapel Hill gravity conference",
+      "desc": "Aviation-funded GR1 conference at UNC becomes a physics milestone later woven into antigravity lore."
     },
     {
       "id": "TL-1957B",
@@ -30596,6 +30967,15 @@
       "type": "case",
       "title": "Astronaut Scientific Debriefings",
       "desc": "Astronaut scientific debriefings from 1962–1963; prior corpus review found space-environment observations but no explicit UAP sigh"
+    },
+    {
+      "id": "TL-1964-PR-GYATT",
+      "year": 1964,
+      "date": "16–24 NOV 1964",
+      "type": "incident",
+      "caseId": "BF-1964-PR-01",
+      "title": "Puerto Rico / USS Gyatt radar-visual incidents",
+      "desc": "Navy pilot and radar reporting near the Atlantic Fleet Weapons Range entered CIA analysis; the referenced original radar film and prints remain absent."
     },
     {
       "id": "TL-1964A",
@@ -30993,15 +31373,6 @@
       "desc": "The Brazilian Air Force field-investigates the Colares flap; its reports and photos are later declassified."
     },
     {
-      "id": "TL-1978B",
-      "year": 1978,
-      "date": "DEC 1978",
-      "type": "incident",
-      "caseId": "BF-1978-KK-01",
-      "title": "Kaikoura lights filmed",
-      "desc": "Radar, aircrew visuals, and a TV film crew record the same lights; the official explanation is disputed."
-    },
-    {
       "id": "TL-1978A",
       "year": 1978,
       "date": "21 OCT 1978",
@@ -31009,6 +31380,15 @@
       "caseId": "BF-1978-VL-01",
       "title": "Valentich vanishes over Bass Strait",
       "desc": "Valentich's final communications are preserved in the held investigation mirror, including “it is hovering and it's not an aircraft”; the official report states the disappearance cause was not determined."
+    },
+    {
+      "id": "TL-1978B",
+      "year": 1978,
+      "date": "DEC 1978",
+      "type": "incident",
+      "caseId": "BF-1978-KK-01",
+      "title": "Kaikoura lights filmed",
+      "desc": "Radar, aircrew visuals, and a TV film crew record the same lights; the official explanation is disputed."
     },
     {
       "id": "TL-1980C",
@@ -31209,6 +31589,15 @@
       "desc": "French generals and engineers judge the ET hypothesis most plausible and brief the Élysée."
     },
     {
+      "id": "TL-2002-BG-TRIANGLE",
+      "year": 2002,
+      "date": "JUN 2002",
+      "type": "incident",
+      "caseId": "BF-2002-BG-01",
+      "title": "Bagram silent triangle report",
+      "desc": "A later FBI interview records a reservist pilot's report of a large silent triangular form passing over Bagram, with a second pilot reportedly present."
+    },
+    {
       "id": "EV-2004-NM-01",
       "caseId": "BF-2004-NM-01",
       "date": "NOV 2004",
@@ -31244,6 +31633,15 @@
       "caseId": "BF-SF-09",
       "title": "AAWSAP/AATIP funded",
       "desc": "A $22M DIA program contracts BAASS and studies Skinwalker Ranch — the plumbing of the 2017 disclosure era."
+    },
+    {
+      "id": "TL-2011-DT-LIGHTS",
+      "year": 2011,
+      "date": "JUN–JUL 2011",
+      "type": "incident",
+      "caseId": "BF-2011-DT-01",
+      "title": "Large dark triangle with lights report",
+      "desc": "A 2025 FBI interview records a multi-person retrospective account of a low dark triangle with three lights and a pulsing hum at a redacted U.S. location."
     },
     {
       "id": "EV-2013-AG-01",
@@ -31373,6 +31771,15 @@
       "seriesId": "BF-2020-AG-00"
     },
     {
+      "id": "TL-2021-GOM-AC130",
+      "year": 2021,
+      "date": "8 SEP 2021",
+      "type": "incident",
+      "caseId": "BF-2021-GOM-01",
+      "title": "Gulf of Oman AC-130 EO/IR event",
+      "desc": "A released IIR records approximately 25 EO/IR observations during live-fire training while remaining explicitly not finally evaluated intelligence."
+    },
+    {
       "id": "TL-2022A",
       "year": 2022,
       "date": "15 FEB 2022",
@@ -31434,6 +31841,24 @@
       "caseId": "BF-SF-10",
       "title": "Grusch testifies; AARO rebuts",
       "desc": "Sworn recovery-program claims meet the executive's written denial — the record now contradicts itself in public."
+    },
+    {
+      "id": "TL-2023-CSR",
+      "year": 2023,
+      "date": "OCT 2023",
+      "type": "incident",
+      "caseId": "BF-2023-CSR-01",
+      "title": "Colorado Springs red-light triangle report",
+      "desc": "A 2025 FBI interview records one witness's report of a large triangular form with three red lights and subjectively estimated rapid acceleration."
+    },
+    {
+      "id": "TL-2023-CST",
+      "year": 2023,
+      "date": "OCT 2023",
+      "type": "incident",
+      "caseId": "BF-2023-CST-01",
+      "title": "Colorado Springs translucent triangle report",
+      "desc": "A 2026 FBI interview records two household witnesses' four-second report of a silent distortion-shrouded triangular form."
     },
     {
       "id": "TL-2023-GR33",
@@ -31528,6 +31953,26 @@
       "desc": "Unresolved area of contrast released."
     },
     {
+      "id": "TL-2025-ME-SPHERES",
+      "year": 2025,
+      "date": "29 JUL 2025",
+      "type": "incident",
+      "caseId": "BF-2025-ME-SPHERES-01",
+      "title": "Middle East Six Small Spherical Objects",
+      "desc": "A declassified USCENTCOM mission report records a 29 Jul 2025 UAP incident: six small spherical objects grouped together, with quick direction changes, source-estimated 480 mph kinetic velocity, FL220 altitude, and no reported effects on persons or equipment. The report leaves the location and key platform details redacted.",
+      "location": "Middle East [REDACTED]"
+    },
+    {
+      "id": "TL-2025-ME-ORBIT",
+      "year": 2025,
+      "date": "29 OCT 2025",
+      "type": "incident",
+      "caseId": "BF-2025-ME-ORBIT-01",
+      "title": "Middle East White Round Object — 500 mph Report",
+      "desc": "A declassified USCENTCOM mission report records a 29 Oct 2025 UAP incident observed on feed while on target. The object was described as a white round/orb-like object, tracked from 01:41Z to 01:50Z, and reported moving as fast as 500 mph. Location, platform and observer assessment are heavily redacted.",
+      "location": "Middle East [REDACTED]"
+    },
+    {
       "id": "T-2025-USIC-ORB",
       "caseId": "BF-2025-USIC-01",
       "date": "LATE 2025",
@@ -31535,24 +31980,6 @@
       "type": "ODNI / TESTIMONY",
       "title": "Senior USIC Test-Range Orb Encounters",
       "desc": "A released narrative attributed to a senior U.S. intelligence officer describes more than an hour of helicopter encounters with orange orb-like objects, including claimed radar cueing, FLIR and NVG observations, ground teams, pilots, and nearby fighters."
-    },
-    {
-      "id": "TL-1964-PR-GYATT",
-      "year": 1964,
-      "date": "16–24 NOV 1964",
-      "type": "incident",
-      "caseId": "BF-1964-PR-01",
-      "title": "Puerto Rico / USS Gyatt radar-visual incidents",
-      "desc": "Navy pilot and radar reporting near the Atlantic Fleet Weapons Range entered CIA analysis; the referenced original radar film and prints remain absent."
-    },
-    {
-      "id": "TL-2021-GOM-AC130",
-      "year": 2021,
-      "date": "8 SEP 2021",
-      "type": "incident",
-      "caseId": "BF-2021-GOM-01",
-      "title": "Gulf of Oman AC-130 EO/IR event",
-      "desc": "A released IIR records approximately 25 EO/IR observations during live-fire training while remaining explicitly not finally evaluated intelligence."
     },
     {
       "id": "TL-2026-RL-NOD",
@@ -31571,42 +31998,6 @@
       "caseId": "BF-2026-SMO-01",
       "title": "Slow-moving thermal objects",
       "desc": "An FBI interview and officially associated 10-second thermal clip document two unresolved black-hot contrast areas after a redacted RF alert."
-    },
-    {
-      "id": "TL-2002-BG-TRIANGLE",
-      "year": 2002,
-      "date": "JUN 2002",
-      "type": "incident",
-      "caseId": "BF-2002-BG-01",
-      "title": "Bagram silent triangle report",
-      "desc": "A later FBI interview records a reservist pilot's report of a large silent triangular form passing over Bagram, with a second pilot reportedly present."
-    },
-    {
-      "id": "TL-2011-DT-LIGHTS",
-      "year": 2011,
-      "date": "JUN–JUL 2011",
-      "type": "incident",
-      "caseId": "BF-2011-DT-01",
-      "title": "Large dark triangle with lights report",
-      "desc": "A 2025 FBI interview records a multi-person retrospective account of a low dark triangle with three lights and a pulsing hum at a redacted U.S. location."
-    },
-    {
-      "id": "TL-2023-CST",
-      "year": 2023,
-      "date": "OCT 2023",
-      "type": "incident",
-      "caseId": "BF-2023-CST-01",
-      "title": "Colorado Springs translucent triangle report",
-      "desc": "A 2026 FBI interview records two household witnesses' four-second report of a silent distortion-shrouded triangular form."
-    },
-    {
-      "id": "TL-2023-CSR",
-      "year": 2023,
-      "date": "OCT 2023",
-      "type": "incident",
-      "caseId": "BF-2023-CSR-01",
-      "title": "Colorado Springs red-light triangle report",
-      "desc": "A 2025 FBI interview records one witness's report of a large triangular form with three red lights and subjectively estimated rapid acceleration."
     }
   ],
   "schemaVersion": 2,

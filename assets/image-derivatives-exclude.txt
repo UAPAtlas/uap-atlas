@@ -354,5 +354,6 @@
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-001.png
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D040-pdf-page-002.png
 /assets/sources/PURSUE-RELEASE-05/FBI-UAP-D041-reconstruction-contact.jpg
+/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png
 /assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg
 /assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-31.jpg

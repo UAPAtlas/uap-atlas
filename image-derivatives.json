@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "policy": "heavy-image-bounded-derivatives",
-  "sourceFingerprint": "a4c56f2908a50ed2d7ca526338b3e08f6032afe5bdc719605c6e63e98f6b4ae0",
+  "sourceFingerprint": "861d10187ae250ac79be53d59413cc8411345f4c996c7798bfd3d105d437e700",
   "thresholdBytes": 350000,
   "displayMaxDimension": 1600,
   "thumbMaxDimension": 360,
   "displayQuality": 84,
   "thumbQuality": 76,
   "summary": {
-    "imageCount": 358,
-    "originalBytes": 912356851,
-    "displayBytes": 55752776,
-    "thumbBytes": 3969168
+    "imageCount": 359,
+    "originalBytes": 912900617,
+    "displayBytes": 55837234,
+    "thumbBytes": 3975998
   },
   "entries": {
     "assets/context/ARIEL-1994/ariel-phenomenon-poster.jpg": {
@@ -7488,6 +7488,27 @@
         "width": 353,
         "height": 360,
         "sha256": "195f1bf2caf6e105766343bdb7c42e97a41e5c445f36ab7545cf24ae06c8c7cc"
+      }
+    },
+    "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png": {
+      "originalBytes": 543766,
+      "originalWidth": 1360,
+      "originalHeight": 1760,
+      "originalSha256": "9832ac2819a89dbff33ff9caf77cf098910d1bba466bb82577aa2c0a1dec720c",
+      "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png",
+      "display": {
+        "path": "assets/derivatives/display/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png.webp",
+        "bytes": 84458,
+        "width": 1236,
+        "height": 1600,
+        "sha256": "ac547d5b897860567ada7cea71aa5be920dbafafcb454e31124f3e2a844cac80"
+      },
+      "thumb": {
+        "path": "assets/derivatives/thumb/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png.webp",
+        "bytes": 6830,
+        "width": 278,
+        "height": 360,
+        "sha256": "031333c26dc4189ee87a134993a115383cc0fb1e1778111d2b33474f84636f0c"
       }
     },
     "assets/sources/VARGINHA-1996/ISTOE-1996-05-22-page-30.jpg": {

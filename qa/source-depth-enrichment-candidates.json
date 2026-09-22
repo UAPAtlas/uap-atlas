@@ -1208,6 +1208,54 @@
     ]
   },
   {
+    "id": "BF-2025-ME-ORBIT-01",
+    "title": "Middle East White Round Object \u2014 500 mph Report",
+    "score": 22,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary mission report; speed and shape are source-reported, redaction-limited, and not independently measured by Atlas.",
+    "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
+    "id": "BF-2025-ME-SPHERES-01",
+    "title": "Middle East Six Small Spherical Objects",
+    "score": 22,
+    "sourceRecords": 1,
+    "indexedLinks": 5,
+    "publicSourceUrls": 1,
+    "evidenceAssets": 3,
+    "sourceQuality": "Primary mission report; grouped-sphere description and 480 mph/FL220 values are source-estimated and redaction-limited.",
+    "quoteConfidence": "High for transcription of the released form; low for independent kinematic reconstruction.",
+    "sourceProfile": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06"
+      ]
+    },
+    "reasons": [
+      "source profile=single-primary-record",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-2019-OM-01",
     "title": "USS Omaha Sphere & Swarm Events",
     "score": 20,

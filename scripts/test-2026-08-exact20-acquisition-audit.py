@@ -28,8 +28,8 @@ ranked = queue.get("cases", queue if isinstance(queue, list) else [])
 
 require(len(SCOPE) == len(set(SCOPE)) == 20, "scope is not exactly 20 unique IDs")
 require(set(SCOPE) <= set(by_id), "scope contains a non-existing case")
-require(len(data["cases"]) == 155, "case count drifted")
-require(len(data["timeline"]) == 153, "timeline count drifted")
+require(len(data["cases"]) == 157, "case count drifted")
+require(len(data["timeline"]) == 155, "timeline count drifted")
 require([row["id"] for row in ranked[:20]] == SCOPE, "authoritative top-20 rank order drifted")
 require(triage["counts"]["trueGaps"] == 0 and triage["counts"]["qualityUpgrades"] == 0, "quality/gap queues reopened")
 
@@ -62,4 +62,4 @@ text = report.read_text()
 for cid in SCOPE:
     require(cid in text, f"{cid}: absent from tranche report")
 
-print("PASS: exact-20 acquisition audit (20 ranked existing cases; 155 cases / 153 timeline)")
+print("PASS: exact-20 acquisition audit (20 ranked existing cases; 157 cases / 155 timeline)")
