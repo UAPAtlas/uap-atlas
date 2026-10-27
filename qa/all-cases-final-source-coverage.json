@@ -1469,12 +1469,12 @@
       "NIMITZ-2004"
     ],
     "indexedLinks": 9,
-    "structuredSourceRecords": 2,
-    "publicSourceUrls": 4,
+    "structuredSourceRecords": 3,
+    "publicSourceUrls": 5,
     "evidenceAssets": 4,
-    "links": 11,
+    "links": 12,
     "local": 7,
-    "urls": 4,
+    "urls": 5,
     "missingLocal": [],
     "hasEvidence": true
   },
@@ -1519,12 +1519,12 @@
       "AAWSAP-2008"
     ],
     "indexedLinks": 12,
-    "structuredSourceRecords": 6,
-    "publicSourceUrls": 10,
+    "structuredSourceRecords": 10,
+    "publicSourceUrls": 14,
     "evidenceAssets": 1,
-    "links": 13,
+    "links": 17,
     "local": 3,
-    "urls": 10,
+    "urls": 14,
     "missingLocal": [],
     "hasEvidence": true
   },

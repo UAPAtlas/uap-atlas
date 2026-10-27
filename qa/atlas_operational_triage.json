@@ -2473,12 +2473,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "complete-primary-packet",
-      "sourceRecords": 2,
-      "mainSourceRecords": 2,
+      "sourceRecords": 3,
+      "mainSourceRecords": 3,
       "indexedLinks": 9,
-      "publicSourceUrls": 4,
+      "publicSourceUrls": 5,
       "evidenceAssets": 4,
-      "sourceQuality": "Page-level public copy of the 13-page Nimitz executive summary plus the official DoD/DVIDS FLIR1 media record; the summary\u2019s originating-office and release chain are not stated on its face.",
+      "sourceQuality": "The 13-page public executive-summary copy and official DoD/DVIDS FLIR1 record document the reporting chain; the public copy lacks its originating-office release chain. Release 07 BAASS D175 is a contractor modeling study: its page 33 acknowledges little hard data and unknown event duration, then varies assumed time from 0.5 to 10 seconds. The modeled extremes are not new SPY-1 measurements.",
       "quoteConfidence": "High \u2014 verbatim quotation visually verified on the cited document page."
     },
     {
@@ -2779,12 +2779,12 @@
       "legacyWeaknessScore": 0,
       "reasons": [],
       "sourceProfile": "multi-source-independent",
-      "sourceRecords": 6,
-      "mainSourceRecords": 5,
+      "sourceRecords": 10,
+      "mainSourceRecords": 9,
       "indexedLinks": 12,
-      "publicSourceUrls": 10,
+      "publicSourceUrls": 14,
       "evidenceAssets": 1,
-      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO\u2019s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims. Release 06 adds official AAWSAP solicitation/contract modification files and the DIRD corpus (D110\u2013D153), strengthening the program-documentation layer while remaining non-event technical/program evidence.",
+      "sourceQuality": "Official DIA/DoW AAWSAP contracting, technical and contractor reports plus AARO KONA BLUE history establish program funding, plans, field methods and later institutional disposition. Release 07 D168/D173\u2013D175 documents BAASS assertions and activities, while D173 records conventional resolutions and access limits and D174 reports ordinary animal hair identifications; no transferred non-human material is authenticated.",
       "quoteConfidence": "High \u2014 selected sentence is tied to AARO\u2019s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records."
     },
     {

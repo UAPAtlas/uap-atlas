@@ -17218,14 +17218,14 @@
       "coordinatePrecision": "offshore",
       "previousProjection": "atlas-svg-lower48-state-calibrated-naturalearth-x-mercator-y-100x62",
       "coordinateBasis": "Pacific off Southern California/Nimitz approximate operating area; lower-48 calibrated to embedded Atlas USA geometry",
-      "keyFact": "Nimitz is an officially acknowledged Navy UAP encounter with witness and sensor implications beyond the short public FLIR clip.",
+      "keyFact": "Nimitz is an officially acknowledged Navy UAP encounter with witness and sensor implications beyond the public FLIR clip; BAASS Release 07 speed/acceleration figures are conditional modeling, not newly recovered radar data.",
       "whyItMatters": "Official acknowledgment plus unreleased command/sensor records make this a disclosure benchmark: the public clip is not the whole file.",
       "keyQuote": "The AAVs would descend ‘very rapidly’ from approximately 60,000 feet down to approximately 50 feet in a matter of seconds.",
       "quoteSource": "Nimitz executive-summary public copy, p. 1",
       "quoteConfidence": "High — verbatim quotation visually verified on the cited document page.",
       "heroFact": "Nimitz is an officially acknowledged Navy UAP encounter with witness and sensor implications beyond the short public FLIR clip.",
       "significance": "High significance",
-      "sourceQuality": "Page-level public copy of the 13-page Nimitz executive summary plus the official DoD/DVIDS FLIR1 media record; the summary’s originating-office and release chain are not stated on its face.",
+      "sourceQuality": "The 13-page public executive-summary copy and official DoD/DVIDS FLIR1 record document the reporting chain; the public copy lacks its originating-office release chain. Release 07 BAASS D175 is a contractor modeling study: its page 33 acknowledges little hard data and unknown event duration, then varies assumed time from 0.5 to 10 seconds. The modeled extremes are not new SPY-1 measurements.",
       "sourceLabel": "USN / NAVAIR",
       "sourceLocator": "NIMITZ-2004 executive-summary public copy pp. 1, 5–6; DVIDS video 955825",
       "relatedCaseIds": [
@@ -17328,6 +17328,22 @@
             "The imagery alone does not establish range, object dimensions, propulsion method, or extraordinary origin.",
             "Official custody authenticates the released media record, not every interpretation attached to it."
           ]
+        },
+        {
+          "citation": "DOW-UAP-D175 · BAASS Self-Assessment of UAP Analysis Capabilities, November 2010",
+          "sourceType": "official-release-contractor-report",
+          "provenance": "Department of War PURSUE Release 07; contractor-produced record in official release custody",
+          "locator": "pp. 11–13, 33–48",
+          "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010.pdf",
+          "sha256": "ac7ee03104afa6db5f2a247c35896f21b4a496cdcdd5b1c8604e4a58e8eeaacb",
+          "supports": [
+            "Documents BAASS analytical and simulation capabilities and its retrospective Nimitz parameter study.",
+            "Page 33 says hard data and exact duration were lacking; calculations used testimony and assumed 0.5–10 second intervals."
+          ],
+          "limitations": [
+            "Extreme velocity/acceleration values are conditional model outputs, not newly released instrument measurements.",
+            "CFD illustrations are simulations, not original event imagery or proof of recovered hardware."
+          ]
         }
       ],
       "phenomena": {
@@ -17423,7 +17439,17 @@
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_001.png",
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_005.png",
         "assets/evidence/NIMITZ-2004/NIMITZ-2004-executive-summary__page_006.png"
-      ]
+      ],
+      "sourceUpdateCard": {
+        "title": "Release 07 · Nimitz performance-model boundary",
+        "findings": [
+          "BAASS D175 pp. 33–35 modeled Nimitz speed and acceleration using testimony and an assumed 0.5–10-second event-duration range."
+        ],
+        "limitations": [
+          "D175 p. 33 says hard data and exact duration were lacking. Its extreme figures and CFD images are conditional analysis, not newly released SPY-1 radar data or event imagery."
+        ],
+        "status": "Contractor model · not instrumented measurement"
+      }
     },
     {
       "keyQuote": "…they called us and said, somebody observed a flying disc about a thousand feet above the, ah… gate Charley 17.",
@@ -17812,7 +17838,7 @@
       "quoteSource": "AARO Historical Record Report Vol 1 & AAWSAP program records (summary)",
       "quoteConfidence": "High — selected sentence is tied to AARO’s official History and Origin of KONA BLUE report, page 1; contract details are independently anchored to DIA FOIA reading-room records.",
       "significance": "High significance",
-      "sourceQuality": "Official DIA contract-status/FOIA releases plus AARO’s declassified KONA BLUE history establish program funding, contractor, period, deliverables, and later institutional disposition; they do not validate specific Skinwalker or recovered-technology claims. Release 06 adds official AAWSAP solicitation/contract modification files and the DIRD corpus (D110–D153), strengthening the program-documentation layer while remaining non-event technical/program evidence.",
+      "sourceQuality": "Official DIA/DoW AAWSAP contracting, technical and contractor reports plus AARO KONA BLUE history establish program funding, plans, field methods and later institutional disposition. Release 07 D168/D173–D175 documents BAASS assertions and activities, while D173 records conventional resolutions and access limits and D174 reports ordinary animal hair identifications; no transferred non-human material is authenticated.",
       "coordinateBasis": "Published public coordinate for the named location",
       "coordinatePrecision": "city",
       "id": "BF-SF-09",
@@ -17831,7 +17857,7 @@
       "status": "DOCUMENTED · DISPUTED",
       "confidence": "CONFIRMED RECORD · DISPUTED INTERPRETATION",
       "summary": "DIA’s AAWSAP contracted Bigelow Aerospace Advanced Space Studies and produced technical reports before ending in 2012. AARO’s KONA BLUE history documents a proposed DHS successor special-access program that was never approved, funded or supplied with material. George Knapp later testified that Bigelow and an AAWSAP colleague negotiated with Lockheed Martin for unusual material held in California, but said the agreement was not completed. The released record supports the proposed pathway and testimony—not an authenticated transfer or recovered craft.",
-      "keyFact": "Program existence, contractor lineage and the failed KONA BLUE proposal are official record; the alleged Lockheed-to-BAASS material deal is named congressional testimony without a released agreement or completed custody chain.",
+      "keyFact": "The AAWSAP/BAASS program is documented. Release 07 contractor files show plans and fieldwork, but the ranch hair samples tested as ordinary animals and proposed access to alleged material is not a custody transfer. KONA BLUE was never approved or supplied with material.",
       "official": "AARO states KONA BLUE was never approved or formally established and received no funding, data or material. That institutional finding does not resolve what Lockheed may have held or discussed outside KONA BLUE, but no public transfer record has been authenticated.",
       "gap": "Still absent are a named Lockheed executive statement, meeting memorandum, contract modification, material inventory, transfer authorization, sample custody record, or independent physical analysis connecting Lockheed to BAASS/KONA BLUE.",
       "whyItMatters": "This is the strongest documented bridge between the AAWSAP institutional lineage and the modern material-transfer allegation, while also showing exactly where testimony ends and custody evidence would need to begin.",
@@ -17996,6 +18022,69 @@
             "No released record proves the material was a craft, non-human technology, sold, transferred or independently tested",
             "AARO states no data or material reached DHS under KONA BLUE"
           ]
+        },
+        {
+          "citation": "DOW-UAP-D168 · BAASS Project Management Plan, December 2008",
+          "sourceType": "official-release-contractor-report",
+          "provenance": "Department of War PURSUE Release 07; contractor-produced record in official release custody",
+          "locator": "pp. 1–2, 7–11",
+          "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D168-BAASS_Project_Management_Plan-December_2008.pdf",
+          "sha256": "f72a51b4199db2d1758ac9796a4c1b669ba6013a7fae10a609150eaf0293eefd",
+          "supports": [
+            "Names contract HHM402-08-C-0072 and describes BAASS technical and investigative plans.",
+            "Requests access to allegedly government-held films and material."
+          ],
+          "limitations": [
+            "A request or contractor premise does not establish that any alleged film, sample or craft existed or was transferred."
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D173 · BAASS Monthly Report, November 2009",
+          "sourceType": "official-release-contractor-report",
+          "provenance": "Department of War PURSUE Release 07; contractor-produced record in official release custody",
+          "locator": "pp. 5–10, 19–50, 107–114, 126–155",
+          "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D173-BAASS_Monthly_Report_November_2009.pdf",
+          "sha256": "2b895fa7bf2d714e09964595f0977f622002f442c7f5365dbaad579343d9dcfb",
+          "supports": [
+            "Documents contractor field reporting, MUFON intake, Utah Ranch experiments and a Northern Tier access problem.",
+            "The Modesto blue-light case is attributed to contemporaneous blue-lit model gliders on pp. 8–10; p. 155 records lack of Need to Know for proposed classified-archive work."
+          ],
+          "limitations": [
+            "Ranch germination sheet is blank; medical summary for the blue-orb account is redacted, preventing independent diagnosis/causation review.",
+            "Field narratives and collected samples do not establish anomalous materials; pp. 117–125 researcher-threat discussion is retracted on p. 126."
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D174 · Utah Ranch Investigation Report, April 2010",
+          "sourceType": "official-release-contractor-report",
+          "provenance": "Department of War PURSUE Release 07; contractor-produced record in official release custody",
+          "locator": "pp. 30–38",
+          "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D174-Utah_Ranch_Investigation_Report_April_2010.pdf",
+          "sha256": "dbf49c096d63a44c4514179cd8305177dd725978072d598bc50228f1b6b97dd1",
+          "supports": [
+            "Laboratory letter p. 37 reports that three submitted hair samples shared a canine HVI sequence common in domestic dogs.",
+            "BAASS interpretation p. 38 identifies the fourth sample as raccoon."
+          ],
+          "limitations": [
+            "Sample-specific ordinary-animal results do not determine every separate ranch account.",
+            "The reviewed pages do not establish an anomalous organism or independent causal link between environmental readings and claimed events."
+          ]
+        },
+        {
+          "citation": "DOW-UAP-D175 · BAASS Self-Assessment of UAP Analysis Capabilities, November 2010",
+          "sourceType": "official-release-contractor-report",
+          "provenance": "Department of War PURSUE Release 07; contractor-produced record in official release custody",
+          "locator": "pp. 11–13, 33–48",
+          "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D175-BAASS_Self-Assessment_of_UAP_Analysis_Capabilities_November_2010.pdf",
+          "sha256": "ac7ee03104afa6db5f2a247c35896f21b4a496cdcdd5b1c8604e4a58e8eeaacb",
+          "supports": [
+            "Documents BAASS analytical and simulation capabilities and its retrospective Nimitz parameter study.",
+            "Page 33 says hard data and exact duration were lacking; calculations used testimony and assumed 0.5–10 second intervals."
+          ],
+          "limitations": [
+            "Extreme velocity/acceleration values are conditional model outputs, not newly released instrument measurements.",
+            "CFD illustrations are simulations, not original event imagery or proof of recovered hardware."
+          ]
         }
       ],
       "phenomena": {
@@ -18129,6 +18218,16 @@
           "A proposed transfer pathway can be historically real even if the underlying material claim was mistaken or never consummated.",
           "AARO’s later institutional review and participant testimony preserve conflicting interpretations without releasing the decisive custody records."
         ]
+      },
+      "sourceUpdateCard": {
+        "title": "Release 07 · BAASS plans, tests and access limits",
+        "findings": [
+          "D168 documents the contractor plan and requests for alleged material access; D173 documents fieldwork and a model-glider resolution; D174 pp. 37–38 reports ordinary canine/raccoon hair identifications."
+        ],
+        "limitations": [
+          "A contractor request is not a transfer or authenticated craft. D173 p. 155 says classified-archive access was on hold; its blue-orb medical summary is redacted. These sample results do not resolve every separate ranch report."
+        ],
+        "status": "Released program records · claims and custody kept separate"
       }
     },
     {

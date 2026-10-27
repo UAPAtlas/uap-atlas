@@ -62,7 +62,7 @@
   ],
   "quotesSelected": 157,
   "quotesWithLocators": 157,
-  "sourceRecordCount": 320,
+  "sourceRecordCount": 325,
   "sourceDepthWeakCaseCount": 49,
   "sourceDepthEnrichmentCandidateCount": 107,
   "sourceDepthWeakThreshold": 25,
@@ -949,11 +949,12 @@
     },
     "BF-2004-NM-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 1,
+      "primaryRecords": 2,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:department of defense public media record hosted by dvids; atlas-local webm and frame derivatives",
+        "other:department of war pursue release 07; contractor-produced record in official release custody",
         "other:documentcloud public copy with atlas-local pdf/page derivatives; originating-office authorship and release chain are not stated on the document face"
       ]
     },
@@ -978,13 +979,14 @@
     },
     "BF-SF-09": {
       "label": "multi-source-independent",
-      "primaryRecords": 5,
+      "primaryRecords": 9,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 6,
+      "independentSourceFamilies": 7,
       "sourceFamilies": [
         "other:aaro/department of defense declassified public report",
         "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
         "other:department of war pursue release 06",
+        "other:department of war pursue release 07; contractor-produced record in official release custody",
         "other:local atlas audit derived from the current source inventory",
         "other:nara record group 615; archival copy of aaro\u2019s march 2024 historical report",
         "other:official house oversight witness pdf and public hearing record"
