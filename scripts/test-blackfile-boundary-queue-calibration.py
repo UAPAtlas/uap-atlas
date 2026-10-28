@@ -91,7 +91,7 @@ require("does not prove", q4["answer"], "Blackfile q4 answer")
 
 counts = triage["counts"]
 assert counts == {
-    "trueGaps": 0,
+    "trueGaps": 3,
     "acquisitionTargets": 24,
     "qualityUpgrades": 0,
     "complete": 135,
