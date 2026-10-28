@@ -30,7 +30,7 @@ require(len(SCOPE) == 20, "scope is not exactly 20 existing cases")
 require(set(SCOPE) <= set(by_id), "one or more scoped existing cases are absent")
 require(len(data["cases"]) == 162, "case count changed")
 require(len(data["timeline"]) == 160, "timeline count changed")
-require(triage["counts"] == {"trueGaps": 3, "qualityUpgrades": 0, "acquisitionTargets": 24, "complete": 135}, "final triage counts drifted")
+require(triage["counts"] == {"trueGaps": 0, "qualityUpgrades": 0, "acquisitionTargets": 24, "complete": 138}, "final triage counts drifted")
 
 for cid in COMPLETE:
     require(triage_by_id[cid]["category"] == "complete", f"{cid} did not close its quality repair")

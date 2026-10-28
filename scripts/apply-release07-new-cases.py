@@ -221,7 +221,7 @@ for nc, pages in zip(NEW_CASES, [
     ['DOW-UAP-D156-pdf-page-001.png', 'DOW-UAP-D156-pdf-page-002.png'],
     ['DOW-UAP-D158-pdf-page-001.png', 'DOW-UAP-D158-pdf-page-003.png'],
 ]):
-    nc['sourceRecords'][0]['sourcePageImages'] = [f'{P7}/{p}' for p in pages]
+    nc['sourceRecords'][0]['sourcePageImages'] = [f'{P7}/{p.replace(".png", "-display.jpg")}' for p in pages]
     display = pages[0].replace('.png', '-display.jpg')
     thumb = pages[0].replace('.png', '-thumb.jpg')
     nc['heroVisual'] = {
@@ -260,6 +260,30 @@ j['timeline'] = sorted(j['timeline'], key=lambda t: (t.get('year', 0), t.get('id
 text = json.dumps(j, ensure_ascii=False, indent=2) + '\n'
 if ATLAS.read_text() != text:
     ATLAS.write_text(text)
+
+# Exact public page derivatives, not the excluded archival PNG originals.
+INDEX = ROOT / 'source-file-index.json'
+MANIFEST = ROOT / 'public-source-manifest.json'
+source_index = json.loads(INDEX.read_text())
+public_manifest = json.loads(MANIFEST.read_text())
+for nc in NEW_CASES:
+    token = nc['sources'][0]
+    pages = nc['sourceRecords'][0]['sourcePageImages']
+    assert all((ROOT / page).is_file() and page.endswith('-display.jpg') for page in pages)
+    official_url = nc['sourceRecords'][0]['url']
+    source_index[token] = pages + [official_url]
+    public_manifest[nc['id']] = [{
+        'label': f'PURSUE Release 07 — {token} original report',
+        'url': official_url,
+        'publisher': 'U.S. Department of War',
+        'access': 'Public; official endpoint may block automated clients',
+        'scope': 'exact-released-record',
+        'note': 'Exact released PDF; Atlas serves selected readable page derivatives. Agency custody authenticates the record, not the reported object.'
+    }]
+for path, payload in [(INDEX, source_index), (MANIFEST, public_manifest)]:
+    encoded = json.dumps(payload, ensure_ascii=False, indent=2) + '\n'
+    if path.read_text() != encoded:
+        path.write_text(encoded)
 
 print('scopeCaseIds', sorted(scope_ids), 'addedCases', len(NEW_CASES), 'addedTimeline', len(NEW_TIMELINE),
       'totalCases', len(j['cases']), 'totalTimeline', len(j['timeline']))

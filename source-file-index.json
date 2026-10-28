@@ -1788,5 +1788,20 @@
     "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D106-pdf-page-006.png",
     "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-001.png",
     "assets/sources/PURSUE-RELEASE-06/DOW-UAP-D109-pdf-page-006.png"
+  ],
+  "DOW-UAP-D155": [
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D155-pdf-page-001-display.jpg",
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D155-pdf-page-002-display.jpg",
+    "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D155-Air_Intelligence_Information_Report_Saudi_Arabia-1957.pdf"
+  ],
+  "DOW-UAP-D156": [
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D156-pdf-page-001-display.jpg",
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D156-pdf-page-002-display.jpg",
+    "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D156-Air_Intelligence_Information_Report_Guam-1956.pdf"
+  ],
+  "DOW-UAP-D158": [
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D158-pdf-page-001-display.jpg",
+    "assets/sources/PURSUE-RELEASE-07/DOW-UAP-D158-pdf-page-003-display.jpg",
+    "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D158-Flying_Object_Report_Canada-1953.pdf"
   ]
 }

@@ -31,7 +31,7 @@ require(set(SCOPE) <= set(by_id), "scope contains a non-existing case")
 require(len(data["cases"]) == 162, "case count drifted")
 require(len(data["timeline"]) == 160, "timeline count drifted")
 require([row["id"] for row in ranked[:20]] == SCOPE, "authoritative top-20 rank order drifted")
-require(triage["counts"]["trueGaps"] == 3 and triage["counts"]["qualityUpgrades"] == 0, "quality/gap queues reopened")
+require(triage["counts"]["trueGaps"] == 0 and triage["counts"]["qualityUpgrades"] == 0, "quality/gap queues reopened")
 
 for cid in SCOPE:
     targets = by_id[cid].get("acquisitionTargets") or []

@@ -456,8 +456,10 @@
   {
     "id": "BF-1953-PG-01",
     "title": "Prince George Airport Guards\u2019 Light Report",
-    "tokens": [],
-    "indexedLinks": 0,
+    "tokens": [
+      "DOW-UAP-D158"
+    ],
+    "indexedLinks": 3,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 2,
     "evidenceAssets": 2,
@@ -534,8 +536,10 @@
   {
     "id": "BF-1956-GU-01",
     "title": "Guam F-86D Blinking-Light Encounter",
-    "tokens": [],
-    "indexedLinks": 0,
+    "tokens": [
+      "DOW-UAP-D156"
+    ],
+    "indexedLinks": 3,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 2,
     "evidenceAssets": 2,
@@ -678,8 +682,10 @@
   {
     "id": "BF-1957-SA-01",
     "title": "Saudi Arabia \u2014 B-52 Gunnery-Radar Contact",
-    "tokens": [],
-    "indexedLinks": 0,
+    "tokens": [
+      "DOW-UAP-D155"
+    ],
+    "indexedLinks": 3,
     "structuredSourceRecords": 1,
     "publicSourceUrls": 2,
     "evidenceAssets": 2,

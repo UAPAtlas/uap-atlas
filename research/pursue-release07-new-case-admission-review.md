@@ -1,12 +1,12 @@
 # PURSUE Release 07 — event-family admission review
 
-This is a separate decision from acquisition. All 28 listed PDFs are locally held and hash-crosschecked; targeted primary review is complete, **not** full 1,139-page visual adjudication. The staged Atlas branch (`research/pursue-release07`) admits 3 new cases (BF-1957-SA-01, BF-1956-GU-01, BF-1953-PG-01) and enriches 2 existing cases (BF-SF-09, BF-2004-NM-01), bringing the registry to 162 cases and 160 timeline entries. No push or public deployment has occurred. Full rationale and exact primary pages: `pursue-release07-intake-review-2026-10-27.md`; object-level hashes and source links: `pursue-release07-intake-ledger.json`.
+This is a separate decision from acquisition. All 28 listed PDFs are locally held and hash-crosschecked; targeted primary review is complete, **not** full 1,139-page visual adjudication. Published Atlas revision `4cd11102a47471051f44b933412e8d5804e73c6c` admits 3 new cases (BF-1957-SA-01, BF-1956-GU-01, BF-1953-PG-01) and enriches 2 existing cases (BF-SF-09, BF-2004-NM-01), bringing the registry to 162 cases and 160 timeline entries. A later local source-access repair adds exact page mappings for the three new dossiers. Full rationale and exact primary pages: `pursue-release07-intake-review-2026-10-27.md`; object-level hashes and source links: `pursue-release07-intake-ledger.json`.
 
 ## Ranked event families
 
-- **Add-first candidate: Saudi B-52 return (D155).** One 1957 radar-report event; drawings are not scope film. Distinct from RB-47. Verify exact source event date and map basis before case entry.
-- **Add-first candidate: Guam F-86D (D156).** One 1956 visual report with contemporaneous balloon launch and documented malfunction/balloon alternative. Do not convert pilot disagreement into a resolved anomalous craft.
-- **Add-first candidate: Prince George guards (D158).** Two guards in one 1953 reporting family; no radar/optical record or measured dimensions.
+- **Admitted: Saudi B-52 return (D155, BF-1957-SA-01).** One 1957 radar-report event; drawings are not scope film. Distinct from RB-47. Exact event date and aircraft-position map basis are documented in the dossier.
+- **Admitted: Guam F-86D (D156, BF-1956-GU-01).** One 1956-Zulu visual report with contemporaneous balloon launch and documented malfunction/balloon alternative. Pilot disagreement is not a resolved anomalous craft.
+- **Admitted: Prince George guards (D158, BF-1953-PG-01).** Two guards in one 1953 reporting family; no radar/optical record or measured dimensions.
 - **Testimony admission candidate: 2026 triangle (D176 + FBI D043).** Two documentary channels for one witness-event family. Source accounts conflict at approximately 1923 vs 2023L and three seconds total vs 10+20+2–3 seconds. No instrumented speed. FBI landscape/triangle attachments lack demonstrated native capture. Preserve contradictions as visible source boundary; no merge with other triangle cases by shape alone.
 - **Defer: D173 subevents.** Its 2009 Central Texas cluster is distinct from January 2008 Stephenville; Port Jervis field tests lack calibrated baselines; Versailles/Tomball and blue-orb injury narratives have missing controls, contradictory dates or redacted medical details. Modesto is a negative/control record: blue-lit model gliders matched the report. A 155-page program report is not one new event.
 - **Lower-confidence/defer:** Sassari D157 (press-mediated, date mismatch, drawing absent); Tempelhof D159 (separate subevents); Sweden DC-3 D163 (press-mediated, no radar confirmation); Seymour D164 (event date unknown); Catalina Camp Fox D179 (missing sketches/letters); Catalina 1949 D181 (two episodes, one correspondent family). Separate events by distinctive chronology, not geography.
@@ -50,10 +50,10 @@ Each source object appears exactly once below. `new-case-candidate` on D176 and 
 
 ## Admission gate
 
-Three cases admitted as bounded historical dossiers on the local `research/pursue-release07` branch after page-level adjudication confirmed distinct events with no exact Atlas duplicate:
+Three cases admitted as bounded historical dossiers after page-level adjudication confirmed distinct events with no exact Atlas duplicate:
 
 - **BF-1957-SA-01** (D155): Saudi Arabia B-52 gunnery-radar contact, 18 Jan 1957. One A-3A gunnery-scope return; no visual, independent radar, or raw recording. Disappearance may have resulted from ownship bank.
 - **BF-1956-GU-01** (D156): Guam F-86D blinking-light encounter, 31 Dec 1956 Zulu. One pilot visual; contemporaneous weather balloon launched and explicitly retained as alternative; no radar or balloon exclusion.
 - **BF-1953-PG-01** (D158): Prince George Airport guards' light report, 8 Nov 1953. Two co-located guards, unaided visual; no radar, optical, or physical evidence; all distances are visual estimates.
 
-The 2026 triangle (D176 + FBI D043) remains deferred pending resolution of the conflicting time/duration accounts and absence of calibrated speed. The D173 subevents remain deferred or corpus-only. Count migration updated all workflow assertions from 159→162 cases, 157→160 timeline, 133→136 projected. All 36 workflow validation steps passed. No push or public deployment; publication remains a separate owner gate.
+The 2026 triangle (D176 + FBI D043) remains deferred pending a separate admission decision that preserves conflicting time/duration accounts and absent calibrated speed. The D173 subevents remain deferred or corpus-only. The published registry holds 162 cases, 160 timeline entries and 136 projected terrestrial cases. The local source-access repair maps two selected report pages per new case under exact source tokens; originals remain outside the Pages artifact.

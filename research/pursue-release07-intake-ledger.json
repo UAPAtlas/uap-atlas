@@ -431,7 +431,7 @@
       "mirrorUrl": "https://unexplainable.com/document/dow-uap-d180-final-personnel-record-for-mccoy-howard-m-u-s-air-force-1954",
       "mirrorSha256": "4d999697347279bdc4738d2e5b2d56d8730eb1afed798d2a6ca3d6bf0ff9fc40",
       "disposition": "personnel-corpus",
-      "evidenceBoundary": "McCoy personnel file establishes AMC technical-intelligence leadership in 1947\u201349 (pp. 258\u2013266); no explicit SIGN/GRUDGE or Estimate found; 1949 succession order p. 92 gives no cause",
+      "evidenceBoundary": "McCoy personnel file establishes AMC technical-intelligence leadership in 1947–49 (pp. 258–266); no explicit SIGN/GRUDGE or Estimate found; 1949 succession order p. 92 gives no cause",
       "atlasOverlap": [],
       "status": "downloaded-verified-drive-shared-copy",
       "custodyLevel": "user-provided shared Google Drive copy; SHA-256 matches independent archive metadata; official-origin byte identity not independently verified",
@@ -500,7 +500,7 @@
       "mirrorUrl": "https://unexplainable.com/document/usg-uap-d002-interagency-correspondence-concerning-space-fragments-1962-1964",
       "mirrorSha256": "f34e073230ac81d460efcd7f45f04d0b21a81d61cd8e8a9a9b7a89088da88819",
       "disposition": "policy-corpus",
-      "evidenceBoundary": "1962\u201364 foreign space-vehicle fragment policy drafts and jurisdiction dispute; pp. 18\u201331 broad DoD foreign-fragment analysis role, pp. 23\u201324 disagreement unresolved; no UAP recovery or final signed policy",
+      "evidenceBoundary": "1962–64 foreign space-vehicle fragment policy drafts and jurisdiction dispute; pp. 18–31 broad DoD foreign-fragment analysis role, pp. 23–24 disagreement unresolved; no UAP recovery or final signed policy",
       "atlasOverlap": [
         "EOP-UAP-D002"
       ],
@@ -518,6 +518,6 @@
   "intakeStatus": "complete acquisition of 28/28 listed individual PDFs; official bundle ZIP not obtained; release lists no videos",
   "analysisStatus": "all 28 acquired; targeted primary analysis complete for all 28, not a full 1,139-page visual/page-level review; event-family admission remains provisional",
   "localPdfPages": 1139,
-  "integrationStatus": "local branch research/pursue-release07: 2 existing cases enriched (BF-SF-09, BF-2004-NM-01) + 3 new cases admitted (BF-1957-SA-01, BF-1956-GU-01, BF-1953-PG-01); 162 cases / 160 timeline; all workflow validation passed; no push or public deployment",
+  "integrationStatus": "published at 4cd11102a47471051f44b933412e8d5804e73c6c: 3 bounded cases + 2 existing-case source updates; later source-index/page-access repair local pending release",
   "localPdfBytes": 325875400
 }

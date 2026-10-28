@@ -2,9 +2,9 @@
   "schemaVersion": 2,
   "policy": "sole-enrichment-backlog",
   "source": "qa/atlas_operational_triage.json",
-  "caseCount": 3,
+  "caseCount": 0,
   "categoryCounts": {
-    "trueGaps": 3,
+    "trueGaps": 0,
     "qualityUpgrades": 0
   },
   "exclusions": {
@@ -14,63 +14,5 @@
     "foiaOrArchivalRequests": "not-authorized",
     "outreach": "not-authorized"
   },
-  "cases": [
-    {
-      "id": "BF-1953-PG-01",
-      "title": "Prince George Airport Guards\u2019 Light Report",
-      "domain": "MILITARY / VISUAL",
-      "category": "true_gap",
-      "priorityScore": 120,
-      "legacyWeaknessScore": 20,
-      "reasons": [
-        "no source-index mapping"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 0,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary official flying object report from the 918th AC&W Squadron, released through PURSUE Release 07; two co-located guards, unaided visual, no radar or optical aids, no physical evidence, no independent corroboration. All distances and movements are visual estimates; a 135\u00b0 disappearance elevation is a source ambiguity.",
-      "quoteConfidence": "confirmed-primary-source-quotation"
-    },
-    {
-      "id": "BF-1956-GU-01",
-      "title": "Guam F-86D Blinking-Light Encounter",
-      "domain": "MILITARY / VISUAL",
-      "category": "true_gap",
-      "priorityScore": 120,
-      "legacyWeaknessScore": 20,
-      "reasons": [
-        "no source-index mapping"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 0,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary official air intelligence report (IR-7-57) prepared by Capt Alan G. Pound, released through PURSUE Release 07; one pilot witness, no radar, no supporting observers. A lighted weather balloon was launched that day and the investigator explicitly retained a malfunctioned-balloon explanation.",
-      "quoteConfidence": "confirmed-primary-source-quotation"
-    },
-    {
-      "id": "BF-1957-SA-01",
-      "title": "Saudi Arabia \u2014 B-52 Gunnery-Radar Contact",
-      "domain": "MILITARY / SENSOR",
-      "category": "true_gap",
-      "priorityScore": 120,
-      "legacyWeaknessScore": 20,
-      "reasons": [
-        "no source-index mapping"
-      ],
-      "sourceProfile": "single-primary-record",
-      "sourceRecords": 1,
-      "mainSourceRecords": 1,
-      "indexedLinks": 0,
-      "publicSourceUrls": 2,
-      "evidenceAssets": 2,
-      "sourceQuality": "Primary official air intelligence report (IR-1-57) from the 22d Bombardment Wing, released through PURSUE Release 07; one gunner source and an explanatory radar schematic. No visual sighting, independent radar, raw radar recording, or calibrated tracking. Smaller return amplitude does not establish physical size.",
-      "quoteConfidence": "confirmed-primary-source-quotation"
-    }
-  ]
+  "cases": []
 }
