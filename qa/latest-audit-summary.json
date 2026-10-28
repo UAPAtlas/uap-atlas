@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "caseCount": 159,
-  "countedCaseCount": 155,
+  "caseCount": 162,
+  "countedCaseCount": 158,
   "aggregateCaseIds": [
     "BF-1968-HIM-01",
     "BF-2015-NAV-01",
@@ -10,17 +10,21 @@
   ],
   "seriesParentCount": 4,
   "seriesChildCount": 16,
-  "timelineEventCount": 157,
+  "timelineEventCount": 160,
   "sourceIndexTerms": 275,
   "sourceIndexFiles": 1240,
-  "casesWithMappedLinks": 159,
+  "casesWithMappedLinks": 162,
   "casesWithoutMappedLinks": [],
   "casesWithIndexedSourceLinks": 159,
-  "casesWithoutIndexedSourceLinks": [],
-  "casesWithStructuredSourceRecords": 159,
-  "casesWithPublicSourceUrls": 159,
-  "casesWithEvidenceAssets": 159,
-  "casesWithEvidenceOrPreview": 159,
+  "casesWithoutIndexedSourceLinks": [
+    "BF-1953-PG-01",
+    "BF-1956-GU-01",
+    "BF-1957-SA-01"
+  ],
+  "casesWithStructuredSourceRecords": 162,
+  "casesWithPublicSourceUrls": 162,
+  "casesWithEvidenceAssets": 162,
+  "casesWithEvidenceOrPreview": 162,
   "missingLocalAssets": [],
   "normalizedFieldMissing": {
     "caseTypes": [],
@@ -35,10 +39,10 @@
     "observation": []
   },
   "uniqueDisplayTaxonomy": {
-    "domains": 17,
-    "statuses": 23,
-    "confidenceLabels": 26,
-    "agencies": 94
+    "domains": 18,
+    "statuses": 24,
+    "confidenceLabels": 27,
+    "agencies": 97
   },
   "normalizedTaxonomy": {
     "caseTypes": 101,
@@ -47,8 +51,8 @@
     "outcomes": 31
   },
   "geometryTypes": {
+    "Point": 130,
     "LineString": 4,
-    "Point": 127,
     "none": 26,
     "Polygon": 2
   },
@@ -60,36 +64,27 @@
     "BF-1997-PH-01",
     "BF-2004-NM-01"
   ],
-  "quotesSelected": 157,
-  "quotesWithLocators": 157,
-  "sourceRecordCount": 320,
+  "quotesSelected": 160,
+  "quotesWithLocators": 160,
+  "sourceRecordCount": 328,
   "sourceDepthWeakCaseCount": 49,
-  "sourceDepthEnrichmentCandidateCount": 107,
+  "sourceDepthEnrichmentCandidateCount": 110,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
-    "trueGaps": 0,
+    "trueGaps": 3,
     "qualityUpgrades": 0,
     "acquisitionTargets": 24,
     "complete": 135
   },
   "sourceProfileCounts": {
-    "complete-primary-packet": 43,
     "secondary-only": 8,
-    "single-primary-record": 52,
+    "single-primary-record": 55,
+    "complete-primary-packet": 43,
     "thin-summary": 41,
     "mixed-provenance": 2,
     "multi-source-independent": 13
   },
   "sourceProfiles": {
-    "BF-1957-RB-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
     "BF-1933-MG-01": {
       "label": "secondary-only",
       "primaryRecords": 0,
@@ -208,6 +203,24 @@
         "usaf-blue-book"
       ]
     },
+    "BF-1949-HF-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:u.s. army counter intelligence corps, file 342-hs1"
+      ]
+    },
+    "BF-1949-KD-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:u.s. army counter intelligence corps, file 342-hs1"
+      ]
+    },
     "BF-1949-LA-00": {
       "label": "multi-source-independent",
       "primaryRecords": 6,
@@ -223,6 +236,15 @@
         "other:page-specific portions of the aec conference transcript"
       ]
     },
+    "BF-1949-SA-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
     "BF-1950-GF-01": {
       "label": "complete-primary-packet",
       "primaryRecords": 3,
@@ -233,6 +255,43 @@
         "usaf-blue-book"
       ]
     },
+    "BF-1950-OK-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06"
+      ]
+    },
+    "BF-1951-FM-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:headquarters, signal corps center and fort monmouth",
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1951-YK-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "BF-1952-BE-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
     "BF-1952-DC-01": {
       "label": "complete-primary-packet",
       "primaryRecords": 4,
@@ -240,6 +299,24 @@
       "independentSourceFamilies": 2,
       "sourceFamilies": [
         "civil-aviation",
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1952-PL-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1952-R5D-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
         "usaf-blue-book"
       ]
     },
@@ -266,6 +343,24 @@
         "usaf-blue-book"
       ]
     },
+    "BF-SF-14": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "BF-1953-PG-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 07; air intelligence information report in official release custody. public github mirror sha-256 independently matches archive metadata; official-origin byte identity not independently verified."
+      ]
+    },
     "BF-1953-RP-00": {
       "label": "single-primary-record",
       "primaryRecords": 1,
@@ -273,6 +368,42 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "cia"
+      ]
+    },
+    "BF-1954-KL-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 3,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1955-USSR-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "cia"
+      ]
+    },
+    "BF-1956-DF-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1956-GU-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 07; air intelligence information report in official release custody. public github mirror sha-256 independently matches archive metadata; official-origin byte identity not independently verified."
       ]
     },
     "BF-1956-LB-01": {
@@ -285,6 +416,33 @@
         "usaf-blue-book"
       ]
     },
+    "BF-1957-B47-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1957-CG-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1957-HT-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
     "BF-1957-LV-01": {
       "label": "complete-primary-packet",
       "primaryRecords": 2,
@@ -292,6 +450,42 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "usaf-blue-book"
+      ]
+    },
+    "BF-1957-NC-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
+      ]
+    },
+    "BF-1957-RA-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1957-RB-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
+    "BF-1957-SA-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 07; air intelligence information report in official release custody. public github mirror sha-256 independently matches archive metadata; official-origin byte identity not independently verified."
       ]
     },
     "BF-SF-04": {
@@ -322,6 +516,16 @@
         "usaf-blue-book"
       ]
     },
+    "BF-1960-HF-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 3,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:exact nara scan within naid 28989015",
+        "usaf-blue-book"
+      ]
+    },
     "BF-1961-BH-01": {
       "label": "multi-source-independent",
       "primaryRecords": 2,
@@ -341,6 +545,16 @@
         "nasa"
       ]
     },
+    "BF-1964-PR-01": {
+      "label": "multi-source-independent",
+      "primaryRecords": 3,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "cia",
+        "other:complete unrestricted november 1964 deck log digitized by nara; target-day page images use nara digital-object ids 212794531\u2013212794532 and 212794551\u2013212794552"
+      ]
+    },
     "BF-1964-SC-01": {
       "label": "complete-primary-packet",
       "primaryRecords": 1,
@@ -349,6 +563,15 @@
       "sourceFamilies": [
         "fbi",
         "usaf-blue-book"
+      ]
+    },
+    "BF-1965-G7-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
       ]
     },
     "BF-1965-KB-01": {
@@ -473,15 +696,6 @@
         "cia"
       ]
     },
-    "BF-1968-MN-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
     "BF-1968-HIM-02": {
       "label": "single-primary-record",
       "primaryRecords": 1,
@@ -534,6 +748,15 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "cia"
+      ]
+    },
+    "BF-1968-MN-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
       ]
     },
     "BF-NASA-D001": {
@@ -648,6 +871,15 @@
       "sourceFamilies": [
         "academic",
         "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "BF-1973-SL-01": {
+      "label": "thin-summary",
+      "primaryRecords": 0,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "nasa"
       ]
     },
     "BF-1973-SS-01": {
@@ -808,6 +1040,15 @@
         "other:later public account that undeveloped film arrived by mail in 1984"
       ]
     },
+    "BF-1985-PNG-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
+      ]
+    },
     "BF-1986-JAL-01": {
       "label": "single-primary-record",
       "primaryRecords": 1,
@@ -867,6 +1108,15 @@
         "other:cynthia hind / ufo afrinews no. 11; direct public publisher-site pdf accessible; atlas also holds local derivative renders.",
         "other:cynthia hind / ufo afrinews no. 12; direct public publisher-site pdf accessible; atlas also holds local derivative renders.",
         "other:selected witness-interview stills and drawing images preserved in the local atlas evidence set; complete item-level original custody is not established"
+      ]
+    },
+    "BF-1994-KZ-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "usaf-blue-book"
       ]
     },
     "BF-SF-12": {
@@ -947,13 +1197,23 @@
         "other:cometa report text, english translation, archive.org mirror, and ihedn-associated authorship/context trail"
       ]
     },
+    "BF-2002-BG-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
     "BF-2004-NM-01": {
       "label": "complete-primary-packet",
-      "primaryRecords": 1,
+      "primaryRecords": 2,
       "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
+      "independentSourceFamilies": 3,
       "sourceFamilies": [
         "other:department of defense public media record hosted by dvids; atlas-local webm and frame derivatives",
+        "other:department of war pursue release 07; contractor-produced record in official release custody",
         "other:documentcloud public copy with atlas-local pdf/page derivatives; originating-office authorship and release chain are not stated on the document face"
       ]
     },
@@ -978,16 +1238,26 @@
     },
     "BF-SF-09": {
       "label": "multi-source-independent",
-      "primaryRecords": 5,
+      "primaryRecords": 9,
       "secondaryRecords": 1,
-      "independentSourceFamilies": 6,
+      "independentSourceFamilies": 7,
       "sourceFamilies": [
         "other:aaro/department of defense declassified public report",
         "other:defense intelligence agency foia electronic reading room records fileid 237625 and fileid 170015",
         "other:department of war pursue release 06",
+        "other:department of war pursue release 07; contractor-produced record in official release custody",
         "other:local atlas audit derived from the current source inventory",
         "other:nara record group 615; archival copy of aaro\u2019s march 2024 historical report",
         "other:official house oversight witness pdf and public hearing record"
+      ]
+    },
+    "BF-2011-DT-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
       ]
     },
     "BF-2013-AG-01": {
@@ -1009,28 +1279,6 @@
       "sourceFamilies": [
         "other:cefaa/chilean navy public-release reporting, uap archive public video mirror, representative frame extraction, and independent flight-track/plume analysis",
         "other:local atlas audit derived from the current source inventory"
-      ]
-    },
-    "BF-2015-NAV-01": {
-      "label": "multi-source-independent",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:primary official index",
-        "other:primary official release"
-      ]
-    },
-    "BF-2015-PX-04": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 4,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 4,
-      "sourceFamilies": [
-        "other:consolidated nuclear security/pantex letter to the nnsa production office",
-        "other:doe-released two-page extract from the pantex incident report",
-        "other:images embedded in the released pantex incident packet",
-        "other:pantex protective-force security report released by doe"
       ]
     },
     "BF-2015-GIMBAL-01": {
@@ -1055,6 +1303,28 @@
         "other:primary official imagery"
       ]
     },
+    "BF-2015-NAV-01": {
+      "label": "multi-source-independent",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:primary official index",
+        "other:primary official release"
+      ]
+    },
+    "BF-2015-PX-04": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 4,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 4,
+      "sourceFamilies": [
+        "other:consolidated nuclear security/pantex letter to the nnsa production office",
+        "other:doe-released two-page extract from the pantex incident report",
+        "other:images embedded in the released pantex incident packet",
+        "other:pantex protective-force security report released by doe"
+      ]
+    },
     "BF-2019-OM-01": {
       "label": "single-primary-record",
       "primaryRecords": 1,
@@ -1072,25 +1342,6 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "other:department of war record approved for release to aaro"
-      ]
-    },
-    "BF-2020-AS-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:war.gov dow-uap-d44 arabian sea range-fouler record, dow-uap-d56 debrief preview, and atlas source-index page images"
-      ]
-    },
-    "BF-2023-JP-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:department of war record approved for release to aaro",
-        "other:local atlas audit derived from the current source inventory"
       ]
     },
     "BF-2020-AG-D3": {
@@ -1147,6 +1398,35 @@
         "other:department of war record approved for release to aaro"
       ]
     },
+    "BF-2020-AS-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:war.gov dow-uap-d44 arabian sea range-fouler record, dow-uap-d56 debrief preview, and atlas source-index page images"
+      ]
+    },
+    "BF-2023-JP-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro",
+        "other:local atlas audit derived from the current source inventory"
+      ]
+    },
+    "BF-2021-GOM-01": {
+      "label": "complete-primary-packet",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 2,
+      "sourceFamilies": [
+        "other:exact seven-page pdf published through pursue release 05; full local pdf hash verified",
+        "other:individual dvids records published by aaro/dow on 7 august 2026 map pr117\u2013pr122 to exact release 05 dod filenames"
+      ]
+    },
     "BF-2022-CS-01": {
       "label": "multi-source-independent",
       "primaryRecords": 3,
@@ -1187,7 +1467,52 @@
         "fbi"
       ]
     },
+    "BF-2023-CO-LE-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war pursue release 06 / ousd(i&s)"
+      ]
+    },
+    "BF-2023-CSR-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2023-CST-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
     "BF-2023-GR-00": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "BF-2023-GR-33": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:department of war record approved for release to aaro"
+      ]
+    },
+    "BF-2023-GR-35": {
       "label": "single-primary-record",
       "primaryRecords": 1,
       "secondaryRecords": 0,
@@ -1247,24 +1572,6 @@
         "other:original american alchemy podcast feed and episode audio; locally generated large-v3-turbo timestamp transcript used for discovery"
       ]
     },
-    "BF-2023-GR-33": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:department of war record approved for release to aaro"
-      ]
-    },
-    "BF-2023-GR-35": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:department of war record approved for release to aaro"
-      ]
-    },
     "BF-2024-ECS-01": {
       "label": "complete-primary-packet",
       "primaryRecords": 1,
@@ -1293,298 +1600,6 @@
         "fbi"
       ]
     },
-    "BF-2025-USIC-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:official pursue release"
-      ]
-    },
-    "BF-2025-YS-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:primary record"
-      ]
-    },
-    "BF-1994-KZ-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1952-PL-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1952-BE-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1957-NC-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:552nd airborne early warning and control wing / mcclellan afb; routed by western air defense force"
-      ]
-    },
-    "BF-1957-B47-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1949-KD-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:u.s. army counter intelligence corps, file 342-hs1"
-      ]
-    },
-    "BF-1952-R5D-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1965-G7-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "BF-1949-SA-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1949-HF-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:u.s. army counter intelligence corps, file 342-hs1"
-      ]
-    },
-    "BF-1956-DF-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1954-KL-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 3,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1955-USSR-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "cia"
-      ]
-    },
-    "BF-1973-SL-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "nasa"
-      ]
-    },
-    "BF-1957-HT-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1957-CG-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1951-YK-01": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "cia"
-      ]
-    },
-    "BF-1985-PNG-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1957-RA-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "usaf-blue-book"
-      ]
-    },
-    "BF-SF-14": {
-      "label": "thin-summary",
-      "primaryRecords": 0,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "cia"
-      ]
-    },
-    "BF-1951-FM-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:headquarters, signal corps center and fort monmouth",
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1960-HF-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 3,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:exact nara scan within naid 28989015",
-        "usaf-blue-book"
-      ]
-    },
-    "BF-1964-PR-01": {
-      "label": "multi-source-independent",
-      "primaryRecords": 3,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "cia",
-        "other:complete unrestricted november 1964 deck log digitized by nara; target-day page images use nara digital-object ids 212794531\u2013212794532 and 212794551\u2013212794552"
-      ]
-    },
-    "BF-2021-GOM-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 2,
-      "sourceFamilies": [
-        "other:exact seven-page pdf published through pursue release 05; full local pdf hash verified",
-        "other:individual dvids records published by aaro/dow on 7 august 2026 map pr117\u2013pr122 to exact release 05 dod filenames"
-      ]
-    },
-    "BF-2026-RL-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 6,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "BF-2026-SMO-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "BF-2002-BG-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "BF-2023-CST-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "BF-2011-DT-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
-    "BF-2023-CSR-01": {
-      "label": "single-primary-record",
-      "primaryRecords": 2,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "fbi"
-      ]
-    },
     "BF-2025-ME-ORBIT-01": {
       "label": "single-primary-record",
       "primaryRecords": 1,
@@ -1603,22 +1618,40 @@
         "other:department of war pursue release 06"
       ]
     },
-    "BF-1950-OK-01": {
-      "label": "complete-primary-packet",
-      "primaryRecords": 1,
-      "secondaryRecords": 0,
-      "independentSourceFamilies": 1,
-      "sourceFamilies": [
-        "other:department of war pursue release 06"
-      ]
-    },
-    "BF-2023-CO-LE-01": {
+    "BF-2025-USIC-01": {
       "label": "single-primary-record",
       "primaryRecords": 1,
       "secondaryRecords": 0,
       "independentSourceFamilies": 1,
       "sourceFamilies": [
-        "other:department of war pursue release 06 / ousd(i&s)"
+        "other:official pursue release"
+      ]
+    },
+    "BF-2025-YS-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 1,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "other:primary record"
+      ]
+    },
+    "BF-2026-RL-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 6,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
+      ]
+    },
+    "BF-2026-SMO-01": {
+      "label": "single-primary-record",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi"
       ]
     }
   },
