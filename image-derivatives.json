@@ -10,7 +10,7 @@
   "summary": {
     "imageCount": 368,
     "originalBytes": 924273203,
-    "displayBytes": 57359676,
+    "displayBytes": 57359682,
     "thumbBytes": 4079532
   },
   "entries": {
@@ -5650,10 +5650,10 @@
       "originalUrl": "https://raw.githubusercontent.com/UAPAtlas/uap-atlas/main/assets/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png",
       "display": {
         "path": "assets/derivatives/display/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png.webp",
-        "bytes": 82244,
+        "bytes": 82250,
         "width": 1600,
         "height": 973,
-        "sha256": "1ce3d5a872464062a3a79f6bbadff7b7818df6ad6e1f7d5b6f8827f9bc6da7f5"
+        "sha256": "1634d62fb4a9071026fd76b7938725c5034b7ccfdc219cf12007d48fe9246949"
       },
       "thumb": {
         "path": "assets/derivatives/thumb/evidence/TREMONTON-1952/TREMONTON-1952-Newhouse-case-sheet.png.webp",
