@@ -1,6 +1,6 @@
-# PURSUE Release 07 — event-family admission review (provisional)
+# PURSUE Release 07 — event-family admission review
 
-This is a separate decision from acquisition. All 28 listed PDFs are locally held and hash-crosschecked; targeted primary review is complete, **not** full 1,139-page visual adjudication. The current public Atlas baseline has 159 cases and 157 timeline entries. No new case is admitted by this review. Full rationale and exact primary pages: `pursue-release07-intake-review-2026-10-27.md`; object-level hashes and source links: `pursue-release07-intake-ledger.json`.
+This is a separate decision from acquisition. All 28 listed PDFs are locally held and hash-crosschecked; targeted primary review is complete, **not** full 1,139-page visual adjudication. The staged Atlas branch (`research/pursue-release07`) admits 3 new cases (BF-1957-SA-01, BF-1956-GU-01, BF-1953-PG-01) and enriches 2 existing cases (BF-SF-09, BF-2004-NM-01), bringing the registry to 162 cases and 160 timeline entries. No push or public deployment has occurred. Full rationale and exact primary pages: `pursue-release07-intake-review-2026-10-27.md`; object-level hashes and source links: `pursue-release07-intake-ledger.json`.
 
 ## Ranked event families
 
@@ -50,4 +50,10 @@ Each source object appears exactly once below. `new-case-candidate` on D176 and 
 
 ## Admission gate
 
-Before a new dossier: verify exact page-level chronology and visuals, test aliases/dates/witness/sensor overlap against the current 159-case deploy registry, retain missing native media as structured acquisition targets, and add timeline/map/runtime/SEO/triage/CI/browser contracts without changing Blackfile confidence by default. Do not publish the 325 MB corpus: use selected source-page displays only. This review and the two-dossier source-depth candidate remain local pending publication approval.
+Three cases admitted as bounded historical dossiers on the local `research/pursue-release07` branch after page-level adjudication confirmed distinct events with no exact Atlas duplicate:
+
+- **BF-1957-SA-01** (D155): Saudi Arabia B-52 gunnery-radar contact, 18 Jan 1957. One A-3A gunnery-scope return; no visual, independent radar, or raw recording. Disappearance may have resulted from ownship bank.
+- **BF-1956-GU-01** (D156): Guam F-86D blinking-light encounter, 31 Dec 1956 Zulu. One pilot visual; contemporaneous weather balloon launched and explicitly retained as alternative; no radar or balloon exclusion.
+- **BF-1953-PG-01** (D158): Prince George Airport guards' light report, 8 Nov 1953. Two co-located guards, unaided visual; no radar, optical, or physical evidence; all distances are visual estimates.
+
+The 2026 triangle (D176 + FBI D043) remains deferred pending resolution of the conflicting time/duration accounts and absence of calibrated speed. The D173 subevents remain deferred or corpus-only. Count migration updated all workflow assertions from 159→162 cases, 157→160 timeline, 133→136 projected. All 36 workflow validation steps passed. No push or public deployment; publication remains a separate owner gate.

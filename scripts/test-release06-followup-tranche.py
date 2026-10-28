@@ -10,8 +10,8 @@ def req(ok,msg):
     if not ok: issues.append(msg)
 def case(cid): return next((c for c in atlas['cases'] if c.get('id')==cid), None)
 ids={c['id'] for c in atlas['cases']}
-req(len(atlas['cases'])==159, 'Release06 follow-up should produce 159 cases')
-req(len(atlas.get('timeline',[]))==157, 'Release06 follow-up should produce 157 timeline entries')
+req(len(atlas['cases'])==162, 'Release06 follow-up should produce 162 cases')
+req(len(atlas.get('timeline',[]))==160, 'Release06 follow-up should produce 160 timeline entries')
 req(sum(1 for c in atlas['cases'] if c.get('mode')=='orbital')==26, 'orbital count must remain 26')
 for cid in ['BF-1952-TM-01','BF-2022-ME-01','BF-1950-OK-01','BF-2023-CO-LE-01']:
     req(case(cid) is not None, f'{cid} missing')

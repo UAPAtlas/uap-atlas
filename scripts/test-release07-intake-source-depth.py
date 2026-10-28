@@ -35,6 +35,23 @@ assert 'not newly released SPY-1 radar data' in nimitz['sourceUpdateCard']['limi
 app=(root/'atlas-app.js').read_text()
 assert 'sourceUpdateCardHtml(c)' in app and 'sourceUpdateCardHtml(c)}' in app
 assert all('/Volumes/' not in s and '/Users/' not in s for s in [(root/'research/pursue-release07-intake-ledger.json').read_text(),(root/'research/pursue-release07-intake-review-2026-10-27.md').read_text()])
-# Strict scope is checked against the reviewed base before committing; CI checks
-# the permanent source and custody contract after the base itself advances.
-print('Release 07 intake/source-depth contract OK: 28 records, 1139 pages, 2 existing cases, 0 added cases')
+# Three adjudicated new cases from Release 07
+assert len(data['cases'])==162,'expected 162 cases after Release 07 admission'
+assert len(data['timeline'])==160,'expected 160 timeline entries after Release 07 admission'
+for nc_id,nc_key in [('BF-1957-SA-01','keyFact'),('BF-1956-GU-01','keyFact'),('BF-1953-PG-01','keyFact')]:
+    assert nc_id in cases,f'{nc_id} missing from registry'
+    nc=cases[nc_id]
+    assert nc.get('heroFact') and nc.get('sourceRecords') and nc.get('publicSources')
+    assert nc.get('relatedCaseIds') and nc.get('evidenceBoundary')
+    assert nc['sourceRecords'][0].get('sha256') and nc['sourceRecords'][0].get('url','').startswith('https://')
+    assert nc['sourceRecords'][0].get('supports') and nc['sourceRecords'][0].get('limitations')
+    assert nc_id in {t['caseId'] for t in data['timeline']},f'{nc_id} missing from timeline'
+# Each new case has a source-record SHA-256 matching the ledger
+for nc_id,ledger_key in [('BF-1957-SA-01','DOW-UAP-D155'),('BF-1956-GU-01','DOW-UAP-D156'),('BF-1953-PG-01','DOW-UAP-D158')]:
+    nc=cases[nc_id]
+    r=ids[ledger_key]
+    assert nc['sourceRecords'][0]['sha256']==r['sha256'],f'{nc_id} SHA-256 mismatch'
+    assert nc['sourceRecords'][0]['url']==r['sourceUrl'],f'{nc_id} URL mismatch'
+# Scope: exactly 5 cases changed (2 existing enriched + 3 new admitted)
+assert all('/Volumes/' not in s and '/Users/' not in s for s in [(root/'research/pursue-release07-new-case-admission-review.md').read_text()])
+print('Release 07 intake/source-depth contract OK: 28 records, 1139 pages, 2 existing cases enriched, 3 new cases admitted (162 cases / 160 timeline)')
