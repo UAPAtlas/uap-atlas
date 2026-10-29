@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "caseCount": 162,
-  "countedCaseCount": 158,
+  "caseCount": 163,
+  "countedCaseCount": 159,
   "aggregateCaseIds": [
     "BF-1968-HIM-01",
     "BF-2015-NAV-01",
@@ -10,17 +10,17 @@
   ],
   "seriesParentCount": 4,
   "seriesChildCount": 16,
-  "timelineEventCount": 160,
-  "sourceIndexTerms": 278,
-  "sourceIndexFiles": 1249,
-  "casesWithMappedLinks": 162,
+  "timelineEventCount": 161,
+  "sourceIndexTerms": 280,
+  "sourceIndexFiles": 1256,
+  "casesWithMappedLinks": 163,
   "casesWithoutMappedLinks": [],
-  "casesWithIndexedSourceLinks": 162,
+  "casesWithIndexedSourceLinks": 163,
   "casesWithoutIndexedSourceLinks": [],
-  "casesWithStructuredSourceRecords": 162,
-  "casesWithPublicSourceUrls": 162,
-  "casesWithEvidenceAssets": 162,
-  "casesWithEvidenceOrPreview": 162,
+  "casesWithStructuredSourceRecords": 163,
+  "casesWithPublicSourceUrls": 163,
+  "casesWithEvidenceAssets": 163,
+  "casesWithEvidenceOrPreview": 163,
   "missingLocalAssets": [],
   "normalizedFieldMissing": {
     "caseTypes": [],
@@ -37,17 +37,17 @@
   "uniqueDisplayTaxonomy": {
     "domains": 18,
     "statuses": 24,
-    "confidenceLabels": 27,
-    "agencies": 97
+    "confidenceLabels": 28,
+    "agencies": 98
   },
   "normalizedTaxonomy": {
     "caseTypes": 101,
-    "evidenceModes": 84,
+    "evidenceModes": 85,
     "environments": 55,
     "outcomes": 31
   },
   "geometryTypes": {
-    "Point": 130,
+    "Point": 131,
     "LineString": 4,
     "none": 26,
     "Polygon": 2
@@ -60,17 +60,17 @@
     "BF-1997-PH-01",
     "BF-2004-NM-01"
   ],
-  "quotesSelected": 160,
-  "quotesWithLocators": 160,
-  "sourceRecordCount": 328,
+  "quotesSelected": 161,
+  "quotesWithLocators": 161,
+  "sourceRecordCount": 330,
   "sourceDepthWeakCaseCount": 49,
-  "sourceDepthEnrichmentCandidateCount": 110,
+  "sourceDepthEnrichmentCandidateCount": 111,
   "sourceDepthWeakThreshold": 25,
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 0,
     "acquisitionTargets": 24,
-    "complete": 138
+    "complete": 139
   },
   "sourceProfileCounts": {
     "secondary-only": 8,
@@ -78,7 +78,8 @@
     "complete-primary-packet": 43,
     "thin-summary": 41,
     "mixed-provenance": 2,
-    "multi-source-independent": 13
+    "multi-source-independent": 13,
+    "linked-primary-records": 1
   },
   "sourceProfiles": {
     "BF-1933-MG-01": {
@@ -1648,6 +1649,16 @@
       "independentSourceFamilies": 1,
       "sourceFamilies": [
         "fbi"
+      ]
+    },
+    "BF-2026-TR-01": {
+      "label": "linked-primary-records",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi",
+        "other:department of war pursue release 07 custody; public mirror sha-256 matches independent archive metadata, but official-origin byte identity was not independently verified. this is a report of witness statements, not an agency finding validating the described object."
       ]
     }
   },

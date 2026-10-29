@@ -7,7 +7,7 @@ This is a separate decision from acquisition. All 28 listed PDFs are locally hel
 - **Admitted: Saudi B-52 return (D155, BF-1957-SA-01).** One 1957 radar-report event; drawings are not scope film. Distinct from RB-47. Exact event date and aircraft-position map basis are documented in the dossier.
 - **Admitted: Guam F-86D (D156, BF-1956-GU-01).** One 1956-Zulu visual report with contemporaneous balloon launch and documented malfunction/balloon alternative. Pilot disagreement is not a resolved anomalous craft.
 - **Admitted: Prince George guards (D158, BF-1953-PG-01).** Two guards in one 1953 reporting family; no radar/optical record or measured dimensions.
-- **Testimony admission candidate: 2026 triangle (D176 + FBI D043).** Two documentary channels for one witness-event family. Source accounts conflict at approximately 1923 vs 2023L and three seconds total vs 10+20+2–3 seconds. No instrumented speed. FBI landscape/triangle attachments lack demonstrated native capture. Preserve contradictions as visible source boundary; no merge with other triangle cases by shape alone.
+- **Admitted lower-confidence testimony: 2026 triangle (D176 + FBI D043 → BF-2026-TR-01).** Two documentary channels for one witness-event family. Source accounts conflict at approximately 1923 vs 2023L and three seconds total vs 10+20+2–3 seconds. No instrumented speed. FBI landscape/triangle attachments lack demonstrated native capture and are not presented as event imagery. Preserve contradictions as visible source boundary; no merge with other triangle cases by shape alone. See `pursue-release07-triangle-admission-review.md`.
 - **Defer: D173 subevents.** Its 2009 Central Texas cluster is distinct from January 2008 Stephenville; Port Jervis field tests lack calibrated baselines; Versailles/Tomball and blue-orb injury narratives have missing controls, contradictory dates or redacted medical details. Modesto is a negative/control record: blue-lit model gliders matched the report. A 155-page program report is not one new event.
 - **Lower-confidence/defer:** Sassari D157 (press-mediated, date mismatch, drawing absent); Tempelhof D159 (separate subevents); Sweden DC-3 D163 (press-mediated, no radar confirmation); Seymour D164 (event date unknown); Catalina Camp Fox D179 (missing sketches/letters); Catalina 1949 D181 (two episodes, one correspondent family). Separate events by distinctive chronology, not geography.
 - **Corpus/negative controls:** Morocco D160 has propagation/jamming/bird alternatives; D161/D162 are island/horizon lights with no established flight; Catalina D177 favors meteor and D178 concludes Jupiter. Retain in release corpus, not as unexplained case admissions.
@@ -15,7 +15,7 @@ This is a separate decision from acquisition. All 28 listed PDFs are locally hel
 
 ## Exact-ID disposition index
 
-Each source object appears exactly once below. `new-case-candidate` on D176 and D043 means **one** event candidate shared by two released documents, not two admissions. Event-containing program files can also have narrower deferred event leads in the text above.
+Each source object appears exactly once below. `admitted-linked-testimony-one-event-family` on D176 and D043 means **one** local testimony dossier shared by two released documents, not two admissions. Event-containing program files can also have narrower deferred event leads in the text above.
 
 | Record | Object disposition | Atlas overlap | Evidence boundary |
 |---|---|---|---|
@@ -38,14 +38,14 @@ Each source object appears exactly once below. `new-case-candidate` on D176 and 
 | DOW-UAP-D173 | existing-case-enrichment-candidate | BF-SF-09, BF-2008-SV-01 | BAASS November 2009 report: MUFON/Utah Ranch operations, negative and conventional-resolution records, incomplete medical and sample documentation; p. 155 says classified access/onward contacts on hold for lack of Need to Know |
 | DOW-UAP-D174 | existing-case-enrichment-candidate | BF-SF-09 | Utah Ranch hair testing identifies common canine sequence in three samples; fourth interpreted as raccoon |
 | DOW-UAP-D175 | existing-case-enrichment-candidate | BF-SF-09, BF-2004-NM-01 | BAASS Nimitz modeled speed/acceleration rests on testimony and assumed time parameters, not original radar measurement |
-| DOW-UAP-D176 | new-case-candidate | none exact | AARO debrief of 2026 triangle, same event family as FBI D043; no instrumented speed; time/duration differ between records |
+| DOW-UAP-D176 | admitted-linked-testimony-one-event-family | BF-2026-TR-01 | AARO debrief of 2026 triangle, same event family as FBI D043; no instrumented speed; time/duration differ between records |
 | DOW-UAP-D177 | corpus-probable-meteor | none exact | Catalina 1955: packet assesses meteor; filename unresolved label does not override internal assessment |
 | DOW-UAP-D178 | corpus-astronomical | none exact | Catalina 1953: record card concludes Jupiter; observation from San Pedro toward Catalina |
 | DOW-UAP-D179 | defer-incomplete-packet | none exact | Catalina 1952 Camp Fox Scout account; named enclosures/sketches not held |
 | DOW-UAP-D180 | personnel-corpus | none exact | McCoy personnel file establishes AMC technical-intelligence leadership in 1947–49 (pp. 258–266); no explicit SIGN/GRUDGE or Estimate found; 1949 succession order p. 92 gives no cause |
 | DOW-UAP-D181 | defer-testimony | none exact | Catalina 1949 letter contains two observation episodes; card summarizes only first six lights |
 | EOP-UAP-D002 | policy-corpus | none exact | May 1963 interagency space-fragment coordination memo; no specific anomalous hardware recovery |
-| FBI-UAP-D043 | new-case-candidate | none exact | FBI FD-302 signed witness account of same 2026 triangle as AARO D176; attachments are illustrative/unproven provenance |
+| FBI-UAP-D043 | admitted-linked-testimony-one-event-family | BF-2026-TR-01 | FBI FD-302 signed witness account of same 2026 triangle as AARO D176; attachments have unverified provenance, not event imagery |
 | USG-UAP-D002 | policy-corpus | EOP-UAP-D002 | 1962–64 foreign space-vehicle fragment policy drafts and jurisdiction dispute; pp. 18–31 broad DoD foreign-fragment analysis role, pp. 23–24 disagreement unresolved; no UAP recovery or final signed policy |
 
 ## Admission gate
@@ -56,4 +56,4 @@ Three cases admitted as bounded historical dossiers after page-level adjudicatio
 - **BF-1956-GU-01** (D156): Guam F-86D blinking-light encounter, 31 Dec 1956 Zulu. One pilot visual; contemporaneous weather balloon launched and explicitly retained as alternative; no radar or balloon exclusion.
 - **BF-1953-PG-01** (D158): Prince George Airport guards' light report, 8 Nov 1953. Two co-located guards, unaided visual; no radar, optical, or physical evidence; all distances are visual estimates.
 
-The 2026 triangle (D176 + FBI D043) remains deferred pending a separate admission decision that preserves conflicting time/duration accounts and absent calibrated speed. The D173 subevents remain deferred or corpus-only. The published registry holds 162 cases, 160 timeline entries and 136 projected terrestrial cases. The local source-access repair maps two selected report pages per new case under exact source tokens; originals remain outside the Pages artifact.
+The 2026 triangle (D176 + FBI D043) is admitted as **one lower-confidence testimony dossier**, with conflicting time/duration accounts, unverified illustrations and absent calibrated speed plainly disclosed. The D173 subevents remain deferred or corpus-only. The prior release held 162 cases and 160 timeline entries; this tranche holds 163 cases, 161 timeline entries and 137 projected terrestrial cases. The earlier source-access repair maps two selected report pages per historical case; the triangle maps AARO pp. 1–3 and FBI pp. 1–2. Original PDFs remain outside the Pages artifact.

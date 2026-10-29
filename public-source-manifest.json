@@ -1661,5 +1661,23 @@
       "scope": "exact-released-record",
       "note": "Exact released PDF; Atlas serves selected readable page derivatives. Agency custody authenticates the record, not the reported object."
     }
+  ],
+  "BF-2026-TR-01": [
+    {
+      "label": "War.gov — PURSUE Release 07 · DOW-UAP-D176",
+      "url": "https://www.war.gov/medialink/ufo/release-07/documents/DOW-UAP-D176-Triangular_UAP_AARO_MFR_2026.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Official public PDF endpoint; may block automated clients",
+      "scope": "exact-released-record",
+      "note": "Official custody for a witness record; no agency conclusion confirming an anomalous craft."
+    },
+    {
+      "label": "War.gov — PURSUE Release 07 · FBI-UAP-D043",
+      "url": "https://www.war.gov/medialink/ufo/release-07/documents/FBI-UAP-D043-FD_302_Unidentified_Aerial_Object_Observation_Report-2026.pdf",
+      "publisher": "U.S. Department of War",
+      "access": "Official public PDF endpoint; may block automated clients",
+      "scope": "exact-released-record",
+      "note": "Official custody for a witness record; no agency conclusion confirming an anomalous craft."
+    }
   ]
 }

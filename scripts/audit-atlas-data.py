@@ -91,6 +91,8 @@ def source_profile(case):
     )
     if complete_packet:
         label = "complete-primary-packet"
+    elif len(families) >= 2 and primary_count >= 2 and case.get("sourceFamilyRelationship") == "same-witness-event":
+        label = "linked-primary-records"
     elif len(families) >= 2 and primary_count >= 2:
         label = "multi-source-independent"
     elif primary_count and secondary_count:
@@ -105,7 +107,7 @@ def source_profile(case):
         "label": label,
         "primaryRecords": primary_count,
         "secondaryRecords": secondary_count,
-        "independentSourceFamilies": len(families),
+        "independentSourceFamilies": 1 if label == "linked-primary-records" else len(families),
         "sourceFamilies": sorted(families),
     }
 
@@ -119,6 +121,7 @@ def source_depth_weakness(case, coverage_row):
     profile_scores = {
         "complete-primary-packet": 0,
         "multi-source-independent": 0,
+        "linked-primary-records": 12,
         "mixed-provenance": 10,
         "single-primary-record": 12,
         "secondary-only": 25,

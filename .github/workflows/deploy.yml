@@ -61,6 +61,7 @@ jobs:
           python3 scripts/test-valentich-integration-2026-09-08.py
           python3 scripts/test-release06-followup-tranche.py
           python3 scripts/test-release07-intake-source-depth.py
+          python3 scripts/test-release07-triangle-testimony.py
   deploy:
     needs: validate
     environment:

@@ -40,9 +40,9 @@ assert '<svg id=\\"atlasSvg\\"' in map_runtime
 match = re.search(r"const atlasData = (\{.*?\});\nconst sourceFileIndex", runtime, re.S)
 assert match, "atlasData runtime constant not found"
 atlas = json.loads(match.group(1))
-assert len(atlas.get("cases", [])) == 162
-assert len(atlas.get("timeline", [])) == 160
-assert len([case for case in atlas["cases"] if case.get("coordinateGenerated") is True]) == 136
+assert len(atlas.get("cases", [])) == 163
+assert len(atlas.get("timeline", [])) == 161
+assert len([case for case in atlas["cases"] if case.get("coordinateGenerated") is True]) == 137
 
 print(
     f"Atlas payload contract OK: HTML {len(html.encode()):,} bytes, "

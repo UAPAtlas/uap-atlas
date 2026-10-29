@@ -2718,5 +2718,22 @@
     "urls": 2,
     "missingLocal": [],
     "hasEvidence": true
+  },
+  {
+    "id": "BF-2026-TR-01",
+    "title": "2026 Ridge-Line Triangle Report",
+    "tokens": [
+      "DOW-UAP-D176",
+      "FBI-UAP-D043"
+    ],
+    "indexedLinks": 7,
+    "structuredSourceRecords": 2,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 5,
+    "links": 7,
+    "local": 5,
+    "urls": 2,
+    "missingLocal": [],
+    "hasEvidence": true
   }
 ]

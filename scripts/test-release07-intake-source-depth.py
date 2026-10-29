@@ -36,8 +36,8 @@ app=(root/'atlas-app.js').read_text()
 assert 'sourceUpdateCardHtml(c)' in app and 'sourceUpdateCardHtml(c)}' in app
 assert all('/Volumes/' not in s and '/Users/' not in s for s in [(root/'research/pursue-release07-intake-ledger.json').read_text(),(root/'research/pursue-release07-intake-review-2026-10-27.md').read_text()])
 # Three adjudicated new cases from Release 07
-assert len(data['cases'])==162,'expected 162 cases after Release 07 admission'
-assert len(data['timeline'])==160,'expected 160 timeline entries after Release 07 admission'
+assert len(data['cases'])==163,'expected 163 cases after Release 07 testimony admission'
+assert len(data['timeline'])==161,'expected 161 timeline entries after Release 07 testimony admission'
 for nc_id,nc_key in [('BF-1957-SA-01','keyFact'),('BF-1956-GU-01','keyFact'),('BF-1953-PG-01','keyFact')]:
     assert nc_id in cases,f'{nc_id} missing from registry'
     nc=cases[nc_id]
@@ -61,4 +61,4 @@ for nc_id,ledger_key in [('BF-1957-SA-01','DOW-UAP-D155'),('BF-1956-GU-01','DOW-
     assert all((root/page).is_file() and availability[page]['status']=='public-local' for page in pages)
 # Scope: exactly 5 cases changed (2 existing enriched + 3 new admitted)
 assert all('/Volumes/' not in s and '/Users/' not in s for s in [(root/'research/pursue-release07-new-case-admission-review.md').read_text()])
-print('Release 07 intake/source-depth contract OK: 28 records, 1139 pages, 2 existing cases enriched, 3 new cases admitted (162 cases / 160 timeline)')
+print('Release 07 intake/source-depth contract OK: 28 records, 1139 pages, 2 existing cases enriched, 4 new cases admitted (163 cases / 161 timeline)')

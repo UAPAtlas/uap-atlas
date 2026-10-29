@@ -1,0 +1,15 @@
+# Release 07: 2026 ridge-line triangle admission
+
+**Disposition:** one lower-confidence testimony dossier, `BF-2026-TR-01`. AARO `DOW-UAP-D176` and FBI `FBI-UAP-D043` are overlapping records of **one reported event**, not two sightings or independent witness groups. Date and exact location are redacted. This is not an AARO or FBI finding that the reported object had anomalous performance.
+
+## Page-level evidence
+
+- **AARO D176, PDF p. 1:** joint debrief identifies two primary observers and a third corroborating witness. Its own overview cautions that witness interpretation is not a conclusive indication of object features/performance. It reports **2023 local** and estimates 10 seconds of vertical ascent, 20 seconds hover and 2–3 seconds of departure.
+- **AARO D176, PDF p. 2:** narrative places the third caller at a secondary thermal post; the two primary observers move to visual acquisition and use binoculars and a handheld thermal monocular. The main tripod thermal system was not quickly relocatable. The reported range of 1.4–3.2 miles is terrain-based, not a calibrated target track.
+- **AARO D176, PDF p. 3:** departure is compared to a fighter jet, but **“No instrumented speed measurement was obtained.”** The handheld thermal view lost tracking; a next-morning ground survey reportedly found no wreckage or ground scarring. No physiological or electromagnetic effects were reported.
+- **FBI D043, PDF pp. 1–2:** co-signed witness statement in an FD-302 describes a dark triangular form and handheld thermal viewing, but gives **1923 hours** and **approximately three seconds total**. The form states it contains neither recommendations nor conclusions of the FBI. These times and durations materially conflict with AARO's; the records do not reconcile them.
+- **FBI D043, PDF pp. 3–11:** landscape and triangle-like visuals have no visible captions, timestamp/capture chain or explicit provenance establishing native event photography. Classify as **unverified illustrations, not event imagery or independent corroboration**. Do not publish them in the Atlas evidence carousel as if native frames.
+
+The two PDFs were locally held and independently hash-matched to public archive metadata (`pursue-release07-intake-ledger.json`). Their official War.gov URLs remain provenance anchors; official-origin byte identity was not independently verified because the endpoint blocks local automation. No calibrated speed, original sensor file, exact site, aviation/UAS correlation or analytical closure is public in these packets. A conventional UAS/aircraft plus uncertain distance, dusk terrain and narrow-field handheld optics remains a testable alternative, not a resolved identification.
+
+**Registry scope:** one case, one timeline entry, two source-index aliases and exact source-page derivatives (AARO pp. 1–3; FBI pp. 1–2). Redacted U.S. location maps only to a clearly marked continental centroid. The case leaves the Blackfile analysis payload and anomalous-origin confidence unchanged.

@@ -1256,6 +1256,31 @@
     ]
   },
   {
+    "id": "BF-2026-TR-01",
+    "title": "2026 Ridge-Line Triangle Report",
+    "score": 22,
+    "sourceRecords": 2,
+    "indexedLinks": 7,
+    "publicSourceUrls": 2,
+    "evidenceAssets": 5,
+    "sourceQuality": "Two official records of an overlapping 2026 witness event. FBI pp. 3\u201311 include uncatalogued unverified illustrations, not established event photography or independent sensor data. Exact location/date redacted; chronology conflicts.",
+    "quoteConfidence": "High transcription confidence for the AARO memorandum; the reported event and performance are not independently verified.",
+    "sourceProfile": {
+      "label": "linked-primary-records",
+      "primaryRecords": 2,
+      "secondaryRecords": 0,
+      "independentSourceFamilies": 1,
+      "sourceFamilies": [
+        "fbi",
+        "other:department of war pursue release 07 custody; public mirror sha-256 matches independent archive metadata, but official-origin byte identity was not independently verified. this is a report of witness statements, not an agency finding validating the described object."
+      ]
+    },
+    "reasons": [
+      "source profile=linked-primary-records",
+      "quote confidence needs verification upgrade"
+    ]
+  },
+  {
     "id": "BF-2019-OM-01",
     "title": "USS Omaha Sphere & Swarm Events",
     "score": 20,

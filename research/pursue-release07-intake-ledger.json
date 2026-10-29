@@ -368,11 +368,12 @@
       "mirrorFileUrl": "https://raw.githubusercontent.com/rizzleroc/pursue-console/main/data-raw/war-gov/release_7/DOW-UAP-D176-Triangular_UAP_AARO_MFR_2026.pdf",
       "mirrorSha256": "9c093e0985018e197b6c92c43d9c7a83455d4a2e7bc2365cc641774d32e48c31",
       "mirrorHashMatch": true,
-      "disposition": "new-case-candidate",
-      "evidenceBoundary": "AARO debrief of 2026 triangle, same event family as FBI D043; no instrumented speed; time/duration differ between records",
+      "disposition": "admitted-linked-testimony-one-event-family",
+      "evidenceBoundary": "AARO and FBI preserve overlapping witness records of one event; time 2023/1923 and duration ~32–33/~3 seconds conflict. No instrumented speed, native event imagery, or agency finding; FBI visual attachments have unverified provenance.",
       "atlasOverlap": [],
       "pdfPages": 3,
-      "custodyLevel": "public GitHub mirror PDF, SHA-256 independently matches archive metadata; official-origin byte identity not independently verified"
+      "custodyLevel": "public GitHub mirror PDF, SHA-256 independently matches archive metadata; official-origin byte identity not independently verified",
+      "atlasCaseId": "BF-2026-TR-01"
     },
     {
       "error": "HTTPError('403 Client Error: Forbidden for url: https://unexplainable.com/file/dow-uap-d177-unresolved-uap-report-catalina-island-1955')",
@@ -488,11 +489,12 @@
       "mirrorFileUrl": "https://raw.githubusercontent.com/rizzleroc/pursue-console/main/data-raw/war-gov/release_7/FBI-UAP-D043-FD_302_Unidentified_Aerial_Object_Observation_Report-2026.pdf",
       "mirrorSha256": "0c7430d1f1da11cecbcf476c4cdaf16c8ed5bceb4fce6e56b51ed93b4d386298",
       "mirrorHashMatch": true,
-      "disposition": "new-case-candidate",
-      "evidenceBoundary": "FBI FD-302 signed witness account of same 2026 triangle as AARO D176; attachments are illustrative/unproven provenance",
+      "disposition": "admitted-linked-testimony-one-event-family",
+      "evidenceBoundary": "AARO and FBI preserve overlapping witness records of one event; time 2023/1923 and duration ~32–33/~3 seconds conflict. No instrumented speed, native event imagery, or agency finding; FBI visual attachments have unverified provenance.",
       "atlasOverlap": [],
       "pdfPages": 11,
-      "custodyLevel": "public GitHub mirror PDF, SHA-256 independently matches archive metadata; official-origin byte identity not independently verified"
+      "custodyLevel": "public GitHub mirror PDF, SHA-256 independently matches archive metadata; official-origin byte identity not independently verified",
+      "atlasCaseId": "BF-2026-TR-01"
     },
     {
       "filename": "USG-UAP-D002-Interagency_Correspondence_Concerning_Space_Fragments-1962_1964.pdf",
@@ -518,6 +520,6 @@
   "intakeStatus": "complete acquisition of 28/28 listed individual PDFs; official bundle ZIP not obtained; release lists no videos",
   "analysisStatus": "all 28 acquired; targeted primary analysis complete for all 28, not a full 1,139-page visual/page-level review; event-family admission remains provisional",
   "localPdfPages": 1139,
-  "integrationStatus": "published at 4cd11102a47471051f44b933412e8d5804e73c6c: 3 bounded cases + 2 existing-case source updates; later source-index/page-access repair local pending release",
+  "integrationStatus": "Three historical dossiers and two source-depth updates published at 4cd1110; source-index repairs published at 46bafbf; one bounded triangle testimony dossier admitted in the subsequent tranche.",
   "localPdfBytes": 325875400
 }

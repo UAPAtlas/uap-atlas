@@ -15,10 +15,10 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "sourceFingerprint": "11b00bc5776fa917e65cb470fe00c9e3f910595ce6ed4346fd1b60fe2e824ebf",
+    "sourceFingerprint": "7f0d6b40eb23c461a3d9b55caca63ab1ffa3db272d06b1500c9c1e6f377444b5",
     "countryCount": 242,
     "admin1Count": 51,
-    "projectedCaseCount": 136,
+    "projectedCaseCount": 137,
     "orbitalAggregateCount": 26
   },
   "countries": [
@@ -3667,6 +3667,19 @@
       "y": 18.52,
       "lon": -111,
       "lat": 39.5,
+      "mode": "redacted",
+      "expectedCountry": "United States of America",
+      "geometryExpectation": "country",
+      "mapGeometry": null,
+      "projection": "natural-earth-geoNaturalEarth1-fitExtent-v1",
+      "coordinateGenerated": true
+    },
+    {
+      "id": "BF-2026-TR-01",
+      "x": 25.91,
+      "y": 18.43,
+      "lon": -98.5,
+      "lat": 39.8,
       "mode": "redacted",
       "expectedCountry": "United States of America",
       "geometryExpectation": "country",
