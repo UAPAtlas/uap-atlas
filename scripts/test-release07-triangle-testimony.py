@@ -37,5 +37,13 @@ for token,pages in [('DOW-UAP-D176',[1,2,3]),('FBI-UAP-D043',[1,2])]:
 assert all('event photograph' not in x['supports'] for x in c['sourceRecords'])
 assert 'instrumented speed measurement' in c['gap']
 assert 'not an FBI factual finding' in c['official']
+targets=c['acquisitionTargets']
+assert {x['targetType'] for x in targets}=={'original-observation-material','fbi-visual-attachment-provenance'}
+assert all(x['status']=='publicly-unavailable' and x['auditScope']=='public-only' and x['lastPublicAudit']=='2026-11-02' and x['publicOnlyResult'] and x['reasonNeeded'] for x in targets)
+assert 'if any' in next(x for x in targets if x['targetType']=='original-observation-material')['description']
+triage=json.loads((root/'qa/atlas_operational_triage.json').read_text())
+assert triage['counts']=={'trueGaps':0,'qualityUpgrades':0,'acquisitionTargets':25,'complete':138}
+assert next(x for x in triage['cases'] if x['id']==c['id'])['category']=='acquisition_target'
+assert c['temporal']['startDateTime'] is None and c['temporal']['durationSeconds'] is None
 assert len(a['cases'])==163 and len(a['timeline'])==161
-print('RELEASE07 TRIANGLE TESTIMONY PASS: one case / two official records / conflicting chronologies preserved')
+print('RELEASE07 TRIANGLE TESTIMONY PASS: one case / two linked official records / two acquisition targets / chronology unresolved')

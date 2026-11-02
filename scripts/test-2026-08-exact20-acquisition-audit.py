@@ -30,7 +30,9 @@ require(len(SCOPE) == len(set(SCOPE)) == 20, "scope is not exactly 20 unique IDs
 require(set(SCOPE) <= set(by_id), "scope contains a non-existing case")
 require(len(data["cases"]) == 163, "case count drifted")
 require(len(data["timeline"]) == 161, "timeline count drifted")
-require([row["id"] for row in ranked[:20]] == SCOPE, "authoritative top-20 rank order drifted")
+# A newly admitted acquisition target may outrank this historical exact-20 cohort.
+# Preserve the cohort's relative rank and inclusion without freezing the global queue.
+require([row["id"] for row in ranked if row["id"] in set(SCOPE)] == SCOPE, "exact-20 cohort relative rank order drifted")
 require(triage["counts"]["trueGaps"] == 0 and triage["counts"]["qualityUpgrades"] == 0, "quality/gap queues reopened")
 
 for cid in SCOPE:

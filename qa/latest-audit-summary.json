@@ -69,8 +69,8 @@
   "operationalTriageCounts": {
     "trueGaps": 0,
     "qualityUpgrades": 0,
-    "acquisitionTargets": 24,
-    "complete": 139
+    "acquisitionTargets": 25,
+    "complete": 138
   },
   "sourceProfileCounts": {
     "secondary-only": 8,

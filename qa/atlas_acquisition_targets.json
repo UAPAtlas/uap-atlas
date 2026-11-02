@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "category": "acquisition_target",
-  "caseCount": 24,
+  "caseCount": 25,
   "cases": [
     {
       "id": "BF-1994-AR-01",
@@ -294,6 +294,26 @@
       "evidenceAssets": 1,
       "sourceQuality": "Firsthand retrospective commentary plus contemporaneous press reporting; no official case file, sortie log, radar record, or original video custody is mapped.",
       "quoteConfidence": "verbatim-firsthand-commentary"
+    },
+    {
+      "id": "BF-2026-TR-01",
+      "title": "2026 Ridge-Line Triangle Report",
+      "domain": "GOVERNMENT / INSTITUTIONAL",
+      "category": "acquisition_target",
+      "priorityScore": 82,
+      "legacyWeaknessScore": 22,
+      "reasons": [
+        "declared acquisition target: original-observation-material",
+        "declared acquisition target: fbi-visual-attachment-provenance"
+      ],
+      "sourceProfile": "linked-primary-records",
+      "sourceRecords": 2,
+      "mainSourceRecords": 2,
+      "indexedLinks": 7,
+      "publicSourceUrls": 2,
+      "evidenceAssets": 5,
+      "sourceQuality": "Two official records of an overlapping 2026 witness event. FBI pp. 3\u201311 include uncatalogued unverified illustrations, not established event photography or independent sensor data. Exact location/date redacted; chronology conflicts.",
+      "quoteConfidence": "High transcription confidence for the AARO memorandum; the reported event and performance are not independently verified."
     },
     {
       "id": "BF-1944-FF-01",

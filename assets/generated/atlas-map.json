@@ -15,7 +15,7 @@
     ],
     "countrySource": "data/geo/ne_50m_admin_0_countries.geojson",
     "admin1Source": "data/geo/ne_50m_admin_1_states_provinces.geojson",
-    "sourceFingerprint": "7f0d6b40eb23c461a3d9b55caca63ab1ffa3db272d06b1500c9c1e6f377444b5",
+    "sourceFingerprint": "9504a094a8dc68ee0f3c0deb4801332138d9739a38ae9098a2f54c7d9156672a",
     "countryCount": 242,
     "admin1Count": 51,
     "projectedCaseCount": 137,
